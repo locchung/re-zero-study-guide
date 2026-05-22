@@ -1,0 +1,15 @@
+# Ignore python scripts
+*.py
+
+# Ignore HTML and JSON cache files
+*.html
+*.json
+
+# Ignore raw chapter text and lists
+*.txt
+
+# Ignore python caches
+__pycache__/
+
+# Ignore raw directories
+raw_chapters/
