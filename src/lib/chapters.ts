@@ -22,16 +22,10 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-58', title: 'Chương 58: Chuyện Nào Ra Chuyện Đó | That is That, This is This', chapterNumber: 58, arc: 6 },
   { slug: 'chuong-59', title: 'Chương 59: Thứ Mỉm Cười Trong Thế Giới Trắng Xóa | What Smiles in the White World', chapterNumber: 59, arc: 6 },
   { slug: 'chuong-60', title: 'Chương 60: Một Vệt Nắng Duy Nhất | A Single Spot of Sunshine', chapterNumber: 60, arc: 6 },
-  { slug: 'chuong-61', title: 'Chương 61: ーーHãy Đứng Dậy | ーーStand Up', chapterNumber: 61, arc: 6 },
   { slug: 'chuong-62', title: 'Chương 62: Những Chấn Động Của Sự Sụp Đổ | Tremors of Collapse', chapterNumber: 62, arc: 6 },
   { slug: 'chuong-63', title: 'Chương 63: Năm Chướng Ngại | Five Obstacles', chapterNumber: 63, arc: 6 },
   { slug: 'chuong-64', title: 'Chương 64: Chướng Ngại Thứ Hai | The Second Obstacle', chapterNumber: 64, arc: 6 },
   { slug: 'chuong-65', title: 'Chương 65: Thứ Hai, Thứ Năm, Và Sau Đó | The Second, The Fifth, Followed By', chapterNumber: 65, arc: 6 },
-  { slug: 'chuong-66', title: 'Chương 66: Cơ Hội Thứ Hai Hướng Về Đoạn Kết | Second Chance toward the Denouement', chapterNumber: 66, arc: 6 },
-  { slug: 'chuong-67', title: 'Chương 67: Vị Vua Nhỏ | Little King', chapterNumber: 67, arc: 6 },
-  { slug: 'chuong-68', title: 'Chương 68: Người Phụ Nữ Của Scorpius | The Woman of Scorpius', chapterNumber: 68, arc: 6 },
-  { slug: 'chuong-69', title: 'Chương 69: Chiếc Búa Sắt Phi Lý Của Kiếm | The Absurd Iron Hammer of the Sword', chapterNumber: 69, arc: 6 },
-  { slug: 'chuong-70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterNumber: 70, arc: 6 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
