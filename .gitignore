@@ -4,9 +4,8 @@ node_modules/
 # Ignore python scripts
 *.py
 
-# Ignore HTML and JSON cache files
+# Ignore HTML cache files
 *.html
-*.json
 
 # Ignore raw chapter text and lists
 *.txt
