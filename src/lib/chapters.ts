@@ -27,6 +27,11 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-63', title: 'Chương 63: Năm Chướng Ngại | Five Obstacles', chapterNumber: 63, arc: 6 },
   { slug: 'chuong-64', title: 'Chương 64: Chướng Ngại Thứ Hai | The Second Obstacle', chapterNumber: 64, arc: 6 },
   { slug: 'chuong-65', title: 'Chương 65: Thứ Hai, Thứ Năm, Và Sau Đó | The Second, The Fifth, Followed By', chapterNumber: 65, arc: 6 },
+  { slug: 'chuong-66', title: 'Chương 66: Cơ Hội Thứ Hai Tiến Tới Hồi Kết | A Second Chance For a Finale', chapterNumber: 66, arc: 6 },
+  { slug: 'chuong-67', title: 'Chương 67: Tiểu Vương | Little King', chapterNumber: 67, arc: 6 },
+  { slug: 'chuong-68', title: 'Chương 68: Người Phụ Nữ Của Chòm Thiên Yết | The Woman of Scorpius', chapterNumber: 68, arc: 6 },
+  { slug: 'chuong-69', title: 'Chương 69: Thanh Thiết Chùy Phi Lý Của Kiếm | The Absurd Iron Hammer of the Sword', chapterNumber: 69, arc: 6 },
+  { slug: 'chuong-70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterNumber: 70, arc: 6 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
