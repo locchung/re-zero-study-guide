@@ -32,6 +32,16 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-68', title: 'Chương 68: Người Phụ Nữ Của Chòm Thiên Yết | The Woman of Scorpius', chapterNumber: 68, arc: 6 },
   { slug: 'chuong-69', title: 'Chương 69: Thanh Thiết Chùy Phi Lý Của Kiếm | The Absurd Iron Hammer of the Sword', chapterNumber: 69, arc: 6 },
   { slug: 'chuong-70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterNumber: 70, arc: 6 },
+  { slug: 'chuong-71', title: 'Chương 71: Đếm Một | Count One', chapterNumber: 71, arc: 6 },
+  { slug: 'chuong-72', title: 'Chương 72: ■■ ■', chapterNumber: 72, arc: 6 },
+  { slug: 'chuong-73', title: 'Chương 73: "Natsuki Subaru" | "Natsuki Subaru"', chapterNumber: 73, arc: 6 },
+  { slug: 'chuong-74', title: 'Chương 74: Natsuki Subaru | Natsuki Subaru', chapterNumber: 74, arc: 6 },
+  { slug: 'chuong-75', title: 'Chương 75: Louis Arneb | Louis Arneb', chapterNumber: 75, arc: 6 },
+  { slug: 'chuong-76', title: 'Chương 76: Địa Ngục Mang Tên Bản Thân | The Hell Bearing the Name of Oneself', chapterNumber: 76, arc: 6 },
+  { slug: 'chuong-77', title: 'Chương 77: Ngọn Lửa Phản Công | The Beacon of Counterattack', chapterNumber: 77, arc: 6 },
+  { slug: 'chuong-78', title: 'Chương 78: Bốn Góc Bàn Cờ | Four Corners', chapterNumber: 78, arc: 6 },
+  { slug: 'chuong-79', title: 'Chương 79: READY STEADY GO | READY STEADY GO', chapterNumber: 79, arc: 6 },
+  { slug: 'chuong-80', title: 'Chương 80: Cái Chết Của Tâm Trí | Death of the Mind', chapterNumber: 80, arc: 6 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
