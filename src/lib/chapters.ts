@@ -42,6 +42,16 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-78', title: 'Chương 78: Bốn Góc Bàn Cờ | Four Corners', chapterNumber: 78, arc: 6 },
   { slug: 'chuong-79', title: 'Chương 79: READY STEADY GO | READY STEADY GO', chapterNumber: 79, arc: 6 },
   { slug: 'chuong-80', title: 'Chương 80: Cái Chết Của Tâm Trí | Death of the Mind', chapterNumber: 80, arc: 6 },
+  { slug: 'chuong-81', title: 'Chương 81: Rất Hân Hạnh Được Gặp Gỡ | Pleased to Meet You', chapterNumber: 81, arc: 6 },
+  { slug: 'chuong-82', title: 'Chương 82: Xiềng Xích Song Hành Chiến Đấu | Shackle Accompanying Battle', chapterNumber: 82, arc: 6 },
+  { slug: 'chuong-83', title: 'Chương 83: Ram | Ram', chapterNumber: 83, arc: 6 },
+  { slug: 'chuong-84', title: 'Chương 84: Hò Ta Hò Ta! | Heave-Ho! Heave-Ho!', chapterNumber: 84, arc: 6 },
+  { slug: 'chuong-85', title: 'Chương 85: Kẻ Thua Cuộc Đẹp Đẽ | Good Loser', chapterNumber: 85, arc: 6 },
+  { slug: 'chuong-86', title: 'Chương 86: Trò Chuyện Về Ngày Hôm Qua | Conversing Of What Yesterday Held', chapterNumber: 86, arc: 6 },
+  { slug: 'chuong-87', title: 'Chương 87: Sự Tôn Kính Phương Xa | Distant Regard', chapterNumber: 87, arc: 6 },
+  { slug: 'chuong-88', title: 'Chương 88: Ta Hỏi Ý Chí Của Ngươi | I ask thy Will', chapterNumber: 88, arc: 6 },
+  { slug: 'chuong-89', title: 'Chương 89: Shaula | Shaula', chapterNumber: 89, arc: 6 },
+  { slug: 'chuong-90', title: 'Chương 90: Anh Hùng | Hero', chapterNumber: 90, arc: 6 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {

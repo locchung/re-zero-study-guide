@@ -1,0 +1,1197 @@
+import fs from 'fs'
+import path from 'path'
+
+const ch84 = [
+  {
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "en": "This translation is dedicated to Aelx.",
+    "vi": "Bản dịch này được dành tặng cho Aelx."
+  },
+  {
+    "en": "Translated By :",
+    "vi": "Dịch bởi:"
+  },
+  {
+    "en": "Art Sources :",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "en": "ALL RIGHTS BELONG TO TAPPEI NAGATSUKI, THE ORIGINAL AUTHOR OF RE:ZERO STARTING A LIFE IN A DIFFERENT WORLD FROM ZERO, THIS IS A TRANSLATION OF THE FREE JAPANESE WEB NOVEL INTO ENGLISH",
+    "vi": "Bản quyền thuộc về Tappei Nagatsuki, tác giả gốc của Re:Zero Starting Life in a Different World from Zero, đây là bản dịch phi thương mại từ bản Web Novel tiếng Nhật sang tiếng Anh."
+  },
+  {
+    "en": "JAPANESE WEB NOVEL SOURCE",
+    "vi": "Nguồn Web Novel tiếng Nhật"
+  },
+  {
+    "en": "※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "en": "ーーStabilising the『Image』was essential in constructing ice in accordance with imagination.",
+    "vi": "——Việc định hình và ổn định 『Tưởng Tượng』 là yếu tố tối khẩn thiết để kiến tạo nên băng giá theo đúng tâm ý."
+  },
+  {
+    "en": "Back when Subaru had initially proposed『Ice Brand Arts』to her as well, she had considered it to be incredibly handy, but Emilia remained insecure whether she would be able to pull it off.",
+    "vi": "Thuở ban đầu khi Subaru đề xuất chiêu thức 『Băng Chi Thương Nghệ』 cho cô, cô dẫu từng nghĩ nó vô cùng tiện lợi, thế nhưng Emilia dẫu lo sợ liệu bản thân có thực sự làm nổi hay chăng."
+  },
+  {
+    "en": "Subaru: \"It's alright! No need to worry! Emilia-tan will surely be able to do it!\"",
+    "vi": "Subaru: “Quyết chả sao đâu! Chả có gì phải bận tâm cả! Emilia-tan dứt định dẫu làm được thôi mà!”"
+  },
+  {
+    "en": "So ascertained Subaru to an uncertain Emilia with his thumb raised, she recalled.",
+    "vi": "Subaru dứt khoát quả quyết khẳng định với một Emilia đang băn khoăn chao đảo bằng cái giơ ngón tay cái khích lệ, cô khẽ hồi tưởng lại."
+  },
+  {
+    "en": "Now that she thought of it, that too had been completely unfoundedーー no, Emilia believed Subaru had supported her back with his reason being \"Because I love you\".",
+    "vi": "Giờ đây ngẫm lại, chuyện đó dẫu hoàn toàn vô căn cứ——không, Emilia tin chắc Subaru đã chống đỡ yểm hộ cho cô từ phía sau chỉ bằng một lý do duy nhất: “Bởi vì tớ yêu cậu”."
+  },
+  {
+    "en": "In the course of creating weapons she『Imaged』, Emilia studied a lot of illustration.",
+    "vi": "Trong suốt quá trình kiến tạo nên những vũ khí mà cô 『Tưởng Tượng』, Emilia dẫu đã dày công nghiên cứu rất nhiều tranh minh họa."
+  },
+  {
+    "en": "Unlike songs, studying illustration wasn't a specialty of her's, yet, by drawing time and time again with Subaru, she was met by definite improvement.",
+    "vi": "Quyết chả giống như ca hát, việc nghiên cứu hội họa vẽ tranh vốn quyết chả phải sở trường thế mạnh của cô, dẫu vậy, nhờ việc kiên trì vẽ đi vẽ lại nhiều lần cùng Subaru, cô dẫu đạt được sự tiến bộ rõ rệt mồn một."
+  },
+  {
+    "en": "From the sidelines during her studies, watching Emilia draw with Subaru and Beatrice, Ram was amazed, Otto smiled wryly, Frederica and Petra occasionally joined in, and Garfiel advised her on what would be better. Roswaal too, observed Emilia and Beatrice drawing from a distance every so often.",
+    "vi": "Từ bên lề quan sát suốt quá trình học tập của cô, chứng kiến Emilia cặm cụi vẽ tranh cùng Subaru và Beatrice, Ram dẫu vô cùng kinh ngạc sửng sốt, Otto khẽ mỉm cười cay đắng, Frederica và Petra thỉnh thoảng dẫu cùng tham gia vào náo nhiệt, còn Garfiel thì nhiệt tình hiến kế khuyên cô nên vẽ thế nào cho tuyệt hảo hơn. Cả Roswaal dẫu vậy, thỉnh thoảng lại lặng lẽ đứng từ xa đăm đắm dõi theo Emilia và Beatrice vẽ tranh."
+  },
+  {
+    "en": "For Emilia, these were reminiscences tremendously, immensely valuable, exigent to part ways from.",
+    "vi": "Đối với Emilia, những mảnh ký ức đó dứt định dẫu là những hồi ức vô cùng, vô cùng trân quý, quyết chả thể nào đánh mất tiêu biến nổi."
+  },
+  {
+    "en": "Reminiscences which have, though disappeared for everyone, which were remembered by Subaru. Upon the advent of that thought, a warm emotion surged deep within her chest.",
+    "vi": "Những hồi ức dẫu đã biến mất sạch sẽ trong tâm trí của thảy mọi người khác, nhưng dứt định vẫn được Subaru khắc ghi trọn vẹn. Ngay tích tắc ý nghĩ đó trỗi dậy, một luồng xúc cảm ấm áp cuộn trào dâng lên từ tận sâu thẳm lồng ngực cô."
+  },
+  {
+    "en": "Emilia: \"I shall, change that into courage with a hiyahーー!\"",
+    "vi": "Emilia: “Tớ dẫu sẽ biến thứ đó thành lòng dũng cảm chí mạng với một cú va chạm hiyah——!”"
+  },
+  {
+    "en": "Upon the motive power of the surging emotion, accompanied with the weapons of ice she had produced and the seven soldiers of ice which advanced alongside her, Emilia tackled the『Divine Dragon』Volcanica before herself.",
+    "vi": "Được thúc đẩy bởi nguồn động lực dạt dào từ luồng xúc cảm ấm áp đang cuộn trào dâng lên ấy, cùng với những vũ khí băng giá do cô kiến tạo nên và bảy chiến binh băng tuyết đang tiến lên kề vai chiến đấu bên cạnh, Emilia quả cảm lao thẳng về phía 『Thần Long』 Volcanica trước mắt."
+  },
+  {
+    "en": "As per the aforementioned explanation, the『Image』was essential in the shaping of ice. Naturally that was the case with weapons, but also with the soldiers of ice brought forth. In other words, the soldiers of ice had been configured to a shape easy for Emilia to『Image』.",
+    "vi": "Theo đúng như lời giải thích đã đề cập ở trên, 『Tưởng Tượng』 dẫu là yếu tố cốt lõi tối khẩn thiết để định hình nên băng tuyết. Chuyện đó dĩ nhiên dẫu đúng với vũ khí, và cũng quyết chả ngoại lệ với những chiến binh băng giá được tạo ra. Nói cách khác, những chiến binh bằng băng dẫu được điêu khắc thiết lập theo một hình dáng giúp Emilia dễ dàng 『Tưởng Tượng』 nhất."
+  },
+  {
+    "en": "To summarize, fighting alongside Emilia were seven Natsuki Subaru's.",
+    "vi": "Tóm gọn lại, kề vai sát cánh chiến đấu cùng Emilia chính là bảy Natsuki Subaru bằng băng."
+  },
+  {
+    "en": "Emilia: \"But, they're more powerful and quick than the real Subaru, so!\"",
+    "vi": "Emilia: “Cơ mà, bọn họ dứt định dẫu mạnh mẽ và nhanh nhẹn xuất chúng vượt trội hơn Subaru hàng thật giá thật nhiều đấy nhá!”"
+  },
+  {
+    "en": "Though Subaru wouldn't lose in naughtiness and frolicsomeness either, his structure differed from that of the soldiers created with ice from its very foundation.",
+    "vi": "Dù cho Subaru hàng thật dẫu quyết chả chịu thua kém về độ nghịch ngợm dớ dẩn này nọ, nhưng cấu trúc thể chất của cậu dẫu hoàn toàn khác biệt từ tận gốc rễ so với những chiến binh được điêu khắc kiến tạo bằng băng giá này."
+  },
+  {
+    "en": "The soldiers' strength depended on the density of the mana bestowed upon them by Emilia, and could not be compared with simple sculptures of ice. They were the same as weapons of ice, and no less than steel.",
+    "vi": "Sức mạnh của các chiến binh phụ thuộc tuyệt đối vào mật độ lượng mana dạt dào mà Emilia ban tặng cho bọn họ, và quyết chả thể nào so sánh nổi với những bức tượng băng quèn thông thường. Bọn họ dẫu tương đương với vũ khí băng giá, và quyết chả kém cạnh thép nguội phân nào."
+  },
+  {
+    "en": "Emilia: \"Go!\"",
+    "vi": "Emilia: “Tiến lên!”"
+  },
+  {
+    "en": "Abiding by Emilia's command, the ice warriors dashing in the vanguard plunged into Volcanica's range.",
+    "vi": "Tuân theo mệnh lệnh dứt khoát của Emilia, những chiến binh băng giá phi nhanh tiên phong lao thẳng vào phạm vi càn quét công kích của Volcanica."
+  },
+  {
+    "en": "Volcanica did not move, remaining reclined on the colossal pillar in the centre of the first layer of the watchtower, and the range of its earlier tail whip was four to seven metres.",
+    "vi": "Volcanica quyết chả hề dịch chuyển, nó vẫn phục rạp kiên định trên chiếc cột khổng lồ vĩ đại ngự trị ngay trung tâm tầng thứ nhất của tòa tháp, và phạm vi càn quét từ đòn quất đuôi trước đó của nó dẫu dao động từ bốn đến bảy mét."
+  },
+  {
+    "en": "That instant, as if it had detected the will to hold fast to the pillar, it swung its blue dragon tail with great velocity.",
+    "vi": "Ngay tích tắc định mệnh ấy, như thể phát hiện ra ý chí muốn bám trụ tiếp cận chiếc cột khổng lồ, nó lập tức vung chiếc đuôi rồng xanh lam khổng lồ với một tốc độ phi thường dữ dội."
+  },
+  {
+    "en": "Making an eccentric sound which could only be described as a hole opened up in the air, the following moment, the upper bodies of the ice warriors in the vanguard got smashed to smithereens. Having bathed in the direct hit from the area of their chest, the trunks of the ice warriors shattered into two at that spot, as their heads, taking after Subaru and the sharp look of his eyes, were blown off.",
+    "vi": "Phát ra một tiếng động dị thường kinh hoàng chả khác nào bầu không khí bị xé toạc đục thủng một lỗ lớn, ngay tích tắc tiếp theo, nửa thân trên của các chiến binh băng giá tiên phong dẫu bị nghiền nát bấy thành từng mảnh vụn rách rưới. Hứng trọn đòn nện trực diện thẳng vào vùng ngực, phần thân của các chiến binh băng tuyết dứt định bị vỡ làm đôi ngay tại chỗ, trong khi phần đầu mô phỏng theo Subaru với ánh mắt sắc lẹm đặc trưng dẫu bị thổi bay mất dạng."
+  },
+  {
+    "en": "Emilia: \"Sorry! But, you would've been aimed for regardless of my presence!\"",
+    "vi": "Emilia: “Xin lỗi nhé! Thế nhưng, dù cho tớ quyết chả hiện diện ở đây thì thảy thảy đều dẫu bị nhắm bắn mà thôi!”"
+  },
+  {
+    "en": "Apologies to the soldiers of ice turned to touchstones, but now she precisely understood Volcanica's aim.",
+    "vi": "Lời xin lỗi gửi tới các chiến binh băng giá dẫu biến thành vật hiến tế thử nghiệm, thế nhưng giờ đây cô đã thấu suốt nắm bắt chuẩn xác mục tiêu công kích của Volcanica."
+  },
+  {
+    "en": "Though the『Divine Dragon』had gotten Alzheimer's, had blanked out about the『Trial』as well, the will to intercept all opponents distinctly aiming for the pillar yet remained alive within it.",
+    "vi": "Dù cho 『Thần Long』 dẫu mắc phải hội chứng lẩm cẩm mất trí nhớ trầm trọng, đã quên sạch sành sanh thảy mọi thứ về 『Thử Thách』, thế nhưng cái ý chí đanh thép muốn ngăn chặn cản phá thảy mọi đối thủ rõ ràng có ý đồ tiếp cận chiếc cột khổng lồ dứt định vẫn sống mãi bên trong nó."
+  },
+  {
+    "en": "Regardless of the existence or nonexistence of its life. Henceforth, she wielded a course of action.",
+    "vi": "Quyết chả thèm bận tâm đến việc nó còn sống hay đã chết. Ngay lập tức, cô tự vạch ra phương án hành động dứt khoát."
+  },
+  {
+    "en": "Emilia: \"Soldier-san's, please!\"",
+    "vi": "Emilia: “Bầy chiến binh ơi, xin nhờ cả vào mọi người nhé!”"
+  },
+  {
+    "en": "In concert with Emilia's voice, the ice warriors jumped in order to overtake the silver haired young girl.",
+    "vi": "Hòa cùng tiếng hét đanh thép của Emilia, các chiến binh băng giá đồng loạt nhảy vọt lên để che chắn vượt lên trước cô gái trẻ có mái tóc bạc kiều diễm."
+  },
+  {
+    "en": "The first one was shattered, leaving six ice warriors, each fell in respective seperate directions, and headed towards the central pillar whilst creating a faint difference of time.",
+    "vi": "Chiến binh đầu tiên dẫu vỡ vụn nát tươm, chỉ còn sót lại sáu chiến binh băng giá, mỗi người bọn họ lập tức tỏa ra các hướng riêng biệt khác nhau, phi nhanh vun vút tiến về phía chiếc cột trung tâm tạo nên sự chênh lệch thời gian nhè nhẹ khôn ngoan."
+  },
+  {
+    "en": "Volcanica: [ーーThou, who hath reached the top of the tower. Step forth through the first floor, almighty petitioner.]",
+    "vi": "Volcanica: [——Hỡi kẻ đã đặt chân lên đỉnh tòa tháp. Hãy bước tới tầng thứ nhất, hỡi thỉnh nguyện giả vạn năng.]"
+  },
+  {
+    "en": "Sensing the presences of the approaching ice warriors, the『Divine Dragon』repeated its vocal message yet again.",
+    "vi": "Cảm nhận được áp khí của bầy chiến binh băng giá đang áp sát lao tới, 『Thần Long』 lại tiếp tục lặp đi lặp lại mớ ngôn từ rập khuôn đó thêm lần nữa."
+  },
+  {
+    "en": "Seeing it relay that which was naught but an enumeration of words now devoid of meaning, to dolls possessing no ears to hear from, made Emilia feel potent desolateness and a heart wrenching sense of misery.",
+    "vi": "Chứng kiến nó liên tục lặp lại mớ ngôn từ rập khuôn vốn dĩ đã tiêu biến lụi tàn sạch sành sanh mọi ý nghĩa giá trị thực tế ấy cho những con búp bê bằng băng tuyết quyết chả có tai để nghe, điều đó khiến Emilia cảm nhận sâu sắc một nỗi cô độc hoang tàn và cảm giác thê lương xót xa tận sâu tâm can."
+  },
+  {
+    "en": "Despite having been turned to this shape, Volcanica was trying to protect \"Something\".",
+    "vi": "Bất chấp việc đã bị biến dạng thành hình hài thê thảm mất trí này, Volcanica dẫu đang nỗ lực điên cuồng để bảo hộ một “Thứ gì đó” vinh quang."
+  },
+  {
+    "en": "Though she did not know with whom, with what, and for what purpose had it exchanged that promiseーー,",
+    "vi": "Dù cho cô quyết chả thể nào hay biết nó đã trao đổi lời hứa hẹn sắt son dường ấy với ai, vì cái gì, và vì mục đích tối thượng nào đi chăng nữa——,"
+  },
+  {
+    "en": "Volcanica: [ーーI, am Volcanica. In accordance with the ancient covenant, I ask the will of thee who hath reached the summit.]",
+    "vi": "Volcanica: [——Ta là Volcanica. Chiếu theo giao ước cổ xưa, ta hỏi ý chí của kẻ đã chạm tới đỉnh cao.]"
+  },
+  {
+    "en": "Within the blink of an eye, two of the ice warriors armed with weapons were shattered with a swing of the tail.",
+    "vi": "Chỉ trong chớp mắt ngắn ngủi, hai chiến binh băng tuyết được trang bị vũ khí dẫu bị chiếc đuôi khổng lồ quất vỡ vụn nát tan tành."
+  },
+  {
+    "en": "Though each had taken a defensive stance as an instantaneous response, one had everything below its waist blasted off, the other had its right half of its body subjected to the same, as they crumbled, unable to make any decent movement.",
+    "vi": "Dù cho mỗi người bọn họ dẫu lập tức đưa ra tư thế phòng thủ hộ vệ tức thời, một người dẫu bị đánh bay nát bấy toàn bộ phần dưới thắt lưng, người còn lại dẫu bị chịu chung số phận nghiền nát nửa thân bên phải, thảy đều ngã đổ rạp xuống đất quyết chả thể thực hiện nổi lấy một cử động đàng hoàng."
+  },
+  {
+    "en": "Hence, the remaining four headed for the tail returning to its original position from the attacking stance to place a check on it. It may be possible that not simply Alzheimer's, but its legs and loins had become weaker and unsteady as well.",
+    "vi": "Chính vì thế, bốn chiến binh băng giá còn lại lập tức lao thẳng về phía chiếc đuôi rồng đang thu về vị trí cũ sau đòn tấn công để kìm giữ cản phá nó. Rất có khả năng quyết chả phải chỉ đầu óc lẩm cẩm mất trí, mà cả đôi chân và phần hông của nó dẫu trở nên suy yếu loạng choạng chả vững rồi."
+  },
+  {
+    "en": "If it was in a state where simply standing up was arduous for it, then pinning down that tail would be sufficient.",
+    "vi": "Nếu nó đang ở trong một trạng thái mà chỉ riêng việc gượng đứng thẳng dậy dẫu cực kỳ gian nan chật vật, thì việc khóa chặt ghim cứng chiếc đuôi đó dứt định dẫu là quá đủ rồi."
+  },
+  {
+    "en": "Emilia: \"Brace yourselves!\"",
+    "vi": "Emilia: “Hãy chuẩn bị tinh thần chịu đựng cứng cáp đi nào!”"
+  },
+  {
+    "en": "With the aim of immobilising the tail, three ice warriors joined their arms together.",
+    "vi": "Với mục tiêu khóa chặt ghim cứng chiếc đuôi rồng khổng lồ, ba chiến binh băng giá dứt khoát khóa chặt tay kề vai sát cánh cùng nhau."
+  },
+  {
+    "en": "Attempting to mow down those ice warriors all at once, yet again the tail of the『Divine Dragon』deserted sound behind. Though similar to the whip Subaru used in arrangement, its pace and might was in an entirely different league.",
+    "vi": "Cố gắng quét sạch băm vằn thảy các chiến binh băng giá dường ấy cùng một lúc, chiếc đuôi của 『Thần Long』 lại thêm lần nữa chuyển động nhanh vun vút bỏ lại cả tốc độ âm thanh phía sau. Dù cho cấu trúc dẫu tương tự chiếc roi da mà Subaru điêu luyện tận dụng, thế nhưng nhịp độ và uy lực càn quét của đuôi rồng dẫu ở một đẳng cấp hoàn toàn vượt bậc cách biệt."
+  },
+  {
+    "en": "Had it been Subaru's whip then Emilia could've caught it bare handed, but that would be impossible for the dragon's tail whip.",
+    "vi": "Nếu dẫu là chiếc roi da của Subaru thì Emilia thừa sức khả dĩ bắt sống nó bằng tay không chả tốn sức, thế nhưng chuyện đó dứt định dẫu là bất khả thi trước cú quất đuôi kinh hoàng của rồng thần."
+  },
+  {
+    "en": "Potency which would've taken any ordinary living being's entire might, the『Divine Dragon』hurled it with listlessness akin to brushing away insects.",
+    "vi": "Lực chấn động kinh hoàng đáng lý ra dẫu phải ngốn sạch toàn bộ sức bình sinh của bất kỳ sinh vật thông thường nào để chống đỡ, 『Thần Long』 lại tung ra với vẻ uể oải hờ hững tựa như đang xua đuổi bầy côn trùng quèn mà thôi."
+  },
+  {
+    "en": "The impact brought forth by that tail, once again struck the three ice warriors lined up side by side with lowered waists. However, the shattering resonance supposed to have echoed did not resound here.",
+    "vi": "Lực va chạm kinh hoàng do chiếc đuôi khổng lồ dội xuống lại thêm lần nữa giáng thẳng vào ba chiến binh băng tuyết đang xếp hàng ngang hạ thấp hông phòng thủ kiên cường. Tuy nhiên, âm thanh vỡ vụn nát bấy đáng lý ra phải vang lên dẫu quyết chả hề réo gọi vang vọng tại nơi này."
+  },
+  {
+    "en": "For she had generated a wall of ice behind the three ice warriors with lowered waists, which supported them.",
+    "vi": "Bởi lẽ cô dẫu nhanh trí kiến tạo nên một bức tường băng kiên cố ngay phía sau lưng ba chiến binh băng tuyết đang hạ thấp hông phòng thủ để làm điểm tựa nâng đỡ cho họ."
+  },
+  {
+    "en": "Should she know the strike was coming, she had countermeasures prepared.",
+    "vi": "Chỉ cần cô thấu suốt biết trước đòn chém hiểm hóc dường ấy đang ập tới, cô dứt định dẫu chuẩn bị sẵn phương án đối phó hoàn mỹ."
+  },
+  {
+    "en": "Despite the entirety of their bodies developing cracks, the ice warriors, taking after the young boy with a sharp expression of eyes, raised the edges of their mouths. And from the rear of the three who had halted the impact, the remaining final one jumped ahead, having been charged with a seperate role.",
+    "vi": "Bất chấp việc toàn bộ cơ thể dẫu rạn nứt chằng chiết các vết nứt, bầy chiến binh băng giá mô phỏng theo cậu thiếu niên với ánh mắt sắc lẹm kiêu hãnh khẽ nhếch khóe môi nở nụ cười kiêu hãnh. Và từ phía sau lưng ba người hùng vừa thành công cản phá đòn va chạm kinh hoàng ấy, chiến binh cuối cùng còn nguyên vẹn lập tức nhảy vọt lên cao phía trước, gánh vác trên vai một vai trò nhiệm vụ hoàn toàn riêng biệt khác."
+  },
+  {
+    "en": "What the final ice warrior wielded was a weapon known as a『Sasumata』.",
+    "vi": "Thứ mà chiến binh băng giá cuối cùng lăm lăm trong tay chính là một món vũ khí kiệt xuất được biết đến với cái tên 『Tĩnh Xoa』 (đầu chạc chữ U dùng để khóa giữ cổ/tứ chi đối thủ)."
+  },
+  {
+    "en": "On the spearhead of the handle, similar to a long arrow, a curve-shaped fitting with the purpose of not stabbing but subduing the opponent was fixed, seemingly called so for its usage as a catcher.",
+    "vi": "Trên mũi ngọn cán dài tựa như một mũi tên khổng lồ, một bộ phận kim loại uốn cong chạc chữ U được lắp đặt với mục đích quyết chả phải đâm chém đoạt mạng mà là để khống chế khuất phục đối phương, dường như thường được gọi là dụng cụ bắt giữ khống chế."
+  },
+  {
+    "en": "Using that sasumata to thrust it down, it pinned the『Divine Dragon's』ill-mannered tail down onto the floor.",
+    "vi": "Tận dụng chiếc tĩnh xoa đó để đâm mạnh thốc xuống, gã ghim chặt ghim cứng chiếc đuôi hung hãn hiểm ác của 『Thần Long』 xuống thẳng nền nhà lạnh lẽo."
+  },
+  {
+    "en": "The dragon tail, having ceased movement, even its utmost slim end of the tail was bulky like a log and impossible of being held back by simply one sasumata, so the cracked three successively tackled with sasumatas as well.",
+    "vi": "Chiếc đuôi rồng dù đã bị cản bước dừng cử động, thế nhưng ngay cả phần chóp đuôi thon gọn mảnh mai nhất của nó dẫu đồ sộ khổng lồ chả khác nào một thân cây gỗ lớn và quyết chả thể nào bị cản phá khóa chặt chỉ bằng duy nhất một chiếc tĩnh xoa quèn, do đó ba chiến binh băng giá đang rạn nứt chằng chịt kia dẫu liên tiếp lao tới hỗ trợ bằng những chiếc tĩnh xoa khác."
+  },
+  {
+    "en": "And, four convenient points were arrested by the sasumatas, and even the『Divine Dragon』had its tail blockedーー,",
+    "vi": "Và, bốn điểm chốt thuận lợi dẫu bị khóa cứng ghim chặt bởi bầy tĩnh xoa bằng băng, và ngay cả 『Thần Long』 dẫu bị chặn đứng hoàn toàn cử động của chiếc đuôi khổng lồ——,"
+  },
+  {
+    "en": "Volcanica: [ーーThou, who hath reached the top of the tower. Step forth through the first floor, almighty petitioner.]",
+    "vi": "Volcanica: [——Hỡi kẻ đã đặt chân lên đỉnh tòa tháp. Hãy bước tới tầng thứ nhất, hỡi thỉnh nguyện giả vạn năng.]"
+  },
+  {
+    "en": "The subsequent instant, with a sound of the world being splintered, the four leaping bodies of the ice warriors were gouged in their entirety.",
+    "vi": "Ngay tích tắc định mệnh tiếp sau đó, cùng với một tiếng động kinh hoàng tựa như thế giới bị nứt toác bóp vụn, toàn bộ bốn cơ thể đang nhảy vọt của bầy chiến binh băng giá dẫu bị khoét rỗng sạch sẽ chả còn lại gì."
+  },
+  {
+    "en": "Everything upwards of their hips had vanished cleanly, and with only their lower bodies left, the ice warriors crumbled. The one responsible was not the tail having gotten serious after being immobilisedーー but, claws.",
+    "vi": "Tất thảy mọi thứ phía trên phần hông của họ dẫu hoàn toàn tiêu biến lụi tàn chả còn dấu vết, và chỉ với phần thân dưới còn sót lại trơ trọi, bầy chiến binh băng giá quỵ sụp đổ rạp xuống đất vỡ vụn. Thủ phạm thực hiện chuyện tàn khốc dường ấy quyết chả phải do chiếc đuôi rồng đột ngột nghiêm túc phát lực sau khi bị khóa cứng ghim chặt——mà là do, những móng vuốt rồng."
+  },
+  {
+    "en": "Whilst on the floor, Volcanica used its left frontal limb instead of its tail.",
+    "vi": "Trong khi vẫn phục rạp kiên định trên sàn nhà, Volcanica đã linh hoạt tận dụng chi trước bên trái của nó thay vì chiếc đuôi khổng lồ."
+  },
+  {
+    "en": "By merely that, Emilia's soldiers of ice had been extinguished with certainty and without escape.",
+    "vi": "Chỉ riêng bằng hành vi bạo ngược đơn giản dường ấy, bầy chiến binh băng giá kiêu hãnh của Emilia dứt định dẫu bị quét sạch tiêu biến hoàn toàn chả có đường lui."
+  },
+  {
+    "en": "She narrowly escaped being tricked into believing it had become infirm.",
+    "vi": "Cô dẫu suýt chút nữa bị lừa gạt tin rằng nó đã trở nên già nua suy yếu rã rời rồi lị."
+  },
+  {
+    "en": "Emilia: \"If both the limbs and the tail are doing well, then......! Why did just your important brain get blanked damn it!\"",
+    "vi": "Emilia: “Nếu cả hai chi trước lẫn chiếc đuôi khổng lồ đều hoạt động tuyệt vời dường ấy, thì......! Tại sao duy nhất bộ não quan trọng của ông lại lẩm cẩm mất trí rách nát đến nhường này hả trời!”"
+  },
+  {
+    "en": "Volcanica: [ーーI, am Volcanica. In accordance with the ancient covenant, I ask the will of thee who hath reached the summit.]",
+    "vi": "Volcanica: [——Ta là Volcanica. Chiếu theo giao ước cổ xưa, ta hỏi ý chí của kẻ đã chạm tới đỉnh cao.]"
+  },
+  {
+    "en": "Emilia: \"I get it already, for god's sakeーー!\"",
+    "vi": "Emilia: “Tớ thấu hiểu hết rồi lị, làm ơn đi mà——!”"
+  },
+  {
+    "en": "Repetition which would've driven anyone into further frenzy aside from Emilia.",
+    "vi": "Sự rập khuôn lặp đi lặp lại dường ấy dẫu dư sức chọc điên cuồng bất kỳ một ai khác ngoại trừ một Emilia bao dung độ lượng."
+  },
+  {
+    "en": "Despite having to hear it, Emilia's resolved spirit of challenge shan't shatter. What could be shattered were only the soldiers of ice, though naturally, that did slightly hurt her heart.",
+    "vi": "Dù cho buộc phải nghe mớ lời rập khuôn nhạt nhẽo đó, ý chí quyết tâm dứt khoát đón nhận thử thách của Emilia quyết chả bao giờ bị rạn nứt lung lay cả. Thứ khả dĩ bị đập nát vụn ở đây dẫu chỉ là bầy chiến binh băng giá kia mà thôi, dẫu vậy, chuyện đó dĩ nhiên dẫu khiến lòng cô khẽ thắt lại nhói đau."
+  },
+  {
+    "en": "Emilia: \"It's alright! It's not as if I didn't get to know anything.\"",
+    "vi": "Emilia: “Quyết chả sao đâu! Có phải là tớ chả gặt hái thu hoạch được phân thông tin nào đâu lị.”"
+  },
+  {
+    "en": "Asserting that the death of the shattered ice warriors had not been in vain, Emilia too headed towards the tail's range.",
+    "vi": "Tự nhủ chắc nịch rằng sự hy sinh oanh liệt của bầy chiến binh băng giá đã vỡ vụn quyết chả hề vô ích, Emilia dẫu tiếp tục dấn bước lao vào phạm vi càn quét đuôi rồng."
+  },
+  {
+    "en": "However, the sasumatas of ice suppressing the tail were going strong, rendering the sacrifice of the four ice soldiers worthwhile. Thus naturally, claws would now aim for Emilia instead of the tail, butーー,",
+    "vi": "Tuy nhiên, bầy tĩnh xoa bằng băng ghim giữ chiếc đuôi vẫn đang phát huy công dụng cứng cáp tuyệt vời, ngầm chứng minh sự hy sinh oanh liệt của bốn chiến binh băng giá kia là hoàn toàn xứng đáng giá trị. Do đó, theo lẽ tự nhiên, móng vuốt rồng dứt định dẫu chuyển hướng công kích nhắm thẳng vào Emilia thay vì cái đuôi, thế nhưng——,"
+  },
+  {
+    "en": "Emilia: \"The range which both of your hands reach is shorter than the tail, yes? And also.\"",
+    "vi": "Emilia: “Phạm vi càn quét tầm với từ đôi tay của ông ngắn hơn chiếc đuôi khổng lồ nhiều đúng chăng? Và hơn nữa dẫu thế.”"
+  },
+  {
+    "en": "Before those claws could seize Emilia, ice spears passed by Emilia and drew near the『Divine Dragon』.",
+    "vi": "Trước khi bầy móng vuốt rồng tàn bạo kịp khống chế tóm gọn lấy Emilia, vô vàn ngọn băng thương sắc lẹm dẫu lướt nhanh sượt qua người cô và điên cuồng áp sát phóng thẳng về phía 『Thần Long』."
+  },
+  {
+    "en": "They had been hurled by ice warriors brought forth once again in Emilia's rear, at their original positionsーー the maximum number of ice warriors Emilia could create was seven, but it was possible for them to be recreated whenever they got shattered.",
+    "vi": "Bọn chúng dẫu được phóng ra từ bầy chiến binh băng giá được cô điêu khắc tái kiến tạo thêm lần nữa ở ngay phía sau lưng cô, tại vị trí ban đầu của họ——số lượng chiến binh băng tuyết tối đa mà Emilia khả dĩ kiến tạo cùng lúc dẫu là bảy người, thế nhưng cô hoàn toàn khả dĩ tái tạo lại họ ngay lập tức bất cứ khi nào họ bị vỡ vụn."
+  },
+  {
+    "en": "In other words, the ice warriors could stand up again however many times until Emilia exhausted her strength.",
+    "vi": "Nói một cách khác, bầy chiến binh băng giá dẫu khả dĩ kiên cường đứng thẳng dậy bao nhiêu lần dẫu được, cho đến khi mana và sức tàn lực kiệt của Emilia hoàn toàn cạn sạch."
+  },
+  {
+    "en": "Precisely like the true Natsuki Subaru.",
+    "vi": "Y hệt như một Natsuki Subaru đích thực hàng thật giá thật vậy."
+  },
+  {
+    "en": "Volcanica: [ーーThou, who hath reached the top of the tower. Step forth through the first floor, almighty petitioner.]",
+    "vi": "Volcanica: [——Hỡi kẻ đã đặt chân lên đỉnh tòa tháp. Hãy bước tới tầng thứ nhất, hỡi thỉnh nguyện giả vạn năng.]"
+  },
+  {
+    "en": "Emilia: \"Kya~!?\"",
+    "vi": "Emilia: “Kya~a!?”"
+  },
+  {
+    "en": "Upon the incessant downpour of ice spears outside of its range, Volcanica slammed its forelimbs into the front.",
+    "vi": "Trước cơn mưa băng thương rải xuống liên tục xối xả nằm ngoài phạm vi càn quét của mình, Volcanica nổi giận giáng mạnh đập mạnh hai chi trước về phía trước mặt."
+  },
+  {
+    "en": "That singular strike seemed as if rending space, producing a shock wave that appeared to be an eternal mark of its claws, swallowing the entirety of the first layer including Emilia and the ice warriors.",
+    "vi": "Duy nhất một đòn giáng bạo ngược dường ấy trông chả khác nào xé toạc rạn nứt không gian, sản sinh ra một luồng sóng xung kích kinh hoàng tựa như vệt chém vĩnh hằng từ vuốt rồng, nuốt chửng hoàn toàn toàn bộ không gian tầng thứ nhất bao gồm cả Emilia lẫn bầy chiến binh băng giá."
+  },
+  {
+    "en": "\"ーーーー\"",
+    "vi": "“————”"
+  },
+  {
+    "en": "Whilst halting the impact on her body brought by the shock wave, Emilia strained her amethyst coloured eyes.",
+    "vi": "Trong khi cố gắng gồng mình gánh chịu lực va chấn kinh hoàng từ luồng sóng xung kích dội vào cơ thể, Emilia điên cuồng căng rộng đôi mắt màu thạch anh tím kiều diễm của mình."
+  },
+  {
+    "en": "The central pillar Volcanica was protecting, its firmness was solid, and she had not been able to carefully observe the pillar yet either. From a distant view it appeared to be no different from the other five pillars, but that judgement too was premature.",
+    "vi": "Chiếc cột trung tâm mà Volcanica đang điên cuồng bảo hộ dẫu vô cùng vững chãi kiên cố sắt đá, và cô thực tế dẫu chưa thể quan sát kỹ lưỡng tỉ mỉ chiếc cột đó phân nào. Nhìn từ khoảng cách xa xôi thì trông chả có gì khác biệt so với năm chiếc cột khổng lồ còn lại, thế nhưng kết luận phán đoán dường ấy d dứt định dẫu quá vội vàng nông nổi."
+  },
+  {
+    "en": "However, what Emilia sought utmost here, instead of the central pillar itself, wasーー,",
+    "vi": "Thế nhưng dẫu vậy, thứ mà Emilia khát khao hướng tới nhất ở nơi này, quyết chả phải bản thân chiếc cột khổng lồ trung tâm kia, mà dẫu là——,"
+  },
+  {
+    "en": "Emilia: \"ーーLocated on its top, the tower's summit!!\"",
+    "vi": "Emilia: “——Chính là đỉnh cao ngự trị ngay trên đỉnh cột kia, đỉnh tháp tối thượng!!”"
+  },
+  {
+    "en": "Undauntedly stepping into the wind, Emilia kicked the floor with might on that very spot.",
+    "vi": "Quyết chả hề nao núng bước thẳng vào cơn cuồng phong bão tố, Emilia lấy hết sức bình sinh giậm mạnh chân xuống nền nhà phóng vọt đi ngay tại chỗ."
+  },
+  {
+    "en": "She was yet too distant to take any action regarding Volcanica or the pillar. However, stepping ahead here, was the correct answer.",
+    "vi": "Cô hiện tại dẫu còn cách quá xa để khả dĩ thực hiện nổi bất kỳ hành động nào nhắm vào Volcanica hay chiếc cột khổng lồ. Tuy nhiên, việc kiên quyết tiến bước dấn thân vào lúc này dứt định dẫu là đáp án chính xác nhất."
+  },
+  {
+    "en": "For the ice warriors, restored from their initially shattered states, lowered their waists and braced their arms.",
+    "vi": "Bởi lẽ bầy chiến binh băng giá, sau khi được cô lập tức tái tạo khôi phục lại từ trạng thái vỡ vụn nát bấy ban đầu, dẫu đồng loạt hạ thấp hông gồng cứng đôi tay làm bệ đỡ nâng đỡ."
+  },
+  {
+    "en": "And, catching Emilia's feet as she stepped ahead, assisted her into a leap towards greater height at once.",
+    "vi": "Và, đỡ trọn lấy đôi bàn chân kiều diễm của Emilia khi cô dấn bước tiến tới, đồng loạt phát lực hỗ trợ hất tung cô bay vọt lên trời cao cự ly phi thường chỉ trong một tích tắc."
+  },
+  {
+    "en": "Having pinned down the tail, directing its attention to the pillar, she used that interval and headed towards the uppermost stratum which she sought the utmost.",
+    "vi": "Sau khi thành công khóa chặt ghim giữ chiếc đuôi khổng lồ, thu hút trọn vẹn sự chú ý của nó nhắm vào chiếc cột, cô dẫu chớp lấy khoảnh khắc sơ hở ngắn ngủi dường ấy và phi thẳng lên tầng tối thượng mà mình khát khao nhất trần đời."
+  },
+  {
+    "en": "Though a combination Emilia would not recklessly use either, Emilia's intuition, having reached this far, implored that the summit was one which must be reached.",
+    "vi": "Dẫu cho đây là một chiêu thức phối hợp phối hợp mạo hiểm mà Emilia quyết chả bao giờ tùy tiện lạm dụng bừa bãi, trực giác kiên định của cô khi bước chân tới tận nơi này dẫu thiết tha réo gọi mách bảo rằng đỉnh tháp kia chính là địa điểm cô buộc phải chạm tới bằng mọi giá."
+  },
+  {
+    "en": "The great leap which borrowed the ice warriors' assistance, using it to jump above Volcanica's head at once, she made for the topmost surface of the pillar. Should she simple ascend to the uppermost stratum from thereーー,",
+    "vi": "Cú nhảy vọt vĩ đại mượn lực hỗ trợ từ bầy chiến binh băng giá dẫu giúp cô lập tức bay vượt qua đỉnh đầu khổng lồ của Volcanica chỉ trong chớp mắt, hướng thẳng về phía bề mặt trên cùng của chiếc cột khổng lồ. Chỉ cần cô khả dĩ thuận lợi leo thẳng lên tầng tối thượng từ điểm tựa đó——,"
+  },
+  {
+    "en": "Emilia: \"ーーThe heck.\"",
+    "vi": "Emilia: “Cái quái gì thế lị.”"
+  },
+  {
+    "en": "The following instant, whilst Emilia attempted to make her fingers reach the pillar, a tranquil heat wave grazed her feet.",
+    "vi": "Ngay tích tắc định mệnh tiếp theo, trong khi Emilia đang nỗ lực vươn dài những ngón tay kiều diễm của mình để bám lấy chiếc cột khổng lồ, một luồng sóng nhiệt lặng lẽ càn quét sượt qua dưới chân cô."
+  },
+  {
+    "en": "ーーNo, it was not tranquil. Sound had simply died at the hands of its exceeding might and heat. If it had killed the very concept of sound, it would be no enigma for it to have converted to a soundless phenomenon.",
+    "vi": "——Không, quyết chả phải lặng lẽ bình yên gì cho cam. Âm thanh đơn giản dẫu bị tàn sát hủy diệt hoàn toàn dưới tay của uy lực và luồng nhiệt lượng quá đỗi phi thường vượt bậc dường ấy mà thôi. Một khi nó đã bóp nghẹt tiêu diệt trọn vẹn chính khái niệm của âm thanh, thì việc chuyện này biến chuyển thành một hiện tượng tĩnh mịch quyết chả có gì là bí ẩn kỳ lạ cả."
+  },
+  {
+    "en": "Emilia's perception detected the extinguishment of the ice warriors deployed across the first layer.",
+    "vi": "Giác quan nhận thức nhạy bén của Emilia lập tức phát hiện ra sự tiêu biến lụi tàn sạch sẽ của bầy chiến binh băng giá đang dàn trận rải rác khắp tầng thứ nhất."
+  },
+  {
+    "en": "The one which had lent its hand to shield Emilia's vision, the four which had thrown ice spears in its support, the two which had sprinted for supplementing sasumatas, disappeared at the same second.",
+    "vi": "Người dẫu đưa tay ra hộ vệ bảo hộ nhãn quan cho Emilia, bốn người dẫu liên tục phóng băng thương trợ chiến đắc lực, hai người dẫu điên cuồng phi nhanh để bổ sung tĩnh xoa ghim giữ, thảy thảy đều bốc hơi tiêu biến trong cùng một tích tắc ngắn ngủi."
+  },
+  {
+    "en": "And what accomplished this was neither Volcanica's tail nor its forelimbs.",
+    "vi": "Và thứ vừa thực hiện cuộc tàn sát hủy diệt kinh hoàng dường ấy quyết chả phải do chiếc đuôi hay chi trước của Volcanica giáng xuống."
+  },
+  {
+    "en": "Volcanica: [ーーI, am Volcanica. In accordance with the ancient covenant, I ask the will of thee who hath reached the summit.]",
+    "vi": "Volcanica: [——Ta là Volcanica. Chiếu theo giao ước cổ xưa, ta hỏi ý chí của kẻ đã chạm tới đỉnh cao.]"
+  },
+  {
+    "en": "Yes, the death wail of scorching air was heard from its mouth, which never parted solely with its majesticness.",
+    "vi": "Phải, tiếng gào rú thảm khốc của luồng dưỡng khí bỏng cháy thiêu rụi thảy mọi vật dẫu phát ra từ khuôn miệng khổng lồ của nó, thứ quyết chả bao giờ đánh mất đi vẻ uy nghiêm kiêu sa vĩ đại của rồng thần."
+  },
+  {
+    "en": "With the arrival of another one of its reiterations into her ears as a start, Emilia comprehended the resuscitation of the killed concept of sound, whilst at the same time, her fingers reached for the pillar's topmost surface.",
+    "vi": "Với sự xuất hiện rập khuôn của mớ lời thoại rập khuôn lọt vào tai cô làm mốc khởi đầu, Emilia dẫu nhận thức ra sự thức tỉnh hồi sinh trở lại của khái niệm âm thanh vừa bị bóp nghẹt lúc nãy, đồng thời ngay tích tắc ấy, những đầu ngón tay kiều diễm của cô dẫu chạm tới bề mặt trên cùng của chiếc cột khổng lồ."
+  },
+  {
+    "en": "Somehow desperately fixing her body, Emilia looked down below.",
+    "vi": "Bằng mọi cách điên cuồng bám chặt giữ vững cơ thể của mình, Emilia đăm đắm nhìn xuống phía dưới chân."
+  },
+  {
+    "en": "There spreading wide was the first layer, scorched white.",
+    "vi": "Ngự trị trải rộng ra trước mắt cô chính là toàn bộ tầng thứ nhất, dẫu bị thiêu rụi bỏng rát trắng xóa chả còn gì."
+  },
+  {
+    "en": "White fumes akin to smoulders rose from multiple spots, with not even the wreckage of the ice warriors supposed to have existed left behind. Such heat, such might, such annihilationーー,",
+    "vi": "Vô vàn làn khói trắng tựa như tàn tro nghi ngút bốc lên từ nhiều địa điểm rải rác, quyết chả còn sót lại nổi lấy phân mảnh vụn rách rưới nào của bầy chiến binh băng giá từng tồn tại sừng sững lúc nãy cả. Luồng nhiệt lượng kinh hoàng dường ấy, uy lực hủy diệt dường ấy, sự tàn phá xóa sổ tột cùng dường ấy——,"
+  },
+  {
+    "en": "ーーThe breath of the『Divine Dragon』Volcanica, had burnt all to naught.",
+    "vi": "——Hơi thở bỏng cháy Long Tức của 『Thần Long』 Volcanica, dẫu hoàn toàn thiêu rụi thiêu rụi thảy mọi thứ thành hư vô tro tàn."
+  },
+  {
+    "en": "Emilia: \"Both the tail and the legs are doing well, can even spit god damn fire and yet!\"",
+    "vi": "Emilia: “Cả đuôi lẫn chi trước dẫu hoạt động tuyệt vời dường ấy, lại còn khả dĩ phun cả lửa nóng hừng hực thế kia nữa chứ, vậy mà lị!”"
+  },
+  {
+    "en": "Volcanica: [ーーThou, who hath reached the top of the tower. Step forth through the first floor, almighty petitioner.]",
+    "vi": "Volcanica: [——Hỡi kẻ đã đặt chân lên đỉnh tòa tháp. Hãy bước tới tầng thứ nhất, hỡi thỉnh nguyện giả vạn năng.]"
+  },
+  {
+    "en": "Emilia: \"Good lord, I get it! I do understand! I get it so...... oh.\"",
+    "vi": "Emilia: “Trời đất ơi, tớ thấu hiểu rồi lị! Tớ thấu suốt thấu hiểu rồi! Tớ hiểu mà thế nên...... ôi.”"
+  },
+  {
+    "en": "Responding with a lack of grievousness taking into account the events that had occured, Emilia widened her eyes midway through.",
+    "vi": "Cất tiếng đáp lại chả chút oán hận bi thương dẫu cho vừa hứng chịu hàng loạt biến cố ngặt nghèo liên tiếp dội vào cơ thể, Emilia đột ngột căng tròn đôi mắt ngay giữa câu nói."
+  },
+  {
+    "en": "Steadily, the eyes of the『Divine Dragon』aimed upwards, the yellow eyeballs reflecting Emilia within themselves.",
+    "vi": "Lặng lẽ, nhãn quan của 『Thần Long』 đăm đắm định vị hướng lên phía trên cao, đôi đồng tử vàng rực khổng lồ phản chiếu hình bóng kiều diễm của Emilia ngự trị bên trong."
+  },
+  {
+    "en": "Andーー,",
+    "vi": "Và——,"
+  },
+  {
+    "en": "Volcanica: [ーーI, am Volcanica. In accordance with the ancient covenant, I ask the will of thee who hath reached the summit.]",
+    "vi": "Volcanica: [——Ta là Volcanica. Chiếu theo giao ước cổ xưa, ta hỏi ý chí của kẻ đã chạm tới đỉnh cao.]"
+  },
+  {
+    "en": "While pronouncing so, Volcanica unfolded both of its blue wings, and stood up at its position.",
+    "vi": "Trong khi dứt khoát thốt ra những lời lẽ rập khuôn dường ấy, Volcanica dẫu giang rộng cả hai bên cánh rồng xanh lam khổng lồ vĩ đại của mình, và kiêu hãnh đứng thẳng dậy tại vị trí của nó."
+  },
+  {
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "en": "Emilia: \"Oh hell noーー ~hk.\"",
+    "vi": "Emilia: “Quyết chả ổn chút nào đâu lị——!”"
+  },
+  {
+    "en": "Comprehending the hazard of the events occurring below, Emilia extended her hand towards the topmost surface of the tower in great panic.",
+    "vi": "Nhận thức sâu sắc mối nguy hiểm hiểm nghèo từ những biến cố đang diễn ra ngay phía dưới chân, Emilia vội vàng vươn dài bàn tay kiều diễm hướng về phía đỉnh tháp tối thượng trong cơn hoảng hốt tột độ."
+  },
+  {
+    "en": "In the interlude she was preoccupied with that, Volcanica deracinated its tail being restrained by the sasumatas, and sought to slowly flap its wings.",
+    "vi": "Trong khoảng thời gian ngắn ngủi cô đang bận tâm loay hoay với chuyện đó, Volcanica dẫu dễ dàng giật phăng rút chiếc đuôi khổng lồ đang bị khóa chặt ghim giữ bởi bầy tĩnh xoa ra ngoài, và bắt đầu chậm rãi vỗ mạnh đôi cánh vĩ đại của mình."
+  },
+  {
+    "en": "It intended flight.",
+    "vi": "Nó đang nuôi ý đồ bay lượn vút lên."
+  },
+  {
+    "en": "It was, after all, the『Divine Dragon』Volcanica, flying for it would be a matter of courseーー but since Emilia had never witnessed a flying dragon, her sense of reality had been puny.",
+    "vi": "Dẫu sao thì, đó dẫu chính là 『Thần Long』 Volcanica vĩ đại, việc nó khả dĩ tự do bay lượn trên trời cao dứt định dẫu là chuyện đương nhiên như một lẽ thường tình——thế nhưng vì từ thuở cha sinh mẹ đẻ tới nay Emilia chưa từng bao giờ tận mắt chứng kiến một con rồng biết bay, giác quan nhận thức thực tế của cô về chuyện này dẫu vô cùng mong manh nhạt nhẽo."
+  },
+  {
+    "en": "First of all, would a creature with a body so gigantic truly be able to soar in the skies.",
+    "vi": "Trước hết, liệu một sinh vật khổng lồ vĩ đại với thân xác đồ sộ kinh hoàng đến nhường ấy có thực sự khả dĩ tự do bay lượn trên bầu trời cao rộng lớn chăng lị."
+  },
+  {
+    "en": "Emilia: \"I've only ever seen Puck and Roswaal fly too......\"",
+    "vi": "Emilia: “Tớ trước giờ dẫu chỉ mới nhìn thấy mỗi Puck với Roswaal bay lượn mà thôi......”"
+  },
+  {
+    "en": "It was ineluctable for Puck, a spirit, and Roswaal, an eccentric magician, to fly.",
+    "vi": "Việc Puck, một tinh linh vĩ đại, và Roswaal, một pháp sư lập dị kiệt xuất khả dĩ tự do bay lượn dẫu là chuyện tất yếu khó tránh khỏi chả có gì kỳ lạ."
+  },
+  {
+    "en": "From what she had heard, in the southern Vollachia Empire, just like Ground Dragons or Water Dragons, there existed flying dragons named Winged Dragons, so Volcanica was possibly also considered as a Winged Dragon.",
+    "vi": "Từ những gì cô từng nghe loáng thoáng kể lại, tại Đế Quốc Vollachia phương nam xa xôi, tương tự như Địa Long hay Thủy Long, vẫn luôn tồn tại loài rồng biết bay được gọi là Dực Long, thế nên rất có khả năng Volcanica dẫu được coi là một chủng loài Dực Long kiệt xuất chăng."
+  },
+  {
+    "en": "Or perhaps, to categorize dragons and the『Dragon』as the same may be an err in itselfーー,",
+    "vi": "Hoặc có lẽ, việc đánh đồng phân loại loài rồng quèn thông thường và vị 『Long』 độc tôn vĩ đại này làm một dứt định dẫu là một sai lầm ngớ ngẩn ngay từ đầu rồi lị——,"
+  },
+  {
+    "en": "Emilia: \"Heave-ho! Heave-ho! Hiyah! Shah!\"",
+    "vi": "Emilia: “Hò ta hò ta! Heave-ho! Hiyah! Shah!”"
+  },
+  {
+    "en": "Letting out an enthusiastic cry, Emilia clambered towards the tower's top at her greatest possible speed.",
+    "vi": "Hét lớn một tiếng hét lanh lảnh nhiệt huyết đầy quyết tâm khích lệ tinh thần, Emilia điên cuồng leo bám hướng về phía đỉnh tháp tối thượng với tốc độ nhanh nhất khả dĩ của bản thân."
+  },
+  {
+    "en": "Though from a distant view her speed was jaw-droppingly astonishing, even if Emilia were to make fortunate effort beyond common sense, she lacked one card to be able to desert everything behind and dash on ahead.",
+    "vi": "Mặc dù nhìn từ khoảng cách xa xôi thì tốc độ leo bám dường ấy của cô dứt định dẫu đáng kinh ngạc kinh hoàng đến mức rớt cằm, thế nhưng dù cho Emilia có nỗ lực phi thường vượt qua thấu suốt mọi giới hạn lẽ thường đi chăng nữa, cô vẫn thiếu thốn trầm trọng một quân bài chí mạng để khả dĩ bỏ lại thảy thảy mọi chướng ngại phía sau lưng và phi nhanh vun vút vượt lên dẫn đầu."
+  },
+  {
+    "en": "Volcanica: [ーーThou, who hath reached the top of the tower. Step forth through the first floor, almighty petitioner.]",
+    "vi": "Volcanica: [——Hỡi kẻ đã đặt chân lên đỉnh tòa tháp. Hãy bước tới tầng thứ nhất, hỡi thỉnh nguyện giả vạn năng.]"
+  },
+  {
+    "en": "She was not hallucinating to be hearing that voice from a distance closer than before.",
+    "vi": "Cô quyết chả hề ngộ nhận ảo giác khi cảm nhận thấy chất giọng rập khuôn dường ấy đang vang vọng từ một khoảng cách kề sát cự ly gần hơn hẳn lúc nãy."
+  },
+  {
+    "en": "For she had not managed to desert everything below her behind, the pronouncement had ascended to the same altitude as hers.",
+    "vi": "Bởi lẽ cô vẫn chưa thể thành công bỏ lại thảy mọi thứ phía sau dưới chân mình, tiếng hét đanh thép của rồng thần dẫu vút bay lên cùng một độ cao ngang hàng với vị trí của cô."
+  },
+  {
+    "en": "ーーUnfolding both of those blue wings, an unbelievably humongous frame fluttered midair.",
+    "vi": "——Giang rộng cả hai bên cánh rồng xanh lam khổng lồ vĩ đại dường ấy, một thân xác khổng lồ kinh hoàng đến mức chả thể tin nổi dẫu nhẹ nhàng bay lượn vút lên giữa không trung phẳng lặng."
+  },
+  {
+    "en": "Majestic and dignified, the『Divine Dragon』Volcanica soared into the dunes' sky with pressure of presence ignorant to its decline.",
+    "vi": "Uy nghiêm kiêu sa và lộng lẫy vĩ đại, 『Thần Long』 Volcanica tự do bay lượn vút thẳng lên bầu trời cồn cát ngợp trời với áp khí ngập tràn sự hiện diện phi thường quyết chả hề suy suy yếu lụi tàn phân nào."
+  },
+  {
+    "en": "Its evolving air of intimidation, or the glint in its eye glaring the opponent impotent, its tail or its forelimbs, even its breath, none of it turned traitor to it being a hyper-rank dragon chronicled in legends.",
+    "vi": "Uy áp kinh hoàng tỏa ra cuồn cuộn xung quanh nó, hay thần thái ánh mắt sắc lẹm kiêu hãnh lườm nguýt áp chế cướp đoạt thảy mọi đối thủ làm vô hiệu hóa sức kháng cự, chiếc đuôi khổng lồ hay đôi chi trước mạnh mẽ, thậm chí cả hơi thở Long Tức bỏng cháy thiêu rụi, quyết chả có lấy phân yếu tố nào quay lưng phản bội lại cái danh xưng kiêu hãnh chủng loài rồng tối thượng được ghi chép khắc ghi trong bầy truyền thuyết cổ xưa."
+  },
+  {
+    "en": "However, the singularity which did turn traitor to thatーー",
+    "vi": "Thế nhưng dẫu vậy, điểm dị thường bất thường duy nhất thực sự quay lưng phản bội lại vinh quang tối thượng dường ấy chính là——,"
+  },
+  {
+    "en": "Emilia: \"I! Intend to go above the first layer, so I may not be your enemy!\"",
+    "vi": "Emilia: “Tớ! Thực sự dẫu chỉ muốn tiến thẳng lên phía trên tầng thứ nhất mà thôi, thế nên tớ dứt định quyết chả phải kẻ địch cản lối của ông đâu lị!”"
+  },
+  {
+    "en": "Volcanica: [ーーI, am Volcanica. In accordance with the ancient covenant, I ask the will of thee who hath reached the summit.]",
+    "vi": "Volcanica: [——Ta là Volcanica. Chiếu theo giao ước cổ xưa, ta hỏi ý chí của kẻ đã chạm tới đỉnh cao.]"
+  },
+  {
+    "en": "Poured with a voice conveying it possessed no ears to hear from, as Emilia clung to the pillar, Volcanica's menace resumed pursuit of her.",
+    "vi": "Hứng trọn luồng âm thanh đanh thép truyền đạt rõ ràng thông điệp rằng gã quyết chả có tai để lắng nghe thấu suốt phân trần nào dội thẳng vào người, trong khi Emilia đang điên cuồng bám chặt bám lấy chiếc cột khổng lồ, mối đe dọa bạo ngược từ Volcanica dẫu tiếp tục ráo riết truy sát bám đuổi theo cô."
+  },
+  {
+    "en": "Inhaling, Emilia gritted her molars and borrowed the power of a \"Foothold which did not exist\" there, and jumped over the tail whip.",
+    "vi": "Hít sâu một hơi dài, Emilia grịt chặt răng hàm và khôn ngoan mượn lực đẩy nâng đỡ từ một “Điểm tựa chả hề tồn tại sừng sững” tại khoảng không đó, nhảy vọt người né tránh hoàn mỹ cú quất đuôi kinh hoàng đang quét tới."
+  },
+  {
+    "en": "Emilia: \"Yahoo!!\"",
+    "vi": "Emilia: “Yahoo!!”"
+  },
+  {
+    "en": "Practical usage of『Ice Brand Arts』ーー rather than clambering up that pillar, she installed footholds at its flanks, accelerating her speed by jumping above them.",
+    "vi": "Vận dụng điêu luyện sáng tạo chiêu thức 『Băng Chi Thương Nghệ』——thay vì cặm cụi leo bám chật vật dọc theo chiếc cột khổng lồ kiên cố đó, cô liên tiếp kiến tạo lắp đặt những điểm tựa bằng băng ngay tại hai bên sườn cột, gia tăng bứt tốc tốc độ phi thường bằng cách liên tục nhảy đạp vọt lên trên chúng."
+  },
+  {
+    "en": "Emilia: \"Would the limbs become free too...... kiyah!\"",
+    "vi": "Emilia: “Ngay cả đôi chi trước dẫu tự do hoạt động giải phóng rồi sao...... á!”"
+  },
+  {
+    "en": "The instantaneously drawn twin swords of ice energetically repelled the slamming tail away.",
+    "vi": "Đôi song kiếm bằng băng được cô rút nhanh ra trong chớp mắt dẫu điên cuồng phát lực đẩy lùi cản phá đòn quất đuôi tàn bạo đang giáng xuống sang một bên."
+  },
+  {
+    "en": "A strike swung whilst relying on guesswork, both of Emilia's arms, from her wrists to her elbows went numb due to the vigour, rendering her seemingly unable to wield another novel weapon for the multiple seconds it would take her to stand up.",
+    "vi": "Một đòn đỡ đòn chỉ dựa hoàn toàn vào trực giác phán đoán phán đoán nhạy bén, cả hai cánh tay kiều diễm của Emilia từ cổ tay cho đến khuỷu tay dẫu hoàn toàn tê rần dại đi vì lực tác động quá đỗi kinh hoàng, khiến cô dường như quyết chả thể nào kiến tạo thi triển nổi lấy một món vũ khí mới mẻ nào khác trong vài giây ngắn ngủi sắp tới để gượng sức đứng thẳng dậy."
+  },
+  {
+    "en": "Despite its transiency, the『Divine Dragon』which resumed to undertake the same conduct before the challenger swung its tail, its endeavour being to dropーー no, to crush the opponent seeking to capture the pillar.",
+    "vi": "Bất chấp sự mờ mịt lẩm cẩm tạm thời ấy, 『Thần Long』 vẫn liên tục lặp đi lặp lại một hành vi bạo ngược duy nhất trước kẻ khiêu chiến dấn thân bằng cách vung chiếc đuôi khổng lồ quét tới, ý đồ tối thượng của nó dẫu là nhằm hất văng đánh rơi——không, nghiền nát bấy thảy mọi đối thủ đang rắp tâm tiếp cận chiếm lấy chiếc cột khổng lồ."
+  },
+  {
+    "en": "Emilia: \"ーー~hk.\"",
+    "vi": "Emilia: “——!”"
+  },
+  {
+    "en": "Emilia's breath was packed in response to that approaching tail.",
+    "vi": "Hơi thở của Emilia dẫu hoàn toàn nghẹn ứ lại trước chiếc đuôi khổng lồ đang điên cuồng quét tới áp sát."
+  },
+  {
+    "en": "Should she be repelled once, she did not perceive she would have enough stamina left to reach the pillar once again. Should she suffer a direct hit from the tail notched with scales, she would surely be left in a terrible state.",
+    "vi": "Nếu cô dẫu bị đánh văng rơi rụng xuống đất dù chỉ một lần duy nhất, cô tự nhận thức sâu sắc bản thân dứt định quyết chả còn đủ sức tàn lực kiệt để leo bám tiếp cận chiếc cột khổng lồ thêm một lần nào nữa. Chỉ cần cô hứng trọn cú đập trực diện hiểm hóc từ chiếc đuôi chằng chịt vảy sừng cứng cáp dường ấy, thân xác cô chắc chắn dẫu rơi vào một trạng thái thảm hại tột cùng đáng sợ."
+  },
+  {
+    "en": "She could not let that tail's attack connect.",
+    "vi": "Cô quyết chả thể nào để đòn công kích từ đuôi rồng kia khả dĩ chạm tới người."
+  },
+  {
+    "en": "Emilia: \"I can still...... work, rea~lly hard!!\"",
+    "vi": "Emilia: “Tớ dứt định vẫn còn khả dĩ...... điên cuồng nỗ lực, thực sự nỗ lực hết mình được mà!!”"
+  },
+  {
+    "en": "She could not use her arms. However, she could move her legs. She could aim for the top.",
+    "vi": "Cô hiện tại dẫu quyết chả thể cử động đôi tay linh hoạt linh hoạt được nữa. Thế nhưng, cô vẫn còn khả dĩ chuyển động đôi chân. Cô vẫn còn khả dĩ hướng thẳng về phía đỉnh cao tối thượng."
+  },
+  {
+    "en": "Though she had created footholds in order to aim for the top, that shall not be sufficient. There was a limit to the number of ice ploys she could generate at once. She could not let that labor go to waste.",
+    "vi": "Dẫu cho cô đã kiến tạo nên vô vàn điểm tựa bằng băng để hướng thẳng về phía đỉnh tháp, chuyện đó quyết chả thể nào là quá đủ. Luôn tồn tại một ranh giới giới hạn nghiêm ngặt cho số lượng chiêu trò băng tuyết mà cô khả dĩ đồng thời kiến tạo trong cùng một tích tắc. Cô quyết chả thể để đống công sức nhọc nhằn nhọc nhằn dường ấy bị tiêu biến lãng phí sạch sẽ."
+  },
+  {
+    "en": "Fulfilling the purpose of the footholds, she then shall be met by that which was endlessーー,",
+    "vi": "Sau khi hoàn thành trọn vẹn vai trò mục đích của bầy điểm tựa băng giá kia, cô dứt định dẫu khai phá chạm tới một thứ vô biên vô tận khó lường——,"
+  },
+  {
+    "en": "Emilia: \"ーーI get it!\"",
+    "vi": "Emilia: “——Tớ nghĩ ra rồi lị!”"
+  },
+  {
+    "en": "Volcanica: [ーーThou, who hath reached the top of the tower. Step forth through the first floor, almighty petitioner.]",
+    "vi": "Volcanica: [——Hỡi kẻ đã đặt chân lên đỉnh tòa tháp. Hãy bước tới tầng thứ nhất, hỡi thỉnh nguyện giả vạn năng.]"
+  },
+  {
+    "en": "Yet another tail whip drew near Emilia, to whom a great idea had just occurred.",
+    "vi": "Lại thêm một cú quất đuôi khổng lồ kinh hoàng áp sát lao thẳng về phía Emilia, người dẫu vừa lóe lên một ý tưởng tuyệt diệu phi thường trong đầu."
+  },
+  {
+    "en": "Emilia somehow evaded it by borrowing the ordinary power of the footholds. And, bringing forth the new foothold she had thought of towards the pillar, she ingeniously grasped that『Hand』by extending her own hand.",
+    "vi": "Emilia bằng cách nào đó vẫn khôn ngoan né tránh được hiểm cảnh nhờ mượn lực đẩy nâng đỡ thông thường từ bầy điểm tựa băng giá. Và, lập tức kiến tạo dựng nên một dạng điểm tựa mới mẻ kiệt xuất cô vừa nảy ra hướng thẳng về phía chiếc cột, cô khéo léo chộp lấy 『Bàn Tay』 đó bằng cách vươn dài bàn tay kiều diễm của mình ra nắm chặt."
+  },
+  {
+    "en": "Emilia: \"Please, soldier-san!\"",
+    "vi": "Emilia: “Làm ơn giúp tớ nhé, bầy chiến binh ơi!”"
+  },
+  {
+    "en": "Responding to that voice of Emilia's, the one to creak its arms constructed of ice was an ice warrior taking after Subaru, having been generated yet again after being burnt to annihilationーー but, merely its upper body.",
+    "vi": "Đáp lại tiếng gọi thiết tha dường ấy của Emilia, thực thể đang chuyển động đôi cánh tay rắc rắc cấu tạo bằng băng tuyết kiêu hãnh chính là một chiến binh băng giá mô phỏng theo Subaru, được cô tái kiến tạo thêm lần nữa sau khi đã bị hơi thở Long Tức thiêu rụi bốc hơi hoàn toàn lúc nãy——thế nhưng, chỉ độc độc có nửa thân trên của gã mà thôi."
+  },
+  {
+    "en": "Not simply a foothold, but an existence which functioned as both a foothold as well as a reliable ally of Emilia'sーー that was, the『Course of Ice』with simply their upper bodies growing out of the pillar one after the other.",
+    "vi": "Quyết chả phải chỉ đơn thuần là một điểm tựa vô tri vô giác quèn, mà dẫu là một tồn tại đóng vai trò song song vừa làm điểm tựa bàn đạp nâng đỡ, vừa làm một người đồng đội đáng tin cậy sắt son nhất của Emilia——đó chính là, 『Băng Đạo Đường Trượt Bằng Băng』 với chỉ độc độc nửa thân trên của bầy chiến binh mọc ra nối đuôi nhau liên tiếp ngay trên bề mặt chiếc cột khổng lồ."
+  },
+  {
+    "en": "Since they simply had their upper bodies growing out of the pillar and she did not have to create their legs, she could also raise their number to greater than seven.",
+    "vi": "Bởi lẽ bọn họ dẫu chỉ cần mọc ra nửa thân trên sừng sững ngay trên chiếc cột và cô quyết chả cần phải tốn mana điêu khắc kiến tạo đôi chân cho họ, cô dẫu hoàn toàn khả dĩ gia tăng số lượng chiến binh vượt xa mốc giới hạn bảy người ban đầu rất nhiều."
+  },
+  {
+    "en": "Making around ten of them grow out of the pillar at once, Emilia borrowed their hands, and headed upwards, headed upwards.",
+    "vi": "Kiến tạo cho khoảng mười chiến binh đồng loạt mọc sừng sững ra ngay trên chiếc cột khổng lồ cùng một lúc, Emilia khôn ngoan mượn đôi bàn tay kiên cố của họ, liên tục đu bám chuyền tay hướng thẳng lên trên cao, tiến lên trên cao."
+  },
+  {
+    "en": "Emilia: \"Hiyah! Yah! Shiyah! Alright-y!\"",
+    "vi": "Emilia: “Hiyah! Yah! Shiyah! Được rồi lị!”"
+  },
+  {
+    "en": "Borrowing the hands of the upper bodies of ice growing out of the pillar in a literal sense, Emilia climbed towards the topmost surface of the pillar.",
+    "vi": "Mượn đôi bàn tay vững chãi từ nửa thân trên của bầy chiến binh bằng băng mọc sừng sững ngay trên chiếc cột theo đúng nghĩa đen tối thượng, Emilia điên cuồng leo bám hướng về bề mặt trên cùng của chiếc cột khổng lồ."
+  },
+  {
+    "en": "Meanwhile, Volcanica did attempt to obstruct Emilia, but the men on the pillar hindered it from the side.",
+    "vi": "Trong lúc ấy, Volcanica dẫu điên cuồng nỗ lực cản phá cản lối tiến bước của Emilia, thế nhưng bầy chiến binh sừng sững ngay trên chiếc cột dẫu liên tục quấy rối cản trở nó đắc lực từ hai phía sườn."
+  },
+  {
+    "en": "Captured in its attribute of protecting the pillar, Volcanica was unable to leave the ice warriors on that pillar.",
+    "vi": "Bị trói buộc giữ chân bởi bản năng hộ vệ bảo vệ chiếc cột khổng lồ của mình, Volcanica quyết chả thể nào nhắm mắt làm ngơ phớt lờ bầy chiến binh băng giá đang hiện diện ngay trên chiếc cột đó."
+  },
+  {
+    "en": "The generated ice warriors hurled swords and axes of ice towards Volcanica, and as the『Divine Dragon』repelled them, it hunted the ice warriors on the pillar one by one through its tail or forelimbs.",
+    "vi": "Bầy chiến binh băng giá liên tiếp phóng phi rìu và kiếm bằng băng sắc lẹm về phía Volcanica, và khi 『Thần Long』 điên cuồng phát lực gạt phắt cản phá chúng, nó dẫu lần lượt càn quét tiêu diệt từng chiến binh băng giá sừng sững trên cột bằng đuôi khổng lồ hoặc móng vuốt bạo ngược."
+  },
+  {
+    "en": "Although, whilst Emilia headed for the pillar's top, top, topーー,",
+    "vi": "Dẫu vậy, trong khi Emilia đang ra sức hướng thẳng về phía đỉnh cột khổng lồ, lên cao, lên cao mãi——,"
+  },
+  {
+    "en": "Emilia: \"Though this spot, is a bit tough!\"",
+    "vi": "Emilia: “Dẫu cho cái xó xỉnh địa điểm này, thực sự có hơi hiểm hóc gian nan đấy lị!”"
+  },
+  {
+    "en": "To have overcome the hazard, would be somewhat too lively an impression, but with the ice soldiers' strength and sacrifice as the foundation stone, Emilia's hands finally reached for the topmost surface of the pillar.",
+    "vi": "Nếu bảo rằng cô đã hoàn toàn vượt qua hiểm cảnh hiểm nghèo dường ấy thì dứt định dẫu là một nhận định quá đỗi lạc quan tươi vui, thế nhưng với uy lực phi thường và sự hy sinh oanh liệt của bầy chiến binh băng giá làm bệ đỡ đá tảng nâng đỡ, đôi bàn tay kiều diễm của Emilia cuối cùng dẫu chạm tới bề mặt trên cùng của chiếc cột khổng lồ."
+  },
+  {
+    "en": "Though she would reach the uppermost stratum of the tower in around ten more metres, the topmost surface of the pillar was in a bent condition akin to that of a rat guard, so climbing hereon would be the deed of utmost difficulty.",
+    "vi": "Mặc dù cô dẫu chỉ còn cách tầng tối thượng của tòa tháp khoảng mười mét ngắn ngủi nữa mà thôi, thế nhưng bề mặt trên cùng của chiếc cột khổng lồ lại ở trong một trạng thái uốn cong vát ngược ra ngoài giống như một vành đai chắn chuột leo bám, thế nên việc leo vượt qua điểm chốt này dứt định dẫu là một hành vi cực kỳ gian nan nguy hiểm tột cùng."
+  },
+  {
+    "en": "Though the situation was one wherein even people who specialised in mountain climbing would be troubled, fortunately, Emilia specialised in tree climbing. In the past, her zeal for it had led her to be scolded by Fortuna and Arch.",
+    "vi": "Dẫu cho hoàn cảnh ngặt nghèo dường ấy dẫu dư sức khiến ngay cả những chuyên gia kiệt xuất chuyên leo núi hiểm hóc phải hoang mang bó tay chịu trói, thật may mắn thay, Emilia lại là bậc thầy kiệt xuất chuyên trị leo trèo cây cối. Trong quá khứ xa xăm xa xôi, niềm đam mê cuồng nhiệt dường ấy của cô dẫu từng khiến cô bị Fortuna và Arch mắng mỏ khuyên răn chả biết bao nhiêu lần."
+  },
+  {
+    "en": "Emilia: \"The numbness of my fingers is also alright, now I can......!\"",
+    "vi": "Emilia: “Cơn tê dại từ những đầu ngón tay kiều diễm dẫu hoàn toàn ổn định rồi lị, giờ đây tớ khả dĩ......!”"
+  },
+  {
+    "en": "Regaining the sensation of her numb fingers, Emilia tackled the bent, unkind pillar.",
+    "vi": "Lấy lại trọn vẹn cảm giác từ những ngón tay kiều diễm từng tê dại của mình, Emilia quyết tâm chinh phục chiếc cột khổng lồ uốn cong vát ngược đầy tàn nhẫn hiểm ác này."
+  },
+  {
+    "en": "Grasp the hand of the ice warrior growing reversely on the slant, she drifted her legs midair towards the unstable skies. But thanks to the ice warrior's assistance, her climb was stable.",
+    "vi": "Nắm chặt lấy bàn tay của chiến binh băng giá mọc ngược sừng sững ngay trên sườn dốc cong vát, cô buông thõng đôi chân kiều diễm lơ lửng giữa khoảng không bầu trời chao đảo chả vững. Thế nhưng nhờ vào sự yểm trợ nâng đỡ phi thường của chiến binh băng tuyết ấy, quá trình leo bám của cô dứt định dẫu vô cùng kiên định vững vàng."
+  },
+  {
+    "en": "What remained, was only for Volcanica's obstruction to beーー,",
+    "vi": "Thứ duy nhất còn lại lúc này dẫu chỉ là làm sao để hóa giải đòn cản phá công kích của Volcanica mà thôi——,"
+  },
+  {
+    "en": "Emilia: \"ーー~hk.\"",
+    "vi": "Emilia: “——!”"
+  },
+  {
+    "en": "That moment, faint slackening and a prank by destiny infiltrated.",
+    "vi": "Đúng vào tích tắc định mệnh ấy, một chút sơ hở lơ là nhè nhẹ cùng trò đùa dai ác ý của số phận dẫu lập tức len lỏi xâm nhập vào."
+  },
+  {
+    "en": "Volcanica: [ーーI, am Volcanica. In accordance with the ancient covenant, I ask the will of thee who hath reached the summit.]",
+    "vi": "Volcanica: [——Ta là Volcanica. Chiếu theo giao ước cổ xưa, ta hỏi ý chí của kẻ đã chạm tới đỉnh cao.]"
+  },
+  {
+    "en": "The outbreaking potent jolts, were caused by a severe strike into the pillar by Volcanica's tail, whilst it articulated so.",
+    "vi": "Những đợt chấn động rung lắc kinh hoàng dữ dội đột ngột bùng phát ra dẫu được sinh ra từ đòn quất đuôi tàn bạo giáng mạnh thẳng vào chiếc cột khổng lồ của Volcanica, ngay trong lúc nó cất tiếng thốt ra những lời lẽ rập khuôn kia."
+  },
+  {
+    "en": "It waved impact through the entirety of the pillar, thoroughly fissuring the ice warriors with solely their upper bodies growing out of that pillar, shattering them at once.",
+    "vi": "Cú va chấn kinh hoàng lan tỏa lực chấn động càn quét xuyên qua toàn bộ chiếc cột khổng lồ, cày nát tạo nên những vết nứt chằng chịt nứt toác thấu suốt thảy bầy chiến binh chỉ có độc nửa thân trên đang mọc sừng sững trên cột, đập vỡ vụn nát tươm thảy thảy họ chỉ trong một tích tắc ngắn ngủi."
+  },
+  {
+    "en": "And neither was the ice warrior lending its hand to Emilia on the slant an exception.",
+    "vi": "Và dĩ nhiên, chiến binh băng giá đang vươn tay nâng đỡ cho Emilia ngay trên sườn dốc cong vát d dứt định dẫu quyết chả phải ngoại lệ."
+  },
+  {
+    "en": "Emilia: \"ーーAh.\"",
+    "vi": "Emilia: “——Á.”"
+  },
+  {
+    "en": "The hand she had grasped shattered from the tip of its shoulder, and Emilia's body fell, having lost its support. The ice warrior, with a sharp expression of eyes, tried to halt her but neither of its hands could reach anymore.",
+    "vi": "Bàn tay cô đang nắm chặt dẫu vỡ vụn nát tươm ngay từ đầu bả vai gã phóng ra, và cơ thể kiều diễm của Emilia dứt định rơi tự do xuống dưới do hoàn toàn mất đi điểm tựa bảo hộ nâng đỡ. Chiến binh băng giá kia, với ánh mắt sắc lẹm đặc trưng đầy kiêu hãnh kiên định, nỗ lực điên cuồng vươn tay giữ cô lại thế nhưng thảy đôi bàn tay của gã d dứt định quyết chả thể nào chạm tới nổi nữa rồi."
+  },
+  {
+    "en": "Instantly, suspension enveloped the entirety of Emilia's body, putting Emilia's risky climb of the pillar to waste, invalidating it all and placing her back onto the first layerーー that was not what occurred.",
+    "vi": "Ngay tích tắc ngắn ngủi ấy, cảm giác lơ lửng giữa khoảng không bao trùm lấy toàn bộ cơ thể kiều diễm của Emilia, biến công sức leo bám chật vật mạo hiểm hiểm nghèo dường ấy của cô trên chiếc cột khổng lồ d dứt định dẫu đổ sông đổ biển tiêu biến lãng phí sạch sẽ, trả cô về lại vạch xuất phát tầng thứ nhất——thế nhưng thật chả ngờ, kịch bản tàn khốc dường ấy d dứt định dẫu quyết chả hề diễn ra xảy ra."
+  },
+  {
+    "en": "Emilia: \"Lord save me~!\"",
+    "vi": "Emilia: “Ông trời cứu con với cứu con với lị~!”"
+  },
+  {
+    "en": "The height of the pillar she had attempted to clamber, Emilia was supposed to fall down multiple tens of metres. Emilia inhaled upon that premonition, however, something caught Emilia's hips unexpectedly quickly.",
+    "vi": "Với độ cao của chiếc cột khổng lồ cô nỗ lực chinh phục bám bám leo trèo nãy giờ, đáng lý ra Emilia d dứt định dẫu phải rơi rụng xuống đất thẳng băng cự ly vài chục mét dài dặc. Emilia nín thở trong lồng ngực trước linh cảm tồi tệ dường ấy, thế nhưng thật chả ngờ, một thực thể nào đó dẫu chộp lấy khống chế nhẹ nhàng vùng hông của Emilia nhanh vun vút chả ngờ nổi."
+  },
+  {
+    "en": "Not an ice warrior. In terms of sensation, all of the ice warriors growing from the pillar had all been shattered.",
+    "vi": "Quyết chả phải một chiến binh băng giá. Xét về mặt giác quan cảm giác cảm nhận, thảy thảy bầy chiến binh băng tuyết mọc sừng sững trên chiếc cột khổng lồ thảy thảy đều bị đập vỡ vụn nát tươm sạch sẽ từ lúc nãy rồi lị."
+  },
+  {
+    "en": "Furthermore, her hands were immediately touching something rugged and rigidーー,",
+    "vi": "Hơn thế nữa dẫu vậy, đôi bàn tay kiều diễm của cô ngay lập tức chạm phải một thực thể vô cùng xù xì thô ráp và cực kỳ cứng cáp sắt đá——,"
+  },
+  {
+    "en": "Emilia: \"Could it be......\"",
+    "vi": "Emilia: “Liệu có khi nào là......”"
+  },
+  {
+    "en": "Volcanica: [ーーThou, who hath reached the top of the tower. Step forth through the first floor, almighty petitioner.]",
+    "vi": "Volcanica: [——Hỡi kẻ đã đặt chân lên đỉnh tòa tháp. Hãy bước tới tầng thứ nhất, hỡi thỉnh nguyện giả vạn năng.]"
+  },
+  {
+    "en": "A voice reached her from close proximity, as Emilia confirmed the winds of high heights and the sensation below her hips.",
+    "vi": "Một chất giọng đanh thép cất lên vang vọng ngay kề sát cự ly cực gần bên tai cô, trong khi Emilia đang nỗ lực xác nhận luồng cuồng phong bão tố gào rú trên cao rộng lớn và giác quan cảm nhận nhạy bén ngay phía dưới hông mình."
+  },
+  {
+    "en": "Due to the nearness of that voice, Emilia made a delayed realisation. ーーThat she, had fallen on top of the『Divine Dragon』Volcanica's back.",
+    "vi": "Chính vì khoảng cách kề sát cự ly cực gần của chất giọng ấy, Emilia mới muộn màng nhận thức sực nhận ra sự thật kinh hoàng chả ngờ. ——Rằng cô, dẫu vừa đáp thẳng nằm sõng soài ngay trên lưng của chính vị 『Thần Long』 Volcanica vĩ đại."
+  },
+  {
+    "en": "Emilia: \"ーー~hk! Stay focused! From here I may be able to.\"",
+    "vi": "Emilia: “——! Phải tập trung cao độ vững vàng tinh thần tinh thần lên nào! Từ vị trí hiểm chốt này, tớ d dứt định dẫu khả dĩ làm được đấy.”"
+  },
+  {
+    "en": "She may, once again, be able to use Volcanica as a stool and reach the pillar.",
+    "vi": "Cô d dứt định khả dĩ thêm một lần nữa khôn ngoan biến tấm thân của Volcanica làm bàn đạp bệ đỡ nâng đỡ để leo bám tiếp cận chiếc cột khổng lồ."
+  },
+  {
+    "en": "So planned Emilia, but the distress of being unable to execute that with ease descended upon her.",
+    "vi": "Mưu đồ kế hoạch vạch ra dường ấy là thế, thế nhưng nỗi ngặt nghèo hiểm nghèo của việc quyết chả thể nào thi triển thực thi chuyện đó một cách dễ dàng dễ dàng d dứt định dẫu lập tức ập xuống đè nặng lên cô."
+  },
+  {
+    "en": "Flapping its wings, Volcanica ascended and twisted its body, intending to throw her off.",
+    "vi": "Điên cuồng vỗ mạnh đôi cánh rồng vĩ đại, Volcanica lao vút lên cao phía trên và liên tục vặn vẹo cơ thể đồ sộ của nó, rắp tâm muốn hất văng tống khứ cô rơi rụng xuống đất."
+  },
+  {
+    "en": "Emilia: \"ーーUgh, u~u~u~ugh.\"",
+    "vi": "Emilia: “——Ư... ư~ ư~ ư~!”"
+  },
+  {
+    "en": "Enduring the mighty, powerful wind assailing upon her body, Emilia desperately clung to the dragon's spine.",
+    "vi": "Nỗ lực gồng mình gánh chịu luồng cuồng phong mạnh mẽ phi thường gào rú liên tiếp tạt thẳng vào cơ thể kiều diễm, Emilia điên cuồng bám chặt bấu chặt lấy xương sống của rồng thần."
+  },
+  {
+    "en": "Physical wind Emilia had never felt until nowーー what she was clinging to were scales, every single one of them colossal and tenacious akin to rocks, and she would not be able to persist for long should things remain this way.",
+    "vi": "Luồng cuồng phong vật lý mãnh liệt phi thường gào rú mà Emilia chưa từng bao giờ nếm trải gánh chịu cho đến thời điểm hiện tại——thứ cô đang điên cuồng bấu chặt leo bám dẫu chính là đống vảy rồng cứng cáp, mỗi một chiếc vảy d dứt định dẫu đồ sộ khổng lồ và kiên cố sắt đá chả khác nào bầy đá tảng thô ráp, và cô chắc chắn d dứt định quyết chả thể nào cầm cự chống đỡ nổi lâu dài được nếu tình thế cứ mãi tiếp diễn thế này."
+  },
+  {
+    "en": "Furthermore, Volcanica was merely flying in the sky with freedom.",
+    "vi": "Hơn thế nữa dẫu vậy, Volcanica thực chất dẫu chỉ đang tự do bay lượn vút lên giữa bầu trời một cách thoải mái tự tại mà thôi lị."
+  },
+  {
+    "en": "She was not basking in a tail whip, hammer arm, much less its dragon breath.",
+    "vi": "Cô hiện tại d dứt định quyết chả phải hứng chịu cú quất đuôi tàn bạo, móng vuốt bạt tai càn quét, càng chả phải Long Tức hơi thở bỏng cháy tàn sát."
+  },
+  {
+    "en": "It was merely flying with vigour, seeking to make the clinging Emilia fall.",
+    "vi": "Nó thực tế chỉ đang điên cuồng phi nhanh bay lượn vút lên, âm mưu làm cho một Emilia đang điên cuồng bám chặt kia phải rơi rụng mất dạng mà thôi."
+  },
+  {
+    "en": "Should she lose to this, it would be far tooーー,",
+    "vi": "Nếu cô d dứt định chuốc lấy thất bại thảm hại trước thử thách quèn dường này, thì chuyện đó d dứt định dẫu quá đỗi——,"
+  },
+  {
+    "en": "Emilia: \"ーーI would, no longer be able to look Subaru and everyone else in the eye.\"",
+    "vi": "Emilia: “——Tớ chắc chắn d dứt định dẫu chả còn mặt mũi nào để gặp mặt đăm đắm nhìn vào đôi mắt của Subaru và thảy mọi người nữa rồi lị.”"
+  },
+  {
+    "en": "Should she heedlessly open her mouth, her lungs might get ruptured by the plunging wind.",
+    "vi": "Chỉ cần cô sơ hở dại dột hé miệng cất lời, hai lá phổi của cô rất có khả năng d dứt định dẫu bị xé rách nứt toác bởi luồng cuồng phong tạt mạnh điên cuồng kia."
+  },
+  {
+    "en": "Her eyes cast downwards, her molars gritted tightly, Emilia thought back to the people she cherished beyond her eyelids.",
+    "vi": "Đôi mắt cast đăm đắm nhìn xuống dưới chân, hàm răng nghiến chặt grịt cứng lại, Emilia khẽ hồi tưởng ngẫm nghĩ về bóng dáng những người thân yêu trân quý ngự trị phía sau mí mắt cô kiều diễm."
+  },
+  {
+    "en": "Resolve akin to having to die, but that was not the case.",
+    "vi": "Một sự quyết tâm sắt đá kiên định chả khác nào phải đối diện đối mặt với cái chết cận kề, thế nhưng hoàn cảnh thực tế d dứt định dẫu quyết chả phải tiêu cực bi thảm dường ấy."
+  },
+  {
+    "en": "The purpose of Emilia thinking of the people she cherished, was so that she could face forward.",
+    "vi": "Mục đích tối thượng để Emilia khát khao ngẫm nghĩ về những người thân yêu trân quý của mình, dẫu chính là để giúp cô có động lực vững vàng hướng thẳng về phía trước."
+  },
+  {
+    "en": "For her to be given a push on her back, and to gain the courage to look ahead.",
+    "vi": "Để cô được yểm hộ nâng đỡ tiếp thêm sức mạnh từ phía sau lưng, và giành lấy lòng dũng cảm chí mạng đăm đắm hướng về tương lai phía trước."
+  },
+  {
+    "en": "\"ーーーー\"",
+    "vi": "“————”"
+  },
+  {
+    "en": "Even whilst being swallowed by the tremendous winds, Emilia forced her eyelids to open.",
+    "vi": "Ngay cả khi đang bị luồng cuồng phong mãnh liệt phi thường gào rú nuốt chửng hoàn toàn cơ thể kiều diễm, Emilia vẫn gượng sức kiên quyết căng rộng mí mắt của mình ra."
+  },
+  {
+    "en": "A circumstance wherein she had to pour the entirety of her strength or she would be unable to even open her eyelids. In its midst, without losing the strength of her amethyst eyes, Emilia dared to open her eyes to discover a means to survive.",
+    "vi": "Một hoàn cảnh ngặt nghèo hiểm nghèo đến mức cô buộc phải huy động đổ sạch sành sanh toàn bộ sức tàn lực kiệt của bản thân, bằng không d dứt định dẫu quyết chả thể nào hé mở nổi mí mắt kiều diễm. Ngay giữa hiểm cảnh dường ấy, quyết chả hề làm lung lay uy lực phi thường rực cháy bên trong đôi mắt màu thạch anh tím kiều diễm, Emilia dũng cảm căng rộng đôi mắt mở to mắt nhắm thẳng hướng tìm kiếm tìm kiếm phương án khả dĩ sống sót giữ mạng."
+  },
+  {
+    "en": "Humans are beings who end up closing their eyes in times of being crushed by fright and insecurity.",
+    "vi": "Con người vốn dĩ d dứt định là những sinh vật chả tự chủ nổi dẫu phải nhắm chặt mắt lại vào những khoảnh khắc sinh tử bị nghiền nát đè bẹp bởi sự hoảng sợ kinh hoàng và nỗi chao đảo bất an."
+  },
+  {
+    "en": "But, the people whom Emilia cherished depicted in the rear of her eyelids, faced forward in precisely such times. People who did not close their eyes in times precisely as those.",
+    "vi": "Thế nhưng, bóng hình của những người thân yêu trân quý mà Emilia hằng nâng niu nâng niu phía sau mí mắt, d dứt định dẫu kiên định hướng thẳng về phía trước vào chính những thời khắc ngặt nghèo hiểm nghèo hiểm nghèo y hệt dường này. Những con người kiên cường quyết chả bao giờ chịu nhắm mắt lại vào những tích tắc sinh tử như thế."
+  },
+  {
+    "en": "She must, have her eyes remain open.",
+    "vi": "Cô d dứt định buộc phải kiên quyết căng rộng mắt mở to mắt kiên cường."
+  },
+  {
+    "en": "In order to reach for something, in order to hold someone's hand, andーー,",
+    "vi": "Để có thể vươn tay chộp lấy một thứ gì đó vinh quang, để có thể nắm chặt lấy bàn tay của một ai đó thân thương, và d dứt định dẫu là——,"
+  },
+  {
+    "en": "Emilia: \"ーーThat, weirdo.\"",
+    "vi": "Emilia: “——Cái thực thể kỳ dị ma mị đó.”"
+  },
+  {
+    "en": "The whole surface, left and right, everywhere, the spectacle was under the reign of blue.",
+    "vi": "Toàn bộ bề mặt xung quanh rộng lớn, bên trái bên phải, khắp thảy mọi ngóc ngách ngóc ngách, toàn bộ cảnh tượng ngợp trời d dứt định dẫu nằm dưới sự thống trị độc tôn của sắc xanh lam rực rỡ."
+  },
+  {
+    "en": "Though Emilia being in skies even above clouds was also a reason, it was also because the『Divine Dragon』Emilia was clinging to was clad in brilliant blue scales.",
+    "vi": "Dẫu cho việc Emilia hiện tại đang ở trên bầu trời cao thậm chí vượt qua cả bầy mây trắng xóa d dứt định dẫu là một nguyên cớ chính yếu, thế nhưng chuyện đó d dứt định dẫu là bởi vì vị 『Thần Long』 vĩ đại mà Emilia đang điên cuồng bám chặt bấu lấy đang được bao bọc kiêu hãnh trong đống vảy xanh lam rực rỡ lấp lánh."
+  },
+  {
+    "en": "Since everything aside from that quickly passed by due to their exceedingly high speed, even Emilia's perception of moving bodies, which could discern even the path of a thrown ball like a seam, couldn't capture the world within itself.",
+    "vi": "Bởi lẽ thảy mọi vật thể ngoại cảnh bên ngoài thảy đều nhanh vun vút vút trôi qua trước mắt do tốc độ phi đại phi thường kinh hoàng của đôi bên, ngay cả giác quan nhận thức nhạy bén của Emilia khả dĩ thấu suốt thấu suốt cả quỹ đạo chuyển động lướt nhanh của một quả bóng như vệt chỉ khâu, d dứt định dẫu quyết chả thể nào nắm bắt khống chế nổi hình ảnh thế giới xung quanh một cách đàng hoàng được."
+  },
+  {
+    "en": "Thus, what Emilia's awareness captured was not the world outside of the blue.",
+    "vi": "Do đó, thứ duy nhất mà nhãn quan ý thức của Emilia khả dĩ bắt khống chế trọn vẹn quyết chả phải thế giới bao la bên ngoài sắc xanh lam rực rỡ kia."
+  },
+  {
+    "en": "Volcanica: [ーーI, am Volcanica. In accordance with the ancient covenant, I ask the will of thee who hath reached the summit.]",
+    "vi": "Volcanica: [——Ta là Volcanica. Chiếu theo giao ước cổ xưa, ta hỏi ý chí của kẻ đã chạm tới đỉnh cao.]"
+  },
+  {
+    "en": "Volcanica soared whilst twisting and turning its body.",
+    "vi": "Volcanica liên tục phi nhanh bay lượn vút lên trong khi không ngừng uốn lượn vặn vẹo cơ thể khổng lồ đồ sộ của nó."
+  },
+  {
+    "en": "It seemed the area Emilia was clinging to was around the base of Volcanica's wings. Enigmatically, the dragon did not move its wings with that much engagement. Though it was necessary for birds and insects to flutter their wings for flight, the principle of dragon's flight appeared to be different.",
+    "vi": "Có vẻ như địa điểm vị trí mà Emilia đang điên cuồng bám chặt bấu lấy d dứt định dẫu ở xung quanh phần gốc của đôi cánh rồng Volcanica. Một cách thần kỳ dị thường chả ngờ, con rồng thần quyết chả hề cử động đôi cánh vĩ đại của nó quá dữ dội dập dồn làm gì cả. Dù cho việc điên cuồng vỗ cánh liên tục d dứt định dẫu là tối khẩn thiết tối cần thiết đối với loài chim quèn hay bầy côn trùng nhỏ bé để bay lượn, thế nhưng chân lý nguyên lý bay lượn của loài rồng thần d dứt định dẫu hoàn toàn khác biệt cách biệt."
+  },
+  {
+    "en": "It was surely closer to Puck or Roswaal's mechanism for flying.",
+    "vi": "Nó chắc chắn d dứt định dẫu tương đồng gần gũi nhất với kĩ nghệ bay lượn cơ chế hoạt động của Puck hay Roswaal mà thôi."
+  },
+  {
+    "en": "If soーー,",
+    "vi": "Nếu đã dẫu là thế thì——,"
+  },
+  {
+    "en": "Emilia: \"Roswaal used magic...... Puck too, used a mysterious power so.\"",
+    "vi": "Emilia: “Roswaal đã vận dụng ma pháp điêu luyện...... cả Puck dẫu vậy, d dứt định dẫu vận dụng một loại uy lực phi thường ma mị thần kỳ dường ấy lị.”"
+  },
+  {
+    "en": "Unfortunately, never had she tried this with Roswaal, nor did she intend to.",
+    "vi": "Thật đáng tiếc nuối tột cùng, cô chưa từng bao giờ có cơ hội thử nghiệm chuyện này cùng Roswaal, và dĩ nhiên cô d dứt định quyết chả hề có ý định mạo hiểm thử làm gì cả."
+  },
+  {
+    "en": "However, for an extensive duration, Emilia had lived and spent time together with her family whom she thought comprised of solely one.",
+    "vi": "Tuy nhiên, trong suốt một khoảng thời gian dài đằng đẵng qua, Emilia d dứt định dẫu sinh sống và trải qua chuỗi ngày êm đềm kề vai sát cánh cùng gia đình nhỏ bé trân quý mà cô từng ngỡ tưởng d dứt định chỉ có độc độc vỏn vẹn duy nhất một người mà thôi lị."
+  },
+  {
+    "en": "For this singular year, they had been separated, and there had been multiple instances of her feeling incredibly lonely. Sometimes she nearly cried at night, but reminiscences provided support through it.",
+    "vi": "Trong suốt một năm dài đằng đẵng ròng rã biệt tăm biệt tích này, cả hai d dứt định dẫu bị chia cách chia lìa, và đã có vô vàn khoảnh khắc ngặt nghèo cô cảm nhận thấy bản thân vô cùng cô độc hoang tàn chao đảo tủi nhục vô ngần. Thỉnh thoảng cô d dứt định dẫu suýt khóc thảm thiết gào khóc vào đêm khuya thanh vắng, thế nhưng những mảnh ký ức trân quý d dứt định dẫu yểm hộ bảo hộ tiếp thêm sức mạnh phi thường giúp cô vượt qua thấu suốt thảy."
+  },
+  {
+    "en": "And the voice present within those reminiscences, showed hope to Emilia in this pressing time.",
+    "vi": "Và, chất giọng thân thương ngự trị bên trong những mảnh hồi ức quý giá dường ấy, d dứt định dẫu khai phá mở ra một tia hy vọng cứu mạng sáng ngời cho Emilia ngay giữa chính thời khắc ngặt nghèo hiểm nghèo ngàn cân treo sợi tóc dường này."
+  },
+  {
+    "en": "That wasーー,",
+    "vi": "Đó d dứt định dẫu chính là——,"
+  },
+  {
+    "en": "Emilia: \"I'm just guessing here, but could it be that you also don't like to have your neck tickled?\"",
+    "vi": "Emilia: “Tớ d dứt định chỉ đang phán đoán phán đoán mò chút thôi lị, thế nhưng liệu có khi nào ông d dứt định dẫu quyết chả ưa thích chả ưa thích việc bị cù lét ngay cổ họng giống thế chăng lị?”"
+  },
+  {
+    "en": "The amethyst eyes opened with force, captured the long neck of the 『Divine Dragon』 twisting its frame. Below that draconic jaw, amidst the uniform blue scales was a sole white scale.",
+    "vi": "Đôi mắt màu thạch anh tím kiều diễm căng rộng mở to ra đầy uy lực lực mạnh, chộp khống chế trọn vẹn cái cổ dài của vị 『Thần Long』 vĩ đại đang ra sức vặn vẹo cơ thể. Ngay phía dưới cái cằm khổng lồ uy nghiêm của rồng thần, ẩn hiện ngay giữa tầng tầng lớp lớp vảy rồng xanh lam rực rỡ đồng đều chính là một chiếc vảy trắng ngần duy nhất lạc loài."
+  },
+  {
+    "en": "ーーThe days of frolicking about with Puck dawned onto Emilia's mind.",
+    "vi": "——Chuỗi ngày vui đùa giỡn nghịch ngợm đùa nghịch cùng Puck d dứt định dẫu lập tức ùa về trào dâng rực rỡ bên trong tâm trí Emilia."
+  },
+  {
+    "en": "'Stop it, Lia~. If you do it so softly then my concentration will get disturbed, you know?'",
+    "vi": "“Đừng làm thế mà, Lia~. Nếu con cứ nhẹ nhàng giở trò cù lét dường ấy thì sự tập trung tinh thần của ta chắc chắn d dứt định dẫu bị chao đảo quấy nhiễu quấy nhiễu mất thôi, con biết chăng?”"
+  },
+  {
+    "en": "Emilia: \"ーーIsn't that right, Puck.\"",
+    "vi": "Emilia: “——Chả phải chính xác d dứt định dẫu là thế sao lị, Puck.”"
+  },
+  {
+    "en": "Accompanied with a responding voice, Emilia concentrated her consciousness.",
+    "vi": "Hòa cùng tiếng thì thầm cất lời phản hồi dường ấy đầy kiêu hãnh, Emilia tập trung toàn bộ tâm ý nhận thức tinh thần của mình."
+  },
+  {
+    "en": "Amidst this mighty wind, Emilia did not possess the strength to directly reach that white scale. However, what she had learnt by the pillar, could be resuscitated even should the other party change from an inorganic to an organic substance.",
+    "vi": "Ngay giữa cơn cuồng phong gào rú mãnh liệt phi thường dường này, Emilia d dứt định quyết chả sở hữu nổi lấy phân sức lực nào để khả dĩ trực tiếp vươn dài tay chạm tới chiếc vảy trắng ngần khổng lồ kia đàng hoàng. Thế nhưng dẫu vậy, những kĩ nghệ chiêu trò cô đã học tập học tập được ngay bên chiếc cột khổng lồ, d dứt định dẫu khả dĩ được tái ngộ thi triển xuất chúng ngay cả khi đối tượng biến chuyển từ một thực thể vô cơ sang một sinh vật sống hữu cơ xương thịt hoàn chỉnh."
+  },
+  {
+    "en": "Emilia: \"ーーSoldier-san.\"",
+    "vi": "Emilia: “——Bầy chiến binh ơi.”"
+  },
+  {
+    "en": "Ahead of Emilia's cognizance, the soldiers of ice once again appeared around the white scale.",
+    "vi": "Ngay trước nhãn quan ý thức của Emilia, bầy chiến binh băng giá d dứt định dẫu thêm một lần nữa kiêu hãnh hiển hiện sừng sững ngự trị ngay xung quanh chiếc vảy trắng ngần kia."
+  },
+  {
+    "en": "Ice soldiers which were solidly supporting each other with merely their upper bodies, and one that was born in their core steadily extended its hand towards the white scaleーー,",
+    "vi": "Bầy chiến binh băng tuyết d dứt định tự khóa tay kề vai sát cánh nâng đỡ yểm trợ đắc lực lẫn nhau kiên cố với chỉ độc nửa thân trên sừng sững mọc ra, và kẻ được kiến tạo sinh ra ngay tại cốt lõi trung tâm của họ dẫu kiên định vươn dài bàn tay băng giá hướng thẳng về phía chiếc vảy trắng ngần độc tôn kia——,"
+  },
+  {
+    "en": "Volcanica: [ーーーーHaaahraaan!?]",
+    "vi": "Volcanica: [————Haaahraaan!?]"
+  },
+  {
+    "en": "ーーFor the first time, Emilia heard a voice apart from the『Divine Dragon's』repetitions.",
+    "vi": "——Lần đầu tiên trong cõi đời, Emilia d dứt định nghe thấy một chất giọng hoàn toàn khác biệt nằm ngoài mớ ngôn từ rập khuôn rập khuôn rập khuôn của vị 『Thần Long』 vĩ đại kia."
+  },
+  {
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "en": "ーーReverse scale, there existed a phrase so.",
+    "vi": "——Chiếc vảy ngược (nghịch lân), vẫn luôn tồn tại một cách nói cách nói ví von dường ấy."
+  },
+  {
+    "en": "This phrase, originating from ancient Chinese traditions, spoke of dragons, who were legendary beings, each possessing a singular scale which shan't be touched on their throat, called a『Reverse Scale』.",
+    "vi": "Cụm từ dường ấy, bắt nguồn khởi nguồn từ bầy truyền thuyết cổ xưa xa xăm xa xôi của Trung Hoa đại lục cổ đại, kể về loài rồng khổng lồ, những thực thể huyền thoại vĩ đại, mỗi một cá thể d dứt định sở hữu duy nhất một chiếc vảy trắng ngần chả bao giờ được phép cho bất kỳ ai mạo hiểm chạm trúng ngự trị ngay tại vị trí cổ họng, được xưng tụng là vị 『Nghịch Lân』."
+  },
+  {
+    "en": "A dragon, whose reverse scale was touched, fell into rage and assuredly killed the opponent.",
+    "vi": "Loài rồng khổng lồ vĩ đại dường ấy, một khi vị nghịch lân nghịch lân d dứt định bị bất kỳ ai phạm phải chạm trúng, d dứt định dẫu lập tức trào dâng cơn căm phẫn thịnh nộ tột cùng phát điên phát cuồng và chắc chắn d dứt định đoạt mạng đoạt mạng tiêu diệt sạch sẽ đối thủ chả nương tay."
+  },
+  {
+    "en": "Originating from that custom, to touch a part of the opponent which shall not be touched came to be expressed with the phrase \"Touching the reverse scale\".",
+    "vi": "Bắt nguồn từ sự điển tích cổ xưa ấy, hành vi cố tình chạm phạm phải một khía cạnh yếu điểm nhạy cảm chả được phép đụng tới của đối phương d dẫu được ví von diễn đạt bằng cụm từ đanh thép “Chạm vảy ngược” (chạm lòng tự ái/yếu điểm)."
+  },
+  {
+    "en": "Of course, Emilia possessed no reason to be aware of such origins of historic phrases from a disparate world.",
+    "vi": "Dĩ nhiên, Emilia d dứt định quyết chả sở hữu nổi lấy phân lý do nào để khả dĩ thấu suốt thấu suốt được cái nguồn gốc điển tích lịch sử sâu xa của bầy cụm từ thành ngữ từ một thế giới bao la cách biệt chả liên quan dường ấy cả."
+  },
+  {
+    "en": "She sought to touch the white scale on the dragon's throat in order to muddle the concentration of the opponent, who was vigorously flying about attempting to make her fall, and buy an interval of time.",
+    "vi": "Cô thực tế chỉ đơn thuần khát khao chạm thử vào chiếc vảy trắng ngần ngự trị ngay cổ họng rồng thần nhằm mục đích phá vỡ phá vỡ sự tập trung tinh thần nhận thức của đối thủ, kẻ đang điên cuồng bay lượn lộn nhào dữ dội ngợp trời hòng hất văng cô rơi rụng xuống đất, để khôn ngoan câu giờ mua lấy một khoảnh khắc sơ hở thời gian ngắn ngủi mà thôi lị."
+  },
+  {
+    "en": "Howeverーー,",
+    "vi": "Thế nhưng thật chả ngờ nổi lị——,"
+  },
+  {
+    "en": "Emilia: \"Kya~a~a~a~!!\"",
+    "vi": "Emilia: “Kya~a~a~a~!!”"
+  },
+  {
+    "en": "Screaming as she was hurled into the air, Emilia witnessed the earth and the heavens revolve round and round for her.",
+    "vi": "Hét lên thảm thiết hét lên thất thanh giữa khoảng không khi cơ thể kiều diễm bị quăng quật mạnh hất tung vọt lên giữa trời cao bao la, Emilia đăm đắm chứng kiến cả đất trời d dứt định đảo điên đảo lộn xoay mòng mòng mòng mòng trước nhãn quan."
+  },
+  {
+    "en": "However, her suspension midair lasted even shorter this time compared to when she had landed on the dragon's spine earlier.",
+    "vi": "Thế nhưng dẫu vậy, khoảng thời gian cô lơ lửng rơi tự do giữa không trung phẳng lặng lần này d dứt định lại trôi qua nhanh chóng ngắn ngủi hơn nhiều so với khoảnh khắc cô đáp thẳng nằm sõng soài ngay trên lưng rồng lúc nãy."
+  },
+  {
+    "en": "Caught by a solid sensation, Emilia took an entirely defensive stance and tumbled.",
+    "vi": "Hứng trọn chịu đựng lấy một cảm giác vô cùng cứng cáp kiên cố sắt đá đỡ lấy dưới thân, Emilia lập tức khôn ngoan vận dụng tư thế phòng thủ hộ vệ tuyệt hảo trọn vẹn và nhào lộn cuộn tròn người giảm chấn giảm chấn."
+  },
+  {
+    "en": "And, nimbly standing up at that spot, she remained cautious regarding her environs.",
+    "vi": "Và, nhanh nhẹn nhe nhe gượng đứng thẳng dậy kiêu hãnh ngay tại địa điểm ấy, cô lập tức đề cao cảnh giác đề phòng tối đa hướng tầm nhãn quan thăm dò xung quanh."
+  },
+  {
+    "en": "\"ーーーー\"",
+    "vi": "“————”"
+  },
+  {
+    "en": "Breathing hoarsely, Emilia glanced around her environs.",
+    "vi": "Thở dốc dồn dập dồn dập mệt mỏi rã rời, Emilia đảo mắt đăm đắm quan sát bao quát khắp không gian xung quanh cô."
+  },
+  {
+    "en": "Fortunately, there were no hints of an abrupt attack assailing down upon Emilia. That too was a matter of course. At present, Volcanica, the subject of her utmost vigilance, was far, far above.",
+    "vi": "Thật may mắn thay, quyết chả hề có lấy một tia dấu hiệu áp khí hiểm ác công kích đột ngột nào giáng xuống nhắm thẳng vào Emilia cả. Chuyện đó d dứt định d dứt định dẫu là lẽ đương nhiên thôi lị. Vào thời điểm hiện tại, Volcanica, đối tượng tối khẩn thiết khiến cô đề cao cảnh giác dè chừng nhất nãy giờ, d dứt định đang ở tít tít tắp, tít tắp trên cao rộng lớn."
+  },
+  {
+    "en": "Volcanica: [ーーHaahraan.]",
+    "vi": "Volcanica: [——Haahraan.]"
+  },
+  {
+    "en": "As if extraordinarily revolted by its white scale being touched, Volcanica agonized as it ascended to higher skies.",
+    "vi": "Như thể vô cùng, vô cùng phẫn uất căm hận căm hận tột độ vì vị nghịch lân vảy trắng quý giá bị phạm phải chạm trúng tàn nhẫn, Volcanica đau đớn oằn mình oằn mình bay lượn vút thẳng lên tận tầng trời cao tít tắp rộng lớn hơn nữa."
+  },
+  {
+    "en": "With the echo of a wail ostensibly crunching the sky, Emilia involuntarily rounded her eyes.",
+    "vi": "Hòa cùng tiếng gào thét thảm thiết thê lương rít gào tựa như muốn nghiền nát bóp vụn cả bầu trời cao bao la dội lại, Emilia quyết chả tự chủ nổi d dứt định phải căng tròn mở to mắt mở to mắt sửng sốt."
+  },
+  {
+    "en": "Emilia: \"Puck used to enjoy it though......\"",
+    "vi": "Emilia: “Cơ mà Puck hồi xưa d dứt định dẫu vô cùng ưa thích ưa thích cái trò ấy cơ mà lị......”"
+  },
+  {
+    "en": "Regardless, it was each person's individual response to enjoy it or to not enjoy it.",
+    "vi": "Dẫu sao thì, việc có hứng thú ưa thích hay quyết chả thèm ưa thích chuyện cù lét dường ấy d dứt định dẫu là phản ứng cá nhân tự tại đặc thù của mỗi thực thể riêng biệt mà thôi lị chả trách được."
+  },
+  {
+    "en": "Admonishing herself to not become self-assertive, Emilia affirmed the sensation of her limbs.",
+    "vi": "Khẽ tự nhắc nhở bản thân quyết chả được phép nông nổi tự phụ tự phụ phiến diện dường ấy, Emilia nhanh chóng nỗ lực cảm nhận xác nhận lại giác quan tứ chi của mình."
+  },
+  {
+    "en": "Tremendously swung about by Volcanica, the blood flow of her body had become slightly strange.",
+    "vi": "Bị quăng quật mạnh quay cuồng điên cuồng điên cuồng dữ dội bởi Volcanica nãy giờ, tuần hoàn lưu thông máu tươi trong cơ thể kiều diễm của cô d dứt định dẫu trở nên có chút dị thường bất thường chao đảo."
+  },
+  {
+    "en": "Depending on the situation, hindrances in the blood flow resulted in the phenomena of losing vision due to lack of blood flow into the brain, but Emilia had managed to barely hold out.",
+    "vi": "Tùy thuộc vào từng hoàn cảnh, những trở ngại cản trở trong tuần hoàn máu tươi d dứt định dẫu dẫn tới hiện tượng mất nhãn quan nhãn quan tạm thời do thiếu hụt lượng máu tuần hoàn lên não bộ, thế nhưng Emilia d dứt định dẫu kiên cường trụ vững gượng gượng chống đỡ thành công vượt qua."
+  },
+  {
+    "en": "And, with that affirmation, Emilia took notice.",
+    "vi": "Và, cùng với sự xác nhận vững vàng dường ấy, Emilia đột ngột giật mình nhận ra một sự thật kinh ngạc chả ngờ."
+  },
+  {
+    "en": "Emilia: \"ーーAh! This place is.\"",
+    "vi": "Emilia: “——Ah! Địa điểm vị trí này d dứt định chính là.”"
+  },
+  {
+    "en": "Upon looking around, Emilia's field of vision was a storey above than the time she had arrived at the first layer.",
+    "vi": "Khi đăm đắm hướng tầm nhãn quan bao quát xung quanh, tầm mắt nhãn quan của Emilia d dứt định dẫu ngự trị ngự trị cao hơn hẳn một tầng so với thời khắc cô vừa đặt chân chạm trán tầng thứ nhất lúc nãy."
+  },
+  {
+    "en": "The absence of the five pillars supposed to be in her environs was proof of her having arrived at an altitude above their apexーー to name, precisely this place was the uppermost stratum.",
+    "vi": "Sự biến mất hoàn toàn chả còn hiện diện của năm chiếc cột khổng lồ kiên cố đáng lý ra phải sừng sững ngự trị xung quanh d dứt định chính là minh chứng đanh thép vô song cho thấy cô dẫu thành công đặt chân chạm tới độ cao vượt qua cả phần đỉnh cao trên cùng của chúng——để gọi tên chính xác chân thực, địa điểm này d dứt định chính là tầng tối thượng của tòa tháp."
+  },
+  {
+    "en": "She had reached it, in the form of getting dropped off Volcanica's back.",
+    "vi": "Cô d dứt định dẫu chạm tới được nơi này, dưới một kịch bản chả ngờ chính là bị rơi rụng văng ra từ ngay trên tấm lưng rồng của Volcanica."
+  },
+  {
+    "en": "The uppermost stratum of Pleiades Watchtower, an untrodden territory, at lastーー,",
+    "vi": "Tầng tối thượng kiêu hãnh của Tháp Giám Sát Pleiades, một vùng đất linh thiêng chưa từng có bất kỳ ai đặt chân khai phá khai phá, cuối cùng d dứt định dẫu hiển hiện trước mắt——,"
+  },
+  {
+    "en": "Emilia: \"Hell yeah, I did it! It was well worth working hard and persevering!\"",
+    "vi": "Emilia: “Tuyệt hảo quá đi mất lị, tớ d dứt định dẫu làm được rồi! Quả thực d dứt định dẫu vô cùng bõ công nỗ lực điên cuồng và kiên cường kiên trì gánh vác nãy giờ mà lị!”"
+  },
+  {
+    "en": "With a modest reaction to the emotionally moving happenings, Emilia put her hand on her chest, and made haste towards the core of the uppermost stratum immediately.",
+    "vi": "Với một phản ứng nhẹ nhàng thanh lịch chả kiêu ngạo trước chuỗi biến cố cảm động lay động tâm can vừa phát sinh, Emilia đặt khẽ bàn tay kiều diễm lên lồng ngực mình, và lập tức điên cuồng bứt tốc phi nhanh tiến thẳng về phía trung tâm cốt lõi của tầng tối thượng ngay tức khắc."
+  },
+  {
+    "en": "Should she act nonchalantly, the agonizing Volcanica may return.",
+    "vi": "Nếu cô d dứt định lơ là hành động thong thả chậm chạp quèn, vị Volcanica đang oằn mình oằn mình đau đớn trên cao kia rất có khả năng d dứt định dẫu nhanh chóng quay trở lại truy sát."
+  },
+  {
+    "en": "Before that occured, she must discover the『Trial』with the purpose of saving Subaru and the rest.",
+    "vi": "Trước khi hiểm cảnh ngặt nghèo dường ấy thực sự điểm xảy ra, cô d dứt định buộc phải ráo riết khai phá ra 『Thử Thách』 tối thượng với mục đích duy nhất là giải cứu giữ mạng cho Subaru cùng thảy mọi người."
+  },
+  {
+    "en": "Emilia: \"Please, give me a problem that even I know the answer to......\"",
+    "vi": "Emilia: “Làm ơn đi mà lị, hãy giao cho tớ một câu hỏi câu đố nào đó mà ngay cả một người như tớ d dứt định dẫu thừa sức thấu suốt thấu suốt được đáp án với......”"
+  },
+  {
+    "en": "Though Volcanica, having forgotten the『Trial』, too was a problem, what was another problem for Emilia was whether she would even be able solve the『Trial』of the first layer in the first place.",
+    "vi": "Mặc dù việc Volcanica dẫu quên sạch sành sanh thảy mọi thứ về 『Thử Thách』 d dứt định dẫu là một rắc rối nan giải kinh hoàng, thế nhưng một trở ngại nan giải khác đè nặng lên vai Emilia chính là liệu bản thân cô có thực sự đủ thông tuệ để khả dĩ giải mã nổi cái 『Thử Thách』 của tầng thứ nhất ngay từ đầu hay chăng nữa lị."
+  },
+  {
+    "en": "Bearing that fear, Emilia headed towards the centre of the uppermost stratum. And, arriving at the base of a pillar extending to the heavens there, Emilia said \"Ah\" and widened her eyes.",
+    "vi": "Gánh vác trên vai nỗi chao đảo bất an lo sợ dường ấy, Emilia kiên định dấn bước tiến về phía trung tâm cốt lõi của tầng tối thượng. Và, khi vừa chạm chân tới phần chân đế nâng đỡ của một chiếc cột khổng lồ vĩ đại đang vươn thẳng vút lên tận chín tầng mây xanh tại đó, Emilia khẽ thốt lên tiếng “Ah” và căng rộng đôi mắt mở to mắt kinh ngạc."
+  },
+  {
+    "en": "There it was. A peculiarity not possessed by the six pillars in the floor below.",
+    "vi": "Thực sự sừng sững ngự trị ngay tại nơi đó. Một điểm đặc thù dị thường bất thường tối thượng quyết chả hề ngự trị sừng sững trên sáu chiếc cột khổng lồ ở tầng phía dưới."
+  },
+  {
+    "en": "There certainly it was, the enigmatic peculiarity possessed solely by the pillar in the centre, of this uppermost stratum.",
+    "vi": "Dứt định chắn chắn sừng sững ngự trị tại đó, một điểm đặc thù bí ẩn ma mị chỉ độc độc ngự trị duy nhất tại chiếc cột trung tâm của tầng tối thượng linh thiêng này."
+  },
+  {
+    "en": "It wasーー,",
+    "vi": "Nó d dứt định chính là——,"
+  },
+  {
+    "en": "Emilia: \"ーーSomeone's, handprints?\"",
+    "vi": "Emilia: “——Dấu bàn tay dấu vân tay của một ai đó ư?”"
+  },
+  {
+    "en": "The uppermost stratum of Pleiades Watchtower, what was at the base of the pillar in its centre, was a black monolith.",
+    "vi": "Tầng tối thượng kiêu hãnh của Tháp Giám Sát Pleiades, thứ đang sừng sững ngự trị ngay tại phần chân đế của chiếc cột khổng lồ vĩ đại ngự trị ngay vị trí trung tâm của nó, chính là một khối đá nguyên khối màu đen tuyền huyền bí."
+  },
+  {
+    "en": "And on that black monolith, printed were handprints.",
+    "vi": "Và ngay trên khối đá nguyên khối đen tuyền huyền bí dường ấy, ngự trị in hằn rõ nét bầy dấu bàn tay."
+  },
+  {
+    "en": "ーーSix handprints, of respective differing men and women, had been printed.",
+    "vi": "——Sáu dấu bàn tay in hằn rõ nét mồn một, d dứt định thuộc về của sáu người đàn ông và phụ nữ hoàn toàn khác biệt lẫn nhau, dẫu được in dấu sắc nét tại đó."
+  },
+  {
+    "en": "※ ※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "en": "Did you enjoy reading this translation of the Re:Zero Starting Life in Another World unlicensed web novel?",
+    "vi": "Bạn có yêu thích thưởng thức bản dịch phi thương mại này của bộ Web Novel Starting Life in Another World chăng?"
+  },
+  {
+    "en": "Please consider supporting the translators of the Witch Cult Translation team through our Patreon!",
+    "vi": "Làm ơn hãy cân nhắc ủng hộ nhiệt tình cho bầy dịch giả kiệt xuất của đội ngũ dịch thuật Witch Cult Translation thông qua trang Patreon của họ nhé!"
+  },
+  {
+    "en": "※ ※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  }
+];
+
+const outDir = path.join(process.cwd(), 'scripts', 'translation_temp');
+fs.writeFileSync(
+  path.join(outDir, 'ch84.json'),
+  JSON.stringify(ch84, null, 2),
+  'utf-8'
+);
+console.log('Successfully wrote ch84.json');
