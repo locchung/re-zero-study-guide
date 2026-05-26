@@ -13,7 +13,7 @@ export function Sentence({ en, children }: SentenceProps) {
   return (
     <span
       onClick={() => setRevealed((r) => !r)}
-      className="cursor-pointer group/sentence hover:bg-amber-50 dark:hover:bg-amber-900/10 rounded transition-colors duration-150"
+      className="cursor-pointer group/sentence hover:bg-amber-50 dark:hover:bg-amber-900/15 rounded transition-colors duration-150"
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {
@@ -26,7 +26,7 @@ export function Sentence({ en, children }: SentenceProps) {
     >
       <span>{children}</span>
       {revealed && (
-        <span className="block mt-2 mb-3 pl-4 border-l-2 border-amber-400 text-sm italic text-gray-600 dark:text-gray-400 animate-fade-in-up">
+        <span className="block mt-2 mb-3 pl-4 border-l-2 border-amber-500 dark:border-amber-500 text-sm italic text-[#7a6c5e] dark:text-[#9c8e7e] animate-fade-in-up">
           {en}
         </span>
       )}

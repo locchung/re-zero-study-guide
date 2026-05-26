@@ -34,7 +34,7 @@ export function Word({ en, children }: WordProps) {
     <span
       ref={ref}
       onClick={handleClick}
-      className="relative cursor-pointer border-b border-dotted border-amber-500 hover:bg-amber-100 dark:hover:bg-amber-900/30 transition-colors rounded-sm"
+      className="relative cursor-pointer border-b border-dotted border-amber-600 dark:border-amber-500 hover:bg-amber-100/70 dark:hover:bg-amber-900/30 transition-colors rounded-sm"
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {
@@ -47,11 +47,11 @@ export function Word({ en, children }: WordProps) {
       {children}
       {show && (
         <>
-          <span className="hidden sm:inline-block absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 px-2.5 py-1 bg-gray-900 text-white text-sm rounded-lg shadow-lg whitespace-nowrap z-50 animate-fade-in">
+          <span className="hidden sm:inline-block absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 px-2.5 py-1 bg-[#2a1f14] text-[#e8dcc8] text-sm rounded-lg shadow-lg whitespace-nowrap z-50 animate-fade-in">
             {en}
-            <span className="absolute top-full left-1/2 -translate-x-1/2 border-[5px] border-transparent border-t-gray-900" />
+            <span className="absolute top-full left-1/2 -translate-x-1/2 border-[5px] border-transparent border-t-[#2a1f14]" />
           </span>
-          <span className="sm:hidden fixed bottom-4 left-4 right-4 px-4 py-3 bg-gray-900 text-white text-base rounded-xl shadow-2xl z-50 text-center animate-fade-in-up">
+          <span className="sm:hidden fixed bottom-4 left-4 right-4 px-4 py-3 bg-[#2a1f14] text-[#e8dcc8] text-base rounded-xl shadow-2xl z-50 text-center animate-fade-in-up">
             {en}
           </span>
         </>
