@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react'
 
-export type ReadLayout = 'inline' | 'parallel'
+export type ReadLayout = 'inline' | 'parallel' | 'paged'
 
 interface ReaderContextProps {
   layout: ReadLayout
@@ -16,7 +16,7 @@ export function ReaderProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem('re-zero-reader-layout') as ReadLayout
-    if (saved === 'inline' || saved === 'parallel') {
+    if (saved === 'inline' || saved === 'parallel' || saved === 'paged') {
       setLayoutState(saved)
     }
   }, [])
@@ -44,3 +44,4 @@ export function useReader() {
   }
   return context
 }
+
