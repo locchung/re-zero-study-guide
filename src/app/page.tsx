@@ -30,7 +30,7 @@ export default function Home() {
 
       <section>
         <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-          Arc 7 — Đế Quốc Thần Thánh Vollachia | Sacred Empire of Vollachia
+          Arc 7 — Vùng Đất Của Lũ Sói | The Land of Wolves
         </h2>
         <div className="grid gap-3 sm:grid-cols-2">
           {arc7Chapters.map((ch) => (
