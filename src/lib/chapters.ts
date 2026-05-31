@@ -52,6 +52,11 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-88', title: 'Chương 88: Ta Hỏi Ý Chí Của Ngươi | I ask thy Will', chapterNumber: 88, arc: 6 },
   { slug: 'chuong-89', title: 'Chương 89: Shaula | Shaula', chapterNumber: 89, arc: 6 },
   { slug: 'chuong-90', title: 'Chương 90: Anh Hùng | Hero', chapterNumber: 90, arc: 6 },
+  { slug: 'chuong-01', title: 'Chương 1: Lễ Rửa Tội | Baptism', chapterNumber: 1, arc: 7 },
+  { slug: 'chuong-02', title: 'Chương 2: Lần Theo Dấu Vết Dã Thú | Animal Tracking', chapterNumber: 2, arc: 7 },
+  { slug: 'chuong-03', title: 'Chương 3: Đối Đầu Với Rem | VS Rem', chapterNumber: 3, arc: 7 },
+  { slug: 'chuong-04', title: 'Chương 4: Lựa Chọn Quả Cảm | A Brave Choice', chapterNumber: 4, arc: 7 },
+  { slug: 'chuong-05', title: 'Chương 5: Làm Đàn Ông Thật Gian Nan | Being a Man is Tough', chapterNumber: 5, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
