@@ -1,0 +1,485 @@
+[
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 54,
+    "type": "EXACT COPY LEAK",
+    "en": "Anastasia: [Meili-chan.]",
+    "vi": "Anastasia: [Meili-chan.]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 112,
+    "type": "STOPWORD LEAK ['and']",
+    "en": "Beatrice and Ram, who were linked with the two of Subaru and Rem respectively, probably had a rough idea of their whereabouts.",
+    "vi": "Beatrice and Ram, những người lần lượt có sợi dây liên kết với Subaru và Rem, hẳn đều cảm nhận mơ hồ được tung tích của họ."
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 129,
+    "type": "EXACT COPY LEAK",
+    "en": "Anastasia: [If I’m not mistaken… The Kingdom of Lugunica ‘n the Vollachian Empire in the south signed a nonaggression pact that would last for the entire Royal Selection. Isn’ that right, Julius?]",
+    "vi": "Anastasia: [If I’m not mistaken… The Kingdom of Lugunica ‘n the Vollachian Empire in the south signed a nonaggression pact that would last for the entire Royal Selection. Isn’ that right, Julius?]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 200,
+    "type": "EXACT COPY LEAK",
+    "en": "Rem: [...m. ]",
+    "vi": "Rem: [...m. ]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 205,
+    "type": "EXACT COPY LEAK",
+    "en": "And then――,",
+    "vi": "And then――,"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 206,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [……Re...Rem? ]",
+    "vi": "Subaru: [……Re...Rem? ]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 226,
+    "type": "EXACT COPY LEAK",
+    "en": "Rem: [――Kya-!? ]",
+    "vi": "Rem: [――Kya-!? ]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 233,
+    "type": "EXACT COPY LEAK",
+    "en": "And then――,",
+    "vi": "And then――,"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 322,
+    "type": "EXACT COPY LEAK",
+    "en": "Anyway――,",
+    "vi": "Anyway――,"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 356,
+    "type": "EXACT COPY LEAK",
+    "en": "However――,",
+    "vi": "However――,"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 382,
+    "type": "EXACT COPY LEAK",
+    "en": "――Rem, who was being carried on Subaru’s back, was strangling him from behind.",
+    "vi": "――Rem, who was being carried on Subaru’s back, was strangling him from behind."
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 432,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [If Rem has entered into such a place, then that's all the more reason for me to not overlook it.]",
+    "vi": "Subaru: [If Rem has entered into such a place, then that's all the more reason for me to not overlook it.]"
+  },
+  {
+    "file_name": "arc7_ch2_translated.json",
+    "id": 106,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [――Cor Leonis.]",
+    "vi": "Subaru: [――Cor Leonis.]"
+  },
+  {
+    "file_name": "arc7_ch3_translated.json",
+    "id": 249,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Re, Rem……?]",
+    "vi": "Subaru: [Re, Rem……?]"
+  },
+  {
+    "file_name": "arc7_ch3_translated.json",
+    "id": 275,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [――Re,]",
+    "vi": "Subaru: [――Re,]"
+  },
+  {
+    "file_name": "arc7_ch4_translated.json",
+    "id": 263,
+    "type": "STOPWORD LEAK ['But']",
+    "en": "And so, as he tried to reach his arms around her body, Subaru felt a strong sense of rejection within himself. Even though he’d tried to act without bringing personal feelings into it, his soul, rather than his mind, rejected Louis.",
+    "vi": "But khi cậu định giang tay ôm lấy cô bé, Subaru bỗng cảm nhận được một sự bài xích mãnh liệt dâng lên từ sâu thẳm bên trong. Cho dù cậu đã cố gắng hành động mà gạt bỏ đi tình cảm cá nhân, linh hồn của cậu chứ không phải lý trí mới là thứ đang cự quyệt Louis."
+  },
+  {
+    "file_name": "arc7_ch4_translated.json",
+    "id": 279,
+    "type": "EXACT COPY LEAK",
+    "en": "Snake Witchbeast: [――ϡϡ!!]",
+    "vi": "Snake Witchbeast: [――ϡϡ!!]"
+  },
+  {
+    "file_name": "arc7_ch4_translated.json",
+    "id": 293,
+    "type": "STOPWORD LEAK ['of', 'the']",
+    "en": "[1] &#8211; “Abeshi!” = Fist of the North Star reference.",
+    "vi": "[1] -- \"Abeshi!\" = Một câu thoại nổi tiếng trong loạt truyện Bắc Đẩu Thần Quyền (Fist of the North Star)."
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 197,
+    "type": "STOPWORD LEAK ['and']",
+    "en": "Of course a sound like that would reach his ears, since its source was a great river. As far as Subaru and Rem could see, gazing down at it, the water was gushing down a cliff nearly ten meters tall.",
+    "vi": "Dĩ nhiên thứ âm thanh đinh tai nhức óc đó phải lọt vào tai anh rồi, bởi nguồn phát của nó là một dòng sông lớn đang cuồn cuộn chảy xiết. Theo hướng mắt nhìn của Subaru and Rem, dòng nước đục ngầu đang đổ ầm ầm xuống một vách đá dốc đứng cao tới gần mười mét."
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 257,
+    "type": "EXACT COPY LEAK",
+    "en": "And then――,",
+    "vi": "And then――,"
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 335,
+    "type": "EXACT COPY LEAK",
+    "en": "And then――,",
+    "vi": "And then――,"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 68,
+    "type": "STOPWORD LEAK ['and']",
+    "en": "Surrounding the Shatranj board, Subaru cried out along with his cornered army. From the moment the alliance between Garfiel and Otto was formed, there was only one thing that he would be given the chance to do ―― to retreat as he bawled like the sore loser he was.",
+    "vi": "Xoay quanh bàn cờ Shatranj, Subaru la hét thất thanh cùng với đội quân đang bị dồn vào chân tường của mình. Kể từ khoảnh khắc liên minh giữa Garfiel and Otto được thiết lập, cơ hội duy nhất dành cho cậu chỉ là ―― vừa khóc lóc om sòm vừa rút lui như một kẻ thua cuộc cay cú."
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 87,
+    "type": "STOPWORD LEAK ['and']",
+    "en": "Thus, the men gathered in this encampment were warriors, the youth in front of him was no exception either.",
+    "vi": "Vì vậy, những kẻ tập hợp trong doanh trại này đều là chiến binh, and gã thanh niên trước mặt cậu cũng không ngoại lệ."
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 89,
+    "type": "LABEL LEAK (\\bOrange\\s+Haired\\s+Youth\\b)",
+    "en": "Orange Haired Youth: [So darn stubborn. Though, not like I dislike that… She’s safe and sound. Both of them are full of vim and vigour. A little too full of if you ask me.]",
+    "vi": "Orange Haired Youth: [Cứng đầu thật đấy. Cơ mà ta không ghét kiểu này đâu… Cô ta an toàn và khỏe mạnh. Cả hai cô nàng đều đang tràn đầy sinh lực. Theo ta thấy thì có hơi thừa năng lượng quá mức nữa cơ.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 92,
+    "type": "LABEL LEAK (\\bOrange\\s+Haired\\s+Youth\\b)",
+    "en": "Orange Haired Youth: [Both your hands and feet are tied up. Won’t you fall over and bite your tongue if you work yourself up that much? Oh, don’t look at me like that. Both of them are safe and sound, I’m not lying.]",
+    "vi": "Orange Haired Youth: [Cả tay chân ngươi đều đang bị trói đấy. Kích động quá mức như thế ngã nhào ra rồi cắn vào lưỡi thì sao? Ôi, đừng nhìn ta bằng ánh mắt đó chứ. Cả hai đều bình an vô sự, ta không nói dối đâu.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 94,
+    "type": "LABEL LEAK (\\bOrange\\s+Haired\\s+Youth\\b)",
+    "en": "Orange Haired Youth: [That’s an awfully cruel answer, wouldn’t you say!?]",
+    "vi": "Orange Haired Youth: [Đó là một câu trả lời tàn nhẫn đến đáng sợ đấy biết không!?]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 98,
+    "type": "LABEL LEAK (\\bOrange\\s+Haired\\s+Youth\\b)",
+    "en": "Orange Haired Youth: [If you wanna see them, I’ll let you do so afterwards. If you answer our questions honestly… Right now, those girls are in the slammer.]",
+    "vi": "Orange Haired Youth: [Nếu muốn gặp thì lát nữa ta sẽ cho ngươi gặp. Với điều kiện ngươi phải trả lời câu hỏi của bọn ta một cách thành thật… Hiện giờ, hai cô nàng đó đang ở trong phòng giam.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 103,
+    "type": "LABEL LEAK (\\bMan\\s+with\\s+an\\s+Eyepatch\\b)",
+    "en": "Man with an Eyepatch: [If you were paying attention before, you’re a guy who fuckin’ lacks the self-awareness of being a prisoner. You just need to answer the questions you’re asked, or am I wrong here? Huh?]",
+    "vi": "Man with an Eyepatch: [Mày không nhớ những gì tao nói lúc nãy hả, cái thằng chó thiếu tự ý thức về tư cách tù binh này. Mày chỉ việc trả lời những câu được hỏi thôi, tao nói có gì sai không? Hử?]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 104,
+    "type": "LABEL LEAK (\\bOrange\\s+Haired\\s+Youth\\b)",
+    "en": "Orange Haired Youth: [Jamal, knock it off! You’re gonna end up making him faint again!]",
+    "vi": "Orange Haired Youth: [Jamal, dừng tay lại đi! Anh lại làm nó ngất xỉu ra đấy bây giờ!]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 106,
+    "type": "EXACT COPY LEAK",
+    "en": "Orange Haired Youth: [...Jamal.]",
+    "vi": "Orange Haired Youth: [...Jamal.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 242,
+    "type": "EXACT COPY LEAK",
+    "en": "Or maybe a sensible citizen of the Empire would respect his position, but…",
+    "vi": "Or maybe a sensible citizen of the Empire would respect his position, but…"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 324,
+    "type": "EXACT COPY LEAK",
+    "en": "And, as soon as she couldn’t see Subaru anymore,",
+    "vi": "And, as soon as she couldn’t see Subaru anymore,"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 334,
+    "type": "EXACT COPY LEAK",
+    "en": "???: [Auuuaa!!]",
+    "vi": "???: [Auuuaa!!]"
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 48,
+    "type": "STOPWORD LEAK ['his', 'what', 'But', 'had']",
+    "en": "Yet Roswaal had shook his head at what Subaru had said.",
+    "vi": "But Roswaal had shook his head at what Subaru had said."
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 180,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Hahaha…]",
+    "vi": "Subaru: [Hahaha…]"
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 216,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Tch.]",
+    "vi": "Subaru: [Tch.]"
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 356,
+    "type": "STOPWORD LEAK ['of']",
+    "en": "[4] &#8211; The original says 大逆の使途たち which, at least to me, doesn’t make sense. It feels like this is a typo for 大逆の使徒たち, which means “Apostles of Treason”, since both are written as しと. Tappei probably selected the wrong word from his trusty IME.",
+    "vi": "[4] &#8211; Bản gốc tiếng Nhật ghi là 大逆 của sứ đồ hay tông đồ nghịch tặc, dịch giả tiếng Anh giải thích có thể là lỗi đánh máy nhầm giữa 使途たち và 使徒たち (Apostles of Treason) do cả hai đều phát âm là shito. Bản dịch tiếng Việt thống nhất chọn nghĩa \"Tông đồ Nghịch tặc\" để đảm bảo chuẩn xác ngữ cảnh."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 141,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Awuuu!]",
+    "vi": "Louis: [Awuuu!]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 171,
+    "type": "EXACT COPY LEAK",
+    "en": "Jamal: [Tch.]",
+    "vi": "Jamal: [Tch.]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 245,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Aaah…]",
+    "vi": "Louis: [Aaah…]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 261,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Oooh!]",
+    "vi": "Louis: [Oooh!]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 514,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Uuuu!!]",
+    "vi": "Louis: [Uuuu!!]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 517,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Uah, Aaa! Aaaaa!!]",
+    "vi": "Louis: [Uah, Aaa! Aaaaa!!]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 536,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Aaa, Uuaaa!]",
+    "vi": "Louis: [Aaa, Uuaaa!]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 220,
+    "type": "EXACT COPY LEAK",
+    "en": "Todd: [So basically, you’re a scout. And your clothing and knife were prepared to blend in with us.]",
+    "vi": "Todd: [So basically, you’re a scout. And your clothing and knife were prepared to blend in with us.]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 327,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [If I say that I am leaving Louis behind, Rem will never come with me…]",
+    "vi": "Subaru: [If I say that I am leaving Louis behind, Rem will never come with me…]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 372,
+    "type": "EXACT COPY LEAK",
+    "en": "Imperial Soldier: [――?]",
+    "vi": "Imperial Soldier: [――?]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 375,
+    "type": "LABEL LEAK (\\bSoldier\\b)",
+    "en": "Imperial Soldier: [――Ah?]",
+    "vi": "Imperial Soldier: [――Hử?]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 377,
+    "type": "LABEL LEAK (\\bSoldier\\b)",
+    "en": "Imperial Soldier: [It’s a Witchbeast――!!]",
+    "vi": "Imperial Soldier: [Có ma thú――!!]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 378,
+    "type": "EXACT COPY LEAK",
+    "en": "Other Imperial Soldiers: [――!?]",
+    "vi": "Other Imperial Soldiers: [――!?]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 383,
+    "type": "LABEL LEAK (\\bSoldier\\b)",
+    "en": "Imperial Soldier: [Uwooooh!!]",
+    "vi": "Imperial Soldier: [U wo ó ó ó!!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 106,
+    "type": "STOPWORD LEAK ['and']",
+    "en": "Subaru and Abel were let out of the cage without blindfolds or restraints, and the Shudraqians surrounded them and walked them outside of the village.",
+    "vi": "Subaru and Abel được thả ra ngoài lồng mà không bị bịt mắt hay trói buộc gì, những người Shudraq bao vây xung quanh và dẫn họ ra khỏi làng."
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 120,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Haha…]",
+    "vi": "Subaru: [Haha…]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 222,
+    "type": "EXACT COPY LEAK",
+    "en": "Or it could be that that was the People of Shudraq’s unique way of naming the Witchbeast.",
+    "vi": "Or it could be that that was the People of Shudraq’s unique way of naming the Witchbeast."
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 228,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Bea――]",
+    "vi": "Subaru: [Bea――]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 276,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [――Goa.]",
+    "vi": "Subaru: [――Goa.]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 286,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [Gh……!]",
+    "vi": "Abel: [Gh……!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 349,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Gooooooooo――!!]",
+    "vi": "Subaru: [Gooooooooo――!!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 359,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [AAAAaaAaaAaaa――!!]",
+    "vi": "Subaru: [AAAAaaAaaAaaa――!!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 372,
+    "type": "STOPWORD LEAK ['was', 'had', 'the', 'And']",
+    "en": "And that was a false escape route Subaru had created, by intentionally spreading the flames――,",
+    "vi": "And that was a false escape route Subaru had created, by intentionally spreading the flames――"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 373,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [Haaaa――!!]",
+    "vi": "Abel: [Haaaa――!!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 380,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [Gh――!]",
+    "vi": "Abel: [Gh――!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 410,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Aaaaaaaahhhh――!!]",
+    "vi": "Subaru: [Aaaaaaaahhhh――!!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 450,
+    "type": "EXACT COPY LEAK",
+    "en": "And then, the owner of the voice nodded quietly with an, “I see.”",
+    "vi": "And then, the owner of the voice nodded quietly with an, “I see.”"
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 52,
+    "type": "EXACT COPY LEAK",
+    "en": "???: [Ooooooooooh――!!]",
+    "vi": "???: [Ooooooooooh――!!]"
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 75,
+    "type": "STOPWORD LEAK ['and']",
+    "en": "Subaru and Abel had put their lives on the line to try and break the Snake Witchbeast’s horn――,",
+    "vi": "Subaru and Abel đã đánh cược cả tính mạng để tìm cách bẻ gãy sừng của con Ma thú rắn ấy――,"
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 214,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [――a]",
+    "vi": "Subaru: [――a]"
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 248,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [――Vincent Abellux]",
+    "vi": "Abel: [――Vincent Abellux]"
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 300,
+    "type": "EXACT COPY LEAK",
+    "en": "Rem’s breath caught, startled by how sharp Mizelda’s denial was.",
+    "vi": "Rem’s breath caught, startled by how sharp Mizelda’s denial was."
+  }
+]

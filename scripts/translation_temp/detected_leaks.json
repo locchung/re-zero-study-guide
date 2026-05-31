@@ -1,0 +1,499 @@
+[
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 21,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "???: [I’m glad you’re safe Ram… And Patrasche-chan, are you okay as well?]",
+    "vi": "???: [Mừng là cậu vẫn an toàn, Ram... Cả Patrasche-chan nữa, mày không sao chứ?]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 31,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Emilia: [Ram… Where did Subaru and Rem go? They’re safe, right?]",
+    "vi": "Emilia: [Ram... Subaru và Rem đâu rồi? Hai người họ vẫn an toàn chứ?]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 40,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Inside the tower, the ones who’d come back safe and sound began to share what had happened, starting first with Anastasia, and then Julius and Echidna following her lead.",
+    "vi": "Bên trong tòa tháp, những người trở về bình an vô sự bắt đầu chia sẻ những gì đã xảy ra, khởi đầu là Anastasia, sau đó là Julius và Echidna nối tiếp."
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 79,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Anastasia: [Quite the honesty there… Well, either way, I too would rather prefer that Natsuki-kun ‘n Rem-san were safe ‘n sound.]",
+    "vi": "Anastasia: [Thành thật quá ha... Mà thôi, đằng nào thì ta cũng mong Natsuki-kun và Rem-san được bình an vô sự.]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 179,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Emilia: [Please, Subaru… I really hope you’ll be alright with Rem.]",
+    "vi": "Emilia: [Cầu xin cậu, Subaru... Tớ thực lòng mong cậu và Rem sẽ bình an vô sự.]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 226,
+    "type": "EXACT COPY LEAK",
+    "en": "Rem: [――Kya-!? ]",
+    "vi": "Rem: [――Kya-!? ]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 288,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Rem’s tense expression turned into one of being taken by surprise. Subaru stopped in his tracks as he made his way over, keeping enough distance between them, so he’d be more than a step out of her reach,",
+    "vi": "Vẻ mặt căng thẳng của Rem lập tức chuyển sang ngơ ngác ngạc nhiên. Subaru dừng bước khi đang tiến lại gần, giữ một khoảng cách an toàn vừa đủ để ngoài tầm với của cô,"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 303,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Rem: [...? You mean looking around with my eyes, and telling you whether the coast is clear?]",
+    "vi": "Rem: [...? Ý anh là tôi dùng mắt quan sát xung quanh, rồi báo cho anh biết xem có an toàn hay không sao?]"
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 306,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Even though it was something rather unselfish, what Subaru had implored in regards to Rem having woken up, was only that she’d be in good health, thus these were, no word of exaggeration, his true intentions.",
+    "vi": "Dẫu cho điều đó có phần vị kỷ, nhưng tâm nguyện duy nhất của Subaru khi Rem tỉnh giấc chỉ đơn giản là mong cô được bình an, khỏe mạnh; đó, không một chút cường điệu, chính là tiếng lòng chân thật nhất của cậu."
+  },
+  {
+    "file_name": "arc7_ch1_translated.json",
+    "id": 326,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru tested a smile, trying to reassure her, but her reaction wasn’t as good as he thought it would be.",
+    "vi": "Subaru cố nở một nụ cười nhằm trấn an cô, nhưng phản ứng của cô không mấy khả quan như cậu kỳ vọng."
+  },
+  {
+    "file_name": "arc7_ch2_translated.json",
+    "id": 76,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "It hadn’t brought him back far enough to make it so that Rem’s awakening never happened, and it also didn’t make it so that his final loop at the Pleiades Watchtower never existed, either. That in itself, was what Subaru wanted to say was good news.",
+    "vi": "Vòng lặp không đưa cậu trở về đủ xa để ngăn cản việc Rem tỉnh lại, cũng như không xóa bỏ hoàn toàn vòng lặp cuối cùng của cậu tại Tháp canh Pleiades. Nếu nhìn nhận theo hướng tích cực, đó có lẽ là tin tốt lành duy nhất mà Subaru tự an ủi bản thân."
+  },
+  {
+    "file_name": "arc7_ch2_translated.json",
+    "id": 106,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [――Cor Leonis.]",
+    "vi": "Subaru: [――Cor Leonis.]"
+  },
+  {
+    "file_name": "arc7_ch2_translated.json",
+    "id": 136,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru: [She must be confused. She can’t keep running away forever. If she separated herself from me to some extent, then she’ll make some time to calm down and reflect on herself. Even more so, if she took Louis with her.]",
+    "vi": "Subaru: [Cô ấy chắc chắn đang rất hoang mang. Cô ấy không thể cứ chạy trốn mãi được. Khi đã tạo được một khoảng cách an toàn với mình, cô ấy sẽ dừng lại để bình tâm và suy ngẫm. Huống chi cô ấy còn dẫn theo cả Louis nữa.]"
+  },
+  {
+    "file_name": "arc7_ch3_translated.json",
+    "id": 180,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "The three combined themselves inside of Subaru’s head, completing the puzzle of the odd feeling he had.",
+    "vi": "Ba dữ kiện này lập tức kết nối lại với nhau trong tâm trí Subaru, hoàn thiện bức tranh ghép hình giải đáp cho cảm giác bất an mơ hồ bấy lâu nay của cậu."
+  },
+  {
+    "file_name": "arc7_ch3_translated.json",
+    "id": 225,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "He had to clear her misunderstandings while measuring the distance between him and her, little by little.",
+    "vi": "Cậu buộc phải hóa giải sự hiểu lầm của cô trong khi khôn ngoan duy trì khoảng cách an toàn giữa hai người."
+  },
+  {
+    "file_name": "arc7_ch3_translated.json",
+    "id": 228,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru: [A nostalgic way to put it……! It seems like I stink, and I know you feel like it’s something that’s no good, but I don’t bear any ill will towards you!]",
+    "vi": "Subaru: [Cách nói nghe hoài niệm ghê luôn á……! Anh biết mình bốc mùi và điều đó làm em thấy bất an, nhưng anh thề là anh không hề có chút ác ý nào với em cả đâu!]"
+  },
+  {
+    "file_name": "arc7_ch4_translated.json",
+    "id": 262,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "He caught sight of her rosy-red cheeks, as well as her chest gently heaving up and down, confirming that she was alive and well.",
+    "vi": "Cậu nhìn thấy đôi má ửng hồng cùng lồng ngực khẽ phập phồng theo từng nhịp thở của cô bé, xác nhận rằng nó vẫn hoàn toàn bình an vô sự."
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 29,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru consoled himself with the fact his plans were only brought forward by a tiny bit.",
+    "vi": "Subaru tự an ủi bản thân rằng kế hoạch của mình chỉ bị đẩy lên sớm hơn một chút mà thôi."
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 92,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru laughed wryly at Ryuzu, who gave a slow shake of her head, her behavior the same as usual. After that, he gently patted Petra on the head, who was still reflecting upon herself, smiling at her with a, “It’s okay.”",
+    "vi": "Subaru cười trừ trước cái lắc đầu thong thả vốn có của cụ Ryuzu. Đoạn, anh xoa nhẹ đầu Petra khi em vẫn còn đang ủ rũ tự trách, mỉm cười an ủi: \"Không sao đâu mà.\""
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 153,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Rem: [――hk, is the girl safe?]",
+    "vi": "Rem: [――hức, cô bé đó có an toàn không?]"
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 202,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "However, there was no time to blame her for what she was already regretting, nor was there time to do the opposite and comfort her.",
+    "vi": "Thế nhưng lúc này không có thời gian để trách móc sự hối hận của cô, mà cũng chẳng có thì giờ để làm điều ngược lại là vỗ về an ủi cô."
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 280,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Are Emilia, Beatrice, Ram, and Meili safe? What are Julius, Anastasia, and Echidna doing? Everyone would feel at ease if Patrasche was there. If Patrasche was here, she would’ve rescued him. Saving and getting saved. He had repeated that cycle many times, and Rem was supposed to be the person he had repeated it with the most, but she broke his fingers. He didn’t think of it until now, but he did a good job in not crying out, even though it really hurt. Well done. He didn’t want to do anything dumb in front of Rem. In front of Emilia, in front of Beatrice, and in front of Petra and Garfiel as well. Otto, Clind, and Frederica knew how pathetic he was, so it didn’t matter with them. Things would take a wrong turn into something frightening if Roswaal knew about it, so he needed to continue hiding it somehow. He needed to return to Pristella quickly, help the people who were in dire need of it, the Royal Selection, tomorrow, everyone――,",
+    "vi": "Liệu Emilia, Beatrice, Ram và Meili có an toàn không? Julius, Anastasia và Echidna đang làm gì rồi? Mọi người sẽ yên tâm biết mấy nếu có Patrasche ở bên. Nếu có cô nàng ở đây, cô ấy chắc chắn đã cứu anh rồi. Cứu rỗi và được cứu rỗi. Anh đã lặp đi lặp lại cái vòng lặp đó không biết bao nhiêu lần, và đáng lẽ Rem phải là người cùng anh trải qua nhiều nhất, thế mà cô ấy lại bẻ gãy ngón tay anh. Giờ nghĩ lại mới thấy mình giỏi thật đấy chứ, đau đớn thấu xương thế mà vẫn cắn răng chịu đựng không thèm rên rỉ lấy một tiếng. Khá khen cho bản thân. Anh không muốn tỏ ra thảm hại hay làm trò ngu ngốc trước mặt Rem. Cả trước mặt Emilia, Beatrice, hay Petra và Garfiel nữa. Còn Otto, Clind và Frederica vốn đã biết rõ bộ dạng yếu đuối của anh rồi nên có thấy cũng chẳng sao. Nhưng nếu để Roswaal mà biết được thì mọi chuyện sẽ chuyển biến theo hướng vô cùng đáng sợ cho xem, nên bằng mọi giá anh phải tiếp tục giấu kín chuyện này. Anh cần phải nhanh chóng quay trở lại Pristella, giúp đỡ những người đang lâm vào cảnh khốn cùng, rồi còn cuộc Tuyển chọn Vương quân ngày mai nữa, mọi người――,"
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 297,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "That meant... everyone was… safe――,",
+    "vi": "Nghĩa là... tất cả mọi người... đều bình an vô sự――,"
+  },
+  {
+    "file_name": "arc7_ch5_translated.json",
+    "id": 298,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru: [S… a… fe……]",
+    "vi": "Subaru: [Bình... an... vô sự……]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 56,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru: [――? What's with the lukewarm reply? You're making me uneasy, man.]",
+    "vi": "Subaru: [――? Cái thái độ ậm ừ nửa vời gì thế? Cậu làm tớ thấy bất an rồi đấy.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 85,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Of course, knights abounded in skill, yet they needed to be able to procure the reassurance of people’s hearts. On that point, it was necessary for them to be noble of appearance. People like Julius or Reinhard were testaments to this.",
+    "vi": "Tất nhiên, các hiệp sĩ có kỹ năng chiến đấu xuất chúng, nhưng họ còn cần phải mang lại sự an tâm cho lòng người. Về điểm đó, họ bắt buộc phải có vẻ ngoài cao quý lịch lãm. Những người như Julius hay Reinhard chính là minh chứng rõ ràng cho điều này."
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 89,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Orange Haired Youth: [So darn stubborn. Though, not like I dislike that… She’s safe and sound. Both of them are full of vim and vigour. A little too full of if you ask me.]",
+    "vi": "Thanh niên tóc cam: [Cứng đầu thật đấy. Cơ mà ta không ghét kiểu này đâu… Cô ta bình an vô sự. Cả hai đều đang tràn đầy sinh khí. Nói thật thì có khi hơi thừa năng lượng quá mức nữa cơ.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 92,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Orange Haired Youth: [Both your hands and feet are tied up. Won’t you fall over and bite your tongue if you work yourself up that much? Oh, don’t look at me like that. Both of them are safe and sound, I’m not lying.]",
+    "vi": "Thanh niên tóc cam: [Cả tay lẫn chân ngươi đều bị trói chặt rồi. Cứ kích động như thế, không sợ ngã lộn cổ rồi cắn vào lưỡi à? Ôi, đừng nhìn ta bằng ánh mắt đó chứ. Cả hai đều bình an vô sự, ta không nói dối đâu.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 93,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru: [Both of them my ass; quit giving me half-assed answers. I’m happy so long as the blue-haired girl is safe and sound.]",
+    "vi": "Subaru: [Cả hai cái nỗi gì, đừng có trả lời nước đôi như thế. Chỉ cần cô gái tóc xanh lam an toàn là tôi mừng rồi.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 222,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Thus, if he were to reveal his position, he would have been in a position to ask for a favour. ――At the very least, he’d imagined he would have talked about it to Todd once Rem’s safety had been assured, given that words got through to him.",
+    "vi": "Do đó, nếu tiết lộ danh tính của mình, cậu hoàn toàn có thể thương lượng để nhận được sự biệt đãi. ――Ít nhất, cậu từng nghĩ mình sẽ thảo luận chuyện này với Todd khi sự an toàn của Rem được đảm bảo, vì gã thanh niên này có vẻ là người hiểu lý lẽ."
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 251,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Yet, he didn’t care. So long as, first of all, he could check that she was alright…",
+    "vi": "Dù vậy, cậu không bận tâm. Miễn là trước hết, cậu xác nhận được cô vẫn bình an vô sự..."
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 293,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru: [Todd-san, I get that you're worried about our safety. But what should we do? Just like you, I really don't want to stay put until they're done raiding the forest.]",
+    "vi": "Subaru: [Anh Todd, tôi hiểu là anh đang lo ngại cho sự an toàn của chúng tôi. Nhưng chúng tôi nên làm gì đây? Giống như anh, tôi thực lòng không muốn cứ chôn chân một chỗ ở đây chờ các người dẹp loạn cánh rừng xong đâu.]"
+  },
+  {
+    "file_name": "arc7_ch6_translated.json",
+    "id": 334,
+    "type": "EXACT COPY LEAK",
+    "en": "???: [Auuuaa!!]",
+    "vi": "???: [Auuuaa!!]"
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 103,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Both unease and relief rose inside of him simultaneously for hitting the nail on the head with his prediction.",
+    "vi": "Cả sự bất an lẫn nhẹ nhõm đồng thời dâng lên trong lòng cậu khi thấy dự đoán của mình đã trúng phóc."
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 180,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Hahaha…]",
+    "vi": "Subaru: [Hahaha…]"
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 216,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Tch.]",
+    "vi": "Subaru: [Tch.]"
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 244,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Neither of them knew when the condition of her legs would be back to normal, restored from their incapacitated state, but Rem herself was probably feeling more troubled and anxious over them than Subaru.",
+    "vi": "Cả hai đều không biết khi nào đôi chân tàn tật của cô mới hồi phục lại bình thường, nhưng bản thân Rem chắc chắn còn cảm thấy bất an và lo lắng gấp bội so với Subaru."
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 329,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Rem: [――. That makes me all the more uneasy.]",
+    "vi": "Rem: [――. Nghe anh nói thế tôi lại càng thấy bất an thêm đấy.]"
+  },
+  {
+    "file_name": "arc7_ch7_translated.json",
+    "id": 356,
+    "type": "STOPWORD LEAK ['of']",
+    "en": "[4] &#8211; The original says 大逆の使途たち which, at least to me, doesn’t make sense. It feels like this is a typo for 大逆の使徒たち, which means “Apostles of Treason”, since both are written as しと. Tappei probably selected the wrong word from his trusty IME.",
+    "vi": "[4] – Nguyên tác tiếng Nhật viết là \"大逆の使途たち\", một cụm từ thực sự không có ý nghĩa rõ ràng. Dịch giả tiếng Anh nhận định đây có lẽ là lỗi gõ phím của tác giả Tappei, nhầm lẫn giữa \"使途\" (cách dùng, mục đích sử dụng) và \"使徒\" (tông đồ) do cả hai từ đều đồng âm là \"shito\" (từ đúng phải là \"大逆の使徒たち\" - Apostles of Treason). Do đó, bản dịch tiếng Việt thống nhất dịch là \"Tông đồ Nghịch tặc\" để đảm bảo tính chuẩn xác và phù hợp với ngữ cảnh."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 141,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Awuuu!]",
+    "vi": "Louis: [Awuuu!]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 171,
+    "type": "EXACT COPY LEAK",
+    "en": "Jamal: [Tch.]",
+    "vi": "Jamal: [Tch.]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 207,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Despite the pain in his fingers, confirming Rem’s safety was top priority. Todd shrugged his shoulders at Subaru’s attitude and drew his attention towards Louis, who was curled up in a ball in front of the tent.",
+    "vi": "Dù ngón tay đau đớn kịch liệt, việc xác nhận Rem an toàn vẫn là ưu tiên hàng đầu của Subaru. Todd nhún vai trước thái độ của Subaru, rồi hướng ánh mắt về phía Louis đang co rúm thành một cục trước lều."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 219,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru had been on the receiving end of Jamal’s vicious bullying and Todd’s kind offer of help after. Once Rem’s safety had been confirmed, Subaru accepted treatment at the medical tent.",
+    "vi": "Subaru vừa phải chịu đựng trò bắt nạt tàn nhẫn của Jamal, vừa nhận được sự trợ giúp tử tế của Todd ngay sau đó. Sau khi xác nhận Rem vẫn bình an vô sự, Subaru mới chịu đi đến lều y tế để chữa trị."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 245,
+    "type": "EXACT COPY LEAK",
+    "en": "Louis: [Aaah…]",
+    "vi": "Louis: [Aaah…]"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 298,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Was he getting consoled or teased?",
+    "vi": "Rốt cuộc là anh ta đang an ủi hay trêu chọc cậu đây?"
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 415,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Rem’s probably just overthinking things, he debated to himself.",
+    "vi": "Có lẽ chỉ là Rem đang suy diễn quá nhiều mà thôi, cậu tự trấn an bản thân như vậy."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 419,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Eventually, Subaru ended up bringing Rem and Louis back into their tent, and he had to engage in the tasks assigned to him, all the while saddled with uneasiness. To add to that, Rem had given him the cold shoulder more blatantly than the day before, making him feel like he didn’t belong anywhere.",
+    "vi": "Cuối cùng, Subaru đành đưa Rem và Louis trở lại lều của họ, rồi cậu phải cắm đầu vào hoàn thành đống công việc được giao trong lòng đầy bất an lo lắng. Thêm vào đó, thái độ lạnh lùng ghẻ lạnh của Rem hôm nay lại càng rõ rệt hơn hôm qua, khiến cậu có cảm giác mình là kẻ hoàn toàn lạc lõng cô độc giữa nơi này."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 436,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Apparently, Rem’s worries from yesterday were simply her overthinking the situation, and Subaru’s uneasiness was also groundless.",
+    "vi": "Xem ra những lo lắng của Rem hôm qua chỉ là cô đang suy diễn quá đà mà thôi, và sự bất an của Subaru cũng hoàn toàn là vô căn cứ."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 502,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Her words were her honest thoughts. Rem did understand that this situation wasn’t what Subaru intended to cause. However, it only brought a meager amount of comfort to him.",
+    "vi": "Lời nói đó chính là tâm sự thật lòng của cô. Rem thực sự hiểu rằng thảm cảnh này không phải do Subaru cố tình gây ra. Thế nhưng, điều đó chẳng thể mang lại chút an ủi nào cho cậu."
+  },
+  {
+    "file_name": "arc7_ch8_translated.json",
+    "id": 503,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Like this, facing the incident that had actually occurred, the comfort was too small――.",
+    "vi": "Trước thảm cảnh tàn khốc đang phơi bày trước mắt, sự an ủi đó quá đỗi nhỏ bé và vô nghĩa――."
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 72,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "The man who knew her, even if she detested him, had ended up dying in this godforsaken land. Just imagining the amount of fear and anxiety the amnesiac Rem would have experienced tore his heart asunder.",
+    "vi": "Người duy nhất quen biết cô, dù cho cô có căm ghét cậu đi chăng nữa, cuối cùng lại bỏ mạng ở nơi đất khách quê người này. Chỉ cần tưởng tượng ra nỗi sợ hãi và bất an mà Rem khi mất trí nhớ phải trải qua lúc ấy đã đủ khiến tim cậu như thắt lại."
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 90,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "The fact that Subaru had ended up getting himself killed was whatever, but the fact that they’d burnt the forest down was taking it too far, even if the Imperial Soldiers had done it as a safety measure.",
+    "vi": "Việc Subaru mất mạng thì sao cũng được, nhưng việc họ thiêu rụi cả cánh rừng là quá mức chịu đựng, ngay cả khi binh lính Đế quốc làm vậy vì lý do an toàn."
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 156,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Todd: [When I took off his blindfold and he looked at me, his eyes were intent on manipulating me. I could understand being nervous or uneasy. Crying from fear would also be fine… But trying to manipulate me is suspicious, no?]",
+    "vi": "Todd: [Lúc tôi cởi bịt mắt ra và cậu ta nhìn tôi, ánh mắt cậu ta tràn ngập ý đồ muốn thao túng tôi. Nếu cậu ta tỏ ra lo lắng hay bất an thì tôi hiểu được. Khóc lóc vì sợ hãi cũng chẳng sao... Nhưng cố tình muốn thao túng tôi thì đáng ngờ quá đúng không?]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 163,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "To ensure his own safety, Todd immediately made a decision and just acted on it.",
+    "vi": "Để đảm bảo an toàn tuyệt đối cho bản thân, Todd đã ngay lập tức đưa ra phán đoán và lập tức hành động."
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 262,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Though, the pain he had to suffer as a result was too great for consolation.",
+    "vi": "Dẫu vậy, cái giá phải trả bằng nỗi đau đớn thể xác tột cùng kia vẫn là quá đắt để có thể xem là một niềm an ủi."
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 304,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Todd: [Behave yourself missy. If nothing happens, nothing will happen to you.]",
+    "vi": "Todd: [Ngoan ngoãn chút đi nhé cô bé. Nếu không có chuyện gì phát sinh, cô cũng sẽ bình an sự thôi.]"
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 347,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "There were about twenty Imperial Soldiers in the group. Even though they had a guide with them, it wasn’t possible to say that there were enough people to explore the extensive forest.",
+    "vi": "Toán lính chỉ vỏn vẹn khoảng hai mươi người. Dù có người dẫn đường, quân số ít ỏi như vậy thật khó lòng đảm bảo an toàn khi thăm dò cả một khu rừng đại ngàn rộng lớn."
+  },
+  {
+    "file_name": "arc7_ch9_translated.json",
+    "id": 374,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "The faintest feeling of something being wrong. He searched for it, unable to simply ignore it, his gaze whizzing around the jungle in circles, and then――,",
+    "vi": "Cảm giác bất an mơ hồ ập đến. Không thể nhắm mắt làm ngơ, gã đảo mắt lia lịa xung quanh cánh rừng rậm rạp để dò tìm, và rồi――"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 88,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Since they took pride in being warriors, their reactions were more than enough to provoke Subaru’s feeling of uneasiness.",
+    "vi": "Đối với những người luôn tự hào mình là chiến binh kiêu hãnh, phản ứng của họ đã là quá đủ để khơi dậy nỗi bất an trong lòng Subaru."
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 120,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Haha…]",
+    "vi": "Subaru: [Haha…]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 228,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [Bea――]",
+    "vi": "Subaru: [Bea――]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 238,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Using the momentum to stand up, he tried to put some distance between him and the Snake Witchbeast.",
+    "vi": "Mượn đà bật dậy, cậu cố gắng nhanh chóng lùi lại để tạo khoảng cách an toàn với con Ma thú Rắn khổng lồ."
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 276,
+    "type": "EXACT COPY LEAK",
+    "en": "Subaru: [――Goa.]",
+    "vi": "Subaru: [――Goa.]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 286,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [Gh……!]",
+    "vi": "Abel: [Gh……!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 373,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [Haaaa――!!]",
+    "vi": "Abel: [Haaaa――!!]"
+  },
+  {
+    "file_name": "arc7_ch11_translated.json",
+    "id": 380,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [Gh――!]",
+    "vi": "Abel: [Gh――!]"
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 150,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "He had been leisurely thinking about the strangeness of his right hand, and checking on Abel’s safety, but he remembered there was something he had to prioritize over that.",
+    "vi": "Cậu mải mê suy nghĩ về sự kỳ lạ của bàn tay phải và kiểm tra sự an toàn của Abel mà quên mất có một chuyện quan trọng hơn nhiều cần phải ưu tiên."
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 158,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Compelled by the anxiety in his heart, Subaru shifted his posture to get out of the bed.",
+    "vi": "Bị nỗi bất an cào xé lồng ngực, Subaru cố vặn người để bước xuống giường."
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 172,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Subaru cared more about the safety of Rem, who was not here, than about his own life.",
+    "vi": "Subaru quan tâm đến sự an toàn của Rem, người vốn không có mặt ở đây, hơn cả tính mạng của chính mình."
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 248,
+    "type": "EXACT COPY LEAK",
+    "en": "Abel: [――Vincent Abellux]",
+    "vi": "Abel: [――Vincent Abellux]"
+  },
+  {
+    "file_name": "arc7_ch12_translated.json",
+    "id": 338,
+    "type": "STOPWORD LEAK ['an']",
+    "en": "Mizelda: [――Dear comrades, may we bring peace to the spirit of this warrior.]",
+    "vi": "Mizelda: [――Các chị em thân mến, hãy cùng cầu nguyện cho linh hồn của chiến sĩ quả cảm này được an nghỉ.]"
+  }
+]

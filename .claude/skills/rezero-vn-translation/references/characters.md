@@ -233,3 +233,116 @@ For Satella specifically: her lines are among the most emotionally loaded in the
 | Garfiel → Subaru (respect grown) | "cậu" |
 | Priscilla → everyone | tone of looking down regardless of pronoun |
 | Narrator (Subaru POV) | match the scene's register |
+
+---
+
+## TIER 4 — Arc 7+ characters (Vollachian Empire & beyond)
+
+### Abel / Vincent Vollachia (ヴィンセント・ヴォラキア) — Arc 7+
+
+**Self:** "Ta" (haughty imperial). Occasionally slips into the royal **"Trẫm" (朕)** before quickly correcting himself to "Ta" — this slip is characterisation and MUST be preserved when it appears in the source.
+**Calls Subaru:** "ngươi" (cold, commanding)
+**Speech style:** Sharp, strategic, calculating. An emperor disguised as a wanderer. Every word is chosen with absolute precision. He speaks with the authority of one accustomed to absolute obedience.
+**Tone:** Imperious condescension mixed with reluctant strategic respect. He does not ask — he commands or permits.
+
+**Example:**
+> Abel: "Kẻ ngu ngốc. Ai cho phép ngươi lên tiếng? Từ giờ trở đi, ngươi phải chọn lọc từng câu chữ cho thật cẩn thận. Đừng quên rằng mạng sống của ngươi đang nằm trong tay trẫm…… của ta đấy."
+
+---
+
+### Todd Fang (トッド・ファング) — Arc 7+
+
+**Self:** "tôi" (casual/friendly) or "ta" (when asserting authority)
+**Calls Subaru:** "cậu" (friendly) or "ngươi" (hostile)
+**Speech style:** Deceptively warm and amiable on the surface. Beneath the friendly smile lies an ice-cold pragmatist who evaluates threats with terrifying rationality. His shift from friendly to lethal should feel like a chill running down the reader's spine.
+**Tone:** When friendly — relaxed, conversational, almost brotherly. When hostile — clinical, matter-of-fact about killing, zero malice but absolute certainty.
+
+---
+
+### Jamal Aurélie (ジャマル・アウレリエ) — Arc 7+
+
+**Self:** "tao" (vulgar, aggressive)
+**Calls others:** "mày" (crude), "thằng ranh" / "thằng khốn" (insults for Subaru)
+**Speech style:** Brutal, loud, short-tempered military bully. Coarse language. Zero patience. Expresses contempt through physical violence and foul language.
+**Tone:** Pure aggression. He is Todd's opposite — where Todd calculates, Jamal rages.
+
+---
+
+### Mizelda (ミゼルダ) — Arc 7+ (Chieftain of the Shudraq)
+
+**Self:** "Ta" (chieftain authority)
+**Calls Subaru:** "nhóc con" (belittling) or "ngươi"
+**Calls others:** "các ngươi" (addressing group)
+**Speech style:** Bold, proud Amazonian warrior-chieftain. Direct, commanding, unapologetically fierce. Her authority comes from strength, not politics.
+**Tone:** Speaks as someone who leads by combat prowess. Proud of her tribe. Does not defer to men or outsiders.
+
+---
+
+### Taritta (タリッタ) — Arc 7+ (Mizelda's sister)
+
+**Self:** "tôi" or "em" (to Mizelda)
+**Calls Mizelda:** "Chị" or "Tộc trưởng"
+**Speech style:** Quieter and more reserved than Mizelda, but carries the same warrior pride. An exceptional archer.
+**Tone:** Respectful deference to her sister, fierce confidence in her own skills.
+
+---
+
+### Utakata (ウタカタ) — Arc 7+
+
+**Self:** "Uu" (childlike third-person self-reference)
+**Calls others:** "Mii" (Mizelda), "Suu" (Subaru), "anh" (to Subaru)
+**Speech style:** Simple, childlike vocabulary. Short sentences. Natural childlike Vietnamese particles: "đó nha", "nè", "á", "nha~", "trơn".
+**Tone:** Genuine innocent curiosity. Not a facade — she is truly a child exploring the world.
+
+**Example:**
+> Utakata: "Mii bảo không được nghe lời đàn ông. Nhưng Uu tò mò lắm. Tò mò về anh á."
+
+---
+
+### Clind (クリンド) — Arc 5+
+
+**Self:** "tôi"
+**Calls others:** "cậu"
+**Speech style:** Impeccable butler formality. His unique trait is ending dialogues with a single concise word or phrase that serves as a terse summary/judgment of the situation. These must be translated as punchy, impactful Sino-Vietnamese or concise Vietnamese words.
+**Signature endings:** *Very poor* → **Yếu kém.** / *Meddlesome* → **Bao đồng.** / *Inspired* → **Hào hứng.** / *Versatile* → **Toàn năng.**
+
+---
+
+### Cecilus Segmunt (セシルス・セグムント) — Arc 7+
+
+**Self:** "tôi" or "ta" (in battle)
+**Speech style:** Flamboyant, theatrical, almost musical in his joy of combat. He treats fighting like performance art and speaks with dramatic flair.
+**Tone:** Carefree and dazzling, as if everything is a stage. Genuinely delighted by strong opponents.
+
+---
+
+### Medium O'Connell (ミディアム・オコーネル) — Arc 7+
+
+**Self:** "tôi"
+**Speech style:** Bright, energetic, straightforward. She says what she means without guile. Supportive and encouraging.
+**Tone:** Sunshine energy, but not naive — she has genuine resolve beneath the cheerfulness.
+
+---
+
+### Yorna Mishigure (ヨルナ・ミシグレ) — Arc 7+
+
+**Self:** "tôi" or "thiếp" (elegant feminine)
+**Speech style:** Elegant fox-woman with maternal authority. She rules her domain with grace and protects those under her care with fierce devotion.
+**Tone:** Regal warmth. She is a ruler who genuinely loves her people.
+
+---
+
+### Olbart Dunkelkenn (オルバルト・ダンケルケン) — Arc 7+
+
+**Self:** "ta" or "lão" (crotchety old man)
+**Speech style:** Mischievous, crotchety shinobi master. Speaks in the register of a crafty old man who enjoys toying with younger generations.
+**Tone:** Playful cruelty mixed with genuine old-man cantankerousness.
+
+---
+
+### Aldebaran / Al (アルデバラン) — Arc 5+
+
+**Self:** "tôi" or "ta" (casual-rough)
+**Speech style:** Sarcastic, world-weary, deliberately casual to mask deep pain. Japanese "ore" energy. He deflects serious topics with humor.
+**Tone:** A man who has seen too much and copes through detachment and sarcasm. When he drops the act, the weight is enormous.
+

@@ -34,17 +34,27 @@ For summarized passages, the `en` attribute should contain a **bracketed descrip
 
 ### Arc-specific main plot rules
 
-**Arc 6 (Pleiades Watchtower):** The 5 obstacles, Subaru's name-loss and recovery, tower conquest finale (Ch. 85–90), identity reveals (Louis Arneb, Shaula, Sage Echidna) → always full translation. See [references/arc6-context.md](references/arc6-context.md) for the full structure.
+**Arc 1 (Starting Life in Another World / Capital City):** Subaru's arrival in the other world, every loop and its resolution, meeting Emilia, the loot house incident, Reinhard's intervention → always full translation.
 
-**Arc 4 (Sanctuary / Emilia's Trials):** Emilia's three trials, Subaru's past-life revelation, Roswaal's contract, Garfiel's arc → always full translation.
+**Arc 2 (The Week at the Mansion):** Subaru's deaths and loops at Roswaal's mansion, discovering Rem and Ram, the Witch Beast attacks, the Rem confession scene, Subaru earning trust → always full translation.
 
-**Arc 5 (Pristella Water City):** Sin Archbishop appearances and battles, the five Archbishops' objectives, Regulus scenes → always full translation. Note: Regulus's monologues are intentionally long — do NOT summarize them; their exhausting length is characterisation.
+**Arc 3 (Return to the Royal Capital / Truth of Zero):** Subaru's social exile ("Witch's Husband"), the Royal Selection ceremony, Betelgeuse/Petelgeuse and the Witch Cult attack, Julius's duel with Subaru, Subaru's alliance with the merchants, the White Whale subjugation, the "I love you" / "Rem, from here on let's talk about what's to come" moment → always full translation.
 
-**Arc 3 (Royal Capital):** Subaru's social exile ("Witch's Husband"), Betelgeuse/Petelgeuse scenes, the "I love you" moment → always full translation.
+**Arc 4 (Everlasting Contract / Sanctuary):** Emilia's three Trials in the Sanctuary, Subaru's past-life revelation (Trial 2), Roswaal's Gospel and contract, Garfiel's transformation arc, Beatrice's "choose me" scene, the Rabbit Witch Beast annihilation, the Great Rabbit battle, Otto's backstory, Frederica and Petra's escape → always full translation.
 
-**Arc 1–2:** Every moment of Subaru's loop and its resolution, the Rem confession scene → always full translation.
+**Arc 5 (Stars What Make History / Pristella Water City):** All five Sin Archbishop appearances and battles (Regulus, Sirius, Lye Batenkaitos, Roy Alphard, Capella), Regulus vs Reinhard, the waterway battles, Crusch's condition, Subaru's Cor Leonis awakening → always full translation. Note: Regulus's monologues are intentionally long — do NOT summarize them; their exhausting length is characterisation.
 
-**Other arcs:** Identify the arc's central mission from context and apply the principles above.
+**Arc 6 (Hall of Memories / Pleiades Watchtower):** The 5 obstacles, Subaru's name-loss and recovery, tower conquest finale (Ch. 85–90), identity reveals (Louis Arneb, Shaula, Sage Echidna), Reid Astrea encounters, the Centaurus witch beast horde, Meili's control → always full translation. See [references/arc6-context.md](references/arc6-context.md) for the full structure.
+
+**Arc 7 (The Land of Wolves / Vollachian Empire):** Subaru and amnesiac Rem stranded in Vollachia, Abel/Vincent Vollachia's identity and imperial scheming, Todd Fang's pragmatic betrayal, the Shudraq tribe and the Lifeblood Ritual (Nghi thức Huyết Tế), Subaru's Shotaification (child transformation), the siege of Guaral, Medium O'Connell, Yorna Mishigure, Olbart Dunkelkenn, the Great Disaster, Abel's reclamation of the throne → always full translation.
+
+**Arc 8 (Vincent Vollachia):** Continuation of the Empire arc. The final battles for Vollachia, Todd Fang's return, Subaru's restoration from child form, the confrontation with Cecilus Segmunt (full power), the Empire's succession crisis resolution → always full translation.
+
+**Arc 9 (Light of a Nameless Star):** Aldebaran as a central POV character, the Following Star's purpose, Al's loops and unique authority, Priscilla's storyline resolution → always full translation.
+
+**Arc 10 (The Land of the Lion Kings):** The newest arc (ongoing). Apply the general principles above — identify the arc's central mission from context and translate all plot-advancing content fully.
+
+**Other arcs / IF stories:** Identify the arc's central mission from context and apply the principles above.
 
 ## Step 2 — Apply translation philosophy
 
@@ -58,6 +68,35 @@ For summarized passages, the `en` attribute should contain a **bracketed descrip
 
 **Character voice consistency.** Every character must sound like themselves, not like a generic narrator. A Beatrice line that could have been said by Emilia is wrong.
 
+## Step 2.5 — CRITICAL: Zero English leakage policy
+
+**Every single word in the Vietnamese output ("vi" field) MUST be Vietnamese.** This rule is absolute and has zero exceptions.
+
+### Common English leakage patterns to watch for and eliminate:
+
+1. **Untranslated English conjunctions:** Writing "and" instead of "và", "but" instead of "nhưng", "or" instead of "hoặc", "if" instead of "nếu", "the" instead of the appropriate Vietnamese equivalent. These often slip in mid-sentence when the translator loses focus.
+   - ❌ `"Garfiel and Otto được thiết lập"` → ✅ `"Garfiel và Otto được thiết lập"`
+   - ❌ `"If hỏi các thành viên"` → ✅ `"Nếu hỏi các thành viên"`
+
+2. **Untranslated English descriptive speaker labels:** Labels like "Orange Haired Youth", "Man with an Eyepatch", "Hooded Figure", "Mysterious Woman" MUST be translated to Vietnamese.
+   - ❌ `Orange Haired Youth: [...]` → ✅ `Thanh niên tóc cam: [...]`
+   - ❌ `Man with an Eyepatch: [...]` → ✅ `Gã đeo bịt mắt: [...]`
+   - ❌ `Mysterious Voice: [...]` → ✅ `Giọng nói bí ẩn: [...]`
+
+3. **Partial English phrases surviving inside Vietnamese sentences:** Entire English phrases or clauses accidentally copied from the source instead of being translated.
+   - ❌ `"cậu ta cũng không ngoại lệ and the youth in front of him"` — raw English fragment leaked
+   - ✅ Every word must be Vietnamese
+
+4. **English footnote markers left untranslated:** `[1]`, `[2]` etc. are acceptable as-is, but their corresponding footnote text must be in Vietnamese.
+
+5. **Proper nouns are the ONLY acceptable English in Vietnamese output.** Character names (Subaru, Emilia, Rem, Todd, Jamal, Garfiel, Otto, Abel, Mizelda, Taritta, etc.), place names (Vollachia, Shudraq, Buddheim, Lugunica, Pristella, etc.), and ability names (Cor Leonis, EMT, etc.) may remain in their English/romanized form.
+
+### Self-check procedure for English leakage:
+After completing each paragraph's translation, mentally scan the Vietnamese output for:
+- Any word containing only ASCII Latin letters that is NOT a proper noun
+- Common English function words: the, a, an, is, was, are, were, has, had, have, do, does, did, will, would, can, could, shall, should, may, might, must, and, but, or, if, then, that, this, these, those, which, who, whom, what, when, where, why, how, not, no, all, each, every, both, few, more, most, other, some, any, such, than, too, very, also, just, only, still, already, even, never, always, often, sometimes
+- If ANY of these appear in the Vietnamese output (outside of a proper noun), the translation has failed and must be fixed immediately
+
 ## Step 3 — Apply xưng hô (forms of address)
 
 See [references/characters.md](references/characters.md) for each character's full pronoun set and speech style.
@@ -69,11 +108,12 @@ Quick reference:
 | Subaru | tôi / mình | — | Casual, modern humour, self-deprecating |
 | Emilia | tôi | Subaru | Warm, earnest, never sarcastic |
 | Beatrice | ta / Betty (3rd person) | ngươi / cậu | "…nhỉ" (I suppose), "…đấy chứ" (in fact) |
-| Rem | tôi | Subaru-kun → Subaru | Devoted, gentle, fierce in battle |
+| Rem (normal) | tôi | Subaru-kun → Subaru | Devoted, gentle, fierce in battle |
+| Rem (amnesiac, Arc 7+) | tôi | anh / kẻ kia | Cold, suspicious, defensive — Witch's scent |
 | Ram | tôi | cậu | Curt, proud, minimal words |
 | Roswaal | ta | cậu / ngài | Elongated theatrical speech, "~" |
 | Otto | tôi | Subaru / cậu | Rapid, exasperated, practical |
-| Garfiel | tao | mày / cậu | Rough, boastful, secretly warm |
+| Garfiel | tao / em | mày / cậu / Đại ca | Rough, boastful, secretly warm |
 | Priscilla | ta | — | Extreme haughtiness, everything serves her |
 | Anastasia | tôi | — | Merchant warmth, cunning undertone |
 | Julius | tôi | cậu | Formal, eloquent, knightly |
@@ -84,6 +124,18 @@ Quick reference:
 | Regulus | tôi | — | Endless calm monologues, self-righteous |
 | Echidna (sage) | tôi | — | Analytical, dry, concise |
 | Shaula | ta / tôi | — | Loud, passionate, reverent toward Sage |
+| Abel/Vincent | Ta | ngươi | Haughty imperial, strategic — occasional slip to "Trẫm" |
+| Todd Fang | tôi / ta | cậu / ngươi | Friendly surface, chillingly pragmatic underneath |
+| Jamal | tao | mày / thằng ranh | Brutish, aggressive, vulgar military bully |
+| Mizelda | Ta | nhóc con / ngươi | Bold, proud Amazonian chieftain |
+| Taritta | tôi / em | — | Proud warrior, respectful to Mizelda ("Chị") |
+| Utakata | Uu (3rd person) | anh / Suu | Childlike, "đó nha", "nè", "á" |
+| Clind | tôi | cậu | Butler speech — ends dialogues with one concise word |
+| Cecilus Segmunt | tôi / ta | — | Flamboyant, theatrical swordsman |
+| Medium O'Connell | tôi | — | Bright, energetic, straightforward |
+| Yorna Mishigure | tôi / thiếp | — | Elegant fox-woman, maternal authority |
+| Olbart Dunkelkenn | ta / lão | — | Crotchety old man, mischievous, shinobi master |
+| Al (Aldebaran) | ore → tôi / ta | — | Casual, sarcastic, world-weary |
 
 **Beatrice's markers are non-negotiable** — "…nhỉ" and "…đấy chứ" define her voice. Do not normalise them.
 
@@ -100,11 +152,22 @@ Key rules:
 
 ## Step 5 — Self-review before outputting
 
-Read the Vietnamese output mentally as continuous prose:
-- Does it sound like a Vietnamese author wrote it, or like a translated text?
-- Is every character's xưng hô consistent throughout?
-- Are emotional peaks preserved?
-- Are any particles or phrases overused?
+Read the Vietnamese output mentally as continuous prose. Check ALL of the following:
+
+### Translation completeness check:
+- [ ] Every "vi" field contains Vietnamese text — no empty fields remain
+- [ ] No English words survive in the Vietnamese output (except proper nouns)
+- [ ] No English conjunctions leaked: "and", "but", "or", "if", "the", etc.
+- [ ] All descriptive speaker labels are translated to Vietnamese
+- [ ] No raw English phrases or sentence fragments remain
+
+### Quality check:
+- [ ] Does it sound like a Vietnamese author wrote it, or like a translated text?
+- [ ] Is every character's xưng hô consistent throughout?
+- [ ] Are emotional peaks preserved?
+- [ ] Are any particles or phrases overused (e.g., "nhất định", "chắc chắn", "thực sự", "cơ thể", "dường như" appearing more than once per paragraph)?
+- [ ] Are there any machine translation relics? (e.g., "lị", "sất", "quèn", "d dứt", "d dẫu", "độc độc", "phân một")
+- [ ] No sentence reads like a word-by-word substitution from English
 
 Fix any issues. Output only the MDX block — no commentary, no explanation outside the MDX.
 
@@ -127,5 +190,17 @@ Fix any issues. Output only the MDX block — no commentary, no explanation outs
 | Sanctuary | Thánh Địa |
 | Sage | Hiền Nhân |
 | Witch of [Sin] | Phù Thủy [Tội Danh] |
+| Lifeblood Ritual | Nghi Thức Huyết Tế |
+| Vollachian Empire | Đế Quốc Vollachia |
+| Kingdom of Lugunica | Vương Quốc Lugunica |
+| Kararagi City-States | Liên Bang Đô Thị Kararagi |
+| Holy Kingdom of Gusteko | Thánh Quốc Gusteko |
+| Unseen Hand | Bàn Tay Vô Hình |
+| Cor Leonis | Cor Leonis |
+| Invisible Providence | Thần Ý Vô Hình |
+| Authority | Quyền Năng |
+| Witch's Scent | Mùi Hương Phù Thủy / Mùi Ma Nữ |
+| Oni | Quỷ |
+| Demi-human | Á Nhân |
 
 For arc-specific terms (Pleiades Watchtower, Augria Sand Dunes, etc.) see [references/arc6-context.md](references/arc6-context.md).
