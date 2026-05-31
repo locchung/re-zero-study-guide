@@ -57,6 +57,13 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-03', title: 'Chương 3: Đối Đầu Với Rem | VS Rem', chapterNumber: 3, arc: 7 },
   { slug: 'chuong-04', title: 'Chương 4: Lựa Chọn Quả Cảm | A Brave Choice', chapterNumber: 4, arc: 7 },
   { slug: 'chuong-05', title: 'Chương 5: Làm Đàn Ông Thật Gian Nan | Being a Man is Tough', chapterNumber: 5, arc: 7 },
+  { slug: 'chuong-06', title: 'Chương 6: Phương Nam Xa Xôi | A Land Faraway in the South', chapterNumber: 6, arc: 7 },
+  { slug: 'chuong-07', title: 'Chương 7: Làm Đàn Ông Quả Thực Gian Nan | Being a Man was Tough', chapterNumber: 7, arc: 7 },
+  { slug: 'chuong-08', title: 'Chương 8: Tên | Name', chapterNumber: 8, arc: 7 },
+  { slug: 'chuong-09', title: 'Chương 9: Cách Sống Của Đế Quốc | The Way of the Empire', chapterNumber: 9, arc: 7 },
+  { slug: 'chuong-10', title: 'Chương 10: Tộc Nhân Shudraq | The People of Shudraq', chapterNumber: 10, arc: 7 },
+  { slug: 'chuong-11', title: 'Chương 11: Nghi Thức Huyết Tế | The Lifeblood Ritual', chapterNumber: 11, arc: 7 },
+  { slug: 'chuong-12', title: 'Chương 12: Đế Quốc Vollachia | The Vollachian Empire', chapterNumber: 12, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {

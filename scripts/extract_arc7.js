@@ -6,11 +6,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const chapters = [
-  { num: 1, url: 'https://witchculttranslation.com/2021/01/23/arc-7-chapter-1-initiation/' },
-  { num: 2, url: 'https://witchculttranslation.com/2021/01/29/arc-7-chapter-2-animal-tracking/' },
-  { num: 3, url: 'https://witchculttranslation.com/2021/01/29/arc-7-chapter-3-vs-rem/' },
-  { num: 4, url: 'https://witchculttranslation.com/2021/02/01/arc-7-chapter-4-a-brave-choice/' },
-  { num: 5, url: 'https://witchculttranslation.com/2021/02/05/arc-7-chapter-5-being-a-man-is-tough/' }
+  { num: 6, url: 'https://witchculttranslation.com/2021/02/19/arc-7-chapter-6-a-land-faraway-in-the-south/' },
+  { num: 7, url: 'https://witchculttranslation.com/2021/03/02/arc-7-chapter-7-being-a-man-was-tough/' },
+  { num: 8, url: 'https://witchculttranslation.com/2021/03/16/arc-7-chapter-8-name/' },
+  { num: 9, url: 'https://witchculttranslation.com/2021/03/27/arc-7-chapter-9-the-way-of-the-empire/' },
+  { num: 10, url: 'https://witchculttranslation.com/2021/04/03/arc-7-chapter-10-the-people-of-shudraq/' },
+  { num: 11, url: 'https://witchculttranslation.com/2021/04/24/arc-7-chapter-11-lifeblood-ritual/' },
+  { num: 12, url: 'https://witchculttranslation.com/2021/05/06/arc-7-chapter-12-the-vollachian-empire/' }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');
