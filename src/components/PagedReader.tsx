@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { ChapterMeta } from '@/lib/types'
 import { useReader } from '@/lib/ReaderContext'
+import { ReaderSettings } from './ReaderSettings'
 
 // Matches `gap-3` (0.75rem = 12px at 16px root)
 const FLEX_GAP = 12
@@ -18,7 +19,11 @@ interface PagedReaderProps {
 }
 
 export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
-  const { setLayout } = useReader()
+  const {
+    setLayout,
+    fontScale, lineSpacing,
+    saveProgress, progress, progressLoaded,
+  } = useReader()
   const router = useRouter()
 
   const [currentPage, setCurrentPage] = useState(1)
@@ -34,8 +39,10 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
   const contentRef = useRef<HTMLDivElement>(null)
   const measuringRef = useRef<HTMLDivElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
+  // One-shot restore guard — reset on every mount (PagedReader is keyed by slug)
+  const restoredRef = useRef(false)
 
-  // Same whitespace-filter logic as the old ChapterLayout
+  // Same whitespace-filter logic as ChapterLayout
   const childrenArray = React.Children.toArray(children).filter((child) => {
     if (typeof child === 'string') return child.trim() !== ''
     return child !== null && child !== undefined
@@ -44,7 +51,7 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
   const totalPages = Math.max(pageRanges.length, 1)
   const progressPercent = pageRanges.length > 0 ? (currentPage / totalPages) * 100 : 0
 
-  // Subscribe to prefers-reduced-motion changes (listener only — initial value handled by lazy init)
+  // Subscribe to prefers-reduced-motion changes (listener only — initial value from lazy init)
   useEffect(() => {
     const mq = window.matchMedia('(prefers-reduced-motion: reduce)')
     const onChange = (e: MediaQueryListEvent) => setReduceMotion(e.matches)
@@ -56,9 +63,7 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
   useEffect(() => {
     const saved = document.body.style.overflow
     document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = saved
-    }
+    return () => { document.body.style.overflow = saved }
   }, [])
 
   // Compute page break ranges from measured item heights
@@ -83,7 +88,6 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
       if (i === pageStart) {
         accumulated = h
       } else if (accumulated + FLEX_GAP + h > budget) {
-        // Item doesn't fit — close current page, start a new one
         ranges.push([pageStart, i - 1])
         pageStart = i
         accumulated = h
@@ -91,7 +95,6 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
         accumulated += FLEX_GAP + h
       }
     }
-    // Final page
     ranges.push([pageStart, items.length - 1])
 
     setPageRanges(ranges)
@@ -120,32 +123,56 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
     }
   }, [measure])
 
-  // Chapter slug changes are handled by the `key={meta.slug}` prop on this component
-  // (set in ChapterLayout), which causes React to unmount + remount — resetting all state.
+  // Restore to the saved page after first measurement + progressLoaded (one-shot per mount)
+  useEffect(() => {
+    if (!measured || !progressLoaded || restoredRef.current) return
+    restoredRef.current = true
+
+    const saved = progress[meta.slug]
+    if (!saved || saved.blockIndex <= 0) return
+
+    const clamped = Math.min(saved.blockIndex, childrenArray.length - 1)
+    const targetPage = pageRanges.findIndex(
+      ([start, end]) => clamped >= start && clamped <= end
+    )
+    if (targetPage >= 0) {
+      // One-shot restore after loading saved progress — intentional setState in effect.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setCurrentPage(targetPage + 1)
+    }
+  }, [measured, progressLoaded, progress, meta.slug, pageRanges, childrenArray.length])
+
+  // Chapter slug changes are handled by `key={meta.slug}` in ChapterLayout (remount).
 
   const goNext = useCallback(() => {
     if (currentPage < totalPages) {
-      setCurrentPage((p) => p + 1)
+      const next_ = currentPage + 1
+      setCurrentPage(next_)
       setPageKey((k) => k + 1)
       if (contentRef.current) contentRef.current.scrollTop = 0
+      const r = pageRanges[next_ - 1]
+      if (r) saveProgress(meta.slug, meta.arc, r[0], childrenArray.length)
     } else if (next) {
       router.push(`/arc${next.arc}/${next.slug}`)
     }
-  }, [currentPage, totalPages, next, router])
+  }, [currentPage, totalPages, next, router, pageRanges, childrenArray.length, saveProgress, meta.slug, meta.arc])
 
   const goPrev = useCallback(() => {
     if (currentPage > 1) {
-      setCurrentPage((p) => p - 1)
+      const prev_ = currentPage - 1
+      setCurrentPage(prev_)
       setPageKey((k) => k + 1)
       if (contentRef.current) contentRef.current.scrollTop = 0
+      const r = pageRanges[prev_ - 1]
+      if (r) saveProgress(meta.slug, meta.arc, r[0], childrenArray.length)
     } else if (prev) {
       router.push(`/arc${prev.arc}/${prev.slug}`)
     }
-  }, [currentPage, prev, router])
+  }, [currentPage, prev, router, pageRanges, childrenArray.length, saveProgress, meta.slug, meta.arc])
 
   const exitReader = useCallback(() => setLayout('inline'), [setLayout])
 
-  // Keyboard: ← → to flip, Esc to exit
+  // Keyboard: ← → to flip pages, Esc to exit
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement
@@ -170,7 +197,6 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
     const dx = t.clientX - touchStart.current.x
     const dy = t.clientY - touchStart.current.y
     touchStart.current = null
-    // Require ≥50 px horizontal AND horizontal must dominate vertical
     if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy)) return
     if (dx < 0) goNext()
     else goPrev()
@@ -181,8 +207,17 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
     ? childrenArray.slice(range[0], range[1] + 1)
     : null
 
+  // CSS vars for font scale + line spacing — applied to the reader root
+  const readerVars = {
+    '--reader-scale': fontScale,
+    '--reader-leading': lineSpacing === 'relaxed' ? 2 : 1.7,
+  } as React.CSSProperties
+
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-[#faf6f0] dark:bg-[#1a1612]">
+    <div
+      className="fixed inset-0 z-50 flex flex-col bg-[#faf6f0] dark:bg-[#1a1612]"
+      style={readerVars}
+    >
 
       {/* ── Top bar ─────────────────────────────────── */}
       <div className="shrink-0 flex items-center justify-between gap-3 px-4 h-12 border-b border-[#ddd3c2] dark:border-[#3a3028] bg-[#faf6f0]/95 dark:bg-[#1a1612]/95 backdrop-blur-sm">
@@ -190,17 +225,21 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
           <p className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 leading-none">
             Arc {meta.arc} · Chương {meta.chapterNumber}
           </p>
-          <p className="mt-0.5 text-xs leading-tight text-[#7a6c5e] dark:text-[#9c8e7e] truncate max-w-[56vw]">
+          <p className="mt-0.5 text-xs leading-tight text-[#7a6c5e] dark:text-[#9c8e7e] truncate max-w-[50vw]">
             {meta.title}
           </p>
         </div>
 
-        <div className="flex items-center gap-2.5 shrink-0">
+        <div className="flex items-center gap-2 shrink-0">
           {measured && (
             <span className="tabular-nums text-[11px] font-semibold text-[#8a7c6e] dark:text-[#a89988] bg-[#f0e8dc]/70 dark:bg-[#28221c]/70 px-2.5 py-0.5 rounded-full select-none">
               {currentPage}&thinsp;/&thinsp;{totalPages}
             </span>
           )}
+
+          {/* Reader settings (font size, spacing, reveal-all) */}
+          <ReaderSettings />
+
           <button
             onClick={exitReader}
             className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[#e8dcc8] dark:hover:bg-[#2a221a] text-[#7a6c5e] dark:text-[#9c8e7e] hover:text-[#2d2420] dark:hover:text-[#e8dcc8] transition-colors"
@@ -216,10 +255,10 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
 
       {/* ── Content area ────────────────────────────── */}
       {/*
-        overflow-hidden (not overflow-y-auto) here so the absolutely-positioned
-        measuring container — which is as tall as the entire chapter — does not
-        extend this element's scroll area and make the page scrollable on mobile.
-        Scrolling for revealed translations is handled by the inner wrapper below.
+        overflow-hidden (not overflow-y-auto) so the absolutely-positioned measuring
+        container — which is as tall as the entire chapter — does not extend the scroll
+        area and make the page scrollable on mobile. Revealed-translation scrolling
+        is handled by the inner absolute wrapper below.
       */}
       <div
         ref={contentRef}
@@ -228,11 +267,8 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
         onTouchEnd={onTouchEnd}
       >
         {/*
-          Hidden measuring container.
-          Must share the same max-width + padding as the visible container so
-          item heights are accurate. `absolute top-0 left-0 right-0 mx-auto` with
-          `max-w-2xl` matches the centered, padded visible container exactly.
-          The parent overflow-hidden clips it visually and prevents scroll bleed.
+          Hidden measuring container — same max-width + padding as the visible content
+          so item heights are measured at the correct rendered width.
         */}
         <div
           ref={measuringRef}
@@ -273,21 +309,21 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
 
         {/* Scrollable inner layer — allows revealed translations to scroll if they overflow */}
         <div className="absolute inset-0 overflow-y-auto">
-        <div className="max-w-2xl mx-auto px-6 md:px-12 py-6">
-          {!measured ? (
-            <div className="flex items-center justify-center min-h-[50vh] text-sm text-[#9c8e7e] dark:text-[#7a6c5e] select-none">
-              <span className="animate-pulse">Đang tải trang…</span>
-            </div>
-          ) : (
-            <div
-              key={reduceMotion ? 'static' : pageKey}
-              className={`flex flex-col gap-3${reduceMotion ? '' : ' animate-fade-in'}`}
-            >
-              {pageChildren}
-            </div>
-          )}
+          <div className="max-w-2xl mx-auto px-6 md:px-12 py-6">
+            {!measured ? (
+              <div className="flex items-center justify-center min-h-[50vh] text-sm text-[#9c8e7e] dark:text-[#7a6c5e] select-none">
+                <span className="animate-pulse">Đang tải trang…</span>
+              </div>
+            ) : (
+              <div
+                key={reduceMotion ? 'static' : pageKey}
+                className={`flex flex-col gap-3${reduceMotion ? '' : ' animate-fade-in'}`}
+              >
+                {pageChildren}
+              </div>
+            )}
+          </div>
         </div>
-        </div>{/* end scrollable inner layer */}
       </div>
 
       {/* ── Bottom bar ──────────────────────────────── */}

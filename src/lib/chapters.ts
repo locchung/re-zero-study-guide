@@ -76,6 +76,12 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-22', title: 'Chương 22: Kế Hoạch Vây Thành Không Đổ Máu | The Bloodless Siege Plan', chapterNumber: 22, arc: 7 },
   { slug: 'chuong-23', title: 'Chương 23: Nhạc Công Natsumi Schwartz | Musician Natsumi Schwartz', chapterNumber: 23, arc: 7 },
   { slug: 'chuong-24', title: 'Chương 24: Kiêu Ngạo | Arrogance', chapterNumber: 24, arc: 7 },
+  { slug: 'chuong-25', title: 'Chương 25: Cuộc Ngộ Phùng Như Huyết Lệ Thiêu Đốt | A Reunion Akin to Scorching Blood', chapterNumber: 25, arc: 7 },
+  { slug: 'chuong-26', title: 'Chương 26: Hội Nghị Bàn Tròn Nhảy Múa | A Dancing Roundtable Conference', chapterNumber: 26, arc: 7 },
+  { slug: 'chuong-27', title: 'Chương 27: Kẻ Sở Hữu Và Kẻ Tay Trắng | The Haves and the Have-Nots', chapterNumber: 27, arc: 7 },
+  { slug: 'chuong-28', title: 'Chương 28: Điều Kiện Chiến Thắng | Victory Conditions', chapterNumber: 28, arc: 7 },
+  { slug: 'chuong-29', title: 'Chương 29: Vị Thế Của Mỗi Người | To Each Their Stance', chapterNumber: 29, arc: 7 },
+  { slug: 'chuong-30', title: 'Chương 30: Anh Hùng Tự Phong Natsuki Subaru | Self-Proclaimed Hero Natsuki Subaru', chapterNumber: 30, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {

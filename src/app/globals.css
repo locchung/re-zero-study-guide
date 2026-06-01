@@ -10,6 +10,9 @@
   --muted: #7a6c5e;
   --accent: #c07c2a;
   --accent-hover: #d4892e;
+  /* Reader typography — overridden per-page via inline style */
+  --reader-scale: 1;
+  --reader-leading: 1.7;
 }
 
 @theme inline {

@@ -1,0 +1,715 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part1 = [
+  {
+    "id": 1,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※　※　※　※　※　※　※　※　※　※　※　※"
+  },
+  {
+    "id": 2,
+    "en": "Translated By :",
+    "vi": "Dịch bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Art Sources :",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 4,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※　※　※　※　※　※　※　※　※　※　※　※"
+  },
+  {
+    "id": 5,
+    "en": "ALL RIGHTS BELONG TO TAPPEI NAGATSUKI, THE ORIGINAL AUTHOR OF RE:ZERO STARTING A LIFE IN A DIFFERENT WORLD FROM ZERO, THIS IS A TRANSLATION OF THE FREE JAPANESE WEB NOVEL INTO ENGLISH",
+    "vi": "BẢN QUYỀN THUỘC VỀ TAPPEI NAGATSUKI, TÁC GIẢ GỐC CỦA RE:ZERO STARTING LIFE IN A DIFFERENT WORLD FROM ZERO, ĐÂY LÀ BẢN DỊCH PHI THƯƠNG MẠI TỪ BẢN WEB NOVEL TIẾNG NHẬT SANG TIẾNG ANH"
+  },
+  {
+    "id": 6,
+    "en": "JAPANESE WEB NOVEL SOURCE",
+    "vi": "NGUỒN WEB NOVEL TIẾNG NHẬT"
+  },
+  {
+    "id": 7,
+    "en": "※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※　※　※　※　※　※　※　※　※　※　※"
+  },
+  {
+    "id": 8,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 9,
+    "en": "Machine Translated By :",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 10,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 11,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 12,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 13,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※　※　※　※　※　※　※　※　※　※　※　※"
+  },
+  {
+    "id": 14,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 15,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※　※　※　※　※　※　※　※　※　※　※　※"
+  },
+  {
+    "id": 16,
+    "en": "Mizelda's expression was resolute as she declared that she would give up her position as Chieftain.",
+    "vi": "Biểu cảm gương mặt của Mizelda vô cùng kiên định dứt khoát khi cô dõng dạc tuyên bố sẽ từ bỏ vương vị Tộc trưởng của mình."
+  },
+  {
+    "id": 17,
+    "en": "The dominance of her wild, strong-eyed beauty had not diminished, and she was still exactly the same as when they had first seen her. Through thick and thin, the impression of her being a strong woman remained the same.",
+    "vi": "Vẻ đẹp đầy hoang dã oai phong lẫm liệt cùng đôi mắt sắc sảo mạnh mẽ của cô không hề suy suyển mai một chút nào, cô vẫn hoàn toàn giống hệt như thời khắc đầu tiên bọn họ được tiếp kiến cô. Trải qua muôn vàn sóng gió trắc trở hoạn nạn, ấn tượng sâu sắc về một nữ trung hào kiệt dũng mãnh kiên cường ở cô vẫn vẹn nguyên như xưa."
+  },
+  {
+    "id": 18,
+    "en": "And with that notion still present, having lost her right leg, Mizelda had decided to step down from her position as Chieftain.",
+    "vi": "Và với tôn chỉ sắt đá đó luôn hiện hữu, dẫu cho vừa mới mất đi một phần chân phải từ đầu gối trở xuống, Mizelda vẫn lập tức đưa ra quyết định thoái vị nhường lại ngôi vị Tộc trưởng."
+  },
+  {
+    "id": 19,
+    "en": "Everyone: [――――]",
+    "vi": "Mọi người: [――――]"
+  },
+  {
+    "id": 20,
+    "en": "The ones surrounding Mizelda, were the ones who harbored a deep sense of regret.",
+    "vi": "Những người túc trực vây quanh Mizelda đều là những ai đang mang trong lòng một nỗi nuối tiếc u uẩn tiếc nuối khôn nguôi."
+  },
+  {
+    "id": 21,
+    "en": "The People of Shudraq, those who had witnessed Mizelda’s, their Chieftain’s, strength from up close, would not be able to discard their bitterness and sense of loss that easily.",
+    "vi": "Tộc nhân Shudraq, những chiến binh quả cảm từng được tận mắt chứng kiến thực lực dũng mãnh phi thường của Tộc trưởng Mizelda ở cự ly gần nhất, không tài nào dễ dàng vứt bỏ rũ bỏ được nỗi đắng cay cay đắng cùng cảm giác mất mát to lớn này trong chốc lát."
+  },
+  {
+    "id": 22,
+    "en": "Kuna’s lack of expression was intensified by her usual coldness, next to Holly, whose usual relaxed state was replaced with a somber expression. A teary-eyed Utakata bit her lip and cast her head down, while all the remaining Shudraqians too, displayed gloomy expressions on their faces.",
+    "vi": "Vẻ mặt vô cảm vốn có của Kuna càng trở nên lạnh lẽo u uất hơn bên cạnh một Holly vốn luôn lười nhác thư thả giờ đây cũng trưng ra biểu cảm nghiêm nghị ưu tư. Cô bé Utakata đôi mắt ngập tràn lệ nóng khẽ cắn chặt bờ môi khóc không thành tiếng và cúi gầm mặt xuống, trong khi tất cả các nữ chiến binh Shudraq còn lại cũng đều để lộ sắc thái u ám buồn bã rõ rệt trên gương mặt."
+  },
+  {
+    "id": 23,
+    "en": "However, the one most shaken up amidst them all――",
+    "vi": "Thế nhưng, kẻ chịu chấn động tâm lý nặng nề hoang mang nhất trong số bọn họ lại chính là――"
+  },
+  {
+    "id": 24,
+    "en": "Taritta: [Oh, sister, it's impossible. There's no way someone like me could be a good Chieftain...]",
+    "vi": "Taritta: [Chị hai ơi, không thể nào đâu. Một người nhút nhát yếu đuối như em làm sao có đủ thực lực tư cách để gánh vác trọng trách Tộc trưởng xuất chúng như chị được chứ...]"
+  },
+  {
+    "id": 25,
+    "en": "Mizelda: [――Taritta.]",
+    "vi": "Mizelda: [――Taritta.]"
+  },
+  {
+    "id": 26,
+    "en": "Taritta: [It's because it’s you, sister, that you were able to do it! I don't have the ability to do something like that...]",
+    "vi": "Taritta: [Chính vì đó là chị hai kiêu hãnh vĩ đại nên chị mới có thể hoàn thành tốt đại nghiệp được chứ! Còn em hoàn toàn không sở hữu năng lực phi thường để làm những việc như thế đâu...]"
+  },
+  {
+    "id": 27,
+    "en": "Shaking her head in disagreement, Taritta frantically pleaded.",
+    "vi": "Lắc đầu nguầy nguậy tỏ ý phản đối kịch liệt, Taritta cuống cuồng ra sức van xin cầu khẩn."
+  },
+  {
+    "id": 28,
+    "en": "That she, Mizelda’s younger sister, who had personally been nominated to be the next Chieftain, respected and practically worshipped her elder sister was easy to imagine, based off of every single one her daily words and actions.",
+    "vi": "Việc cô, người em gái ruột của Mizelda vừa mới được đích thân đề bạt kế nhiệm ngôi vị Tộc trưởng tối cao, luôn dành sự tôn sùng kính trọng sùng bái và coi chị hai như một vị thần là điều cực kỳ dễ dàng mường tượng dựa vào từng hành động cử chỉ lời nói thường ngày của cô."
+  },
+  {
+    "id": 29,
+    "en": "For that reason precisely, Taritta was in denial, unable to accept the fact that Mizelda had lost her leg. She appeared even more upset than Mizelda herself was.",
+    "vi": "Chính vì lẽ đó, Taritta hoàn toàn rơi vào trạng thái phủ nhận thực tế phũ phàng, không tài nào chấp nhận nổi sự thật đau đớn rằng chị hai yêu dấu đã vĩnh viễn mất đi một phần chân phải. Trông cô còn đau đớn hoang mang và suy sụp hơn cả bản thân nạn nhân Mizelda rất nhiều."
+  },
+  {
+    "id": 30,
+    "en": "Rem: [...It’s because of my inadequacy.]",
+    "vi": "Rem: [...Tất cả là do sự bất tài thiếu sót của bản thân tôi.]"
+  },
+  {
+    "id": 31,
+    "en": "Taritta's grief-stricken plea was met by a weak, self-condemning voice.",
+    "vi": "Lời van xin thảm thiết ngập tràn nước mắt của Taritta được đáp lại bằng một giọng nói yếu ớt khẽ run rẩy tự trách trách cứ bản thân."
+  },
+  {
+    "id": 32,
+    "en": "It came from the other end of the room littered with injured bodies, from Rem, who was in a state of exhaustion, making use of her cane to stand.",
+    "vi": "Âm thanh phát ra từ phía góc đối diện của căn phòng dã chiến la liệt người nằm, từ một Rem đang ở trong trạng thái kiệt sức cùng cực, phải gượng dựa vào cây gậy chống để đứng vững."
+  },
+  {
+    "id": 33,
+    "en": "She was the sole existence at this place able to use healing magic. Making herself useful, Rem bustled left and right, going from person-to-person endeavoring to save many of the injured. One could only guess from her blood-stained clothes, disheveled hair, and fatigued expression how draining it had been.",
+    "vi": "Cô là thực thể duy nhất tại nơi này sở hữu năng lực thi triển trị liệu ma pháp ma pháp. Để bản thân trở nên có ích ích dụng, Rem đã tất tả chạy đôn chạy đáo ngược xuôi hết người này đến người khác ra sức giành giật sự sống cho vô số binh sĩ bị nạn. Chỉ cần nhìn vào bộ trang phục loang lổ nhuốm đầy vệt máu tươi, mái tóc rối bời xõa xượi cùng gương mặt phờ phạc mệt mỏi rã rời là đủ để bất kỳ ai đoán định được cô đã phải vắt kiệt sinh lực đến nhường nào."
+  },
+  {
+    "id": 34,
+    "en": "Nevertheless, the person in question did not care, and even the appreciative words of Subaru at the beginning had been met with a simple \"I’m fine\" of dismissal.",
+    "vi": "Tuy nhiên, bản thân Rem hoàn toàn không mảy may bận tâm đến điều đó, và ngay cả những lời hỏi thăm trân trọng đầy nể nương của Subaru lúc ban đầu cũng bị cô thản nhiên gạt đi bằng câu từ ngắn ngủi \"Tôi không sao\"."
+  },
+  {
+    "id": 35,
+    "en": "Even so, no one had the right to condemn Rem for her lack of strength.",
+    "vi": "Dẫu thế, tuyệt đối không một ai ở đây có tư cách hay quyền hạn được phép trách móc oán giận Rem vì sự thiếu hụt sức mạnh pháp lực của cô."
+  },
+  {
+    "id": 36,
+    "en": "Without her, they would not have been able to attain a result devoid of fatalities from Arakiya’s attack. Everyone understood that much.",
+    "vi": "Nếu không có sự tận hiến hy sinh phi thường của cô, bọn họ chắc chắn không đời nào bảo toàn thành công thành quả không có ca tử vong nào sau cuộc càn quét tàn bạo của Arakiya. Tất cả mọi người đều thấu hiểu sâu sắc sự thật đó."
+  },
+  {
+    "id": 37,
+    "en": "Therefore――,",
+    "vi": "Thế nên――,"
+  },
+  {
+    "id": 38,
+    "en": "Mizelda: [Rem, there’s no need for you to be worried. I was lucky to get out of the battle with the Imperial General having only lost one of my legs... No, it’s because I had your help.]",
+    "vi": "Mizelda: [Rem à, em tuyệt đối không việc gì phải dằn vặt lo lắng lo âu cả. Ta vẫn còn vô cùng may mắn chán khi bước ra khỏi trận quyết chiến sinh tử với Thần Tướng Đế Quốc mà chỉ bị mất đi một phần chân... Không, chính xác là nhờ có sự cứu chữa tận tình của em ta mới giữ được cái mạng này đấy.]"
+  },
+  {
+    "id": 39,
+    "en": "Rem: [Mizelda-san… that may be true, but――]",
+    "vi": "Rem: [Mizelda-san… dẫu biết là như vậy, thế nhưng――]"
+  },
+  {
+    "id": 40,
+    "en": "Mizelda: [I'm grateful to you. I have nothing more to say.]",
+    "vi": "Mizelda: [Ta vô cùng biết ơn em. Ta không muốn nghe thêm bất kỳ lời tự trách nào nữa đâu.]"
+  },
+  {
+    "id": 41,
+    "en": "Rem was blocked from speaking any further, as Mizelda repeated her gratitude.",
+    "vi": "Rem bị cắt ngang không thể phát biểu thêm lời nào nữa khi Mizelda một lần nữa bày tỏ lòng biết ơn trân trọng sâu sắc."
+  },
+  {
+    "id": 42,
+    "en": "Louis, her long blonde hair in disarray, snuggled up beside the silent Rem. As the former gently picked at the hem of the latter’s dress, Rem quietly lowered her gaze, placing her hand on Louis's shoulder.",
+    "vi": "Louis, với mái tóc vàng óng dài xơ xác rối bời, khẽ rúc người sát bên cạnh một Rem đang im lặng u uất. Khi cô bé nhẹ nhàng nắm lấy túm nhẹ vạt váy của cô, Rem khẽ cúi gầm mặt xuống lẳng lặng đặt bàn tay dịu dàng lên vai Louis."
+  },
+  {
+    "id": 43,
+    "en": "The remorse and helplessness that Rem was feeling was painfully obvious to Subaru. But the dark-haired handsome man stepped forward faster than Subaru could say anything.",
+    "vi": "Nỗi dằn vặt tội lỗi cùng cảm giác bất lực tủi nhục mà Rem đang phải gánh chịu hiển hiện rõ mồn một đập vào mắt Subaru đầy đau đớn. Nhưng đấng nam nhi dung mạo kiêu sảo tóc đen đã chủ động sải bước tiến lên trước nhanh hơn một nhịp trước khi Subaru kịp hé môi nói lời nào."
+  },
+  {
+    "id": 44,
+    "en": "Abel: [Mizelda, you have no intention to change your mind, do you?]",
+    "vi": "Abel: [Mizelda, ngươi quyết chí không hề có ý định thay đổi phán quyết của mình đúng chứ?]"
+  },
+  {
+    "id": 45,
+    "en": "Abel's question as he stepped forward was met with a nod from Mizelda, who sat on an object.",
+    "vi": "Câu hỏi chất vấn của Abel khi gã sải bước tiến lên được đáp lại bằng một cái gật đầu quả quyết dứt khoát của Mizelda, người vẫn đang tựa người ngồi vững."
+  },
+  {
+    "id": 46,
+    "en": "As she felt the surface of her amputated, bandaged leg with her fingers, she said,",
+    "vi": "Trong khi các ngón tay khẽ chạm nhẹ vào bề mặt vết thương được quấn băng gạc trắng xóa của phần chân phải bị cụt, cô khẽ nói,"
+  },
+  {
+    "id": 47,
+    "en": "Mizelda: [Ah, I have no intention to. The pact between the Shudraq and Emperor of Vollachia will be kept. From here on out though, you should ask Taritta… or rather, the Chieftain.]",
+    "vi": "Mizelda: [Phải, ta quyết không đổi ý. Minh ước thiêng liêng kết nghĩa đồng minh giữa tộc Shudraq và Hoàng đế trị vì Vollachia vẫn sẽ được tuân thủ nghiêm ngặt. Dẫu thế kể từ giờ phút này trở đi, mọi chuyện ngươi cứ trực tiếp bàn luận thương thuyết với Taritta… hay nói đúng hơn, là với vị tân Tộc trưởng mới đi.]"
+  },
+  {
+    "id": 48,
+    "en": "Abel: [――. I understand. Mizelda, you have done a great service.]",
+    "vi": "Abel: [――. Ta đã thấu hiểu sự tình. Mizelda, công trạng cống hiến đóng góp của ngươi cho đại nghiệp quả thực vô cùng vĩ đại.]"
+  },
+  {
+    "id": 49,
+    "en": "Mizelda: [Mh.]",
+    "vi": "Mizelda: [Ừm.]"
+  },
+  {
+    "id": 50,
+    "en": "Mizelda had hardened her resolve to resign and Abel showed his understanding to her answer while folding his arms. With that, Mizelda let out a small breath and showed a wide grin.",
+    "vi": "Thấy Mizelda đã quyết chí thoái vị không lay chuyển và Abel cũng đã bày tỏ sự đồng thuận thấu hiểu trong khi khoanh hai tay trước ngực. Chứng kiến cảnh đó, Mizelda khẽ thở ra một hơi dài và nở một nụ cười sảng khoái rộng ngoác miệng."
+  },
+  {
+    "id": 51,
+    "en": "With a faint smile, she glanced upward at Abel.",
+    "vi": "Với nụ cười nhợt nhạt yếu ớt phảng phất trên môi, cô khẽ ngước mắt hướng ánh nhìn lên phía Abel."
+  },
+  {
+    "id": 52,
+    "en": "Mizelda: [If it’s going to be that way, show me your smile. It's the duty of a good-looking man.]",
+    "vi": "Mizelda: [Nếu mọi chuyện đã an bài như thế, hãy ban phát cho ta một nụ cười tiễn biệt xem nào. Đó chính là nghĩa vụ tối thiểu của một đấng nam nhi có dung mạo khôi ngô tuấn tú đấy.]"
+  },
+  {
+    "id": 53,
+    "en": "Abel: [――. Hmm.]",
+    "vi": "Abel: [――. Hừ.]"
+  },
+  {
+    "id": 54,
+    "en": "Mizelda: [Good enough.]",
+    "vi": "Mizelda: [Thế là đủ rồi.]"
+  },
+  {
+    "id": 55,
+    "en": "Despite losing her leg only recently, Mizelda was still much too fierce.",
+    "vi": "Dẫu cho chỉ vừa mới vĩnh viễn mất đi một phần chân cách đây không lâu, cốt cách dũng mãnh ngạo nghễ kiêu hãnh của Mizelda vẫn quá đỗi phi thường vượt bậc."
+  },
+  {
+    "id": 56,
+    "en": "Even Abel, arrogant as he was, did not criticize her for her disrespect, and even smiled at her attitude.",
+    "vi": "Ngay cả một Abel kiêu ngạo ngạo nghễ tột cùng như thế cũng không thèm chấp nhặt trách móc cô vì thái độ vô lễ đại nghịch bất đạo đó, gã thậm chí còn khẽ nhếch môi nở một nụ cười nhẹ nhàng đáp lại phong thái của cô."
+  },
+  {
+    "id": 57,
+    "en": "Above all, this was proof that the Emperor, whose throne had been usurped, displayed his respect towards the female warrior who lived in the jungle.",
+    "vi": "Hơn hết thảy, đây chính là minh chứng hùng hồn nhất cho thấy ngài Hoàng đế bị tước mất ngai vàng tôn quý vẫn luôn dành sự nể trọng tôn sùng sâu sắc đối với vị nữ chiến binh kiêu hãnh sinh trưởng chốn rừng sâu hoang dã Buddheim."
+  },
+  {
+    "id": 58,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 59,
+    "en": "Mizelda: [――Listen up, my brethren!]",
+    "vi": "Mizelda: [――Hãy chú ý lắng nghe ta, hỡi các chiến binh đồng bào của ta!]"
+  },
+  {
+    "id": 60,
+    "en": "Mizelda's smiling face hardened, as she raised her head to speak in a loud voice.",
+    "vi": "Biểu cảm gương mặt đang cười của Mizelda bỗng đanh thép nghiêm nghị lại, cô khước ngẩng cao đầu và dõng dạc cất cao giọng hét lớn truyền âm vang khắp phòng."
+  },
+  {
+    "id": 61,
+    "en": "Hearing the fierce sound of her voice, the Shudraq all straightened their posture as to listen carefully.",
+    "vi": "Nghe thấy âm thanh uy nghiêm dũng mãnh vang dội đó từ cô, toàn thể nữ chiến binh Shudraq có mặt lập tức nắn thẳng tư thế đứng nghiêm chỉnh, dồn mọi sự chú ý lắng nghe cẩn thận tỉ mỉ."
+  },
+  {
+    "id": 62,
+    "en": "Mizelda: [As I told you earlier, I am fulfilling my duty as Chieftain! I now hand over the role of Chieftain to my sister, Taritta! Everyone, obey Taritta from now on!]",
+    "vi": "Mizelda: [Như ta đã tuyên bố trước đó, nhiệm kỳ trọng trách làm Tộc trưởng của ta đến đây là chính thức khép lại hoàn tất! Ta quyết định truyền lại ngôi vị truyền ngôi Tộc trưởng tối cao này cho em gái ta, Taritta! Toàn bộ tộc nhân, kể từ giờ phút này trở đi bắt buộc phải phục tùng mệnh lệnh chỉ thị của Taritta!]"
+  },
+  {
+    "id": 63,
+    "en": "Shudraqians: [――――]",
+    "vi": "Tộc nhân Shudraq: [――――]"
+  },
+  {
+    "id": 64,
+    "en": "Mizelda: [This is my last command as Chieftain. ――Thank you for your ancestral vows and ancestral pride.]",
+    "vi": "Mizelda: [Đây chính là quân lệnh tối hậu cuối cùng của ta trên cương vị Tộc trưởng. ――Xin gửi lời cảm tạ biết ơn sâu sắc vì các ngươi đã luôn giữ trọn thề nguyện thiêng liêng và niềm kiêu hãnh kiêu hãnh của tổ tiên.]"
+  },
+  {
+    "id": 65,
+    "en": "Shudraqians: [――Thank you!]",
+    "vi": "Tộc nhân Shudraq: [――Xin gửi lời cảm tạ biết ơn sâu sắc!]"
+  },
+  {
+    "id": 66,
+    "en": "Mizelda concluded, and the Shudraqians seemed to be reciting something.",
+    "vi": "Mizelda khép lại lời tuyên bố, và toàn thể tộc nhân Shudraq đồng thanh hô vang đồng thanh đọc tụng một câu thề nguyện truyền thống cổ xưa nào đó."
+  },
+  {
+    "id": 67,
+    "en": "He knew not of their customs or longstanding practices. But even Subaru, an outsider and a layman, could sense that it was a ritual of succession.",
+    "vi": "Dẫu không hề am hiểu gì về các phong tục tập quán hay nghi lễ cổ xưa lâu đời của bọn họ. Thế nhưng ngay cả Subaru, một kẻ ngoại lai đứng ngoài cuộc và hoàn toàn mù tịt thông tin, cũng có thể lờ mờ cảm nhận được đây chính là một nghi thức truyền ngôi kế vị thiêng liêng."
+  },
+  {
+    "id": 68,
+    "en": "It was short, informal, and a combination of practical and conceptual inheritance.",
+    "vi": "Nó vô cùng ngắn gọn, giản dị không cầu kỳ, nhưng lại là sự kết hợp hoàn hảo giữa kế thừa thực tế trần trụi và chuyển giao ý chí tinh thần."
+  },
+  {
+    "id": 69,
+    "en": "In this place, the position of Chieftain of the People of Shudraq had been inherited, going from Mizelda to Taritta.",
+    "vi": "Ngay tại góc phòng dã chiến tạm bợ này, vương vị ngôi vị Tộc trưởng tối cao của tộc nhân Shudraq quả thực đã được chuyển giao thành công, truyền lại từ Mizelda sang cho Taritta."
+  },
+  {
+    "id": 70,
+    "en": "Taritta: [Sister...]",
+    "vi": "Taritta: [Chị hai...]"
+  },
+  {
+    "id": 71,
+    "en": "Mizelda: [Don’t lower your head, Chieftain. Your hesitation is our hesitation. Your faltering is our faltering. Your death leads to our death.]",
+    "vi": "Mizelda: [Không được phép cúi gầm mặt xuống, hỡi tân Tộc trưởng kiêu hãnh. Sự do dự ngập ngừng của em chính là sự do dự của toàn tộc. Sự gục ngã của em chính là sự gục ngã của toàn tộc. Cái chết của em chắc chắn sẽ dẫn thẳng tới sự hủy diệt của toàn tộc.]"
+  },
+  {
+    "id": 72,
+    "en": "Taritta: [――――]",
+    "vi": "Taritta: [――――]"
+  },
+  {
+    "id": 73,
+    "en": "Approaching her, Mizelda encouraged the new Chieftain, Taritta, the latter’s expression was murky.",
+    "vi": "Sải bước tiến lại gần cô, Mizelda ra sức khuyên nhủ cổ vũ cho vị tân Tộc trưởng mới, Taritta, trong khi biểu cảm gương mặt của người em vẫn loang lổ ưu tư mờ mịt."
+  },
+  {
+    "id": 74,
+    "en": "That would not make Taritta feel any better at once. However, Taritta must have realized that clinging onto her would not change the situation.",
+    "vi": "Những lời khuyên đó lẽ tự nhiên không thể giúp tâm lý Taritta phấn chấn lên ngay lập tức được. Dẫu thế, Taritta chắc chắn đã tự nhận thức được rằng việc cứ mãi khóc lóc bám víu lấy chị hai cũng chẳng thể thay đổi được thực tế phũ phàng."
+  },
+  {
+    "id": 75,
+    "en": "After a few moments of silence, Taritta nodded timidly, and silently.",
+    "vi": "Sau một vài khoảnh khắc im lặng u uất ngột ngạt, Taritta khẽ gật đầu nhẹ nhàng một cách rụt rè rụt rè."
+  },
+  {
+    "id": 76,
+    "en": "Mizelda: [――――]",
+    "vi": "Mizelda: [――――]"
+  },
+  {
+    "id": 77,
+    "en": "The complex emotions that flitted in Mizelda's eyes as she saw this, were something that went unnoticed by Taritta as she lowered her head. ――And it was something that no one but her would mention.",
+    "vi": "Những cung bậc cảm xúc vô cùng phức tạp đan xen thoáng vụt qua trong đôi mắt của Mizelda khi chứng kiến cảnh tượng đó là điều mà Taritta do đang cúi gầm mặt xuống nên hoàn toàn bỏ lỡ không tài nào nhận ra. ――Và đó cũng là nỗi niềm u uẩn thầm kín mà ngoại trừ cô ra sẽ không bao giờ có ai khác thèm đả động đả động đến."
+  },
+  {
+    "id": 78,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 79,
+    "en": "Subaru: [...To be honest, that was unexpected.]",
+    "vi": "Subaru: [...Thành thật mà nói, chuyện này nằm ngoài dự liệu của tôi hoàn toàn.]"
+  },
+  {
+    "id": 80,
+    "en": "With the Chieftain’s succession spiel and the damage report concluded, Subaru called out to Abel.",
+    "vi": "Sau khi nghi thức truyền ngôi truyền ngôi Tộc trưởng và bản báo cáo thương vong đã khép lại hoàn tất, Subaru chủ động cất tiếng gọi Abel."
+  },
+  {
+    "id": 81,
+    "en": "Abel furrowed his brow at being stopped without receiving a concrete subject. Showing displeasure, he then inquired about Subaru’s true intention with a “What was?”,",
+    "vi": "Abel khẽ nhíu mày nhíu mày khó chịu khi bị cậu gọi giật lại mà không có một chủ đề rõ ràng cụ thể nào. Biểu lộ vẻ không hài lòng, gã liền cộc lốc hỏi vặn lại ý đồ thực sự của Subaru bằng câu từ ngắn ngủi “Cái gì nằm ngoài dự liệu?”,"
+  },
+  {
+    "id": 82,
+    "en": "Abel: [I have much to ponder. You, of all people, should not be bothering me.]",
+    "vi": "Abel: [Ta còn có quá nhiều đại sự cần phải suy tính mưu lược. Kẻ vô tri như ngươi tốt nhất là đừng có lảng vảng xung quanh quấy nhiễu ta.]"
+  },
+  {
+    "id": 83,
+    "en": "Subaru: [You sure are harsh like always... It’s just that I was surprised. You accepted Mizelda-san leaving the frontlines so readily.]",
+    "vi": "Subaru: [Lúc nào anh ăn nói cũng gay gắt phũ phàng thế nhỉ... Chỉ là tôi cảm thấy vô cùng kinh ngạc thôi. Anh lại dễ dàng chấp thuận việc Mizelda-san rút lui khỏi chiến tuyến nhanh chóng đến như vậy.]"
+  },
+  {
+    "id": 84,
+    "en": "Abel: [――――]",
+    "vi": "Abel: [――――]"
+  },
+  {
+    "id": 85,
+    "en": "Subaru: [I thought you’d say that all she lost was one leg for sure. I thought you were going to tell her to work herself to death for you.]",
+    "vi": "Subaru: [Tôi cứ đinh ninh trong đầu thế nào anh cũng sẽ bảo cô ấy chỉ mới bị cụt mất có một chân thôi mà. Tôi cứ tưởng anh sẽ ép buộc cô ấy phải tiếp tục cống hiến chiến đấu cật lực đến hơi thở cuối cùng cho đại nghiệp của anh cơ chứ.]"
+  },
+  {
+    "id": 86,
+    "en": "Even though he thought it far too extreme, Subaru declared his honest feelings to Abel.",
+    "vi": "Dẫu biết rằng những suy đoán dằn vặt đó có phần hơi quá đỗi cực đoan phi lý, Subaru vẫn thẳng thắn bộc bạch trọn vẹn nỗi lòng thực sự của mình trước mặt Abel."
+  },
+  {
+    "id": 87,
+    "en": "This was the Emperor who had appended the People of Shudraq to his troops for the sake of reclaiming the throne, and someone who had considered polluting the Fortress City of Guaral with poison, if worst came to worst.",
+    "vi": "Bởi lẽ đây chính là ngài Hoàng đế trị vì tàn bạo từng không ngần ngại thu nhận ép buộc cả bộ tộc Shudraq làm bia đỡ đạn gia nhập chiến lực phò tá để giành lại ngai vàng, và thậm chí từng lạnh lùng toan tính phương án đầu độc tàn sát cả Thành Lũy Guaral bằng thuốc độc trong trường hợp tồi tệ nhất."
+  },
+  {
+    "id": 88,
+    "en": "Abel―― no, Vincent Vollachia, was very much willing to do such things.",
+    "vi": "Abel―― hay nói đúng hơn là Vincent Vollachia vĩ đại, hoàn toàn là một kẻ sẵn lòng làm những việc tàn nhẫn như thế vì đại nghiệp chông gai."
+  },
+  {
+    "id": 89,
+    "en": "Abel: [Nonsense. What in the world would be the meaning of being so forceful?]",
+    "vi": "Abel: [Vớ vẩn. Việc cưỡng cầu ép buộc một cách vô lý như thế thì mang lại giá trị thực tiễn gì chứ?]"
+  },
+  {
+    "id": 90,
+    "en": "However, Abel's response to Subaru, who had been prepared to hurl words of abuse and his true opinion, was calm and sober.",
+    "vi": "Thế nhưng, phản ứng đáp lại của Abel đối với Subaru, người vốn đã chuẩn bị sẵn tinh thần để tuôn ra những lời lăng mạ xỉa xói và quan điểm hoài nghi hoài nghi của mình, lại vô cùng điềm tĩnh lạnh lùng."
+  },
+  {
+    "id": 91,
+    "en": "In front of the disappointed Subaru, Abel looked at the Shudraqians conversing in the distance.",
+    "vi": "Trước gương mặt xị ra vì hụt hẫng của Subaru, Abel hướng tầm mắt lặng lẽ quan sát nhóm nữ chiến binh Shudraq đang đứng trò chuyện ở phía xa."
+  },
+  {
+    "id": 92,
+    "en": "Abel: [Well, I do not wish that my subordinates do any more than they are capable of. Even if I order them to do their utmost, it would be delusional to expect them to go any further than their limits.]",
+    "vi": "Abel: [Ta chưa bao giờ có ý nguyện bắt buộc cấp dưới của mình phải làm những việc vượt quá năng lực thực tế trần trụi của bọn họ. Dẫu ta có ra lệnh ép buộc bọn họ phải dốc hết bình sinh nỗ lực, thì việc ảo tưởng kỳ vọng bọn họ có thể bứt phá vượt qua giới hạn thể chất của mình cũng chỉ là trò hoang đường hão huyền mà thôi.]"
+  },
+  {
+    "id": 93,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 94,
+    "en": "Abel: [If they overperform in comparison to what they had been evaluated as being capable of, the plan shall be thrown into disarray. I simply request nothing more and nothing less than what I demand from my men. And Mizelda has fulfilled her duty. In that case, the only thing I can present her with, is a reward.]",
+    "vi": "Abel: [Nếu bọn họ cố gắng thể hiện vượt quá mức đánh giá năng lực thực tế vốn có, toàn bộ kế hoạch mưu lược đã vạch sẵn sẽ lập tức bị rối loạn mất kiểm soát. Ta chỉ đơn thuần yêu cầu không hơn không kém đúng những gì ta đòi hỏi ở thuộc hạ của mình. Và Mizelda đã hoàn tất xuất sắc trọng trách của cô ta. Trong tình cảnh đó, thứ duy nhất ta có thể ban phát ban phát cho cô ta chính là phần thưởng xứng đáng.]"
+  },
+  {
+    "id": 95,
+    "en": "With words, motivate them. With rewards, get them to exceed their abilities. With praise, make them promise to improve next time.",
+    "vi": "Sử dụng ngôn từ sáo rỗng để khích lệ tinh thần bọn họ. Dùng phần thưởng hậu hĩnh để dụ dỗ bọn họ bứt phá thực lực vượt trội. Dùng lời khen ngợi ban phát để ép buộc bọn họ phải hứa hẹn sẽ tiến bộ hơn trong lần tới."
+  },
+  {
+    "id": 96,
+    "en": "Subaru had always thought, with absolute certainty, that this was how powerful people subjugated their subordinates. Therefore, Abel's reply was in direct contradiction to what Subaru had in mind.",
+    "vi": "Subaru đã luôn đinh ninh chắc chắn trong thâm tâm rằng đó chính là cách thức thao túng nô dịch thuộc hạ của những kẻ nắm giữ quyền lực tối cao trị vì thế gian. Vì thế, câu trả lời lạnh lùng của Abel hoàn toàn đi ngược lại với hệ tư tưởng đó của Subaru."
+  },
+  {
+    "id": 97,
+    "en": "He would not request labors beyond the capabilities of his subordinates.",
+    "vi": "Gã tuyệt đối không bao giờ đòi hỏi đòi hỏi cấp dưới phải làm việc lao lực quá mức giới hạn thực tế."
+  },
+  {
+    "id": 98,
+    "en": "It seemed like a good environment for subordinates to work in, albeit simultaneously a lonely one as well.",
+    "vi": "Đó có vẻ là một môi trường làm việc vô cùng lý tưởng nhân văn cho thuộc hạ cấp dưới phò tá, dẫu thế đồng thời cũng mang lại cảm giác vô cùng cô độc lạnh lẽo."
+  },
+  {
+    "id": 99,
+    "en": "Abel: [Goes without saying that endeavoring less than what is expected shall be met with punishment. Definite punishment or reward, you do comprehend what it signifies, right?]",
+    "vi": "Abel: [Nhưng lẽ tự nhiên, bất kỳ kẻ nào dám làm việc tắc trách không đạt yêu cầu đòi hỏi tối thiểu sẽ phải đối mặt với hình phạt nghiêm khắc thích đáng. Thưởng phạt phân minh rõ ràng, ngươi chắc chắn thừa hiểu ý nghĩa của cụm từ đó chứ?]"
+  },
+  {
+    "id": 100,
+    "en": "Subaru: [...Then, does that mean I'm going to be punished?]",
+    "vi": "Subaru: [...Vậy thì, điều đó đồng nghĩa với việc tôi sắp sửa phải nhận hình phạt nghiêm khắc sao?]"
+  },
+  {
+    "id": 101,
+    "en": "Abel: [If you were my subordinate, that would be correct. But are you my subordinate?]",
+    "vi": "Abel: [Nếu ngươi thực sự là thuộc hạ dưới quyền của ta, thì phán quyết đó hoàn toàn chính xác. Nhưng ngươi có phải là thuộc hạ của ta không?]"
+  },
+  {
+    "id": 102,
+    "en": "Staring straight ahead, Subaru's eyes widened at Abel's words.",
+    "vi": "Nhìn chằm chằm về phía trước, đôi mắt Subaru lập tức trợn ngược ra ngạc nhiên trước lời chất vấn ngược lại của Abel."
+  },
+  {
+    "id": 103,
+    "en": "Of course, Subaru did not recall ever becoming Abel's subordinate. In his discussion with Priscilla, Abel had treated Subaru as a military strategist, but he did not have any intention of formally becoming one.",
+    "vi": "Tất nhiên, Subaru chưa từng mảy may có ký ức hay ý niệm gì về việc bản thân biến thành thuộc hạ cấp dưới phò tá gã cả. Trong cuộc thảo luận thẳng thắn với Priscilla trước đó, Abel dẫu có tự tiện gán ghép coi Subaru như một quân sư mưu lược, bản thân cậu cũng không hề có ý định chính thức nhận chức danh đó."
+  },
+  {
+    "id": 104,
+    "en": "Subaru: [It's not that I'm not attracted to the title of military strategist, but I don't wish to be something like your subordinate.]",
+    "vi": "Subaru: [Không phải là tôi không có hứng thú cảm tình gì với cái danh hiệu quân sư mưu lược oai phong đó đâu, chỉ là tôi tuyệt đối không muốn biến thành một kẻ dưới quyền bị anh sai bảo phò tá chút nào.]"
+  },
+  {
+    "id": 105,
+    "en": "Abel: [And so that is how it is. You are not my subordinate, and therefore, you do not fall under the category of receiving definite punishment or reward.]",
+    "vi": "Abel: [Và sự tình chính xác là như vậy đấy. Ngươi không phải thuộc hạ của ta, thế nên, ngươi hoàn toàn nằm ngoài phạm vi áp dụng quy tắc thưởng phạt phân minh thích đáng của ta.]"
+  },
+  {
+    "id": 106,
+    "en": "Subaru: [Thinking about it, just what are you to me...?]",
+    "vi": "Subaru: [Ngẫm kỹ lại, rốt cuộc mối quan hệ giữa tôi với anh là cái quái gì thế nhỉ...?]"
+  },
+  {
+    "id": 107,
+    "en": "Because of their situation, they were forced to accompany each other. They did not have the relationship of a master and a servant in the first place, nor any kind of personal one.",
+    "vi": "Chỉ vì rơi vào cảnh ngộ ngặt nghèo u tối trớ trêu bắt buộc họ phải nương tựa đồng hành cùng nhau để vượt qua nghịch cảnh. Ngay từ đầu bọn họ đã không hề tồn tại mối quan hệ chủ tớ phò tá, và cũng chẳng có bất kỳ sợi dây liên kết cá nhân thân thiết nào cả."
+  },
+  {
+    "id": 108,
+    "en": "They were two people caught in a flow of obstacles, and once these obstacles were cleared, their paths would separate. That was the type of relationship they had.",
+    "vi": "Họ đơn thuần chỉ là hai kẻ vô tình bị cuốn phăng vào cùng một dòng chảy đầy chông gai chướng ngại vật, và một khi các chướng ngại vật cản đường đó được dọn sạch dọn dẹp xong xuôi, đường ai nấy đi sẽ là cái kết tất yếu. Đó chính là bản chất mối quan hệ thực tế trần trụi giữa hai người."
+  },
+  {
+    "id": 109,
+    "en": "Calling them friends, or allies, or comrades, would just be untrue. If there was something they could be classified as, it would be crossdressing companions.",
+    "vi": "Gượng ép gọi họ là bằng hữu kết nghĩa, đồng minh hay đồng chí quả thực là một sự giả dối gượng gạo. Nếu bắt buộc phải tìm một danh xưng danh hiệu để phân loại, có lẽ tổ đội bạn đồng hành giả gái chính là cụm từ chuẩn xác nhất."
+  },
+  {
+    "id": 110,
+    "en": "Abel: [Some have taken the liberty of calling me a friend, but you have not.]",
+    "vi": "Abel: [Đã có những kẻ tự tiện trơ trẽn coi ta là bằng hữu tốt, nhưng ngươi thì tuyệt đối không phải loại người đó.]"
+  },
+  {
+    "id": 111,
+    "en": "Subaru: [À. Tôi vốn là một gã nhút nhát rụt rè trong việc giao thiệp xã hội mà, nên làm sao có thể dễ dàng kết giao bằng hữu đệ huynh với anh nhanh chóng thế được.]",
+    "vi": "Subaru: [À. Tôi vốn là một gã nhút nhát rụt rè trong việc giao thiệp xã hội mà, nên làm sao có thể dễ dàng kết giao bằng hữu đệ huynh với anh nhanh chóng thế được.]"
+  },
+  {
+    "id": 112,
+    "en": "Given the current situation, the person who may have been able to call him a friend here would either be a very good person or a fraud, and Flop would be the former.",
+    "vi": "Trong hoàn cảnh hiện tại, đấng nam nhi có đủ sự bao dung dũng cảm để tự tiện coi gã là bằng hữu tốt chỉ có thể là một người vô cùng trượng nghĩa nhân hậu hoặc là một kẻ lừa đảo đại tài, và Flop đáng mến chắc chắn chính là vế đầu tiên."
+  },
+  {
+    "id": 113,
+    "en": "Anyhow――,",
+    "vi": "Dẫu sao thì――,"
+  },
+  {
+    "id": 114,
+    "en": "Abel: [I shall resume my conversation with Priscilla. Go do whatever else you need to do.]",
+    "vi": "Abel: [Ta cần phải quay lại tiếp tục cuộc thương thuyết đàm đạo với Priscilla. Ngươi cứ việc đi mà giải quyết bất kỳ việc vặt vãnh nào ngươi cần làm đi.]"
+  },
+  {
+    "id": 115,
+    "en": "Subaru: [Những việc tôi cần làm sao...]",
+    "vi": "Subaru: [Những việc tôi cần làm sao...]"
+  },
+  {
+    "id": 116,
+    "en": "Abel: [It should not be required of me to tell you that.]",
+    "vi": "Abel: [Ta nghĩ bản thân ta tuyệt đối không có nghĩa vụ phải chỉ bảo chỉ điểm tận tay việc đó cho ngươi đâu.]"
+  },
+  {
+    "id": 117,
+    "en": "Being diced by those almond-shaped eyes, Subaru's gaze left Abel and headed towards the corner of the room.",
+    "vi": "Bị những ánh mắt phượng sắc lẹm đầy uy quyền đó liếc xéo qua gạt đi, tầm mắt của Subaru lẳng lặng rời khỏi Abel và hướng thẳng về phía góc khuất xa xăm của căn phòng."
+  },
+  {
+    "id": 118,
+    "en": "There, he found the figure of Rem sitting on the floor. He could not make out her downcast expression from a distance, but there was no doubt that leaving her alone would not do.",
+    "vi": "Tại nơi đó, cậu lập tức bắt gặp hình bóng của Rem yêu quý đang lặng lẽ ngồi bệt trên sàn nhà. Dù ở cự ly khá xa không thể nhìn rõ biểu cảm gương mặt đang cúi gầm mặt xuống u uất u uất của cô, nhưng cậu biết chắc chắn 100% rằng mình không được phép bỏ mặc cô cô đơn độc một mình lúc này."
+  },
+  {
+    "id": 119,
+    "en": "He was somewhat annoyed that Abel had told him to do it first, though.",
+    "vi": "Dẫu thế, có chút gì đó khiến cậu cảm thấy hơi bực mình bực mình khi nhận ra chính Abel lại là kẻ đã tinh ý phát hiện và nhắc nhở cậu làm việc đó trước tiên."
+  },
+  {
+    "id": 120,
+    "en": "Subaru: [I don't want you to get in trouble with Priscilla and start another fight. Just be careful with how you talk to her.]",
+    "vi": "Subaru: [Tôi tuyệt đối không muốn anh lại gây hấn với Priscilla rồi châm ngòi cho một cuộc cãi vã đấu kiếm nảy lửa đẫm máu khác đâu đấy. Đi mà chú ý kiểm soát cẩn thận cẩn thận thái độ ăn nói của mình trước mặt cô ta đi.]"
+  },
+  {
+    "id": 121,
+    "en": "Abel: [I am certain many would advise that you, not I, should be the one to receive those words.]",
+    "vi": "Abel: [Ta tin chắc tất cả mọi người ở đây đều sẽ đồng lòng khuyên rằng chính ngươi, chứ không phải ta, mới là kẻ bắt buộc phải tiếp thu trọn vẹn lời khuyên bảo đó đấy.]"
+  },
+  {
+    "id": 122,
+    "en": "Hateful words were riposted with further hateful words, and Subaru parted ways with Abel, who returned to the conference hall.",
+    "vi": "Lời qua tiếng lại bằng những câu chữ đâm chọc gắt gỏng đanh thép gắt gỏng, Subaru chính thức đường ai nấy đi chia tách khỏi Abel, gã lẳng lặng quay gót trở lại sảnh hội nghị."
+  },
+  {
+    "id": 123,
+    "en": "Mizelda's leg would change the situation of the People of Shudraq, so it would be necessary to take that into account when engaging in discussions with Priscilla.",
+    "vi": "Vết thương thương tật cụt chân của Mizelda chắc chắn sẽ thay đổi cục diện thế trận chiến lực của tộc nhân Shudraq một cách sâu sắc, thế nên việc đưa yếu tố nan giải đó vào tính toán mưu lược khi tiến hành đàm đạo thương thuyết với Priscilla là điều tối quan trọng."
+  },
+  {
+    "id": 124,
+    "en": "However, there was little room for Subaru in the conversation between the celestial beings, Abel and Priscilla.",
+    "vi": "Tuy nhiên, thực tế là hoàn toàn không hề có chỗ đứng hay tiếng nói nào dành cho Subaru trong cuộc đối thoại thượng tầng đẳng cấp thượng tầng giữa hai thực thể tối cao kiêu hãnh là Abel và Priscilla."
+  },
+  {
+    "id": 125,
+    "en": "The priority for Subaru was to speak to the only person he could.",
+    "vi": "Ưu tiên tối thượng hàng đầu duy nhất lúc này của Subaru chính là chạy đến trò chuyện động viên người con gái duy nhất trong thâm tâm cậu."
+  },
+  {
+    "id": 126,
+    "en": "Subaru: [――Rem, is now a good time?]",
+    "vi": "Subaru: [――Rem ơi, bây giờ tôi nói chuyện với cô một chút được chứ?]"
+  },
+  {
+    "id": 127,
+    "en": "He lightly took a deep breath and calmed himself down, before heading over, towards Rem.",
+    "vi": "Cậu khẽ hít một hơi thật sâu để trấn an bản thân lấy lại bình tĩnh, trước khi sải bước tiến thẳng về phía Rem."
+  },
+  {
+    "id": 128,
+    "en": "Sitting with her knees folded and her back against the wall, Rem slightly stirred at Subaru's words, his figure faintly reflected on her pale-blue eyes.",
+    "vi": "Đang ngồi bó gối tựa lưng sát vào vách đá, Rem khẽ cử động nhẹ nhàng trước lời cất tiếng của Subaru, hình dáng giả gái của cậu phản chiếu nhàn nhạt nhạt nhòa trong đôi mắt màu xanh lam nhạt tuyệt đẹp của cô."
+  },
+  {
+    "id": 129,
+    "en": "Rem: [...Is that you? When are you going to change your clothes?]",
+    "vi": "Rem: [...Lại là anh đấy à? Khi nào thì anh mới chịu đi thay cái bộ trang phục giả gái kỳ dị đó ra hả?]"
+  },
+  {
+    "id": 130,
+    "en": "Subaru: [Rem has priority over changing clothes. As soon as this conversation ends, I will change my clothes.]",
+    "vi": "Subaru: [Đối với tôi việc quan tâm lo lắng hỏi thăm Rem luôn được đặt ở vị trí ưu tiên tối thượng hàng đầu so với chuyện thay quần áo. Ngay sau khi cuộc trò chuyện này khép lại, tôi sẽ lập tức đi thay đồ ngay.]"
+  },
+  {
+    "id": 131,
+    "en": "Rem: [Is that so? Well then, this conversation has ended. Please go change your clothes.]",
+    "vi": "Rem: [Thế sao? Vậy thì cuộc trò chuyện này coi như chính thức khép lại kết thúc tại đây rồi. Mời anh đi thay đồ giùm đi.]"
+  },
+  {
+    "id": 132,
+    "en": "Subaru: [That's so crude!]",
+    "vi": "Subaru: [Sao cô lại có thể phũ phàng tuyệt tình đến thế chứ!]"
+  },
+  {
+    "id": 133,
+    "en": "Subaru was left helpless and raised his voice after Rem’s blunt retort. At Subaru's voice, Rem's eyes sharpened and she said, \"Please be quiet\".",
+    "vi": "Subaru hoàn toàn bất lực gắt gỏng cao giọng than vãn trước câu trả lời dứt khoát tuyệt tình đó của Rem. Nghe thấy tiếng la ó của Subaru, đôi mắt Rem sắc lẹm lườm cậu khẽ thốt lên chỉ thị \"Làm ơn hãy ngậm miệng giữ im lặng giùm ta\"."
+  },
+  {
+    "id": 134,
+    "en": "Then she jerked her chin toward the girl leaning on her left shoulder.",
+    "vi": "Nói đoạn, cô khẽ hếch cằm ra hiệu chỉ về phía cô bé đang tựa đầu ngủ ngon lành trên vai trái của mình."
+  },
+  {
+    "id": 135,
+    "en": "Rem: [At this rate, you'll wake up the sleeping Louis-chan. Please consider her.]",
+    "vi": "Rem: [Cứ đà la ó đó của anh, anh sẽ làm thức giấc cô bé Louis-chan đáng thương đang ngủ say giấc nồng đấy. Làm ơn hãy biết tinh ý chú ý đến người khác chút đi.]"
+  },
+  {
+    "id": 136,
+    "en": "Subaru: [Well, I...]",
+    "vi": "Subaru: [À, tôi...]"
+  },
+  {
+    "id": 137,
+    "en": "Rem: [Or is it just that you do not want to put that much consideration into this girl?]",
+    "vi": "Rem: [Hay là bản chất thực sự là do anh vốn dĩ luôn căm ghét không muốn dành bất kỳ sự quan tâm dịu dàng nào cho đứa trẻ tội nghiệp này?]"
+  },
+  {
+    "id": 138,
+    "en": "Subaru: [Don’t say it like that. My bad...]",
+    "vi": "Subaru: [Đừng có dùng cách diễn đạt phũ phàng gây tổn thương đó chứ. Là lỗi của tôi, tôi xin lỗi mà...]"
+  },
+  {
+    "id": 139,
+    "en": "Taking tiny breaths while sleeping, Louis cuddled closer with Rem.",
+    "vi": "Khẽ thở những nhịp thở đều đặn nhỏ nhẹ trong giấc ngủ say nồng, Louis càng rúc người sát vào lồng ngực ấm áp của Rem."
+  },
+  {
+    "id": 140,
+    "en": "Louis had been helping Rem to treat the wounded; her white clothes were stained with blood here and there. From what he had learned from Rem's attitude and from Utakata, she had done exactly as she had been told, albeit poorly.",
+    "vi": "Louis thực chất đã phụ giúp phò tá đắc lực cho Rem trong suốt quá trình sơ cứu điều trị cứu chữa người bị nạn; bộ trang phục màu trắng tinh khôi của cô bé loang lổ bám đầy vệt máu tươi loang lổ khắp nơi. Theo những gì Subaru thu thập được từ thái độ của Rem và lời kể của Utakata, cô bé đã ngoan ngoãn thực hiện chuẩn xác 100% theo đúng những gì được chỉ thị chỉ bảo, dẫu cho hành động vẫn còn có phần vụng về ngây ngô."
+  }
+];
+
+const outPath = path.join(tempDir, 'ch30_part1.json');
+fs.writeFileSync(outPath, JSON.stringify(part1, null, 2), 'utf-8');
+console.log(`Saved ${part1.length} paragraphs to ${outPath}`);

@@ -29,7 +29,13 @@ const chapters = [
   { num: 21, title: 'Chương 21: Zikr Osman | Zikr Osman' },
   { num: 22, title: 'Chương 22: Kế Hoạch Vây Thành Không Đổ Máu | The Bloodless Siege Plan' },
   { num: 23, title: 'Chương 23: Nhạc Công Natsumi Schwartz | Musician Natsumi Schwartz' },
-  { num: 24, title: 'Chương 24: Kiêu Ngạo | Arrogance' }
+  { num: 24, title: 'Chương 24: Kiêu Ngạo | Arrogance' },
+  { num: 25, title: 'Chương 25: Cuộc Ngộ Phùng Như Huyết Lệ Thiêu Đốt | A Reunion Akin to Scorching Blood' },
+  { num: 26, title: 'Chương 26: Hội Nghị Bàn Tròn Nhảy Múa | A Dancing Roundtable Conference' },
+  { num: 27, title: 'Chương 27: Kẻ Sở Hữu Và Kẻ Tay Trắng | The Haves and the Have-Nots' },
+  { num: 28, title: 'Chương 28: Điều Kiện Chiến Thắng | Victory Conditions' },
+  { num: 29, title: 'Chương 29: Vị Thế Của Mỗi Người | To Each Their Stance' },
+  { num: 30, title: 'Chương 30: Anh Hùng Tự Phong Natsuki Subaru | Self-Proclaimed Hero Natsuki Subaru' }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');

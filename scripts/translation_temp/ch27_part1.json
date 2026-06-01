@@ -1,0 +1,832 @@
+[
+  {
+    "id": 1,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 2,
+    "en": "Translated By :",
+    "vi": "Dịch bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Art Sources :",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 4,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 5,
+    "en": "ALL RIGHTS BELONG TO TAPPEI NAGATSUKI, THE ORIGINAL AUTHOR OF RE:ZERO STARTING A LIFE IN A DIFFERENT WORLD FROM ZERO, THIS IS A TRANSLATION OF THE FREE JAPANESE WEB NOVEL INTO ENGLISH",
+    "vi": "BẢN QUYỀN THUỘC VỀ TAPPEI NAGATSUKI, TÁC GIẢ GỐC CỦA RE:ZERO STARTING LIFE IN A DIFFERENT WORLD FROM ZERO, ĐÂY LÀ BẢN DỊCH PHI THƯƠNG MẠI TỪ BẢN WEB NOVEL TIẾNG NHẬT SANG TIẾNG ANH"
+  },
+  {
+    "id": 6,
+    "en": "JAPANESE WEB NOVEL SOURCE",
+    "vi": "NGUỒN WEB NOVEL TIẾNG NHẬT"
+  },
+  {
+    "id": 7,
+    "en": "※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 8,
+    "en": "▼△▼△▼△",
+    "vi": "▼△▼△▼△"
+  },
+  {
+    "id": 9,
+    "en": "Machine Translated By :",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 10,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 11,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 12,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 13,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 14,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 15,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 16,
+    "en": "???: [If you're alive, you'll get a chance to clean off your disgrace. But if you die, that's the end. So, I'm going. I won't get into a fight I don't think I can win.]",
+    "vi": "Giọng nói bí ẩn: [Chừng nào còn sống thì vẫn còn cơ hội rửa sạch nỗi nhục này. Nhưng nếu đã chết thì coi như chấm hết. Vì vậy, ta sẽ đi đây. Ta không bao giờ tham gia vào một cuộc chiến mà bản thân nghĩ không thể thắng.]"
+  },
+  {
+    "id": 17,
+    "en": "There was no lie in those words.",
+    "vi": "Không hề có sự dối trá nào trong những lời nói đó."
+  },
+  {
+    "id": 18,
+    "en": "Throwing oneself into a fight with little chance of winning was a folly only an unbelievable fool would commit to.",
+    "vi": "Lao đầu vào một trận chiến mà cơ hội chiến thắng cực kỳ mong manh là một sự ngu xuẩn mà chỉ những kẻ đại ngốc mới phạm phải."
+  },
+  {
+    "id": 19,
+    "en": "He did not believe himself wise, not in the slightest, but for that reason he knew he should approach his decisions carefully. While a wise person might reach a conclusion in an instant, a fool would take an eternity to reach it.",
+    "vi": "Hắn không tin mình là kẻ khôn ngoan, dù chỉ một chút, nhưng chính vì vậy hắn biết mình cần phải tiếp cận các quyết định một cách thận trọng. Trong khi một người sáng suốt có thể đưa ra kết luận trong nháy mắt, một kẻ khờ khạo sẽ mất cả thiên thu để thấu suốt điều đó."
+  },
+  {
+    "id": 20,
+    "en": "Todd knew that this was how those who were untalented waged battle.",
+    "vi": "Todd biết rằng đây là cách mà những kẻ không có tài cán thực sự tiến hành chiến đấu."
+  },
+  {
+    "id": 21,
+    "en": "He did not get into fights he could not win.",
+    "vi": "Hắn không dại gì dấn thân vào những cuộc chiến không nắm chắc phần thắng."
+  },
+  {
+    "id": 22,
+    "en": "However, paradoxically speaking――,",
+    "vi": "Tuy nhiên, nói một cách nghịch lý thì――,"
+  },
+  {
+    "id": 23,
+    "en": "Todd: [――There’s absolutely nothing wrong with getting into a fight you have a chance of winning.]",
+    "vi": "Todd: [――Tuyệt đối không có gì sai khi tham gia vào một trận chiến mà ta nắm giữ cơ hội thắng.]"
+  },
+  {
+    "id": 24,
+    "en": "He brought his clenched fist in front of his right eye, and looked longingly into the distance through the small pinhole he had created.",
+    "vi": "Hắn đưa nắm tay siết chặt lên trước mắt phải, nhìn đăm đắm ra xa qua một kẽ hở nhỏ tự tạo giữa các ngón tay."
+  },
+  {
+    "id": 25,
+    "en": "A primitive means of seeing farther, achieved by narrowing one’s field of vision. If he squinted, Todd's eyes would be able to see quite far, but he would not be able to make out what was going on inside the chaotic City Hall, let alone past the burning flags.",
+    "vi": "Một phương pháp nguyên thủy để nhìn xa hơn bằng cách thu hẹp tầm nhìn của bản thân. Nếu nheo mắt lại, Todd có thể nhìn thấy một khoảng cách khá xa, nhưng hắn không thể phân biệt được những gì đang diễn ra bên trong <Word en=\"City Hall\">Tòa Thị Chính</Word> hỗn loạn kia, chứ chưa nói đến việc nhìn xuyên qua những lá cờ đang bốc cháy."
+  },
+  {
+    "id": 26,
+    "en": "And that applied even if the situation had the winds in his favour.",
+    "vi": "Và điều đó vẫn đúng ngay cả khi gió đảo chiều có lợi cho hắn."
+  },
+  {
+    "id": 27,
+    "en": "Jamal: [Oy, the roof of the City Hall’s gone! What's going on?]",
+    "vi": "Jamal: [Này, mái của Tòa Thị Chính biến mất rồi kìa! Chuyện quái gì đang xảy ra thế hả?]"
+  },
+  {
+    "id": 28,
+    "en": "Right next to him, Todd’s ferocious companion was overwhelmed by his own growing sense of urgency, creating a ruckus.",
+    "vi": "Ngay bên cạnh hắn, gã đồng hành hung tợn của Todd bị lấn át bởi cảm giác khẩn cấp ngày một dâng cao, không ngừng làm ầm ĩ lên."
+  },
+  {
+    "id": 29,
+    "en": "His concentration was disturbed by the noise, so he flicked his hand towards the man to instruct him to shut up. As for what was going on, he was earnestly evaluating the situation.",
+    "vi": "Sự tập trung của hắn bị tiếng ồn làm gián đoạn, thế nên hắn phất tay ra hiệu cho gã câm miệng lại. Còn về những gì đang diễn ra, hắn đang nghiêm túc đánh giá cục diện."
+  },
+  {
+    "id": 30,
+    "en": "Todd: [Pretty sure one of the Nine Divine Generals has joined.]",
+    "vi": "Todd: [Khá chắc chắn là một trong Cửu Thần Tướng đã nhập cuộc rồi.]"
+  },
+  {
+    "id": 31,
+    "en": "If not, there was no point in staying in the Fortress City, which had fallen into enemy hands.",
+    "vi": "Nếu không phải vậy, việc ở lại Thành Lũy đã rơi vào tay kẻ thù này chẳng còn ý nghĩa gì nữa."
+  },
+  {
+    "id": 32,
+    "en": "As mentioned before, Todd had considered abandoning the city and fleeing once the City Hall had fallen due to the enemy’s plan. He had no intention of politely complying with any disarmament order and surrendering.",
+    "vi": "Như đã đề cập trước đó, Todd đã cân nhắc việc bỏ thành và trốn thoát ngay khi <Word en=\"City Hall\">Tòa Thị Chính</Word> sụp đổ theo kế sách của kẻ địch. Hắn không hề có ý định ch sự tuân theo bất kỳ lệnh giải giáp vũ khí nào để rồi đầu hàng."
+  },
+  {
+    "id": 33,
+    "en": "In the first place, as long as the shots were being called by the poster child of war―― the man who called himself Natsumi Schwartz, dangerous people like Todd and Jamal would be the first to be dealt with.",
+    "vi": "Ngay từ đầu, chừng nào mọi quyết định vẫn do biểu tượng của cuộc chiến này đưa ra―― gã tự xưng là Natsumi Schwartz, những kẻ nguy hiểm như Todd và Jamal sẽ là những người đầu tiên bị xử lý."
+  },
+  {
+    "id": 34,
+    "en": "Even in Vollachia, executions of surrendered prisoners of war were frowned upon, but that man would certainly make up a good reason to excuse such travesties.",
+    "vi": "Ngay cả ở Vollachia, việc hành quyết tù binh đầu hàng cũng bị phản đối, nhưng gã đó chắc chắn sẽ bịa ra một lý do hoàn hảo để biện minh cho hành động tàn bạo như vậy."
+  },
+  {
+    "id": 35,
+    "en": "At least, that was what Todd would do. It was a natural consideration for survival.",
+    "vi": "Ít nhất, đó là những gì Todd sẽ làm. Đó là một sự cân nhắc tự nhiên vì sự sinh tồn của bản thân."
+  },
+  {
+    "id": 36,
+    "en": "Hence why he had chosen to abandon the city without hesitation. In spite of this, his curiosity got the better of him, so he hid just close enough to confirm the existence of reinforcements heading for the city.",
+    "vi": "Đó chính là lý do tại sao hắn chọn cách bỏ rơi thành trì mà không một chút đắn đo. Dù vậy, sự tò mò đã thôi thúc hắn, thế nên hắn ẩn nấp ở một khoảng cách vừa đủ gần để xác nhận sự hiện diện của quân tiếp viện đang hướng tới thành phố."
+  },
+  {
+    "id": 37,
+    "en": "Jamal: [There ain’t any doubt about it. That’s the woman I saw two years ago, when I served during the defeat of the barbarians. ――General First-Class Arakiya, ranked Second.]",
+    "vi": "Jamal: [Không còn nghi ngờ gì nữa. Đó chính là người phụ nữ tao đã thấy hai năm trước, khi tao tham gia trận tiễu trừ lũ mọi rợ. ――Tướng nhất đẳng Arakiya, xếp hạng Nhị đẳng.]"
+  },
+  {
+    "id": 38,
+    "en": "As he peered at the scantily-clad woman who had leisurely entered the city by jumping over the closed main gate, Jamal declared those words with a hint of excitement in his snorts.",
+    "vi": "Khi nhìn chăm chú vào người phụ nữ ăn mặc thiếu vải thản nhiên bước vào thành bằng cách nhảy vọt qua cổng chính đang đóng chặt, Jamal tuyên bố những lời đó với một sự phấn khích lộ rõ trong tiếng khịt mũi của gã."
+  },
+  {
+    "id": 39,
+    "en": "He was the kind of man who walked around with his wild instincts on his sleeve. Both in terms of his strength as a living creature, and in his male disposition to be able to gauge females, he wasn’t the sort who would forget anyone who tugged at his heartstrings.",
+    "vi": "Gã là kiểu người luôn phơi bày những bản năng hoang dã của mình ra ngoài. Cả về mặt sức mạnh của một sinh vật sống, lẫn khuynh hướng đàn ông của gã trong việc đánh giá nữ giới, gã không phải là loại người sẽ quên đi bất cứ ai từng khiến tim gã đập mạnh."
+  },
+  {
+    "id": 40,
+    "en": "In other words, one of the strongest among the Empire’s Nine Divine Generals had made their appearance to suppress the rebellion. ――So this must be the “chance” that Todd had previously judged to be missing.",
+    "vi": "Nói cách khác, một trong những kẻ mạnh nhất trong <Word en=\"Nine Divine Generals\">Cửu <Word en=\"Divine Generals\">Thần Tướng</Word></Word> của Đế Quốc đã xuất hiện để trấn áp cuộc nổi loạn. ――Vì vậy, đây chắc chắn là “cơ hội” mà Todd từng phán đoán là đang thiếu trước đây."
+  },
+  {
+    "id": 41,
+    "en": "Even so――,",
+    "vi": "Dẫu vậy――,"
+  },
+  {
+    "id": 42,
+    "en": "Todd: [To act or not to act, it's more than worth the trouble.]",
+    "vi": "Todd: [Hành động hay không hành động, chuyện này cũng hoàn toàn xứng đáng với công sức bỏ ra.]"
+  },
+  {
+    "id": 43,
+    "en": "Although Natsumi's tricky tactics were brilliant, he had no direct combat power, at least, not within a third of a soldiers’ own power. The People of Shudraq who followed him were known for their toughness, but that was only relative to ordinary people.",
+    "vi": "Mặc dù các mưu mẹo quỷ quyệt của Natsumi rất xuất sắc, nhưng cậu ta không hề có sức chiến đấu trực tiếp, ít nhất là chưa bằng một phần ba sức mạnh của một người lính thông thường. Người tộc Shudraq đi theo cậu ta tuy nổi tiếng với sự dũng mãnh, nhưng đó cũng chỉ là khi so sánh với người thường."
+  },
+  {
+    "id": 44,
+    "en": "Those who were truly strong, such as the Nine Divine Generals, were not constrained to such criteria.",
+    "vi": "Những kẻ thực sự mạnh mẽ như <Word en=\"Nine Divine Generals\">Cửu <Word en=\"Divine Generals\">Thần Tướng</Word></Word> không bị gò bó trong những tiêu chuẩn bình thường đó."
+  },
+  {
+    "id": 45,
+    "en": "Even Jamal, whose only claim to fame was his tremendous swordsmanship and fighting prowess, was only about as good as a dozen regular Imperial soldiers. That was the measure of how well one could gauge an ordinary person. Members of the Nine Divine Generals were prime examples of ones who would “take care” of Jamal. ――The City Hall that had fallen into enemy hands would be reclaimed.",
+    "vi": "Ngay cả Jamal, kẻ chỉ có tiếng tăm nhờ kiếm thuật siêu đẳng và năng lực chiến đấu đáng nể, cũng chỉ mạnh ngang ngửa khoảng một tá lính thường Đế Quốc. Đó là thước đo để đánh giá một người bình thường. Các thành viên của <Word en=\"Nine Divine Generals\">Cửu <Word en=\"Divine Generals\">Thần Tướng</Word></Word> chính là ví dụ điển hình cho những người thừa sức \"lo liệu\" Jamal dễ dàng. ――<Word en=\"City Hall\">Tòa Thị Chính</Word> đã rơi vào tay kẻ địch chắc chắn sẽ được thu hồi."
+  },
+  {
+    "id": 46,
+    "en": "Todd: [Then it's wise to back the winning ground dragon.]",
+    "vi": "Todd: [Vậy thì khôn ngoan nhất là đặt cược vào con long đất thắng cuộc.]"
+  },
+  {
+    "id": 47,
+    "en": "There was no need to work with a member of the Nine Divine Generals.",
+    "vi": "Không cần thiết phải hợp tác trực tiếp với một thành viên của <Word en=\"Nine Divine Generals\">Cửu <Word en=\"Divine Generals\">Thần Tướng</Word></Word>."
+  },
+  {
+    "id": 48,
+    "en": "All they had to do, was to be more useful to the General than the Soldiers who had been captured and rendered unable to do their job. If they could detain the enemy, interrogate them, and deliver some proper payback, then the General First-Class would remember their actions well.",
+    "vi": "Tất cả những gì họ cần làm là tỏ ra hữu ích với vị Thần Tướng hơn là lũ binh lính vô dụng đã bị bắt giữ và không thể hoàn thành nhiệm vụ của mình. Nếu họ có thể giam giữ kẻ thù, thẩm vấn chúng và giáng cho chúng một đòn đích đáng, thì vị Tướng nhất đẳng chắc chắn sẽ ghi nhớ công lao của họ."
+  },
+  {
+    "id": 49,
+    "en": "If they did that, they would be promoted to a higher position, and may be able to find their way back to the Imperial Capital sooner rather than later.",
+    "vi": "Nếu làm được vậy, họ sẽ được thăng lên chức vụ cao hơn, và có thể tìm đường trở lại Hoàng Đô sớm hơn dự kiến."
+  },
+  {
+    "id": 50,
+    "en": "Todd: [Alright, we're heading back, Jamal. We’re going to help her retake the City Hall.]",
+    "vi": "Todd: [Được rồi, chúng ta quay lại thôi, Jamal. Chúng ta sẽ giúp cô ấy chiếm lại Tòa Thị Chính.]"
+  },
+  {
+    "id": 51,
+    "en": "Jamal: [Oh? Oh, yeah! Haha, that's good. I'm glad to hear that! I've been itching all over for a while, since running away ain’t my style. I ain’t gonna let the General First-Class hog all the credit!]",
+    "vi": "Jamal: [Ồ? Ồ, phải đấy! Haha, tốt quá. Nghe vậy tao mừng lắm! Tao đã ngứa ngáy chân tay suốt từ nãy rồi, bỏ chạy không phải phong cách của tao. Tao không đời nào để vị Tướng nhất đẳng kia nẫng tay trên hết công trạng đâu!]"
+  },
+  {
+    "id": 52,
+    "en": "Todd: [Don't be silly. We're going to gain the favor of the General.]",
+    "vi": "Todd: [Đừng ngốc thế. Chúng ta hành động là để lấy lòng vị Thần Tướng.]"
+  },
+  {
+    "id": 53,
+    "en": "Todd sighed at Jamal, whose fists hardened in anticipation for a return to battle in response to the change of plans. Setting out for the City Hall, they located a position with an optimal view for monitoring the situation, instead of directly entering the building.",
+    "vi": "Todd thở dài nhìn Jamal, kẻ đang siết chặt nắm đấm đầy mong đợi được quay lại chiến trận sau khi kế hoạch thay đổi. Tiến về phía <Word en=\"City Hall\">Tòa Thị Chính</Word>, họ chọn một vị trí có tầm nhìn tối ưu để theo dõi tình hình thay vì trực tiếp xông vào tòa nhà."
+  },
+  {
+    "id": 54,
+    "en": "Following his own beliefs to the last, he was careful and cautious, and――,",
+    "vi": "Tuân thủ niềm tin của bản thân đến cùng, hắn luôn cẩn trọng và dè chừng, và――,"
+  },
+  {
+    "id": 55,
+    "en": "Todd: [――Kill him, Arakiya.]",
+    "vi": "Todd: [――Giết hắn đi, Arakiya.]"
+  },
+  {
+    "id": 56,
+    "en": "The top floor of the City Hall was blown away by gale-force wind, the barely-visible General First-Class on a rampage.",
+    "vi": "Tầng thượng của <Word en=\"City Hall\">Tòa Thị Chính</Word> bị một cơn gió mạnh thổi bay, bóng dáng vị Tướng nhất đẳng thấp thoáng đang cuồng loạn càn quét."
+  },
+  {
+    "id": 57,
+    "en": "From a distance, the Second Ranked silver-haired, brown-skinned woman wielded a tree branch that looked like an improvised weapon, and rampaged about as if she were the highest law of the world.",
+    "vi": "Từ phía xa, người phụ nữ da nâu tóc bạc xếp hạng Nhị đẳng vung vẩy một cành cây trông như một món vũ khí tự chế, càn quét khắp nơi như thể cô ta chính là luật pháp tối cao của thế gian này."
+  },
+  {
+    "id": 58,
+    "en": "Between all the bodies indiscriminately strewn around the hall, there was no distinction between Shudraq and Imperial Soldiers.",
+    "vi": "Giữa tất cả những thi thể nằm la liệt khắp sảnh đường, không thể phân biệt nổi đâu là người tộc Shudraq và đâu là binh lính Đế Quốc."
+  },
+  {
+    "id": 59,
+    "en": "Under these circumstances, the one who stood in front of Arakiya with a blue-haired girl behind his back was none other than Natsumi Schwartz.",
+    "vi": "Dưới những hoàn cảnh đó, kẻ đang đứng chắn trước Arakiya với một cô gái tóc xanh lam nấp phía sau không ai khác chính là Natsumi Schwartz."
+  },
+  {
+    "id": 60,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 61,
+    "en": "As soon as he saw him, the thoughts that came to Todd's mind were not dismissive like, “How could he be stupid enough to stand in front of a General First-Class?” or “How is he still alive?”.",
+    "vi": "Ngay khi nhìn thấy cậu ta, những suy nghĩ xuất hiện trong đầu Todd không phải là sự khinh thường kiểu “Làm sao hắn có thể ngu ngốc đến mức đứng chắn trước một vị Tướng nhất đẳng chứ?” hay “Sao hắn vẫn còn sống được?”. Thay vào đó, với sự cảnh giác cao độ nhất, Todd hét lên trong thâm tâm."
+  },
+  {
+    "id": 62,
+    "en": "Rather, with utmost vigilance, Todd shouted out loud in his heart.",
+    "vi": "Trái lại, với sự cảnh giác cao độ nhất, Todd thầm gào thét trong lòng."
+  },
+  {
+    "id": 63,
+    "en": "――Kill that man here, for sure, Arakiya!",
+    "vi": "――Hãy giết chết gã đàn ông đó ngay tại đây đi, nhất định phải làm vậy, Arakiya!"
+  },
+  {
+    "id": 64,
+    "en": "Above all else, for better or worse, he did not care what he got credit for. He did not care if the time he spent thinking about his decision to stick around ended up being meaningless.",
+    "vi": "Trên hết tất cả, dù tốt hay xấu, hắn không thèm bận tâm đến việc mình sẽ nhận được công trạng gì. Hắn chẳng quan tâm liệu khoảng thời gian hắn bỏ ra để cân nhắc quyết định nán lại có trở nên vô nghĩa hay không."
+  },
+  {
+    "id": 65,
+    "en": "He did not care about anything else, as long as he could make sure that the life of Natsumi Schwartz, the poster child of war, had been terminated.",
+    "vi": "Hắn không màng bất cứ thứ gì khác, miễn là hắn có thể bảo đảm rằng mạng sống của Natsumi Schwartz, kẻ khơi mào cho cuộc chiến này, đã bị chấm dứt hoàn toàn."
+  },
+  {
+    "id": 66,
+    "en": "It would be――,",
+    "vi": "Lẽ ra chuyện phải là――,"
+  },
+  {
+    "id": 67,
+    "en": "Todd: […Oi oi, you've got to be kidding me.]",
+    "vi": "Todd: […Này này, đùa giỡn với tôi chắc.]"
+  },
+  {
+    "id": 68,
+    "en": "In the instant Arakiya was going to kill Natsumi, Todd's sincere hope was shattered just as something flashed above his tunneled vision, while he was focusing on letting that decisive moment go unmissed.",
+    "vi": "Trong khoảnh khắc Arakiya sắp sửa kết liễu Natsumi, hy vọng chân thành của Todd đã bị đập tan tành khi một thứ gì đó vụt qua tầm nhìn hạn hẹp của hắn, đúng lúc hắn đang dồn mọi sự chú ý để không bỏ lỡ thời khắc quyết định đó."
+  },
+  {
+    "id": 69,
+    "en": "A flash of red light separated Natsumi and Arakiya.",
+    "vi": "Một tia sáng đỏ rực rẽ đôi khoảng cách giữa Natsumi và Arakiya."
+  },
+  {
+    "id": 70,
+    "en": "It both majestically challenged Arakiya and sheltered Natsumi behind her back, as though it seemed to be the absolute strongest thing in the world. The moment he saw this, the balance in Todd's mind tipped significantly.",
+    "vi": "Nó vừa uy nghiêm thách thức Arakiya vừa che chở cho Natsumi ở phía sau, tựa như đó là sự tồn tại mạnh mẽ tuyệt đối nhất trên thế gian. Ngay khi chứng kiến cảnh tượng này, cán cân trong tâm trí của Todd đã nghiêng lệch một cách dữ dội."
+  },
+  {
+    "id": 71,
+    "en": "Jamal: [What was that thing that just fell from the sky!? A flying dragon!? Where’s the flying dragon!?]",
+    "vi": "Jamal: [Cái thứ vừa từ trên trời rơi xuống là cái quái gì thế!? Phi long ư!? Phi long đâu ra thế hả!?]"
+  },
+  {
+    "id": 72,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 73,
+    "en": "Jamal: [Are you listening to me, Todd! What about us? Shouldn't we be backing General First-Class Arakiya! Hey! Listen to me…]",
+    "vi": "Jamal: [Mày có nghe tao nói không hả Todd! Chúng ta tính sao đây? Chẳng phải chúng ta nên vào hỗ trợ vị Tướng nhất đẳng Arakiya sao! Này! Nghe tao nói đi chứ…]"
+  },
+  {
+    "id": 74,
+    "en": "Todd: [――Shut up, Jamal.]",
+    "vi": "Todd: [――Câm miệng đi, Jamal.]"
+  },
+  {
+    "id": 75,
+    "en": "Jamal, whose voice roughened at the change in the situation, gasped at Todd's words.",
+    "vi": "Jamal, kẻ có giọng điệu trở nên thô bạo trước sự biến đổi của tình thế, lập tức nghẹn lời trước lời của Todd."
+  },
+  {
+    "id": 76,
+    "en": "Without acknowledging Jamal any further, Todd kept his gaze on the scene in the City Hall. The woman in the crimson dress who had suddenly appeared was facing Arakiya head-on.",
+    "vi": "Không bận tâm đến Jamal thêm nữa, Todd tiếp tục dán chặt mắt vào hiện trường <Word en=\"City Hall\">Tòa Thị Chính</Word>. Người phụ nữ mặc bộ váy đỏ rực vừa đột ngột xuất hiện đang đối đầu trực diện với Arakiya."
+  },
+  {
+    "id": 77,
+    "en": "He knew at a glance. ――That woman also belonged to the side of the “haves”, far removed from normal people.",
+    "vi": "Hắn nhận ra ngay từ cái nhìn đầu tiên. ――Người phụ nữ đó cũng thuộc về phe của “kẻ sở hữu”, hoàn toàn tách biệt khỏi người thường."
+  },
+  {
+    "id": 78,
+    "en": "Natsumi, having managed to survive what seemed to be a desperate situation, made Todd keenly aware of the fact that he also had something to offer. Something he “had”, that was different from combat power or luck.",
+    "vi": "Natsumi, kẻ đã sống sót thần kỳ qua một tình huống tưởng chừng như vô vọng, khiến Todd nhận thức sâu sắc về một sự thật rằng hắn cũng có thứ để cống hiến. Một thứ mà hắn “sở hữu”, hoàn toàn khác biệt với sức chiến đấu hay vận may đơn thuần."
+  },
+  {
+    "id": 79,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 80,
+    "en": "Before the red woman intervened, Arakiya alone would have been enough to make up the difference.",
+    "vi": "Trước khi người phụ nữ mặc váy đỏ can thiệp, một mình Arakiya là đã quá đủ để tạo ra sự khác biệt."
+  },
+  {
+    "id": 81,
+    "en": "However, the situation had changed, and no resolution was in sight. Would the weight of Todd and Jamal be enough to tip the scales back in their direction?",
+    "vi": "Tuy nhiên, tình thế đã thay đổi, và chưa thấy kết quả ngã ngũ. Liệu trọng lượng của Todd và Jamal có đủ để kéo cán cân nghiêng lại về hướng của họ không?"
+  },
+  {
+    "id": 82,
+    "en": "Jamal: [Todd…!]",
+    "vi": "Jamal: [Todd…!]"
+  },
+  {
+    "id": 83,
+    "en": "Todd: [Don't move, Jamal. ――There’s nothing you can do right now.]",
+    "vi": "Todd: [Đừng cử động, Jamal. ――Lúc này mày chẳng thể làm được gì đâu.]"
+  },
+  {
+    "id": 84,
+    "en": "The odds were against them, and the longer Todd watched, the worse it got.",
+    "vi": "Tỷ lệ chiến thắng đang chống lại họ, và Todd càng quan sát lâu, tình hình càng có vẻ tồi tệ đi."
+  },
+  {
+    "id": 85,
+    "en": "Todd knew Jamal's anger was getting the better of him, but it would be a waste of time to act now.",
+    "vi": "Todd biết cơn thịnh nộ của Jamal đang lấn át gã, nhưng hành động vào lúc này chỉ phí công vô ích."
+  },
+  {
+    "id": 86,
+    "en": "After all――,",
+    "vi": "Bởi vì suy cho cùng――,"
+  },
+  {
+    "id": 87,
+    "en": "Todd: [Because, General First-Class Arakiya’s been defeated just now.]",
+    "vi": "Todd: [Bởi vì, vị Tướng nhất đẳng Arakiya vừa bị đánh bại rồi.]"
+  },
+  {
+    "id": 88,
+    "en": "The red woman's blade had struck her in the back, and Arakiya had fallen helplessly to the ground.",
+    "vi": "Lưỡi kiếm của người phụ nữ mặc váy đỏ đã chém gục cô ta từ phía sau, và Arakiya đã ngã xuống đất đầy bất lực."
+  },
+  {
+    "id": 89,
+    "en": "The balance was broken, and it would never tilt the other way again.",
+    "vi": "Sự cân bằng đã bị phá vỡ, và nó không bao giờ có thể nghiêng lại theo chiều ngược lại được nữa."
+  },
+  {
+    "id": 90,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 91,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 92,
+    "en": "Arakiya collapsed, and the situation in the City Hall came to its terminus.",
+    "vi": "Arakiya gục ngã, và tình hình tại <Word en=\"City Hall\">Tòa Thị Chính</Word> đã đi đến hồi kết."
+  },
+  {
+    "id": 93,
+    "en": "This time, the Fortress City of Guaral had completely fallen into the hands of the enemy. There was no way to recover from this.",
+    "vi": "Lần này, Thành Lũy Guaral đã hoàn toàn rơi vào tay kẻ thù. Không còn cách nào để đảo ngược cục diện này nữa."
+  },
+  {
+    "id": 94,
+    "en": "The Second Ranked of the Nine Divine Generals had just been defeated, and there was no way that other reinforcements would come rushing in.",
+    "vi": "Vị tướng xếp thứ hai của <Word en=\"Nine Divine Generals\">Cửu <Word en=\"Divine Generals\">Thần Tướng</Word></Word> vừa mới bị đánh bại, và chắc chắn sẽ không có lực lượng tiếp viện nào khác lập tức lao tới đây nữa đâu."
+  },
+  {
+    "id": 95,
+    "en": "The Nine Divine Generals were mighty warriors, the pinnacle of the Vollachian Empire's military might.",
+    "vi": "<Word en=\"Nine Divine Generals\">Cửu <Word en=\"Divine Generals\">Thần Tướng</Word></Word> là những chiến binh hùng mạnh, đỉnh cao sức mạnh quân sự của <Word en=\"Vollachian Empire\">Đế Quốc Vollachia</Word>."
+  },
+  {
+    "id": 96,
+    "en": "The strength of each of the Nine Divine Generals was equivalent to a sizable army. There was no chance that the Empire would dispatch two or three actual large armies to deal with a single situation. This was the end.",
+    "vi": "Sức mạnh của mỗi người trong <Word en=\"Nine Divine Generals\">Cửu <Word en=\"Divine Generals\">Thần Tướng</Word></Word> tương đương với cả một đội quân quy mô. Không đời nào Đế Quốc lại phái hai hay ba đội quân lớn thực sự chỉ để giải quyết một biến cố đơn lẻ. Mọi chuyện chấm hết ở đây."
+  },
+  {
+    "id": 97,
+    "en": "The balance had been tipped. The only thing left to do was to find a way to deal with the withdrawal that would come next.",
+    "vi": "Cán cân đã nghiêng hẳn. Việc duy nhất còn lại phải làm là tìm cách xử lý cuộc rút quân sắp diễn ra kế tiếp."
+  },
+  {
+    "id": 98,
+    "en": "Todd: [What to do next?]",
+    "vi": "Todd: [Tiếp theo phải làm gì đây?]"
+  },
+  {
+    "id": 99,
+    "en": "In the shadows of the building from which he had watched the developments at the City Hall, Todd pondered quietly.",
+    "vi": "Dưới bóng râm của tòa nhà nơi hắn quan sát diễn biến tại <Word en=\"City Hall\">Tòa Thị Chính</Word>, Todd lặng lẽ suy ngẫm."
+  },
+  {
+    "id": 100,
+    "en": "In all honesty, he was seething with a mixture of anger and frustration, but letting it out would not solve anything.",
+    "vi": "Thành thật mà nói, thâm tâm hắn đang sôi sục một sự pha trộn giữa giận dữ và bực bội, nhưng trút giận lúc này chẳng giải quyết được việc gì."
+  },
+  {
+    "id": 101,
+    "en": "Now that the reason for his return was gone, the smart thing to do would be to get the hell out of there.",
+    "vi": "Bây giờ khi lý do để hắn quay lại đã không còn, điều khôn ngoan nhất cần làm là lập tức biến khỏi nơi này."
+  },
+  {
+    "id": 102,
+    "en": "However――,",
+    "vi": "Tuy nhiên――,"
+  },
+  {
+    "id": 103,
+    "en": "Jamal: [Oi, Todd... you bastard, you're not planning to run away, are you?]",
+    "vi": "Jamal: [Này, Todd.. Cái thằng khốn này, mày không định bỏ chạy đấy chứ hả?]"
+  },
+  {
+    "id": 104,
+    "en": "The search for any words with which Jamal would be persuaded had been fruitless, the latter with a blue vein popping from his forehead.",
+    "vi": "Việc tìm kiếm bất kỳ từ ngữ nào để thuyết phục Jamal đều vô ích, khi gã sau nổi đầy gân xanh trên trán đầy giận dữ."
+  },
+  {
+    "id": 105,
+    "en": "[Subaru collapsed into repetitive internal monologues about his lingering trauma and panic regarding Todd Fang's cold pragmatism, combined with the excruciating physical pain tearing through his chest.]",
+    "vi": "Subaru chìm sâu vào những suy nghĩ hỗn loạn đầy ám ảnh về sự tàn nhẫn của Todd Fang, nỗi khiếp sợ trước sự thực dụng lạnh lùng của gã thợ săn ấy cùng cơn đau thể xác đang không ngừng giằng xé lồng ngực cậu."
+  },
+  {
+    "id": 106,
+    "en": "If that happened, there would be no reason to not kill Jamal. ――His future brother-in-law. Killing him would be the least favored path.",
+    "vi": "Nếu chuyện đó xảy ra, không có lý do gì để hắn không giết chết Jamal. ――Anh rể tương lai của hắn. Giết chết gã là con đường tồi tệ nhất."
+  },
+  {
+    "id": 107,
+    "en": "If he were not brought back safely as well, keeping the promise that had been made would not be possible.",
+    "vi": "Nếu hắn không thể đưa gã trở về an toàn, việc giữ lời hứa đã hẹn ước sẽ không bao giờ thực hiện được."
+  },
+  {
+    "id": 108,
+    "en": "Todd: [Let's go with that.]",
+    "vi": "Todd: [Được rồi, cứ quyết định thế đi.]"
+  },
+  {
+    "id": 109,
+    "en": "Jamal: [Aah?]",
+    "vi": "Jamal: [Hả?]"
+  },
+  {
+    "id": 110,
+    "en": "Todd: […I understand how you feel. But you need to calm down. Now that General First-Class Arakiya’s been defeated, there's no chance for us to win even if we go in. Do you want to make your sister sad by dying in vain?]",
+    "vi": "Todd: […Tôi hiểu cảm giác của cậu. Nhưng cậu cần phải bình tĩnh lại đã. Bây giờ khi vị Tướng nhất đẳng Arakiya đã bị đánh bại, chúng ta chẳng có cơ hội thắng nào ngay cả khi xông vào đó. Cậu muốn làm cho em gái mình đau lòng bằng việc hy sinh mạng sống một cách vô ích sao?]"
+  },
+  {
+    "id": 111,
+    "en": "Jamal: [――――]",
+    "vi": "Jamal: [――――]"
+  },
+  {
+    "id": 112,
+    "en": "An attempt to persuade him using the love of family as a shield.",
+    "vi": "Một nỗ lực thuyết phục gã bằng cách lấy tình cảm gia đình ra làm lá chắn."
+  },
+  {
+    "id": 113,
+    "en": "As soon as he stared at his opponent, hoping that this would work, an arm quietly stretched out and grabbed him by the scruff of his shirt. Then, with a grunt, the one-eyed Jamal bared his fangs as he drew Todd toward his face.",
+    "vi": "Ngay khi hắn chăm nhìn đối thủ với hy vọng chiêu này sẽ phát huy tác dụng, một cánh tay lẳng lặng vươn ra và túm chặt lấy cổ áo hắn. Rồi với một tiếng gầm gừ, gã độc nhãn Jamal nhe nanh kéo giật mặt Todd sát lại gần mặt gã."
+  },
+  {
+    "id": 114,
+    "en": "Jamal: [Hey, if you think I'm gonna back off anytime you mention Katya, you're definitely wrong.]",
+    "vi": "Jamal: [Này, nếu mày nghĩ tao sẽ chùn bước mỗi lần mày lôi Katya ra làm bia đỡ đạn, thì mày nhầm to rồi đấy.]"
+  },
+  {
+    "id": 115,
+    "en": "Todd: [I see... Too bad.]",
+    "vi": "Todd: [Tôi hiểu rồi.. Thật tiếc quá.]"
+  },
+  {
+    "id": 116,
+    "en": "Shaking his head loosely, Todd announced his disappointment rather sincerely.",
+    "vi": "Khẽ lắc đầu một cách uể oải, Todd bày tỏ sự thất vọng của mình một cách khá chân thành."
+  },
+  {
+    "id": 117,
+    "en": "If it made Jamal feel any better to get a couple of hits in on him, Todd would allow it, but it seemed Jamal possessed no intention of doing that, as he instead clicked his tongue and pushed Todd away.",
+    "vi": "If it made Jamal feel any better to get a couple of hits in on him, Todd would allow it, but it seemed Jamal possessed no intention of doing that, as he instead clicked his tongue and pushed Todd away."
+  },
+  {
+    "id": 118,
+    "en": "There didn’t seem to be any need for him to be so direct with things, but there was no way to stop him.",
+    "vi": "Dường như không cần thiết phải cư xử sỗ sàng đến thế, nhưng quả thực chẳng có cách nào ngăn cản nổi gã."
+  },
+  {
+    "id": 119,
+    "en": "As it was, Todd turned to face Jamal, and thought about climbing over the wall of the citadel on his own.",
+    "vi": "Lúc này, Todd xoay người đối mặt với Jamal, và thầm nghĩ đến việc tự mình leo qua bức tường thành để tẩu thoát."
+  },
+  {
+    "id": 120,
+    "en": "Fortunately, he had already grasped the geography of the city back when they were trying to find any secret paths. Though Arakiya had not achieved her goal, she too had managed to create some confusion. In fact, it would be easier to escape than before Arakiya's arrival.",
+    "vi": "May mắn thay, hắn đã nắm bắt được địa hình của thành phố từ trước khi họ cố gắng tìm kiếm các lối đi bí mật. Mặc dù Arakiya không đạt được mục tiêu của mình, nhưng sự xuất hiện của cô ta cũng đã thành công tạo ra một số sự hỗn loạn nhất định. Thực tế, việc trốn thoát lúc này còn dễ dàng hơn cả trước khi Arakiya tới."
+  },
+  {
+    "id": 121,
+    "en": "Apparently, Jamal would be making one more rampage to get himself noticed.",
+    "vi": "Có vẻ như, Jamal định làm loạn thêm một trận nữa để tự gây sự chú ý với kẻ địch."
+  },
+  {
+    "id": 122,
+    "en": "Todd: [Jamal, I'm sorry, but I'm leaving. I’ll say it again, but you probably won’t listen: you’ll die a dog’s death. Even if you go in there, you won't be able to kill them all...]",
+    "vi": "Todd: [Jamal, xin lỗi nhé, nhưng tôi đi đây. Tôi sẽ nhắc lại lần nữa dẫu biết cậu chắc chắn sẽ không nghe: cậu sẽ phải bỏ mạng một cách vô ích thôi. Ngay cả khi cậu xông vào đó, cậu cũng chẳng thể giết hết bọn chúng đâu..]"
+  },
+  {
+    "id": 123,
+    "en": "Jamal: [You dumbass! I'm not gonna do something so worthless! I'm going to rescue General First-Class Arakiya.]",
+    "vi": "Jamal: [Cái thằng ngu này! Tao đâu có rảnh làm chuyện vô nghĩa thế! Tao xông vào là để giải cứu vị Tướng nhất đẳng Arakiya.]"
+  },
+  {
+    "id": 124,
+    "en": "Todd: […What?]",
+    "vi": "Todd: […Cái gì?]"
+  },
+  {
+    "id": 125,
+    "en": "He had expected meaningless sentimentality, however, the other had blurted out some unexpected words instead.",
+    "vi": "Hắn vốn đã chuẩn bị tinh thần nghe những lời cảm tính vô nghĩa, thế nhưng đối phương lại thốt ra những lời ngoài dự đoán hoàn toàn."
+  },
+  {
+    "id": 126,
+    "en": "Todd stopped in his tracks and stared at Jamal’s face, from whom slurred out a “What?”,",
+    "vi": "Todd dừng bước chân và nhìn chằm vào mặt Jamal, kẻ đang trố mắt lầm bầm một tiếng “Hả?”,"
+  },
+  {
+    "id": 127,
+    "en": "Jamal: [Did you really think I was gonna charge in with the resolve to die?]",
+    "vi": "Jamal: [Mày thực sự nghĩ tao định đâm đầu vào đó tự sát sao?]"
+  },
+  {
+    "id": 128,
+    "en": "Todd: [Yes, I did. I thought you wanted to die like a dog.]",
+    "vi": "Todd: [Đúng vậy. Tôi nghĩ cậu muốn bỏ mạng một cách vô nghĩa.]"
+  },
+  {
+    "id": 129,
+    "en": "Jamal: [Cut the crap! I'm taking advantage of your clever thinking, but I've got a brain to think for myself too! I can tell the difference between what I can and can’t do.]",
+    "vi": "Jamal: [Bớt nói nhảm đi! Tao tuy hay dựa vào những mưu tính khôn lường của mày, nhưng cái đầu này cũng biết tự suy nghĩ đấy nhé! Tao tự phân biệt được điều gì mình có thể làm và không thể làm.]"
+  },
+  {
+    "id": 130,
+    "en": "Jamal seriously surprised Todd with his unexpected statement.",
+    "vi": "Jamal thực sự khiến Todd kinh ngạc trước phát ngôn bất ngờ của gã."
+  },
+  {
+    "id": 131,
+    "en": "There were some accomplishments to be seen in his wartime experience, but other than that, he was so direct and unsophisticated that Todd thought him to be a man unknowing of what thinking was supposed to be.",
+    "vi": "Tuy gã cũng có một số chiến tích trong quá trình chinh chiến, nhưng ngoài chuyện đó ra gã thô lỗ và đơn giản tới nỗi Todd luôn nghĩ gã là kiểu đàn ông chẳng bao giờ động não suy nghĩ điều gì."
+  },
+  {
+    "id": 132,
+    "en": "Jamal: [It can’t be helped if you're a coward, I guess Katya wasn’t a good judge of character. I'm gonna rescue the General First-Class. She's got a nice ass.]",
+    "vi": "Jamal: [Nếu mày nhút nhát như vậy thì chịu rồi, có vẻ Katya đã nhìn lầm người. Tao sẽ tự mình giải cứu vị Thần Tướng nhất đẳng. Dáng người cô ta trông quyến rũ phết đấy.]"
+  },
+  {
+    "id": 133,
+    "en": "Todd: [――Wait, I'm coming with you.]",
+    "vi": "Todd: [――Chờ đã, tôi đi cùng cậu.]"
+  },
+  {
+    "id": 134,
+    "en": "Jamal: [Oh!? Don’t tell me, you’re not satisfied with Katya’s ass…?]",
+    "vi": "Jamal: [Ồ!? Đừng nói với tao là mày không hài lòng với dáng vẻ của Katya nhé…?]"
+  },
+  {
+    "id": 135,
+    "en": "Todd: [I had no intention of going along with your suicidal mission, but if it isn’t one, then it becomes a different story.]",
+    "vi": "Todd: [Tôi không có ý định tham gia vào nhiệm vụ tự sát của cậu, nhưng nếu chuyện không phải như vậy thì lại là một vấn đề hoàn toàn khác.]"
+  },
+  {
+    "id": 136,
+    "en": "Not dealing with the disgraceful allegations, Todd sealed Jamal's mouth with his palm. Forcing him to shut up, Todd assembled a schedule of actions that followed the change of plans in his mind.",
+    "vi": "Không bận tâm giải thích trước những lời vu cáo vô duyên đó, Todd lấy lòng bàn tay bịt chặt miệng Jamal lại. Ép gã ngậm miệng, Todd lập tức sắp xếp một chuỗi hành động kế tiếp trong tâm trí để phù hợp với việc thay đổi kế hoạch."
+  },
+  {
+    "id": 137,
+    "en": "It was not in Todd's nature to do things in the spur of the moment in the first place. Sadly, however, the more time he spent with Jamal, the more experience he gained in the field of improvisation.",
+    "vi": "Bản chất của Todd vốn dĩ không thích làm mọi việc một cách bộc phát, tùy hứng. Tuy nhiên thật đáng buồn khi càng dành nhiều thời gian bên cạnh Jamal, hắn lại càng tích lũy được nhiều kinh nghiệm trong việc ứng biến tức thời."
+  },
+  {
+    "id": 138,
+    "en": "If Jamal was going to die an honourable death on his own to retake the City Hall, he would have left him alone. But if his goal was to retake Arakiya, that was a different story.",
+    "vi": "If Jamal was going to die an honourable death on his own to retake the City Hall, he would have left him alone. But if his goal was to retake Arakiya, that was a different story."
+  },
+  {
+    "id": 139,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 140,
+    "en": "The situation in City Hall was slowly clearing up.",
+    "vi": "Tình hình ở <Word en=\"City Hall\">Tòa Thị Chính</Word> đang dần dần ổn định trở lại."
+  },
+  {
+    "id": 141,
+    "en": "The only things to watch out for were Natsumi and the red woman. It would be suicide to take action in their presence. However, it did not mean that their enemy had been able to resolve the situation unscathed either.",
+    "vi": "Những sự tồn tại duy nhất cần phải đề phòng chính là Natsumi và người phụ nữ mặc váy đỏ kia. Hành động trước mặt họ chẳng khác nào tự sát. Tuy nhiên, điều đó không có nghĩa là kẻ thù của họ có thể giải quyết cục diện mà hoàn toàn lành lặn không chút tổn hại nào."
+  },
+  {
+    "id": 142,
+    "en": "If they forgot to maintain vigilance, there would be an opportunity to take advantage of.",
+    "vi": "Nếu đối phương lơ là việc duy trì cảnh giác, đó sẽ là thời cơ vàng để họ ra tay."
+  },
+  {
+    "id": 143,
+    "en": "Jamal: [I'm gonna go in and make a scene. If we take advantage of that opportunity and rescue the General First-Class…]",
+    "vi": "Jamal: [Tao sẽ lao vào trong đó quấy rối làm loạn một trận. Nếu chúng ta tận dụng cơ hội đó giải cứu vị Thần Tướng nhất đẳng…]"
+  },
+  {
+    "id": 144,
+    "en": "Todd: [I was impressed earlier, but that's all gone now… There are two people we need to be wary of. You must avoid doing anything around them. What, there’s no need to worry.]",
+    "vi": "Todd: [Vừa mới khen ngợi cậu xong mà giờ đầu óc lại quay về vạch xuất phát rồi… Có hai kẻ chúng ta cần phải tuyệt đối dè chừng. Cậu phải tránh làm loạn xung quanh bọn họ. Nhưng yên tâm, không cần phải quá lo lắng.]"
+  },
+  {
+    "id": 145,
+    "en": "Todd's lips loosened as he looked at Jamal from the gap between his fingers, as he chided him for this barbaric distraction. He poked his white canine tooth with the tip of his tongue and smirked.",
+    "vi": "Khóe môi Todd khẽ giãn ra khi nhìn Jamal qua kẽ tay, nhẹ nhàng quở trách gã vì những suy nghĩ man rợ, thiếu tính toán đó. Hắn khẽ lấy đầu lưỡi đẩy chiếc răng nanh trắng của mình rồi mỉm cười đầy ẩn ý."
+  },
+  {
+    "id": 146,
+    "en": "Out of the corner of his eye, he saw Arakiya being taken, even though she was dying.",
+    "vi": "Ở khóe mắt của mình, hắn thấy Arakiya đang bị giải đi dẫu cho cô ta có vẻ đang thoi thóp."
+  },
+  {
+    "id": 147,
+    "en": "If she was not dead, there was a way to get her out.",
+    "vi": "Nếu cô ta vẫn chưa chết, chắc chắn sẽ có cách cứu cô ta thoát ra."
+  },
+  {
+    "id": 148,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 149,
+    "en": "――It was easy to sneak into the City Hall.",
+    "vi": "――Việc lẻn vào <Word en=\"City Hall\">Tòa Thị Chính</Word> diễn ra dễ dàng ngoài dự kiến."
+  },
+  {
+    "id": 150,
+    "en": "After all, it was where they had been headquartered, even if it had been for a short time.",
+    "vi": "Suy cho cùng, đây từng là nơi đặt tổng hành dinh của họ, dẫu chỉ trong một khoảng thời gian ngắn ngủi."
+  },
+  {
+    "id": 151,
+    "en": "Todd usually had a habit of grasping the geography and layout of any place he stopped by even once. He did not feel safe unless he had an idea of where to run or hide.",
+    "vi": "Todd vốn dĩ luôn giữ thói quen nắm rõ địa hình và sơ đồ của bất kỳ nơi nào hắn từng ghé chân qua dù chỉ một lần. Hắn không bao giờ cảm thấy an toàn trừ phi tự vạch ra được lối thoát hiểm hoặc chỗ ẩn náu tốt nhất."
+  },
+  {
+    "id": 152,
+    "en": "That was why, after the camp in the Buddheim Jungle had been burnt down and he entered Guaral, he visited every part of the city, including City Hall, and constructed a mental map.",
+    "vi": "Chính vì lý do đó, sau khi doanh trại ở Rừng Rậm Buddheim bị thiêu rụi và hắn đặt chân tới Guaral, hắn đã cất công đi khắp ngõ ngách thành phố, bao gồm cả <Word en=\"City Hall\">Tòa Thị Chính</Word>, để dựng lên một tấm bản đồ chi tiết trong trí nhớ."
+  },
+  {
+    "id": 153,
+    "en": "He knew where to kill unnoticed, and where to hide to avoid detection.",
+    "vi": "Hắn biết rõ chỗ nào có thể ra tay sát hại người khác mà không bị phát giác, và ẩn nấp ở góc nào để tránh mọi sự dòm ngó dò xét."
+  },
+  {
+    "id": 154,
+    "en": "No matter where and what kind of threats they would encounter, he always had a way to murder, and a way to escape.",
+    "vi": "Bất kể họ sẽ chạm trán với mối hiểm họa nào và ở đâu, hắn luôn nắm chắc một phương án sát hại hiệu quả, và một con đường thoát thân an toàn."
+  },
+  {
+    "id": 155,
+    "en": "Todd: [Five.]",
+    "vi": "Todd: [Năm tên.]"
+  },
+  {
+    "id": 156,
+    "en": "As he snuck inside the City Hall, he crushed a few watchmen here and there.",
+    "vi": "Khi lặng lẽ lẻn vào bên trong <Word en=\"City Hall\">Tòa Thị Chính</Word>, hắn đã xử gọn một vài tên lính canh rải rác đây đó."
+  },
+  {
+    "id": 157,
+    "en": "Standing guard were not the Imperial Soldiers nor the People of Shudraq, rather, that task went to guards of the local government that had been conducting the security of the city. They had been called in as soldiers by the disturbing elements who had caused the city to fall―― Though no longer could the fence-sitters they’d used be called a fine “Rebel Army”.",
+    "vi": "Những kẻ đứng gác không phải là binh lính Đế Quốc hay người tộc Shudraq, mà là lính tuần tra của chính quyền địa phương chịu trách nhiệm giữ gìn an ninh cho thành phố. Họ đã bị những kẻ chủ mưu châm ngòi cho sự sụp đổ của thành trì lôi kéo gia nhập lực lượng binh sĩ―― Dù thế, lũ người gió chiều nào theo chiều nấy đó chẳng thể được gọi là một \"Quân Nổi Loạn\" thực sự tinh nhuệ."
+  },
+  {
+    "id": 158,
+    "en": "Jamal: [I ain’t gonna show you any mercy at all.]",
+    "vi": "Jamal: [Tao sẽ không nương tay với tụi mày đâu.]"
+  },
+  {
+    "id": 159,
+    "en": "Jamal spat in annoyance as he snapped a sentinel's neck backward in a two-handed grip.",
+    "vi": "Jamal bực bội nhổ nước bọt khi dùng hai tay bẻ gãy cổ một lính gác về phía sau."
+  },
+  {
+    "id": 160,
+    "en": "Jamal was prouder of being an Imperial Soldier than of being Imperial Nobility. His anger towards the guards cooperating with the rebels that were fighting against the Empire was immeasurable.",
+    "vi": "Jamal tự hào về tư cách binh lính Đế Quốc hơn là dòng máu quý tộc của mình. Cơn giận của gã đối với những lính canh hợp tác với phiến quân chống lại Đế Quốc là không thể đong đếm."
+  },
+  {
+    "id": 161,
+    "en": "They had been cooperating with the Imperial Soldiers before the fall of the city, so it was understandable that he would be angry at how quickly they had changed their tune.",
+    "vi": "Họ vốn đã hợp tác với binh lính Đế Quốc từ trước khi thành trì sụp đổ, thế nên cũng dễ hiểu tại sao gã lại tức giận trước sự trở mặt nhanh như chớp của bọn chúng."
+  },
+  {
+    "id": 162,
+    "en": "Todd: [Well, that's not a way of thinking I have.]",
+    "vi": "Todd: [Chà, tôi thì không có lối suy nghĩ đó.]"
+  },
+  {
+    "id": 163,
+    "en": "He only killed them because he had to, and if it were not required, he would not have done so.",
+    "vi": "Hắn chỉ giết họ vì bắt buộc phải làm thế, còn nếu không cần thiết, hắn sẽ không bao giờ động thủ."
+  },
+  {
+    "id": 164,
+    "en": "They could not be blamed for switching sides so quickly if they were just following the stronger side to survive. Of course, they had to pay for their wrong decision with their life.",
+    "vi": "Không thể đổ lỗi cho họ vì đã phản bội phe cũ nhanh chóng như vậy nếu họ chỉ đang đi theo kẻ mạnh hơn để sinh tồn. Dẫu vậy, tất nhiên họ phải trả giá cho sự lựa chọn sai lầm bằng mạng sống của mình."
+  },
+  {
+    "id": 165,
+    "en": "So, the pair made up of Jamal and himself proceeded to their destination while eliminating the guards in their path.",
+    "vi": "Cứ thế, cặp đôi gồm Jamal và hắn tiếp tục tiến tới đích đến trong khi dọn sạch những tên lính canh cản đường."
+  },
+  {
+    "id": 166,
+    "en": "There was a prison in the basement of the City Hall, and it was customary for criminals awaiting trial by the City Mayor to be placed there. It was highly likely that Arakiya, having been taken prisoner, would likewise be held captive there.",
+    "vi": "Có một nhà ngục nằm dưới tầng hầm của <Word en=\"City Hall\">Tòa Thị Chính</Word>, nơi thường dùng để giam giữ những tội phạm chờ Thị trưởng xét xử. Rất có khả năng Arakiya, sau khi bị bắt làm tù binh, cũng đang bị giam cầm tại đó."
+  }
+]

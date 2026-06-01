@@ -8,28 +8,47 @@ interface SentenceProps {
   children: React.ReactNode
 }
 
+// Base sizes (at scale = 1). Font size is calc'd against --reader-scale.
+// Line height inherits --reader-leading from the reader container.
+const VI_STYLE: React.CSSProperties = {
+  fontSize: 'calc(1.0625rem * var(--reader-scale, 1))',
+  lineHeight: 'var(--reader-leading, 1.7)',
+}
+const EN_STYLE: React.CSSProperties = {
+  fontSize: 'calc(0.9375rem * var(--reader-scale, 1))',
+  lineHeight: 'var(--reader-leading, 1.7)',
+}
+
 export function Sentence({ en, children }: SentenceProps) {
   const [revealed, setRevealed] = useState(false)
-  const { layout } = useReader()
+  const { layout, revealAll } = useReader()
 
   if (layout === 'parallel') {
     return (
-      <div 
+      <div
         className="group/sentence py-3.5 border-b border-[#e6d9bf] dark:border-[#332920] transition-all duration-150 hover:bg-[#e6d9bf]/20 dark:hover:bg-[#332920]/25 rounded px-3 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 items-start animate-fade-in"
       >
-        {/* Left Column: English (Muted slightly for premium visual hierarchy, but clear) */}
-        <div className="text-sm md:text-[15px] italic text-[#7a6c5e] dark:text-[#a09180] pr-0 md:pr-4 order-2 md:order-1 select-all font-sans leading-relaxed">
+        {/* Left Column: English */}
+        <div
+          className="italic text-[#7a6c5e] dark:text-[#a09180] pr-0 md:pr-4 order-2 md:order-1 select-all font-sans"
+          style={EN_STYLE}
+        >
           {en}
         </div>
         {/* Right Column: Vietnamese */}
-        <div className="text-base md:text-[17px] text-[#2d2420] dark:text-[#e8dcc8] font-medium order-1 md:order-2 leading-relaxed">
+        <div
+          className="text-[#2d2420] dark:text-[#e8dcc8] font-medium order-1 md:order-2"
+          style={VI_STYLE}
+        >
           {children}
         </div>
       </div>
     )
   }
 
-  // Default 'inline' layout
+  // Inline layout (default for both 'inline' and 'paged')
+  const showEn = revealed || revealAll
+
   return (
     <div
       onClick={() => setRevealed((r) => !r)}
@@ -42,15 +61,22 @@ export function Sentence({ en, children }: SentenceProps) {
           setRevealed((r) => !r)
         }
       }}
-      aria-expanded={revealed}
+      aria-expanded={showEn}
     >
-      <span className="text-base md:text-[17px] leading-relaxed font-medium text-[#2d2420] dark:text-[#e8dcc8]">{children}</span>
-      {revealed && (
-        <span className="block mt-2 mb-3 pl-4 border-l-2 border-amber-500 dark:border-amber-500 text-sm md:text-[15px] italic text-[#7a6c5e] dark:text-[#a09180] animate-fade-in-up font-sans leading-relaxed select-all">
+      <span
+        className="font-medium text-[#2d2420] dark:text-[#e8dcc8]"
+        style={VI_STYLE}
+      >
+        {children}
+      </span>
+      {showEn && (
+        <span
+          className="block mt-2 mb-3 pl-4 border-l-2 border-amber-500 dark:border-amber-500 italic text-[#7a6c5e] dark:text-[#a09180] animate-fade-in-up font-sans select-all"
+          style={EN_STYLE}
+        >
           {en}
         </span>
       )}
     </div>
   )
 }
-

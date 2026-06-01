@@ -1,5 +1,6 @@
 import { getChaptersByArc } from '@/lib/chapters'
 import { ChapterCard } from '@/components/ChapterCard'
+import { ContinueReading } from '@/components/ContinueReading'
 
 export default function Home() {
   const arc6Chapters = getChaptersByArc(6)
@@ -16,6 +17,9 @@ export default function Home() {
           tiếng Anh tương ứng — đọc truyện và học tiếng Anh cùng lúc.
         </p>
       </div>
+
+      {/* Resume card — renders only when in-progress reading exists (client-only) */}
+      <ContinueReading />
 
       <section className="mb-10">
         <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">

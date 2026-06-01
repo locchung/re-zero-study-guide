@@ -1,0 +1,590 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part2 = [
+  {
+    "id": 116,
+    "en": "Perhaps if he were called out loud enough, he would rush to the neighboring country?",
+    "vi": "Liệu nếu cậu lớn tiếng gọi to, ngài ấy có lập tức băng qua biên ải quốc gia lân bang để đến chi viện không?"
+  },
+  {
+    "id": 117,
+    "en": "Priscilla: [Let me tell you something, foolish commoner. If you are contemplating summoning the Sword Saint, he cannot cross borders because of the non-aggression-pact. It would be wise not to get your hopes up.]",
+    "vi": "Priscilla: [Để ta nói cho ngươi nghe điều này, tên thường dân ngu muội kia. Nếu ngươi đang nhen nhóm ý đồ triệu gọi Kiếm Thánh, thì ngài ấy tuyệt đối không thể tự tiện băng qua biên giới lãnh thổ do hiệp ước bất xâm phạm đã ký kết đâu. Tốt nhất là ngươi đừng có mà ôm mộng hão huyền.]"
+  },
+  {
+    "id": 118,
+    "en": "Subaru: [Don't read people's minds. I'm not considering it for real… Relying on them only when I’m in trouble isn’t the proper way to treat a friend.]",
+    "vi": "Subaru: [Đừng có tự tiện đọc vị tâm trí người khác chứ. Tôi đâu có thực sự nghĩ đến chuyện đó đâu… Chỉ khi nào gặp hoạn nạn mới nhớ đến người ta để nhờ vả cậy nhờ thì đâu thể gọi là cách hành xử chân thành của một người bạn được.]"
+  },
+  {
+    "id": 119,
+    "en": "If used for convenience, just because he could call upon him and have him rush to his side, it would not really be something he could call a friendship.",
+    "vi": "Nếu chỉ sử dụng bạn bè như một công cụ tiện lợi, chỉ vì bản thân có thể tùy ý gọi một tiếng là đối phương sẽ lập tức lao đến chi viện, thì mối quan hệ đó thực chất chẳng thể coi là tình bạn chân chính."
+  },
+  {
+    "id": 120,
+    "en": "If the situation were to become really, really bad, he would not be able to say the same. However, till that moment arrived, Subaru was resolved to keep his morals intact.",
+    "vi": "Dẫu biết rằng nếu tình thế thực sự rơi vào cảnh ngàn cân treo sợi tóc tuyệt vọng, cậu sẽ không thể đoan đoan quả quyết giữ vững nguyên tắc đạo đức đó. Tuy nhiên, chừng nào thời khắc hiểm nghèo đó chưa thực sự ập đến, Subaru vẫn quyết tâm giữ gìn vẹn toàn lòng tự trọng của mình."
+  },
+  {
+    "id": 121,
+    "en": "Priscilla: [So? Foolish commoner being treated as Abel's military strategist, have you run out of inquiries?]",
+    "vi": "Priscilla: [Sao nào? Tên thường dân ngu muội được cung phụng làm quân sư của Abel kia, ngươi đã cạn kiệt câu hỏi chất vấn rồi chứ?]"
+  },
+  {
+    "id": 122,
+    "en": "Subaru: [I haven't run out of questions yet, and first of all I’m not a military strategist…]",
+    "vi": "Subaru: [Tôi vẫn chưa hỏi xong đâu, với lại ngay từ đầu tôi đã bảo tôi không phải quân sư rồi mà…]"
+  },
+  {
+    "id": 123,
+    "en": "Subaru replied, frowning as Priscilla took a dig at his position. Then, just as he was about to move on to the next topic of the meeting――,",
+    "vi": "Subaru cau mày đáp lại khi Priscilla liên tục đâm chọc vào vị thế danh xưng của mình. Rồi đúng vào lúc cậu chuẩn bị chuyển cuộc họp sang chủ đề tiếp theo――,"
+  },
+  {
+    "id": 124,
+    "en": "???: [――Miss Natsumi and Village Chief-kun! Excuse me!]",
+    "vi": "Giọng nói ngoài cửa: [――Natsumi-tiểu thư và Cậu Trưởng Thôn! Xin thất lễ!]"
+  },
+  {
+    "id": 125,
+    "en": "At the same time a cheerful voice resounded, the door was opened, and a new person appeared in the conference hall with vigor.",
+    "vi": "Cùng lúc một giọng nói vui vẻ sảng khoái vang lên, cánh cửa phòng họp bật mở, và một nhân vật mới xuất hiện bước vào sảnh hội nghị với phong thái vô cùng năng động."
+  },
+  {
+    "id": 126,
+    "en": "The one who had arrived was Flop, a beautiful man clad in blue, his long golden hair swaying briskly.",
+    "vi": "Người vừa mới đặt chân tới chính là Flop, một đấng nam nhi dung mạo mỹ miều khoác trên mình bộ trang phục màu xanh lam, mái tóc vàng óng dài đung đưa nhịp nhàng theo từng sải bước."
+  },
+  {
+    "id": 127,
+    "en": "Flop was supposed to be tending to the injured on the upper floor where the damage of Arakiya's rampage remained. While becoming the focus of all eyes in the room, he looked at Subaru and Abel, and nodded, saying \"There you are”.",
+    "vi": "Flop đáng ra phải đang túc trực chăm sóc cho những người bị thương ở tầng trên, nơi tàn tích tàn phá từ cuộc càn quét cuồng bạo của Arakiya vẫn còn hiện hữu. Trở thành tâm điểm chú ý của mọi ánh nhìn trong phòng họp, anh nhìn lướt qua Subaru cùng Abel rồi gật đầu khẽ thốt lên \"Hóa ra hai người ở đây\"."
+  },
+  {
+    "id": 128,
+    "en": "Flop's figure was stained all over with blood, accentuating the horror of the makeshift field hospital.",
+    "vi": "Khắp cơ thể Flop loang lổ nhuốm đầy những vệt máu tươi tanh nồng, càng tô đậm thêm bầu không khí tang thương kinh hoàng của bệnh viện dã chiến tạm bợ phía trên."
+  },
+  {
+    "id": 129,
+    "en": "But the fact that he showed up here meant that――,",
+    "vi": "Nhưng việc anh bất ngờ xuất hiện ở nơi này đồng nghĩa với việc――,"
+  },
+  {
+    "id": 130,
+    "en": "Subaru: [Flop-san, how’s everyone’s treatment?]",
+    "vi": "Subaru: [Flop-san, tình hình chữa trị cho mọi người thế nào rồi?]"
+  },
+  {
+    "id": 131,
+    "en": "Flop: [We just wrapped things up for now! …Hmm? From the looks of it, you're in the mood for Husband-kun instead of Miss Natsumi? If so, I'll revert to calling you Husband-kun.]",
+    "vi": "Flop: [Chúng tôi vừa mới tạm thời hoàn tất mọi công đoạn xong xuôi rồi! …Hửm? Nhìn thần thái điệu bộ thế kia, có vẻ cậu đang muốn làm Cậu Chồng hơn là Natsumi-tiểu thư xinh đẹp đúng không? Nếu đã thế thì tôi sẽ quay lại gọi cậu là Cậu Chồng nhé.]"
+  },
+  {
+    "id": 132,
+    "en": "Subaru: [Well, either is fine. But, yeah, things are getting wrapped up…]",
+    "vi": "Subaru: [Gọi thế nào cũng được cả. Nhưng dẫu sao thì, việc chữa trị đã hoàn tất rồi sao…]"
+  },
+  {
+    "id": 133,
+    "en": "While receiving Flop's rather oblique words of consideration, Subaru reflected with simultaneous relief and anxiety, upon hearing that the healing process had come to a close.",
+    "vi": "Đón nhận những lời quan tâm có phần vòng vo tinh tế của Flop, Subaru khẽ thở phào nhẹ nhõm nhưng đồng thời cũng trỗi dậy nỗi lo âu phấp phỏng khi nghe tin công tác cứu chữa đã khép lại."
+  },
+  {
+    "id": 134,
+    "en": "The relief was simply because of the fact that the aid of the injured had finished. The anxiety was more for the fact that he would hear of the results from the healing mission.",
+    "vi": "Sự nhẹ nhõm thuần túy xuất phát từ việc công tác sơ cứu người bị nạn cuối cùng đã hoàn tất. Còn nỗi lo sợ dằn vặt là bởi cậu sắp sửa phải lắng nghe báo cáo kết quả cụ thể từ cuộc cứu chữa này."
+  },
+  {
+    "id": 135,
+    "en": "The goal of the “bloodless siege” had already failed.",
+    "vi": "Mục tiêu tối thượng của “kế hoạch vây thành không đổ máu” vốn đã phá sản hoàn toàn từ trước rồi."
+  },
+  {
+    "id": 136,
+    "en": "Seven guards had fallen victim in Arakiya’s extraction. The only question now, was whether any of the wounded would join them.",
+    "vi": "Bảy binh lính gác ngục đã thiệt mạng hy sinh trong cuộc giải cứu cướp ngục của Arakiya. Câu hỏi duy nhất còn sót lại lúc này chỉ là liệu có thêm ai trong số những người bị thương phải nằm xuống nữa hay không."
+  },
+  {
+    "id": 137,
+    "en": "Flop: [There have been no deaths, Husband-kun.]",
+    "vi": "Flop: [Không có thêm bất kỳ ca tử vong nào đâu, Cậu Chồng ạ.]"
+  },
+  {
+    "id": 138,
+    "en": "Subaru: [Eh…]",
+    "vi": "Subaru: [Hả…]"
+  },
+  {
+    "id": 139,
+    "en": "Flop: [It was a tough situation for all of us, though. But I think it was thanks to the efforts of Wife-san and Niece-chan. The promptness of Miss Taritta and Miss Utakata as well. Of course, my sister and I had to work hard, too!]",
+    "vi": "Flop: [Dẫu cho đó thực sự là một tình thế vô cùng ngặt nghèo thử thách cho tất cả chúng ta. Nhưng tôi nghĩ kỳ tích này có được chính là nhờ vào những nỗ lực phi thường của Cô Vợ và cháu gái Louis yêu dấu đấy. Cả sự nhanh nhẹn ứng biến kịp thời của Taritta-tiểu thư và Utakata-tiểu thư nữa. Lẽ tự nhiên, em gái tôi và bản thân tôi cũng đã phải dốc hết sức làm việc cật lực rồi!]"
+  },
+  {
+    "id": 140,
+    "en": "Having read his inner feelings from Subaru’s complexion, Flop gave him the answer first.",
+    "vi": "Đọc vị được những nỗi niềm dằn vặt dồn nén qua sắc mặt tái nhợt của Subaru, Flop đã chủ động đưa ra câu trả lời giải tỏa tâm lý cho cậu trước tiên."
+  },
+  {
+    "id": 141,
+    "en": "Flop boasted about his contributions while pointing at himself, looking rather manly. The answer he had given was concise, so Subaru needed only the time of a heartbeat to digest the information.",
+    "vi": "Flop huênh hoang tự đắc về những cống hiến đóng góp của mình trong khi tự tay chỉ vào ngực, trông vô cùng oai phong dũng mãnh. Câu trả lời anh đưa ra cực kỳ ngắn gọn súc tích, thế nên Subaru chỉ mất đúng một nhịp đập của con tim để tiếp thu trọn vẹn thông tin quý giá này."
+  },
+  {
+    "id": 142,
+    "en": "However, after his understanding deepened a heartbeat later, a great big sigh escaped him.",
+    "vi": "Tuy nhiên, ngay sau khi nhận thức được rõ ràng ý nghĩa của thông tin đó một nhịp thở sau, một tiếng thở phào nhẹ nhõm cực lớn thoát ra từ lồng ngực cậu."
+  },
+  {
+    "id": 143,
+    "en": "Subaru: [No deaths… Hk.]",
+    "vi": "Subaru: [Không có ai chết cả… Hự.]"
+  },
+  {
+    "id": 144,
+    "en": "Flop: [Yeah, it's a sign that everyone did their best to stay alive. As for me, if it weren’t for my sister protecting me, I would’ve hit my head and died! Hahaha, I'm no match for my sister!]",
+    "vi": "Flop: [Đúng vậy, đó chính là minh chứng cho việc mọi người đều đã dốc hết bình sinh nỗ lực để giành giật lại sự sống. Còn riêng tôi thì, nếu không nhờ có em gái dũng cảm đứng ra che chắn bảo vệ, tôi chắc chắn đã bị đập đầu vào đá và bỏ mạng từ lâu rồi! Ha ha ha, tôi quả thực hoàn toàn lép vế trước cô em gái của mình!]"
+  },
+  {
+    "id": 145,
+    "en": "Subaru: [Yeah, yeah, that’s true. I'm no match for Medium-san either…]",
+    "vi": "Subaru: [Phải, phải, đúng thế thật. Tôi cũng hoàn toàn lép vế nể phục trước Medium-san rồi…]"
+  },
+  {
+    "id": 146,
+    "en": "Flop laughed vivaciously while in front of him, whereas Subaru cast his eyes downward and shook his shoulders.",
+    "vi": "Flop nở nụ cười rạng rỡ sảng khoái ngay trước mặt cậu, trong khi Subaru khẽ cúi gầm mặt xuống và đôi bờ vai khẽ rung lên vì xúc động."
+  },
+  {
+    "id": 147,
+    "en": "Without exaggeration, without jesting, he was completely of the same opinion. If Medium―― or anyone else for that matter, were not present there, this report would never have been heard.",
+    "vi": "Không hề phóng đại khoa trương, cũng chẳng phải lời đùa cợt, cậu hoàn toàn đồng tình với quan điểm đó. Nếu Medium―― hoặc bất kỳ ai khác không túc trực có mặt ứng cứu kịp thời lúc bấy giờ, bản báo cáo tốt đẹp này sẽ không bao giờ có cơ hội được thốt ra."
+  },
+  {
+    "id": 148,
+    "en": "There were lives that had been lost. But there were also lives that had not been lost.",
+    "vi": "Có những sinh mạng dẫu đã phải nằm xuống bi thương. Nhưng đồng thời cũng có vô số sinh mạng đã được bảo toàn thành công."
+  },
+  {
+    "id": 149,
+    "en": "The emotions that brought to his heart were great――,",
+    "vi": "Những cung bậc cảm xúc đan xen dâng trào trong lồng ngực cậu vô cùng mãnh liệt――,"
+  },
+  {
+    "id": 150,
+    "en": "Abel: [――Merchant, what happened to that practitioner of the healing arts?]",
+    "vi": "Abel: [――Tên thương nhân kia, tình hình của kẻ thi triển trị liệu pháp thuật đó thế nào rồi?]"
+  },
+  {
+    "id": 151,
+    "en": "Despite Subaru’s excitement, Abel forced himself into the conversation with an indifferent tone..",
+    "vi": "Bất chấp cảm xúc dâng trào của Subaru, Abel thản nhiên chen ngang vào cuộc trò chuyện bằng một tông giọng lạnh lùng thờ ơ."
+  },
+  {
+    "id": 152,
+    "en": "“Practitioner of the healing arts”, Subaru raised an eyebrow at the unfamiliar sound, and Flop put his finger to his lips. \"Practitioner…”, he murmured as he gave it some consideration.",
+    "vi": "“Kẻ thi triển trị liệu pháp thuật”, Subaru khẽ nhướng lông mày trước cụm từ xa lạ thô ráp đó, còn Flop thì khẽ đưa ngón tay lên môi suy ngẫm. \"Kẻ thi triển…\", anh lẩm bẩm tự hỏi trong khi cân nhắc ý nghĩa."
+  },
+  {
+    "id": 153,
+    "en": "Flop: [Is that… You’re talking about Husband-kun's Wife-san?]",
+    "vi": "Flop: [Ý ngài là… Ngài đang muốn hỏi về Cô Vợ yêu quý của Cậu Chồng đúng không?]"
+  },
+  {
+    "id": 154,
+    "en": "Abel: [Who else is there? Did you believe there was anyone else in that place who could cast healing magic besides that girl?]",
+    "vi": "Abel: [Chứ còn ai vào đây nữa? Ngươi tưởng còn ai khác ở khu vực đó sở hữu khả năng thi triển trị liệu ma pháp ngoài con bé đó sao?]"
+  },
+  {
+    "id": 155,
+    "en": "Flop: [No, I can't think of anyone else! Just…]",
+    "vi": "Flop: [Dạ phải, tôi cũng chẳng nghĩ ra ai khác cả! Tuy nhiên…]"
+  },
+  {
+    "id": 156,
+    "en": "Abel: [Just?]",
+    "vi": "Abel: [Tuy nhiên thế nào?]"
+  },
+  {
+    "id": 157,
+    "en": "Flop: [I think you should try to say things in a way that makes people like you better, Village Chief-kun. Even when you call out to them, things’ll go much more smoothly if you're conscious of being friendly!]",
+    "vi": "Flop: [Tôi nghĩ ngài nên học cách ăn nói sao cho dễ nghe để người khác yêu mến mình hơn đấy, Cậu Trưởng Thôn ạ. Ngay cả khi ngài muốn hỏi thăm ai đó, mọi chuyện sẽ diễn ra suôn sẻ ấm lòng hơn nhiều nếu ngài chú ý thể hiện thái độ thân thiện cởi mở hơn chút đấy!]"
+  },
+  {
+    "id": 158,
+    "en": "Abel raised one eyebrow in response to the incredibly direct cheerful protest in front of him.",
+    "vi": "Abel khẽ nhướng lông mày trước lời phản đối sảng khoái và cực kỳ thẳng thắn trực diện ngay trước mặt gã."
+  },
+  {
+    "id": 159,
+    "en": "The statement that Flop had made was a dignified one, but it was quite a harrowing statement to listen to from the bylines in frankness.",
+    "vi": "Lời phát biểu của Flop vô cùng đĩnh đạc và mang đầy tính xây dựng, dẫu thế khi nghe thẳng thừng trực tiếp từ hàng ghế khán giả bên lề, nó quả thực là một lời khuyên có phần táo bạo thót tim."
+  },
+  {
+    "id": 160,
+    "en": "Naturally, to have Rem referred to in a way that reduced her to just her capabilities did not sit well with Subaru.",
+    "vi": "Lẽ tự nhiên, việc Rem yêu quý bị gã nhắc đến bằng một danh xưng thô ráp như thể chỉ coi cô như một công cụ trị liệu khiến Subaru cảm thấy vô cùng khó chịu trong lòng."
+  },
+  {
+    "id": 161,
+    "en": "Al: [That impression does not sound very convincing after those disrespectful words from just now, bro.]",
+    "vi": "Al: [Cái vẻ mặt khó chịu đó của cậu trông không được thuyết phục lắm sau những lời vô lễ vừa nãy đâu, người anh em ạ.]"
+  },
+  {
+    "id": 162,
+    "en": "Subaru: [Considering how far we've come, I got the right to say that much… Flop-san does too, then, right?]",
+    "vi": "Subaru: [Trải qua biết bao hoạn nạn sinh tử cùng nhau rồi, tôi tự thấy mình có thừa quyền hạn để phát biểu như thế… Và Flop-san cũng vậy đúng không nào?]"
+  },
+  {
+    "id": 163,
+    "en": "Al: [Dunno, but I'm dying to hear about your adventures bro.]",
+    "vi": "Al: [Chịu chết thôi, cơ mà tôi đang thèm khát được lắng nghe kể về những chuyến phiêu lưu kỳ thú của cậu đấy người anh em.]"
+  },
+  {
+    "id": 164,
+    "en": "It was too turbulent a story to tell, but that was a topic to be delved into some other time.",
+    "vi": "Đó là một câu chuyện quá đỗi chông gai sóng gió để kể hết trong chốc lát, thế nên tốt nhất là để dành bàn luận sâu vào một dịp khác thích hợp hơn."
+  },
+  {
+    "id": 165,
+    "en": "Regardless of how Abel had put it, Rem's safety was Subaru's top priority. Of course, he had confirmed with his own eyes that she held no noticeable trauma.",
+    "vi": "Bất kể Abel có dùng cách diễn đạt thô thiển thế nào đi chăng nữa, sự an toàn của Rem vẫn luôn là ưu tiên tối thượng hàng đầu của Subaru. Tất nhiên, chính mắt cậu đã kiểm chứng và xác nhận rằng cô không hề gánh chịu bất kỳ chấn thương rõ rệt nào."
+  },
+  {
+    "id": 166,
+    "en": "Subaru: [Did she do anything like work too hard and collapse?]",
+    "vi": "Subaru: [Cô ấy có gắng sức cật lực quá mà bị kiệt sức ngất đi không?]"
+  },
+  {
+    "id": 167,
+    "en": "Flop: [Don't worry about that, Husband-kun. Of course, all that hard work’s taken its toll on her, but it’s nothing that can’t be remedied with some rest. It’s really wonderful that you have the hardworking Wife-san by your side.]",
+    "vi": "Flop: [Cậu không cần phải lo lắng thái quá về chuyện đó đâu, Cậu Chồng ạ. Dẫu biết rằng công việc cật lực vất vả đó đã ngốn không ít sinh lực của cô ấy, nhưng không có gì nghiêm trọng đến mức không thể phục hồi sau khi được nghỉ ngơi tĩnh dưỡng điều độ đâu. Quả thực là một điều tuyệt diệu khi cậu sở hữu một Cô Vợ chăm chỉ đảm đang luôn sát cánh bên cạnh như vậy.]"
+  },
+  {
+    "id": 168,
+    "en": "Subaru: [I see…Well, that’s good.]",
+    "vi": "Subaru: [Tôi hiểu rồi… Vậy thì tốt quá.]"
+  },
+  {
+    "id": 169,
+    "en": "Stroking his chest in relief, Subaru was glad to hear Flop's guarantee.",
+    "vi": "Khẽ vuốt ngực thở phào nhẹ nhõm, Subaru vô cùng vui mừng khi nhận được lời bảo chứng cam đoan chắc nịch của Flop."
+  },
+  {
+    "id": 170,
+    "en": "The situation was what it was. Even though he had to rely on Rem, he was frankly afraid that she would try too hard. What Subaru said mattered not; were it within her capabilities, Rem would not listen to him.",
+    "vi": "Tình cảnh thực tế lúc bấy giờ bắt buộc phải như vậy. Dẫu biết bản thân bắt buộc phải cậy nhờ vào năng lực của Rem, cậu thực lòng vẫn vô cùng lo sợ cô sẽ gắng gượng quá sức bình sinh. Bất kể Subaru có khuyên can thế nào đi chăng nữa, một khi đã nằm trong khả năng cứu người của mình, Rem tuyệt đối sẽ không đời nào chịu nghe lời cậu."
+  },
+  {
+    "id": 171,
+    "en": "Al: [――Wife-san?]",
+    "vi": "Al: [――Cô Vợ sao?]"
+  },
+  {
+    "id": 172,
+    "en": "Al muttered quietly beside Subaru, who had patted his chest in relief.",
+    "vi": "Al lẩm bẩm nhỏ nhẹ ngay bên cạnh Subaru, người vừa mới khẽ vuốt ngực thở phào nhẹ nhõm."
+  },
+  {
+    "id": 173,
+    "en": "He put a hand to the chin of his steel helmet, and cocked his head, puzzled,",
+    "vi": "Hắn khẽ đưa tay lên cằm chiếc mũ bảo hiểm sắt thép của mình, nghiêng đầu tỏ vẻ vô cùng thắc mắc hoài nghi,"
+  },
+  {
+    "id": 174,
+    "en": "Al: [I don’t think I saw her up above, but did the girl from bro's group come here too?]",
+    "vi": "Al: [Tôi nhớ là không hề nhìn thấy cô ấy ở phía trên, nhưng chẳng lẽ cô bé thuộc tổ đội của người anh em cũng lưu lạc đến tận nơi này sao?]"
+  },
+  {
+    "id": 175,
+    "en": "Subaru: [The girl from my group… you mean Emilia-tan? No, she didn’t come here. How reassuring it would be to have her here… on the other hand, I don't think I would want her to be here.]",
+    "vi": "Subaru: [Cô bé thuộc tổ đội của tôi… ý anh là Emilia-tan sao? Không, cô ấy không có mặt ở đây đâu. Dẫu biết rằng nếu có cô ấy túc trực ở đây thì sẽ vô cùng yên tâm trấn an… nhưng mặt khác, tôi thực lòng cũng không muốn cô ấy phải dấn thân vào chốn hiểm nguy này chút nào.]"
+  },
+  {
+    "id": 176,
+    "en": "Emilia's gentle nature and the Vollachian Empire’s way of being were probably like water and oil.",
+    "vi": "Bản tính dịu dàng nhân hậu của Emilia và phong cách sinh tồn sùng bái thực lực tàn bạo của Đế Quốc Vollachia quả thực giống như nước với dầu, hoàn toàn không thể hòa hợp."
+  },
+  {
+    "id": 177,
+    "en": "Although there was also a chance that Emilia, who tended to be someone who acted before thinking, would find the Imperial approach more comfortable, the cruelty of the Empire itself went much further than that. ――Emilia was not suited for the Empire.",
+    "vi": "Mặc dù cũng có khả năng Emilia, người thường sở hữu xu hướng hành động dứt khoát trước khi kịp suy nghĩ thấu đáo, sẽ cảm thấy phong cách dứt khoát của Đế Quốc có phần thoải mái dễ thở, nhưng sự tàn bạo bản chất của bản thân Đế Quốc còn vượt xa hơn thế rất nhiều. ――Emilia hoàn toàn không thích hợp với Đế Quốc này."
+  },
+  {
+    "id": 178,
+    "en": "Al: [――A wife other than your girl, huh?]",
+    "vi": "Al: [――Một cô vợ khác ngoài cô bé của cậu sao?]"
+  },
+  {
+    "id": 179,
+    "en": "Subaru: [….Just to tell you, we're passing it off as a matter of convenience. To tell you the truth, she's a girl I've decided to treat with that much care. I'll bring her home, no matter what.]",
+    "vi": "Subaru: [….Nói cho anh biết trước nhé, bọn tôi chỉ đang tạm thời giả vờ như vậy vì hoàn cảnh tiện lợi thôi. Nhưng thành thực mà nói, cô ấy chính là người con gái tôi đã quyết tâm phải bảo vệ nâng niu bằng cả sinh mạng. Tôi chắc chắn sẽ mang cô ấy trở về nhà bình an vô sự, bất kể có phải đánh đổi bằng bất cứ giá nào.]"
+  },
+  {
+    "id": 180,
+    "en": "Al: [――――]",
+    "vi": "Al: [――――]"
+  },
+  {
+    "id": 181,
+    "en": "Subaru explained to Al, who mumbled in a low tone with his hand on his chin.",
+    "vi": "Subaru ra sức giải thích tường tận cho Al, kẻ vẫn đang lẩm nhẩm thì thầm trong miệng với bàn tay đặt trên cằm."
+  },
+  {
+    "id": 182,
+    "en": "As long as they were also in the Empire, it was impossible for strange rumors to spread from Al's mouth, but he did not want Al to get the wrong idea. He did not want his resolve to get rained on.",
+    "vi": "Chừng nào họ vẫn còn lưu lạc trong Đế Quốc này, khả năng những lời đồn thổi kỳ quái phát tán từ miệng Al là không cao, dẫu thế cậu vẫn tuyệt đối không muốn Al hiểu lầm tai hại. Cậu không muốn quyết tâm sắt đá của mình bị vẩn đục."
+  },
+  {
+    "id": 183,
+    "en": "Priscilla: [That delicate-looking man, the one they call merchant… Are you one of Abel's subordinates?]",
+    "vi": "Priscilla: [Tên nam nhân dung mạo mỹ miều trông có vẻ yếu ớt được gọi là thương nhân kia… Ngươi chính là một trong những thủ hạ cấp dưới của Abel sao?]"
+  },
+  {
+    "id": 184,
+    "en": "Flop: [No, I'm not his subordinate. My sister and I are in a position of cooperating with Husband-kun and Village Chief-kun. Well, I guess it's appropriate to call him my newest friend!]",
+    "vi": "Flop: [Dạ không, tôi không phải cấp dưới của ngài ấy đâu! Em gái tôi và bản thân tôi đang ở thế hợp tác đồng minh cùng với Cậu Chồng và Cậu Trưởng Thôn. Mà nói đúng ra thì, gọi ngài ấy là người bạn mới nhất của tôi có lẽ là thích hợp nhất đấy!]"
+  },
+  {
+    "id": 185,
+    "en": "Priscilla: [Oh, a friend, huh?]",
+    "vi": "Priscilla: [Ồ, bằng hữu sao?]"
+  },
+  {
+    "id": 186,
+    "en": "Priscilla, exchanging words with Flop, loosened her lips at his answer. Hiding her loosened lips with her fan, Priscilla sent a meaningful look in Abel's direction.",
+    "vi": "Priscilla, khi đối thoại đàm đạo cùng Flop, khẽ giãn cơ môi nở một nụ cười ẩn ý trước câu trả lời của anh. Che khuất nụ cười ẩn ý đó bằng chiếc quạt xếp, Priscilla ném một ánh mắt đầy ẩn ý sâu xa về phía chiến tuyến của Abel."
+  },
+  {
+    "id": 187,
+    "en": "Priscilla: [I did not know you were hard at work making friends. It seems the throne of the Emperor of Vollachia has become such that it can easily be vacated.]",
+    "vi": "Priscilla: [Ta không ngờ ngươi lại đang cật lực bận rộn kết giao bằng hữu kết nghĩa đệ huynh đấy. Xem ra cái ngai vàng tối cao của Hoàng đế trị vì Vollachia đã biến thành một thứ dễ dàng bị bỏ trống nhường lại cho kẻ khác rồi nhỉ.]"
+  },
+  {
+    "id": 188,
+    "en": "Abel: [Cease the sarcasm. I do not recall being friends with that man.]",
+    "vi": "Abel: [Ngưng ba cái lời mỉa mai đâm chọc đó đi. Ta chưa bao giờ thừa nhận bản thân là bằng hữu kết nghĩa gì với tên nam nhân phiền phức kia cả.]"
+  },
+  {
+    "id": 189,
+    "en": "Flop: [What are you talking about, Village Chief-kun? We've gone through the verge of death together in women's clothing!]",
+    "vi": "Flop: [Ngài đang nói cái gì thế hả, Cậu Trưởng Thôn? Chúng ta đã từng cùng nhau giả gái trải qua ranh giới sinh tử ngàn cân treo sợi tóc cơ mà!]"
+  },
+  {
+    "id": 190,
+    "en": "Abel: [If you give death the slip alongside someone, you become friends immediately? If that is the case, then every single Imperial Soldier is my friend. And the one who has been on the verge of death closest to me, is my enemy.]",
+    "vi": "Abel: [Chỉ vì cùng nhau thoát khỏi lưỡi hái tử thần mà lập tức biến thành bằng hữu đệ huynh sao? Nếu quy luật cuộc đời đơn giản như thế, thì mỗi một binh sĩ Đế Quốc ngoài kia đều là bằng hữu của ta rồi. Và kẻ đã từng kề cận với cái chết gần nhất bên cạnh ta, thực chất lại chính là kẻ thù không đội trời chung của ta đấy.]"
+  },
+  {
+    "id": 191,
+    "en": "The perfect rebuttal making use of his own position made Flop hold his tongue upon receiving it.",
+    "vi": "Lời phản bác đanh thép hoàn hảo tận dụng chính vị thế lập trường trải nghiệm của gã khiến Flop lập tức cứng họng ngậm miệng không biết phản ứng thế nào."
+  },
+  {
+    "id": 192,
+    "en": "However, it was a double-edged sword that did not leave Abel unscathed either.",
+    "vi": "Thế nhưng, đó cũng chính là một lưỡi dao hai lưỡi sắc lẹm khiến bản thân Abel cũng phải khẽ nhói lòng tự ái tổn thương."
+  },
+  {
+    "id": 193,
+    "en": "Subaru: [Anyway, Flop-san brought us some good news. I’d like to talk about some more good news as well…]",
+    "vi": "Subaru: [Dẫu sao thì, Flop-san cũng đã mang đến cho chúng ta tin mừng lớn rồi. Tôi cũng muốn bàn luận thêm về một vài thông tin tốt lành khác nữa…]"
+  },
+  {
+    "id": 194,
+    "en": "Abel: [――Wait.]",
+    "vi": "Abel: [――Khoan đã.]"
+  },
+  {
+    "id": 195,
+    "en": "Subaru: […What is it?]",
+    "vi": "Subaru: […Có chuyện gì thế?]"
+  },
+  {
+    "id": 196,
+    "en": "It was an optimistic subject in a not-so-positive meeting. Interrupting Subaru's attempt to spur him on, Abel cocked his chin at Flop.",
+    "vi": "Đang định mở ra một chủ đề lạc quan vui vẻ trong bầu không khí vốn chẳng mấy tích cực của cuộc họp. Bị Abel cắt ngang nỗ lực thúc đẩy tiến trình đàm đạo, Subaru nhìn theo hướng gã hếch cằm chỉ về phía Flop."
+  },
+  {
+    "id": 197,
+    "en": "Subaru's gaze was guided by that movement, and he also looked over at Flop.",
+    "vi": "Ánh mắt của Subaru được dẫn lối theo cử chỉ đó, và cậu cũng chăm chú nhìn qua phía Flop."
+  },
+  {
+    "id": 198,
+    "en": "Subaru: [Flop-san?]",
+    "vi": "Subaru: [Flop-san?]"
+  },
+  {
+    "id": 199,
+    "en": "Indeed, the reason why Abel pointed at him was because he had noticed the change in Flop's facial expression.",
+    "vi": "Quả thực, lý do Abel chủ động chỉ tay ra hiệu chính là bởi gã đã tinh mắt nhận ra sự thay đổi sắc thái rõ rệt trên biểu cảm gương mặt của Flop."
+  },
+  {
+    "id": 200,
+    "en": "Flop had not lost his bright, cheerful expression, yet in his eyes, which had always carried a cheerfulness as dazzling as the sun, there was a faint hint of hesitation and melancholy.",
+    "vi": "Flop dẫu vẫn cố giữ vững nụ cười rạng rỡ sướng khoái thường ngày, thế nhưng sâu trong đôi mắt vốn luôn lấp lánh niềm vui sướng rực rỡ như ánh mặt trời kia, lại phảng phất một thoáng do dự ngập ngừng và u uẩn buồn bã."
+  },
+  {
+    "id": 201,
+    "en": "Abel: [If you are a merchant, you should be careful about how you talk about things. In that respect, I do not believe you are cut out to be a merchant.]",
+    "vi": "Abel: [Nếu ngươi tự nhận mình là thương nhân, ngươi nên cẩn trọng kiểm soát chặt chẽ cách diễn đạt biểu đạt thông tin của mình. Xét trên khía cạnh đó, ta không tin ngươi có tố chất để làm một thương nhân thực thụ đâu.]"
+  },
+  {
+    "id": 202,
+    "en": "Flop: [I've received quite a few of those opinions, so I have some thoughts on that matter, but I'll leave it at that for now… Husband-kun, there was something I forgot to mention earlier.]",
+    "vi": "Flop: [Tôi cũng đã phải nhận không ít những lời nhận xét góp ý kiểu đó rồi, nên tôi tự có những suy ngẫm của riêng mình về vấn đề này, nhưng tạm thời cứ gác chuyện đó lại sau đi… Cậu Chồng này, thực ra có một chuyện cực kỳ quan trọng tôi đã vô ý quên bẵng chưa nhắc tới lúc nãy.]"
+  },
+  {
+    "id": 203,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 204,
+    "en": "Giving a sidelong glance towards Abel and his remark, Flop fluttered his eyelashes in melancholy, then directing his eyes at Subaru.",
+    "vi": "Ném một ánh nhìn nghiêng đầy u uẩn về phía Abel cùng lời nhận xét đâm chọc của gã, Flop khẽ chớp đôi lông mi buồn bã, rồi hướng thẳng đôi mắt đăm đăm nhìn Subaru."
+  },
+  {
+    "id": 205,
+    "en": "His well-groomed face, and the wistfulness in it, made Subaru’s heart tighten. He could not help but think that he did not want to hear what Flop had to say, but he had no choice but to listen.",
+    "vi": "Gương mặt mỹ miều được chăm chút kỹ lưỡng của anh, cùng với sự tiếc nuối ưu tư lộ rõ trong từng đường nét khiến con tim Subaru khẽ thắt lại đầy bất an. Cậu không thể ngăn bản thân nhen nhóm suy nghĩ rằng mình hoàn toàn không muốn lắng nghe những gì Flop sắp sửa thổ lộ, nhưng cậu biết mình không còn lựa chọn nào khác ngoài việc phải chú ý lắng nghe."
+  },
+  {
+    "id": 206,
+    "en": "In that sense, Flop had a natural talent for making others listen to what he had to say. Were it not for this situation, Subaru would have praised him for his talent as a merchant.",
+    "vi": "Xét trên khía cạnh đó, Flop thực sự sở hữu một tài năng thiên bẩm tự nhiên trong việc thu hút thuyết phục người khác chú ý lắng nghe lời mình nói. Nếu không phải trong tình cảnh ngặt nghèo u tối thế này, Subaru chắc chắn đã hết lời ca tụng khen ngợi tài năng thiên bẩm của một thương nhân xuất chúng ở anh rồi."
+  },
+  {
+    "id": 207,
+    "en": "Despite that, however――,",
+    "vi": "Thế nhưng bất chấp điều đó, dẫu vậy――,"
+  },
+  {
+    "id": 208,
+    "en": "Flop: [It's not unrelated to Village Chief-kun, either. I want Miss Kuna and Miss Holly to come with us as well.]",
+    "vi": "Flop: [Chuyện này cũng có mối liên hệ mật thiết không thể tách rời với Cậu Trưởng Thôn nữa đấy. Tôi rất muốn Kuna-tiểu thư và Holly-tiểu thư cùng đồng hành đi theo chúng ta lên tầng trên nữa.]"
+  },
+  {
+    "id": 209,
+    "en": "Now that he was unable to stop Flop from telling him, he hated it, as if it were a cursed talent.",
+    "vi": "Giờ đây khi không cách nào ngăn cản nổi Flop thốt ra sự thật phũ phàng, cậu bỗng đâm ra căm ghét thứ tài năng thiên bẩm đó, coi nó như một lời nguyền rủa tai hại."
+  },
+  {
+    "id": 210,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 211,
+    "en": "???: […Abel and Natsumi have come too, huh.]",
+    "vi": "Mizelda: […Abel và Natsumi cũng lên đây rồi sao.]"
+  },
+  {
+    "id": 212,
+    "en": "After being called by Flop, Subaru and the others left the conference hall and went to the upper floor of the City Hall.",
+    "vi": "Sau khi nhận được lời mời gọi từ Flop, Subaru cùng những người khác nhanh chóng rời khỏi sảnh hội nghị và cùng nhau đi lên tầng trên của Tòa Thị Chính."
+  },
+  {
+    "id": 213,
+    "en": "In the space that looked like a field hospital, where the wounded had been gathered, the one who greeted Subaru and the others was Mizelda, who had cut off her scorched black hair.",
+    "vi": "Trong không gian trông giống hệt như một bệnh viện dã chiến tạm bợ, nơi tập trung đông đảo những người bị nạn nằm la liệt, người chủ động lên tiếng chào đón Subaru cùng mọi người chính là Mizelda, người vừa mới tự tay cắt phắt mái tóc đen bị lửa thiêu rụi xém của mình."
+  },
+  {
+    "id": 214,
+    "en": "The party that had stormed Guaral had been caught unprepared by Arakiya's surprise attack, yet Mizelda had been the one to receive the most grievous injuries, having been overwhelmed by the flames in the first instance, and then by the blows exchanged with Arakiya at the end.",
+    "vi": "Lực lượng phiến quân đột kích vào Guaral vốn đã hoàn toàn bị bất ngờ trước cuộc tấn công bất ngờ cuồng bạo của Arakiya, dẫu thế Mizelda mới chính là người phải gánh chịu những vết thương nghiêm trọng nguy kịch nhất, sau khi bị ngọn lửa dữ dội nuốt chửng ngay từ khoảnh khắc đầu tiên, và nối tiếp là những đòn va chạm trực diện kinh hoàng với Arakiya ở đoạn kết trận chiến."
+  },
+  {
+    "id": 215,
+    "en": "After having had her whole body scorched and then swallowed by the tornado, Arakiya's blow clawed deep into her insides afterwards.",
+    "vi": "Sau khi toàn bộ cơ thể bị lửa thiêu rụi rồi lại bị cuốn phăng vào cơn lốc xoáy cuồng bạo, cú đánh tàn bạo của Arakiya sau đó đã cào xé khoét sâu trực tiếp vào tận phủ tạng bên trong cô."
+  },
+  {
+    "id": 216,
+    "en": "No matter how tough her body was, it was unmistakably a situation that tested Mizelda’s vitality, as if to see how far she could go with Rem’s healing arts, which could not be said to be at their best.",
+    "vi": "Dẫu cho cơ thể chiến binh Shudraq của cô có dẻo dai rắn chắc đến nhường nào đi nữa, đây rõ rệt là một tình trạng hiểm nghèo thách thức trực tiếp giới hạn sinh mệnh của Mizelda, để xem cô có thể gắng gượng chống chọi được đến mức nào dưới sự phò trợ cứu chữa bằng trị liệu ma pháp của Rem, thứ vốn cũng không thể coi là đang ở trạng thái sung mãn tối ưu nhất."
+  },
+  {
+    "id": 217,
+    "en": "Mizelda: [I'm sorry to call you here. I just thought I needed to tell you as soon as possible.]",
+    "vi": "Mizelda: [Ta xin lỗi vì đã cất công gọi các ngươi lên tận đây. Ta chỉ nghĩ mình cần phải thông báo sự việc này càng sớm càng tốt.]"
+  },
+  {
+    "id": 218,
+    "en": "Subaru: [Mizelda-san…]",
+    "vi": "Subaru: [Mizelda-san…]"
+  },
+  {
+    "id": 219,
+    "en": "Mizelda smiled thinly as she said this, having taken a seat on an object near the wall.",
+    "vi": "Mizelda nở một nụ cười nhợt nhạt yếu ớt khi nói lời đó, cô đang ngồi tựa lưng vào một vật thể kê sát vách tường."
+  },
+  {
+    "id": 220,
+    "en": "As one of the most powerful amazonesses, Mizelda's smile was devoid of the wild demeanor that she had displayed towards Subaru and the others on numerous occasions.",
+    "vi": "Là một trong những nữ chiến binh amazoness dũng mãnh và kiêu hãnh nhất bộ tộc, nụ cười nhợt nhạt lúc này của Mizelda hoàn toàn thiếu vắng phong thái hoang dã mãnh liệt mà cô từng thể hiện trước mặt Subaru cùng những người khác trong vô số dịp trước đây."
+  },
+  {
+    "id": 221,
+    "en": "However, the willpower in her eyes was yet to be lost. It was unbalanced.",
+    "vi": "Tuy nhiên, ý chí chiến đấu sắt đá quật khởi trong ánh mắt cô vẫn chưa hề bị dập tắt. Nó tạo nên một sự tương phản bất cân bằng đầy xót xa."
+  },
+  {
+    "id": 222,
+    "en": "Mizelda: [First of all, thank you. Thanks to Rem, I’m alive. It's a miracle.]",
+    "vi": "Mizelda: [Trước tiên, ta muốn gửi lời cảm ơn chân thành nhất. Nhờ có Rem tận tình cứu chữa, ta mới có thể giữ được mạng sống này. Đó thực sự là một phép màu.]"
+  },
+  {
+    "id": 223,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 224,
+    "en": "Mizelda: [You took the city as well. As Shudraq’s Chieftain, I’m impressed with your work. In addition, I must make a declaration for the future of this war.]",
+    "vi": "Mizelda: [Các ngươi cũng đã xuất sắc thu phục hạ gục được thành phố rồi. Với tư cách là Tộc trưởng kiêu hãnh của Shudraq, ta vô cùng nể phục nể nương thành quả lao động của em đấy. Ngoài ra, ta bắt buộc phải đưa ra một lời tuyên bố quan trọng định đoạt tương lai của cuộc chiến vương quyền này.]"
+  },
+  {
+    "id": 225,
+    "en": "Praising Rem's dedication and Subaru's contribution, Mizelda straightened her posture.",
+    "vi": "Tán dương sự tận hiến hy sinh của Rem cùng những đóng góp to lớn của Subaru, Mizelda gượng dậy cố gắng nắn thẳng tư thế ngồi của mình."
+  },
+  {
+    "id": 226,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 227,
+    "en": "Mizelda: [The position of Chieftain of the Shudraq will be given to my sister, Taritta. I can’t fulfill my duties anymore.]",
+    "vi": "Mizelda: [Vị thế ngôi vị Tộc trưởng tối cao của tộc Shudraq sẽ chính thức được nhường lại truyền lại cho em gái ta, Taritta. Ta hiện tại đã không còn đủ thực lực khả năng để hoàn thành tốt trọng trách của mình nữa rồi.]"
+  },
+  {
+    "id": 228,
+    "en": "She patted her right leg, which was missing from the knee down, and announced that her sister would take over the role.",
+    "vi": "Cô vỗ nhẹ vào phần chân phải của mình, phần chân vốn đã bị đứt lìa mất hẳn từ đầu gối trở xuống, và dõng dạc tuyên bố em gái mình sẽ chính thức gánh vác vai trò thủ lĩnh."
+  },
+  {
+    "id": 229,
+    "en": "Translation notes:",
+    "vi": "Chú thích dịch thuật:"
+  },
+  {
+    "id": 230,
+    "en": "[1] The Romance of the Three Kingdoms and Water Margin are considered to be two of Four Great Classic Novels of China.",
+    "vi": "[1] Tam Quốc Diễn Nghĩa và Thủy Hử được coi là hai trong Tứ Đại Danh Tác tiểu thuyết cổ điển kiệt tác của Trung Quốc."
+  }
+];
+
+const outPath = path.join(tempDir, 'ch29_part2.json');
+fs.writeFileSync(outPath, JSON.stringify(part2, null, 2), 'utf-8');
+console.log(`Saved ${part2.length} paragraphs to ${outPath}`);

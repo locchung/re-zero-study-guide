@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ChapterMeta } from '@/lib/types'
+import { ChapterProgress } from './ChapterProgress'
 
 export function ChapterCard({ chapter }: { chapter: ChapterMeta }) {
   return (
@@ -18,6 +19,8 @@ export function ChapterCard({ chapter }: { chapter: ChapterMeta }) {
           {chapter.description}
         </p>
       )}
+      {/* Client-rendered progress bar + label (no SSR — avoids hydration mismatch) */}
+      <ChapterProgress slug={chapter.slug} />
     </Link>
   )
 }

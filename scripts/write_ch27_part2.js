@@ -1,0 +1,839 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part2 = [
+  {
+    "id": 171,
+    "en": "Todd might have done the same as well――,",
+    "vi": "Todd đáng lẽ cũng có thể làm điều tương tự――,"
+  },
+  {
+    "id": 172,
+    "en": "Jamal: [――There she is, the General First-Class.]",
+    "vi": "Jamal: [――Cô ta kìa, vị Thần Tướng.]"
+  },
+  {
+    "id": 173,
+    "en": "In the underground space downstairs, several cells were placed on both sides of the hall. The lesser criminals were placed in order from the front, while the most dangerous ones were securely at the far end.",
+    "vi": "Trong không gian ngầm dưới lòng đất, một vài phòng giam được bố trí ở cả hai bên sảnh. Những tội nhân nhẹ hơn được xếp theo thứ tự từ ngoài vào, trong khi những kẻ nguy hiểm nhất được nhốt kỹ lưỡng ở tận cùng."
+  },
+  {
+    "id": 174,
+    "en": "Naturally, the cell at the far end, where Arakiya was kept, was heavily guarded.",
+    "vi": "Lẽ dĩ nhiên, phòng giam ở tận cùng, nơi giam giữ Arakiya, được canh phòng cực kỳ cẩn mật."
+  },
+  {
+    "id": 175,
+    "en": "Unlike before, the person standing in front of it was not a guard, but a Shudraqian woman. She was a large woman with yellow-dyed hair, and he could tell with just a glance that she was very skilled.",
+    "vi": "Không giống như lúc trước, người đứng gác trước phòng giam không phải là lính gác thường, mà là một nữ chiến binh tộc Shudraq. Đó là một người phụ nữ to lớn với mái tóc nhuộm vàng, và chỉ cần liếc mắt một cái hắn đã nhận ra cô ta sở hữu thân thủ vô cùng lợi hại."
+  },
+  {
+    "id": 176,
+    "en": "In addition, due to the layout, it was impossible to reach Arakiya's cell without being detected by the woman.",
+    "vi": "Hơn nữa, dựa vào cấu trúc sơ đồ, không thể nào tiếp cận được phòng giam của Arakiya mà không bị người phụ nữ đó phát hiện."
+  },
+  {
+    "id": 177,
+    "en": "Nói cách khác――,",
+    "vi": "Nói cách khác――,"
+  },
+  {
+    "id": 178,
+    "en": "Jamal: [I guess that's the end of our little sneaking around.]",
+    "vi": "Jamal: [Xem ra trò lẻn lút của chúng ta chấm dứt ở đây rồi nhỉ.]"
+  },
+  {
+    "id": 179,
+    "en": "Todd: […You, why do you look so happy?]",
+    "vi": "Todd: […Sao trông cậu có vẻ hớn hở thế hả?]"
+  },
+  {
+    "id": 180,
+    "en": "It was hard to understand Jamal's happy attitude when an inevitable battle was imminent.",
+    "vi": "Thật khó để thấu hiểu thái độ vui vẻ của Jamal khi một trận chiến sinh tử sắp sửa nổ ra trước mắt."
+  },
+  {
+    "id": 181,
+    "en": "Todd’s desire was to avoid killing, and he did not want to fight if he could help it. If both were inevitable, he would choose the easier and less dangerous way.",
+    "vi": "Mong muốn của Todd là hạn chế sát hại người khác tối đa, và hắn không bao giờ muốn động thủ nếu có thể tránh được. Nếu cả hai việc đều là bắt buộc, hắn sẽ chọn phương án dễ dàng và ít nguy hiểm nhất."
+  },
+  {
+    "id": 182,
+    "en": "Yet Jamal looked as if he enjoyed jumping into danger.",
+    "vi": "Vậy mà Jamal trông như thể đang vô cùng phấn khích được lao đầu vào chốn hiểm nguy."
+  },
+  {
+    "id": 183,
+    "en": "He was probably thinking that the more dangerous it was, the more blood he would shed, and the more loyalty he would show to the Empire.",
+    "vi": "Gã có lẽ đang nghĩ rằng thử thách càng nguy hại, gã càng đổ nhiều máu, và càng thể hiện được lòng trung thành tuyệt đối đối với Đế Quốc."
+  },
+  {
+    "id": 184,
+    "en": "Jamal: [It's obvious, ain’t it? Fight like an Imperial Soldier and win the war! Only then can I be proud to say that I’m an Imperial Soldier.]",
+    "vi": "Jamal: [Rõ rành rành ra rồi còn gì? Chiến đấu như một người lính Đế Quốc và giành chiến thắng! Chỉ khi đó tao mới có thể tự hào vỗ ngực tuyên bố mình là một binh sĩ Đế Quốc.]"
+  },
+  {
+    "id": 185,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 186,
+    "en": "Jamal: [Oi, what are you surprised about?]",
+    "vi": "Jamal: [Này, mày đang ngạc nhiên cái gì thế hả?]"
+  },
+  {
+    "id": 187,
+    "en": "Todd: [No, it was almost exactly what I thought it’d be.]",
+    "vi": "Todd: [Không có gì, nó gần như trùng khớp hoàn toàn với những gì tôi đoán về cậu.]"
+  },
+  {
+    "id": 188,
+    "en": "It was rare to find a person whose words and deeds were so consistent.",
+    "vi": "Thật hiếm thấy một kẻ nào mà lời nói và hành động lại đồng nhất đến mức này."
+  },
+  {
+    "id": 189,
+    "en": "Jamal looked uncomfortable at Todd's answer, but quickly shook his head. Then he traced his fingers through his stubble and snorted.",
+    "vi": "Jamal có vẻ không thoải mái trước câu trả lời của Todd, nhưng gã nhanh chóng lắc đầu. Rồi gã lấy ngón tay vuốt chòm râu lởm chởm và khịt mũi một cái."
+  },
+  {
+    "id": 190,
+    "en": "Jamal: [Ah. Well then, you're the one who's having second thoughts, ain’t you?]",
+    "vi": "Jamal: [Hừm. Vậy ra chính mày mới là kẻ đang đổi ý đúng không?]"
+  },
+  {
+    "id": 191,
+    "en": "Todd: [I can’t go along with a suicide mission. If it’s not that, I'll think about it. So I'm not having second thoughts.]",
+    "vi": "Todd: [Tôi không đời nào tham gia vào một nhiệm vụ tự sát vô nghĩa đâu. Còn nếu không phải tự sát, tôi sẽ cân nhắc. Thế nên tôi không hề đổi ý.]"
+  },
+  {
+    "id": 192,
+    "en": "Jamal: [You were trying to escape, but you didn't.]",
+    "vi": "Jamal: [Rõ ràng mày đã cố bỏ trốn, thế mà rốt cuộc lại không đi.]"
+  },
+  {
+    "id": 193,
+    "en": "Todd: [I decided to bring back a souvenir while on the run. The plan hasn't changed.]",
+    "vi": "Todd: [Tôi quyết định mang theo một món quà lưu niệm đắt giá trong lúc đào tẩu thôi. Kế hoạch ban đầu vẫn giữ nguyên.]"
+  },
+  {
+    "id": 194,
+    "en": "Jamal: [You say this, and you say that… Hk.]",
+    "vi": "Jamal: [Hết lý do này đến lý do nọ… Hự.]"
+  },
+  {
+    "id": 195,
+    "en": "Jamal gritted his teeth angrily, his eye bloodshot.",
+    "vi": "Jamal nghiến răng đầy giận dữ, con mắt duy nhất đỏ ngầu lên."
+  },
+  {
+    "id": 196,
+    "en": "With that look on his face, Todd detached his attention from him and focused on the target at hand.",
+    "vi": "Nhìn vẻ mặt đó của gã, Todd gạt phắt sự chú ý khỏi gã và tập trung toàn lực vào mục tiêu trước mắt."
+  },
+  {
+    "id": 197,
+    "en": "The woman standing guard was thick, and her limbs were protected by a reasonable amount of flesh. Given a Shudraqian's athletic ability, even Todd's axe might not be able to dice even one of her limbs.",
+    "vi": "Người phụ nữ đứng gác có cơ thể rất vạm vỡ, tứ chi được bao phủ bởi những khối cơ bắp rắn chắc chịu lực tốt. Với khả năng vận động phi thường của người tộc Shudraq, ngay cả rìu của Todd cũng chưa chắc đã chặt đứt nổi một chi của cô ta."
+  },
+  {
+    "id": 198,
+    "en": "Inevitably, then, the sweet spot would be from the neck up.",
+    "vi": "Vì vậy, điểm yếu duy nhất chắc chắn phải là từ phần cổ trở lên."
+  },
+  {
+    "id": 199,
+    "en": "There were options of smashing her head, decapitating her, or splitting her face, but――,",
+    "vi": "Có những lựa chọn như đập nát đầu, chém bay cổ, hoặc chém đôi mặt cô ta, dẫu thế――,"
+  },
+  {
+    "id": 200,
+    "en": "Jamal: [――This is where I come in, ain’t it?]",
+    "vi": "Jamal: [――Đến lượt tao ra tay rồi đúng không?]"
+  },
+  {
+    "id": 201,
+    "en": "With that, Jamal foolishly stepped forward.",
+    "vi": "Dứt lời, Jamal thản nhiên bước thẳng về phía trước đầy khờ dại."
+  },
+  {
+    "id": 202,
+    "en": "Todd wondered for a moment if he should call him off, but in the end he said nothing. In fact, the best move would be to push Jamal into action, get her attention, and then proceed from there.",
+    "vi": "Todd thoáng phân vân xem có nên gọi gã quay lại hay không, nhưng cuối cùng hắn chọn cách im lặng. Thực tế, nước đi tối ưu nhất là đẩy Jamal lên trước làm mồi nhử thu hút sự chú ý của cô ta, rồi hắn sẽ hành động từ phía sau."
+  },
+  {
+    "id": 203,
+    "en": "It would save a lot of time and trouble, and if he was willing to do it, there was no need to discourage him.",
+    "vi": "Nó sẽ tiết kiệm được khối thời gian và công sức, và nếu gã đã tình nguyện xung phong, hắn chẳng cần thiết phải ngăn cản làm gì."
+  },
+  {
+    "id": 204,
+    "en": "Holly: [Mmmm, who are you~!?]",
+    "vi": "Holly: [Mmm, các người là ai thế hả~!?]"
+  },
+  {
+    "id": 205,
+    "en": "Jamal: [Do I gotta answer that? You people have defiled the Sword Wolf of the Vollachian Empire. Don't you dare think you've won in a battlefield I wasn’t in!]",
+    "vi": "Jamal: [Tao mà thèm trả lời sao? Lũ tụi mày dám bôi nhọ thanh danh Sói Kiếm của Đế Quốc Vollachia. Đừng hòng nghĩ mình đã thắng lợi trên một chiến trường không có mặt tao!]"
+  },
+  {
+    "id": 206,
+    "en": "Holly: [A strange guy’s here~!]",
+    "vi": "Holly: [Có kẻ lập dị xuất hiện kìa~!]"
+  },
+  {
+    "id": 207,
+    "en": "Looking at Jamal, who had advanced into the hall, the Shudraqian woman held a large spear at her side. On the other hand, Jamal, who was facing her, drew his twin swords and danced with a maniacal smile on his face.",
+    "vi": "Nhìn Jamal đang tiến vào sảnh đường, người phụ nữ tộc Shudraq thủ sẵn một ngọn giáo lớn bên hông. Mặt khác, Jamal đối diện cô ta tuốt cặp song kiếm ra và múa kiếm với một nụ cười cuồng loạn trên mặt."
+  },
+  {
+    "id": 208,
+    "en": "Jamal’d had his fair share of problems, but his abilities were renowned. At the very least, as long as his opponent was a single member of the Shudraq, he would not fall short.",
+    "vi": "Jamal dẫu có nhiều điểm phiền phức, nhưng năng lực thực sự của gã là điều không thể bàn cãi. Ít nhất, chừng nào đối thủ chỉ là một chiến binh tộc Shudraq đơn lẻ, gã sẽ không đời nào thất thế."
+  },
+  {
+    "id": 209,
+    "en": "Jamal: [Take this! And this! And this!]",
+    "vi": "Jamal: [Đỡ lấy này! Cả chiêu này nữa! Lại thêm chiêu nữa này!]"
+  },
+  {
+    "id": 210,
+    "en": "Holly: [...Hk! You're a strong guy~!]",
+    "vi": "Holly: [...Hự! Ngươi cũng mạnh đấy chứ~!]"
+  },
+  {
+    "id": 211,
+    "en": "The raging twin swords slashed toward the Shudraqian woman countless times while Jamal barked in a loud voice. The woman sidestepped them with her spear-handling, but she was on the defensive.",
+    "vi": "Cặp song kiếm điên cuồng chém xối xả về phía người phụ nữ Shudraq vô số lần trong khi Jamal không ngừng hét lớn. Người phụ nữ xoay xở né tránh bằng chiêu thức dùng giáo linh hoạt, nhưng cô ta đã hoàn toàn bị rơi vào thế thủ."
+  },
+  {
+    "id": 212,
+    "en": "She must be someone with a certain level of skill, to keep an eye on Arakiya. However, it seemed she had not expected anyone to show up to retake their prisoner as soon as she was placed in confinement.",
+    "vi": "Cô ta chắc chắn phải sở hữu thân thủ ở một mức độ đáng nể mới được giao nhiệm vụ canh giữ Arakiya. Tuy nhiên, dường như cô ta không ngờ rằng lại có kẻ dám xông vào cướp ngục ngay khi tù binh vừa mới bị giam cầm."
+  },
+  {
+    "id": 213,
+    "en": "Additionally, the lack of reliable troops was also a critical flaw for the rebels.",
+    "vi": "Hơn nữa, việc thiếu hụt lực lượng phòng thủ đáng tin cậy cũng là một sơ hở chí mạng của phiến quân phiến loạn."
+  },
+  {
+    "id": 214,
+    "en": "Todd: [Nevertheless, they’re not useful assets at the moment.]",
+    "vi": "Todd: [Tuy nhiên dẫu vậy, bọn chúng lúc này chẳng thể trông cậy được gì.]"
+  },
+  {
+    "id": 215,
+    "en": "Moistening his lips with his tongue, Todd leapt out from behind Jamal and jumped straight toward the cell, passing by the two of them as they fiercely clashed weapons, sparks flying.",
+    "vi": "Liếm nhẹ môi, Todd lao vọt ra từ phía sau Jamal và nhảy thẳng về phía buồng giam, băng qua hai người họ lúc vũ khí đang va chạm chan chát tung tóe tia lửa."
+  },
+  {
+    "id": 216,
+    "en": "Holly: [Ah! His comrade... Kya!]",
+    "vi": "Holly: [Á! Đồng bọn của hắn... Á!]"
+  },
+  {
+    "id": 217,
+    "en": "Jamal: [Do you have time to look around? Ah!]",
+    "vi": "Jamal: [Còn rảnh rỗi nhìn xung quanh sao? A ha!]"
+  },
+  {
+    "id": 218,
+    "en": "With the assistance of an unusually witty Jamal, Todd slammed his axe into the lock of the cell with all his might.",
+    "vi": "Với sự phối hợp ăn ý ngoài mong đợi từ Jamal, Todd vung chiếc rìu bổ mạnh vào ổ khóa buồng giam với tất cả sức bình sinh."
+  },
+  {
+    "id": 219,
+    "en": "There was no time to look for the key. He could not destroy the cell, but he could at least break the lock.",
+    "vi": "Không có thời gian tìm chìa khóa nữa. Hắn không thể phá hủy cả phòng giam, nhưng ít nhất có thể phá vỡ ổ khóa này."
+  },
+  {
+    "id": 220,
+    "en": "There was a dull sound and a stiff response, as the tip of the axe cracked loudly. But instead, the lock of the cell broke with a flourish, and Todd jumped in past the creaking door.",
+    "vi": "Một âm thanh trầm đục vang lên cùng một phản lực mạnh mẽ dội lại, khiến lưỡi rìu mẻ một vệt lớn. Nhưng đổi lại, ổ khóa buồng giam đã bị bẻ gãy gục, và Todd lập tức lách người nhảy qua cánh cửa gỗ đang có tiếng cọt kẹt."
+  },
+  {
+    "id": 221,
+    "en": "Todd: [General First-Class Arakiya!]",
+    "vi": "Todd: [Tướng nhất đẳng Arakiya!]"
+  },
+  {
+    "id": 222,
+    "en": "Inside the cell, a girl lay face down upon a simple bed.",
+    "vi": "Bên trong phòng giam, một cô gái đang nằm úp mặt trên chiếc giường đơn giản."
+  },
+  {
+    "id": 223,
+    "en": "Even if they belonged to the same Imperial Army, a mere Soldier would not have many opportunities to meet a General. Even a General Third-Class was a commander of an army. A General Second-Class, let alone a General First-Class, would be something from above the clouds.",
+    "vi": "Ngay cả khi thuộc cùng một quân đội Đế Quốc, một binh sĩ quèn làm gì có nhiều cơ hội được tiếp kiến một vị Thần Tướng tối cao. Ngay cả Tướng tam đẳng đã là thủ lĩnh một phương quân đội rồi. Tướng nhị đẳng, chứ đừng nói là Tướng nhất đẳng, đối với họ quả thực là sự tồn tại tít trên chín tầng mây."
+  },
+  {
+    "id": 224,
+    "en": "Therefore, this was the first time that Todd had seen one of the Generals First-Class, one of the Nine Divine Generals, up close.",
+    "vi": "Do đó, đây là lần đầu tiên Todd được chứng kiến tận mắt một vị tướng đẳng cấp đệ nhất trong Cửu Thần Tướng ở cự ly gần thế này."
+  },
+  {
+    "id": 225,
+    "en": "Arakiya: [――――]",
+    "vi": "Arakiya: [――――]"
+  },
+  {
+    "id": 226,
+    "en": "The reason why the unconscious Arakiya was lying on her face, was because of the slash she had sustained on her back, covered with a painful scar which had been scorched shut on top of that.",
+    "vi": "Lý do Arakiya đang bất tỉnh nhân sự lại nằm úp mặt xuống giường là vì vết chém chí mạng mà cô ta phải gánh chịu sau lưng, được bao phủ bởi một vết sẹo đau đớn đã bị lửa thiêu rụi dính liền lại."
+  },
+  {
+    "id": 227,
+    "en": "The wound had been cauterized at the same time it had been received, becoming a horrible scar. ――If she had not been injured by a scorching blade, she would not have gotten this kind of wound.",
+    "vi": "Vết thương đã bị đốt cháy xém ngay lúc nhận đao, trở thành một vết sẹo vô cùng gớm ghiếc. ――Nếu không bị chém bởi một thanh bảo kiếm thiêu đốt rực lửa, cô ta đã không bao giờ bị vết thương kiểu này."
+  },
+  {
+    "id": 228,
+    "en": "Todd: [That red woman, what’d she…?]",
+    "vi": "Todd: [Người phụ nữ váy đỏ đó rốt cuộc đã làm cái gì thế này…?]"
+  },
+  {
+    "id": 229,
+    "en": "That woman was no ordinary person, and the power of that ornate sword she held was also extraordinary.",
+    "vi": "Người phụ nữ đó tuyệt đối không phải kẻ tầm thường, và sức mạnh của thanh kiếm trang trí lộng lẫy cô ta cầm cũng vô cùng phi lý."
+  },
+  {
+    "id": 230,
+    "en": "There were no further details, and Arakiya did not answer when called. So Todd had no choice but to pick up Arakiya's body, then running straight out of the cell.",
+    "vi": "Không có thêm chi tiết nào, và Arakiya cũng không thể đáp lại khi hắn gọi tên. Do vậy Todd không còn cách nào khác ngoài việc bế xốc cơ thể Arakiya lên, rồi lao thẳng ra ngoài phòng giam."
+  },
+  {
+    "id": 231,
+    "en": "Todd: [I got her! Jamal, let's go!]",
+    "vi": "Todd: [Tôi cứu được cô ta rồi! Jamal, rút lui thôi!]"
+  },
+  {
+    "id": 232,
+    "en": "Holly: [I'm not going to let you… Ouch!]",
+    "vi": "Holly: [Ta không đời nào để các ngươi chạy thoát… Ôi da!]"
+  },
+  {
+    "id": 233,
+    "en": "Jamal: [That's why! Looking away again! Don't you dare! Neeeee―― Hk!]",
+    "vi": "Jamal: [Thế đấy! Lại dám nhìn đi chỗ khác nữa hả! Đừng hòng nhé! Chết điiii―― Hự!]"
+  },
+  {
+    "id": 234,
+    "en": "The Shudraqian woman’s mind was momentarily distracted as Arakiya was taken away.",
+    "vi": "Nữ chiến binh tộc Shudraq trong khoảnh khắc bị phân tâm khi thấy Arakiya bị mang đi."
+  },
+  {
+    "id": 235,
+    "en": "In a moment, Jamal jumped at the woman like a flash with his twin swords. She immediately held her large spear vertically to prevent it, but the impact ripped the spear from the woman's grasp, and Jamal's backward kick pierced her unguarded torso as he sprung up.",
+    "vi": "Chớp lấy thời cơ, Jamal như một tia chớp lao tới chỗ cô ta với cặp song kiếm. Người phụ nữ lập tức dựng thẳng ngọn giáo lớn để ngăn cản, nhưng chấn động dữ dội đã đánh bay ngọn giáo khỏi tay cô ta, và cú đá vòng sau của Jamal đạp thẳng vào cơ thể không được bảo vệ của cô ta khi gã bật lên."
+  },
+  {
+    "id": 236,
+    "en": "The woman let out a small scream as her body slammed into the wall of the prison; her head hit the ground with force, and she fell motionlessly limp.",
+    "vi": "Người phụ nữ hét lên một tiếng đau đớn khi cơ thể va đập mạnh vào vách đá nhà giam; đầu đập mạnh xuống đất, rồi cô ta nằm bất động sải tay chân."
+  },
+  {
+    "id": 237,
+    "en": "Looking over at her, Todd was about to order Jamal to finish her, but――,",
+    "vi": "Nhìn lướt qua cô ta, Todd vốn định bảo Jamal kết liễu luôn tại chỗ, dẫu thế――,"
+  },
+  {
+    "id": 238,
+    "en": "Todd: [――Hey, there's a commotion upstairs. Did they find the body of the guard?]",
+    "vi": "Todd: [――Này, phía trên đang có tiếng ồn ào hỗn loạn kìa. Bọn chúng phát hiện ra xác tên lính canh rồi sao?]"
+  },
+  {
+    "id": 239,
+    "en": "Jamal: [Tch, we can't stay around. The General First-Class is...]",
+    "vi": "Jamal: [Tặc lưỡi, không thể nán lại đây lâu được. Vị Thần Tướng nhất đẳng...]"
+  },
+  {
+    "id": 240,
+    "en": "Todd: [She's unconscious, but not dead. That should be enough.]",
+    "vi": "Todd: [Cô ta chỉ đang bất tỉnh chứ chưa chết. Như vậy là quá đủ rồi.]"
+  },
+  {
+    "id": 241,
+    "en": "Answering Jamal's question in a straightforward manner, Todd ran out of the dungeon. Jamal, who was ahead of him, was in charge of clearing the way for Todd, who easily overtook him.",
+    "vi": "Trả lời câu hỏi của Jamal một cách dứt khoát, Todd nhanh chân lao ra khỏi hầm ngục. Jamal chạy lên trước chịu trách nhiệm dọn sạch chướng ngại vật cản đường cho Todd, người đang bế Arakiya dễ dàng vượt qua."
+  },
+  {
+    "id": 242,
+    "en": "???: [Who in the world… Guah!]",
+    "vi": "Binh lính phiến quân: [Kẻ quái nào thế… Hự!]"
+  },
+  {
+    "id": 243,
+    "en": "Jamal: [Outta the way, you dimwitted bastards!]",
+    "vi": "Jamal: [Tránh đường ra, lũ khốn ngu ngốc này!]"
+  },
+  {
+    "id": 244,
+    "en": "The guard who looked into the basement was blown away by a slash, and Todd ran through the City Hall behind Jamal as they became increasingly alert.",
+    "vi": "Tên canh cửa liếc mắt nhìn xuống tầng hầm lập tức bị một nhát chém bay ra ngoài, và Todd chạy vụt qua Tòa Thị Chính ngay sát sau Jamal khi mức độ cảnh giác của bọn họ ngày càng dâng cao."
+  },
+  {
+    "id": 245,
+    "en": "Unfortunately, he did not have the leisure of caring for Arakiya's body as he carried her. If she was one of the Nine Divine Generals, her body would probably be strong enough. He just had to trust his endurance and run.",
+    "vi": "Thật không may, hắn không có đủ thời gian để nâng niu chăm sóc cơ thể của Arakiya khi vác cô ta trên vai. Nếu cô ta là một trong Cửu Thần Tướng, cơ thể cô ta chắc chắn đủ dẻo dai. Hắn chỉ việc đặt trọn niềm tin vào sức bền bỉ của mình và chạy hết tốc lực."
+  },
+  {
+    "id": 246,
+    "en": "Jamal: [We're outside! Where are we going?]",
+    "vi": "Jamal: [Ra ngoài rồi! Chúng ta đi hướng nào đây?]"
+  },
+  {
+    "id": 247,
+    "en": "Todd: [Main gate’s closed. ――Follow me.]",
+    "vi": "Todd: [Cổng chính đã bị đóng chặt. ――Chạy theo tôi.]"
+  },
+  {
+    "id": 248,
+    "en": "Stitching their way through the dark and tumultuous night of the city, Todd jumped into the back alleys with Jamal. He made full use of the narrow streets and side roads to mislead the enemies tracking their whereabouts.",
+    "vi": "Luồn lách qua màn đêm tối tăm hỗn loạn của thành phố, Todd cùng Jamal nhảy vào những con hẻm nhỏ phía sau. Hắn tận dụng triệt để những con phố chật hẹp và ngõ ngách để đánh lạc hướng kẻ thù đang ráo riết truy tìm hành tung của họ."
+  },
+  {
+    "id": 249,
+    "en": "The battle had just ended, the chaos was still raging, and there were at least three-hundred identically-dressed Imperial Soldiers in the city. It would be difficult to tell them apart.",
+    "vi": "Cuộc chiến vừa kết thúc, sự hỗn loạn vẫn tiếp tục bao trùm, và có ít nhất ba trăm binh lính Đế Quốc ăn mặc giống hệt nhau trong thành phố. Thật khó lòng phân biệt nổi ai với ai."
+  },
+  {
+    "id": 250,
+    "en": "All that was left was――,",
+    "vi": "Việc duy nhất còn lại là――,"
+  },
+  {
+    "id": 251,
+    "en": "Todd: [――Hk!]",
+    "vi": "Todd: [――Hự!]"
+  },
+  {
+    "id": 252,
+    "en": "The moment he heard the sound of wind, a blade swung right behind Todd.",
+    "vi": "Ngay khi nghe thấy tiếng gió rít bên tai, một đường kiếm sắc lẹm đã vung lên ngay sau lưng Todd."
+  },
+  {
+    "id": 253,
+    "en": "He turned around, and there stuck just right below his feet was a single, thick, large arrow. Someone had cut it down. It had been aimed at Todd, carrying insane momentum, and Jamal had been the one to swiftly deal with it.",
+    "vi": "Hắn quay lại và thấy một mũi tên lớn, dày cắm sạt ngay dưới chân mình. Ai đó đã chém rụng nó. Nó đã nhắm thẳng vào Todd với một lực bắn điên cuồng, và Jamal chính là người đã nhanh tay gạt phắt nó đi cứu mạng hắn."
+  },
+  {
+    "id": 254,
+    "en": "That had been a precise shot, aimed at the two who were running and hiding in the city.",
+    "vi": "Đó là một phát bắn chuẩn xác đến kinh ngạc, nhắm thẳng vào hai kẻ đang chạy trốn và lẩn trốn trong thành phố."
+  },
+  {
+    "id": 255,
+    "en": "It was, beyond the shadow of doubt, the same archer who had shot Todd in the torso a few days prior.",
+    "vi": "Không một chút hoài nghi, đó chính là gã cung thủ đã bắn xuyên sườn Todd vài ngày trước."
+  },
+  {
+    "id": 256,
+    "en": "――They were being observed.",
+    "vi": "――Họ đang bị theo dõi sát sao."
+  },
+  {
+    "id": 257,
+    "en": "If that were the case, they could not move carelessly.",
+    "vi": "Nếu đúng là như vậy, bọn họ không thể di chuyển một cách bất cẩn được nữa."
+  },
+  {
+    "id": 258,
+    "en": "If they left the alley, that would make them an easy target, and Todd, with Arakiya in tow, would have difficulty moving with agility. Even if they tried to kill the archer, the enemy was located at the City Hall―― and there would be no option but to return there for the third time.",
+    "vi": "Nếu họ rời khỏi con hẻm nhỏ, họ sẽ lập tức trở thành tấm bia ngắm bắn sống, và Todd, người đang bế Arakiya, sẽ gặp muôn vàn khó khăn để di chuyển linh hoạt. Ngay cả khi họ cố gắng tiếp cận tiêu diệt gã cung thủ, kẻ thù đang đóng tại Tòa Thị Chính―― và họ không còn lựa chọn nào khác ngoài việc đâm đầu trở lại đó lần thứ ba."
+  },
+  {
+    "id": 259,
+    "en": "So, should they abandon Arakiya and flee? That would be the way most likely to save themselves, but if that was the case, they would not know what they were risking their lives for to begin with.",
+    "vi": "Vậy có nên vứt bỏ Arakiya để chạy thoát một mình không? Đó chắc chắn là phương án dễ bảo toàn mạng sống nhất, nhưng nếu làm thế, ngay từ đầu họ đã chẳng biết mình mạo hiểm tính mạng để làm cái quái gì nữa."
+  },
+  {
+    "id": 260,
+    "en": "In light of the current situation, he searched for an optimal way to take action, and the one that would yield the most results was――,",
+    "vi": "Trước tình cảnh hiện tại, hắn tìm kiếm một phương án tối ưu để hành động, và phương án mang lại kết quả lớn nhất chính là――,"
+  },
+  {
+    "id": 261,
+    "en": "Todd: [――Jamal, you know we’re being targeted.]",
+    "vi": "Todd: [――Jamal, cậu biết là chúng ta đang nằm trong tầm ngắm bắn của kẻ địch rồi đấy.]"
+  },
+  {
+    "id": 262,
+    "en": "Jamal: [Yeah, they're a pain in the ass. They're too far away for me to kill them, but if we don't, they'll just shoot at us one way or another. What should we do?]",
+    "vi": "Jamal: [Ừ, tụi phiền phức này. Chúng ở quá xa để tao có thể lao tới chém chết chúng, nhưng nếu không làm gì, kiểu gì chúng cũng bắn rụng chúng ta thôi. Tính sao đây?]"
+  },
+  {
+    "id": 263,
+    "en": "Todd: [...Then, there's only one way.]",
+    "vi": "Todd: [...Vậy thì chỉ còn một con đường duy nhất thôi.]"
+  },
+  {
+    "id": 264,
+    "en": "Jamal narrowed his single eye at Todd's words.",
+    "vi": "Jamal nheo con mắt độc nhất lại trước lời của Todd."
+  },
+  {
+    "id": 265,
+    "en": "To Jamal's gaze that sought a solution, Todd exhaled deeply and closed one eye,",
+    "vi": "Trước ánh nhìn của Jamal đang mưu cầu một giải pháp giải quyết bế tắc, Todd thở ra một hơi thật sâu và khẽ nhắm một bên mắt lại,"
+  },
+  {
+    "id": 266,
+    "en": "Todd: [As soon as we jump out, the enemy’s going to shoot at us. I'll have you get ahead of me and cut off their arrows just like before. Not just one shot, but two or three will follow. I'll run as fast as I can so I don't shake the General First-Class off.]",
+    "vi": "Todd: [Ngay khi chúng ta nhảy ra khỏi đây, kẻ địch sẽ lập tức nã tên vào chúng ta. Tôi cần cậu chạy lên trước và chém rụng mọi mũi tên của chúng giống như lúc nãy. Sẽ không chỉ có một phát bắn đâu, mà là hai hoặc ba phát liên tiếp trút xuống. Tôi sẽ chạy nhanh nhất có thể để không làm rơi vị Thần Tướng.]"
+  },
+  {
+    "id": 267,
+    "en": "Jamal: [Huh, that doesn't sound like you. That's really your move? Smells of desperation, no?]",
+    "vi": "Jamal: [Hả, nghe chẳng giống phong cách cẩn trọng của mày chút nào cả. Đó thực sự là kế sách của mày sao? Mùi vị có vẻ tuyệt vọng quá đấy chứ?]"
+  },
+  {
+    "id": 268,
+    "en": "Todd: [Ultimately, that's what happens when you run out of cards. But I'm still lucky, aren't I?]",
+    "vi": "Todd: [Suy cho cùng, đó là điều xảy ra khi cậu đã cạn kiệt quân bài trong tay rồi. Nhưng tôi vẫn còn may mắn chán, đúng không?]"
+  },
+  {
+    "id": 269,
+    "en": "Jamal: [Huh? What do you mean?]",
+    "vi": "Jamal: [Hả? Ý mày là thế nào?]"
+  },
+  {
+    "id": 270,
+    "en": "Todd: [You got a pretty strong hand left, you know.]",
+    "vi": "Todd: [Bởi vì tôi vẫn sở hữu một quân bài hộ thân cực kỳ mạnh mẽ mà.]"
+  },
+  {
+    "id": 271,
+    "en": "The strategy he presented was almost entirely based on Jamal's swordsmanship.",
+    "vi": "Chiến lược mà hắn đưa ra gần như đặt cược hoàn toàn vào kiếm thuật đỉnh cao của Jamal."
+  },
+  {
+    "id": 272,
+    "en": "If Jamal were incapable of cutting off the flying arrows, they would both perish. It was insane, given Todd's beliefs, to risk his life in such a reckless manner.",
+    "vi": "Nếu Jamal không đủ sức chém rụng những mũi tên đang bay tới với tốc độ kinh hoàng kia, cả hai sẽ cùng bỏ mạng tại chỗ. Thật là điên rồ và đi ngược lại hoàn toàn với nguyên lý sống của Todd khi dám mạo hiểm sinh mạng một cách liều lĩnh như vậy."
+  },
+  {
+    "id": 273,
+    "en": "However, that was his suggestion. With Jamal's swordsmanship, the odds were not null.",
+    "vi": "Tuy nhiên, đó là đề xuất duy nhất của hắn. Với võ nghệ của Jamal, cơ hội sống sót không phải là bằng không."
+  },
+  {
+    "id": 274,
+    "en": "Jamal: […I knew Katya wasn't a good judge of character. I thought you were smarter than that.]",
+    "vi": "Jamal: […Tao đã biết ngay là con bé Katya nhìn lầm người mà. Tao cứ tưởng mày phải thông minh hơn thế nhiều chứ.]"
+  },
+  {
+    "id": 275,
+    "en": "Todd: [Don't talk bad about my fiancée, onii-sama.]",
+    "vi": "Todd: [Đừng có nói xấu vị hôn thê của tôi chứ, ông anh rể tương lai.]"
+  },
+  {
+    "id": 276,
+    "en": "Todd replied to Jamal scratching his head, his cheeks twisted. Hearing this, Jamal let out a short “Haa”, and then gripped the hilts of his twin swords once again.",
+    "vi": "Todd đáp lại Jamal đang gãi đầu gãi tai, cơ má của hắn khẽ giật giật. Nghe vậy, Jamal khẽ thở dài một tiếng \"Ha\", rồi tiếp tục siết chặt chuôi của cặp song kiếm."
+  },
+  {
+    "id": 277,
+    "en": "Then, turning his imposing back to Todd.",
+    "vi": "Nói đoạn, gã quay tấm lưng to lớn oai vệ của mình về phía Todd."
+  },
+  {
+    "id": 278,
+    "en": "Jamal: [Aight, I'm in. Sometimes a stupid bet ain’t so bad.]",
+    "vi": "Jamal: [Được rồi, tao chơi luôn. Thỉnh thoảng làm một canh bạc ngốc nghếch thế này cũng không tệ đâu.]"
+  },
+  {
+    "id": 279,
+    "en": "Todd: [If I wasn't here, you'd probably be making all those types of bets.]",
+    "vi": "Todd: [Nếu không có tôi ở bên cạnh quản lý, chắc cả đời cậu toàn chơi những canh bạc kiểu tự sát thế này thôi.]"
+  },
+  {
+    "id": 280,
+    "en": "Jamal: [Shut the hell up. ――Shut up and stay behind my back.]",
+    "vi": "Jamal: [Câm miệng giùm tao đi. ――Ngậm miệng lại và đi sát sau lưng tao đây.]"
+  },
+  {
+    "id": 281,
+    "en": "Jamal's spirits quietly rose as they exchanged hateful words.",
+    "vi": "Ý chí chiến đấu của Jamal lẳng lặng dâng cao khi hai người không ngừng buông những lời cãi vã gắt gỏng."
+  },
+  {
+    "id": 282,
+    "en": "Watching his back, Todd tightened his hold on Arakiya's body.",
+    "vi": "Nhìn chằm chằm vào tấm lưng của gã, Todd siết chặt hơn nữa vòng tay ôm giữ lấy cơ thể Arakiya."
+  },
+  {
+    "id": 283,
+    "en": "Todd: [Jamal, when you get out of the alley, run straight. After that, when you get to the end, take the right road. That should give you enough time to catch your breath.]",
+    "vi": "Todd: [Jamal, khi cậu lao ra khỏi con hẻm nhỏ, hãy chạy thẳng tắp. Sau đó khi chạy đến ngã rẽ cuối đường, hãy chọn lối rẽ bên phải. Chỗ đó sẽ đủ an toàn để cậu có thời gian thở dốc.]"
+  },
+  {
+    "id": 284,
+    "en": "Hearing these instructions, Jamal pondered on them in his head, slowly closed his eye, then re-opened it as he stepped forward.",
+    "vi": "Nghe chỉ thị đó, Jamal nhẩm lại trong đầu, chậm rãi nhắm mắt lại rồi mở to ra khi cất bước nhảy vọt ra ngoài."
+  },
+  {
+    "id": 285,
+    "en": "Jamal: [――Hk.]",
+    "vi": "Jamal: [――Hự.]"
+  },
+  {
+    "id": 286,
+    "en": "As soon as he stepped out of the alley, a single arrow, clad in a gale, pierced toward Jamal.",
+    "vi": "Ngay khi gã vừa đặt chân ra khỏi con hẻm, một mũi tên đơn lẻ mang theo luồng kình phong xé gió lao thẳng về phía gã."
+  },
+  {
+    "id": 287,
+    "en": "Jamal responded to it with amazing reflexes, and cut it off with a clash of his twin swords. The impact bounced onto Jamal's wrist, and his clenched teeth chattered as he laughed like a rabid dog.",
+    "vi": "Jamal đón đỡ nó với phản xạ phi thường, chém rụng nó trong tiếng vũ khí va chạm vang dội. Lực chấn động cực mạnh dội lên cổ tay gã, gã nghiến chặt răng phát ra tiếng ken két rồi nở một nụ cười man dại như một con chó điên."
+  },
+  {
+    "id": 288,
+    "en": "The sensation of blood burning, heart leaping, and life boiling, overtook Jamal.",
+    "vi": "Cảm giác máu nóng sôi sục, con tim đập thình thịch liên hồi, và sinh mệnh rực cháy hoàn toàn lấn át Jamal."
+  },
+  {
+    "id": 289,
+    "en": "His extreme concentration made the world retard, and he felt as if he could feel every drop of sweat that ran down his skin, every grain of sand that flew around, and even the existence of air that should have been invisible.",
+    "vi": "Sự tập trung cao độ đến cùng cực khiến thế giới xung quanh dường như chậm lại hẳn, gã cảm giác như có thể nhận biết rõ từng giọt mồ hôi đang lăn trên da thịt mình, từng hạt cát bay lơ lửng xung quanh, và thậm chí cả sự tồn tại của không khí vốn vô hình."
+  },
+  {
+    "id": 290,
+    "en": "Jamal: [――Hahaa!]",
+    "vi": "Jamal: [――Hahaa!]"
+  },
+  {
+    "id": 291,
+    "en": "One after another, a storm of arrows poured down like a deluge.",
+    "vi": "Hết mũi tên này đến mũi tên khác, một trận bão tên cuồng loạn trút xuống xối xả như thác lũ."
+  },
+  {
+    "id": 292,
+    "en": "Stepping on the ground, swinging his sword as if dancing, slicing the arrows and striking them down. What ensued was a sword dance, the sword dance of Jamal Aurélie.",
+    "vi": "Giẫm mạnh lên mặt đất, vung song kiếm nhịp nhàng như đang khiêu vũ, không ngừng chém đôi và đánh rơi các mũi tên. Những gì đang diễn ra là một điệu múa kiếm thực thụ, vũ điệu kiếm đạo của Jamal Aurélie."
+  },
+  {
+    "id": 293,
+    "en": "If things had gone well, they would have been able to enjoy the dance of the dancer who had been invited to the City Hall, the following day.",
+    "vi": "Nếu mọi chuyện diễn ra suôn sẻ, họ đáng lẽ đã được thưởng thức điệu nhảy điêu luyện của vũ công được mời đến Tòa Thị Chính vào ngày mai rồi."
+  },
+  {
+    "id": 294,
+    "en": "Jamal laughed at the thought that it had been ruined, and that he was the one dancing instead. But it was a dance with all his heart, a dance with all his body, a sword fight with all his energy.",
+    "vi": "Jamal bật cười tự giễu trước ý nghĩ rằng buổi biểu diễn đó đã bị phá hủy, và giờ đây chính gã mới là kẻ đang khiêu vũ. Nhưng đây là điệu nhảy bằng cả trái tim gã, vũ điệu của toàn bộ cơ thể gã, một cuộc đấu kiếm dồn hết sinh lực đời gã."
+  },
+  {
+    "id": 295,
+    "en": "Todd likewise marveled at Jamal's efforts as he furiously handled the attack.",
+    "vi": "Todd cũng thầm kinh ngạc trước những nỗ lực phi thường của Jamal khi gã chống đỡ các đòn tấn công cuồng bạo đó."
+  },
+  {
+    "id": 296,
+    "en": "Todd followed without raising his voice, as a storm of lethal arrows rained down on him. This was a sign that he knew that if Jamal were distracted, it would directly lead to his death.",
+    "vi": "Todd lặng lẽ bám sát theo sau không dám hé răng nửa lời trước cơn mưa tên chết chóc trút xuống. Hắn biết quá rõ rằng nếu để Jamal bị phân tâm dù chỉ một tích tắc, điều đó sẽ lập tức dẫn thẳng tới cái chết của chính hắn."
+  },
+  {
+    "id": 297,
+    "en": "So Todd pushed Jamal away from his consciousness and focused all his energy on avoiding the impending “death”.",
+    "vi": "Thế nên Todd tạm gạt bỏ hình bóng của Jamal khỏi tâm trí và dồn toàn bộ năng lượng của mình để trốn tránh “cái chết” đang cận kề."
+  },
+  {
+    "id": 298,
+    "en": "Straight ahead, evade, strike off, step in, jump, dispel, and cut open.",
+    "vi": "Chạy thẳng, né tránh, chém rụng, tiến lên, nhảy vọt, gạt bỏ và mở đường máu."
+  },
+  {
+    "id": 299,
+    "en": "Jamal: [End of the corr―― Hk.]",
+    "vi": "Jamal: [Hết đoạn đường thẳn―― Hự.]"
+  },
+  {
+    "id": 300,
+    "en": "Miraculously, they had finished the straight path of death and hit the end of the indicated path.",
+    "vi": "Thần kỳ thay, bọn họ đã vượt qua được đoạn đường thẳng chết chóc và chạm tới điểm cuối của con đường chỉ định."
+  },
+  {
+    "id": 301,
+    "en": "The passage of time was vague, and the sword dance must have only lasted several seconds, even if it felt like it had persisted for hours. However, they had only broken through the first barrier. Refusing to relax, Jamal did as he was told and turned right at the end of the road, where――,",
+    "vi": "Thời gian trôi qua thật mơ hồ, và điệu múa kiếm đó có lẽ chỉ diễn ra trong vài giây ngắn ngủi dẫu cảm giác như đã kéo dài hàng giờ đồng hồ. Dẫu vậy, bọn họ mới chỉ phá vỡ được chướng ngại vật đầu tiên. Không hề lơ là cảnh giác, Jamal làm đúng theo lời dặn và rẽ phải ở ngã rẽ cuối đường, nơi mà――,"
+  },
+  {
+    "id": 302,
+    "en": "――At the end of the broken path, there stood a group of Shudraqians, their spears trained on them.",
+    "vi": "――Ở cuối con đường đứt quãng, một nhóm chiến binh tộc Shudraq đã đứng sẵn ở đó, giáo mác lăm lăm chĩa thẳng vào bọn họ."
+  },
+  {
+    "id": 303,
+    "en": "Jamal: [――Fuck.]",
+    "vi": "Jamal: [――Chết tiệt.]"
+  },
+  {
+    "id": 304,
+    "en": "It would be difficult to handle that many Shudraqians with that archer aiming at them. One could say it was impossible.",
+    "vi": "Thật quá khó để đối phó với ngần ấy người tộc Shudraq trong khi gã cung thủ kia vẫn đang rình rập nhắm bắn bọn họ. Có thể nói đó là điều không thể."
+  },
+  {
+    "id": 305,
+    "en": "He was prepared to fight hard until he ran out of steam, but even if he did, he could not set any of it in reserve. He had no idea that he would be so perfectly anticipated, and it seemed that luck had completely abandoned him.",
+    "vi": "Gã đã chuẩn bị tinh thần chiến đấu ngoan cường cho đến hơi thở cuối cùng, nhưng ngay cả khi làm vậy gã cũng chẳng nắm giữ chút hy vọng nào. Gã không ngờ hành tung của mình lại bị đoán định chuẩn xác đến từng kẽ tóc như vậy, và có vẻ như vận may đã hoàn toàn quay lưng bỏ rơi gã rồi."
+  },
+  {
+    "id": 306,
+    "en": "Jamal: [Even if you strut around being all sorts of a smartass, in the end, luck’ll run out on you, huh... Heh, it's in vain. But, it wasn't all that bad.]",
+    "vi": "Jamal: [Ngay cả khi mày có tỏ ra khôn ngoan tự đắc thế nào đi nữa, thì cuối cùng vận may cũng sẽ cạn kiệt thôi nhỉ... Hì, công cốc rồi. Nhưng dẫu sao thì chuyện cũng không đến nỗi quá tệ.]"
+  },
+  {
+    "id": 307,
+    "en": "Checking the feel of the twin swords in his bloodied hands, Jamal spilled this out to Todd behind him.",
+    "vi": "Kiểm tra cảm giác của cặp song kiếm trong đôi bàn tay nhuốm đầy máu của mình, Jamal buông lời nói đó với Todd ở ngay sau lưng."
+  },
+  {
+    "id": 308,
+    "en": "It wasn't bad at all, he had said, and he meant it.",
+    "vi": "Gã nói chuyện đó không tệ chút nào, và gã thực sự nghĩ như vậy."
+  },
+  {
+    "id": 309,
+    "en": "In many ways, Todd's thoughts and actions had been overwhelming and frustrating.",
+    "vi": "Về nhiều mặt, những mưu tính và cách cư xử cẩn thận thái quá của Todd luôn khiến gã cảm thấy ngột ngạt và phiền phức."
+  },
+  {
+    "id": 310,
+    "en": "In the end, however, he chose to exert himself like an Imperial Soldier.",
+    "vi": "Nhưng cuối cùng dẫu sao, gã đã chọn dốc hết sức chiến đấu kiêu hãnh như một binh sĩ Đế Quốc thực thụ."
+  },
+  {
+    "id": 311,
+    "en": "Jamal: [I'm sorry about Katya, but it can't be helped. She's part of Imperial Nobility as well. I'm sure she was prepared for this to happen to you and me.]",
+    "vi": "Jamal: [Tao rất tiếc về chuyện của Katya, nhưng đành chịu thôi. Con bé cũng là một phần của giới quý tộc Đế Quốc mà. Tao chắc chắn em ấy đã chuẩn bị sẵn tâm lý cho tình cảnh này xảy đến với hai chúng ta rồi.]"
+  },
+  {
+    "id": 312,
+    "en": "Thinking of the sister he had left behind in the Imperial Capital, Jamal felt a faint tingle in his chest. However, it was soon drowned out by the will to fight the enemy in front of him, and the smell of blood that coated everything.",
+    "vi": "Nghĩ về người em gái mà gã đã để lại sau lưng tại Hoàng Đô, lồng ngực Jamal khẽ nhói lên một chút. Tuy nhiên, cảm xúc đó nhanh chóng bị đè bẹp hoàn toàn bởi ý chí quyết chiến với kẻ thù trước mắt, và mùi máu tươi tanh nồng bao trùm mọi ngóc ngách."
+  },
+  {
+    "id": 313,
+    "en": "He was relieved for that. ――He was, to the bone, a Sword Wolf of the Vollachian Empire.",
+    "vi": "Gã cảm thấy nhẹ nhõm vì chuyện đó. ――Đến tận xương tủy, gã vẫn luôn là một Sói Kiếm của Đế Quốc Vollachia."
+  },
+  {
+    "id": 314,
+    "en": "Jamal: [Let's do this, Todd. Let's at least show them what we're made of, for one last time.]",
+    "vi": "Jamal: [Chiến thôi nào, Todd. Hãy cho bọn chúng thấy chúng ta được làm từ chất liệu thép dũng mãnh gì, ít nhất là một lần cuối cùng này.]"
+  },
+  {
+    "id": 315,
+    "en": "Leaning forward, Jamal licked the blood flowing from his eyepatch-covered right eye.",
+    "vi": "Nhoài người về phía trước, Jamal liếm nhẹ dòng máu đang chảy ra từ con mắt phải được băng bịt kín."
+  },
+  {
+    "id": 316,
+    "en": "Then, fiercely, he jumped headlong into the enemy, as to display his final prestige as an Imperial Soldier.",
+    "vi": "Nói đoạn, gã hung hãn lao đầu thẳng vào kẻ thù để phô diễn uy thế cuối cùng của một binh sĩ Đế Quốc."
+  },
+  {
+    "id": 317,
+    "en": "Deadly attacks rained down on him like a storm, but he no longer held any regrets.",
+    "vi": "Những đòn tấn công chết chóc trút xuống gã xối xả như vũ bão, nhưng gã không còn giữ bất kỳ sự hối tiếc nào."
+  },
+  {
+    "id": 318,
+    "en": "The fact that he had been able to be himself till the very end, had been the greatest prize for Jamal.",
+    "vi": "Việc có thể sống trung thực với chính bản thân mình cho đến tận giây phút cuối cùng, chính là phần thưởng danh giá nhất đối với Jamal."
+  },
+  {
+    "id": 319,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 320,
+    "en": "???: […You were an idiot until the very end, weren't you?]",
+    "vi": "Giọng nói bí ẩn: […Cậu vẫn cứ là một tên ngốc cho đến tận phút cuối cùng nhỉ?]"
+  },
+  {
+    "id": 321,
+    "en": "Hearing Jamal's fierce roar in the distance, Todd muttered so as he dove through the wall.",
+    "vi": "Nghe tiếng gầm rú dữ dội của Jamal vang vọng từ phía xa, Todd khẽ lầm bầm như vậy trong lúc lách người chui qua khe hở trên tường."
+  },
+  {
+    "id": 322,
+    "en": "The hole he had passed through was collapsed immediately afterwards, and he carefully erased all traces of his presence, so that he could not be pursued. They in the city would probably be occupied with Jamal for a while, so there should be time to escape.",
+    "vi": "Cái lỗ mà hắn vừa chui qua lập tức bị đổ sụp xuống ngay sau đó, và hắn cẩn trọng xóa sạch mọi dấu vết hành tung của mình để kẻ thù không thể lần theo dấu vết. Lực lượng phòng thủ trong thành phố có lẽ sẽ bị Jamal cầm chân thu hút sự chú ý một thời gian dài, thế nên hắn sẽ có thừa thời gian để trốn thoát."
+  },
+  {
+    "id": 323,
+    "en": "It was just like Jamal had stated.",
+    "vi": "Đúng y hệt những gì Jamal đã nhận xét."
+  },
+  {
+    "id": 324,
+    "en": "Todd would never entrust his life to a desperate plan, even if he were dead. ――No, he would never do such a thing, precisely to avoid dying.",
+    "vi": "Todd sẽ không bao giờ đặt cược mạng sống của mình vào một kế hoạch tuyệt vọng đầy rủi ro, ngay cả khi hắn bị dồn vào đường cùng. ――Không, hắn tuyệt đối không làm thế, chính xác là để tránh phải chết."
+  },
+  {
+    "id": 325,
+    "en": "Todd: [If I let them chase you out of the alley, they'll be distracted. Well, I feel sorry for Katya...]",
+    "vi": "Todd: [Nếu để bọn chúng đuổi theo cậu ra khỏi con hẻm, chúng sẽ bị phân tâm hoàn toàn. Chà, tôi thấy hơi tiếc cho Katya thật...]"
+  },
+  {
+    "id": 326,
+    "en": "The promise to bring back his brother-in-law would go unfulfilled, and his fiancée would be terribly heartbroken.",
+    "vi": "Lời hứa đưa anh rể tương lai trở về an toàn sẽ mãi mãi không thực hiện được, và vị hôn thê của hắn chắc chắn sẽ vô cùng đau lòng suy sụp."
+  },
+  {
+    "id": 327,
+    "en": "In order to comfort her, he wished to return to the Imperial Capital as soon as possible. Fortunately, in return for losing Jamal, he had been able to find another way to return to the Imperial Capital.",
+    "vi": "Để an ủi cô ta, hắn muốn quay trở lại Hoàng Đô càng sớm càng tốt. May mắn thay, bù lại cho việc mất đi Jamal, hắn đã tìm ra một con đường khác tuyệt vời hơn nhiều để trở về Hoàng Đô."
+  },
+  {
+    "id": 328,
+    "en": "It was a wildcard that could lead to a much bigger foothold than Jamal's current one, which was that he had been on the verge of promotion to General Third-Class.",
+    "vi": "Đó là một quân bài tẩy vô giá có thể mang lại cho hắn một chỗ đứng vững chắc hơn nhiều so với việc Jamal được thăng chức lên vị trí Tướng tam đẳng đồn trú hiện tại."
+  },
+  {
+    "id": 329,
+    "en": "Arakiya: […Princess.]",
+    "vi": "Arakiya: […Công chúa.]"
+  },
+  {
+    "id": 330,
+    "en": "Todd: [Oh dear, you look so innocent. Even so, if you're one of the Nine Divine Generals, then the number of people you've killed would be more than a hundred or two.]",
+    "vi": "Todd: [Ôi trời, trông cô có vẻ ngây thơ lương thiện quá nhỉ. Dẫu vậy, nếu cô là một trong Cửu Thần Tướng, thì số lượng mạng người cô đã tước đoạt chắc chắn phải vượt quá một hay hai trăm mạng rồi.]"
+  },
+  {
+    "id": 331,
+    "en": "In Todd's arms, Arakiya's tears flowed from her closed eye. As he watched the tears roll down her cheeks, the vague thought that his current companion was wearing an eye patch, just like his previous one, passed Todd’s mind.",
+    "vi": "Trong vòng tay của Todd, nước mắt của Arakiya khẽ lăn dài từ khóe mắt đang nhắm nghiền. Khi nhìn những giọt lệ chảy dài trên má cô ta, một ý nghĩ mơ hồ thoáng qua tâm trí Todd rằng người bạn đồng hành hiện tại của hắn cũng đang đeo một chiếc băng bịt mắt, giống hệt như kẻ đồng hành lúc trước."
+  },
+  {
+    "id": 332,
+    "en": "After thinking about it, Todd suddenly inclined his head.",
+    "vi": "Nghĩ ngợi một hồi, Todd chợt nghiêng đầu tự hỏi."
+  },
+  {
+    "id": 333,
+    "en": "And――,",
+    "vi": "Và――,"
+  },
+  {
+    "id": 334,
+    "en": "Todd: [On which side did Jamal have that eyepatch…?]",
+    "vi": "Todd: [Rốt cuộc Jamal đeo chiếc bịt mắt đó ở bên mắt nào ấy nhỉ…?]"
+  }
+];
+
+function run() {
+  const outPath = path.join(tempDir, 'ch27_part2.json');
+  fs.writeFileSync(outPath, JSON.stringify(part2, null, 2), 'utf-8');
+  console.log(`Saved ${part2.length} paragraphs to ${outPath}`);
+}
+
+run();
