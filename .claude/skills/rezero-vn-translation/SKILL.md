@@ -38,11 +38,11 @@ For summarized passages, the `en` attribute should contain a **bracketed descrip
 
 **Arc 2 (The Week at the Mansion):** Subaru's deaths and loops at Roswaal's mansion, discovering Rem and Ram, the Witch Beast attacks, the Rem confession scene, Subaru earning trust → always full translation.
 
-**Arc 3 (Return to the Royal Capital / Truth of Zero):** Subaru's social exile ("Witch's Husband"), the Royal Selection ceremony, Betelgeuse/Petelgeuse and the Witch Cult attack, Julius's duel with Subaru, Subaru's alliance with the merchants, the White Whale subjugation, the "I love you" / "Rem, from here on let's talk about what's to come" moment → always full translation.
+**Arc 3 (Return to the Royal Capital / Truth of Zero):** Subaru's social exile ("Witch's Husband"), the Royal Selection ceremony, Petelgeuse Romanée-Conti and the Witch Cult attack (note: WCT canonical spelling is "Petelgeuse", not "Betelgeuse"), Julius's duel with Subaru, Subaru's alliance with the merchants, the White Whale subjugation, the "I love you" / "Rem, from here on let's talk about what's to come" moment → always full translation.
 
 **Arc 4 (Everlasting Contract / Sanctuary):** Emilia's three Trials in the Sanctuary, Subaru's past-life revelation (Trial 2), Roswaal's Gospel and contract, Garfiel's transformation arc, Beatrice's "choose me" scene, the Rabbit Witch Beast annihilation, the Great Rabbit battle, Otto's backstory, Frederica and Petra's escape → always full translation.
 
-**Arc 5 (Stars What Make History / Pristella Water City):** All five Sin Archbishop appearances and battles (Regulus, Sirius, Lye Batenkaitos, Roy Alphard, Capella), Regulus vs Reinhard, the waterway battles, Crusch's condition, Subaru's Cor Leonis awakening → always full translation. Note: Regulus's monologues are intentionally long — do NOT summarize them; their exhausting length is characterisation.
+**Arc 5 (Stars What Make History / Priestella Water City):** All five Sin Archbishop appearances and battles (Regulus Corneas, Sirius Romanée-Conti, Lye Batenkaitos, Roy Alphard, Capella Emerada Lugunica), Regulus vs Reinhard, the waterway battles, Crusch's condition, Subaru's Cor Leonis awakening → always full translation. Note: Regulus's monologues are intentionally long — do NOT summarize them; their exhausting length is characterisation.
 
 **Arc 6 (Hall of Memories / Pleiades Watchtower):** The 5 obstacles, Subaru's name-loss and recovery, tower conquest finale (Ch. 85–90), identity reveals (Louis Arneb, Shaula, Sage Echidna), Reid Astrea encounters, the Centaurus witch beast horde, Meili's control → always full translation. See [references/arc6-context.md](references/arc6-context.md) for the full structure.
 
@@ -171,6 +171,18 @@ Read the Vietnamese output mentally as continuous prose. Check ALL of the follow
 
 Fix any issues. Output only the MDX block — no commentary, no explanation outside the MDX.
 
+## Canonical name source
+
+All character and location names follow **Witch Cult Translations (WCT)** spellings — the primary English web novel translation at https://witchculttranslation.com/. When in doubt about a name spelling, use WCT as the authority. The WCT public style guide is also available for reference.
+
+Key WCT spelling decisions to memorise:
+- **Petelgeuse** (NOT Betelgeuse) — Sin Archbishop of Sloth
+- **Garfiel** (NOT Garfield)
+- **Julius Juukulius** (doubled 'u')
+- **Louis Arneb** (NOT Louise)
+- **Priestella** (NOT Pristella) — Watergate City in Arc 5
+- **Capella Emerada Lugunica** — Sin Archbishop of Lust
+
 ## Universal Re:Zero terminology
 
 | English | Vietnamese |
@@ -199,8 +211,12 @@ Fix any issues. Output only the MDX block — no commentary, no explanation outs
 | Cor Leonis | Cor Leonis |
 | Invisible Providence | Thần Ý Vô Hình |
 | Authority | Quyền Năng |
+| Authority of [Sin] | Quyền Năng [Tội Danh] (e.g., Quyền Năng Tham Ăn) |
+| Witch Factor | Nhân Tố Phù Thủy |
 | Witch's Scent | Mùi Hương Phù Thủy / Mùi Ma Nữ |
 | Oni | Quỷ |
 | Demi-human | Á Nhân |
 
 For arc-specific terms (Pleiades Watchtower, Augria Sand Dunes, etc.) see [references/arc6-context.md](references/arc6-context.md).
+
+After finishing the translation, response with "Xong rùi nha ck iu" at the end.

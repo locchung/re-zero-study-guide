@@ -201,6 +201,91 @@ Characters are grouped by how distinctive their speech is. High-priority charact
 
 ---
 
+## TIER 3 — Arc 7 / Vollachian Empire characters
+
+### Abel / Vincent Abellux (ヴィンセント・アベルクス) — Arc 7+
+
+**Self:** "Ta" (imperial register), occasionally slips to "Trẫm" (royal first-person) in intense moments
+**Calls others:** "Ngươi" (default), by title for those he respects
+**Speech style:** Haughty, strategic, speaks in layered meaning. Every statement is calculated — he reveals information only when it serves his purpose. Sounds like a chess player who is always 3 moves ahead.
+**Tone:** Cold intelligence. He is not cruel for pleasure — he is efficient. When he calls Subaru by name instead of a dismissive term, it means something.
+
+---
+
+### Todd Fang (トッド・ファング) — Arc 7+
+
+**Self:** "Tôi" (friendly surface) or "Ta" (when the mask slips)
+**Speech style:** Warm, collegial, reasonable-sounding — right up until he explains very calmly why he needs to kill you. His friendly register is the danger sign, not the aggression. He is the most chilling character precisely because he never raises his voice.
+**Tone:** Pragmatic predator. He genuinely likes efficiency. Violence is just a tool. Keep his lines cheerful-adjacent even when he is describing murder.
+
+---
+
+### Cecilus Segmunt (セシルス・セグメント) — Arc 7+
+
+**Self:** "Tôi" (theatrical) or "Ta" (sword-mode)
+**Speech style:** Flamboyant, theatrical, genuinely delighted by battle. He treats combat as performance art. Speaks in metaphors about the "stage" and "playing his role."
+**Tone:** Joyful lethality. He is not sadistic — he genuinely loves the art of the sword. The enthusiasm is real.
+
+---
+
+### Jamal Aurélie (ジャマル・オーレリー) — Arc 7
+
+**Self:** "Tao"
+**Calls others:** "Mày", "thằng ranh", "con ranh"
+**Speech style:** Brutish, aggressive, contemptuous. A military bully who mistakes cruelty for strength.
+**Tone:** No nuance — he is exactly what he appears to be. Keep his lines crude and direct.
+
+---
+
+### Medium O'Connell (ミディアム・オコンネル) — Arc 7+
+
+**Self:** "Tôi"
+**Speech style:** Bright, energetic, unpretentiously cheerful. She says what she means and means what she says. No court manners.
+**Tone:** Honest warmth. She is likeable because she is uncomplicated.
+
+---
+
+### Mizelda (ミゼルダ) — Arc 7 (Shudraq chieftain)
+
+**Self:** "Ta" (chieftain authority)
+**Calls younger ones:** "Nhóc con" (young ones), "ngươi" (default)
+**Speech style:** Bold, proud, direct. Amazonian warrior queen register. Short declarative sentences.
+**Tone:** She commands without needing to raise her voice. Respect is assumed, not requested.
+
+---
+
+### Taritta (タリッタ) — Arc 7
+
+**Self:** "Tôi" (respectful) or "Em" (when addressing Mizelda as "Chị")
+**Speech style:** Proud warrior, disciplined, respectful hierarchy within the tribe.
+**Tone:** Quiet competence. She does not perform confidence — she simply is confident.
+
+---
+
+### Olbart Dunkelkenn (オルバルト・ダンケルケン) — Arc 7
+
+**Self:** "Ta" or "Lão" (old-man register)
+**Speech style:** Crotchety old man who is also a terrifyingly powerful shinobi. Mischievous. Speaks with the relaxed condescension of someone who has seen everything and fears nothing.
+**Tone:** Playful danger. The friendlier he sounds, the more dangerous he is.
+
+---
+
+### Yorna Mishigure (ヨルナ・ミシグレ) — Arc 7
+
+**Self:** "Tôi" or "Thiếp" (elegant, slightly archaic feminine)
+**Speech style:** Elegant, maternal authority. The fox-woman administrator of a city. Warm but absolutely in charge.
+**Tone:** Refined power. She is never flustered. Her warmth is genuine and her authority is absolute.
+
+---
+
+### Al / Aldebaran (アル / アルデバラン) — Arc 5+, Arc 9
+
+**Self:** "Tôi" (casual-rough, translated from Japanese ore-register)
+**Speech style:** Sarcastic, world-weary, uses humour as armour. He has seen many timelines. The levity is a defence mechanism.
+**Tone:** Under the sarcasm is someone carrying enormous weight. When the jokes stop, something serious is happening.
+
+---
+
 ## Witches of Sin (when they appear)
 
 | Witch | Sin | Speech style |
@@ -214,6 +299,25 @@ Characters are grouped by how distinctive their speech is. High-priority charact
 | Carmilla | Lust | (rarely appears) Melancholic |
 
 For Satella specifically: her lines are among the most emotionally loaded in the series. Translate with full care — never flatten.
+
+---
+
+## Sin Archbishops roster (canonical WCT names)
+
+| Archbishop | Sin | WCT canonical name | Arc(s) | Notes |
+|------------|-----|--------------------|--------|-------|
+| Sloth | Lười Biếng | Petelgeuse Romanée-Conti | 3 | "Petelgeuse" not "Betelgeuse"; theatrical religious speech |
+| Wrath | Thịnh Nộ | Sirius Romanée-Conti | 5 | Petelgeuse's "wife"; erratic, emotional |
+| Greed | Tham Lam | Regulus Corneas | 5 | Endless calm self-righteous monologues — never summarize |
+| Gluttony (elder) | Tham Ăn | Aldebaran (Al) | 5, 9 | Al's true identity; see Al profile above |
+| Gluttony (mid) | Tham Ăn | Roy Alphard | 5 | |
+| Gluttony (young) | Tham Ăn | Lye Batenkaitos | 5 | |
+| Gluttony (Arc 6) | Tham Ăn | Louis Arneb | 6 | Absorbed Subaru's memories; see Louis Arneb profile |
+| Lust | Dục Vọng | Capella Emerada Lugunica | 5 | Shape-shifting ability |
+| Pride | Kiêu Ngạo | (spoiler character) | — | Do not name in translation notes |
+
+**Vietnamese sin names quick-reference:**
+- Sloth → Lười Biếng; Wrath → Thịnh Nộ; Greed → Tham Lam; Gluttony → Tham Ăn; Lust → Dục Vọng; Pride → Kiêu Ngạo; Envy → Đố Kỵ
 
 ---
 

@@ -17,6 +17,9 @@ export function ReaderProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const saved = localStorage.getItem('re-zero-reader-layout') as ReadLayout
     if (saved === 'inline' || saved === 'parallel' || saved === 'paged') {
+      // Reading localStorage and syncing to state after hydration is an intentional
+      // two-step pattern to avoid SSR/client mismatch — not a cascading render.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLayoutState(saved)
     }
   }, [])
