@@ -17,7 +17,13 @@ const chapters = [
   { num: 9, title: 'Chương 9: Cách Sống Của Đế Quốc | The Way of the Empire' },
   { num: 10, title: 'Chương 10: Tộc Nhân Shudraq | The People of Shudraq' },
   { num: 11, title: 'Chương 11: Nghi Thức Huyết Tế | The Lifeblood Ritual' },
-  { num: 12, title: 'Chương 12: Đế Quốc Vollachia | The Vollachian Empire' }
+  { num: 12, title: 'Chương 12: Đế Quốc Vollachia | The Vollachian Empire' },
+  { num: 13, title: 'Chương 13: Bản Chất Con Người | As a Mortal' },
+  { num: 14, title: 'Chương 14: Giá Trị Bất Đồng | Unbridgeable Values' },
+  { num: 15, title: 'Chương 15: Kẻ Tôi Muốn Bảo Vệ | Those I Want to Protect' },
+  { num: 16, title: 'Chương 16: Tình Thế Đế Quốc | The Situation in the Empire' },
+  { num: 17, title: 'Chương 17: Tai Họa Cận Kề | Looming Evil' },
+  { num: 18, title: 'Chương 18: Trận Chiến Ở Thành Lũy Guaral | Battle in the Fortress City of Guaral' }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');

@@ -64,6 +64,12 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-10', title: 'Chương 10: Tộc Nhân Shudraq | The People of Shudraq', chapterNumber: 10, arc: 7 },
   { slug: 'chuong-11', title: 'Chương 11: Nghi Thức Huyết Tế | The Lifeblood Ritual', chapterNumber: 11, arc: 7 },
   { slug: 'chuong-12', title: 'Chương 12: Đế Quốc Vollachia | The Vollachian Empire', chapterNumber: 12, arc: 7 },
+  { slug: 'chuong-13', title: 'Chương 13: Bản Chất Con Người | As a Mortal', chapterNumber: 13, arc: 7 },
+  { slug: 'chuong-14', title: 'Chương 14: Giá Trị Bất Đồng | Unbridgeable Values', chapterNumber: 14, arc: 7 },
+  { slug: 'chuong-15', title: 'Chương 15: Kẻ Tôi Muốn Bảo Vệ | Those I Want to Protect', chapterNumber: 15, arc: 7 },
+  { slug: 'chuong-16', title: 'Chương 16: Tình Thế Đế Quốc | The Situation in the Empire', chapterNumber: 16, arc: 7 },
+  { slug: 'chuong-17', title: 'Chương 17: Tai Họa Cận Kề | Looming Evil', chapterNumber: 17, arc: 7 },
+  { slug: 'chuong-18', title: 'Chương 18: Trận Chiến Ở Thành Lũy Guaral | Battle in the Fortress City of Guaral', chapterNumber: 18, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {

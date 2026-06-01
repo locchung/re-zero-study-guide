@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 2,
+    "en": "Translated By :",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 3,
+    "en": "Art Sources :",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 4,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 5,
+    "en": "ALL RIGHTS BELONG TO TAPPEI NAGATSUKI, THE ORIGINAL AUTHOR OF RE:ZERO STARTING A LIFE IN A DIFFERENT WORLD FROM ZERO, THIS IS A TRANSLATION OF THE FREE JAPANESE WEB NOVEL INTO ENGLISH",
+    "vi": "BẢN QUYỀN THUỘC VỀ NAGATSUKI TAPPEI, TÁC GIẢ NGUYÊN TÁC CỦA RE:ZERO - BẮT ĐẦU LẠI Ở THẾ GIỚI KHÁC TỪ CON SỐ KHÔNG. ĐÂY LÀ BẢN DỊCH PHI LỢI NHUẬN TỪ WEB NOVEL TIẾNG NHẬT SANG TIẾNG VIỆT."
+  },
+  {
+    "id": 6,
+    "en": "JAPANESE WEB NOVEL SOURCE",
+    "vi": "NGUỒN WEB NOVEL TIẾNG NHẬT"
+  },
+  {
+    "id": 7,
+    "en": "※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 8,
+    "en": "▼△▼△▼△",
+    "vi": "▼△▼△▼△"
+  },
+  {
+    "id": 9,
+    "en": "Translated By :",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 10,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính:"
+  },
+  {
+    "id": 11,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 12,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 13,
+    "en": "Deer: [――MUU!]",
+    "vi": "Hươu: [――MUU!]"
+  },
+  {
+    "id": 14,
+    "en": "At that instant, there was a thud and a loud cry, and animals kicked the ground and fled.",
+    "vi": "Ngay khoảnh khắc ấy, một tiếng động trầm đục kèm theo tiếng gầm rú vang lên, đàn dã thú đạp đất bỏ chạy tán loạn."
+  },
+  {
+    "id": 15,
+    "en": "On their way through the prairie, they had happened to come across a small forest. Amidst the shade of the trees, animals resembling deer had been eating grass. They were called black deer because of their impressive antlers and black fur. They also inhabited the Kingdom of Lugunica, and could be said to be one of the major animals of this parallel world.",
+    "vi": "Trên đường băng qua thảo nguyên, họ tình cờ bắt gặp một cánh rừng nhỏ. Dưới bóng râm của cây cối, những con thú giống như hươu đang gặm cỏ. Chúng được gọi là hắc hươu vì cặp gạc ấn tượng cùng bộ lông đen tuyền. Chúng cũng sinh sống ở Vương Quốc Lugunica, có thể nói là một trong những loài động vật phổ biến của thế giới song song này."
+  },
+  {
+    "id": 16,
+    "en": "In the center of the herd, from where they had fled from the sound and impact, one black deer had been left behind, collapsed atop the grass.",
+    "vi": "Ở giữa đàn thú vừa tháo chạy tán loạn trước âm thanh và lực tác động, một con hắc hươu bị bỏ lại phía sau, đổ gục trên thảm cỏ."
+  },
+  {
+    "id": 17,
+    "en": "A thick arrow had pierced the black deer’s ribs, its heart destroyed by a single shot.",
+    "vi": "Một mũi tên dày cắm phập vào sườn con hắc hươu, trái tim nó bị phá hủy hoàn toàn chỉ bằng một phát bắn."
+  },
+  {
+    "id": 18,
+    "en": "Its four limbs twitched and quivered in post-mortem convulsion, but, before long, that too stopped.",
+    "vi": "Bốn chi nó giật giật co quắp trong cơn co giật sau cái chết, nhưng chẳng bao lâu sau, điều đó cũng dừng lại."
+  },
+  {
+    "id": 19,
+    "en": "In any event――,",
+    "vi": "Dù sao thì――,"
+  },
+  {
+    "id": 20,
+    "en": "???: [I brought down the meat~! ]",
+    "vi": "???: [Tôi săn được thịt rồi nè~! ]"
+  },
+  {
+    "id": 21,
+    "en": "????: [...“Meat”. You could say black deer at least.]",
+    "vi": "????: [...“Thịt”. Ít ra thì cậu cũng phải gọi là hắc hươu chứ.]"
+  },
+  {
+    "id": 22,
+    "en": "???: [Huh? What did you say just now~? Kuna’s voice is soft, I can’t really hear you~]",
+    "vi": "???: [Hả? Cậu vừa nói gì cơ~? Giọng của Kuna nhỏ quá, mình chẳng nghe rõ gì cả~]"
+  },
+  {
+    "id": 23,
+    "en": "The one who’d drawn the heavy bow and raised a cheer was Holly.",
+    "vi": "Người vừa kéo chiếc cung nặng và reo hò phấn khích chính là Holly."
+  },
+  {
+    "id": 24,
+    "en": "She wore a sunny smile, and the young girl beside her, Kuna, had muttered inaudibly, causing Holly to begin tilting her head to the side with a curious expression.",
+    "vi": "Cô nở nụ cười rạng rỡ, còn cô gái trẻ bên cạnh, Kuna, lầm bầm gì đó không rõ, khiến Holly tò mò nghiêng đầu sang một bên với vẻ mặt đầy hiếu kỳ."
+  },
+  {
+    "id": 25,
+    "en": "But, seeing that Kuna pouted her lips,",
+    "vi": "Nhưng khi thấy Kuna bĩu môi đầy hờn dỗi,"
+  },
+  {
+    "id": 26,
+    "en": "Kuna: [It was nothing! Drain the blood! Quickly now!]",
+    "vi": "Kuna: [Không có gì đâu! Mau cắt tiết đi! Nhanh lên nào!]"
+  },
+  {
+    "id": 27,
+    "en": "Holly: [Ah, please wait~!]",
+    "vi": "Holly: [Ơ kìa, chờ mình với~!]"
+  },
+  {
+    "id": 28,
+    "en": "Holly started lumbering to Kuna’s side, rushing after her. But before she got there, Holly stopped walking, let out an “Oh”, and spun around to look back.",
+    "vi": "Holly bắt đầu lạch bạch đuổi theo sau Kuna. Nhưng trước khi đuổi kịp, Holly dừng bước, thốt lên một tiếng \"Ồ\" rồi quay ngoắt người lại nhìn."
+  },
+  {
+    "id": 29,
+    "en": "There, before Holly’s eyes, was the figure of their companion――,",
+    "vi": "Tại đó, đập vào mắt Holly là hình dáng của người đồng hành của họ――,"
+  },
+  {
+    "id": 30,
+    "en": "Holly: [It’s a lot, so we’re gonna go take a short break. Subaru, you wanna take one too~?]",
+    "vi": "Holly: [Nhiều thịt lắm, nên bọn mình định nghỉ tay một lát. Subaru, cậu có muốn nghỉ cùng không~?]"
+  },
+  {
+    "id": 31,
+    "en": "Subaru: [...Um, uhh, not particularly, I’m totally fine, but sure.]",
+    "vi": "Subaru: [...À, ừm, tôi thì không sao, vẫn khỏe re hà, nhưng thôi cứ nghỉ vậy.]"
+  },
+  {
+    "id": 32,
+    "en": "Pouring sweat like a waterfall, Subaru answered Holly’s proposal of a break.",
+    "vi": "Mồ hôi nhễ nhại chảy như thác đổ, Subaru đáp lại lời đề nghị nghỉ ngơi của Holly."
+  },
+  {
+    "id": 33,
+    "en": "Looking at Subaru, Holly said “I’m glad”, and ran back to Kuna’s side. Watching them leave, Subaru slowly fell to his knees on the spot.",
+    "vi": "Nhìn Subaru, Holly reo lên \"Thế thì tốt quá\" rồi chạy về phía Kuna. Nhìn bóng dáng họ rời đi, Subaru chầm chậm quỳ sụp xuống ngay tại chỗ."
+  },
+  {
+    "id": 34,
+    "en": "Behind the totally exhausted Subaru, being carried in a wooden backpack, Rem took a small breath,",
+    "vi": "Phía sau Subaru đang kiệt sức hoàn toàn, được cõng trong chiếc cũi gỗ, Rem khẽ thở dài nhẹ,"
+  },
+  {
+    "id": 35,
+    "en": "Rem: [...Stubborn.]",
+    "vi": "Rem: [...Cứng đầu.]"
+  },
+  {
+    "id": 36,
+    "en": "And muttered too softly to be heard by Subaru.",
+    "vi": "Vài thì thầm quá nhỏ để Subaru có thể nghe thấy."
+  },
+  {
+    "id": 37,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 38,
+    "en": "Subaru: [Man, that really took a lot outta me. I was able to withstand it because I'm the eldest son. But I wouldn’t be able to do it if I were the second son or the youngest.]",
+    "vi": "Subaru: [Trời đất, mệt đứt cả hơi. Mình vẫn trụ được là nhờ bản lĩnh của con trai cả đấy nhé. Chứ nếu là con thứ hay con út thì chắc chịu chết rồi.]"
+  },
+  {
+    "id": 39,
+    "en": "Putting together the twigs he’d collected, Subaru gave his explanation in a cool breeze.",
+    "vi": "Vừa xếp đống củi khô nhặt được lại với nhau, Subaru vừa giải thích trong làn gió mát lành."
+  },
+  {
+    "id": 40,
+    "en": "Rem listened with an unamused look, and Louis listened with a blank expression, one that made it unclear what she was thinking. Nonetheless, Rem let out a short sigh, like she was exasperated with the matter.",
+    "vi": "Rem lắng nghe với vẻ mặt không mấy hứng thú, còn Louis chăm chú nghe với gương mặt ngơ ngác, chẳng rõ cô bé đang nghĩ ngợi điều gì. Dẫu vậy, Rem khẽ thở dài một tiếng ngắn, như thể đã quá ngán ngẩm với chuyện này."
+  },
+  {
+    "id": 41,
+    "en": "Rem: [I do not understand what you mean. To begin with, is there a connection between having siblings and one’s perseverance?]",
+    "vi": "Rem: [Tôi không hiểu anh đang nói gì cả. Ngay từ đầu, giữa việc có anh chị em và sự kiên trì của một người có liên quan gì đến nhau sao?]"
+  },
+  {
+    "id": 42,
+    "en": "Subaru: [Now it’s kind of a dumb cliche, but I feel like there’s a correlation between one’s sibling status and relative fortitude. Like, they say the firstborn son is raised strictly by his parents, and the youngest child is spoiled, right?]",
+    "vi": "Subaru: [Tuy giờ nó hơi sáo rỗng rồi, nhưng tôi cảm giác có sự liên quan giữa thứ tự sinh và sức chịu đựng đấy. Kiểu như người ta bảo con cả thì được nuôi dạy nghiêm khắc, còn con út thì được nuông chiều đúng không?]"
+  },
+  {
+    "id": 43,
+    "en": "Rem: [I don’t know if that could be called “right”. Doesn’t that not apply in the case of an only child?]",
+    "vi": "Rem: [Tôi không biết thế có gọi là “đúng” hay không. Nhưng chẳng phải điều đó không áp dụng được cho con một sao?]"
+  },
+  {
+    "id": 44,
+    "en": "Subaru: [In that case, you end up getting spoiled while being raised strictly… Naturally, since I’m an only child, that means the special characteristics of the eldest and youngest son both apply to me.]",
+    "vi": "Subaru: [Trong trường hợp đó, người ta sẽ vừa được nuông chiều lại vừa được nuôi dạy nghiêm khắc… Tất nhiên, vì tôi là con một, nên những đặc điểm của cả con cả lẫn con út đều hội tụ ở tôi hết.]"
+  },
+  {
+    "id": 45,
+    "en": "Considering his parents' closeness, Subaru not having any siblings was quite the mystery.",
+    "vi": "Xét đến sự gắn kết khăng khít của cha mẹ cậu, việc Subaru không có anh chị em nào quả là một điều bí ẩn."
+  },
+  {
+    "id": 46,
+    "en": "Since he was aware he’d had his mom and dad’s love all to himself, he couldn’t help but wonder what having siblings would have been like, but that didn’t change the reality of it.",
+    "vi": "Vì biết rõ mình được hưởng trọn vẹn tình yêu thương của cả bố lẫn mẹ, cậu không khỏi tự hỏi có anh chị em thì sẽ thế nào, nhưng điều đó chẳng thể thay đổi được thực tế."
+  },
+  {
+    "id": 47,
+    "en": "Subaru: [Besides, it’s not certain that I don’t have younger siblings now that I’m not there…]",
+    "vi": "Subaru: [Với lại, cũng chẳng chắc chắn là tôi không có em ở nhà vào lúc này...]"
+  },
+  {
+    "id": 48,
+    "en": "Rem: [――――]",
+    "vi": "Rem: [――――]"
+  },
+  {
+    "id": 49,
+    "en": "Louis: [Aauuaah]",
+    "vi": "Louis: [Aauuaah]"
+  },
+  {
+    "id": 50,
+    "en": "While Subaru was imagining terrible things, Rem looked down, towards Louis, who was being playful on her lap.",
+    "vi": "Trong lúc Subaru đang tưởng tượng ra những điều kinh khủng, Rem cúi xuống nhìn Louis, cô bé đang đùa nghịch vui vẻ trên đùi mình."
+  },
+  {
+    "id": 51,
+    "en": "While on the move, the wooden rack would be secured to Subaru’s back, but when placed on the ground, it could also serve as a chair. It was an item with exceptional potential.",
+    "vi": "Khi di chuyển, chiếc cũi gỗ sẽ được cố định chắc chắn trên lưng Subaru, nhưng khi đặt xuống đất, nó cũng có thể dùng làm ghế ngồi. Đây quả là một vật dụng có công năng cực kỳ tuyệt vời."
+  },
+  {
+    "id": 52,
+    "en": "Thanks to that, going through the trouble of picking Rem up or setting her down could be done without much hassle.",
+    "vi": "Nhờ vậy, việc bồng bế Rem lên hay đặt cô xuống có thể thực hiện mà không gặp quá nhiều khó khăn."
+  },
+  {
+    "id": 53,
+    "en": "Although Rem probably thought the circumstances requiring her to keep asking Subaru for help were shameful, for the time being, she had to get through and accept that disgrace.",
+    "vi": "Mặc dù Rem có lẽ cảm thấy việc phải liên tục nhờ cậy Subaru giúp đỡ là một điều đáng xấu hổ, nhưng trước mắt, cô buộc phải cắn răng chấp nhận nỗi nhục nhã đó."
+  },
+  {
+    "id": 54,
+    "en": "Rem: [Siblings…]",
+    "vi": "Rem: [Anh chị em...]"
+  },
+  {
+    "id": 55,
+    "en": "Subaru: [Uh huh?]",
+    "vi": "Subaru: [Ừ hử?]"
+  },
+  {
+    "id": 56,
+    "en": "Rem: [Family born before me, or born after… Did I have any?]",
+    "vi": "Rem: [Những người ruột thịt sinh ra trước hay sau tôi… Tôi có ai không?]"
+  },
+  {
+    "id": 57,
+    "en": "Subaru: [Oh…]",
+    "vi": "Subaru: [Ồ...]"
+  },
+  {
+    "id": 58,
+    "en": "Rem inquired abruptly, and Subaru reflexively held his breath.",
+    "vi": "Rem đột ngột hỏi, khiến Subaru theo bản năng nín thở."
+  },
+  {
+    "id": 59,
+    "en": "With a start he raised his head, while Rem was minding Louis’s hair threading her fingers, those blue pupils of hers turned toward Subaru.",
+    "vi": "Cậu giật mình ngẩng đầu lên, trong lúc Rem vẫn đang luồn những ngón tay vuốt ve mái tóc của Louis, đôi đồng tử màu xanh lam của cô hướng về phía Subaru."
+  },
+  {
+    "id": 60,
+    "en": "In them a faint light flickered, with emotions he did not understand. He thought that perhaps Rem herself did not quite know those either.",
+    "vi": "Trong mắt cô le lói một tia sáng mong manh cùng những cảm xúc mà cậu không thể hiểu thấu. Cậu nghĩ có lẽ ngay cả bản thân Rem cũng không tự rõ chúng là gì."
+  },
+  {
+    "id": 61,
+    "en": "Nevertheless――,",
+    "vi": "Dù sao thì――,"
+  },
+  {
+    "id": 62,
+    "en": "Subaru: [It’s the first time. That you’ve tried asking me about your memories.]",
+    "vi": "Subaru: [Đây là lần đầu tiên đấy. Em chủ động hỏi tôi về ký ức của mình.]"
+  },
+  {
+    "id": 63,
+    "en": "Rem: [Where are we, who are you, who am I, what will you do, how dare you… I think I have asked a number of questions up until now.]",
+    "vi": "Rem: [Chúng ta đang ở đâu, anh là ai, tôi là ai, anh định làm gì, sao anh dám… Tôi nghĩ mình đã hỏi rất nhiều câu hỏi cho đến tận bây giờ rồi.]"
+  },
+  {
+    "id": 64,
+    "en": "Subaru: [I’m not talking about that kind of negative stuff. Also, I thought you hadn’t yet said how dare you…]",
+    "vi": "Subaru: [Tôi không nói về mấy thứ tiêu cực đó. Với lại, tôi nhớ em đã bao giờ nói câu “sao anh dám” đâu...]"
+  },
+  {
+    "id": 65,
+    "en": "He gave a strained grin to Rem’s prickly objection, however, it provided meager relief.",
+    "vi": "Cậu nở nụ cười gượng gạo trước lời vặn vẹo sắc mỏng của Rem, tuy nhiên, điều đó chẳng mấy làm dịu đi bầu không khí."
+  },
+  {
+    "id": 66,
+    "en": "As he had told Rem, this was the first time she had asked him anything in a positive sense. Subaru perceived that as progress in their relationship.",
+    "vi": "Đúng như cậu vừa nói với Rem, đây là lần đầu tiên cô hỏi cậu điều gì đó theo hướng tích cực. Subaru coi đây là một bước tiến triển tốt đẹp trong mối quan hệ của họ."
+  },
+  {
+    "id": 67,
+    "en": "Frankly, since their departure from the Shudraq village, all through their journey up till now, Subaru had been continuously uneasy.",
+    "vi": "Thật lòng mà nói, kể từ khi rời khỏi làng Shudraq cho đến suốt cuộc hành trình này, Subaru luôn trong trạng thái bất an không yên."
+  },
+  {
+    "id": 68,
+    "en": "After all, Rem had laid bare her hostility and suspicions towards Subaru, but despite that, she had not rejected his proposal to head toward the town for a few days because of those.",
+    "vi": "Bởi lẽ, dẫu Rem đã thể hiện rõ sự thù địch và nghi ngờ đối với Subaru, cô vẫn không từ chối đề nghị hướng tới thị trấn trong vài ngày qua."
+  },
+  {
+    "id": 69,
+    "en": "To put it bluntly, he had thought the greatest obstacle to leaving the Shudraq village would be Rem’s stubborn unwillingness to listen to Subaru’s words.",
+    "vi": "Nói một cách bộc trực, cậu từng nghĩ trở ngại lớn nhất khi rời làng Shudraq chính là sự bướng bỉnh không chịu nghe lời của Rem."
+  },
+  {
+    "id": 70,
+    "en": "Without opposing Subaru’s plan, Rem had been cooperative. ――Rather than believing it to be a miracle, he had wondered what the heck kind of a calamity it heralded.",
+    "vi": "Không phản đối kế hoạch của Subaru, Rem đã tỏ ra rất hợp tác. ――Thay vì tin rằng đây là một phép màu, cậu lại tự hỏi không biết điềm báo tai họa nào đang chờ đợi mình phía trước."
+  },
+  {
+    "id": 71,
+    "en": "But not only was Rem being cooperative at present, she had not even troubled Subaru with various, excessive questions while being carried in the wooden carrier. Instead, she had chided Louis for shifting restlessly and hindering the march, and tried to lessen Subaru’s burden.",
+    "vi": "Nhưng hiện tại Rem không chỉ hợp tác, cô thậm chí còn không làm phiền Subaru bằng những câu hỏi thừa thãi khi được cõng trên cũi gỗ. Thay vào đó, cô còn răn đe Louis khi cô bé ngọ nguậy làm cản trở bước tiến, cố gắng giảm bớt gánh nặng cho Subaru."
+  },
+  {
+    "id": 72,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 73,
+    "en": "Rem: [What is it? You don’t feel like talking, is that it?]",
+    "vi": "Rem: [Sao thế? Anh không muốn nói chuyện à?]"
+  },
+  {
+    "id": 74,
+    "en": "Subaru: [No, no, not at all. You’re jumping to the wrong conclusion. Just, look, our relationship has been pretty strained right?]",
+    "vi": "Subaru: [Không, không, hoàn toàn không phải thế. Em nghĩ oan cho tôi rồi. Chỉ là, em thấy đấy, mối quan hệ của chúng ta trước giờ khá là căng thẳng đúng không?]"
+  },
+  {
+    "id": 75,
+    "en": "Rem: [It still is now, though it is not strained, it is unfriendly.]",
+    "vi": "Rem: [Bây giờ vẫn vậy mà, tuy không đến mức căng thẳng, nhưng vẫn là không thân thiện.]"
+  },
+  {
+    "id": 76,
+    "en": "Subaru: [I thought the unfriendliness had softened a bit!]",
+    "vi": "Subaru: [Tôi cứ nghĩ sự bất hòa đã giảm bớt một chút rồi chứ!]"
+  },
+  {
+    "id": 77,
+    "en": "Rem’s eyes looked at him with disgust, and Subaru’s heart was wounded once again. But, being careful to protect the injury he had just gotten from Rem, he scratched his cheek with his fingers.",
+    "vi": "Đôi mắt Rem nhìn cậu đầy vẻ ghét bỏ, khiến trái tim Subaru lại một lần nữa bị tổn thương sâu sắc. Nhưng cậu cẩn thận che giấu vết thương lòng vừa bị Rem giáng xuống, khẽ đưa tay gãi gãi má."
+  },
+  {
+    "id": 78,
+    "en": "Subaru: [I don’t know everything about you either. But, I know more about you than you do now. If there’s anything you want to ask, I’ll answer as much as I can. But…]",
+    "vi": "Subaru: [Tôi cũng không biết tất cả mọi thứ về em. Nhưng tôi biết về em nhiều hơn bản thân em hiện tại. Nếu có bất kỳ điều gì em muốn hỏi, tôi sẽ trả lời nhiều nhất có thể. Nhưng...]"
+  },
+  {
+    "id": 79,
+    "en": "Rem: [Whether or not to believe you is up to me...]",
+    "vi": "Rem: [Tin hay không là quyền của tôi...]"
+  },
+  {
+    "id": 80,
+    "en": "Subaru: [Mhm.]",
+    "vi": "Subaru: [Mhm.]"
+  },
+  {
+    "id": 81,
+    "en": "Subaru gave a short nod, and with a glance examined Rem’s appearance.",
+    "vi": "Subaru khẽ gật đầu, khéo léo quan sát biểu cảm của Rem."
+  },
+  {
+    "id": 82,
+    "en": "She was carding her fingers through Louis’s hair, and frowning as if in deep thought. After a short moment, Rem once again met Subaru’s eyes and said,",
+    "vi": "Cô vẫn đang luồn những ngón tay qua mái tóc của Louis, đôi lông mày khẽ chau lại như đang suy nghĩ sâu xa. Sau một khoảnh khắc ngắn, Rem một lần nữa nhìn thẳng vào mắt Subaru và nói,"
+  },
+  {
+    "id": 83,
+    "en": "Rem: [I do not know.]",
+    "vi": "Rem: [Tôi không biết.]"
+  },
+  {
+    "id": 84,
+    "en": "Subaru: [You don’t know… about yourself?]",
+    "vi": "Subaru: [Em không biết… về bản thân mình sao?]"
+  },
+  {
+    "id": 85,
+    "en": "Rem: [About you. ...What in the world kind of person are you, I do not understand it at all. Because what I sense and what I see do not match.]",
+    "vi": "Rem: [Về anh. ...Rốt cuộc anh là người thế nào, tôi hoàn toàn không thể hiểu nổi. Bởi vì những gì tôi cảm nhận được và những gì tôi nhìn thấy không hề trùng khớp.]"
+  },
+  {
+    "id": 86,
+    "en": "Her lips pursed tightly, Rem’s icy look was tinged with heat.",
+    "vi": "Đôi môi mím chặt, ánh mắt băng giá của Rem thấp thoáng chút dao động."
+  },
+  {
+    "id": 87,
+    "en": "It was not that the distance between their hearts had increased, it was that the level of seriousness had risen. As Rem evaluated Subaru, the earnestness in those eyes increased.",
+    "vi": "Không phải khoảng cách giữa hai con tim xa thêm, mà là mức độ nghiêm túc đã tăng lên. Khi Rem đánh giá Subaru, sự chân thành trong đôi mắt ấy lại càng sâu sắc."
+  },
+  {
+    "id": 88,
+    "en": "It was evidence that at least she thought Subaru’s humanity was worthy of investigation.",
+    "vi": "Đó là bằng chứng cho thấy ít nhất cô cũng nghĩ con người của Subaru xứng đáng để tìm hiểu."
+  },
+  {
+    "id": 89,
+    "en": "Subaru: [Compared to when you treated me like an incarnation of evil without giving me a chance to explain, this feels like a Great Leap Forward.]",
+    "vi": "Subaru: [So với lúc em coi tôi như hiện thân của quỷ dữ mà chẳng thèm cho tôi một cơ hội giải thích, thế này dẫu là một Bước Tiến Vĩ Đại rồi.]"
+  },
+  {
+    "id": 90,
+    "en": "Rem: [I still think there is a paper thin difference between you and evil incarnate… However, it is just that we have reached a point where it seems fine to insert one thin sheet of paper.]",
+    "vi": "Rem: [Tôi vẫn nghĩ ranh giới giữa anh và ác quỷ mỏng như một tờ giấy… Tuy nhiên, chỉ là chúng ta đã đạt đến mức có thể nhét vừa một tờ giấy mỏng ở giữa thôi.]"
+  },
+  {
+    "id": 91,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 92,
+    "en": "The few words she added felt like a conciliatory handshake from Rem.",
+    "vi": "Vài lời cô nói thêm cảm giác như một cái bắt tay hòa giải từ Rem."
+  },
+  {
+    "id": 93,
+    "en": "With relief, Subaru reached out to grasp that invisible handshake. Rem made a distrustful face at Subaru, who shook an invisible hand in midair.",
+    "vi": "Trong lòng nhẹ nhõm, Subaru đưa tay ra nắm lấy cái bắt tay vô hình đó. Rem lộ vẻ mặt nghi ngờ nhìn Subaru, người đang tự mình bắt tay với không khí giữa chừng."
+  },
+  {
+    "id": 94,
+    "en": "In any case――,",
+    "vi": "Dù sao đi nữa――,"
+  },
+  {
+    "id": 95,
+    "en": "Subaru: [Well, our thin ice relationship has reached a place of having a thin sheet of paper inserted… How about it? Anything you want to ask?]",
+    "vi": "Subaru: [Thôi thì, mối quan hệ như đi trên băng mỏng của chúng ta dẫu đạt tới mức nhét vừa một tờ giấy rồi… Thế nào? Em có muốn hỏi gì không?]"
+  },
+  {
+    "id": 96,
+    "en": "Rem: [...Please let me think a bit more.]",
+    "vi": "Rem: [...Xin hãy để tôi suy nghĩ thêm một chút.]"
+  },
+  {
+    "id": 97,
+    "en": "Unprepared to have a heart-to-heart with Subaru, Rem shook her head and requested that.",
+    "vi": "Chưa sẵn sàng mở lòng với Subaru, Rem lắc đầu đưa ra yêu cầu đó."
+  },
+  {
+    "id": 98,
+    "en": "Rem’s way of preparation―― More accurately, Rem had yet to prepare herself to believe Subaru.",
+    "vi": "Sự chuẩn bị của Rem―― Nói chính xác hơn, Rem vẫn chưa chuẩn bị tâm lý để tin tưởng Subaru."
+  },
+  {
+    "id": 99,
+    "en": "Right now, it was possible she was worried about listening to his story, in a situation where she was unable to completely trust Subaru, and the information being too much to handle.",
+    "vi": "Lúc này, có khả năng cô đang lo lắng về việc nghe câu chuyện của cậu trong hoàn cảnh bản thân chưa thể hoàn toàn tin tưởng Subaru, sợ rằng lượng thông tin sẽ quá tải đối với mình."
+  },
+  {
+    "id": 100,
+    "en": "Honestly, he would be lying if he said that he did not feel impatient about Rem worrying like that but,",
+    "vi": "Thật lòng mà nói, nếu bảo cậu không hề cảm thấy sốt ruột khi thấy Rem đắn đo như thế thì dứt định là nói dối rồi, nhưng mà,"
+  },
+  {
+    "id": 101,
+    "en": "Subaru: [――Gotcha. I’ll wait for you to be ready.]",
+    "vi": "Subaru: [――Hiểu rồi. Tôi sẽ đợi cho đến khi em sẵn sàng.]"
+  },
+  {
+    "id": 102,
+    "en": "Rem: [...Please do not say it like that, like it is someone else’s problem. Since you could say that it also depends on your daily behavior, I think.]",
+    "vi": "Rem: [...Xin anh đừng nói như thể đó là chuyện của người khác vậy. Bởi vì tôi nghĩ điều đó cũng phụ thuộc vào hành vi hàng ngày của anh nữa.]"
+  },
+  {
+    "id": 103,
+    "en": "Subaru: [I see… In other words, the only way to gain early access to that route is if I earn Rem likeability and credibility points like crazy?]",
+    "vi": "Subaru: [Ra là vậy… Nói cách khác, cách duy nhất để tôi sớm có được đặc quyền đó là phải cật lực tích lũy điểm thiện cảm và uy tín của Rem đúng không?]"
+  },
+  {
+    "id": 104,
+    "en": "Rem: [I do not understand the meaning, but I understand what you said is unpleasant.]",
+    "vi": "Rem: [Tôi không hiểu ý anh, nhưng tôi biết những gì anh vừa nói thật đáng ghét.]"
+  },
+  {
+    "id": 105,
+    "en": "Putting his hand on his chin, Subaru could see that Rem’s displeasure was accumulating once again.",
+    "vi": "Đưa tay lên cằm, Subaru có thể thấy sự khó chịu của Rem lại bắt đầu dâng lên."
+  },
+  {
+    "id": 106,
+    "en": "As that conversation unfolded, from below the two of them――,",
+    "vi": "Trong lúc cuộc trò chuyện đó đang diễn ra, từ phía dưới hai người họ――,"
+  },
+  {
+    "id": 107,
+    "en": "Holly: [Sorry to keep you waiting~. We had fun taking apart the black deer and we’re done~.]",
+    "vi": "Holly: [Xin lỗi vì bắt mọi người phải chờ lâu nhé~. Bọn mình vừa xẻ thịt con hắc hươu xong rồi nè~.]"
+  },
+  {
+    "id": 108,
+    "en": "Like that, Holly returned with a face-splitting grin.",
+    "vi": "Cứ như vậy, Holly quay trở lại với nụ cười rạng rỡ ngoác tận mang tai."
+  },
+  {
+    "id": 109,
+    "en": "She took great delight in the dismembered black deer, hung from a branch she carried on her shoulder. Behind the chipper Holly was the tired face of Kuna, who seemed to have worked hard at the job of dismemberment.",
+    "vi": "Cô vô cùng thích thú với những tảng thịt hắc hươu đã được xẻ nhỏ, treo trên một cành cây gác trên vai cô. Phía sau một Holly tươi tỉnh là khuôn mặt phờ phạc của Kuna, người có vẻ đã làm việc cật lực cho nhiệm vụ xẻ thịt."
+  },
+  {
+    "id": 110,
+    "en": "Kuna: [Why did I have to do everything myself…]",
+    "vi": "Kuna: [Tại Chiêu gì tôi lại phải tự mình làm hết mọi thứ chứ…]"
+  },
+  {
+    "id": 111,
+    "en": "Holly: [Because, Kuna can do it better~. If the meat got ruined, even if I eat and eat my tummy’d still end up especially empty~]",
+    "vi": "Holly: [Tại vì Kuna khéo tay hơn mà~. Nếu thịt bị hỏng thì dẫu mình có ăn bao nhiêu bụng cũng vẫn đói meo hà~]"
+  },
+  {
+    "id": 112,
+    "en": "Kuna: [Why?! If you eat something, seriously keep it in your stomach, you weirdo!]",
+    "vi": "Kuna: [Tại sao chứ?! Đã ăn cái gì vào bụng thì nghiêm túc giữ nó lại đi, đồ lập dị này!]"
+  },
+  {
+    "id": 113,
+    "en": "Kuna yelled at the easy-going Holly, but the latter laughed it off.",
+    "vi": "Kuna hét vào mặt Holly dễ tính, nhưng đối phương chỉ cười trừ cho qua chuyện."
+  },
+  {
+    "id": 114,
+    "en": "Holly then set her eyes on the bundle of dried branches Subaru had collected.",
+    "vi": "Holly sau đó hướng mắt về phía đống củi khô mà Subaru đã thu gom."
+  },
+  {
+    "id": 115,
+    "en": "Holly: [Oh, you properly gathered them~. I’m impressed, I’m impressed~.]",
+    "vi": "Holly: [Ồ, cậu nhặt củi tử tế ghê nha~. Giỏi lắm, giỏi lắm~.]"
+  },
+  {
+    "id": 116,
+    "en": "Subaru: [I can’t do any hunting. I’ll at least do this much… Can you instruct me on how to start a fire?]",
+    "vi": "Subaru: [Tôi chẳng biết săn bắn gì cả. Ít ra dẫu phải làm được chừng này… Cô có thể chỉ cho tôi cách nhóm lửa không?]"
+  },
+  {
+    "id": 117,
+    "en": "Holly: [Instruct? Never heard of that word before~.]",
+    "vi": "Holly: [Chỉ sao? Mình chưa nghe từ đó bao giờ hết á~.]"
+  },
+  {
+    "id": 118,
+    "en": "Kuna: [Obviously it means to teach…]",
+    "vi": "Kuna: [Rõ ràng ý anh ta là dạy đó…]"
+  },
+  {
+    "id": 119,
+    "en": "Holly tilted her head in contemplation, replying to Kuna with a giggle and a “Does it~?”.",
+    "vi": "Holly nghiêng đầu suy nghĩ, rồi khúc khích đáp lại Kuna: \"Thế hả~?\"."
+  },
+  {
+    "id": 120,
+    "en": "Next, Holly brought out a small, black stone from her luggage. Allowing Subaru to witness it, she struck the stone quickly and used the sparks produced to easily light the branches on fire.",
+    "vi": "Tiếp đó, Holly lấy ra một viên đá nhỏ màu đen từ hành lý của mình. Để Subaru chứng kiến tận mắt, cô nhanh tay đánh viên đá và dùng những tia lửa tạo ra để dễ dàng châm lửa cho đống củi."
+  },
+  {
+    "id": 121,
+    "en": "Subaru: [Woa, woahhhhhh, awesome. That’s some artisanship.]",
+    "vi": "Subaru: [Oa, oa, đỉnh thật sự. Đúng là tay nghề nghệ nhân.]"
+  },
+  {
+    "id": 122,
+    "en": "Holly: [It’s a fire starter stone~. It’s easy-peasy once you get the hang of it~. Subaru, you try too~.]",
+    "vi": "Holly: [Đây là đá nhóm lửa đó~. Khi quen tay rồi thì dễ như ăn kẹo hà~. Subaru cũng thử đi~.]"
+  },
+  {
+    "id": 123,
+    "en": "Subaru: [You’re letting me try? Okay, I’ll just borrow this…]",
+    "vi": "Subaru: [Cô cho tôi thử sao? Được rồi, tôi mượn viên đá một lát…]"
+  },
+  {
+    "id": 124,
+    "en": "Holly casually threw the fire starter stone to Subaru. He attempted to imitate Holly’s actions from earlier, and as a result, he failed three times, but on his fourth try, he finally was able to produce sparks.",
+    "vi": "Holly thản nhiên ném viên đá nhóm lửa cho Subaru. Cậu cố gắng bắt chước hành động lúc nãy của Holly, kết quả là thất bại liên tiếp ba lần, nhưng đến lần thứ tư, cuối cùng cậu dẫu tạo ra được tia lửa."
+  },
+  {
+    "id": 125,
+    "en": "All he had to do now was to do the same thing over the dried branches――,",
+    "vi": "Tất cả những gì cậu phải làm bây giờ là lặp lại hành động đó trên đống củi khô――,"
+  },
+  {
+    "id": 126,
+    "en": "Subaru: [It lit up!]",
+    "vi": "Subaru: [Lửa lên rồi!]"
+  },
+  {
+    "id": 127,
+    "en": "Holly: [Well done~! Now if any meat pops out, it can be cooked and eaten anytime~!]",
+    "vi": "Holly: [Làm tốt lắm~! Bây giờ nếu có miếng thịt nào xuất hiện là có thể nướng ăn bất cứ lúc nào rồi~!]"
+  },
+  {
+    "id": 128,
+    "en": "Kuna: [The meat she’s talking about are the animals before becoming meat, so don’t take her for her word.]",
+    "vi": "Kuna: [Thịt mà chị ấy nói là mấy con thú trước khi bị xẻ thịt đấy, nên anh đừng có tin sái cổ nhé.]"
+  },
+  {
+    "id": 129,
+    "en": "Towards Subaru, who had gained a small sense of accomplishment, Holly and Kuna appraised him from opposite extremes.",
+    "vi": "Đối với Subaru, người vừa đạt được một chút cảm giác thành tựu, Holly và Kuna đưa ra những lời đánh giá hoàn toàn trái ngược nhau."
+  },
+  {
+    "id": 130,
+    "en": "Accepting both of those in his heart, Subaru gazed at the black deer’s meat roasting over the campfire. He brought up a new topic, saying “By the way,”",
+    "vi": "Đón nhận cả hai ý kiến đó trong lòng, Subaru nhìn chăm chú vào những miếng thịt hắc hươu đang được nướng trên đống lửa trại. Cậu khơi ra một chủ đề mới, nói: \"Nhân tiện,\""
+  },
+  {
+    "id": 131,
+    "en": "Subaru: [Back when we found the herd of deers, Holly’s speed was amazing. By the time I realised, you had already shot an arrow.]",
+    "vi": "Subaru: [Lúc tìm thấy đàn hươu, tốc độ của Holly đỉnh thật đấy. Đến khi tôi nhận ra thì cô dẫu bắn xong một mũi tên rồi.]"
+  },
+  {
+    "id": 132,
+    "en": "Holly: [It’s because Kuna found the herd~. Because of her we could get fresh meat~.]",
+    "vi": "Holly: [Là nhờ Kuna phát hiện ra đàn thú trước đó~. Nhờ cậu ấy mà bọn mình mới có thịt tươi để ăn nè~.]"
+  },
+  {
+    "id": 133,
+    "en": "Kuna: [The only thing I did was say that the herd was there… Leaving aside firing quickly, anyone in Shudraq can shoot a bow and arrow.]",
+    "vi": "Kuna: [Tôi chỉ nói là đàn thú ở đó thôi mà… Chứ còn chuyện bắn nhanh thì bất kỳ ai trong tộc Shudraq cũng bắn cung được hết.]"
+  },
+  {
+    "id": 134,
+    "en": "Holly: [Except Kuna, you know~.]",
+    "vi": "Holly: [Trừ Kuna ra nha~.]"
+  },
+  {
+    "id": 135,
+    "en": "Kuna: [Uguh]",
+    "vi": "Kuna: [Ự hự]"
+  },
+  {
+    "id": 136,
+    "en": "Having been prodded on a sensitive topic, Kuna’s expression turned into a scowl.",
+    "vi": "Bị chọc đúng chỗ ngứa, vẻ mặt Kuna lập tức nhăn nhó."
+  },
+  {
+    "id": 137,
+    "en": "Rem widened her eyes in surprise to Kuna’s reaction.",
+    "vi": "Rem tròn xoe mắt ngạc nhiên trước phản ứng của Kuna."
+  },
+  {
+    "id": 138,
+    "en": "Rem: [Really? That is unexpected. Kuna’s eyes are good, is what I heard from Mizelda so...]",
+    "vi": "Rem: [Thật sao? Lạ thế nhỉ. Tôi nghe cô Mizelda bảo mắt của Kuna rất tinh mà...]"
+  },
+  {
+    "id": 139,
+    "en": "Kuna: [... Even if my eyes are good, if my arms are bad then there’s no point.]",
+    "vi": "Kuna: [...Dù mắt có tinh thế nào đi nữa, nhưng nếu tay chân vụng về thì dẫu chẳng tích sự gì.]"
+  },
+  {
+    "id": 140,
+    "en": "Holly: [Kuna, who loses even to Utakata in archery. It’s cute~.]",
+    "vi": "Holly: [Kuna còn bắn cung thua cả Utakata nữa cơ. Dễ thương ghê á~.]"
+  },
+  {
+    "id": 141,
+    "en": "Kuna: [Shudduuup!]",
+    "vi": "Kuna: [Im điiiiii!]"
+  },
+  {
+    "id": 142,
+    "en": "Having been rated as below Utakata, Kuna used her hand to strike Holly in the stomach as if using a dagger. However, Holly’s plump body simply bounced the strike back.",
+    "vi": "Bị đem ra so sánh và xếp dưới cả Utakata, Kuna dùng tay đấm vào bụng Holly như thể đang đâm một con dao găm. Tuy nhiên, cơ thể tròn trịa của Holly chỉ đơn giản là nảy ngược cú đấm lại."
+  },
+  {
+    "id": 143,
+    "en": "Rem watched the seemingly practiced interaction between the two with a smile, but hearing about Utakata’s archery put Subaru in a conflicted state of mind.",
+    "vi": "Rem nhìn màn đùa giỡn quen thuộc giữa hai người với nụ cười nhẹ, nhưng khi nghe nói về tài bắn cung của Utakata, Subaru lại rơi vào trạng thái tâm lý giằng xé."
+  },
+  {
+    "id": 144,
+    "en": "Because, Subaru was someone who had once lost his life to Utakata’s poisoned arrow.",
+    "vi": "Bởi vì, Subaru từng có lần mất mạng vì mũi tên tẩm độc của Utakata."
+  },
+  {
+    "id": 145,
+    "en": "In terms of strength, Utakata was not strong enough to kill Subaru. Even so, if poison were to be used, for example, on an arrowhead, there would not be a great handicap in killing power.",
+    "vi": "Xét về sức mạnh, Utakata không đủ mạnh để giết Subaru. Dẫu vậy, nếu chất độc được sử dụng, ví dụ như trên đầu mũi tên, thì sức sát thương sẽ chẳng có mấy sự chênh lệch."
+  },
+  {
+    "id": 146,
+    "en": "When it came to hunting and prey though, the use of poison was probably not highly regarded.",
+    "vi": "Tuy nhiên, khi nói đến việc săn bắn con mồi, việc sử dụng chất độc có lẽ không được đánh giá cao."
+  },
+  {
+    "id": 147,
+    "en": "Subaru: [And also…]",
+    "vi": "Subaru: [Với lại...]"
+  },
+  {
+    "id": 148,
+    "en": "Putting his fingers on his lips, Subaru pondered about the wielder of a heavily drawn bow.",
+    "vi": "Đưa ngón tay lên môi, Subaru suy ngẫm về người đã sử dụng cây cung nặng đó."
+  },
+  {
+    "id": 149,
+    "en": "This was about the Hunter who had attacked Subaru and Rem in the jungle, before being caught by the Imperial Soldier’s camp. The bow master who had protected Subaru and Rem from the Witchbeast once, and murdered Subaru the other.",
+    "vi": "Đây là người thợ săn đã tấn công Subaru và Rem trong rừng sâu, trước khi họ bị bắt giữ bởi doanh trại của quân đội Đế quốc. Người bậc thầy bắn cung đã từng bảo vệ Subaru và Rem khỏi Ma Thú một lần, và đã sát hại Subaru lần khác."
+  },
+  {
+    "id": 150,
+    "en": "The true identity of the Hunter had yet to be discovered.",
+    "vi": "Danh tính thực sự của người thợ săn đó vẫn chưa được tìm ra."
+  },
+  {
+    "id": 151,
+    "en": "That was why, when Holly had shot the black deer, Subaru went pale.",
+    "vi": "Đó là lý do tại sao, khi Holly bắn hạ con hắc hươu, Subaru dẫu tái mét cả mặt."
+  },
+  {
+    "id": 152,
+    "en": "Except, after hearing the talk about the People of Shudraq’s archery skills――,",
+    "vi": "Ngoại trừ việc, sau khi nghe câu chuyện về kỹ năng bắn cung của người Shudraq――,"
+  },
+  {
+    "id": 153,
+    "en": "Subaru: [――It’s someone from Shudraq? Is doubting anyone else wasted thinking?]",
+    "vi": "Subaru: [――Là người của Shudraq sao? Việc nghi ngờ bất kỳ ai khác dẫu là suy nghĩ thừa thãi chăng?]"
+  },
+  {
+    "id": 154,
+    "en": "At that time, Subaru’s group was a suspicious disturbance that had entered the jungle.",
+    "vi": "Vào thời điểm đó, nhóm của Subaru quả thực là một mối đe dọa đáng ngờ xâm nhập vào rừng sâu."
+  },
+  {
+    "id": 155,
+    "en": "Subaru was shouting while searching for Rem. So it was not impossible to think that someone had concluded that Subaru was a suspicious enemy seeking to bring harm, and as a result, decided to eliminate him as a threat. It was most likely the same for the confrontation with the Witchbeast afterwards.",
+    "vi": "Subaru đã hét lớn trong lúc đi tìm Rem. Nên không phải là không thể nghĩ rằng ai đó đã kết luận Subaru là kẻ thù khả nghi muốn gây hại, và kết quả là quyết định tiêu diệt cậu để trừ họa. Cuộc đối đầu với Ma Thú sau đó rất có thể dẫu tương tự."
+  },
+  {
+    "id": 156,
+    "en": "The Hunter had in fact protected Subaru’s group from the Witchbeast. ―― The reasoning to declare that the Hunter was definitely an enemy was weak.",
+    "vi": "Thực tế, người thợ săn quả thực đã bảo vệ nhóm của Subaru khỏi Ma Thú. ―― Lý do để khẳng định người thợ săn chắc chắn là kẻ thù dẫu quá mong manh."
+  },
+  {
+    "id": 157,
+    "en": "Rem: [Holly-san and Kuna-san are good friends, aren’t they.]",
+    "vi": "Rem: [Holly-san và Kuna-san thân nhau ghê nhỉ.]"
+  },
+  {
+    "id": 158,
+    "en": "While Subaru was sunken in thought, Rem had struck up a conversation with Holly and Kuna.",
+    "vi": "Trong lúc Subaru đang chìm đắm trong suy nghĩ, Rem đã chủ động trò chuyện với Holly và Kuna."
+  },
+  {
+    "id": 159,
+    "en": "Rem was talking about Holly and Kuna――the ones who were accompanying Subaru’s group, the young duo from the People of Shudraq.",
+    "vi": "Rem đang nói về Holly và Kuna――những người đang đồng hành cùng nhóm của Subaru, cặp đôi trẻ tuổi thuộc tộc Shudraq."
+  },
+  {
+    "id": 160,
+    "en": "However, the only one who laughed upon being told they were good friends was Holly. Kuna, on the other hand, scrunched up her face in disgust and stuck her tongue out with an unflattering sound.",
+    "vi": "Tuy nhiên, người duy nhất cười phá lên khi được khen là đôi bạn thân thiết chỉ có Holly. Còn Kuna thì nhăn mặt nhăn nhó chán ghét, lè lưỡi tạo ra một âm thanh chối tai."
+  }
+]
