@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 2,
+    "en": "Translated By :",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 3,
+    "en": "Art Sources :",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 4,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 5,
+    "en": "ALL RIGHTS BELONG TO TAPPEI NAGATSUKI, THE ORIGINAL AUTHOR OF RE:ZERO STARTING A LIFE IN A DIFFERENT WORLD FROM ZERO, THIS IS A TRANSLATION OF THE FREE JAPANESE WEB NOVEL INTO ENGLISH",
+    "vi": "BẢN QUYỀN THUỘC VỀ NAGATSUKI TAPPEI, TÁC GIẢ NGUYÊN TÁC CỦA RE:ZERO - BẮT ĐẦU LẠI Ở THẾ GIỚI KHÁC TỪ CON SỐ KHÔNG. ĐÂY LÀ BẢN DỊCH PHI LỢI NHUẬN TỪ WEB NOVEL TIẾNG NHẬT SANG TIẾNG VIỆT."
+  },
+  {
+    "id": 6,
+    "en": "JAPANESE WEB NOVEL SOURCE",
+    "vi": "NGUỒN WEB NOVEL TIẾNG NHẬT"
+  },
+  {
+    "id": 7,
+    "en": "※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 8,
+    "en": "▼△▼△▼△",
+    "vi": "▼△▼△▼△"
+  },
+  {
+    "id": 9,
+    "en": "Machine Translated By :",
+    "vi": "Người dịch (Bản dịch máy có hiệu đính):"
+  },
+  {
+    "id": 10,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính:"
+  },
+  {
+    "id": 11,
+    "en": "Japanese to English Checking By:",
+    "vi": "Đối chiếu Nhật-Anh:"
+  },
+  {
+    "id": 12,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 13,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 14,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua hiệu đính d dẫu được kiểm định chất lượng bởi ít nhất một dịch giả Nhật-Anh để đảm bảo chất lượng. Bản dịch này có thể giảm nhẹ độ chính xác so với bản dịch tay hoàn chỉnh, vì vậy khi đọc chương này, xin quý độc giả vui lòng cân nhắc sự đánh đổi giữa tốc độ d dẫu chất lượng. Bản dịch tay chính thức, chất lượng cao của chương này đang được đội ngũ của chúng tôi thực hiện, nên nếu quý vị muốn đợi bản hoàn thiện hơn, xin hãy ghé lại sau d dẫu theo dõi cập nhật trên mạng xã hội của chúng tôi."
+  },
+  {
+    "id": 15,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 16,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 17,
+    "en": "Looking at his reflection in the crude mirror, Natsuki Subaru―― or rather, the being who used to call himself that, squinted their eyes and carefully inspected themselves over and over again.",
+    "vi": "Nhìn hình ảnh phản chiếu của mình trong tấm gương thô sơ, Natsuki Subaru―― hay đúng hơn là thực thể từng tự gọi mình bằng cái tên đó, nheo mắt cẩn thận quan sát bản thân hết lần này đến lần khác."
+  },
+  {
+    "id": 18,
+    "en": "Dark eyeshadow and carefully curled eyelashes reflected back. The texture of their skin, the greatest point of difference between men and women, was coated with white powder; his lips were painted with a vermillion color that made them look fresh.",
+    "vi": "Phấn mắt sẫm màu d dẫu làn mi được uốn cong cẩn thận hiện lên trong gương. Kết cấu da, điểm khác biệt lớn nhất giữa nam d dẫu nữ, đã được phủ một lớp phấn trắng; đôi môi được tô điểm bằng sắc đỏ son mọng nước ngọt ngào d dẫu tươi tắn."
+  },
+  {
+    "id": 19,
+    "en": "The costume had been quite the challenge, but he had been able to disguise his physique by wearing a lot of loose clothing, despite struggling to achieve a style that matched the southern climate.",
+    "vi": "Trang phục quả là một thử thách lớn, nhưng cậu đã che giấu được vóc dáng của mình bằng cách mặc nhiều lớp quần áo rộng rãi, dù phải trầy trật mới tìm ra được phong cách phù hợp với khí hậu phương nam."
+  },
+  {
+    "id": 20,
+    "en": "At any rate, this time he would have to act not as the daughter of a nobleman, but in a looser and casual manner―― that of a traveling entertainer. Therefore, aside from gestures, the appearance needed to be more “female” in order to fit the design.",
+    "vi": "Dù thế nào đi nữa, lần này cậu không đóng vai con gái của một nhà quý tộc, mà hoạt động theo phong cách phóng khoáng d dẫu bình dân hơn―― một nghệ sĩ biểu diễn rong. Do đó, ngoài các cử chỉ, diện mạo cần phải mang nhiều nét \"nữ tính\" hơn để phù hợp với tạo hình."
+  },
+  {
+    "id": 21,
+    "en": "Subaru: [I'm going to gather as much of my body to my chest and stuff it to the limit...]",
+    "vi": "Subaru: [Mình phải gom hết phần thịt trên cơ thể lên ngực d dẫu độn nó tới giới hạn mới được...]"
+  },
+  {
+    "id": 22,
+    "en": "He had utilized every technique he could think of, pictured the encounters he had so far in his mind.",
+    "vi": "Cậu đã áp dụng mọi kỹ thuật mà mình có thể nghĩ ra, hình dung lại những cuộc gặp gỡ từ trước đến nay trong tâm trí."
+  },
+  {
+    "id": 23,
+    "en": "Starting with Emilia, then Felt and the loathsome Elsa, followed by Ram and Rem, plus Beatrice and Petra, setting Meili aside. After that, Priscilla, Crusch, Anastasia, and Ferris, who he should look up to as a mentor, and then Frederica. Then there were the Witches, well-dressed only in appearance, annoyingly―― he had gathered his imagination of “beauty” from all the beautiful girls, beautiful women, and beautiful girl-like beings he had met in this other world so far.",
+    "vi": "Bắt đầu từ Emilia, rồi Felt d dẫu kẻ đáng ghét Elsa, tiếp theo là Ram d dẫu Rem, cộng thêm Beatrice d dẫu Petra, tạm bỏ qua Meili sang một bên. Sau đó là Priscilla, Crusch, Anastasia, d dẫu Ferris, người mà cậu nên tôn kính như một bậc tiền bối, d dẫu Frederica. Rồi đến các Phù thủy, tuy chỉ đẹp đẽ ở vẻ ngoài nhưng lại vô cùng đáng ghét―― cậu đã tập hợp tất cả những hình ảnh về \"sự xinh đẹp\" từ mọi cô gái xinh xắn, phụ nữ kiều diễm, d dẫu những thực thể giống như thiếu nữ mà cậu đã gặp ở thế giới bên kia cho đến nay."
+  },
+  {
+    "id": 24,
+    "en": "――He must constantly imagine himself as the most beautiful version of herself.",
+    "vi": "――Cậu phải luôn tưởng tượng mình là phiên bản đẹp đẽ nhất của chính cô."
+  },
+  {
+    "id": 25,
+    "en": "He did not need to think about anything else beyond the vision he held.",
+    "vi": "Cậu không cần nghĩ đến bất kỳ điều gì khác ngoài hình ảnh lý tưởng mà mình đang nắm giữ."
+  },
+  {
+    "id": 26,
+    "en": "He had made the best move he could with what he currently had on hand, and arrived at the place where he needed to be.",
+    "vi": "Cậu đã thực hiện nước đi tốt nhất có thể với những gì hiện có trong tay, d dẫu đi đến nơi mà mình cần phải đến."
+  },
+  {
+    "id": 27,
+    "en": "Therefore――,",
+    "vi": "Chính vì thế――,"
+  },
+  {
+    "id": 28,
+    "en": "Subaru: [――This is me.]",
+    "vi": "Subaru: [――Đây chính là tôi.]"
+  },
+  {
+    "id": 29,
+    "en": "His sight left the mirror, then he slowly took a deep breath and turned around.",
+    "vi": "Rời mắt khỏi gương, cậu chậm rãi hít một hơi thật sâu d dẫu quay người lại."
+  },
+  {
+    "id": 30,
+    "en": "Alone, after hours of trying to fight in solitude, he finally pushed open the door. Beyond it, he could see his friends with bated breath, waiting for the success or failure of this mission to take hold.",
+    "vi": "Một mình, sau nhiều giờ nỗ lực chiến đấu trong sự cô độc, cuối cùng cậu cũng đẩy cánh cửa ra. Phía sau cánh cửa, cậu có thể nhìn thấy những người bạn của mình đang nín thở chờ đợi sự thành bại của sứ mệnh này."
+  },
+  {
+    "id": 31,
+    "en": "The women turned their attention to Subaru as he opened the door and stepped out.",
+    "vi": "Những người phụ nữ dồn sự chú ý vào Subaru khi cậu mở cửa d dẫu bước ra ngoài."
+  },
+  {
+    "id": 32,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 33,
+    "en": "There was silence, and he could feel the tense atmosphere.",
+    "vi": "Sự im lặng bao trùm, d dẫu cậu cảm nhận được bầu không khí vô cùng căng thẳng."
+  },
+  {
+    "id": 34,
+    "en": "His immediate anxiety refused to allow him to understand which emotion was causing the silence. Certainly, he was lacking a number of cards to play with. If he’d had that, if he’d had this, there would be no end to his regrets.",
+    "vi": "Sự lo lắng tột độ lúc này khiến cậu không thể hiểu được cảm xúc nào đang tạo nên sự im lặng đó. Chắc chắn, cậu đang thiếu rất nhiều quân bài để chơi. Nếu có cái này, nếu có cái kia, sự hối tiếc của cậu sẽ không bao giờ có hồi kết."
+  },
+  {
+    "id": 35,
+    "en": "However, thinking about it, was it not about taking initiative?",
+    "vi": "Tuy nhiên, nghĩ lại thì, chẳng phải vấn đề là phải chủ động sao?"
+  },
+  {
+    "id": 36,
+    "en": "One could not always go into battle in perfect condition. In any case, life was all about playing the cards one had been dealt, wasn’t it?",
+    "vi": "Người ta không thể lúc nào cũng lâm trận trong trạng thái hoàn hảo nhất. Dù thế nào đi nữa, cuộc sống cũng chỉ là việc chơi những quân bài mà mình được chia mà thôi, không phải sao?"
+  },
+  {
+    "id": 37,
+    "en": "And it was when he found himself making excuses as if he had already lost the battle.",
+    "vi": "D dẫu đó là lúc cậu nhận ra mình đang tự viện lý do như thể đã thua trận."
+  },
+  {
+    "id": 38,
+    "en": "???: [...Brilliant.]",
+    "vi": "???: [...Rực rỡ lắm.]"
+  },
+  {
+    "id": 39,
+    "en": "He heard the faint sound of air bursting and looked up.",
+    "vi": "Cậu nghe thấy tiếng không khí lay động khẽ vang lên d dẫu ngước mắt nhìn lên."
+  },
+  {
+    "id": 40,
+    "en": "There he saw that the true nature of this burst had been nothing of the sort. It was the sound of hands coming together. It was the sound of applause. The sound was a mixture of congratulations, admiration, and respect.",
+    "vi": "Ở đó, cậu thấy thực chất tiếng động ấy không phải là bất kỳ âm thanh bạo lực nào. Đó là tiếng vỗ tay của đôi bàn tay ghép lại. Đó là tiếng vỗ tay tán thưởng. Âm thanh ấy là sự pha trộn giữa lời chúc mừng, sự ngưỡng mộ d dẫu lòng kính trọng."
+  },
+  {
+    "id": 41,
+    "en": "Subaru: [Mi...]",
+    "vi": "Subaru: [Mi...]"
+  },
+  {
+    "id": 42,
+    "en": "He looked at the person clapping and was about to call out in a manner unbefitting a lady, but stopped himself in time.",
+    "vi": "Cậu nhìn người đang vỗ tay định cất tiếng réo gọi theo cách không mấy phù hợp với một quý cô, nhưng đã kịp dừng lại đúng lúc."
+  },
+  {
+    "id": 43,
+    "en": "It was still incomplete. He gently put his hand to his throat and let the air bounce there in small puffs. Then, just as the gears clicked in his mind, he smiled,",
+    "vi": "Vẫn chưa hoàn hảo. Cậu nhẹ nhàng đặt tay lên cổ họng, để luồng khí khẽ rung lên ở đó từng đợt nhỏ. Rồi, ngay khi các khớp bánh răng trong tâm trí ăn khớp với nhau, cậu khẽ mỉm cười,"
+  },
+  {
+    "id": 44,
+    "en": "Subaru: [Mizelda-san.]",
+    "vi": "Subaru: [Mizelda-san.]"
+  },
+  {
+    "id": 45,
+    "en": "Mizelda: [――Hk, no way, your voice? What in the world, what in the world, how in the...!?] [1]",
+    "vi": "Mizelda: [――Hả, không thể nào, giọng của cậu sao? Cái gì thế này, rốt cuộc cậu đã làm cách nào...!?] [1]"
+  },
+  {
+    "id": 46,
+    "en": "Subaru: [Once I’ve decided to do something, it’s my duty to do my best. There are lives that can be saved if I don't cut corners. If that's the case, then there's only one thing I have to do.]",
+    "vi": "Subaru: [Một khi tớ đã quyết định làm gì, bổn phận của tớ là phải cố gắng hết sức. Có những mạng sống có thể được cứu nếu tớ không làm việc hời hợt. Nếu đã như thế, thì chỉ có một điều tớ phải thực hiện thôi.]"
+  },
+  {
+    "id": 47,
+    "en": "Mizelda: [Ooh...!]",
+    "vi": "Mizelda: [Ồ...!]"
+  },
+  {
+    "id": 48,
+    "en": "The smile disappeared and he pointed one finger up towards the heavens.",
+    "vi": "Nụ cười vụt tắt d dẫu cậu giơ một ngón tay chỉ lên trời cao."
+  },
+  {
+    "id": 49,
+    "en": "The close thicket of trees prevented him from seeing the sun, but it was not the heavenly beings he had to show this to, only the many friends gathered here.",
+    "vi": "Những tán cây rậm rạp ngăn cậu nhìn thấy mặt trời, nhưng cậu không cần phải phô diễn điều này cho các đấng thần linh trên cao, mà chỉ cần cho những người bạn đang tập hợp ở đây chứng kiến mà thôi."
+  },
+  {
+    "id": 50,
+    "en": "Look at them, from head to toe.",
+    "vi": "Hãy nhìn xem, từ đầu đến chân."
+  },
+  {
+    "id": 51,
+    "en": "It didn’t matter if it was from the front, the back, the right, the left, or anywhere in between.",
+    "vi": "Chẳng quan trọng là từ phía trước, phía sau, bên phải, bên trái, hay bất kỳ góc độ nào khác."
+  },
+  {
+    "id": 52,
+    "en": "――He must constantly imagine himself as the most beautiful.",
+    "vi": "――Cậu phải luôn tưởng tượng mình là người đẹp đẽ nhất."
+  },
+  {
+    "id": 53,
+    "en": "If he succeeded in tracing that image, succeeded in recreating the ideal, then he would have nothing to fear.",
+    "vi": "Nếu cậu thành công trong việc phác họa hình ảnh đó, thành công tái tạo lại vẻ lý tưởng, thì cậu sẽ không có gì phải sợ hãi."
+  },
+  {
+    "id": 54,
+    "en": "Here, with authority――,",
+    "vi": "Tại đây, đầy uy quyền――,"
+  },
+  {
+    "id": 55,
+    "en": "Subaru: [――Natsumi Schwartz’s advent.]",
+    "vi": "Subaru: [――Sự giáng lâm của Natsumi Schwartz.]"
+  },
+  {
+    "id": 56,
+    "en": "That's what Natsumi Schwartz heroically―― or rather, declared like a lady.",
+    "vi": "Đó là những gì Natsumi Schwartz đã dũng mãnh―― hay đúng hơn là tuyên bố đầy đoan trang như một quý cô."
+  },
+  {
+    "id": 57,
+    "en": "Mizelda, the woman who had stopped clapping in front of him, nodded deeply. She then lined up next to Natsumi, supporting his back with her hand,",
+    "vi": "Mizelda, người phụ nữ đã ngừng vỗ tay trước mặt cậu, khẽ gật đầu sâu sắc. Cô liền đứng cạnh Natsumi, đặt tay sau lưng để đỡ lấy cậu,"
+  },
+  {
+    "id": 58,
+    "en": "Mizelda: [My world was too small. You were right, Subaru… No, Natsumi.]",
+    "vi": "Mizelda: [Thế giới của ta đã quá nhỏ bé. Cậu đã đúng, Subaru… Không, Natsumi.]"
+  },
+  {
+    "id": 59,
+    "en": "Subaru: [You understand now, don't you, Mizelda-san?]",
+    "vi": "Subaru: [Giờ thì chị đã hiểu rồi đúng không, Mizelda-san?]"
+  },
+  {
+    "id": 60,
+    "en": "Mizelda: [Ahh, it is frustrating, but I do understand now… Beauty can be made.]",
+    "vi": "Mizelda: [Anh, thật đáng ghét, nhưng giờ ta đã hiểu rồi… Vẻ đẹp quả thực có thể kiến tạo được.]"
+  },
+  {
+    "id": 61,
+    "en": "Mizelda lowered the corners of her eyes and smiled gently, while Natsumi smiled back.",
+    "vi": "Mizelda khẽ nheo mắt cười dịu dàng, còn Natsumi mỉm cười đáp lại."
+  },
+  {
+    "id": 62,
+    "en": "The People of Shudraq that were gathered there also looked at each other as they witnessed the beautiful scene. Then, applause rained down, coming as a belated blessing.",
+    "vi": "Những tộc nhân Shudraq tập hợp ở đó cũng nhìn nhau khi chứng kiến cảnh tượng tuyệt đẹp này. Rồi, những tiếng vỗ tay vang dội như một lời chúc phúc muộn màng đổ xuống."
+  },
+  {
+    "id": 63,
+    "en": "The applause continued to pour down, congratulating Natsumi on her unveiling.",
+    "vi": "Tiếng vỗ tay tiếp tục vang lên không ngớt, chúc mừng màn ra mắt của Natsumi."
+  },
+  {
+    "id": 64,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 65,
+    "en": "???: [What is this?]",
+    "vi": "???: [Cái quái gì thế này?]"
+  },
+  {
+    "id": 66,
+    "en": "???: [Uh~]",
+    "vi": "???: [Ư~]"
+  },
+  {
+    "id": 67,
+    "en": "The ones who couldn't quite get over it watched the scene with their cheeks contorted into a frown.",
+    "vi": "Những kẻ không thể nuốt trôi cảnh tượng này chỉ biết đứng nhìn với khuôn mặt méo xẹo đầy khó chịu."
+  },
+  {
+    "id": 68,
+    "en": "△ ▼ △ ▼ △ ▼ △",
+    "vi": "△ ▼ △ ▼ △ ▼ △"
+  },
+  {
+    "id": 69,
+    "en": "Subaru: [And so, Natsumi Schwartz was born. I was a bit confused, since the different makeup tools and all, but I managed to get this much done.]",
+    "vi": "Subaru: [Và thế là, Natsumi Schwartz đã ra đời. Tớ có chút bối rối vì các dụng cụ trang điểm khá khác biệt, nhưng tớ đã xoay sở để hoàn thành đến mức này đấy.]"
+  },
+  {
+    "id": 70,
+    "en": "Rem: [Are you kidding me?]",
+    "vi": "Rem: [Anh đang đùa tôi đấy à?]"
+  },
+  {
+    "id": 71,
+    "en": "Subaru: [Eh!?]",
+    "vi": "Subaru: [Hả!?]"
+  },
+  {
+    "id": 72,
+    "en": "After returning to the meeting place and setting up another assembly, Natsumi―― or rather, Subaru's words were answered by Rem, her gaze gelid, her tone glaciated .",
+    "vi": "Sau khi trở lại phòng họp d dẫu chuẩn bị cho một cuộc thảo luận khác, những lời của Natsumi―― hay đúng hơn là Subaru đã bị Rem phản hồi bằng một ánh mắt lạnh như băng d dẫu giọng điệu như đóng băng."
+  },
+  {
+    "id": 73,
+    "en": "Rem's chilly attitude did not change even after showing her the results. Subaru pointed to his face and said,",
+    "vi": "Thái độ lạnh lùng của Rem không hề thay đổi ngay cả sau khi được chiêm ngưỡng thành quả. Subaru chỉ tay vào mặt mình d dẫu nói,"
+  },
+  {
+    "id": 74,
+    "en": "Subaru: [I need fake eyelashes after all… For the wig. I managed to borrow some black hair from the Shudraq...]",
+    "vi": "Subaru: [Rốt cuộc tớ vẫn cần mi giả… Còn về bộ tóc giả, tớ đã mượn được ít tóc đen từ tộc Shudraq...]"
+  },
+  {
+    "id": 75,
+    "en": "Rem: [I'm not talking about that. I think the makeup and wigs are well done. But you don't have to talk like a woman forever.]",
+    "vi": "Rem: [Tôi không nói về chuyện đó. Tôi thừa nhận lớp trang điểm d dẫu tóc giả được làm rất tốt. Nhưng anh không cần phải nói chuyện như một người phụ nữ mãi thế đâu.]"
+  },
+  {
+    "id": 76,
+    "en": "Subaru: [Yes, but… the state of mind is also important, isn’t it? If I’m not careful on a regular basis, I never know where I might fall apart. Besides...]",
+    "vi": "Subaru: [Đúng vậy, nhưng… trạng thái tâm trí cũng rất quan trọng mà, đúng không? Nếu tớ không cẩn thận trong sinh hoạt thường ngày, tớ chẳng biết mình sẽ bị lộ ở đâu đâu. Hơn nữa...]"
+  },
+  {
+    "id": 77,
+    "en": "Rem: [Besides?]",
+    "vi": "Rem: [Hơn nữa?]"
+  },
+  {
+    "id": 78,
+    "en": "Subaru: [If I indulge in the fact that I’m a man, the goddess of beauty will turn her back on me and… Ouch ouch ouch!]",
+    "vi": "Subaru: [Nếu tớ cứ ỷ lại vào việc mình là đàn ông, nữ thần sắc đẹp sẽ quay lưng lại với tớ d dẫu… Ái đau đau đau!]"
+  },
+  {
+    "id": 79,
+    "en": "Just as Subaru was about to speak seriously, Rem pulled his ear quite hard.",
+    "vi": "Ngay khi Subaru chuẩn bị nói chuyện một cách nghiêm túc, Rem đã véo tai cậu một phát thật đau."
+  },
+  {
+    "id": 80,
+    "en": "He couldn’t help but get teary-eyed as he quickly moved away. Subaru decided to slip close to Mizelda, who was watching the proceedings.",
+    "vi": "Cậu không khỏi rơm rớm nước mắt vội vã lùi ra xa. Subaru quyết định nép sát vào người Mizelda, người đang quan sát diễn biến từ nãy đến giờ."
+  },
+  {
+    "id": 81,
+    "en": "Subaru: [Mizelda-anesama, I'm afraid of Rem-san...]",
+    "vi": "Subaru: [Mizelda-anesama, em sợ Rem-san quá...]"
+  },
+  {
+    "id": 82,
+    "en": "Mizelda: [Umm, don't cry, Natsumi... Strangely enough, you look so cute, even though I know you're Subaru. Taritta should learn from you.]",
+    "vi": "Mizelda: [Ừm, đừng khóc mà, Natsumi... Lạ lùng thật đấy, trông cậu đáng yêu quá chừng, dù ta biết thừa cậu là Subaru. Taritta nên học hỏi từ cậu đấy.]"
+  },
+  {
+    "id": 83,
+    "en": "Taritta: [Sister!]",
+    "vi": "Taritta: [Chị hai!]"
+  },
+  {
+    "id": 84,
+    "en": "While her sister patted Subaru’s head, Taritta rolled her eyes at Mizelda’s ruthless comment.",
+    "vi": "Trong khi chị gái cô đang xoa đầu Subaru, Taritta trợn tròn mắt trước lời nhận xét phũ phàng của Mizelda."
+  },
+  {
+    "id": 85,
+    "en": "However, Taritta's face was much softer than it would normally be. That was because Subaru had rearranged the heavy makeup she usually wore, which could be called the war paint of the People of Shudraq, to make her look cuter.",
+    "vi": "Tuy nhiên, khuôn mặt của Taritta trông dịu dàng hơn nhiều so với thường ngày. Đó là vì Subaru đã chỉnh sửa lại lớp trang điểm đậm mà cô thường đánh, thứ có thể gọi là lớp sơn chiến tranh của Người Shudraq, để giúp cô trông dễ thương hơn."
+  },
+  {
+    "id": 86,
+    "en": "The Shudraq were best known for their bravery and strength, but this time they were required to be both glamorous and dangerous, with a magical and sensuous quality that could drive men crazy.",
+    "vi": "Tộc Shudraq được biết đến nhiều nhất với lòng dũng cảm d dẫu sức mạnh, nhưng lần này họ cần phải vừa quyến rũ vừa nguy hiểm, mang một vẻ đẹp huyền bí d dẫu gợi cảm có thể khiến đàn ông điên đảo."
+  },
+  {
+    "id": 87,
+    "en": "Taritta and Kuna's makeup was fun to apply once they decided to focus their beauty regimen in that direction.",
+    "vi": "Lớp trang điểm của Taritta d dẫu Kuna trở nên rất thú vị khi họ quyết định tập trung vào việc làm đẹp theo hướng đó."
+  },
+  {
+    "id": 88,
+    "en": "Subaru: [You have a much younger face than I expected, Taritta-anesama. Your makeup looks great, it's nice to show off your cuteness once in a while.]",
+    "vi": "Subaru: [Chị có khuôn mặt trẻ hơn nhiều so với em tưởng đấy, Taritta-anesama. Lớp trang điểm của chị trông tuyệt lắm, thỉnh thoảng phô diễn sự dễ thương của mình cũng tốt mà.]"
+  },
+  {
+    "id": 89,
+    "en": "Taritta: [Please don’t tease me! First of all, I can't be as pretty as you...]",
+    "vi": "Taritta: [Xin đừng chọc ghẹo tôi! Ngay từ đầu, tôi làm sao đẹp bằng cậu được...]"
+  },
+  {
+    "id": 90,
+    "en": "Subaru: [Well, your lack of confidence is also cute! Right, Mizelda-anesama?]",
+    "vi": "Subaru: [Chà, sự thiếu tự tin đó của chị cũng đáng yêu mà! Đúng không, Mizelda-anesama?]"
+  },
+  {
+    "id": 91,
+    "en": "Mizelda: [Yes, dear.]",
+    "vi": "Mizelda: [Đúng vậy, em yêu.]"
+  },
+  {
+    "id": 92,
+    "en": "Mizelda's cheeks relaxed as Subaru leaned up to her and spoke softly. Taritta flinched at the sight of the two of them, and turned over with a slight blush on her cheeks.",
+    "vi": "Đôi má của Mizelda giãn ra khi Subaru ghé sát vào người cô nói những lời ngọt ngào. Taritta chùn bước trước cảnh tượng hai người bọn họ, d dẫu quay mặt đi với đôi má khẽ ửng hồng."
+  },
+  {
+    "id": 93,
+    "en": "Her brown skin made it hard to see her cheeks redden, but the makeup on her eyes and lips gave the impression of a slight blush, so it was easy to see the adorable change in her appearance.",
+    "vi": "Làn da rám nắng khiến đôi má đỏ của cô khó lộ rõ, nhưng lớp trang điểm ở mắt d dẫu môi đã tạo cảm giác ửng hồng nhẹ, nên rất dễ nhận thấy sự thay đổi đáng yêu ở diện mạo của cô."
+  },
+  {
+    "id": 94,
+    "en": "Rem: [When are you going to stop fooling around!?]",
+    "vi": "Rem: [Anh định đùa cợt đến bao giờ nữa đây!?]"
+  },
+  {
+    "id": 95,
+    "en": "Rem shattered such a flowery scene with a single shout.",
+    "vi": "Rem đập tan bầu không khí ngập tràn hoa lá đó bằng một tiếng quát lớn."
+  },
+  {
+    "id": 96,
+    "en": "Subaru and Taritta shrank as if hit by a gust of wind. Rem glared at them with her pale blue eyes, then looked at Kuna at the edge of the room.",
+    "vi": "Subaru d dẫu Taritta co rúm người lại như thể vừa bị một cơn gió mạnh thổi qua. Rem lườm bọn họ bằng đôi mắt xanh lam nhạt, rồi nhìn Kuna đang đứng ở góc phòng."
+  },
+  {
+    "id": 97,
+    "en": "Kuna, who, like Taritta, also had her makeup done along with her hair, jerked away.",
+    "vi": "Kuna, người giống như Taritta d dẫu d dường như d dẫu được trang điểm d dẫu làm tóc gọn gàng, liền giật mình lùi ra xa."
+  },
+  {
+    "id": 98,
+    "en": "Kuna: [W-what is it, for the record, I have nothing to do with this...]",
+    "vi": "Kuna: [C-Cái gì thế, tôi nói trước là tôi không liên quan gì đến chuyện này đâu nhé...]"
+  },
+  {
+    "id": 99,
+    "en": "Rem: [Kuna-san, I’m counting on you. Looking at those two, I see you're the only one who's sane… Are you seriously going along with this plan?]",
+    "vi": "Rem: [Kuna-san, tôi trông cậy vào cô đấy. Nhìn hai kẻ kia mà xem, tôi thấy cô là người duy nhất còn tỉnh táo ở đây… Cô thực sự định tham gia vào kế hoạch này sao?]"
+  },
+  {
+    "id": 100,
+    "en": "Kuna: [I know I’m the only sane one, but...]",
+    "vi": "Kuna: [Tôi biết mình là người tỉnh táo duy nhất ở đây, nhưng...]"
+  },
+  {
+    "id": 101,
+    "en": "Kuna, who had her hair in twin tails, looked at Subaru and Taritta with an unmotivated look in her eyes.",
+    "vi": "Kuna, người buộc tóc hai bên, nhìn Subaru d dẫu Taritta bằng ánh mắt uể oải chán chường."
+  },
+  {
+    "id": 102,
+    "en": "It was an unpleasant assessment, but Subaru could only wait to see what would happen. Her look told him that he was insane, and thus was different from Taritta, who was shaking in shock.",
+    "vi": "Đó là một sự đánh giá không mấy dễ chịu, nhưng Subaru chỉ biết im lặng chờ đợi xem chuyện gì sẽ xảy ra. Ánh mắt của cô cho thấy cậu là kẻ điên rồ, hoàn toàn khác với một Taritta đang run rẩy vì kinh ngạc."
+  },
+  {
+    "id": 103,
+    "en": "Kuna let out a small exhale at the reaction of Subaru and the others.",
+    "vi": "Kuna khẽ thở dài trước phản ứng của Subaru d dẫu những người khác."
+  },
+  {
+    "id": 104,
+    "en": "Kuna: [The reason why he couldn’t do the mission has disappeared, you understand that too, right, Rem? Natsumi... Subaru doesn’t have a problem. Yeah, he’s more of a woman than the Chieftain.]",
+    "vi": "Kuna: [Lý do khiến cậu ta không thể thực hiện nhiệm vụ đã biến mất rồi, cô cũng hiểu điều đó mà, đúng không Rem? Natsumi... Subaru không có vấn đề gì cả. Phải đấy, trông cậu ta còn giống phụ nữ hơn cả Thủ lĩnh nhà chúng tôi nữa.]"
+  },
+  {
+    "id": 105,
+    "en": "Rem: [I think that's too rude to say about Mizelda-san...]",
+    "vi": "Rem: [Tôi nghĩ cô nói thế là quá bất lịch sự với Mizelda-san đấy...]"
+  },
+  {
+    "id": 106,
+    "en": "Kuna: [I don't think it's a problem. What’ll be a problem are our results over there...]",
+    "vi": "Kuna: [Tôi không nghĩ đó là vấn đề đâu. Thứ đáng lo là kết quả của chúng ta ở bên kia kìa...]"
+  },
+  {
+    "id": 107,
+    "en": "And just as Kuna was nearly done answering Rem’s questions,",
+    "vi": "Và ngay khi Kuna chuẩn bị trả lời xong bầy câu hỏi của Rem,"
+  },
+  {
+    "id": 108,
+    "en": "???: [――It appears everyone is here.]",
+    "vi": "???: [――Xem ra tất cả đều đã đông đủ.]"
+  },
+  {
+    "id": 109,
+    "en": "Kuna: [Oh, speaking of the devil...]",
+    "vi": "Kuna: [Ồ, nhắc tào tháo là tào tháo tới liền...]"
+  },
+  {
+    "id": 110,
+    "en": "A pompous, undeceiving tone of voice enveloped the meeting hall, and a new figure appeared.",
+    "vi": "Một giọng điệu kiêu ngạo, đầy uy quyền bao trùm lấy phòng họp, d dẫu một bóng hình mới xuất hiện."
+  },
+  {
+    "id": 111,
+    "en": "When Kuna's gaze turned in that direction, Rem had no choice but to turn in the same direction. Naturally, Subaru, Mizelda, and the others' gazes were drawn there as well.",
+    "vi": "Khi Kuna hướng mắt về phía đó, Rem cũng không thể không quay nhìn theo cùng một hướng. Lẽ tự nhiên, ánh mắt của Subaru, Mizelda d dẫu những người khác đều đổ dồn về chốn ấy."
+  },
+  {
+    "id": 112,
+    "en": "Everyone: [――――]",
+    "vi": "Mọi người: [――――]"
+  },
+  {
+    "id": 113,
+    "en": "At that moment, time stopped for everyone.",
+    "vi": "Vào khoảnh khắc đó, thời gian như ngừng trôi đối với tất cả mọi người."
+  },
+  {
+    "id": 114,
+    "en": "――No, to be precise, time stopped for everyone aside from the figure that appeared and Subaru, who had applied makeup to them.",
+    "vi": "――Không, chính xác hơn, thời gian dừng lại với tất cả ngoại trừ nhân vật vừa xuất hiện d dẫu Subaru, người đã tự tay trang điểm cho người đó."
+  },
+  {
+    "id": 115,
+    "en": "Subaru: [I left the fine-tuning to you, but… you're so good at it, it's almost disgusting.]",
+    "vi": "Subaru: [Tớ đã để cậu tự căn chỉnh lớp trang điểm cuối cùng, nhưng… cậu làm tốt đến mức đáng ghét thật đấy.]"
+  },
+  {
+    "id": 116,
+    "en": "Abel: [It does not elate me to be praised for my makeup skills. Nevertheless, your skills are impressive. So, even a finished product may become a whole new thing, huh. It looks even better than I imagined.]",
+    "vi": "Abel: [Ta chẳng mấy vui vẻ gì khi được khen ngợi về kỹ năng trang điểm đâu. Tuy nhiên, tay nghề của ngươi rất ấn tượng đấy. Hóa ra, ngay cả một sản phẩm hoàn thiện cũng có thể biến thành một thứ hoàn toàn mới sao. Trông nó còn tuyệt hơn ta tưởng tượng nhiều.]"
+  },
+  {
+    "id": 117,
+    "en": "Subaru: [Kuh, my margin for victory...!]",
+    "vi": "Subaru: [Ư, khoảng cách chiến thắng của mình...!]"
+  },
+  {
+    "id": 118,
+    "en": "As he said this, Subaru gently bit his pinky finger in frustration.",
+    "vi": "Vừa nói, Subaru vừa khẽ cắn ngón tay út đầy tiếc nuối."
+  },
+  {
+    "id": 119,
+    "en": "He had utilized every technique he could think of, pictured the encounters he had so far in his mind.",
+    "vi": "Tất nhiên, cậu không hề hoài nghi về đức tin rằng vẻ đẹp có thể được kiến tạo. Subaru cũng tự hào tự nhận mình đã chứng minh được điều đó bằng chính cơ thể mình, chỉ với vài quân bài ít ỏi có trong tay."
+  },
+  {
+    "id": 120,
+    "en": "However, there was still a difference in materials.",
+    "vi": "Tuy nhiên, cốt lõi vẫn có sự chênh lệch về chất liệu nguyên bản."
+  },
+  {
+    "id": 121,
+    "en": "That was why――,",
+    "vi": "Chính vì thế――,"
+  },
+  {
+    "id": 122,
+    "en": "Rem: [Ah, Abel-san, right?]",
+    "vi": "Rem: [A, là Abel-san đúng không?]"
+  },
+  {
+    "id": 123,
+    "en": "Abel: [Who else would it be? Do not inquire such a silly question. No, if I have changed that much, then your surprise is appropriate for reference.]",
+    "vi": "Abel: [Nếu không phải ta thì còn ai vào đây nữa? Đừng hỏi một câu ngớ ngẩn như vậy. Không, nếu ta đã thay đổi nhiều đến thế, thì sự kinh ngạc của ngươi quả là một thước đo tham chiếu chuẩn xác.]"
+  },
+  {
+    "id": 124,
+    "en": "In response to Rem's trembling words, Abel―― or rather, Bianca, the being born from makeup, a wig, and a change of costume, clutched his five thin white fingers.",
+    "vi": "Đáp lại những lời run rẩy của Rem, Abel―― hay đúng hơn là Bianca, thực thể được sinh ra từ lớp trang điểm, bộ tóc giả d dẫu sự thay đổi trang phục, khẽ khép năm ngón tay thon dài trắng trẻo của mình lại."
+  },
+  {
+    "id": 125,
+    "en": "His raven black hair was long and lustrous, creating a perfect harmony with his beautiful face and slit eyes. The dancer’s costume bound his waist, splitting down his legs, showing just enough skin to attract attention.",
+    "vi": "Mái tóc đen tuyền của gã dài d dẫu óng ả, tạo nên một sự hòa quyện hoàn hảo với khuôn mặt kiều diễm d dẫu đôi mắt lá liễu. Trang phục của vũ công bó sát lấy vòng eo, xẻ tà dọc theo đôi chân thon, để lộ vừa đủ da thịt để thu hút mọi ánh nhìn."
+  },
+  {
+    "id": 126,
+    "en": "Standing there was a beautiful dancer who had recreated extreme beauty, the best joker card in hand, that was essential to this plan.",
+    "vi": "Đứng ở đó là một nàng vũ công xinh đẹp tuyệt trần, người đã tái hiện lại vẻ đẹp cực hạn, quân bài chủ lực tối thượng d dẫu tối quan trọng trong kế hoạch này."
+  },
+  {
+    "id": 127,
+    "en": "Everyone: [――――]",
+    "vi": "Những người còn lại: [――――]"
+  },
+  {
+    "id": 128,
+    "en": "Bianca's perfection was such that even Mizelda and the others had lost their voices.",
+    "vi": "Sự hoàn hảo của Bianca đến mức ngay cả Mizelda d dẫu những người khác cũng phải á khẩu kinh ngạc."
+  },
+  {
+    "id": 129,
+    "en": "That was different from Subaru’s Natsumi, where the shock was over the magnitude of the change. This was the pure shock that was brought about by the perfection of beauty that Abel’s Bianca had in spades.",
+    "vi": "Điều đó hoàn toàn khác với Natsumi của Subaru, nơi mà sự ngỡ ngàng nằm ở mức độ thay đổi kinh người. Đây là sự kinh ngạc thuần túy được mang lại bởi vẻ đẹp hoàn mỹ tràn ngập ở Bianca của Abel."
+  },
+  {
+    "id": 130,
+    "en": "The Shudraqian jewelry, which adorned the dancer's costume and long hair, served only as a garnish to accentuate his real beauty.",
+    "vi": "Những món trang sức của tộc Shudraq tô điểm cho trang phục vũ công d dẫu mái tóc dài chỉ đóng vai trò làm nền để tôn lên vẻ đẹp thực sự của gã."
+  },
+  {
+    "id": 131,
+    "en": "Subaru remembered the smile on Mizelda's face when she had lent them to him.",
+    "vi": "Subaru nhớ lại nụ cười trên khuôn mặt của Mizelda khi cô cho họ mượn những món đồ này."
+  },
+  {
+    "id": 132,
+    "en": "For some reason, Subaru's heart ached when he remembered that smile. However, out of concern for Mizelda and the others, Subaru did not have the option of cutting corners.",
+    "vi": "Vì lý do nào đó, trái tim Subaru khẽ thắt lại khi nhớ đến nụ cười ấy. Tuy nhiên, vì sự an nguy của Mizelda d dẫu những người khác, Subaru không được phép làm việc hời hợt."
+  },
+  {
+    "id": 133,
+    "en": "How could he ruin this perfection himself?",
+    "vi": "Làm sao cậu có thể tự tay hủy hoại sự hoàn hảo này được chứ?"
+  },
+  {
+    "id": 134,
+    "en": "Subaru's ego as Natsumi Schwartz would not allow for such a thing.",
+    "vi": "Cái tôi của Subaru với tư cách là Natsumi Schwartz không cho phép chuyện đó xảy ra."
+  },
+  {
+    "id": 135,
+    "en": "Subaru: [It was surprising to me that you weren't afraid of wearing makeup...]",
+    "vi": "Subaru: [Tớ khá ngạc nhiên khi cậu không hề tỏ ra e ngại việc trang điểm đấy...]"
+  },
+  {
+    "id": 136,
+    "en": "Abel: [What, you think it a disgrace to dress up as a woman? For the record, this is not the first time I have done this. I have undergone such things many times in my childhood.]",
+    "vi": "Abel: [Sao, ngươi nghĩ việc cải trang thành nữ nhi là một nỗi sỉ nhục à? Nói cho ngươi biết, đây không phải lần đầu ta làm chuyện này. Ta đã từng trải qua những việc như thế nhiều lần thuở ấu thơ rồi.]"
+  },
+  {
+    "id": 137,
+    "en": "Subaru: [As a child?]",
+    "vi": "Subaru: [Thuở ấu thơ sao?]"
+  },
+  {
+    "id": 138,
+    "en": "Abel: [Yes. Considering my position, I would state it is a good idea to possess a wide range of ways to protect oneself.]",
+    "vi": "Abel: [Phải. Xem xét lập trường của ta, việc sở hữu nhiều phương thức để tự bảo vệ mình là một ý kiến sáng suốt.]"
+  },
+  {
+    "id": 139,
+    "en": "Subaru's lips curved at Abel's words, not Bianca's, a beautiful woman who crossed her arms adorably.",
+    "vi": "Khóe môi Subaru khẽ cong lên trước những lời của Abel, chứ không phải của Bianca, một người phụ nữ xinh đẹp đang khoanh tay một cách đáng yêu."
+  },
+  {
+    "id": 140,
+    "en": "Perhaps his past experiences were referring to the secret feuds he’d endured as a candidate to become the next Emperor, before actually taking up the seat.",
+    "vi": "Có lẽ những trải nghiệm trong quá khứ của gã là đang nói về những cuộc tranh đấu ngầm d dẫu khốc liệt mà gã phải chịu đựng khi còn là một ứng cử viên cho ngôi vị Hoàng đế, trước khi thực sự ngồi lên ngai vàng."
+  },
+  {
+    "id": 141,
+    "en": "In Vollachia, where the succession to the throne was apparently much more tumultuous than in Lugunica, it was easy to imagine the possibility of assassination being employed in the battle over who became the next Emperor.",
+    "vi": "Ở Vollachia, nơi mà việc kế vị ngai vàng rõ ràng là hỗn loạn d dẫu đẫm máu hơn nhiều so với Lugunica, thật dễ dàng để hình dung ra khả năng các vụ ám sát được sử dụng liên tục trong cuộc chiến giành ngôi vị Hoàng đế tiếp theo."
+  },
+  {
+    "id": 142,
+    "en": "In order to survive such a harsh life, he would have sometimes had to disguise his appearance and even gender.",
+    "vi": "Để sống sót qua một cuộc đời nghiệt ngã như vậy, đôi khi gã đã phải cải trang diện mạo d dẫu thậm chí là cả giới tính của mình."
+  },
+  {
+    "id": 143,
+    "en": "Abel's willingness to make sacrifices, including his own, seemed to have been shaped by his childhood, before he won the throne of the Emperor.",
+    "vi": "Sự sẵn sàng hy sinh của Abel, bao gồm cả bản thân gã, dường như đã được định hình từ thời thơ ấu, trước khi gã giành được ngai vàng Hoàng đế."
+  },
+  {
+    "id": 144,
+    "en": "In Vollachia, where the succession to the throne was apparently much more tumultuous than in Lugunica, it was easy to imagine the possibility of assassination being employed in the battle over who became the next Emperor.",
+    "vi": "Nhờ có chốn ấy mà giờ đây Bianca của Abel mới xuất hiện trong bộ dạng nữ nhi thế này."
+  },
+  {
+    "id": 145,
+    "en": "Subaru: [Still, it's kind of annoying that you're aware that you're beautiful...!]",
+    "vi": "Subaru: [Dù vậy, thật đáng ghét khi cậu lại tự nhận thức được việc mình xinh đẹp đấy...!]"
+  },
+  {
+    "id": 146,
+    "en": "Abel: [That is exactly what is ridiculous. How can someone be in a position where they must be capable of looking at their country from a broad perspective, and not be able to see themselves objectively? Though you seem to have subverted that objective assessment of yourself through your own skills, I have no need for those kinds of petty tricks.]",
+    "vi": "Abel: [Đó chính xác là điều nực cười đấy. Làm sao một kẻ ở vị trí bắt buộc phải có khả năng nhìn nhận đất nước của mình từ một góc độ bao quát, lại không thể tự nhìn nhận bản thân một cách khách quan cho được? Dù ngươi có vẻ đã đảo ngược sự đánh giá khách quan về bản thân bằng kỹ năng của riêng mình, ta lại không cần đến những trò vặt vãnh đó.]"
+  },
+  {
+    "id": 147,
+    "en": "Subaru: [Guh… Hk.]",
+    "vi": "Subaru: [Hự… Tch.]"
+  },
+  {
+    "id": 148,
+    "en": "Abel: [Do you know why tigers are strong? Tigers are strong because they are strong.]",
+    "vi": "Abel: [Ngươi có biết tại sao hổ lại mạnh không? Hổ mạnh là bởi vì chúng mạnh.]"
+  },
+  {
+    "id": 149,
+    "en": "Subaru was struck by a concept that he had heard from Garfiel as well.",
+    "vi": "Subaru bị chấn động bởi một khái niệm mà cậu d dẫu d dường như d dẫu từng được nghe từ Garfiel trước đây."
+  },
+  {
+    "id": 150,
+    "en": "The theory that tigers were strong because they were tigers, became attributed to the fact that Abel was beautiful because he was Abel. It was no longer the logic of violence.",
+    "vi": "Lý thuyết cho rằng hổ mạnh vì chúng là hổ, giờ đây được áp dụng vào việc Abel xinh đẹp vì gã là Abel. Đó không còn là logic của bạo lực nữa."
+  },
+  {
+    "id": 151,
+    "en": "It was the same as saying that Reinhard was strong because he was Reinhard.",
+    "vi": "Nó cũng giống hệt như việc nói Reinhard mạnh là vì Reinhard mạnh vậy."
+  },
+  {
+    "id": 152,
+    "en": "In other words, it was a blunt view of the world.",
+    "vi": "Nói cách khác, đó là một cái nhìn vô cùng phũ phàng d dẫu chân thực về thế giới."
+  },
+  {
+    "id": 153,
+    "en": "Subaru: [Well, anyway… Flora’s thinking the same thing, isn't she!?]",
+    "vi": "Subaru: [Chà, dù sao thì… Flora cũng có cùng suy nghĩ đó đúng không nào!?]"
+  },
+  {
+    "id": 154,
+    "en": "Flop: [Aren’t you jumping to conclusions there, Husband-kun?!]",
+    "vi": "Flop: [Không phải cậu đang vội vã đưa ra kết luận quá đấy chứ, Cậu Chồng?!]"
+  },
+  {
+    "id": 155,
+    "en": "Behind Abel followed an astonished Flop, now disguised as Flora.",
+    "vi": "Phía sau Abel là một Flop kinh ngạc đang đi theo, giờ cải trang thành Flora."
+  },
+  {
+    "id": 156,
+    "en": "He was also dressed up, and had the type of beauty that Subaru knew would make a finished product more complete just by fully utilizing the potential of his resources. In fact, unlike Subaru and Abel, he’d had his originally long hair only slightly tweaked, so it could be said that he was the one who brought out the most charm from the materials.",
+    "vi": "Anh cũng được trang điểm d dẫu ăn mặc chỉnh tề, sở hữu kiểu làm đẹp mà Subaru biết sẽ giúp sản phẩm hoàn thiện trông chỉn chu hơn bằng cách tận dụng tối đa tiềm năng tài nguyên của anh. Trên thực tế, khác với Subaru d dẫu Abel, anh chỉ được chỉnh sửa nhẹ từ mái tóc dài nguyên bản của mình, nên có thể nói anh là người bộc lộ được nhiều nét quyến rũ tự nhiên nhất từ chất liệu sẵn có."
+  },
+  {
+    "id": 157,
+    "en": "In fact, Subaru was confident that if they stood side-by-side, he wouldn't be greatly inferior. But――,",
+    "vi": "Thực tế, Subaru tin chắc rằng nếu họ đứng cạnh nhau, cậu sẽ không quá lép vế. Thế nhưng――,"
+  },
+  {
+    "id": 158,
+    "en": "Subaru: [There is a difference in the amount of time and effort that is put in… Must be divine favoritism...!]",
+    "vi": "Subaru: [Quả thực có sự chênh lệch về thời gian d dẫu công sức bỏ ra mà… Đúng là sự thiên vị của tạo hóa mà...!]"
+  },
+  {
+    "id": 159,
+    "en": "Flop: [I'm sorry to hear you lamenting this, but you look great Husband-kun. You're no longer Husband-kun, you're Husband-san!]",
+    "vi": "Flop: [Tôi rất tiếc khi thấy cậu than thở thế này, nhưng trông cậu tuyệt lắm Cậu Chồng à. Giờ cậu không còn là Cậu Chồng nữa, mà là Quý ông Chồng rồi!]"
+  },
+  {
+    "id": 160,
+    "en": "Subaru: [...I'm not satisfied with a compliment like that anymore.]",
+    "vi": "Subaru: [...Tớ không còn cảm thấy thỏa mãn với lời khen kiểu đó nữa đâu.]"
+  },
+  {
+    "id": 161,
+    "en": "Flop: [Was that a compliment? I didn’t know it was.]",
+    "vi": "Flop: [Ủa đó là một lời khen sao? Tôi còn chẳng nhận ra đấy.]"
+  },
+  {
+    "id": 162,
+    "en": "Flop's frankness hadn't changed even though he was now Flora. Anyway, that was fine in his case. Although he would need some acting guidance to follow the plan's directions.",
+    "vi": "Sự thẳng thắn của Flop vẫn không hề thay đổi ngay cả khi anh đã hóa thân thành Flora. Dù sao thì, đối với trường hợp của anh như thế là ổn rồi. Tuy nhiên, anh sẽ cần một vài chỉ dẫn về diễn xuất để thực hiện đúng theo kế hoạch đề ra."
+  },
+  {
+    "id": 163,
+    "en": "In this situation however, it was Abel who would be the most important.",
+    "vi": "Tuy nhiên, trong tình thế này, Abel mới là người đóng vai trò quan trọng nhất."
+  },
+  {
+    "id": 164,
+    "en": "Subaru: [Flora and I can play instruments. Therefore, your role is...]",
+    "vi": "Subaru: [Flora d dẫu tớ có thể chơi nhạc cụ. Do đó, vai trò của cậu là...]"
+  },
+  {
+    "id": 165,
+    "en": "Abel: [Dancing, huh. I do not require being told, I have the plan in my mind. The importance of my role alike. Besides...]",
+    "vi": "Abel: [Nhảy múa sao. Ta không cần ngươi phải nhắc nhở, kế hoạch đã nằm sẵn trong đầu ta rồi. Tầm quan trọng trong vai trò của ta cũng vậy. Hơn nữa...]"
+  },
+  {
+    "id": 166,
+    "en": "Subaru: [Besides?]",
+    "vi": "Subaru: [Hơn nữa?]"
+  },
+  {
+    "id": 167,
+    "en": "Abel: [I am not as excellent at dancing as my dead sister, but I am pretty close.]",
+    "vi": "Abel: [Ta nhảy múa không xuất sắc bằng người em gái quá cố của mình, nhưng cũng xấp xỉ mức đó.]"
+  },
+  {
+    "id": 168,
+    "en": "His cheeks twisted, and even his triumphant, arrogant smile was beautiful.",
+    "vi": "Khóe má gã khẽ nhếch lên, d dẫu ngay cả nụ cười kiêu ngạo, đầy đắc thắng đó cũng thật kiều diễm làm sao."
+  },
+  {
+    "id": 169,
+    "en": "Abel's confident attitude was reassuring, and at the same time, it made Subaru's heart burn with anticipation. In fact, Abel had demonstrated his devilishness without regret as a complete Bianca.",
+    "vi": "Thái độ tự tin của Abel vừa mang lại sự an tâm, vừa đồng thời khiến trái tim Subaru rạo rực sự kỳ vọng. Trên thực tế, Abel đã phô diễn sự ma mị của mình mà không hề tiếc nuối dưới tư thế của một Bianca hoàn mỹ."
+  },
+  {
+    "id": 170,
+    "en": "If Abel’s self-awareness was correct, Subaru could have high hopes for the dancing as well.",
+    "vi": "If Abel’s self-awareness was correct, Subaru could have high hopes for the dancing as well."
+  },
+  {
+    "id": 171,
+    "en": "Subaru: [――. Alright then. If you have that much confidence, show me how good you are. After all, you can’t take back whatever you’ve spat out.]",
+    "vi": "Subaru: [――. Được thôi. Nếu cậu đã tự tin đến thế, hãy cho tớ thấy cậu giỏi cỡ nào đi. Dù sao thì, cậu cũng không thể rút lại những lời ngạo mạn mình đã thốt ra đâu.]"
+  },
+  {
+    "id": 172,
+    "en": "Abel: [Whatever I spat out, huh…? Hmmm, as in, when one is being spat down upon by the clouds, you mean? That is quite a roundabout way of saying it, but that is fine. I shall display it to you.]",
+    "vi": "Abel: [Những lời đã thốt ra sao…? Hửm, ý ngươi là khi người ta bị những tầng mây nhổ nước bọt xuống đầu à? Thật là một cách nói vòng vo tam quốc, nhưng không sao. Ta sẽ phô diễn cho ngươi thấy.]"
+  },
+  {
+    "id": 173,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 174,
+    "en": "Abel: [It is the least I can do, to reward you for offering this plan.]",
+    "vi": "Abel: [Đó là điều tối thiểu ta có thể làm để đền đáp cho việc ngươi đã hiến kế kế hoạch này.]"
+  },
+  {
+    "id": 175,
+    "en": "Abel's arrogance did not diminish, even when dressed as a woman, as if he never doubted himself.",
+    "vi": "Sự kiêu ngạo của Abel không hề giảm đi ngay cả khi cải trang thành nữ nhi, cứ như thể gã chưa bao giờ nghi ngờ bản thân."
+  },
+  {
+    "id": 176,
+    "en": "Feeling both reassured and threatened by this, Subaru softly looked at Rem. Unfortunately, he couldn't let her accompany him for his plan.",
+    "vi": "Vừa cảm thấy yên tâm vừa thấy bị đe dọa bởi điều này, Subaru khẽ liếc nhìn Rem. Đáng tiếc thay, cậu không thể để cô đi cùng trong kế hoạch của mình."
+  },
+  {
+    "id": 177,
+    "en": "But still――,",
+    "vi": "Nhưng dù vậy――,"
+  },
+  {
+    "id": 178,
+    "en": "Subaru: [Please pray for my safety. I'll do my best for you.]",
+    "vi": "Subaru: [Hãy cầu nguyện cho sự bình an của tớ nhé. Tớ sẽ cố gắng hết sức vì cậu.]"
+  },
+  {
+    "id": 179,
+    "en": "Rem: [――.――――.――――――――.――――――――――.Yes.]",
+    "vi": "Rem: [――.――――.――――――――.――――――――――.Được rồi.]"
+  },
+  {
+    "id": 180,
+    "en": "Subaru: [It took you long enough to pray, didn't it!]",
+    "vi": "Subaru: [Cầu nguyện thôi mà anh mất nhiều thời gian suy nghĩ thế cơ à!]"
+  }
+]

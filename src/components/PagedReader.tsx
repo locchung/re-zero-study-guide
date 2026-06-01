@@ -215,9 +215,15 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
       </div>
 
       {/* ── Content area ────────────────────────────── */}
+      {/*
+        overflow-hidden (not overflow-y-auto) here so the absolutely-positioned
+        measuring container — which is as tall as the entire chapter — does not
+        extend this element's scroll area and make the page scrollable on mobile.
+        Scrolling for revealed translations is handled by the inner wrapper below.
+      */}
       <div
         ref={contentRef}
-        className="relative flex-1 overflow-y-auto"
+        className="relative flex-1 overflow-hidden"
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
@@ -226,6 +232,7 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
           Must share the same max-width + padding as the visible container so
           item heights are accurate. `absolute top-0 left-0 right-0 mx-auto` with
           `max-w-2xl` matches the centered, padded visible container exactly.
+          The parent overflow-hidden clips it visually and prevents scroll bleed.
         */}
         <div
           ref={measuringRef}
@@ -264,7 +271,8 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
           </span>
         </button>
 
-        {/* Visible content */}
+        {/* Scrollable inner layer — allows revealed translations to scroll if they overflow */}
+        <div className="absolute inset-0 overflow-y-auto">
         <div className="max-w-2xl mx-auto px-6 md:px-12 py-6">
           {!measured ? (
             <div className="flex items-center justify-center min-h-[50vh] text-sm text-[#9c8e7e] dark:text-[#7a6c5e] select-none">
@@ -279,6 +287,7 @@ export function PagedReader({ meta, prev, next, children }: PagedReaderProps) {
             </div>
           )}
         </div>
+        </div>{/* end scrollable inner layer */}
       </div>
 
       {/* ── Bottom bar ──────────────────────────────── */}

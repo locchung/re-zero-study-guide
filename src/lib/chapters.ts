@@ -70,6 +70,12 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-16', title: 'Chương 16: Tình Thế Đế Quốc | The Situation in the Empire', chapterNumber: 16, arc: 7 },
   { slug: 'chuong-17', title: 'Chương 17: Tai Họa Cận Kề | Looming Evil', chapterNumber: 17, arc: 7 },
   { slug: 'chuong-18', title: 'Chương 18: Trận Chiến Ở Thành Lũy Guaral | Battle in the Fortress City of Guaral', chapterNumber: 18, arc: 7 },
+  { slug: 'chuong-19', title: 'Chương 19: Cuộc Ngộ Nhập Phiền Toái | A Vexing Reunion', chapterNumber: 19, arc: 7 },
+  { slug: 'chuong-20', title: 'Chương 20: Hoàng Đế, Thương Nhân, Natsuki Subaru | Emperor / Merchant / Natsuki Subaru', chapterNumber: 20, arc: 7 },
+  { slug: 'chuong-21', title: 'Chương 21: Zikr Osman | Zikr Osman', chapterNumber: 21, arc: 7 },
+  { slug: 'chuong-22', title: 'Chương 22: Kế Hoạch Vây Thành Không Đổ Máu | The Bloodless Siege Plan', chapterNumber: 22, arc: 7 },
+  { slug: 'chuong-23', title: 'Chương 23: Nhạc Công Natsumi Schwartz | Musician Natsumi Schwartz', chapterNumber: 23, arc: 7 },
+  { slug: 'chuong-24', title: 'Chương 24: Kiêu Ngạo | Arrogance', chapterNumber: 24, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {

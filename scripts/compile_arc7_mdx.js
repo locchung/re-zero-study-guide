@@ -23,7 +23,13 @@ const chapters = [
   { num: 15, title: 'Chương 15: Kẻ Tôi Muốn Bảo Vệ | Those I Want to Protect' },
   { num: 16, title: 'Chương 16: Tình Thế Đế Quốc | The Situation in the Empire' },
   { num: 17, title: 'Chương 17: Tai Họa Cận Kề | Looming Evil' },
-  { num: 18, title: 'Chương 18: Trận Chiến Ở Thành Lũy Guaral | Battle in the Fortress City of Guaral' }
+  { num: 18, title: 'Chương 18: Trận Chiến Ở Thành Lũy Guaral | Battle in the Fortress City of Guaral' },
+  { num: 19, title: 'Chương 19: Cuộc Ngộ Nhập Phiền Toái | A Vexing Reunion' },
+  { num: 20, title: 'Chương 20: Hoàng Đế, Thương Nhân, Natsuki Subaru | Emperor / Merchant / Natsuki Subaru' },
+  { num: 21, title: 'Chương 21: Zikr Osman | Zikr Osman' },
+  { num: 22, title: 'Chương 22: Kế Hoạch Vây Thành Không Đổ Máu | The Bloodless Siege Plan' },
+  { num: 23, title: 'Chương 23: Nhạc Công Natsumi Schwartz | Musician Natsumi Schwartz' },
+  { num: 24, title: 'Chương 24: Kiêu Ngạo | Arrogance' }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');

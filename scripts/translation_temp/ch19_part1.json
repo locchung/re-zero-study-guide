@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 2,
+    "en": "Translated By :",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 3,
+    "en": "Art Sources :",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 4,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 5,
+    "en": "ALL RIGHTS BELONG TO TAPPEI NAGATSUKI, THE ORIGINAL AUTHOR OF RE:ZERO STARTING A LIFE IN A DIFFERENT WORLD FROM ZERO, THIS IS A TRANSLATION OF THE FREE JAPANESE WEB NOVEL INTO ENGLISH",
+    "vi": "BẢN QUYỀN THUỘC VỀ NAGATSUKI TAPPEI, TÁC GIẢ NGUYÊN TÁC CỦA RE:ZERO - BẮT ĐẦU LẠI Ở THẾ GIỚI KHÁC TỪ CON SỐ KHÔNG. ĐÂY LÀ BẢN DỊCH PHI LỢI NHUẬN TỪ WEB NOVEL TIẾNG NHẬT SANG TIẾNG VIỆT."
+  },
+  {
+    "id": 6,
+    "en": "JAPANESE WEB NOVEL SOURCE",
+    "vi": "NGUỒN WEB NOVEL TIẾNG NHẬT"
+  },
+  {
+    "id": 7,
+    "en": "※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 8,
+    "en": "▼△▼△▼△",
+    "vi": "▼△▼△▼△"
+  },
+  {
+    "id": 9,
+    "en": "Translated By :",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 10,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính:"
+  },
+  {
+    "id": 11,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 12,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 13,
+    "en": "――The man remained motionless, sprawled out on top of the stiff soil.",
+    "vi": "――Gã đàn ông vẫn nằm im lìm bất động, sải lai trên nền đất cứng đờ khô cằn."
+  },
+  {
+    "id": 14,
+    "en": "???: [――――]",
+    "vi": "???: [――――]"
+  },
+  {
+    "id": 15,
+    "en": "He was neither dead, nor asleep.",
+    "vi": "Hắn quyết chả phải dẫu chết, dẫu quyết chả phải đang ngủ say."
+  },
+  {
+    "id": 16,
+    "en": "He simply closed his eyes, organizing his thoughts in silence as he adjusted his unsteady breaths.",
+    "vi": "Hắn chỉ đơn thuần nhắm chặt mắt, âm thầm sắp xếp lại mớ suy nghĩ trong im lặng khi điều chỉnh nhịp thở dập dồn loạng choạng của mình."
+  },
+  {
+    "id": 17,
+    "en": "Assembling them, putting them together, building them back――,",
+    "vi": "Chắp vá chúng, kết nối chúng dẫu như tái thiết lập lại toàn bộ――,"
+  },
+  {
+    "id": 18,
+    "en": "????: [Oi, you alive?]",
+    "vi": "????: [Này, còn sống quyết chả đấy?]"
+  },
+  {
+    "id": 19,
+    "en": "???: [――Yeah, I’m alive.]",
+    "vi": "???: [――Ừm, ta vẫn còn sống.]"
+  },
+  {
+    "id": 20,
+    "en": "As someone called out to him overhead, he opened his eyes to see the face of a familiar man.",
+    "vi": "Khi có tiếng gọi vọng xuống từ trên đầu, hắn mở mắt ra và nhìn thấy gương mặt của một gã đàn ông vô cùng quen thuộc."
+  },
+  {
+    "id": 21,
+    "en": "He felt like the man was in possession of exceptional talent, since the boorish impression he gave off persisted even when looking at him upside-down. Anyway, that was completely unrelated to resolving the current situation.",
+    "vi": "Hắn cảm thấy gã có lẽ sở hữu một tài năng phi thường, bởi cái vẻ thô kệch cục mịch dũng mãnh tỏa ra từ gã vẫn quyết chả hề thay đổi dẫu nhìn từ dưới lên. Dù sao thì, chuyện đó dẫu quyết chả liên quan gì đến việc giải quyết tình thế hiểm nghèo hiện tại sất."
+  },
+  {
+    "id": 22,
+    "en": "???: [What happened to those guys?]",
+    "vi": "???: [Lũ đó sao rồi?]"
+  },
+  {
+    "id": 23,
+    "en": "????: [They managed to pass through me, and ran away as fast as they could after they threw you out. You’re… you better do something about that. I can’t help but feel pain whenever I look at it.]",
+    "vi": "????: [Chúng dẫu lách qua được chỗ tao, rồi chạy thục mạng điên cuồng nhanh nhất khả dĩ ngay sau khi hất văng mày xuống. Mày đấy… lo mà xử lý cái đó đi. Tao nhìn vào mà dẫu thấy buốt nhói đau đớn thay cho mày luôn đấy.]"
+  },
+  {
+    "id": 24,
+    "en": "???: [That? ...Ah, you mean this.]",
+    "vi": "???: [Cái đó sao? ...À, ý ngươi là cái này.]"
+  },
+  {
+    "id": 25,
+    "en": "He sat up while scratching his head, glancing towards the side of his body, where the other man had pointed at with a finger. Just then, he spotted the thick arrow embedded into his body.",
+    "vi": "Hắn ngồi dậy vừa gãi đầu vừa liếc nhìn về phía mạn sườn cơ thể mình, nơi gã kia đang lấy ngón tay chỉ vào. Ngay chính tích tắc đó, hắn nhìn thấy một mũi tên dày cộp đang găm sâu hoắm vào người mình."
+  },
+  {
+    "id": 26,
+    "en": "If the arrow piercing his left side had been positioned slightly higher than where it was, then it might have pierced his heart.",
+    "vi": "Nếu mũi tên đâm xuyên qua mạn sườn trái của hắn chỉ cần lệch lên cao hơn một chút so với vị trí hiện tại, thì nó khả dĩ dẫu đâm toang tim hắn rồi."
+  },
+  {
+    "id": 27,
+    "en": "Although the injury had nearly taken his life, he had few strong emotions about it. Not just about how it looked, but also about the fact that his own flesh had been pierced.",
+    "vi": "Mặc dù vết thương chí mạng suýt chút nữa dẫu cướp đi tính mạng hắn, hắn vẫn quyết chả có mấy cảm xúc chấn động dữ dội về chuyện đó. Quyết chả chỉ vì diện mạo ghê rợn của nó, mà còn vì sự thật là xương thịt của chính hắn dẫu bị đâm thủng rách."
+  },
+  {
+    "id": 28,
+    "en": "Todd: [It’s not really as painful as it looks, alright? Though it’ll be difficult to move for the time being…]",
+    "vi": "Todd: [Nó quyết chả đau đớn dữ dội như vẻ ngoài của nó đâu, được chưa? Dẫu cho tạm thời dứt định dẫu hơi khó để di chuyển cử động một chút…]"
+  },
+  {
+    "id": 29,
+    "en": "Jamal: [Dumbass. Who said they were worried about you? I said it’s painful to look at. Hurry up and pull it out.]",
+    "vi": "Jamal: [Thằng ngu. Ai bảo tao lo lắng băn khoăn cho mày chứ? Tao bảo nhìn vào đau đớn nhức mắt lắm. Mau rút phăng nó ra đi.]"
+  },
+  {
+    "id": 30,
+    "en": "Todd: [You’re kinda rough with wounded companions, aren’t you. ――And]",
+    "vi": "Todd: [Ngươi đối xử thô bạo với đồng đội bị thương thật đấy nhỉ. ――Và]"
+  },
+  {
+    "id": 31,
+    "en": "Hearing that from his frowning partner, he reluctantly grabbed the lodged arrow. The trouble with arrow wounds was that the arrow needed to be pulled out before the flesh closed around it.",
+    "vi": "Nghe thấy lời phàn nàn từ người cộng sự đang cau mày nhăn nhó, hắn miễn cưỡng nắm chặt lấy mũi tên đang găm sâu. Sự phiền phức hiểm nghèo của vết thương do tên bắn là mũi tên buộc phải được rút ra trước khi da thịt khép miệng lành lại xung quanh nó."
+  },
+  {
+    "id": 32,
+    "en": "Fortunately, it had only been stuck there a short time, so he was able to pull it out in one go with some exertion.",
+    "vi": "May mắn thay, nó chỉ mới găm vào đó trong một khoảng thời gian ngắn ngủi, thế nên hắn dẫu có thể dùng sức rút phăng nó ra chỉ trong một lần duy nhất."
+  },
+  {
+    "id": 33,
+    "en": "For the flow of blood, he pressed a torn piece of clothing on the opening of the wound and forcefully compressed it to stop the bleeding.",
+    "vi": "Để ngăn dòng máu xối xả phun ra, hắn áp chặt một mảnh vải rách từ quần áo lên miệng vết thương mở rộng rồi dùng lực ép mạnh để cầm máu."
+  },
+  {
+    "id": 34,
+    "en": "Todd: [So, here’s the arrow just as you ordered. Now what do we do, huh.]",
+    "vi": "Todd: [Thế nhé, đây là mũi tên theo đúng lệnh của ngươi rồi đấy. Giờ chúng ta dứt định dẫu làm gì đây hả.]"
+  },
+  {
+    "id": 35,
+    "en": "Jamal: [If it’s a deep wound, you should withdraw and rest. As for those guys that got away, I’ll take some people along and crush them. We’ll show those bastards ourselves that they’re prey... ]",
+    "vi": "Jamal: [Nếu là vết thương sâu hiểm nghèo, mày dứt định nên rút lui nghỉ ngơi đi. Còn lũ vừa trốn thoát kia, tao dứt định dẫu dẫn theo vài người bám đuổi nghiền nát bấy chúng. Bọn tao dứt định dẫu đích thân cho lũ khốn kiếp đó thấy chúng chỉ là con mồi mà thôi...]"
+  },
+  {
+    "id": 36,
+    "en": "Todd: [――That’d be a bad move, Jamal.]",
+    "vi": "Todd: [――Đó dứt định dẫu là một nước đi tồi tệ hiểm nghèo đấy, Jamal.]"
+  },
+  {
+    "id": 37,
+    "en": "Jamal: [What?]",
+    "vi": "Jamal: [Cái gì?]"
+  },
+  {
+    "id": 38,
+    "en": "The man dictating the course of action from here―― Jamal, was reined in by his hand.",
+    "vi": "Kẻ định đoạt kế hoạch hành động tiếp theo―― Jamal, dẫu bị bàn tay hắn cản lại kìm giữ."
+  },
+  {
+    "id": 39,
+    "en": "Todd understood why Jamal would want to pursue the fleeing enemies who had made fools of them to get payback. But, if they proceeded with a hasty offensive move, the ones who would be met with a painful experience would be those here.",
+    "vi": "Todd thừa hiểu tại sao Jamal lại nóng lòng muốn bám đuổi truy kích kẻ thù đang trốn chạy kẻ dẫu biến họ thành trò hề để rửa hận. Thế nhưng, nếu họ vội vàng cẩu thả tiến hành một đợt tấn công công kích vội vã, kẻ phải nếm trải trái đắng đau đớn dứt định dẫu là những người ở đây."
+  },
+  {
+    "id": 40,
+    "en": "Todd: [Think about it. Why exactly, did those guys brazenly enter Guaral? Considering what they themselves did, it’s obvious we’d be in this city.]",
+    "vi": "Todd: [Hãy động não nghĩ đi. Tại sao chính xác lũ đó lại dám thản nhiên bước chân vào Guaral chứ? Xem xét những gì chính tụi nó dẫu làm, hiển nhiên tụi nó dứt định dẫu biết rõ chúng ta ở thành phố này rồi.]"
+  },
+  {
+    "id": 41,
+    "en": "Jamal: [...Unless they’re brainless idiots.]",
+    "vi": "Jamal: [...Trừ phi tụi nó là lũ đần độn mất não sất.]"
+  },
+  {
+    "id": 42,
+    "en": "Todd: [――They deliberately marched in. They went as far as to conceal an ambush outside the city.]",
+    "vi": "Todd: [――Chúng dẫu chủ động hành quân vào đây. Thậm chí còn cẩn thận bố trí phục kích sẵn ở ngoài thành phố nữa.]"
+  },
+  {
+    "id": 43,
+    "en": "With a glance, Jamal looked at the arrow that had just been extracted and cleared his throat.",
+    "vi": "Liếc nhìn qua, Jamal nhìn xoáy vào mũi tên vừa được rút phăng ra rồi hắng giọng trầm đục."
+  },
+  {
+    "id": 44,
+    "en": "Jamal, as an experienced military man, had the ability to perceive the direction from which an arrow had been fired and its accuracy, and was able to determine from how high it had been shot.",
+    "vi": "Jamal, với tư cách là một quân nhân dày dạn kinh nghiệm chiến trường, dẫu sở hữu khả năng nhận biết hướng bắn dẫu như độ chính xác chuẩn xác dứt khoát của mũi tên, dẫu khả dĩ ước tính được tầm cao từ nơi nó dẫu được phóng ra."
+  },
+  {
+    "id": 45,
+    "en": "Naturally, he would reach the same conclusion as Todd himself.",
+    "vi": "Dĩ nhiên, gã dẫu đi đến cùng một kết luận giống hệt như chính bản thân Todd."
+  },
+  {
+    "id": 46,
+    "en": "Jamal: [If that’s right, their aim is…!]",
+    "vi": "Jamal: [Nếu đúng là vậy, mục tiêu của chúng là…!]"
+  },
+  {
+    "id": 47,
+    "en": "Todd: [To lure out and hunt us Imperial Soldiers who’d entered Guaral. If we abruptly chased after them with our entire military strength, or rather, if we pursued them with our small force, we’d be playing in the palm of their hand. ――Which of us would be the prey, I wonder.]",
+    "vi": "Todd: [Để dụ dỗ và săn lùng binh lính Đế quốc chúng ta khi tiến vào Guaral. Nếu chúng ta đột ngột cẩu thả bám đuổi chúng với toàn bộ binh lực, hay đúng hơn, nếu chúng ta truy kích chúng với lực lượng mỏng manh này, chúng ta dứt định dẫu rơi vào bẫy nằm trọn trong lòng bàn tay chúng. ――Quyết chả biết ai mới thực sự là con mồi đây.]"
+  },
+  {
+    "id": 48,
+    "en": "Jamal: [――――]",
+    "vi": "Jamal: [――――]"
+  },
+  {
+    "id": 49,
+    "en": "Gritting his teeth in frustration, Jamal scowled in the direction their opponents had fled.",
+    "vi": "Nghiến răng kèn kẹt đầy bực dọc hằn học, Jamal lườm mắt về phía hướng mà đối thủ của họ dẫu trốn chạy."
+  },
+  {
+    "id": 50,
+    "en": "On the inside, Jamal looked like he was being swayed by gut-boiling fury, but Todd knew that painful feeling all too well―― that was something he wouldn’t say. Rather than fury, it was admiration that had taken hold in his heart.",
+    "vi": "Bên trong lòng, Jamal trông có vẻ đang bị thao túng bởi cơn thịnh nộ điên cuồng sôi sục cả gan ruột, nhưng Todd hiểu quá rõ cái cảm giác buốt nhói đau đớn ấy―― dẫu thế đó dẫu là chuyện hắn dứt định dẫu quyết chả mở miệng nói ra sất. Thay vì tức giận, sự thán phục kính trọng dẫu chiếm lấy tâm trí hắn rồi."
+  },
+  {
+    "id": 51,
+    "en": "Brazenly using oneself as a decoy, successfully taking advantage of unpreparedness to lure out a foolish opponent.",
+    "vi": "Dám cả gan thản nhiên dùng chính bản thân làm mồi nhử dụ dỗ, tận dụng triệt để sự chủ quan quyết chả đề phòng phòng bị để dụ gã đối thủ khờ dại ra ngoài."
+  },
+  {
+    "id": 52,
+    "en": "He was certainly a formidable enemy, a child of war.",
+    "vi": "Hắn ta quả thực là một kẻ thù vô cùng đáng gờm hiểm nghèo, một đứa con của chiến tranh tàn khốc."
+  },
+  {
+    "id": 53,
+    "en": "Todd: [I seriously fucked up, failing to kill you…]",
+    "vi": "Todd: [Ta thực sự dẫu phạm sai lầm cẩu thả rồi, khi dẫu quyết chả tự tay kết liễu mạng sống của ngươi sớm hơn…]"
+  },
+  {
+    "id": 54,
+    "en": "While looking the same direction as Jamal, he softly muttered that.",
+    "vi": "Trong khi hướng mắt cùng chiều với Jamal, hắn khẽ thì thầm lẩm nhẩm điều đó."
+  },
+  {
+    "id": 55,
+    "en": "And then, he took a breath, “Ahh” as if he had pulled himself together,",
+    "vi": "Rồi hắn hít sâu một hơi thở dài, “Aaa” như thể dẫu vực lại tinh thần,"
+  },
+  {
+    "id": 56,
+    "en": "Todd: [Seems we’ll have an opportunity for revenge. ――They’ll come back, no matter what.]",
+    "vi": "Todd: [Xem ra chúng ta dứt định dẫu có cơ hội báo thù thôi. ――Chúng dứt định dẫu quay trở lại đây, bất kể thế nào đi chăng nữa.]"
+  },
+  {
+    "id": 57,
+    "en": "Jamal: [When that time comes, I’ll show absolutely no mercy.]",
+    "vi": "Jamal: [Khi thời điểm đó đến, tao dứt định quyết chả nương tay chút nào sất.]"
+  },
+  {
+    "id": 58,
+    "en": "Todd silently nodded in approval of Jamal stifling his anger.",
+    "vi": "Todd im lặng gật đầu đồng tình tán thành khi chứng kiến Jamal dồn nén kiềm chế cơn giận dữ điên cuồng của mình."
+  },
+  {
+    "id": 59,
+    "en": "Then, for the time being he would confirm this battle as a loss. Moreover――,",
+    "vi": "Thế thì, trước mắt hắn dứt định dẫu chấp nhận trận chiến đối đầu này là một thất bại. Hơn thế nữa――,"
+  },
+  {
+    "id": 60,
+    "en": "Todd: [Jamal.]",
+    "vi": "Todd: [Jamal.]"
+  },
+  {
+    "id": 61,
+    "en": "Jamal: [Oh. ...What’s with those hands?]",
+    "vi": "Jamal: [Hử. ...Cái tay thế kia là có ý gì hả?]"
+  },
+  {
+    "id": 62,
+    "en": "Todd’s legs were stretched out on the ground, both hands extended in his direction, and Jamal frowned.",
+    "vi": "Chân của Todd đang duỗi thẳng sải dài trên đất cát, hai tay vươn dài về phía gã, khiến Jamal nhíu mày cau có."
+  },
+  {
+    "id": 63,
+    "en": "Todd tilted his head at the incomprehension, “Just what it looks like”, he continued,",
+    "vi": "Todd nghiêng đầu vẻ mơ hồ bối rối, “Thì đúng như những gì ngươi thấy đấy chứ”, hắn nói tiếp,"
+  },
+  {
+    "id": 64,
+    "en": "Todd: [Piggyback ride.]",
+    "vi": "Todd: [Cõng ta đi nào.]"
+  },
+  {
+    "id": 65,
+    "en": "Jamal: [Die alone!]",
+    "vi": "Jamal: [Mày dứt dứt định tự đi mà bỏ mạng vong mạng đi!]"
+  },
+  {
+    "id": 66,
+    "en": "He shrugged his shoulders, really, that was not a response of true friendship.",
+    "vi": "Hắn khẽ nhún vai, quả thực, đó quyết chả phải là phản ứng của một tình bạn tri kỷ bằng hữu chân chính gì sất."
+  },
+  {
+    "id": 67,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 68,
+    "en": "Stepping strongly on the hard ground, Subaru marched forward with long strides.",
+    "vi": "Dẫm mạnh chân bước chân lên nền đất cứng đờ khô cằn, Subaru sải bước tiến thẳng về phía trước."
+  },
+  {
+    "id": 69,
+    "en": "As he neared his destination, his restlessness increased and his ability to suppress the need to jump out from the ox cart decreased. And so, with the moment of arrival finally at hand, his body leapt forward with vigour.",
+    "vi": "Khi càng tiến sát gần đến đích đến của mình, sự bồn chồn lo lắng bứt rứt trong lòng cậu lại càng dâng trào dữ dội dứt định, dẫu khả năng kìm nén mong muốn nhảy phóc xuống khỏi chiếc xe bò kéo dẫu giảm sút hoàn toàn. Và cứ thế, khi khoảnh khắc đến nơi thực sự dẫu kề cận cận kề, cơ thể cậu bật vọt nhanh dũng mãnh về phía trước."
+  },
+  {
+    "id": 70,
+    "en": "He felt like he heard voices trying to stop him, but they all went in one ear and out the other.",
+    "vi": "Cậu cảm giác như dẫu nghe thấy những giọng nói lo lắng băn khoăn đang nỗ lực cản mình lại, nhưng tất cả đều nước đổ lá khoai đi tai này lọt qua tai kia."
+  },
+  {
+    "id": 71,
+    "en": "Shaking them off, he headed straight for the target building. A wooden building, noticeably larger than the rest, located at the center of the settlement. Entering it, he drew the gazes of several people inside.",
+    "vi": "Bỏ ngoài tai tất cả, cậu hướng thẳng đến ngôi nhà mục tiêu. Một tòa nhà bằng gỗ, lớn hơn hẳn so với những ngôi nhà khác xung quanh, nằm sừng sững ngay trung tâm của khu định cư bản doanh. Bước vào bên trong, cậu ngay lập tức thu hút trọn vẹn ánh nhìn của vài người đang t túc trực bên trong."
+  },
+  {
+    "id": 72,
+    "en": "And――,",
+    "vi": "Và――,"
+  },
+  {
+    "id": 73,
+    "en": "???: [――So you have returned. Quicker than my expectations even.]",
+    "vi": "???: [――Thế là ngươi dẫu quay trở lại rồi sao. Thậm chí còn nhanh hơn cả dự tính tính toán của ta nữa đấy.]"
+  },
+  {
+    "id": 74,
+    "en": "An arrogant man brazenly declared, sporting an oni mask.",
+    "vi": "Một gã đàn ông kiêu ngạo vênh váo thản nhiên tuyên bố dứt khoát, trên mặt đeo một chiếc mặt nạ Quỷ dũng mãnh."
+  },
+  {
+    "id": 75,
+    "en": "Saying nothing towards his haughty attitude, Subaru charged straight forward. Letting the momentum carry him, he, without hesitation, peeled off the mask of the man who looked down on him.",
+    "vi": "Quyết chả thèm mở miệng đáp lại thái độ hành xử kiêu ngạo khinh khỉnh ấy, Subaru lao trực diện thẳng về phía trước. Tận dụng triệt để đà lao tới, cậu quyết chả chút do dự trì hoãn thô bạo lột phăng chiếc mặt nạ của gã đàn ông đang nhìn khinh miệt xuống mình."
+  },
+  {
+    "id": 76,
+    "en": "Letting his mask be removed with little resistance, the man’s graceful features became exposed.",
+    "vi": "Để mặc chiếc mặt nạ bị lột ra quyết chả mấy phản kháng chống cự, những đường nét thanh tú nhã nhặn trên gương mặt gã đàn ông lộ rõ bày ra."
+  },
+  {
+    "id": 77,
+    "en": "Grabbing the collar of that unbearable person with his demonic face, Subaru pulled him up into a standing position. Next, he brandished his fist, ready to send his fist flying into that face and――,",
+    "vi": "Túm chặt lấy cổ áo của kẻ đáng ghét quyết chả thể chịu nổi kia bằng vẻ mặt giận dữ dữ dội điên cuồng như ác quỷ, Subaru giật mạnh kéo gã gượng dậy đứng thẳng lên. Kế đó, cậu giơ nắm đấm siết chặt của mình lên, sẵn sàng tống một cú đấm chí mạng vào gương mặt thanh tú đó và――,"
+  },
+  {
+    "id": 78,
+    "en": "???: [Subaru, wait.]",
+    "vi": "???: [Subaru, hãy khoan đã.]"
+  },
+  {
+    "id": 79,
+    "en": "Just as Subaru was about to punch him into oblivion, his drawn right arm was forcibly stopped from behind.",
+    "vi": "Ngay tích tắc Subaru chuẩn bị tung cú đấm chí mạng tiễn gã bay biến vào hư vô, cánh tay phải đang giơ cao của cậu dẫu bị một lực mạnh cưỡng ép cản lại chặn đứng từ sau lưng."
+  },
+  {
+    "id": 80,
+    "en": "A tall figure, who dyed the ends of their hair red. It was this settlement’s clan leader, Mizelda, who had stopped him. Wanting to complain about her action, he opened his mouth, about to say “Now? Of all times?”.",
+    "vi": "Một bóng dáng cao ráo oai nghiêm, với phần ngọn tóc nhuộm sắc đỏ rực rỡ. Chính là thủ lĩnh của khu định cư này, Mizelda, dẫu giữ tay cậu lại. Muốn lớn tiếng phàn nàn về hành động cản trở của cô, cậu há miệng định thốt ra “Lúc này ư? Vào đúng lúc này sao?”."
+  },
+  {
+    "id": 81,
+    "en": "However, faster than he could object, Mizelda prefaced, saying “Listen,”",
+    "vi": "Thế nhưng, nhanh hơn cả phản kháng của cậu, Mizelda dẫu cướp lời trước, bảo “Nghe này,”"
+  },
+  {
+    "id": 82,
+    "en": "Mizelda: [Not the face. Anything else, I’ll forgive.]",
+    "vi": "Mizelda: [Đừng đấm vào mặt gã. Bất kỳ nơi nào khác trên người gã, ta đều dứt định dẫu bỏ qua.]"
+  },
+  {
+    "id": 83,
+    "en": "Subaru: [ORAA――!]",
+    "vi": "Subaru: [ORAA――!]"
+  },
+  {
+    "id": 84,
+    "en": "Abel: [――Hk]",
+    "vi": "Abel: [――Hự]"
+  },
+  {
+    "id": 85,
+    "en": "Receiving her unwavering answer, Subaru, after a brief moment, delivered his fist directly into Abel’s stretched torso.",
+    "vi": "Nhận được câu trả lời kiên định dứt khoát quyết chả đổi dời từ cô, Subaru quyết chả thèm do dự, lập tức thụi một cú đấm chí mạng ngập sâu trực diện vào phần bụng duỗi thẳng của Abel."
+  },
+  {
+    "id": 86,
+    "en": "Subaru did not know if Abel had expected to be punched in the face but, having been hit in a location he was not ready to be hit in, the man let out a cry of pain and took a few steps back. Not all of Subaru’s pent-up anger was released by just that but――,",
+    "vi": "Subaru quyết chả rõ liệu Abel có mặc định chuẩn bị tinh thần dứt định dẫu bị đấm vào mặt hay quyết chả, dẫu vậy, việc bị thụi một phát vào vị trí hoàn toàn quyết chả có sự phòng bị đề phòng dẫu khiến gã đàn ông kêu khẽ một tiếng đau đớn nhói buốt rồi lùi lại vài bước chân loạng choạng. Dù chỉ có bấy nhiêu vẫn chưa đủ giải tỏa hết cơn thịnh nộ giận dữ tích tụ như núi lửa phun trào của Subaru, nhưng――,"
+  },
+  {
+    "id": 87,
+    "en": "Subaru: [Don’t think we’re even now, shithead…!]",
+    "vi": "Subaru: [Đừng có nghĩ thế là huề cả làng nhé, đồ khốn kiếp…!]"
+  },
+  {
+    "id": 88,
+    "en": "Abel: [――Hmph, what a greedy man you are.]",
+    "vi": "Abel: [――Hừm, ngươi quả thực là một kẻ vô cùng tham lam vô độ đấy.]"
+  },
+  {
+    "id": 89,
+    "en": "The man picked up the oni mask that had fallen to the side and put it back on. The man who always had something to say back―― Abel.",
+    "vi": "Gã đàn ông cúi người nhặt chiếc mặt nạ Quỷ dẫu rơi lăn lóc sang bên cạnh rồi đeo nó trở lại mặt. Kẻ lúc nào dẫu phải mở miệng đớp chát lại bằng được―― Abel."
+  },
+  {
+    "id": 90,
+    "en": "Having struck the man who was the source of his dam-level pent-up anger, Subaru harshly exhaled.",
+    "vi": "Đấm mạnh bạo được một phát vào gã đàn ông vốn là cội nguồn của mọi tức giận dữ dội tích tụ dồn nén bấy lâu nay của mình, Subaru thở phào hắt ra một hơi nặng nề dữ dội."
+  },
+  {
+    "id": 91,
+    "en": "For he had travelled for three-plus days, taking the path back, just for this one strike.",
+    "vi": "Bởi lẽ cậu dẫu phải lặn lội di chuyển suốt hơn ba ngày trời ròng rã, đi ngược lại con đường cũ quay trở về đây, chỉ cốt để tung ra một cú đấm chí mạng duy nhất này mà thôi."
+  },
+  {
+    "id": 92,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 93,
+    "en": "Flop: [Look sis! Apparently, this is the village of the famous People of Shudraq! It’s in the backwoods of the unexplored regions, just like the rumours say! What a find!]",
+    "vi": "Flop: [Nhìn kìa em gái! Hóa ra đây chính là ngôi làng của Người Shudraq nổi tiếng lẫy lừng dũng mãnh đấy! Nó nằm ẩn sâu hoắm trong rừng sâu hoang vu hẻo lánh quyết chả có ai lui tới, y hệt như lời đồn thổi truyền tai luôn! Đúng là một phát hiện khám phá vĩ đại vĩ đại!]"
+  },
+  {
+    "id": 94,
+    "en": "Medium: [Woah! Amazing, big bro! Look look! Everyone’s abs are ripped just like me! Ripped! Big bro, ripped!]",
+    "vi": "Medium: [Oa! Anh hai siêu thật đấy! Nhìn kìa nhìn kìa! Cơ bụng của ai trông dẫu săn chắc cơ bắp cuồn cuộn y hệt như em luôn! Cuồn cuộn cuồn cuộn! Anh hai ơi, săn chắc thật đấy!]"
+  },
+  {
+    "id": 95,
+    "en": "Flop: [Mega ripped!]",
+    "vi": "Flop: [Cực kỳ săn chắc săn chắc luôn!]"
+  },
+  {
+    "id": 96,
+    "en": "The siblings’ voiced thoughts echoed throughout the settlement. They were seemingly easy-going, no matter where they were.",
+    "vi": "Những ý kiến trò chuyện thẳng thắn rôm rả của hai anh em vang vọng inh ỏi khắp khu định cư. Họ trông có vẻ vô cùng ung dung tự tại, bất kể là ở bất cứ nơi đâu hiểm nghèo nào."
+  },
+  {
+    "id": 97,
+    "en": "The duo exchanging their candid opinions were the O’Connell siblings, Flop and Medium. Caught up in the flow of things, they had been invited into the People of Shudraq’s settlement.",
+    "vi": "Cặp đôi đang thoải mái trao đổi chia sẻ quan điểm thẳng thắn đó chính là anh em nhà O’Connell, Flop và Medium. Cuốn theo dòng chảy diễn tiến của sự việc, họ dẫu được mời tiến vào khu định cư của Người Shudraq."
+  },
+  {
+    "id": 98,
+    "en": "They were in the middle of the plaza, sitting atop their ox cart, surrounded by the Shudraqians who had gathered in curiosity. Their fearless attitude appeared to be a constant even in different lands and environments. Acting like big shots, they showed not a single emotion remotely resembling trepidation, alertness or anxiety, even while drawing the eyes and attention of many.",
+    "vi": "Họ đang ở ngay giữa quảng trường bản doanh, ngồi chễm chệ trên chiếc xe bò kéo của mình, bao quanh là các tộc nhân Shudraq dẫu tụ tập lại vì tò mò hiếu kỳ. Thái độ dũng cảm quyết chả sợ sệt hiểm nguy của họ dường như quyết chả hề thay đổi dẫu ở bất kỳ vùng đất hay hoàn cảnh môi trường xa lạ nào. Hành xử tự tin như những nhân vật vĩ đại vĩ đại, họ quyết chả hề để lộ ra bất kỳ một cảm xúc nhỏ nhoi nào liên quan đến sự sợ hãi sợ sệt hiểm nguy, cảnh giác đề phòng hay lo lắng lo âu băn khoăn, ngay cả khi đang thu hút trọn vẹn vô số ánh mắt dẫu như sự chú ý của đám đông."
+  },
+  {
+    "id": 99,
+    "en": "However, they should become more aware of the dangers and harms to one’s life and body when interacting with others. It would be more normal and appropriate to be scared, because currently, they were being surrounded by a pretty much unknown, wild tribe.",
+    "vi": "Tuy nhiên, họ dứt định nên nhận thức cảnh giác rõ ràng hơn về những hiểm họa nguy hiểm dẫu như tổn hại đối với tính mạng dẫu như cơ thể của mình khi giao thiệp với người lạ. Việc cảm thấy sợ hãi sợ sệt hiểm nguy dứt định dẫu là bình thường và thích đáng hơn nhiều, bởi lẽ hiện tại, họ đang bị vây quanh bởi một bộ tộc hoang dã dũng mãnh gần như quyết chả hề quen biết chút nào sất."
+  },
+  {
+    "id": 100,
+    "en": "Abel: [You have brought back rather noisy company. Were those people required for your journey? If so, the way you and I see value is different.]",
+    "vi": "Abel: [Ngươi dẫu dẫn theo một lũ vô cùng ồn ào náo nhiệt rôm rả quay lại đấy nhỉ. Lũ người đó là cần thiết cho hành trình di chuyển của ngươi sao? Nếu quả đúng là vậy, thì góc nhìn nhận định giá trị của ngươi và ta dứt định là bất đồng khác biệt rồi.]"
+  },
+  {
+    "id": 101,
+    "en": "Subaru: [I won’t deny we value things differently. There’s a big difference in how you and I see things. ――Saying that, that attitude of yours is really something isn’t it?]",
+    "vi": "Subaru: [Tôi quyết chả phủ nhận chuyện chúng ta nhìn nhận định giá trị khác biệt nhau đâu. Có một khoảng cách biệt lớn giữa cách tôi và anh nhìn nhận vấn đề đấy. ――Mà nói đi dẫu phải nói lại, cái thái độ hành xử đó của anh cũng quả thực ghê gớm đấy nhỉ?]"
+  },
+  {
+    "id": 102,
+    "en": "Abel: [Hoh?]",
+    "vi": "Abel: [Hử?]"
+  },
+  {
+    "id": 103,
+    "en": "Sitting on the floor of the meeting area, Subaru and Abel faced off against each other, much like how they had done a few days prior.",
+    "vi": "Ngồi bệt trực diện đối đầu trên nền đất của khu vực hội họp bản doanh, Subaru và Abel đối diện nhau, y hệt như những gì họ dẫu làm vài ngày trước đây."
+  },
+  {
+    "id": 104,
+    "en": "Abel had received Subaru’s punch of retribution earlier, but there was no inkling of repentance in the tone of his words. Never mind wanting an apology, he did not plan on giving one anyway.",
+    "vi": "Abel dẫu phải hứng trọn cú đấm trả đũa trừng phạt của Subaru vừa nãy, dẫu vậy quyết chả hề có một chút dấu vết nhỏ nhoi nào của sự hối lỗi ăn năn trong giọng điệu lời nói của gã. Đừng nói đến chuyện mong đợi một lời xin lỗi thành khẩn từ gã, gã dẫu quyết chả mảy may có ý định mở miệng xin lỗi chút nào sất."
+  },
+  {
+    "id": 105,
+    "en": "However, Subaru could not ignore his comment on the siblings.",
+    "vi": "Thế nhưng, Subaru quyết chả thể làm ngơ trước nhận xét khinh miệt của gã nhắm vào hai anh em tốt bụng họ."
+  },
+  {
+    "id": 106,
+    "en": "That was because――,",
+    "vi": "Bởi lẽ là――,"
+  },
+  {
+    "id": 107,
+    "en": "Rem: [Abel-san, we inadvertently got those people involved. They were kind to us when we were stuck standing outside the city… Just because of that.]",
+    "vi": "Rem: [Anh Abel, chúng tôi dẫu vô tình kéo những người tốt bụng đó vào rắc rối hiểm nghèo này. Họ dẫu vô cùng tử tế tốt bụng với chúng tôi khi chúng tôi bị kẹt đứng bơ vơ bên ngoài thành phố… Chỉ đơn thuần vì lẽ đó mà thôi.]"
+  },
+  {
+    "id": 108,
+    "en": "Abel: [――――]",
+    "vi": "Abel: [――――]"
+  },
+  {
+    "id": 109,
+    "en": "The reason for Subaru’s anger was explained instead by Rem.",
+    "vi": "Nguyên nhân nguồn gốc dẫn đến sự giận dữ của Subaru dẫu được Rem thay mặt giải thích rõ ràng."
+  },
+  {
+    "id": 110,
+    "en": "Unlike last time, the meeting room had not been cleared out, and so members other than Subaru and Abel were also participating in the discourse.",
+    "vi": "Khác hẳn so với lần trước, phòng họp bản doanh quyết chả hề được dọn trống quét dọn sạch sẽ người ngoài, thế nên những thành viên khác ngoài Subaru và Abel dẫu đang cùng tham gia vào cuộc thảo luận trò chuyện này."
+  },
+  {
+    "id": 111,
+    "en": "Next to Subaru was Rem, seated seiza-style and their fellow travellers, Kuna and Holly. Seated next to Abel were the sisters Mizelda and Taritta. [1]",
+    "vi": "Ngồi ngay sát cạnh Subaru là Rem đang quỳ gối ngay ngắn kiểu seiza dẫu như những người đồng hành đồng chí của họ, Kuna và Holly. Ngồi bên cạnh Abel là hai chị em nhà Mizelda và Taritta. [1]"
+  },
+  {
+    "id": 112,
+    "en": "As a side note, on the topic of Louis, she was being looked after by the person closest to her in age, Utakata. She was currently, most likely at the ox cart in the plaza, with the Shudraqian-surrounded O’Connell siblings.",
+    "vi": "Về phần Louis, cô bé dẫu được chăm nom lo lắng bởi người có độ tuổi gần nhất, Utakata. Hiện tại cô bé nhiều khả năng dứt định đang ở chiếc xe bò kéo ngoài quảng trường, cùng với anh em nhà O’Connell đang được bao quanh bởi các tộc nhân Shudraq."
+  },
+  {
+    "id": 113,
+    "en": "In any case――,",
+    "vi": "Bằng bất cứ giá nào thì――,"
+  },
+  {
+    "id": 114,
+    "en": "Rem: [With their assistance, we were able to return safely. In doing so, they are now being targeted by the city’s soldiers…]",
+    "vi": "Rem: [Nhờ có sự trợ giúp tử tế tốt bụng của họ, chúng tôi mới khả dĩ quay trở về đây an toàn tính mạng. Cũng vì điều đó, hiện tại họ dẫu đang bị binh lính trong thành phố bám đuổi săn lùng…]"
+  },
+  {
+    "id": 115,
+    "en": "Abel: [Incorrect, I shall amend that. The ones targeting us and the two outside are not the city’s soldiers. They are the Imperial Soldiers. The ones who serve this country have become your enemy.]",
+    "vi": "Abel: [Sai lầm cẩu thả rồi, ta buộc phải đính chính sửa đổi lại chỗ đó. Những kẻ đang săn lùng bám đuổi chúng ta và hai người tốt bụng bên ngoài quyết chả phải lính gác thông thường của thành phố sất. Chúng chính là binh lính Quân đội Đế quốc. Những kẻ phục dịch đất nước này dẫu chính thức trở thành kẻ thù của các ngươi rồi.]"
+  },
+  {
+    "id": 116,
+    "en": "Rem & Subaru: [――――]",
+    "vi": "Rem & Subaru: [――――]"
+  },
+  {
+    "id": 117,
+    "en": "From behind his oni mask, Abel’s cold words pierced through Subaru and Rem.",
+    "vi": "Từ phía sau lớp mặt nạ Quỷ dũng mãnh của gã, những lời nói lạnh lùng buốt giá của Abel như đâm toang tâm can Subaru và Rem."
+  },
+  {
+    "id": 118,
+    "en": "Hearing his dry statement, Rem could only avert her light-blue eyes tiredly. To be honest, that was the undeniable truth of the situation. Subaru understood that.",
+    "vi": "Lắng nghe những tuyên bố khô khốc chán ngắt lạnh lùng ấy, Rem chỉ đành biết cách ngoảnh mặt lảng tránh ánh mắt sắc xanh lam nhạt đầy mệt mỏi của mình đi. Thành thật mà nói, đó chính là sự thật hiển nhiên quyết chả thể chối bỏ của tình thế hiện tại. Subaru hiểu rõ điều đó."
+  },
+  {
+    "id": 119,
+    "en": "However, understanding and agreeing with the truth were two different things.",
+    "vi": "Dẫu vậy, thấu hiểu thực tại và chấp nhận tán đồng nó là hai việc hoàn toàn xa lạ khác biệt."
+  },
+  {
+    "id": 120,
+    "en": "Subaru: [Drawing the badwill of the camp’s Imperial Soldiers was my mistake. Their hostility is also the result of my choices and actions.]",
+    "vi": "Subaru: [Việc thu hút ác ý tàn độc của binh lính Đế quốc ở doanh trại quân đội dứt định là sai lầm cẩu thả của tôi. Sự thù địch của chúng dẫu là hệ quả từ những lựa chọn dẫu như hành động cẩu thả của chính bản thân tôi.]"
+  },
+  {
+    "id": 121,
+    "en": "Abel: [That is correct. It is the fate you tied yourself to, even before you encountered the People of Shudraq.]",
+    "vi": "Abel: [Điều đó hoàn toàn chính xác. Đó là số mệnh mà chính ngươi dẫu tự trói buộc thắt chặt bản thân vào, ngay cả trước khi ngươi chạm trán gặp gỡ với Người Shudraq.]"
+  },
+  {
+    "id": 122,
+    "en": "Subaru: [I can’t make excuses for that fate, because the one who made them an enemy is unmistakably me. ――But, the one who had to pay for those consequences should have just been me.]",
+    "vi": "Subaru: [Tôi quyết chả muốn biện hộ cho số mệnh đó sất, bởi lẽ kẻ biến chúng thành kẻ thù quyết chả nghi ngờ gì nữa chính là tôi. ――Nhưng dẫu vậy, kẻ phải gánh chịu trả giá cho hậu quả tổn thất đó đáng lẽ ra chỉ dứt định phải là tôi thôi mới đúng chứ.]"
+  },
+  {
+    "id": 123,
+    "en": "It was true that the majority of the fault fell on Subaru, but the problem here was Abel’s attitude.",
+    "vi": "Sự thực là phần lớn lỗi lầm đều thuộc về phía Subaru, thế nhưng vấn đề nan giải cốt lõi ở đây chính là thái độ ứng xử của Abel."
+  },
+  {
+    "id": 124,
+    "en": "From the start, he should have known the danger Subaru’s group would be in if they entered Guaral. He should have noticed the possibility where they were attacked after coming into contact with the surviving Imperial Soldiers.",
+    "vi": "Ngay từ đầu, gã dứt định dẫu phải lường trước rõ ràng sự hiểm nguy hiểm nghèo mà nhóm Subaru dứt định gặp phải nếu tiến vào Guaral. Gã dứt định dẫu phải nhận ra khả năng họ bị tấn công công kích dữ dội sau khi chạm trán tiếp xúc với những binh lính Đế quốc còn sống sót."
+  },
+  {
+    "id": 125,
+    "en": "That was why――,",
+    "vi": "Chính vì lẽ đó――,"
+  },
+  {
+    "id": 126,
+    "en": "Subaru: [You ordered Kuna and Holly &#8211; in advance &#8211; to wait for us outside the city. To help us if we were trying to escape the city from pursuers.]",
+    "vi": "Subaru: [Anh dẫu ra lệnh cho Kuna và Holly ―― từ trước ―― đợi sẵn chúng tôi ở bên ngoài thành phố. Để dang tay cứu giúp nếu chúng tôi nỗ lực trốn chạy khỏi thành phố trước sự bám đuổi của kẻ thù.]"
+  },
+  {
+    "id": 127,
+    "en": "Holly: [For real for real, you guys were in quite a pickle you know~. If me and Kuna weren’t there, Subaru, your head would’ve been split in two by an axe by now~.]",
+    "vi": "Holly: [Thật sự luôn thật sự luôn, tụi cậu lúc đó dẫu lâm vào tình thế hiểm nghèo vô cùng khốn đốn đấy nhé~. Nếu tôi và Kuna quyết chả túc trực túc trực ở đó, thì Subaru ơi, cái đầu của cậu dẫu bị bổ đôi làm hai nửa dưới lưỡi rìu từ lâu rồi đấy~.]"
+  },
+  {
+    "id": 128,
+    "en": "Plunking down into a cross-legged position, Holly stated casually while stuffing her mouth full of dangos. Unlike the person sitting next to her, Kuna, who held an uneasy expression, she did not comprehend the mood of the conversation.",
+    "vi": "Ngồi bệt xuống khoanh tròn chân chân, Holly thản nhiên vừa đớp bánh dango ngập miệng vừa nói chuyện. Trái ngược hoàn toàn với người ngồi bên cạnh, Kuna, cô gái đang giữ vẻ mặt vô cùng bất an băn khoăn, Holly quyết chả hề mảy may bận tâm nhận thức được bầu không khí căng thẳng căng thẳng của cuộc hội thoại."
+  },
+  {
+    "id": 129,
+    "en": "Of course, Subaru was thankful for Holly and Kuna’s help. If not for their assistance, the possibility of his head having been split open back then was quite high.",
+    "vi": "Tất nhiên, Subaru vô cùng biết ơn sự cứu giúp đắc lực của Holly và Kuna. Nếu quyết chả có sự trợ giúp đắc lực của họ, khả năng đầu cậu bị bổ đôi ngoác ra lúc đó dứt định là vô cùng cao rồi."
+  },
+  {
+    "id": 130,
+    "en": "Subaru: [Using Kuna’s eyes to keep watch and Holly’s bow to support us… A long-range bow and arrow snipe. It’s what you’d call a combo skill with both your talents.]",
+    "vi": "Subaru: [Tận dụng đôi mắt sắc lẹm của Kuna để canh gác quan sát dẫu như cây cung của Holly để nâng đỡ hỗ trợ… Một cú bắn bắn tỉa tầm xa chuẩn xác dứt khoát. Đó khả dĩ gọi là một đòn phối hợp tuyệt vời tuyệt diệu kết hợp tài năng thiên phú của cả hai cô.]"
+  }
+]

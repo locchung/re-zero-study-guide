@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 2,
+    "en": "Translated By :",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 3,
+    "en": "Art Sources :",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 4,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 5,
+    "en": "ALL RIGHTS BELONG TO TAPPEI NAGATSUKI, THE ORIGINAL AUTHOR OF RE:ZERO STARTING A LIFE IN A DIFFERENT WORLD FROM ZERO, THIS IS A TRANSLATION OF THE FREE JAPANESE WEB NOVEL INTO ENGLISH",
+    "vi": "BẢN QUYỀN THUỘC VỀ NAGATSUKI TAPPEI, TÁC GIẢ NGUYÊN TÁC CỦA RE:ZERO - BẮT ĐẦU LẠI Ở THẾ GIỚI KHÁC TỪ CON SỐ KHÔNG. ĐÂY LÀ BẢN DỊCH PHI LỢI NHUẬN TỪ WEB NOVEL TIẾNG NHẬT SANG TIẾNG VIỆT."
+  },
+  {
+    "id": 6,
+    "en": "JAPANESE WEB NOVEL SOURCE",
+    "vi": "NGUỒN WEB NOVEL TIẾNG NHẬT"
+  },
+  {
+    "id": 7,
+    "en": "※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 8,
+    "en": "▼△▼△▼△",
+    "vi": "▼△▼△▼△"
+  },
+  {
+    "id": 9,
+    "en": "Translated By :",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 10,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính:"
+  },
+  {
+    "id": 11,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 12,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 13,
+    "en": "――The fall of the Fortress City of Guaral, that was the next move in Abel’s scheme.",
+    "vi": "――Hạ gục Thành lũy Guaral, đó chính là nước đi tiếp theo trong mưu đồ của Abel."
+  },
+  {
+    "id": 14,
+    "en": "As his brain digested the contents of that bold proclamation, Subaru instantly reached a conclusion.",
+    "vi": "Khi đầu óc đã tiêu hóa hết nội dung của lời tuyên bố táo tợn đó, Subaru lập tức đưa ra một kết luận."
+  },
+  {
+    "id": 15,
+    "en": "That it was an absurd plan.",
+    "vi": "Rằng đó là một kế hoạch vô lý hết sức."
+  },
+  {
+    "id": 16,
+    "en": "Subaru: [Though imperfect, it’s a Fortress City… It’s surrounded by walls on all sides, plus entries and exits through the gates are being monitored constantly. It’s not a place where you can just say something like “surrender” so casually.]",
+    "vi": "Subaru: [Dù có chưa hoàn thiện, đó vẫn là một Thành lũy kiên cố… Nó được bao quanh bởi tường thành bốn phía, chưa kể việc ra vào qua các cổng thành đều bị giám sát liên tục. Đó không phải là nơi anh có thể thản nhiên thốt ra hai chữ \"đầu hàng\" một cách dễ dàng như thế.]"
+  },
+  {
+    "id": 17,
+    "en": "Abel: [Ho, you speak as though you have seen it… Oh right, you have. As nothing particularly useful has been heard coming from your mouth, I had nearly forgotten.]",
+    "vi": "Abel: [Ồ, ngươi nói cứ như thể ngươi đã tận mắt thấy nó rồi vậy… Ồ phải rồi, ngươi thấy rồi thật. Vì chưa thấy điều gì đặc biệt hữu ích thốt ra từ miệng ngươi, ta suýt nữa thì quên khuấy đi mất.]"
+  },
+  {
+    "id": 18,
+    "en": "Subaru: [That sharp wit is very nice. But, that sharpness is only usable against opponents sitting down for discussions like this. It won’t work against armed opponents.]",
+    "vi": "Subaru: [Sự sắc sảo đó quả thực rất ghê gớm. Nhưng, sự sắc sảo đó chỉ có tác dụng chống lại những đối thủ chịu ngồi xuống thảo luận như thế này thôi. Nó sẽ không có tác dụng trước những đối thủ có vũ trang đâu.]"
+  },
+  {
+    "id": 19,
+    "en": "In the middle of the meeting place, encircling the fire, Subaru and Abel glared at each other.",
+    "vi": "Ở ngay giữa phòng họp, bao quanh đống lửa bập bùng, Subaru và Abel trừng mắt nhìn nhau."
+  },
+  {
+    "id": 20,
+    "en": "Abel let no emotion behind the oni mask peek through, but that just made it all the more impossible for Subaru to guess what was going through his head, leaving Subaru both annoyed and confused.",
+    "vi": "Abel không để bất kỳ cảm xúc nào lọt qua phía sau lớp mặt nạ Quỷ, nhưng điều đó lại càng khiến Subaru không thể đoán nổi gã đang suy tính điều gì trong đầu, khiến cậu vừa bực mình vừa bối rối."
+  },
+  {
+    "id": 21,
+    "en": "Right now, the legitimate concern Subaru harbored, there was no way Abel would not have likewise realized it.",
+    "vi": "Lúc này, mối bận tâm hoàn toàn hợp lý mà Subaru ôm giữ, không đời nào Abel lại không tự mình nhận thức được."
+  },
+  {
+    "id": 22,
+    "en": "And in spite of that, he had proposed something like the fall of the Fortress City――,",
+    "vi": "Thế mà bất chấp chuyện đó, gã vẫn hiên ngang đề xuất một việc điên rồ như việc hạ gục Thành lũy――,"
+  },
+  {
+    "id": 23,
+    "en": "Rem: [...You intend to use a byway to invade the city, is that what you are saying?]",
+    "vi": "Rem: [...Ý anh là chúng ta sẽ dùng lối đi bí mật để thâm nhập vào thành phố sao?]"
+  },
+  {
+    "id": 24,
+    "en": "While Subaru was holding his breath, a quiet voice murmured those words beside him; it was Rem’s.",
+    "vi": "Trong lúc Subaru đang nín thở, một giọng nói khẽ khàng thì thầm bên cạnh cậu; đó chính là Rem."
+  },
+  {
+    "id": 25,
+    "en": "Rem was sitting with her legs folded to one side, her light-blue eyes fixed intently on Abel. It was less of a glare, and more like her gaze was peering into him.",
+    "vi": "Rem ngồi xếp chân sang một bên, đôi mắt xanh lam nhạt đăm đăm nhìn vào Abel. Đó không hẳn là cái nhìn hằn học, mà giống như cô đang muốn soi xét con người gã."
+  },
+  {
+    "id": 26,
+    "en": "Receiving that look, “That goes without saying”, Abel shrugged.",
+    "vi": "Nhận lấy ánh mắt đó, Abel nhún vai bảo \"Điều đó là hiển nhiên rồi\"."
+  },
+  {
+    "id": 27,
+    "en": "Abel: [As Natsuki Subaru said, the inspections imposed at the main gates of the city are the first obstacle. It is imperative we find a way to evade them to get into the city.]",
+    "vi": "Abel: [Đúng như Natsuki Subaru nói, sự kiểm tra nghiêm ngặt ở cổng chính thành phố chính là chướng ngại đầu tiên. Bắt buộc phải tìm ra cách lách qua mắt chúng để thâm nhập vào thành.]"
+  },
+  {
+    "id": 28,
+    "en": "Rem: [Even supposing we got in, it looked like there was a large number of Imperial Soldiers within the city. Even ignoring the inspection, I think there would be too many enemies.]",
+    "vi": "Rem: [Ngay cả khi giả định chúng ta lọt được vào trong, xem ra số lượng binh lính Đế quốc trong thành phố là vô cùng lớn. Kể cả có bỏ qua chuyện kiểm soát, tôi nghĩ kẻ địch vẫn là quá đông.]"
+  },
+  {
+    "id": 29,
+    "en": "Abel: [Hm.]",
+    "vi": "Abel: [Hửm.]"
+  },
+  {
+    "id": 30,
+    "en": "To Abel who was sorting the obstacles for the fall of Guaral, Rem gave a well-reasoned objection. Abel snorted at that attitude, but on the other hand Subaru’s bewilderment intensified.",
+    "vi": "Đối diện với một Abel đang liệt kê các chướng ngại để hạ thành Guaral, Rem đã đưa ra một lời phản bác đầy lý lẽ thuyết phục. Abel hừ mũi trước thái độ đó, thế nhưng ở chiều ngược lại, sự kinh ngạc bối rối của Subaru lại càng gia tăng."
+  },
+  {
+    "id": 31,
+    "en": "The source of which was, of course, the figure of Rem directly arguing with Abel.",
+    "vi": "Cội nguồn của chuyện đó, hiển nhiên, chính là bóng dáng của Rem đang trực tiếp tranh luận với Abel."
+  },
+  {
+    "id": 32,
+    "en": "Concerning the content of her argument, Rem’s position could be said to be on the same side as Subaru, opposing an assault on Guaral.",
+    "vi": "Xét về mặt nội dung cuộc tranh luận, lập trường của Rem có thể coi là đứng chung chiến tuyến với Subaru, phản đối việc tấn công đánh chiếm Guaral."
+  },
+  {
+    "id": 33,
+    "en": "However, her holding that viewpoint was really too fitting. ――As though during her short time sojourning in Guaral, she had completely made sure of that point.",
+    "vi": "Thế nhưng, việc cô nắm giữ quan điểm đó quả thực lại quá đỗi chuẩn xác. ――Cứ như thể trong khoảng thời gian ngắn ngủi túc trực ở Guaral, cô đã hoàn toàn chắc chắn về điều ấy."
+  },
+  {
+    "id": 34,
+    "en": "Abel: [――Natsuki Subaru, what do you know of the difference between offensive and defensive military force in regards to battle?]",
+    "vi": "Abel: [――Natsuki Subaru, ngươi biết gì về sự khác biệt giữa thế công và thế thủ của binh lực trong chiến trận?]"
+  },
+  {
+    "id": 35,
+    "en": "Subaru: [Ah? The difference between offensive and defensive military force, you say… Like, the Law of Threefold Attack?]",
+    "vi": "Subaru: [Hả? Sự khác biệt giữa thế công và thế thủ của binh lực sao… Ý anh là Quy luật Tấn công Gấp ba à?]"
+  },
+  {
+    "id": 36,
+    "en": "Abel: [The Law of Threefold Attack… Indeed, that is a perfectly fitting phrase.]",
+    "vi": "Abel: [Quy luật Tấn công Gấp ba… Quả thực, đó là một cụm từ vô cùng chuẩn xác.]"
+  },
+  {
+    "id": 37,
+    "en": "When asked, Subaru reflexively answered, and Abel nodded as if impressed.",
+    "vi": "Khi được hỏi, Subaru trả lời theo phản xạ, còn Abel gật đầu tỏ vẻ khá ấn tượng."
+  },
+  {
+    "id": 38,
+    "en": "The Law of Threefold Attack, was a theory of combat regarding military force, which stated that the attacking side should have three times the strength of the defending side.",
+    "vi": "Quy luật Tấn công Gấp ba là một giả thuyết chiến đấu về binh lực, chỉ ra rằng bên tấn công cần phải có quân số lớn gấp ba lần bên phòng thủ."
+  },
+  {
+    "id": 39,
+    "en": "This was due to the difference in the sense of objectives between offense and defense. The offensive side must defeat their opponents, whereas the defensive side could either defeat their opponents, repel them, or just avoid the attack, which was a significant advantage.",
+    "vi": "Điều này xuất phát từ sự khác biệt trong mục tiêu giữa công và thủ. Bên tấn công buộc phải tiêu diệt đối phương, trong khi bên phòng thủ chỉ cần tiêu diệt, đẩy lùi, hoặc đơn giản là ngăn chặn đợt tấn công là đã thành công, đó là một lợi thế vô cùng lớn."
+  },
+  {
+    "id": 40,
+    "en": "For example, in this instance, to procure Guaral Abel would have to command the Shudraqians to occupy the city, but the Imperial Soldiers and guards could withdraw from the attack and barricade themselves in the city to achieve their aim.",
+    "vi": "Chẳng hạn như trong trường hợp này, để đoạt lấy Guaral, Abel buộc phải chỉ huy tộc nhân Shudraq chiếm đóng thành phố, nhưng binh lính Đế quốc và lính gác hoàn toàn có thể co cụm lại cố thủ trong thành để đạt được mục đích của mình."
+  },
+  {
+    "id": 41,
+    "en": "To cover for the difference for it to be possible to achieve the objectives, the idea was that such an amount of troops were needed, but――,",
+    "vi": "Để khỏa lấp khoảng cách biệt đó hòng đạt được mục tiêu, người ta mặc định cần một lượng quân số khổng lồ như thế, thế nhưng――,"
+  },
+  {
+    "id": 42,
+    "en": "Subaru: [Three times the force of the city, there’s no way we could get something like that together. Mizelda-san, how many people are in this village, give-or-take?]",
+    "vi": "Subaru: [Quân số gấp ba lần lực lượng trong thành sao, không đời nào chúng ta tập hợp nổi lượng người như thế đâu. Mizelda-san, làng ta có khoảng bao nhiêu người tất cả vậy?]"
+  },
+  {
+    "id": 43,
+    "en": "Mizelda: [Altogether, eighty-two people. Including Abel and that man… Flop, it’s at least a hundred.]",
+    "vi": "Mizelda: [Tổng cộng là tám mươi hai người. Cộng thêm Abel và gã kia… Flop nữa, thì ít nhất cũng được một trăm.]"
+  },
+  {
+    "id": 44,
+    "en": "Subaru: [I’m not sure how you’re counting men with nice faces, but it’s merely a hundred. Though I’d roughly estimate there were more than three times that force in the city.]",
+    "vi": "Subaru: [Tôi không rõ cô tính cả những người đàn ông có gương mặt tuấn tú kiểu gì, nhưng quả thực chỉ vẻn vẹn có một trăm người. Trong khi tôi ước lượng sơ bộ lực lượng bảo vệ trong thành phải gấp hơn ba lần số đó.]"
+  },
+  {
+    "id": 45,
+    "en": "Setting aside Mizelda’s method of calculation, Subaru estimated Guaral’s military strength to be in that ballpark.",
+    "vi": "Tạm gác phương pháp tính toán của Mizelda sang một bên, Subaru ước tính binh lực của Guaral nằm trong khoảng tầm đó."
+  },
+  {
+    "id": 46,
+    "en": "The scale of the city probably did not reach 10,000 people in size, but there should be a suitable number of soldiers protecting the city’s law and order to match. And on top of that, the Imperial Soldiers whose camp had been torched would join them.",
+    "vi": "Quy mô của thành phố có lẽ chưa đạt tới mười ngàn dân, nhưng chắc chắn phải có một lượng lính gác tương xứng để giữ gìn trật tự. Và hơn thế nữa, số binh lính Đế quốc có doanh trại bị thiêu rụi chắc chắn cũng đã tập hợp về đó."
+  },
+  {
+    "id": 47,
+    "en": "――Those Imperial soldiers, including Todd.",
+    "vi": "――Những binh lính Đế quốc đó, bao gồm cả Todd nữa."
+  },
+  {
+    "id": 48,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 49,
+    "en": "Abel: [At the very least, it seems you possess some fundamental knowledge in that head of yours. Yet, the reason you held your tongue appears to be some other fear besides concern about the power differential.]",
+    "vi": "Abel: [Ít nhất thì xem ra cái đầu của ngươi cũng sở hữu chút kiến thức cơ bản. Thế nhưng, lý do ngươi ngập ngừng không nói tiếp dường như là vì một nỗi sợ hãi nào khác chứ không chỉ bận tâm về chênh lệch thực lực.]"
+  },
+  {
+    "id": 50,
+    "en": "Subaru: [...It’s true that there’s something I fear, but it’s also true that the power differential is dangerous.]",
+    "vi": "Subaru: [...Đúng là tôi có nỗi sợ của riêng mình, nhưng sự thật là việc chênh lệch binh lực kia cũng vô cùng hiểm nghèo.]"
+  },
+  {
+    "id": 51,
+    "en": "Subaru clicked his tongue, and tasted the discomfort of having his inner feelings correctly guessed.",
+    "vi": "Subaru tặc lưỡi, cảm nhận rõ sự khó chịu khi bị đoán trúng tim đen suy nghĩ thầm kín trong lòng."
+  },
+  {
+    "id": 52,
+    "en": "In truth, when Subaru had heard of the plan to capture Guaral, the first obstacle that came to mind was Todd. Even just the thought of facing him again was enough to make his guts squirm.",
+    "vi": "Trên thực tế, khi nghe về kế hoạch chiếm đóng Guaral, chướng ngại đầu tiên xuất hiện trong đầu cậu chính là Todd. Chỉ cần nghĩ đến việc phải đối mặt với hắn thêm một lần nữa thôi cũng đủ khiến ruột gan cậu quặn thắt."
+  },
+  {
+    "id": 53,
+    "en": "Anyway, if they thought in accordance with The Law of Threefold Attack, it was not worth discussing.",
+    "vi": "Dẫu sao thì, nếu suy xét dựa trên Quy luật Tấn công Gấp ba, kế hoạch này hoàn toàn không đáng để bàn luận."
+  },
+  {
+    "id": 54,
+    "en": "Subaru: [As for a means to overcome the difference in strength, I can’t think of anything outside of a mighty warrior joining us or the enemy commander being fatally incompetent.]",
+    "vi": "Subaru: [Để san lấp khoảng cách chênh lệch về sức mạnh, tôi chẳng thể nghĩ ra cách nào khác ngoài việc có một chiến binh dũng mãnh vô song gia nhập, hoặc tổng chỉ huy của đối phương là một kẻ bất tài vô dụng.]"
+  },
+  {
+    "id": 55,
+    "en": "Abel: [Unfortunately, I do not believe we can anticipate either of those. With the Shudraq’s abilities, we could scatter the masses of troops, but even if they used their numbers to surround us we would be defeated. Furthermore, I hear the enemy commanding officer is Zikr Osman. He is a solid and boring strategist, but he has no weak point.]",
+    "vi": "Abel: [Tiếc thay, ta không nghĩ chúng ta có thể trông đợi vào bất kỳ điều nào trong hai điều đó. Với năng lực của tộc Shudraq, chúng ta có thể quấy nhiễu đám đông binh lính, nhưng nếu chúng dùng quân số áp đảo để bao vây, chúng ta chắc chắn sẽ bại trận. Hơn nữa, ta nghe nói chỉ huy của kẻ địch là Zikr Osman. Gã là một nhà chiến lược chắc chắn và tẻ nhạt, nhưng lại không có điểm yếu nào.]"
+  },
+  {
+    "id": 56,
+    "en": "Subaru: [Zikr… I’ve heard that name.]",
+    "vi": "Subaru: [Zikr… Tôi đã nghe danh cái tên đó ở đâu rồi.]"
+  },
+  {
+    "id": 57,
+    "en": "He must have heard that name from Todd, before their relationship had deteriorated.",
+    "vi": "Cậu hẳn là đã nghe cái tên đó từ miệng Todd, trước khi mối quan hệ giữa hai người đổ vỡ hoàn toàn."
+  },
+  {
+    "id": 58,
+    "en": "The Imperial encampment had already been reduced to ashes, but he recalled the person in command of that military operation to be called Zikr.",
+    "vi": "Doanh trại Đế quốc dù đã bị thiêu rụi thành tro, nhưng cậu vẫn nhớ mang máng người chỉ huy chiến dịch quân sự đó tên là Zikr."
+  },
+  {
+    "id": 59,
+    "en": "However, since the camp had been burned, he had thought that person had been defeated as well.",
+    "vi": "Tuy nhiên, vì doanh trại đã bị đốt phá, cậu cứ ngỡ người đó cũng đã bại trận và bỏ mạng rồi."
+  },
+  {
+    "id": 60,
+    "en": "Abel: [Those at the encampment were common soldiers. From the beginning, in order to conceal the primary objective, they were bestowed with minimal intelligence… Against a small tribe, a General Second-Class would not proceed to the front lines.]",
+    "vi": "Abel: [Những kẻ ở doanh trại chỉ là quân lính thông thường. Ngay từ đầu, để che giấu mục tiêu cốt lõi, chúng chỉ được phân bổ lượng binh lực tối thiểu… Đối đầu với một bộ tộc nhỏ bé, một vị Tướng hạng hai sẽ không đích thân ra chiến tuyến.]"
+  },
+  {
+    "id": 61,
+    "en": "Subaru: [So you're saying the commanding officer remained in the city from the outset?]",
+    "vi": "Subaru: [Nghĩa là vị tổng chỉ huy đó đã ở lại trong thành ngay từ đầu sao?]"
+  },
+  {
+    "id": 62,
+    "en": "Abel: [In truth, by doing nothing he ought to have achieved an adequate result. That plan went awry on my command… Ahh, and due to your presence, Natsuki Subaru.]",
+    "vi": "Abel: [Thực tế thì, chỉ cần gã không hành động gì cũng đủ đạt được kết quả mong muốn. Kế hoạch đó đã chệch hướng dưới mệnh lệnh của ta… À, và còn do sự hiện diện của ngươi nữa, Natsuki Subaru.]"
+  },
+  {
+    "id": 63,
+    "en": "Subaru: [Guh…]",
+    "vi": "Subaru: [Hự…]"
+  },
+  {
+    "id": 64,
+    "en": "Maliciously, Abel tried to force Subaru to face the responsibility he was averting his eyes from.",
+    "vi": "Bằng một thái độ đầy ác ý, Abel cố tình ép buộc Subaru phải đối mặt với trách nhiệm mà cậu đang cố tránh né tránh."
+  },
+  {
+    "id": 65,
+    "en": "At that, Subaru ground his teeth and pressed his hand to his mouth.",
+    "vi": "Trước lời buộc tội đó, Subaru nghiến chặt răng và đưa tay lên che miệng."
+  },
+  {
+    "id": 66,
+    "en": "At any rate, there was a high probability that General Second-Class Zikr was stationed at Guaral.",
+    "vi": "Dẫu sao thì, khả năng cao là Tướng quân hạng hai Zikr đang đồn trú tại Guaral."
+  },
+  {
+    "id": 67,
+    "en": "The Empire’s upper ranks were said to be General First-Class, General Second-Class, General Third-Class and so on, so he could understand that a rank second from the top meant a pretty powerful person.",
+    "vi": "Cấp bậc chỉ huy của Đế quốc được phân chia thành Tướng hạng nhất, Tướng hạng hai, Tướng hạng ba, thế nên cậu hiểu rằng cấp bậc thứ hai từ trên xuống chắc chắn phải là một nhân vật vô cùng quyền lực."
+  },
+  {
+    "id": 68,
+    "en": "Subaru: [So what are you trying to say? On top of our inferior military strength, the enemy commander is a big shot counted among the elite. Furthermore, since we poked the beehive, they’ll also be on guard, right?]",
+    "vi": "Subaru: [Thế thì anh rốt cuộc muốn nói cái gì? Bên cạnh việc thua thiệt về binh lực, tổng chỉ huy của đối phương lại là một nhân vật sừng sỏ thuộc giới tinh anh. Hơn nữa, vì chúng ta đã chọc gậy bánh xe, họ chắc chắn sẽ vô cùng cảnh giác đúng không?]"
+  },
+  {
+    "id": 69,
+    "en": "Abel: [Precisely. Can you appreciate the weight of your responsibility?]",
+    "vi": "Abel: [Chính xác. Giờ thì ngươi đã nhận thức rõ sức nặng của trách nhiệm chưa?]"
+  },
+  {
+    "id": 70,
+    "en": "Subaru: [That’s not what I’m saying!]",
+    "vi": "Subaru: [Ý tôi không phải là như thế!]"
+  },
+  {
+    "id": 71,
+    "en": "Abel condemned Subaru for his thoughtlessness, but the problem lay elsewhere.",
+    "vi": "Abel chỉ trích Subaru vì sự thiếu suy nghĩ của cậu, nhưng vấn đề nan giải lại nằm ở chỗ khác."
+  },
+  {
+    "id": 72,
+    "en": "It was Abel’s stance of still refusing to give up the fight, even with an abysmal chance of success. Subaru resolutely maintained that it was pointless to even try.",
+    "vi": "Đó chính là thái độ kiên quyết không chịu từ bỏ cuộc chiến của Abel, ngay cả khi cơ hội chiến thắng là vô cùng mong manh. Subaru kiên định giữ vững lập trường rằng việc cố thử chỉ là vô ích."
+  },
+  {
+    "id": 73,
+    "en": "In the first place――,",
+    "vi": "Ngay từ đầu――,"
+  },
+  {
+    "id": 74,
+    "en": "Subaru: [I am vehemently against fighting itself. That should’ve been very clear when I left here. I...I just want to go home with Rem.]",
+    "vi": "Subaru: [Bản thân tôi cực lực phản đối việc chiến đấu. Chuyện đó đáng lẽ đã quá rõ ràng khi tôi rời khỏi đây rồi chứ. Tôi... tôi chỉ muốn được bình yên trở về nhà cùng với Rem thôi.]"
+  },
+  {
+    "id": 75,
+    "en": "Abel: [Yet, that has already proved unfeasible. You think the Imperial Soldiers in Guaral are your only enemy? Are you convinced another village or town would be safe?]",
+    "vi": "Abel: [Thế nhưng, chuyện đó đã chứng minh là bất khả thi rồi. Ngươi nghĩ binh lính Đế quốc ở Guaral là kẻ thù duy nhất của ngươi sao? Ngươi thực sự tin rằng một ngôi làng hay thị trấn khác sẽ được an toàn hả?]"
+  },
+  {
+    "id": 76,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 77,
+    "en": "Abel: [No matter where you go, your peace can no longer be secured. I intended to grant you the time to fully realize it, and let it seep into your blood. Or, is the poison still insufficient?]",
+    "vi": "Abel: [Bất kể ngươi có trốn đi đâu, sự bình yên của ngươi cũng không thể được đảm bảo thêm nữa. Ta đã định cho ngươi thời gian để nhận thức rõ điều đó, để nó ngấm sâu vào xương tủy ngươi. Hay là, liều thuốc độc đó vẫn chưa đủ đô?]"
+  },
+  {
+    "id": 78,
+    "en": "Abel’s mocking gaze was starting to peck at Subaru’s feeble spirit.",
+    "vi": "Ánh mắt giễu cợt của Abel bắt đầu đâm chọc vào tinh thần bạc nhược của Subaru."
+  },
+  {
+    "id": 79,
+    "en": "Besides, as he felt pain like he was enduring great hardship, Subaru let out a long sigh; though annoying, he could not deny the truth of Abel’s words.",
+    "vi": "Bên cạnh đó, khi cảm thấy đau đớn như thể đang phải chịu đựng một sự tra tấn tinh thần lớn, Subaru thở dài thườn thượt; dù có khó chịu, cậu không thể phủ nhận sự thật trong lời nói của Abel."
+  },
+  {
+    "id": 80,
+    "en": "The suffering he had gone through in the Fortress City had created a mental barrier inside Subaru.",
+    "vi": "Sự thống khổ chí mạng cậu đã trải qua trong Thành lũy đã tạo nên một rào cản tâm lý vô hình trong lòng Subaru."
+  },
+  {
+    "id": 81,
+    "en": "From now on, even if he attempted to take Rem and flee abroad, even if he went somewhere other than Guaral, the same vigilance and fear would not fade.",
+    "vi": "Từ nay về sau, kể cả khi cậu cố gắng đưa Rem trốn chạy ra nước ngoài, hay đi tới một nơi nào khác ngoài Guaral, nỗi sợ hãi và cảnh giác tột độ đó cũng sẽ không bao giờ tiêu biến."
+  },
+  {
+    "id": 82,
+    "en": "Subaru’s pride had been lost in exchange for five deaths.",
+    "vi": "Lòng tự trọng của Subaru đã hoàn toàn biến mất sau cái giá phải trả là năm lần bỏ mạng."
+  },
+  {
+    "id": 83,
+    "en": "Subaru: [――If that’s the case, what if I sell you out to the enemy?]",
+    "vi": "Subaru: [――Nếu đã như thế, chuyện gì sẽ xảy ra nếu tôi giao nộp anh cho kẻ thù để đổi lấy sự bình yên hả?]"
+  },
+  {
+    "id": 84,
+    "en": "His way out blocked, and having been abused for thoughtlessness, Subaru asked the question, his face looking twisted.",
+    "vi": "Đường lui bị chặn đứng, lại liên tục bị mắng nhiếc là kẻ thiếu suy nghĩ, Subaru đưa ra câu hỏi hỏi với khuôn mặt méo xẹo đầy cay đắng."
+  },
+  {
+    "id": 85,
+    "en": "In an instant, the words Subaru had uttered turned the air of the meeting room tense. At the edge of his vision, he could clearly see Rem next to him, her eyes wide.",
+    "vi": "Chỉ trong tích tắc, những lời Subaru vừa thốt ra đã khiến bầu không khí trong phòng họp trở nên căng thẳng nghẹt thở. Ở khóe mắt, cậu có thể thấy rõ Rem bên cạnh đang tròn xoe mắt ngạc nhiên."
+  },
+  {
+    "id": 86,
+    "en": "However, the one he had threatened to sell out, Abel, gave a small laugh.",
+    "vi": "Thế nhưng, kẻ bị cậu đe dọa giao nộp, Abel, chỉ khẽ bật cười lạnh lùng."
+  },
+  {
+    "id": 87,
+    "en": "Abel: [Hmm. At last, your head appears to be beginning to function normally. And yet…]",
+    "vi": "Abel: [Hửm. Cuối cùng thì cái đầu của ngươi cũng bắt đầu hoạt động bình thường rồi đấy. Thế nhưng…]"
+  },
+  {
+    "id": 88,
+    "en": "Mizelda: [That’s not up for discussion, Subaru.]",
+    "vi": "Mizelda: [Chuyện đó không có gì để thảo luận cả, Subaru.]"
+  },
+  {
+    "id": 89,
+    "en": "In the blink of an eye, Mizelda drew her dagger and pressed the edge to Subaru’s neck.",
+    "vi": "Trong chớp mắt, Mizelda đã tuốt dao găm ra và dí sát lưỡi dao lạnh buốt vào cổ Subaru."
+  },
+  {
+    "id": 90,
+    "en": "Subaru gasped at her quick feat, and looked up at the face of the tall tribal chief who had moved instantaneously. Mizelda’s eyes conveyed a stubborn conviction on her beautiful face, they were the eyes of a ruthless huntress.",
+    "vi": "Subaru thở hắt ra kinh ngạc trước tốc độ phi thường của cô, ngước nhìn lên gương mặt của nữ thủ lĩnh cao ráo vừa di chuyển trong tích tắc. Đôi mắt của Mizelda toát lên một niềm tin sắt đá trên khuôn mặt xinh đẹp, đó là ánh mắt của một thợ săn tàn nhẫn hoang dã."
+  },
+  {
+    "id": 91,
+    "en": "Mizelda: [We’ve already decided to fight together with Abel. That’s the result of the Lifeblood Ritual, if it’s the desire of the one we’ve recognized as a compatriot, there’s nothing for it.]",
+    "vi": "Mizelda: [Chúng ta đã quyết định kề vai sát cánh chiến đấu cùng Abel. Đó là kết quả của Nghi Thức Huyết Tế, một khi đó là ý nguyện của người mà chúng ta đã công nhận là đồng chí, ta không thể làm khác được.]"
+  },
+  {
+    "id": 92,
+    "en": "Subaru: [...I get that for me, who borrowed your strength to bring back Rem, this is audacious to say. Honestly, are you all okay with that?]",
+    "vi": "Subaru: [...Tôi hiểu rằng đối với một kẻ đã mượn sức mạnh của mọi người để cứu Rem về như tôi thì nói điều này thật quá kiêu ngạo. Nhưng thành thật mà nói, mọi người thực sự ổn với chuyện đó sao?]"
+  },
+  {
+    "id": 93,
+    "en": "Mizelda seemed resolute, but Subaru’s query jumped over her.",
+    "vi": "Mizelda tỏ ra vô cùng kiên định, thế nhưng câu hỏi gặng của Subaru đã vượt qua tầm kiểm soát của cô."
+  },
+  {
+    "id": 94,
+    "en": "As chieftain, Mizelda must personify the way Shudraqians ought to be, and could not be persuaded. Even so, the other Shudraqians could have separate opinions.",
+    "vi": "Với tư cách là thủ lĩnh, Mizelda buộc phải đại diện cho lập trường vững vàng của tộc nhân Shudraq và không thể bị lung lay. Dẫu vậy, những tộc nhân Shudraq khác hoàn toàn có thể giữ những ý kiến riêng."
+  },
+  {
+    "id": 95,
+    "en": "The different opinions of those present, Taritta, Kuna, and Holly.",
+    "vi": "Những ý kiến khác biệt của những người có mặt tại đó, Taritta, Kuna và Holly."
+  },
+  {
+    "id": 96,
+    "en": "Subaru: [Just a moment ago, this guy also said as much. The gap in military strength is clear, and the opponent’s a greatly experienced courageous General. From the start, you can see you don’t stand a chance fighting him…]",
+    "vi": "Subaru: [Mới lúc nãy thôi, gã này cũng đã nói như vậy rồi còn gì. Sự chênh lệch thực lực là quá rõ ràng, và đối thủ lại là một vị Tướng quân quả cảm dày dạn kinh nghiệm chiến trường. Ngay từ đầu, mọi người có thể thấy rõ chúng ta hoàn toàn không có cơ hội chiến thắng khi đối đầu với gã…]"
+  },
+  {
+    "id": 97,
+    "en": "Holly: [Maybe, Subaru’s got the wrong idea~]",
+    "vi": "Holly: [Có lẽ, Subaru đã hiểu lầm rồi đấy nhé~]"
+  },
+  {
+    "id": 98,
+    "en": "Subaru: [The wrong idea…?]",
+    "vi": "Subaru: [Hiểu lầm sao…?]"
+  },
+  {
+    "id": 99,
+    "en": "The first one to answer the question as Subaru searched for other opinions was surprisingly Holly.",
+    "vi": "Người đầu tiên lên tiếng trả lời khi Subaru tìm kiếm những ý kiến khác biệt đáng ngạc nhiên lại chính là Holly."
+  },
+  {
+    "id": 100,
+    "en": "At the edge of the meeting place, Holly, who had been listening to the conversation as she gnawed on some dried meat, fixed her eyes on Subaru, his movement prevented.",
+    "vi": "Ở góc phòng họp, Holly, người nãy giờ vẫn mải nghe cuộc đối thoại trong khi nhai thịt khô, dán chặt đôi mắt vào Subaru đang bị khống chế."
+  },
+  {
+    "id": 101,
+    "en": "Holly: [If you’re talking about winning or losing, drawing back from here is also our loss~. If we can’t fight for our compatriot, our spirit will be stained~]",
+    "vi": "Holly: [Nếu cậu đang nói về chuyện thắng thua, thì việc chùn bước rút lui khỏi đây cũng chính là thất bại của chúng ta rồi~. Nếu không thể chiến đấu vì đồng chí của mình, linh hồn của chúng ta sẽ bị vấy bẩn~]"
+  },
+  {
+    "id": 102,
+    "en": "Subaru: [A stain on your spirit, you say… Something like pride, or facing your ancestors, that kind of thing?]",
+    "vi": "Subaru: [Linh hồn bị vấy bẩn sao… Ý cô là lòng tự trọng, hay danh dự trước tổ tiên, kiểu kiểu thế à?]"
+  },
+  {
+    "id": 103,
+    "en": "Holly: [Yeah yeah, you got it, Subaru~]",
+    "vi": "Holly: [Đúng thế đúng thế, cậu hiểu nhanh lắm đấy, Subaru~]"
+  },
+  {
+    "id": 104,
+    "en": "With a smile, Holly affirmed Subaru’s words.",
+    "vi": "Nở một nụ cười rạng rỡ, Holly khẳng định những lời của Subaru."
+  },
+  {
+    "id": 105,
+    "en": "But rather than that being evidence of mutual understanding, it was proof that they could not understand each other.",
+    "vi": "Thế nhưng thay vì là bằng chứng của sự đồng cảm thấu hiểu lẫn nhau, đó lại là minh chứng cho thấy họ hoàn toàn không thể hòa hợp thế giới quan."
+  },
+  {
+    "id": 106,
+    "en": "Subaru also understood that there were such points of view.",
+    "vi": "Subaru cũng hiểu rằng trên đời tồn tại những góc nhìn như vậy."
+  },
+  {
+    "id": 107,
+    "en": "Things like pride and family honor, so to speak, were invisible vindications that did not directly contribute to one’s physical body ―― Thinking those were a matter of grave concern, certainly there existed attitudes that valued such things above all else.",
+    "vi": "Những thứ như niềm kiêu hãnh và danh dự gia tộc, có thể nói, là những giá trị vô hình không trực tiếp mang lại lợi ích cho thể xác xác thịt ―― Việc xem đó là mối bận tâm sống còn, chắc chắn phản ánh một thái độ sống coi trọng những điều ấy trên hết thảy mọi thứ."
+  },
+  {
+    "id": 108,
+    "en": "Yet, as far as that went, it was a way of thinking that could not coexist with Subaru’s belief that there was nothing more important than life.",
+    "vi": "Thế nhưng, một khi đã như vậy, đó là cách nghĩ không thể nào dung hợp được với đức tin cốt lõi của Subaru rằng không có gì quý giá hơn mạng sống con người."
+  },
+  {
+    "id": 109,
+    "en": "Subaru: [Kuna! Taritta-san! You two share the same opinion!?]",
+    "vi": "Subaru: [Kuna! Taritta-san! Hai người cũng có cùng ý kiến như vậy sao!?]"
+  },
+  {
+    "id": 110,
+    "en": "Kuna: [...I don’t really think about it as deeply as Holly or the chief.]",
+    "vi": "Kuna: [...Tôi thực sự không suy nghĩ quá sâu xa bận tâm như Holly hay thủ lĩnh đâu.]"
+  },
+  {
+    "id": 111,
+    "en": "Taritta: [――. I will abide by my older sister’s decision. Since that is my wish.]",
+    "vi": "Taritta: [――. Tôi sẽ tuân theo quyết định của chị hai. Bởi vì đó là ý nguyện của tôi.]"
+  },
+  {
+    "id": 112,
+    "en": "Subaru: [I, see…]",
+    "vi": "Subaru: [Tôi hiểu rồi…]"
+  },
+  {
+    "id": 113,
+    "en": "He had fished for information from the other two as well, but Subaru was not able to get his desired response.",
+    "vi": "Cậu cũng đã cố dò hỏi thông tin từ hai người còn lại, nhưng Subaru không nhận được câu trả lời như mong đợi."
+  },
+  {
+    "id": 114,
+    "en": "He had thought perhaps Kuna would, herself being a bit out of step with the other Shudraqians, but it seemed Subaru’s hope was misplaced. Taritta’s complete obedience to Mizelda went without saying.",
+    "vi": "Cậu từng nghĩ có lẽ Kuna, người đôi lúc có vẻ hơi lệch nhịp với các tộc nhân Shudraq khác, sẽ có ý kiến khác, nhưng xem ra niềm hy vọng của cậu đã đặt sai chỗ. Sự phục tùng hoàn toàn của Taritta đối với Mizelda là điều không cần bàn cãi."
+  },
+  {
+    "id": 115,
+    "en": "As it was, Subaru was without allies, with a dagger against his neck, and it appeared the deadlock would drag on, but――,",
+    "vi": "Cứ như thế, Subaru hoàn toàn đơn độc không có đồng minh, với một lưỡi dao dí sát cổ, và tình thế bế tắc dường như sẽ còn kéo dài đằng đẵng, thế nhưng――,"
+  },
+  {
+    "id": 116,
+    "en": "Rem: [...Mizelda-san, please withdraw your weapon. That person has no intention to hand Abel over to the enemy.]",
+    "vi": "Rem: [...Mizelda-san, làm ơn hãy hạ vũ khí xuống. Người đó không hề có ý định giao nộp Abel cho kẻ thù đâu.]"
+  },
+  {
+    "id": 117,
+    "en": "The one requesting Mizelda pull back her dagger was none other than Rem herself.",
+    "vi": "Người thốt ra lời khẩn cầu xin Mizelda rút dao găm lại không ai khác ngoài chính Rem."
+  },
+  {
+    "id": 118,
+    "en": "Meeting her gaze, Mizelda narrowed those eyes of hers.",
+    "vi": "Đối diện với ánh mắt của cô, Mizelda nheo đôi mắt sắc sảo của mình lại."
+  },
+  {
+    "id": 119,
+    "en": "Mizelda: [Are you giving me an order, Rem? You haven’t taken the Lifeblood Ritual. I permitted you into the village on Subaru’s request, but don’t think that means you can backtalk me.]",
+    "vi": "Mizelda: [Ngươi đang ra lệnh cho ta đấy à, Rem? Ngươi chưa hề tham gia Nghi Thức Huyết Tế. Ta cho phép ngươi ở lại làng là vì lời cầu xin của Subaru, chứ đừng nghĩ thế nghĩa là ngươi có quyền lên tiếng chất vấn ta.]"
+  },
+  {
+    "id": 120,
+    "en": "Rem: [So, that’s all the more reason you should pull back your weapon. That person undertook the ritual… the Lifeblood Ritual as you call it, and was welcomed as a compatriot. To wound him would not be a good thing.]",
+    "vi": "Rem: [Chính vì thế, đó lại càng là lý do cô nên hạ vũ khí xuống. Người đó đã thực hiện nghi lễ… Nghi Thức Huyết Tế như cô gọi, và đã được chào đón như một đồng chí. Việc làm tổn thương anh ta sẽ không phải là một điều tốt đẹp.]"
+  },
+  {
+    "id": 121,
+    "en": "Mizelda: [Unh…]",
+    "vi": "Mizelda: [Hừ…]"
+  },
+  {
+    "id": 122,
+    "en": "Mizelda had tried to overpower Rem with her strengthened insight, but her undaunted retort left her at a loss for words. In the end, she swiftly returned her dagger to its sheath on her waist.",
+    "vi": "Mizelda đã cố gắng áp đảo Rem bằng uy lực từ cái nhìn sắc sảo của mình, nhưng lời phản bác đanh thép không chút sợ sệt của cô khiến cô á khẩu không nói nên lời. Cuối cùng, cô nhanh chóng tra dao găm trở lại bao bên hông."
+  },
+  {
+    "id": 123,
+    "en": "And like that Subaru was released, and he stared intently at Rem.",
+    "vi": "Và cứ thế Subaru được giải phóng, cậu đăm đăm nhìn chăm chú vào Rem."
+  },
+  {
+    "id": 124,
+    "en": "Mizelda: [What you said just now is correct. But, if Abel and Subaru’s opinions are divided again, I will side with Abel. Don’t forget it.]",
+    "vi": "Mizelda: [Những gì ngươi nói vừa rồi quả thực không sai. Nhưng, nếu ý kiến của Abel và Subaru lại bất đồng thêm lần nữa, ta sẽ đứng về phía Abel. Đừng quên điều đó.]"
+  },
+  {
+    "id": 125,
+    "en": "Rem: [Is it because that person’s eyes are that of a heinous villain with fitting body odor?]",
+    "vi": "Rem: [Có phải là vì người đó có ánh mắt của một tên ác nhân độc ác cùng mùi cơ thể tương xứng không?]"
+  },
+  {
+    "id": 126,
+    "en": "Mizelda: [A bit of sharpness in the eyes has charm too. But I have a fondness for beautiful faces.]",
+    "vi": "Mizelda: [Một chút sắc sảo trong ánh mắt cũng có sức hút đấy chứ. Nhưng ta vẫn có sự thiên vị đặc biệt dành cho những khuôn mặt tuấn tú ưa nhìn.]"
+  },
+  {
+    "id": 127,
+    "en": "The touch-and-go situation had calmed down, but the ending exchange was a weak conversation.",
+    "vi": "Tình thế ngàn cân treo sợi tóc đã tạm thời lắng dịu, nhưng cuộc đối thoại kết thúc lại mang một sắc thái khá kỳ cục tẻ nhạt."
+  },
+  {
+    "id": 128,
+    "en": "In any case, Subaru was freed from the situation of nearly having his throat cut, and he gently rubbed the place where the knife’s edge had been pressed to. And then he looked intently at Rem.",
+    "vi": "Dù sao thì Subaru cũng đã thoát khỏi cảnh suýt bị cắt cổ, cậu nhẹ nhàng xoa xoa vị trí vừa bị lưỡi dao dí vào. Rồi cậu quay sang nhìn đăm đăm vào Rem."
+  },
+  {
+    "id": 129,
+    "en": "Rem: [――. What is it?]",
+    "vi": "Rem: [――. Có chuyện gì thế?]"
+  },
+  {
+    "id": 130,
+    "en": "Subaru: [...Nothing, I’m just lost as to whether I should respond to the fact you stood up for me or to the fact you disparaged my face.]",
+    "vi": "Subaru: [...Không có gì, tôi chỉ đang phân vân không biết nên phản hồi việc cô đã lên tiếng bảo vệ tôi hay việc cô thẳng thừng chê bai khuôn mặt của tôi thôi.]"
+  },
+  {
+    "id": 131,
+    "en": "Rem: [I said nothing of your face. I spoke of your eyes. Then your body odor. My nose is wrinkling. Please sit further away.]",
+    "vi": "Rem: [Tôi không hề chê bai khuôn mặt anh. Tôi chỉ nói về ánh mắt của anh mà thôi. Và cả mùi cơ thể nữa. Mũi tôi đang vô cùng khó chịu đây. Làm ơn hãy ngồi dịch ra xa một chút.]"
+  },
+  {
+    "id": 132,
+    "en": "Subaru: [Lại là chuyện này nữa sao…!?]",
+    "vi": "Subaru: [Lại là chuyện này nữa sao…!?]"
+  },
+  {
+    "id": 133,
+    "en": "Met with Rem’s glacial attitude, Subaru was hurt by the distance she made him sit away.",
+    "vi": "Đối mặt với thái độ lạnh băng của Rem, Subaru bị tổn thương sâu sắc bởi khoảng cách mà cô bắt cậu phải dịch ra."
+  },
+  {
+    "id": 134,
+    "en": "Yet inside his heart more complicated confusion plagued Subaru. In reality, why had she spoken up in defense of Subaru? He did not understand her true motive.",
+    "vi": "Thế nhưng tận sâu trong lòng, một sự bối rối băn khoăn phức tạp hơn nhiều lại bủa vây lấy Subaru. Trên thực tế, tại sao cô lại đứng ra bảo vệ Subaru? Cậu hoàn toàn không hiểu được động cơ thực sự của cô."
+  },
+  {
+    "id": 135,
+    "en": "Nevertheless, maybe she disliked turning a blind eye to something illogical, or maybe it was something else. Maybe thinking that was Subaru’s bias?",
+    "vi": "Mặc dù vậy, có lẽ cô chỉ ghét việc làm ngơ trước một điều vô lý phi thực tế, hoặc giả là vì một lý do nào khác. Hay nghĩ như thế chỉ là sự tự huyễn hoặc thiên vị của Subaru?"
+  },
+  {
+    "id": 136,
+    "en": "After all, she had not unpacked at the inn in Guaral, so――.",
+    "vi": "Dẫu sao thì, cô cũng chưa hề thu xếp hành lý tại quán trọ ở Guaral, thế nên――."
+  },
+  {
+    "id": 137,
+    "en": "Abel: [Our conversation was interrupted. However, even supposing you were able to evade the Shudraqians’ eyes, the idea of selling me over to the enemy is futile.]",
+    "vi": "Abel: [Cuộc đối thoại của chúng ta đã bị gián đoạn. Tuy nhiên, cứ cho là ngươi có thể lách qua mắt tộc nhân Shudraq, ý tưởng giao nộp ta cho kẻ thù cũng là vô dụng.]"
+  },
+  {
+    "id": 138,
+    "en": "Subaru: [...Good job getting us back on track. While we’re at it, I’ll ask. Why’s that?]",
+    "vi": "Subaru: [...Cảm ơn anh vì đã đưa cuộc trò chuyện quay lại quỹ đạo. Nhân tiện đây tôi sẽ hỏi luôn. Vì sao lại thế?]"
+  },
+  {
+    "id": 139,
+    "en": "Abel: [You also spent time in the city, albeit briefly. That being the case, did news of how the current Imperial Capital is being governed not reach your ears?]",
+    "vi": "Abel: [Ngươi cũng đã có thời gian túc trực ở thành phố, dù khá ngắn ngủi. Nếu đã như thế, tin tức về việc Hoàng đô hiện tại đang được cai trị thế nào không lẽ không lọt vào tai ngươi sao?]"
+  },
+  {
+    "id": 140,
+    "en": "Subaru: [The Imperial Capital you say… Ah! Right, that’s right! You’re…]",
+    "vi": "Subaru: [Hoàng đô sao… A! Đúng rồi, chính xác là thế! Anh chính là…]"
+  },
+  {
+    "id": 141,
+    "en": "In sudden understanding, Subaru stood up on the spot without thinking. Then, as he focused on his visible surroundings he called out “Flop-san!”",
+    "vi": "Trong cơn bừng tỉnh đột ngột đột ngột, Subaru đứng phắt dậy ngay tại chỗ mà không kịp suy nghĩ. Rồi cậu đảo mắt nhìn xung quanh gọi lớn \"Flop-san!\""
+  },
+  {
+    "id": 142,
+    "en": "Not having kept up with the change of affairs, the astonished Flop turned around with a “Yeah?”",
+    "vi": "Chưa kịp bắt nhịp với sự thay đổi nhanh chóng của tình thế, Flop ngơ ngác quay lại hỏi \"Hửm?\""
+  },
+  {
+    "id": 143,
+    "en": "Flop: [W-w-w-what is it Husband-kun? Honestly, I’m feeling extremely confused and bewildered right now, I’m becoming a mess! I’m not following this conversation in the slightest, all I know is it feels like we’re getting to the climax of the issue!]",
+    "vi": "Flop: [C-C-Cái gì thế Cậu Chồng? Thành thật mà nói, tôi đang cảm thấy vô cùng bối rối và hoang mang tột độ đây này, đầu óc sắp rối tung lên rồi! Tôi chẳng thể bắt kịp cuộc trò chuyện này chút nào cả, tôi chỉ lờ mờ cảm nhận thấy có vẻ như chúng ta đang tiến tới hồi gay cấn của vấn đề rồi đấy!]"
+  },
+  {
+    "id": 144,
+    "en": "Subaru: [Sorry for leaving you out of the loop, but confirm something for me. In Guaral you talked about the official notice from the Imperial Capital... or rather, about the Emperor’s proclamation.]",
+    "vi": "Subaru: [Xin lỗi vì đã để anh ngoài rìu cuộc thảo luận, nhưng hãy xác nhận giúp tôi một chuyện. Ở Guaral anh đã từng nhắc đến thông báo chính thức từ Hoàng đô... hay đúng hơn là về tuyên cáo của Hoàng đế.]"
+  },
+  {
+    "id": 145,
+    "en": "Flop: [The Emperor’s proclamation… You mean the trouble in the Imperial Capital?]",
+    "vi": "Flop: [Tuyên cáo của Hoàng đế sao… Ý cậu là vụ náo động hỗn loạn ở Hoàng đô à?]"
+  },
+  {
+    "id": 146,
+    "en": "Flop snapped his fingers, and Subaru nodded at his understanding.",
+    "vi": "Flop búng tay một cái bôm bốp, còn Subaru gật đầu xác nhận sự thấu hiểu."
+  },
+  {
+    "id": 147,
+    "en": "Immediately after, the intense fight with Todd, having been repeated six-fold, had been severely burned into his brain, but he had also exchanged such talk with Flop in Guaral.",
+    "vi": "Ngay sau đó, cuộc chiến ác liệt sinh tử với Todd, vốn đã lặp đi lặp lại tới sáu lần, đã hằn sâu ghi khắc vào tâm trí cậu, nhưng cậu vẫn nhớ rõ mình từng trao đổi những lời này với Flop tại Guaral."
+  },
+  {
+    "id": 148,
+    "en": "Reflecting on the matter in question, Flop smoothed down his own long hair,",
+    "vi": "Hồi tưởng lại vấn đề đang được nhắc tới, Flop vuốt vuốt mái tóc dài óng ả của mình,"
+  },
+  {
+    "id": 149,
+    "en": "Flop: [Embers smolder in the Empire, and there’s some kind of disturbance in the Imperial Capital. The current Emperor has been reigning for a long time, and with no signs of civil war, imperial citizens have been enjoying peaceful days. But then this happened.]",
+    "vi": "Flop: [Những tàn lửa âm ỉ đang nhen nhóm trong Đế quốc, và dường như có một vụ náo động bạo loạn nào đó ở Hoàng đô. Vị Hoàng đế đương nhiệm đã trị vì trong một khoảng thời gian dài, và không hề có dấu hiệu nào của nội chiến bạo loạn, thần dân Đế quốc vẫn đang được tận hưởng những ngày tháng hòa bình an lành. Thế mà đột nhiên chuyện này lại xảy ra.]"
+  },
+  {
+    "id": 150,
+    "en": "Subaru: [Talk of trouble in the Imperial Capital has spread outside, and you said the Emperor himself had set out to resolve it, right? It was a kind of unusual announcement but…]",
+    "vi": "Subaru: [Tin đồn về vụ hỗn loạn ở Hoàng đô đã lan truyền ra ngoài, và anh bảo đích thân Hoàng đế đã xuất binh để giải quyết nó đúng không? Đó là một loại thông cáo khá bất thường phi thực tế nhưng…]"
+  },
+  {
+    "id": 151,
+    "en": "Flop: [Right. Actually, this is the first time since the current Emperor took the Throne. Nonetheless, he has an excellent track record managing the Empire so far. So I’m not worried! Viva Vollachia!]",
+    "vi": "Flop: [Đúng vậy đấy. Thực tế thì, đây là lần đầu tiên kể từ khi vị Hoàng đế hiện tại lên ngôi trị vì. Dù sao thì gã cũng đã có một thành tích cai trị Đế quốc xuất sắc từ trước đến nay. Thế nên tôi chẳng lo lắng chút nào sất! Vollachia muôn năm!]"
+  },
+  {
+    "id": 152,
+    "en": "Raising both hands, Flop unconsciously gouged Subaru’s old wound.",
+    "vi": "Giơ cả hai tay lên đầy hào hứng, Flop đã vô tình khơi lại vết thương lòng sâu hoắm của Subaru."
+  },
+  {
+    "id": 153,
+    "en": "Those were the words extolling the Empire that he had heard so often in the Imperial encampment, but now Subaru did not have the presence of mind to innocently go along with it.",
+    "vi": "Đó là những từ ngữ ca tụng Đế quốc mà cậu đã nghe đi nghe lại quá nhiều lần ở doanh trại Đế quốc, thế nhưng lúc này Subaru hoàn toàn không có tâm trạng để thản nhiên phụ họa theo."
+  },
+  {
+    "id": 154,
+    "en": "In any case, the problem was not the praise, but the movement of the Emperor that was spoken of just before.",
+    "vi": "Dù sao thì, vấn đề cốt lõi không phải là lời khen ngợi kia, mà là hành tung di chuyển của Hoàng đế vừa được nhắc tới."
+  },
+  {
+    "id": 155,
+    "en": "That the Emperor was directly starting to move in order to suppress trouble in the Imperial Capital was an unprecedented situation. Not to mention, in the event that the Emperor were to do something like issuing a command before the public――,",
+    "vi": "Việc Hoàng đế trực tiếp ngự giá xuất chinh để dẹp loạn hỗn loạn tại Hoàng đô là một tình thế chưa từng có tiền lệ. Chưa kể, trong trường hợp Hoàng đế làm những việc như ban bố mệnh lệnh trước bàn dân thiên hạ――,"
+  },
+  {
+    "id": 156,
+    "en": "Subaru: [The you that’s here now, who are you and what kind of position are you in? Can you prove you aren’t some crazy nutcase with a screw loose?]",
+    "vi": "Subaru: [Kẻ đang đứng ở đây lúc này, anh rốt cuộc là ai và đang ở trong vị thế thế nào hả? Anh có thể chứng minh mình không phải là một gã điên rồ hoang tưởng nói lời mê sảng không?]"
+  },
+  {
+    "id": 157,
+    "en": "Abel: [Proof you say? Where is the need for that?]",
+    "vi": "Abel: [Chứng minh sao? Đâu có cần thiết phải làm chuyện đó chứ?]"
+  },
+  {
+    "id": 158,
+    "en": "Subaru: [What?]",
+    "vi": "Subaru: [Cái gì cơ?]"
+  },
+  {
+    "id": 159,
+    "en": "Sitting with his knee raised, Abel snorted at Subaru’s skepticism. At the same time, he put his hand on his chest and, like he was trying to flaunt his own existence, spoke,",
+    "vi": "Ngồi co một gối lên oai nghiêm, Abel hừ mũi trước sự ngờ vực của Subaru. Đồng thời, gã đặt tay lên ngực và cất lời như muốn khẳng định sự hiện diện kiêu hãnh của bản thân,"
+  },
+  {
+    "id": 160,
+    "en": "Abel: [Never mind the thoughtless ones who have turned on me. Seeing as you have reached a point of no return, if you were to still treat me as an insolent person who speaks nonsense, how do you explain the situation you have found yourself in?]",
+    "vi": "Abel: [Đừng bận tâm đến lũ phản trắc ngu xuẩn đã quay lưng phản bội lại ta. Nhận thấy ngươi đã dấn thân vào con đường không thể quay đầu, nếu ngươi vẫn muốn coi ta là một kẻ ngạo mạn phát ngôn những lời mê sảng, thì ngươi sẽ giải thích thế nào về tình cảnh khốn đốn của chính bản thân ngươi hả?]"
+  },
+  {
+    "id": 161,
+    "en": "Subaru: [That’s…]",
+    "vi": "Subaru: [Chuyện đó…]"
+  },
+  {
+    "id": 162,
+    "en": "Abel: [Cease latching onto facile ideas that cannot fool even yourself, merely to obtain peace of heart. If you exclude the possibilities that do not align together at the precise time, what is left is nothing but the truth.]",
+    "vi": "Abel: [Hãy ngừng bám víu vào những suy nghĩ nông cạn vốn chẳng thể đánh lừa nổi chính bản thân ngươi chỉ để tìm kiếm sự an lòng an tâm giả tạo đi. Một khi ngươi đã loại bỏ thảy những khả năng không khớp nhau tại cùng một thời điểm, những gì còn lại chính xác chính là sự thật hiển nhiên.]"
+  },
+  {
+    "id": 163,
+    "en": "Abel’s statement was harsh, but Subaru bitterly understood the logic behind it.",
+    "vi": "Lời tuyên bố của Abel vô cùng gay gắt lạnh lùng, thế nhưng Subaru cay đắng thấu hiểu tính logic đằng sau nó."
+  },
+  {
+    "id": 164,
+    "en": "The oni-masked man in front of him was a fake being disguised as an Emperor and Subaru and also the People of Shudraq were being deceived by his falsehoods. That kind of development would lead to doom beyond saving and above that, was hard to believe.",
+    "vi": "Gã đàn ông đeo mặt nạ Quỷ trước mặt cậu là một kẻ giả mạo cải trang thành Hoàng đế, còn Subaru và cả tộc nhân Shudraq đều đang bị lừa gạt bởi những lời nói dối của gã. Kiểu giả thuyết đó sẽ chỉ dẫn đến kết cục bế tắc không lối thoát và trên hết thảy, là điều vô cùng khó tin."
+  },
+  {
+    "id": 165,
+    "en": "In reality, Abel had utilised the Shudraqians’ strength and the information obtained from Subaru to fight and win against the Imperial army. That real occurrence was something that could not be explained away by a habitual liar.",
+    "vi": "Trên thực tế, Abel đã tận dụng sức mạnh của tộc Shudraq và thông tin thu thập được từ Subaru để chiến đấu và giành chiến thắng trước quân đội Đế quốc. Sự thực hiển nhiên đó không thể nào được lý giải bởi một kẻ lừa đảo chuyên nghiệp."
+  },
+  {
+    "id": 166,
+    "en": "Subaru: [Then, what about the Imperial Capital stuff? If it's said that the Emperor directly took command, there’s no way the Emperor wouldn’t come out in front of people.]",
+    "vi": "Subaru: [Thế thì, còn chuyện ở Hoàng đô thì sao? Nếu nói rằng Hoàng đế trực tiếp cầm quân xuất chinh, không đời nào Hoàng đế lại không xuất hiện công khai trước công chúng chứ.]"
+  },
+  {
+    "id": 167,
+    "en": "Abel: [I suppose they would then. A fake remarkably similar to myself… To halt mentions of the Emperor’s absence, an exceptionally well-made double is used. ――Chisha Gold.]",
+    "vi": "Abel: [Ta giả định là chúng làm như thế rồi đấy. Một kẻ giả mạo giống hệt bản thân ta… Để dập tắt những lời bàn tán về sự vắng mặt của Hoàng đế, một thế thân được tạo tác vô cùng chuẩn xác tinh xảo đã được sử dụng. ――Chisha Gold.]"
+  },
+  {
+    "id": 168,
+    "en": "Subaru: [Chisha…?]",
+    "vi": "Subaru: [Chisha sao…?]"
+  },
+  {
+    "id": 169,
+    "en": "It was a name he had not heard before, but they were Abel’s――No, they were the Emperor’s body double.",
+    "vi": "Đó là một cái tên cậu chưa từng được nghe qua từ trước, nhưng gã chính là thế thân của Abel―― không, phải là thế thân của Hoàng đế mới đúng."
+  },
+  {
+    "id": 170,
+    "en": "In a land where the imperialistic “might makes right” ideology inhabited, it was easy to imagine that in preparation for assassinations, the Emperor would arrange for a body double.",
+    "vi": "Tại một vùng đất mà tư tưởng bá đạo coi trọng thực lực lên ngôi ngự trị, thật dễ dàng tưởng tượng việc Hoàng đế luôn bố trí sẵn một thế thân để chuẩn bị phòng bị cho những cuộc ám sát hiểm nghèo."
+  },
+  {
+    "id": 171,
+    "en": "However, having said body double be used by the enemy to usurp the seat of the Emperor was quite the misplacement of priorities.",
+    "vi": "Tuy nhiên, việc chính thế thân đó lại bị kẻ thù lợi dụng để chiếm đoạt đoạt lấy ngai vàng của Hoàng đế quả thực là một trò đùa tai hại gậy ông đập lưng ông."
+  },
+  {
+    "id": 172,
+    "en": "Abel: [Silence, I am aware.]",
+    "vi": "Abel: [Câm miệng, ta tự biết rõ chuyện đó.]"
+  },
+  {
+    "id": 173,
+    "en": "Subaru: [Right, thanks to you, we’re in quite a mess. If only the Empire was at peace…]",
+    "vi": "Subaru: [Phải rồi, nhờ ơn anh mà chúng tôi mới lâm vào tình thế hiểm nghèo khốn đốn thế này đây. Giá như cái Đế quốc này thái bình thịnh trị…]"
+  },
+  {
+    "id": 174,
+    "en": "The only problem Subaru needed to have was the salty interactions from the amnesiac Rem.",
+    "vi": "Mối bận tâm duy nhất đáng lẽ Subaru phải đối mặt chỉ là sự đối xử lạnh nhạt đầy tủi hờn của cô gái Rem mất trí nhớ."
+  },
+  {
+    "id": 175,
+    "en": "To reunite with Emilia and the others, a journey to struggle and escape the Vollachian Empire was to unfold. That was all it had to be. But now, due to some fate, they were in this mess.",
+    "vi": "Để hội ngộ với nhóm Emilia, một hành trình nỗ lực vất vả trốn chạy khỏi Đế quốc Vollachia đáng lẽ sẽ diễn ra. Đáng lẽ mọi chuyện chỉ đơn giản có thế. Nhưng giờ đây, do số phận trớ trêu đưa đẩy, họ lại bị cuốn vào rắc rối hiểm nghèo này."
+  },
+  {
+    "id": 176,
+    "en": "Flop: [Um, um, ah, y’know, Husband-kun.]",
+    "vi": "Flop: [Ơ kìa, ơ kìa, này này, Cậu Chồng ơi.]"
+  },
+  {
+    "id": 177,
+    "en": "The one who called out to the sour-faced Subaru was Flop.",
+    "vi": "Người lên tiếng gọi Subaru đang có vẻ mặt nhăn nhó cau có chính là Flop."
+  },
+  {
+    "id": 178,
+    "en": "Wrinkling the space between his eyebrows of his graceful face, he tilted his head at a rather steep angle and,",
+    "vi": "Nhíu chặt đôi gò mày trên gương mặt thanh tú nh nhã của mình, ông nghiêng đầu một góc khá sâu nghi hoặc hỏi,"
+  },
+  {
+    "id": 179,
+    "en": "Flop: [I’ve been thinking about it ever since I heard it before, but what you’re talking about with Village Chief-kun is a bit mysterious, isn’t it? To be honest, I’m still shocked because of your joke about causing the fall of Guaral but...]",
+    "vi": "Flop: [Tôi đã suy ngẫm băn khoăn về chuyện đó kể từ khi nghe thấy trước đây, nhưng những gì cậu và Cậu Trưởng Làng đang thảo luận có gì đó vô cùng thần bí đúng không nhỉ? Nói thật lòng lòng thì, tôi vẫn đang vô cùng sốc vì trò đùa của cậu về việc hạ gục thành Guaral đấy, nhưng...]"
+  },
+  {
+    "id": 180,
+    "en": "Subaru: [A joke… No, don’t mind that. Umm, Flop-san, I’ve been meaning to explain but.]",
+    "vi": "Subaru: [Một trò đùa sao… Không, anh đừng bận tâm đến chuyện đó. Ờ thì, Flop-san, tôi đã định giải thích rõ ràng chuyện này nhưng.]"
+  }
+]
