@@ -249,6 +249,8 @@ When you encounter a new adjective not on this list, apply the two-step check ab
 6. Does any sentence run longer than 30 words with multiple "và / nhưng" connectors?
 7. Is "cảm thấy" used where a specific strong verb or a personified emotion would be more vivid?
 
-8. Does any adjective describing a person or emotion use the physical-sense Vietnamese word instead of the figurative form? ("lạnh" for cold personality → should be "lạnh lùng"; "nặng" for heavy atmosphere → should be "nặng nề"; "không nghi ngờ gì" for "solid" → should be "vững chắc")
+8. Does any adjective describing a person or emotion use the physical-sense Vietnamese word instead of the figurative form? ("lạnh" for cold personality → "lạnh lùng"; "nặng" for heavy atmosphere → "nặng nề"; "không nghi ngờ gì" for "solid" → "vững chắc")
+9. Does any word produce a sentence that makes no logical sense? Read it aloud — check for homophone confusion ("rìu/rìa", "dành/giành", "bảo/báo"). See [mistakes.md Category 14](mistakes.md).
+10. Does any English idiom appear translated word-for-word? ("out of the loop" → "ngoài rìa cuộc thảo luận" is wrong; should be "đứng ngoài cuộc"). See [mistakes.md Category 15](mistakes.md). ("lạnh" for cold personality → should be "lạnh lùng"; "nặng" for heavy atmosphere → should be "nặng nề"; "không nghi ngờ gì" for "solid" → should be "vững chắc")
 
 If you answer YES to any of these — that sentence needs to be rewritten.

@@ -269,19 +269,59 @@ These wrong forms have been detected across actual translated chapters using `--
 
 ## CATEGORY 7 — Machine translation artifacts
 
-These specific strings are DeepL artifacts that must never appear in final output:
+MT artifacts follow a small number of structural patterns. The script (`check_terms.py`) detects these **by pattern**, so you do not need to add every new corrupted word individually. Only add to the "specific tokens" list when a word slips through all three pattern checks.
 
-| Artifact | Notes |
-|----------|-------|
-| "lị" | Wrong particle form |
-| "sất" | Wrong particle form |
-| "quèn" | Corrupted word |
-| "d dứt" | Corrupted "dứt" with extra character |
-| "d dẫu" | Corrupted "dẫu" |
-| "độc độc" | Duplicated word artifact |
-| "phân một" | Corrupted phrase |
-| "hắn ta" (for Subaru) | Subaru should never be "hắn ta" — use "cậu", "anh", or his name |
-| "y" (for any character) | "y" (he/that person) is cold/dismissive; only use if the source is intentionally cold |
+### Pattern A — "d " prefix split
+A stray `d ` is inserted before a word during MT tokenization.
+
+| Example | Fix |
+|---------|-----|
+| `d dứt` | remove "d " → `dứt` |
+| `d dẫu` | remove "d " → `dẫu` |
+| `d sẽ` | remove "d " → `sẽ` |
+| `d dũng` | remove "d " → `dũng` |
+
+**Detected automatically** by the script (regex: `\bd [word]`).
+
+---
+
+### Pattern B — Orphaned syllable from a split compound
+The MT tool drops the first syllable of a two-syllable compound, leaving a meaningless fragment.
+
+| Orphaned fragment | Was supposed to be | Meaning |
+|------------------|--------------------|---------|
+| `một vân` | `phân vân` | hesitant, undecided |
+| `phân một` | `phân vân` | hesitant, undecided |
+
+**Detected automatically** by the script (checks for `vân` appearing without `phân` before it).
+When you find a new split compound, add the orphaned syllable to `_ORPHANED_SYLLABLES` in `check_terms.py` — only if the syllable has **no valid standalone meaning** in Vietnamese prose.
+
+---
+
+### Pattern C — Duplicated consecutive words
+The MT tool repeats the same word twice: `cũng cũng`, `lại lại`, `nhất định nhất định`.
+
+**Detected automatically** by the script (consecutive token comparison).
+
+---
+
+### Specific tokens (escaped all three patterns above)
+Only add here when a token is confirmed as an artifact but doesn't match Patterns A–C:
+
+| Token | Notes |
+|-------|-------|
+| `lị` | Non-Vietnamese particle |
+| `sất` | Non-Vietnamese syllable |
+| `quèn` | Non-Vietnamese syllable |
+
+---
+
+### Register/pronoun artifacts (not caught by script — human review only)
+
+| Artifact | Fix |
+|----------|-----|
+| `hắn ta` for Subaru | Use "cậu", "anh", or his name — "hắn ta" is cold/dismissive |
+| `y` for any sympathetic character | "y" is contemptuous; only valid if the source is intentionally cold |
 
 ---
 
@@ -533,6 +573,83 @@ When an adjective describes a **person's trait, skill, personality, or emotional
 | sắc | sắc sảo |
 | sáng | sáng suốt / thông minh |
 | nhẹ | nhẹ nhàng |
+
+---
+
+## CATEGORY 14 — Vietnamese homophone / near-homophone confusion
+
+Vietnamese is highly tonal. Many words share the same consonants and vowels but differ only in tone or a single vowel, producing completely different meanings. MT tools and careless translators frequently swap them.
+
+**Rule:** When a word produces a sentence that makes no logical sense, check whether a visually or phonetically similar word was intended.
+
+---
+
+### 14.1 "rìu" vs "rìa"
+
+| Word | Meaning | Tone |
+|------|---------|------|
+| **rìa** | edge, periphery, sideline | huyền (falling) |
+| **rìu** | axe (chopping tool) | huyền (falling) — different vowel |
+
+❌ `"ngoài rìu cuộc thảo luận"` — "outside the axe of the discussion" (nonsense)
+✓ `"ngoài rìa cuộc thảo luận"` — "on the sidelines of the discussion"
+
+But note: even the correct form is still a literal calque of "out of the loop." Prefer a natural Vietnamese idiom:
+✓ `"để anh đứng ngoài cuộc"` — left you out of it
+✓ `"không thông báo cho anh"` — didn't keep you informed
+
+---
+
+### 14.2 Common Vietnamese near-homophone pairs to watch
+
+| Pair | Distinction |
+|------|-------------|
+| rìa (edge) / rìu (axe) | vowel: ia vs iu |
+| sáng (bright/morning) / xáng (dredger/vessel) | initial: s vs x |
+| cản (hinder) / cán (handle/roll) | final tone |
+| dành (reserve/save) / giành (seize/compete) | initial: d vs gi |
+| trở (return/turn) / chở (carry/transport) | initial: tr vs ch |
+| vội (hurried) / või (elephant trunk) | tone: sắc vs hỏi |
+| bảo (tell/instruct) / báo (report/tiger) | tone: hỏi vs sắc |
+| tránh (avoid) / tranh (painting/compete) | vowel + final |
+
+**Test:** If a word produces a sentence that makes no sense literally, read it aloud and think of what near-homophone was intended.
+
+---
+
+## CATEGORY 15 — English idioms translated literally
+
+English idioms must never be translated word-for-word. The meaning of the idiom should be rendered in natural Vietnamese — not a calque of the English words.
+
+### 15.1 "out of the loop"
+
+**Meaning:** not being kept informed / excluded from a discussion or decision
+
+❌ `"ngoài rìa cuộc thảo luận"` — literal calque, awkward
+✓ `"đứng ngoài cuộc"` — left out of it
+✓ `"không được thông báo"` — not informed
+✓ `"bị bỏ ngoài lề"` — sidelined
+
+---
+
+### 15.2 Common English idioms and their natural Vietnamese equivalents
+
+| English idiom | ❌ Literal Vietnamese | ✓ Natural Vietnamese |
+|---------------|----------------------|----------------------|
+| out of the loop | ngoài rìa cuộc thảo luận | đứng ngoài cuộc / không được thông báo |
+| in the loop | trong vòng thông tin | được thông báo / nắm được tình hình |
+| hit the nail on the head | đánh trúng cái đinh | nói đúng trọng tâm / nói đúng bản chất |
+| a double-edged sword | thanh kiếm hai lưỡi | con dao hai lưỡi (VN idiom exists) |
+| the ball is in your court | trái bóng ở sân của bạn | quyết định là của anh / tuỳ anh quyết định |
+| bite the bullet | cắn viên đạn | cắn răng chịu đựng |
+| bite off more than you can chew | cắn nhiều hơn bạn có thể nhai | tham quá sức mình |
+| burn bridges | đốt cầu | cắt đứt quan hệ / không còn đường quay lại |
+| break the ice | phá vỡ băng | phá tan bầu không khí ngại ngùng |
+| steal the show | cướp buổi biểu diễn | chiếm hết sự chú ý / trở thành tâm điểm |
+| under the weather | dưới thời tiết | không khỏe / trong người khó chịu |
+| cost an arm and a leg | tốn một cánh tay và một chân | đắt cắt cổ / tốn kém khủng khiếp |
+
+**Rule:** When you encounter an English idiom, do not translate the words — translate the *meaning*. If no standard Vietnamese idiom exists, use a plain descriptive phrase.
 
 ---
 
