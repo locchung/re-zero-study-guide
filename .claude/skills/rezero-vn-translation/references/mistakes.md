@@ -389,6 +389,153 @@ Characters sometimes go by aliases or epithets that function as proper names. Ke
 
 ---
 
+## CATEGORY 13 — Multi-sense English adjectives mistranslated
+
+### The principle (self-extending — covers any adjective, not just those listed)
+
+English adjectives carry multiple senses. When the adjective describes a **person, emotion, quality, or atmosphere**, it almost always maps to the **figurative Vietnamese form**, not the bare physical root word.
+
+**Before translating any adjective:** ask — is this describing something physical, or a person/quality/feeling? If the latter, use the figurative/emotional Vietnamese form. The bare monosyllabic root (lạnh, nặng, tối, sáng…) is almost always wrong in this context.
+
+You do not need to look up every new adjective in this list. Apply the principle and trust your sense of whether the word fits literary Vietnamese prose. When you confirm a new pair through actual use, add it to the table below.
+
+---
+
+**Core rule:** Before translating any adjective, identify which sense is being used in context. Adjectives describing a person's quality/personality/skill are almost never the same word as their physical meaning.
+
+---
+
+### 13.1 "solid"
+
+| Sense | Meaning | Correct Vietnamese |
+|-------|---------|-------------------|
+| Physical | not hollow, hard material | đặc, cứng, vững chắc |
+| Quality | reliable, dependable, sound | vững chắc, đáng tin cậy, có thực lực, xuất sắc |
+| ❌ Wrong | "undoubted / certainly" | ~~không nghi ngờ gì~~ ← this means "undoubtedly", not "solid" |
+
+❌ `"Gã là một nhà chiến lược không nghi ngờ gì và tẻ nhạt"` — "không nghi ngờ gì" = "undoubtedly", not "solid"
+✓ `"Gã là một nhà chiến lược vững chắc nhưng tẻ nhạt — không có điểm yếu nào cả."`
+
+---
+
+### 13.2 "sharp" (about a person)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Blade / edge | sắc bén, bén nhọn |
+| Person: clever, perceptive | sắc sảo, tinh tế, nhạy bén, thông minh |
+| Pain: intense | buốt, nhói |
+
+❌ `"Ánh mắt sắc bén của cô"` — "sắc bén" is for blades; eyes need "sắc sảo" or "tinh anh"
+✓ `"Ánh mắt sắc sảo của cô"` / `"Đôi mắt tinh anh của cô"`
+
+---
+
+### 13.3 "dark" (non-physical)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Physically dark | tối, tối tăm, u tối |
+| Emotionally dark (past, secret) | đen tối, u ám, tăm tối |
+| Dark (personality/mood) | ảm đạm, u uất, nặng nề |
+
+❌ `"Quá khứ tối của cậu"` — "tối" is for physical darkness
+✓ `"Quá khứ đen tối của cậu"` / `"Quá khứ u ám của cậu"`
+
+---
+
+### 13.4 "cold" (personality vs. temperature)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Temperature | lạnh, lạnh lẽo |
+| Personality: unemotional | lạnh lùng, lạnh nhạt, vô cảm |
+| Tone/reception | lạnh nhạt, hờ hững |
+
+❌ `"Cô ấy lạnh với cậu"` — ambiguous, sounds like temperature
+✓ `"Cô ấy lạnh lùng với cậu"` / `"Cô ấy hờ hững với cậu"`
+
+---
+
+### 13.5 "heavy" (emotional vs. physical)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Physical weight | nặng |
+| Emotional weight / oppressive | nặng nề, trĩu nặng, đè nặng |
+| Heavy (silence, atmosphere) | nặng nề, ngột ngạt, căng thẳng |
+
+❌ `"Sự im lặng nặng"` — "nặng" alone is physical weight
+✓ `"Sự im lặng nặng nề"` / `"Không khí ngột ngạt"`
+
+---
+
+### 13.6 "empty" / "hollow" (emotional vs. physical)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Physically empty | trống, rỗng, trống rỗng |
+| Emotionally hollow | trống rỗng, vô hồn, hư không |
+| Hollow (voice/laugh) | vô hồn, trống không, nhạt nhẽo |
+
+❌ `"Cậu cảm thấy trống trong lồng ngực"` — "trống" alone sounds physical
+✓ `"Cậu cảm thấy một khoảng trống rỗng trong lồng ngực"`
+
+---
+
+### 13.7 "bright" (person vs. light)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Physical light | sáng, chói, rực rỡ |
+| Person: intelligent | thông minh, sáng suốt, lanh lợi |
+| Mood: cheerful | tươi sáng, rạng rỡ, vui vẻ |
+
+❌ `"Cô ấy là người sáng"` — sounds like she is physically luminous
+✓ `"Cô ấy thông minh"` / `"Cô ấy lanh lợi"`
+
+---
+
+### 13.8 "light" (weight vs. mood vs. lighting)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Physical: not heavy | nhẹ |
+| Mood: carefree, unserious | nhẹ nhàng, thoải mái, vui vẻ |
+| Tone: comedic / not serious | nhẹ nhàng, hài hước |
+
+---
+
+### 13.9 "warm" (temperature vs. personality)
+
+| Sense | Correct Vietnamese |
+|-------|-------------------|
+| Physical heat | ấm, nóng ấm |
+| Personality: kind, welcoming | ấm áp, thân thiện, chân thành |
+| Reception: welcome | nồng nhiệt, ấm áp |
+
+❌ `"Cô mỉm cười ấm"` — "ấm" alone sounds like physical temperature
+✓ `"Cô mỉm cười ấm áp"`
+
+---
+
+### General rule for adjectives describing people or emotions
+
+When an adjective describes a **person's trait, skill, personality, or emotional state**, it almost always needs the "enhanced" or "figurative" Vietnamese form, not the base physical-meaning word:
+
+| Physical | Figurative (for people/emotions) |
+|----------|----------------------------------|
+| lạnh | lạnh lùng |
+| ấm | ấm áp |
+| nặng | nặng nề |
+| tối | đen tối / u ám |
+| trống | trống rỗng |
+| sắc | sắc sảo |
+| sáng | sáng suốt / thông minh |
+| nhẹ | nhẹ nhàng |
+
+---
+
 ## HOW TO USE THIS FILE
 
 - **Before Pass 2:** Scan Category 1 (overused words) and Category 3 (character voice) — these are the most likely Pass 1 survivors.

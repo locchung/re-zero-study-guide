@@ -216,6 +216,9 @@ After reading, fix any of the following:
 - Unnatural word order inherited from English syntax
 - Any line where a more vivid or precise Vietnamese expression exists
 
+**For unnatural sentences, apply the diagnostic from [references/naturalness.md](references/naturalness.md):**
+Run through the 12 construction traps — passive voice, existential "có một", nominalization ("sự+noun"), "bắt đầu" overuse, subject repetition, weak-verb+adverb, body-language calques. If a sentence triggers any of them, rewrite before moving on.
+
 **Benchmark:** See [references/examples.md](references/examples.md) for target-quality excerpt pairs to calibrate against.
 
 After fixing, run the checklist below.
@@ -253,13 +256,15 @@ After the checklist, read the output one final time as a skeptic whose only job 
 
 **2. Subaru voice test** — for every Subaru line, ask: *"Does this sound like a teenager from modern Japan, or like a generic fantasy protagonist?"* If the latter, inject personality: sarcasm, self-deprecation, a pop-culture aside, rougher phrasing.
 
-**3. Intensity test** — for every dramatic or battle sentence, find the most intense Vietnamese word used. Does it match the intensity of the English source? Emotional peaks must not be softened. If the source says "screamed at the top of his lungs," the Vietnamese must match that energy — not "nói lớn" or "hét lên" but the most visceral equivalent.
+**3. Naturalness test** — pick 3 random sentences from the output and run the Quick Diagnostic from [references/naturalness.md](references/naturalness.md). If any trigger a trap (passive, existential, nominalization, subject repetition, weak verb), fix the entire passage they came from — other sentences nearby likely have the same issue.
 
-**4. Dead-word sweep** — scan for: "thực sự", "cũng", "vẫn", "rồi", "lại" appearing in every sentence. These padding words drain prose energy. Cut or replace where the sentence stands without them.
+**4. Intensity test** — for every dramatic or battle sentence, find the most intense Vietnamese word used. Does it match the intensity of the English source? Emotional peaks must not be softened. If the source says "screamed at the top of his lungs," the Vietnamese must match that energy — not "nói lớn" or "hét lên" but the most visceral equivalent.
 
-**5. Opening / closing test** — read the first and last sentence of the chapter output. Does the first sentence set the right tone? Does the last sentence land with the appropriate weight? These two are the reader's strongest impressions.
+**5. Dead-word sweep** — scan for: "thực sự", "cũng", "vẫn", "rồi", "lại" appearing in every sentence. These padding words drain prose energy. Cut or replace where the sentence stands without them.
 
-**6. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
+**6. Opening / closing test** — read the first and last sentence of the chapter output. Does the first sentence set the right tone? Does the last sentence land with the appropriate weight? These two are the reader's strongest impressions.
+
+**7. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
 
 > Full error catalogue with bad/good examples for every category: [references/mistakes.md](references/mistakes.md)
 
