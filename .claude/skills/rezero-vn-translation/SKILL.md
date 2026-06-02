@@ -260,11 +260,13 @@ After the checklist, read the output one final time as a skeptic whose only job 
 
 **4. Intensity test** — for every dramatic or battle sentence, find the most intense Vietnamese word used. Does it match the intensity of the English source? Emotional peaks must not be softened. If the source says "screamed at the top of his lungs," the Vietnamese must match that energy — not "nói lớn" or "hét lên" but the most visceral equivalent.
 
-**5. Dead-word sweep** — scan for: "thực sự", "cũng", "vẫn", "rồi", "lại" appearing in every sentence. These padding words drain prose energy. Cut or replace where the sentence stands without them.
+**5. Phrase fragment check** — read each long sentence and look for any 2+ word sequence appearing twice within the same sentence. The second occurrence is almost always a leaked fragment from an earlier clause. Example: "trên hết tất cả, là điều **hết tất cả** khó tin" — "hết tất cả" leaked from "trên hết tất cả" into the next clause. Fix: remove the intruder. (Automated detection is unreliable for this — human eye only.)
 
-**6. Opening / closing test** — read the first and last sentence of the chapter output. Does the first sentence set the right tone? Does the last sentence land with the appropriate weight? These two are the reader's strongest impressions.
+**6. Dead-word sweep** — scan for: "thực sự", "cũng", "vẫn", "rồi", "lại" appearing in every sentence. These padding words drain prose energy. Cut or replace where the sentence stands without them.
 
-**7. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
+**7. Opening / closing test** — read the first and last sentence of the chapter output. Does the first sentence set the right tone? Does the last sentence land with the appropriate weight? These two are the reader's strongest impressions.
+
+**8. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
 
 > Full error catalogue with bad/good examples for every category: [references/mistakes.md](references/mistakes.md)
 

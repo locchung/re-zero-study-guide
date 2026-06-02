@@ -576,7 +576,60 @@ When an adjective describes a **person's trait, skill, personality, or emotional
 
 ---
 
-## CATEGORY 14 — Vietnamese homophone / near-homophone confusion
+## CATEGORY 14 — Intra-sentence phrase fragment duplication
+
+A phrase fragment from one clause is accidentally copied into a different clause of the same sentence, producing a nonsensical or grammatically broken result. This is distinct from consecutive-word duplication (same word twice in a row) — here the fragment reappears *inside* a different phrase further along.
+
+**Cause:** MT tools sometimes echo a phrase fragment when generating the next clause.
+
+### Example
+
+**Source:** "above that, was hard to believe"
+
+❌ `"trên hết tất cả, là điều hết tất cả khó tin"`
+— "hết tất cả" from "trên hết tất cả" leaked into "là điều **hết tất cả** khó tin"
+— Result: "was the thing **all-of-it** hard to believe" (nonsense)
+
+✓ `"trên hết, đó là điều khó tin nhất"`
+— clean: "above all, that was the hardest to believe"
+
+### How to catch it
+
+Read each sentence and look for any 2+ word sequence that appears twice. The second occurrence is almost always the error.
+
+The script (`check_terms.py`) now flags repeated 2-grams within the same sentence. When caught, identify which occurrence is the intruder — usually the one that breaks the clause's grammar — and remove it.
+
+---
+
+## CATEGORY 15 — Semantic redundancy (pleonasm)
+
+
+
+Two words with overlapping meanings placed together, creating a redundancy. Different from duplicate consecutive words — here the *words* differ but their *meanings* overlap.
+
+**Rule:** Before finalizing any compound verb or noun phrase, ask: do both words contribute distinct meaning? If the second word is already implied by the first, remove one.
+
+### Common patterns
+
+| Redundant phrase | Why | Fix |
+|-----------------|-----|-----|
+| dẹp loạn hỗn loạn | "loạn" = disorder, "hỗn loạn" = chaos/disorder — same concept twice | dẹp loạn **or** dẹp hỗn loạn |
+| tiếp tục duy trì | "tiếp tục" = continue, "duy trì" = maintain/continue | tiếp tục **or** duy trì |
+| phản hồi đáp lại | "phản hồi" = respond, "đáp lại" = respond back | phản hồi **or** đáp lại |
+| ngăn cản cản trở | "ngăn cản" = obstruct, "cản trở" = obstruct | ngăn cản **or** cản trở |
+| hành động hành vi | "hành động" = action, "hành vi" = action/conduct | hành động **or** hành vi |
+| kết thúc chấm dứt | "kết thúc" = end, "chấm dứt" = end/terminate | kết thúc **or** chấm dứt |
+| lo lắng âu lo | "lo lắng" = worry, "âu lo" = anxiety/worry | lo lắng **or** âu lo |
+| biến mất tan biến | "biến mất" = disappear, "tan biến" = vanish | biến mất **or** tan biến |
+
+### How to catch it
+After translating a compound phrase, read the two words together and ask: *if I removed the second word, would any distinct meaning be lost?* If no — remove it.
+
+The script detects known pairs (see `PLEONASMS` in `check_terms.py`). New pairs discovered in actual chapters should be added there.
+
+---
+
+## CATEGORY 15 — Vietnamese homophone / near-homophone confusion
 
 Vietnamese is highly tonal. Many words share the same consonants and vowels but differ only in tone or a single vowel, producing completely different meanings. MT tools and careless translators frequently swap them.
 
