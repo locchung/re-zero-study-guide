@@ -18,7 +18,7 @@ If translating chapter N and the project's `content/` directory is accessible, s
 
 Read the **entire passage** before writing a single word. Understand the scene's purpose, emotional arc, and where it sits in the chapter. Translation quality depends entirely on comprehension before composition.
 
-If the arc's central storyline is not obvious from the text, ask the user for a one-sentence summary before proceeding. For Arc 6 specifically, consult [references/arc6-context.md](references/arc6-context.md).
+If the arc's central storyline is not obvious from the text, ask the user for a one-sentence summary before proceeding.
 
 ## Step 1 — Classify each paragraph
 
@@ -53,7 +53,12 @@ For summarized passages, the `en` attribute should contain a **bracketed descrip
 
 **Arc 5 (Stars What Make History / Priestella Water City):** All five Sin Archbishop appearances and battles (Regulus Corneas, Sirius Romanée-Conti, Lye Batenkaitos, Roy Alphard, Capella Emerada Lugunica), Regulus vs Reinhard, the waterway battles, Crusch's condition, Subaru's Cor Leonis awakening → always full translation. Note: Regulus's monologues are intentionally long — do NOT summarize them; their exhausting length is characterisation.
 
-**Arc 6 (Hall of Memories / Pleiades Watchtower):** The 5 obstacles, Subaru's name-loss and recovery, tower conquest finale (Ch. 85–90), identity reveals (Louis Arneb, Shaula, Sage Echidna), Reid Astrea encounters, the Centaurus witch beast horde, Meili's control → always full translation. See [references/arc6-context.md](references/arc6-context.md) for the full structure.
+**Arc 6 (Hall of Memories / Pleiades Watchtower):** The 5 obstacles (Chướng Ngại Thứ Nhất → Thứ Năm), Subaru's name-loss and recovery, tower conquest finale (Ch. 85–90), identity reveals (Louis Arneb, Shaula, Sage Echidna), Reid Astrea encounters → always full translation.
+
+Special chapter handling:
+- **Ch. 72** — title is "■■ ■" (deliberately censored/erased). Do not speculate in the translation itself.
+- **Ch. 73** — title has "Natsuki Subaru" in quotes; Ch. 74 has it without quotes. The contrast is plot-critical — preserve the typographic difference exactly.
+- **Ch. 88** — archaic register ("ta/ngươi") throughout the entire chapter. Maintain it from first sentence to last; do not let it slip into modern register mid-chapter.
 
 **Arc 7 (The Land of Wolves / Vollachian Empire):** Subaru and amnesiac Rem stranded in Vollachia, Abel/Vincent Vollachia's identity and imperial scheming, Todd Fang's pragmatic betrayal, the Shudraq tribe and the Lifeblood Ritual (Nghi thức Huyết Tế), Subaru's Shotaification (child transformation), the siege of Guaral, Medium O'Connell, Yorna Mishigure, Olbart Dunkelkenn, the Great Disaster, Abel's reclamation of the throne → always full translation.
 
@@ -340,6 +345,6 @@ These descriptive or role-based terms have established Vietnamese equivalents us
 | Sword Saint | Kiếm Thánh |
 | Half-elf | Nửa Tiên |
 
-For arc-specific terms see [references/arc6-context.md](references/arc6-context.md).
+All arc-specific terms are covered in Table A and Table B above.
 
 After finishing the translation, response with "Xong rùi nha ck iu" at the end.
