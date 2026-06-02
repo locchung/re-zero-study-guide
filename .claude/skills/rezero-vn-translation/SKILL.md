@@ -98,6 +98,13 @@ For summarized passages, the `en` attribute should contain a **bracketed descrip
 
 **Character voice consistency.** Every character must sound like themselves, not like a generic narrator. A Beatrice line that could have been said by Emilia is wrong.
 
+**Proper noun preservation — absolute rule.** All character names, place names, ability/skill names, aliases, and faction/organization names must be kept in their original WCT English form. This rule has no exceptions.
+- ✓ Keep: Subaru, Emilia, Beatrice, Julius, Garfiel, Todd, Priestella, Vollachia, Cor Leonis, EMT, EMM, Unseen Hand, Witch Cult, Pleiades Watchtower, Augria Sand Dunes, Shudraq, Lifeblood Ritual, Witch Factor, Divine Protection, Return by Death
+- ✗ Never: phonetically transcribe a name into Vietnamese script ("Su-ba-ru"), invent a Vietnamese equivalent, or silently swap one proper name for another
+- Refer to the [Canonical name source](#canonical-name-source) section for WCT spellings when uncertain
+
+**Before starting:** Scan [references/mistakes.md](references/mistakes.md) — specifically the Quick Reference table and Category 1 (overused words). These are the patterns most likely to appear without noticing.
+
 ## Step 2.5 — CRITICAL: Zero English leakage policy
 
 **Every single word in the Vietnamese output ("vi" field) MUST be Vietnamese.** This rule is absolute and has zero exceptions.
@@ -228,7 +235,8 @@ After fixing, run the checklist below.
 - [ ] Machine translation relics? ("lị", "sất", "quèn", "d dứt", "độc độc", "phân một")
 - [ ] Any sentence that is a word-for-word substitution from English?
 
-> **Tip:** Run `python scripts/check_terms.py <file.mdx>` to automatically scan for terminology errors and connector overuse.
+> **Tip:** Run `python scripts/check_terms.py <file.mdx>` to automatically scan for terminology errors, proper noun violations, duplicated consecutive words, and connector overuse.
+> Run `python scripts/check_terms.py --all --cross-check` to see cross-chapter consistency (which chapters use wrong term variants).
 
 ---
 
@@ -248,6 +256,8 @@ After the checklist, read the output one final time as a skeptic whose only job 
 
 **6. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
 
+> Full error catalogue with bad/good examples for every category: [references/mistakes.md](references/mistakes.md)
+
 If the adversarial review finds issues: fix them, then output. If it finds nothing: output immediately. Do not over-refine after a clean adversarial pass.
 
 Fix any issues. Output only the MDX block — no commentary, no explanation outside the MDX.
@@ -266,38 +276,70 @@ Key WCT spelling decisions to memorise:
 
 ## Universal Re:Zero terminology
 
+### TABLE A — Keep in original English form (do NOT translate)
+
+These are proper names. They appear in the Vietnamese text exactly as shown.
+
+| Term | Notes |
+|------|-------|
+| Return by Death | Subaru's ability — proper name, keep in English |
+| Divine Protection | Proper name for the blessing system |
+| Witch Factor | Proper name for the ability vessel |
+| Authority | Proper name for Archbishop abilities |
+| Authority of [Sin] | e.g., Authority of Gluttony, Authority of Sloth |
+| Unseen Hand | Petelgeuse's ability — proper name |
+| Cor Leonis | Julius's Divine Protection — constellation name |
+| Invisible Providence | Subaru's Divine Protection — proper name |
+| EMT / EMM | Beatrice–Subaru joint magic acronyms |
+| Witch Cult | Faction name |
+| Witch of [Sin] | e.g., Witch of Greed, Witch of Envy |
+| Sin Archbishop of [Sin] | e.g., Sin Archbishop of Sloth |
+| Lifeblood Ritual | Arc 7 ritual name |
+| Sand Time | Arc 6 tower mechanic |
+| Cor Leonis | Julius's Divine Protection |
+| Pleiades Watchtower | Tower name (Arc 6) |
+| Augria Sand Dunes | Location name |
+| Priestella | Watergate City (Arc 5) |
+| Vollachia / Vollachian Empire | Nation name |
+| Lugunica / Kingdom of Lugunica | Nation name |
+| Kararagi | Nation name |
+| Gusteko / Holy Kingdom of Gusteko | Nation name |
+| Sanctuary | Location name (Arc 4) |
+| Shudraq | Tribe name (Arc 7) |
+| Buddheim | Location name (Arc 7) |
+| Guaral | Location name (Arc 7) |
+| Flugel | The Sage's proper name — never translate |
+| Minya | Julius's spirit — proper name |
+
+**Rule:** When a proper name appears in the Vietnamese sentence, write it exactly as it appears in the English source (WCT spelling). If unsure of the WCT spelling, consult the [Canonical name source](#canonical-name-source) section.
+
+---
+
+### TABLE B — Established Vietnamese translations (use these, not the English)
+
+These descriptive or role-based terms have established Vietnamese equivalents used throughout the project. Do not revert these to English.
+
 | English | Vietnamese |
 |---------|-----------|
-| Return by Death | Quay Về Từ Cái Chết |
 | Witch Beasts | Ma Thú |
 | Spirit | Tinh Linh |
-| Divine Protection | Phúc Lành |
-| Magic / Mana | Ma Pháp / Mana |
-| Archbishop of Sin | Tổng Giám Mục Tội Lỗi |
-| Sin Archbishop (specific) | Tổng Giám Mục [Tội Danh] |
-| Royal Selection | Cuộc Tuyển Chọn Vương Nữ |
-| Ground Dragon | Long Đất |
-| Yin / Yang Magic | Ma Pháp Âm / Ma Pháp Dương |
+| Magic | Ma Pháp |
+| Mana | Mana (keep as-is) |
+| Ground Dragon | Địa Long (NOT "Long Đất" or "Rồng Đất") |
 | Quasi-Spirit | Bán Tinh Linh |
-| Trial | Thử Thách |
-| Sanctuary | Thánh Địa |
+| Yin Magic / Yang Magic | Ma Pháp Âm / Ma Pháp Dương |
+| Trial / Obstacle | Thử Thách / Chướng Ngại |
 | Sage | Hiền Nhân |
-| Witch of [Sin] | Phù Thủy [Tội Danh] |
-| Lifeblood Ritual | Nghi Thức Huyết Tế |
-| Vollachian Empire | Đế Quốc Vollachia |
-| Kingdom of Lugunica | Vương Quốc Lugunica |
-| Kararagi City-States | Liên Bang Đô Thị Kararagi |
-| Holy Kingdom of Gusteko | Thánh Quốc Gusteko |
-| Unseen Hand | Bàn Tay Vô Hình |
-| Cor Leonis | Cor Leonis |
-| Invisible Providence | Thần Ý Vô Hình |
-| Authority | Quyền Năng |
-| Authority of [Sin] | Quyền Năng [Tội Danh] (e.g., Quyền Năng Tham Ăn) |
-| Witch Factor | Nhân Tố Phù Thủy |
-| Witch's Scent | Mùi Hương Phù Thủy / Mùi Ma Nữ |
-| Oni | Quỷ |
+| Oni | Quỷ Ăn Thịt Người (full) / Quỷ (short) |
 | Demi-human | Á Nhân |
+| Witch's Scent | Mùi Hương Phù Thủy |
+| Royal Selection | Cuộc Tuyển Chọn Vương Nữ |
+| Gospel | Phúc Âm |
+| Knight | Kỵ Sĩ |
+| Spirit Knight | Kỵ Sĩ Tinh Linh |
+| Sword Saint | Kiếm Thánh |
+| Half-elf | Nửa Tiên |
 
-For arc-specific terms (Pleiades Watchtower, Augria Sand Dunes, etc.) see [references/arc6-context.md](references/arc6-context.md).
+For arc-specific terms see [references/arc6-context.md](references/arc6-context.md).
 
 After finishing the translation, response with "Xong rùi nha ck iu" at the end.

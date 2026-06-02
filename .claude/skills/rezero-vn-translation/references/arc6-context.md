@@ -90,7 +90,7 @@ The finale arc (Chapters ~79–90) is the tower conquest endgame — all of it i
 | Yin Magic | Ma Pháp Âm | |
 | Yang Magic | Ma Pháp Dương | |
 | Unseen Hand | Bàn Tay Vô Hình | Subaru's Yin ability |
-| Ground Dragon | Long Đất | Patrasche's species |
+| Ground Dragon | Địa Long | Patrasche's species — NOT "Long Đất" |
 | Magic / Mana | Ma Pháp / Mana | Mana can stay as "mana" or "ma lực" |
 | EMT | EMT (Eternity Makes Time) | Beatrice/Subaru joint magic — can gloss as "Ma Pháp Vĩnh Cửu" first time |
 | EMM | EMM | Second joint magic — absolute time-stop defense |
