@@ -1,0 +1,514 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part1 = [
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Machine Translated By :",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 6,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 7,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 8,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 9,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 10,
+    "en": "Subaru's throat froze upon regarding his own face reflected in the mirror.",
+    "vi": "Cổ họng Subaru nghẹn đắng khi nhìn thấy khuôn mặt của chính mình phản chiếu trong gương."
+  },
+  {
+    "id": 11,
+    "en": "It was a face he recognized, but a face he felt reluctant to say he was used to seeing—— which came as no surprise, as his face reflected in the mirror was a relic of the past, no more than a fading memory.",
+    "vi": "Đó là một gương mặt cậu nhận ra, nhưng lại là gương mặt cậu cảm thấy ngần ngại khi nói mình đã quen nhìn thấy—— điều này cũng chẳng có gì ngạc nhiên, bởi lẽ khuôn mặt phản chiếu trong gương kia là một tàn tích của quá khứ, không hơn gì một ký ức đang phai nhòa."
+  },
+  {
+    "id": 12,
+    "en": "——For that which was reflected there, was the face of a young Natsuki Subaru.",
+    "vi": "——Vì thứ phản chiếu ở đó, chính là gương mặt của một Natsuki Subaru thuở nhỏ."
+  },
+  {
+    "id": 13,
+    "en": "Subaru: [What, is, this…]",
+    "vi": "Subaru: [C-Cái gì thế này...]"
+  },
+  {
+    "id": 14,
+    "en": "The hand grasping the mirror trembled, the pale face of the young boy rocking minutely and repeatedly.",
+    "vi": "Bàn tay cầm gương run rẩy, khuôn mặt nhợt nhạt của cậu bé khẽ lắc lư liên hồi."
+  },
+  {
+    "id": 15,
+    "en": "His other hand, the one not holding the mirror, reached for his face as if to check it, and fingers that were smaller than those in his recollections, ones befitting the young face, came into view through the mirror.",
+    "vi": "Bàn tay còn lại, bàn tay không cầm gương, đưa lên mặt như muốn kiểm tra, và những ngón tay nhỏ hơn trong ký ức của cậu, những ngón tay vừa vặn với khuôn mặt non nớt kia, hiện ra qua tấm gương."
+  },
+  {
+    "id": 16,
+    "en": "Judging from the facial features and height, that was a roughly ten-years-old Natsuki Subaru.",
+    "vi": "Đánh giá từ các đường nét trên khuôn mặt và chiều cao, đó là một Natsuki Subaru khoảng mười tuổi."
+  },
+  {
+    "id": 17,
+    "en": "Subaru was a mischievous boy whose stature was slightly over average, having reached the average height for a Japanese person only once his limbs had fully developed; with certainty, he had been a pipsqueak back then, at the time of elementary school.",
+    "vi": "Subaru từng là một cậu bé tinh nghịch có vóc dáng nhỉnh hơn mức trung bình một chút, chỉ đạt đến chiều cao trung bình của người Nhật khi tay chân đã phát triển hoàn thiện; chắc chắn rằng cậu đã là một tên nhóc lùn tịt vào thời tiểu học đó."
+  },
+  {
+    "id": 18,
+    "en": "To speak of his perspective at the time, he had wished to grow up as fast as he could——,",
+    "vi": "Nói về góc nhìn của cậu lúc bấy giờ, cậu đã luôn ước mình có thể lớn lên thật nhanh——,"
+  },
+  {
+    "id": 19,
+    "en": "Subaru: [What the hell is this—— Hk!?]",
+    "vi": "Subaru: [Cái quái gì thế này—— Hự!?]"
+  },
+  {
+    "id": 20,
+    "en": "In the mirror, his lips and eyes appeared to shake, and not just because his hands were trembling.",
+    "vi": "Trong gương, đôi môi và đôi mắt cậu như đang run rẩy, không chỉ bởi đôi bàn tay cậu đang run cầm cập."
+  },
+  {
+    "id": 21,
+    "en": "It was also a clear sign that his soul was rejecting the abnormal situation reflected in his eyes.",
+    "vi": "Đó còn là một dấu hiệu rõ ràng cho thấy linh hồn cậu đang cự tuyệt tình cảnh dị thường phản chiếu trong mắt mình."
+  },
+  {
+    "id": 22,
+    "en": "It was a sight worth being dubbed a nightmare.",
+    "vi": "Cảnh tượng đó thực sự xứng đáng được gọi là một cơn ác mộng."
+  },
+  {
+    "id": 23,
+    "en": "Were this simply \"rejuvenation\", then more than a few people who dreamed of such a thing existed. Unfortunately, Subaru, as a flowering teenager, had nothing to do with such desires.",
+    "vi": "Nếu đây chỉ đơn thuần là \"sự trẻ hóa\", thì không ít kẻ trên đời hằng mơ ước về điều đó. Đáng tiếc thay, Subaru, một thiếu niên đang tuổi lớn đầy sức sống, hoàn toàn không có những ham muốn như vậy."
+  },
+  {
+    "id": 24,
+    "en": "Even if it was a great wish of his, however, he would probably attach the condition that he wants to choose the right time and place.",
+    "vi": "Dẫu cho đó có là mong ước lớn lao của cậu đi chăng nữa, cậu có lẽ cũng sẽ kèm theo điều kiện là mình muốn chọn đúng thời gian và địa điểm."
+  },
+  {
+    "id": 25,
+    "en": "That was how absurd this state of emergency was.",
+    "vi": "Tình trạng khẩn cấp này thật lố bịch đến mức đó."
+  },
+  {
+    "id": 26,
+    "en": "Subaru: [I-I can't stay like this… Hk.]",
+    "vi": "Subaru: [M-Mình không thể cứ thế này được... Hự.]"
+  },
+  {
+    "id": 27,
+    "en": "After a long time, Subaru came to himself and rushed to his bedroom door.",
+    "vi": "Sau một lúc lâu, Subaru bừng tỉnh và lao vội ra cửa phòng ngủ."
+  },
+  {
+    "id": 28,
+    "en": "By no means would the inn’s lodgings have a perk such as “rejuvenation”. It was natural to think that this was an attack from someone hostile.",
+    "vi": "Không đời nào nhà trọ lại có dịch vụ như \"trẻ hóa\". Lẽ tự nhiên là phải nghĩ đây là một cuộc tấn công từ kẻ thù nào đó."
+  },
+  {
+    "id": 29,
+    "en": "He had to hurry and share the information with his friends staying at the same inn, to come up with a plan to overcome this obstacle——,",
+    "vi": "Cậu phải khẩn trương chia sẻ thông tin này với những người bạn cùng phòng tại nhà trọ, để cùng nghĩ cách vượt qua chướng ngại vật này——,"
+  },
+  {
+    "id": 30,
+    "en": "Subaru: [Guys, we're in trouble! You may be surprised by the suddenness of this…]",
+    "vi": "Subaru: [Mọi người ơi, nguy rồi! Có thể mọi người sẽ ngạc nhiên vì chuyện đột ngột này...]"
+  },
+  {
+    "id": 31,
+    "en": "???: [Oh, I knew it, Subaru-chin got smaller too!]",
+    "vi": "???: [Ôi, tôi biết ngay mà, Subaru-chin cũng nhỏ lại này!]"
+  },
+  {
+    "id": 32,
+    "en": "Subaru: [Wha?]",
+    "vi": "Subaru: [Hả?]"
+  },
+  {
+    "id": 33,
+    "en": "The moment he twisted the doorknob, which felt as if it were higher and heavier than usual, and opened the door with great force, he was greeted by an unexpected sight—— Nay, it was a sight he should have expected.",
+    "vi": "Khoảnh khắc cậu vặn tay nắm cửa, thứ có cảm giác cao hơn và nặng hơn bình thường, rồi mở tung cửa ra, cậu đã được chào đón bởi một cảnh tượng bất ngờ—— Không, đó là một cảnh tượng mà đáng lẽ cậu phải lường trước."
+  },
+  {
+    "id": 34,
+    "en": "Outside his bedroom, in the living room where several people had gathered, Subaru was greeted by a girl with a lovely face and a cheerful smile, waving her hand.",
+    "vi": "Bên ngoài phòng ngủ, trong phòng khách nơi mọi người đang tụ họp, đón chào Subaru là một cô bé với khuôn mặt dễ thương cùng nụ cười rạng rỡ, đang vẫy vẫy tay."
+  },
+  {
+    "id": 35,
+    "en": "Her clear blue eyes and golden hair with its characteristic weave—— her unmistakable sunny clarity allowed Subaru to connect the girl to the woman in his recollections.",
+    "vi": "Đôi mắt xanh lam trong veo cùng mái tóc vàng với bím tóc tết đặc trưng—— vẻ tươi tắn không thể nhầm lẫn ấy giúp Subaru lập tức liên kết cô bé này với người phụ nữ trong ký ức của mình."
+  },
+  {
+    "id": 36,
+    "en": "Subaru: [M-Medium-san…?]",
+    "vi": "Subaru: [M-Medium-san...?]"
+  },
+  {
+    "id": 37,
+    "en": "Medium: [That's right~! When I woke up, I was so surprised to see how tiny I was! But I'm relieved to see Subaru-chin’s tiny too. Buddies, buddies!]",
+    "vi": "Medium: [Đúng vậy đó nha~! Khi thức dậy, tôi đã vô cùng ngạc nhiên khi thấy mình nhỏ bé thế này! Nhưng tôi cũng nhẹ lòng khi thấy Subaru-chin cũng nhỏ bé giống vậy đấy. Đồng bọn, đồng bọn nha!]"
+  },
+  {
+    "id": 38,
+    "en": "The one who spoke these words with her hands in the air in jubilation, was a girl of about twelve or thirteen years of age, wearing a thin cloth wrapped around her bare skin—— she had declared herself to be Medium O'Connell.",
+    "vi": "Người vừa cất lời với hai tay giơ lên trời đầy hân hoan là một cô bé khoảng mười hai, mười ba tuổi, khoác chiếc áo vải mỏng che đi làn da trần—— cô bé vừa tự xưng là Medium O'Connell."
+  },
+  {
+    "id": 39,
+    "en": "Albeit she was quite tall for a woman, having been caught up by the same phenomenon as Subaru, her size had shrunk considerably. However, she was still half a head taller than the shrunken Subaru.",
+    "vi": "Mặc dù cô vốn khá cao so với một người phụ nữ, nhưng khi vướng vào cùng một hiện tượng với Subaru, kích thước của cô đã co lại đáng kể. Tuy nhiên, cô vẫn cao hơn Subaru bị thu nhỏ nửa cái đầu."
+  },
+  {
+    "id": 40,
+    "en": "Anyhow——,",
+    "vi": "Dẫu sao thì——,"
+  },
+  {
+    "id": 41,
+    "en": "Subaru: [Not a situation in which you can simply be happy that you've found a buddy… Uwah!?]",
+    "vi": "Subaru: [Đây không phải là tình huống để mà vui mừng khi tìm thấy đồng bọn đâu... U oa!?]"
+  },
+  {
+    "id": 42,
+    "en": "???: [Uuk!]",
+    "vi": "???: [Ư ư!]"
+  },
+  {
+    "id": 43,
+    "en": "As Subaru tried to swallow his initial shock, his body was blown away by an impact to his side, and someone pressed down on his upturned chest.",
+    "vi": "Khi Subaru còn đang cố nuốt trôi cú sốc ban đầu, cơ thể cậu đã bị thổi bay bởi một cú va chạm từ bên hông, và ai đó đè chặt lên lồng ngực đang ngửa ra của cậu."
+  },
+  {
+    "id": 44,
+    "en": "At the feeling of pressure, Subaru unconsciously raised a shriek like that of a squashed frog.",
+    "vi": "Trước cảm giác bị đè nén, Subaru vô thức hét lên một tiếng như ếch bị giẫm bẹp."
+  },
+  {
+    "id": 45,
+    "en": "Medium: [Ahh! Louis-chan, you can't do that! Because Subaru-chin’s so tiny!]",
+    "vi": "Medium: [Á! Louis-chan, em không được làm vậy đâu! Bởi vì Subaru-chin đang nhỏ xíu mà!]"
+  },
+  {
+    "id": 46,
+    "en": "Louis: [Aa, uu!]",
+    "vi": "Louis: [Aa, uu!]"
+  },
+  {
+    "id": 47,
+    "en": "Medium: [Kya! I can't lift Louis-chan because I'm too tiny~.]",
+    "vi": "Medium: [Kya! Tôi không nhấc Louis-chan lên nổi vì tôi cũng nhỏ xíu luôn rồi~.]"
+  },
+  {
+    "id": 48,
+    "en": "Medium desperately tried to pull away the fierce beast flailing on Subaru’s chest. However, her shrunken arms were not enough to stop the savagery of this evil and tyrannical being.",
+    "vi": "Medium tuyệt vọng cố kéo con dã thú đang quẫy đạp trên ngực Subaru ra. Thế nhưng, đôi cánh tay bị thu nhỏ của cô không đủ sức ngăn cản sự hung tợn của thực thể tàn ác ấy."
+  },
+  {
+    "id": 49,
+    "en": "With that, the young Natsuki Subaru was about to be laid waste to, with no way to do anything about it——,",
+    "vi": "Cứ đà này, Natsuki Subaru thuở nhỏ sắp sửa bị hành hạ tơi tả mà chẳng thể làm gì được——,"
+  },
+  {
+    "id": 50,
+    "en": "???: [Louis, don't! Subaru’s going to be crushed!]",
+    "vi": "???: [Louis, không được! Subaru sẽ bị đè bẹp mất!]"
+  },
+  {
+    "id": 51,
+    "en": "Louis: [Aahk.]",
+    "vi": "Louis: [Aahk.]"
+  },
+  {
+    "id": 52,
+    "en": "Along with a sharp reprimanding voice, the heavy monster on his chest was removed. When he looked, Louis, now away from Subaru laying on his back, for some reason had a sad look on her face.",
+    "vi": "Cùng với một giọng trách mắng sắc lẹm, quái vật nặng nề trên ngực cậu đã được gỡ bỏ. Khi cậu nhìn lại, Louis, giờ đã rời khỏi Subaru đang nằm ngửa, không hiểu sao lại trưng ra vẻ mặt buồn bã."
+  },
+  {
+    "id": 53,
+    "en": "The one to put her hands under Louis’s armpits and lift her up was Taritta—— her appearance, with her blue-dyed black hair, was no different from what Subaru knew.",
+    "vi": "Người đưa tay vào nách Louis nhấc cô bé lên chính là Taritta—— ngoại hình của cô, với mái tóc đen nhuộm xanh, không có gì khác biệt so với những gì Subaru biết."
+  },
+  {
+    "id": 54,
+    "en": "Medium: [Haa~, Taritta-chan, thanks! I wasn't strong enough~.]",
+    "vi": "Medium: [Phù~, Taritta-chan, cảm ơn nhé! Tôi không đủ sức lực~.]"
+  },
+  {
+    "id": 55,
+    "en": "Taritta: [N-no, it wasn’t much… Subaru, are you okay?]",
+    "vi": "Taritta: [Kh-Không có gì đâu... Subaru, cậu ổn chứ?]"
+  },
+  {
+    "id": 56,
+    "en": "Subaru: [Oh, yeah, you saved me… I'm so glad you're the same, Taritta-san. And…]",
+    "vi": "Subaru: [Ồ, ừm, cô cứu tôi một mạng rồi... Thật mừng là cô vẫn vậy, Taritta-san. Và...]"
+  },
+  {
+    "id": 57,
+    "en": "He took the hand that Medium offered him and raised himself up, then looked at the back of the room.",
+    "vi": "Cậu nắm lấy bàn tay Medium chìa ra và đứng dậy, rồi nhìn về góc phòng."
+  },
+  {
+    "id": 58,
+    "en": "There, sitting on the sofa, silently observing the flurry of events that had just taken place, was the dark-haired man whose face was covered by an oni mask—— Abel.",
+    "vi": "Ở đó, ngồi trên ghế sofa, lặng lẽ quan sát mớ hỗn độn vừa xảy ra, là gã đàn ông tóc đen che mặt bằng mặt nạ quỷ—— Abel."
+  },
+  {
+    "id": 59,
+    "en": "Subaru was relieved to see him unchanged, but he also had a few thoughts on how he had not tried to help at all.",
+    "vi": "Subaru nhẹ lòng khi thấy gã không thay đổi, nhưng trong lòng cũng thầm oán trách khi thấy gã chẳng mảy may có ý định giúp đỡ."
+  },
+  {
+    "id": 60,
+    "en": "Subaru: [Nothing happened to Abel…]",
+    "vi": "Subaru: [Abel không bị làm sao hết...]"
+  },
+  {
+    "id": 61,
+    "en": "His appearance, the fact that he was hiding his face included, had not changed since yesterday.",
+    "vi": "Ngoại hình của gã, bao gồm cả việc che giấu khuôn mặt, vẫn không hề thay đổi so với ngày hôm qua."
+  },
+  {
+    "id": 62,
+    "en": "Whether it should be called a blessing or not could not be gauged at this point.",
+    "vi": "Liệu đây nên gọi là điềm lành hay điềm dữ thì lúc này vẫn chưa thể phân định."
+  },
+  {
+    "id": 63,
+    "en": "However, the fact that Abel, whose face he could not see, did not welcome this situation could be seen from the displeased air that came through the oni mask without a hitch.",
+    "vi": "Thế nhưng, việc Abel, người cậu không thể nhìn thấy mặt, chẳng hề chào đón tình huống này có thể thấy rõ qua bầu không khí khó chịu tỏa ra từ chiếc mặt nạ quỷ."
+  },
+  {
+    "id": 64,
+    "en": "In fact, as proof of his unsettled state of mind, he turned his gaze to Subaru and said,",
+    "vi": "Thực tế, như một minh chứng cho tâm trạng bất an của mình, gã hướng ánh mắt về phía Subaru và nói,"
+  },
+  {
+    "id": 65,
+    "en": "Abel: [This is a disgrace.]",
+    "vi": "Abel: [Thật nhục nhã.]"
+  },
+  {
+    "id": 66,
+    "en": "And with a mere sentence, he was able to disregard the situation.",
+    "vi": "Chỉ với một câu nói ngắn gọn, gã đã gạt phăng tình hình qua một bên."
+  },
+  {
+    "id": 67,
+    "en": "Subaru: […I think I'm rather cute and charming.]",
+    "vi": "Subaru: [...Tôi thì thấy mình trông khá dễ thương và đáng yêu đấy chứ.]"
+  },
+  {
+    "id": 68,
+    "en": "Having received a blunt remark, Subaru's gut reaction was to spit out a retort. However, Subaru himself knew very well that this was nothing more than a sarcastic remark.",
+    "vi": "Khi nhận được một lời nhận xét thẳng thừng như thế, phản ứng bản năng của Subaru là phun ra một lời vặn lại. Tuy nhiên, chính Subaru cũng hiểu rất rõ rằng đó chẳng qua chỉ là một câu nói mỉa mai."
+  },
+  {
+    "id": 69,
+    "en": "The abnormal situation that had befallen him and Medium, which did not seem to affect Abel, Taritta, and Louis——,",
+    "vi": "Tình trạng dị thường ập xuống đầu cậu và Medium, thứ dường như không hề ảnh hưởng đến Abel, Taritta và Louis——,"
+  },
+  {
+    "id": 70,
+    "en": "Subaru: [If that's the case, the other one’s…]",
+    "vi": "Subaru: [Nếu thế thì, người còn lại...]"
+  },
+  {
+    "id": 71,
+    "en": "???: [——Oh, I'm glad you're paying attention, bro. I was afraid you'd forgotten about me.]",
+    "vi": "???: [——Ồ, thật mừng là cậu vẫn để tâm đấy, người anh em. Tôi cứ sợ cậu quên mất tôi rồi.]"
+  },
+  {
+    "id": 72,
+    "en": "Subaru: [——Hk!]",
+    "vi": "Subaru: [——Hự!]"
+  },
+  {
+    "id": 73,
+    "en": "Just as Subaru was wondering about the last of his companions staying at the inn, the answer was presented to him.",
+    "vi": "Ngay khi Subaru đang tự hỏi về người bạn đồng hành cuối cùng cùng ở lại quán trọ, câu trả lời đã hiện ra trước mắt cậu."
+  },
+  {
+    "id": 74,
+    "en": "Eyes wide open, Subaru turned around to see a dark-haired figure in front of him, one that had come out of another bedroom. He was a boy around the same age as Subaru, around ten years old—— his strange appearance was quite eye-catching.",
+    "vi": "Trợn tròn mắt, Subaru quay lại nhìn bóng người tóc đen trước mặt, vừa bước ra từ một phòng ngủ khác. Đó là một cậu bé tầm tuổi Subaru, khoảng mười tuổi—— ngoại hình kỳ lạ của cậu ta vô cùng bắt mắt."
+  },
+  {
+    "id": 75,
+    "en": "After all, the boy was wearing a suitably torn cloth wrapped around his face, as to hide his appearance.",
+    "vi": "Suy cho cùng, cậu bé đang quấn một mảnh vải rách tươm quanh mặt để che giấu diện mạo của mình."
+  },
+  {
+    "id": 76,
+    "en": "Subaru: [Al, right…? What's with the covering?]",
+    "vi": "Subaru: [Al đúng không...? Mảnh vải quấn quanh mặt đó là thế nào vậy?]"
+  },
+  {
+    "id": 77,
+    "en": "Al: […My helmet doesn't fit anymore. The only thing I could think of was to wrap a cloth around my head instead. Don't mind it too much.]",
+    "vi": "Al: […Mũ giáp của tôi không vừa nữa rồi. Tôi chỉ có thể nghĩ ra cách quấn mảnh vải quanh đầu thay thế thôi. Đừng bận tâm quá.]"
+  },
+  {
+    "id": 78,
+    "en": "Subaru: [Even if you tell me not to mind it, it’s going to be on my mind…]",
+    "vi": "Subaru: [Dẫu anh bảo đừng bận tâm, tôi vẫn cứ để tâm thôi...]"
+  },
+  {
+    "id": 79,
+    "en": "Then the young Al, his face hidden, waved his right hand at Subaru.",
+    "vi": "Rồi Al thuở nhỏ, với gương mặt bị che giấu, vẫy vẫy bàn tay phải với Subaru."
+  },
+  {
+    "id": 80,
+    "en": "Because less was covered compared to the helmet he usually wore, his tied black hair, habitually hidden, was exposed. It reminded Subaru of the way Abel used to conceal his face with a piece of cloth before sporting the oni mask, but the way Al had wrapped his was looser.",
+    "vi": "Bởi vì phần đầu bị che ít hơn so với chiếc mũ giáp cậu thường đội, mái tóc đen buộc gọn vốn thường bị che giấu giờ đây lộ ra ngoài. Nó gợi Subaru nhớ đến cách Abel che mặt bằng một mảnh vải trước khi đeo mặt nạ quỷ, nhưng cách Al quấn thì lỏng lẻo hơn."
+  },
+  {
+    "id": 81,
+    "en": "He looked just like a cheap-looking killer in a movie.",
+    "vi": "Cậu ta trông giống hệt một gã sát thủ rẻ tiền trong phim."
+  },
+  {
+    "id": 82,
+    "en": "Subaru: […I know you can't wear your helmet, but do you have to cover your face?]",
+    "vi": "Subaru: [...Tôi biết là anh không đội được mũ giáp, nhưng có nhất thiết phải che mặt thế kia không?]"
+  },
+  {
+    "id": 83,
+    "en": "Al: [Oh, that’s a statement without delicacy, bro. I ain’t wearing the helmet for style or as a whim, but as the manifestation of a complex. Even if I’m now a child in appearance with the intellect of an adult, it doesn’t make it any less real. ——It ain’t like my arm’s grown back. That means the scars on my face haven't disappeared either. It's the same for you bro, right?]",
+    "vi": "Al: [Ồ, câu hỏi đó thật thiếu tế nhị đấy, người anh em. Tôi không đội mũ giáp để làm màu hay theo sở thích đâu, mà là biểu hiện của sự tự ti đấy chứ. Dẫu bây giờ mang hình hài một đứa trẻ với trí tuệ người lớn, điều đó cũng chẳng thay đổi được thực tế. ——Cánh tay tôi có mọc lại đâu. Nghĩa là những vết sẹo trên mặt tôi cũng chẳng biến mất đi. Với người anh em cũng vậy đúng không?]"
+  },
+  {
+    "id": 84,
+    "en": "Subaru: [That's…]",
+    "vi": "Subaru: [Chuyện đó...]"
+  },
+  {
+    "id": 85,
+    "en": "As Al said this, he showed his left arm—— which was unchanged, his upper arm still in a state of having been lopped off, proving that Al's perception of the current situation was correct.",
+    "vi": "Nói đoạn, Al đưa cánh tay trái ra—— vốn vẫn không đổi, phần cánh tay trên vẫn bị cụt ngủn, chứng minh rằng nhận thức của Al về tình cảnh hiện tại là chính xác."
+  },
+  {
+    "id": 86,
+    "en": "Those three people, made up of Subaru and Al, as well as Medium, were unintentionally rejuvenated. It was not that time had rewound, however, it was a clear change in their bodies.",
+    "vi": "Cả ba người bọn họ, bao gồm Subaru, Al và Medium, đều bị trẻ hóa ngoài ý muốn. Đó không phải là thời gian quay ngược lại, mà rõ ràng là một sự thay đổi trên cơ thể."
+  },
+  {
+    "id": 87,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 88,
+    "en": "In response to Al's words, Subaru also flipped up his own loose-fitting shirt, and confirmed that the old scars all over his body had not vanished. His small child body was covered with all sorts of scars that made him want to look away. ——The years he had spent in this other world had not disappeared.",
+    "vi": "Đáp lại lời Al nói, Subaru cũng vén chiếc áo rộng thùng thình của mình lên, và xác nhận rằng những vết sẹo cũ trên khắp cơ thể cậu không hề biến mất. Thân hình nhỏ bé của một đứa trẻ chằng chịt những vết sẹo đủ loại khiến người ta muốn ngoảnh mặt đi. ——Những năm tháng cậu trải qua ở dị giới này không hề tiêu biến."
+  },
+  {
+    "id": 89,
+    "en": "He had never really thought that there would be a day when he would be relieved by the existence of those scars.",
+    "vi": "Cậu chưa từng nghĩ sẽ có ngày mình thấy nhẹ lòng vì sự tồn tại của những vết sẹo đó."
+  },
+  {
+    "id": 90,
+    "en": "Despite that, the scars had taught him something. That this was a situation in which his limbs had simply shrunk.",
+    "vi": "Tuy vậy, những vết sẹo đã dạy cậu một điều. Rằng đây chỉ đơn giản là tình cảnh tay chân cậu bị thu nhỏ lại."
+  },
+  {
+    "id": 91,
+    "en": "However——,",
+    "vi": "Thế nhưng——,"
+  },
+  {
+    "id": 92,
+    "en": "Al: [A misfortunate destiny such as having our limbs shrunken doesn’t just happen at random.]",
+    "vi": "Al: [Một vận mệnh xui xẻo như việc tay chân bị thu nhỏ lại thế này không tự dưng xảy ra đâu đấy chứ.]"
+  },
+  {
+    "id": 93,
+    "en": "Medium: [Right~. Hmm, this might mean I’m not gonna be able to help big bro with his work. He’s way too weak, so this is a big problem!]",
+    "vi": "Medium: [Đúng thế nha~. Hửm, vậy nghĩa là tôi sẽ không giúp được gì cho công việc của ông anh nữa rồi. Anh ấy yếu xìu hà, nên đây là vấn đề lớn đó nha!]"
+  },
+  {
+    "id": 94,
+    "en": "Subaru: [It's definitely true that it's a big blow to the O'Connell siblings' business, but…]",
+    "vi": "Subaru: [Đúng là một đòn giáng mạnh vào việc làm ăn của hai anh em nhà O'Connell thật, nhưng mà...]"
+  },
+  {
+    "id": 95,
+    "en": "It spelt trouble for long-term business plans for sure, however there was certainly also a heap of troubles short-term.",
+    "vi": "Nó chắc chắn gây ra rắc rối cho các kế hoạch kinh doanh lâu dài, thế nhưng trước mắt cũng có cả đống rắc rối chất chồng."
+  },
+  {
+    "id": 96,
+    "en": "Currently, Subaru’s problem was that, due to him being misshapen, he did not have any clothes that fit. Such was not the case for Al and Medium, though.",
+    "vi": "Hiện tại, vấn đề của Subaru là do cơ thể biến dạng lùn tịt, cậu không có lấy bộ quần áo nào vừa vặn. Tuy nhiên, tình cảnh của Al và Medium thì không hẳn như vậy."
+  },
+  {
+    "id": 97,
+    "en": "Subaru: [Al, you mentioned that your helmet doesn't fit, what about your weapons?]",
+    "vi": "Subaru: [Al, anh bảo mũ giáp không vừa, thế còn vũ khí thì sao?]"
+  },
+  {
+    "id": 98,
+    "en": "Al: [Good catch. I can't wield one with my cute lil’ arm.]",
+    "vi": "Al: [Hỏi hay đấy. Tôi không thể vung kiếm với cánh tay nhỏ bé đáng yêu này đâu.]"
+  },
+  {
+    "id": 99,
+    "en": "Medium: [It might be hard for me to hold both of them. But I should be able to manage one… Ah!]",
+    "vi": "Medium: [Chắc tôi khó mà cầm nổi cả hai kiếm rồi. Nhưng chắc cũng ráng xoay xở được một cây... Á!]"
+  },
+  {
+    "id": 100,
+    "en": "Subaru: [Watch it!]",
+    "vi": "Subaru: [Coi chừng!]"
+  }
+];
+
+fs.writeFileSync(path.join(tempDir, 'ch40_part1.json'), JSON.stringify(part1, null, 2), 'utf-8');
+console.log('Saved ch40_part1.json');

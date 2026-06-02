@@ -1,0 +1,614 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part2 = [
+  {
+    "id": 121,
+    "en": "Subaru: [Masked, young’un…]",
+    "vi": "Subaru: [Cậu nhóc đeo mặt nạ...]"
+  },
+  {
+    "id": 122,
+    "en": "Olbart scratched his chin with his fingers and pretended to be in pain. Overhearing some of his words, Subaru looked at Abel out of the corner of his eye.",
+    "vi": "Olbart lấy ngón tay gãi cằm và giả vờ như đang đau khổ. Nghe lỏm được vài từ từ lão, Subaru đưa mắt liếc nhìn Abel."
+  },
+  {
+    "id": 123,
+    "en": "Abel's attitude was unchanged, but Subaru was on the edge of his seat at every step of this exchange. ——After all, Olbart was one of the Nine Divine Generals.",
+    "vi": "Thái độ của Abel vẫn không đổi, song Subaru lại đứng ngồi không yên trước mỗi bước đi của cuộc đối thoại này. ——Sau cùng thì, Olbart là một trong chín Tướng quân Thần thánh."
+  },
+  {
+    "id": 124,
+    "en": "Of course, they must have seen Vincent Vollachia, aka Abel, many times.",
+    "vi": "Lẽ dĩ nhiên, họ chắc chắn đã gặp Vincent Vollachia, hay còn gọi là Abel, rất nhiều lần rồi."
+  },
+  {
+    "id": 125,
+    "en": "Even though he was hiding his face with a mask, if Olbart were to exchange words with Abel, who had not changed his speech or tone of voice, it would not be surprising for the former to realize his true identity.",
+    "vi": "Dù gã đang che mặt bằng mặt nạ, nhưng nếu Olbart trò chuyện với Abel, người vốn không hề thay đổi cách nói chuyện hay tông giọng, thì việc lão nhận ra thân phận thực sự của gã cũng chẳng có gì đáng ngạc nhiên."
+  },
+  {
+    "id": 126,
+    "en": "Olbart: [————]",
+    "vi": "Olbart: [————]"
+  },
+  {
+    "id": 127,
+    "en": "However, Abel, who responded in a dignified manner, did not display any such anxiety.",
+    "vi": "Tuy vậy, Abel, người đang đáp lại một cách uy nghiêm, không hề tỏ ra chút lo lắng nào như thế."
+  },
+  {
+    "id": 128,
+    "en": "Olbart, too, showed no signs of having perceived Abel's true identity. With that as the case, Subaru was unable to identify him, and had no choice but to act by hiding his inner fears.",
+    "vi": "Olbart cũng chẳng biểu lộ dấu hiệu nào cho thấy lão đã nhận ra thân phận thực sự của Abel. Trong tình cảnh đó, Subaru không thể xác định được và chỉ biết hành xử bằng cách che giấu nỗi sợ hãi trong lòng."
+  },
+  {
+    "id": 129,
+    "en": "Anyway——,",
+    "vi": "Dù sao thì——,"
+  },
+  {
+    "id": 130,
+    "en": "Subaru: [I still don't have your answer, Olbart-san.]",
+    "vi": "Subaru: [Tôi vẫn chưa nhận được câu trả lời của ông, Olbart-san.]"
+  },
+  {
+    "id": 131,
+    "en": "Olbart:  [——. Feels like I’m bein’ treated better like this, compared to bein’ just called an ol’ man. So I'll let’cha off the hook for pretendin’ ta be a girl.]",
+    "vi": "Olbart: [——. Nghe có vẻ ta được đối xử tốt hơn là chỉ bị gọi là lão già rồi đấy nhỉ. Vậy nên ta sẽ tha cho nhóc vụ giả gái nha.]"
+  },
+  {
+    "id": 132,
+    "en": "Subaru: [Olbart-san!]",
+    "vi": "Subaru: [Olbart-san!]"
+  },
+  {
+    "id": 133,
+    "en": "Subaru's gaze sharpened on the old man, who had lost his nerve and dodged the question. Seeing this, Olbart raises his hands and says, \"Okay, okay\",",
+    "vi": "Ánh mắt Subaru sắc lẹm chĩa về phía lão già, kẻ vừa mất đi sự kiên nhẫn và né tránh câu hỏi. Nhìn thấy vậy, Olbart giơ hai tay lên và nói: “Được rồi, được rồi”."
+  },
+  {
+    "id": 134,
+    "en": "Olbart: [The rewards for yer actions are just as ya said. The foxgirl and His Excellency both have told me ta stay out of it.]",
+    "vi": "Olbart: [Phần thưởng cho hành động của các nhóc đúng như những gì nhóc nói thôi. Cả cô nàng cáo lẫn Bệ hạ đều đã bảo ta đừng có xía vào chuyện này rồi nha.]"
+  },
+  {
+    "id": 135,
+    "en": "Subaru: [If that's the case…]",
+    "vi": "Subaru: [Nếu đã như vậy...]"
+  },
+  {
+    "id": 136,
+    "en": "Olbart: [It's just that, ya know. I poked ya folks before yesterday's game was over, right? Then ya know what? If ya can't complain ‘bout dyin’ from a sword wound ya got while fightin’, ya can't complain ‘bout a shrinkin’ technique ya got hit with while fightin’ me.]",
+    "vi": "Olbart: [Chỉ là thế này thôi nha. Ta đã chạm vào các nhóc trước khi trò chơi hôm qua kết thúc đúng không? Thế thì biết sao không? Nếu nhóc không thể phàn nàn về việc mất mạng vì vết thương do kiếm chém khi đang chiến đấu, thì nhóc cũng không thể phàn nàn về thuật thu nhỏ mà nhóc trúng phải khi đang đấu với ta đâu.]"
+  },
+  {
+    "id": 137,
+    "en": "Subaru: [That’s quibbling…!]",
+    "vi": "Subaru: [Đó là ngụy biện...!]"
+  },
+  {
+    "id": 138,
+    "en": "Olbart: [Well, is it really quibbling? ——But ya can't change it, can ya?]",
+    "vi": "Olbart: [Chà, đó thực sự là ngụy biện sao? ——Nhưng nhóc đâu có thay đổi được nó đâu nhỉ?]"
+  },
+  {
+    "id": 139,
+    "en": "Raising an eyebrow at Olbart, who was laughing at his own cunning, Subaru was at a loss for words.",
+    "vi": "Nhướng mày nhìn Olbart đang cười trước sự gian xảo của chính mình, Subaru cứng họng không nói nên lời."
+  },
+  {
+    "id": 140,
+    "en": "Olbart's argument was quibbling, as he himself had admitted. But on the other hand, his argument was correct as well.",
+    "vi": "Lập luận của Olbart là ngụy biện, như chính lão đã thừa nhận. Tuy nhiên, mặt khác, lập luận của lão cũng không sai."
+  },
+  {
+    "id": 141,
+    "en": "Even if someone lost their life because of a wound inflicted during battle, were the wound inflicted before the negotiation of a ceasefire, it would make no sense to hold someone responsible for the tragedy after the ceasefire began.",
+    "vi": "Ngay cả khi ai đó mất mạng vì vết thương trong trận chiến, nếu vết thương đó được gây ra trước khi thương lượng ngừng bắn, thì việc quy trách nhiệm cho ai đó về thảm kịch sau khi lệnh ngừng bắn có hiệu lực là vô nghĩa."
+  },
+  {
+    "id": 142,
+    "en": "However, Subaru had the impression that there was a large difference between a wound, and “infantilization”.",
+    "vi": "Thế nhưng, Subaru có ấn tượng rằng có sự khác biệt rất lớn giữa một vết thương và việc \"trẻ con hóa\"."
+  },
+  {
+    "id": 143,
+    "en": "Olbart: [That's why I think that bringin’ ya back and the foxgirl's order are two different things. Do ya get me?]",
+    "vi": "Olbart: [Chính vì thế ta mới nghĩ việc biến các nhóc trở lại bình thường và mệnh lệnh của cô nàng cáo là hai chuyện hoàn toàn khác nhau. Hiểu ý ta chứ?]"
+  },
+  {
+    "id": 144,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 145,
+    "en": "Olbart: [Kakakakka! Don't look so stern. Yer cute face’s ruined… That pretty face was just a sham made with cosmetics! Ya got me there, hook, line and sinker.]",
+    "vi": "Olbart: [Kakakakka! Đừng ra vẻ nghiêm nghị thế chứ. Khuôn mặt dễ thương của nhóc bị hỏng hết bây giờ... Gương mặt xinh xắn đó chỉ là thứ giả tạo làm từ phấn son thôi mà lị! Nhóc đã lừa được ta một cú ngoạn mục ở khoản đó đấy.]"
+  },
+  {
+    "id": 146,
+    "en": "Olbart played with the teacup with his fingertips and showed some acrobatic skills to keep the contents from spilling. His words themselves could not be easily fought off; they had been chosen with deliberate care attained by experience.",
+    "vi": "Olbart đùa nghịch tách trà bằng đầu ngón tay và phô diễn vài kỹ năng nhào lộn để giữ cho nước trà không bị tràn ra ngoài. Bản thân những lời của lão không dễ gì phản bác; chúng đã được chọn lọc vô cùng kỹ lưỡng nhờ kinh nghiệm dày dặn."
+  },
+  {
+    "id": 147,
+    "en": "However, even if Taritta, who was becoming more and more nervous, and Al and the others, attempting to block the escape route, were to fight their best, subjugating Olbart by force was nowhere in sight.",
+    "vi": "Song, ngay cả khi Taritta, người đang ngày càng lo lắng, cùng Al và những người khác cố gắng chặn đường thoát và chiến đấu hết sức mình, thì việc khuất phục Olbart bằng vũ lực vẫn là điều không tưởng."
+  },
+  {
+    "id": 148,
+    "en": "If there was someone here capable of defeating this cunning, it would be——,",
+    "vi": "If there was someone here capable of defeating this cunning, it would be——,"
+  },
+  {
+    "id": 149,
+    "en": "Abel: [Do not get carried away, Olbart.]",
+    "vi": "Abel: [Đừng có được nước lấn tới, Olbart.]"
+  },
+  {
+    "id": 150,
+    "en": "Indeed, only the man donning the oni mask tried to cut through his brimming ambition and cunning.",
+    "vi": "Quả thực, chỉ có người đàn ông đeo mặt nạ quỷ mới có thể dập tắt tham vọng cùng sự xảo quyệt tràn trề của lão."
+  },
+  {
+    "id": 151,
+    "en": "Abel, without changing his posture, shot Olbart with a look even sharper and colder, and made him stop playing with his teacup.",
+    "vi": "Abel, không hề thay đổi tư thế, phóng về phía Olbart một ánh nhìn thậm chí còn sắc lẹm và lạnh lùng hơn, khiến lão phải dừng việc nghịch ngợm tách trà."
+  },
+  {
+    "id": 152,
+    "en": "Abel: [I have already inquired you as to your purpose. How many more times must I ask until you feel like doing it?]",
+    "vi": "Abel: [Ta đã hỏi ngươi về mục đích của ngươi rồi. Ta còn phải hỏi bao nhiêu lần nữa thì ngươi mới chịu khai ra hả?]"
+  },
+  {
+    "id": 153,
+    "en": "Olbart: [Whenever there’s a young’un whose expression I can’t see, I can't help but wanna see the wrinkles between their eyes. I hope ya don't mind.]",
+    "vi": "Olbart: [Mỗi khi có cậu nhóc nào mà ta không nhìn rõ biểu cảm mặt mũi, ta lại không kìm được mong muốn nhìn thấy những nếp nhăn giữa hai lông mày của cậu ta đấy chứ. Hy vọng ngươi không bận tâm nha.]"
+  },
+  {
+    "id": 154,
+    "en": "With one eye closed, Olbart mischievously responded to Abel's domineering spirit. The old man scratched his head and voiced, “You're a man with no time to spare”,",
+    "vi": "Nheo một bên mắt, Olbart tinh quái đáp lại khí thế áp đảo của Abel. Lão già gãi đầu và lên tiếng: “Ngươi đúng là một gã đàn ông chẳng có chút thong thả nào cả”."
+  },
+  {
+    "id": 155,
+    "en": "Olbart: [The foxgirl aside, His Excellency also told me not ta lay a hand on ya folks, so I didn't come here to deal with’cha. But if we’re gonna be yer enemies anyway, it wouldn't hurt ta weaken ya a wee bit, would it?]",
+    "vi": "Olbart: [Không kể cô nàng cáo ra, thì Bệ hạ cũng đã dặn ta không được động vào các ngươi, nên ta không đến đây để gây sự đâu nha. Cơ mà dù sao thì nếu chúng ta sắp trở thành kẻ địch của nhau, việc làm yếu các ngươi đi một chút cũng đâu có hại gì nhỉ?]"
+  },
+  {
+    "id": 156,
+    "en": "Al: […That may have been the reason as to why you shrunk us, but you didn’t come all the way here to drink tea.]",
+    "vi": "Al: […Đó có thể là lý do lão thu nhỏ bọn tôi, nhưng lão không cất công đến tận đây chỉ để uống trà đâu đấy chứ.]"
+  },
+  {
+    "id": 157,
+    "en": "Olbart: [Looks like you’re havin’ a hard time now that yer helmet doesn’t fit anymore, boy. Anyhow, guess you're right about that. Ah well, the reason I'm here’s that I'm here ta listen ta what ya got ta say, honestly.]",
+    "vi": "Olbart: [Trông nhóc có vẻ đang chật vật khi chiếc mũ giáp không còn vừa nữa rồi nhỉ, cậu bé. Dù sao thì ta đoán nhóc nói đúng rồi đấy. À thì, lý do ta có mặt ở đây thực chất là để nghe những gì các nhóc muốn nói, thật lòng đấy nha.]"
+  },
+  {
+    "id": 158,
+    "en": "Subaru: […What we got to say?]",
+    "vi": "Subaru: [...Những gì chúng tôi muốn nói sao?]"
+  },
+  {
+    "id": 159,
+    "en": "While fiddling with his ear with the hand not holding the teacup, Olbart nodded to Subaru as the latter ruminated over the question, then spoke, “That’s right”.",
+    "vi": "Vừa ngoáy tai bằng bàn tay không cầm tách trà, Olbart vừa gật đầu với Subaru khi thấy cậu ngẫm nghĩ về câu hỏi, rồi lão cất lời: “Đúng thế đấy”."
+  },
+  {
+    "id": 160,
+    "en": "With that, he then pointed out the window using the same finger that had been picking at his ear,",
+    "vi": "Nói đoạn, lão dùng chính ngón tay vừa ngoáy tai chỉ ra ngoài cửa sổ,"
+  },
+  {
+    "id": 161,
+    "en": "Olbart: [That performance at the castle yesterday, darn it if it didn’t make me giddy. But there are a lotta people who've tried ta mess with His Excellency, and so far, they've all failed. So, I'd like ta ask ya why ya decided ta cross that dangerous bridge as well.]",
+    "vi": "Olbart: [Màn trình diễn tại lâu đài hôm qua làm ta hoa mắt chóng mặt luôn đấy chứ. Nhưng có rất nhiều kẻ đã cố gắng gây sự với Bệ hạ, và cho đến nay, bọn chúng đều thất bại thảm hại cả rồi. Thế nên, ta muốn hỏi xem tại sao các nhóc lại quyết định dấn thân qua cây cầu nguy hiểm đó nữa đấy nha.]"
+  },
+  {
+    "id": 162,
+    "en": "Subaru: […What are you going to do once you hear it?]",
+    "vi": "Subaru: [...Ông định làm gì sau khi nghe xong chứ?]"
+  },
+  {
+    "id": 163,
+    "en": "Olbart: [Oh? Obviously I’ll make a decision after hearin’ it. And I'm gonna do somethin’ ta make sure ya can't lie.]",
+    "vi": "Olbart: [Ồ? Rõ ràng là ta sẽ đưa ra quyết định sau khi nghe xong chứ lị. Và ta sẽ làm điều gì đó để đảm bảo nhóc không thể nói dối được đâu nha.]"
+  },
+  {
+    "id": 164,
+    "en": "With Olbart’s mouth open wide as he sent saliva flying along with his hearty laugh, Subaru’s scrunched up into a scowl.",
+    "vi": "Nhìn Olbart ngoác miệng cười lớn bắn cả nước bọt cùng với tiếng cười sảng khoái của lão, khuôn mặt Subaru nhăn nhó lại thành vẻ cau có."
+  },
+  {
+    "id": 165,
+    "en": "It was easy to dismiss his attitude, as was heard just a while ago, as just bad taste. But it was clear that the conversation could not just be shut down on him.",
+    "vi": "Thật dễ dàng để gạt bỏ thái độ của lão, như đã nghe lúc nãy, chỉ là sở thích quái đản. Nhưng rõ ràng cuộc trò chuyện không thể cứ thế mà chấm dứt với lão."
+  },
+  {
+    "id": 166,
+    "en": "He was one of the Nine Divine Generals required to help Abel regain the throne, or to dispel the shinobi technique that had infantilized Subaru and the others.",
+    "vi": "Lão là một trong chín Tướng quân Thần thánh cần thiết để giúp Abel giành lại ngai vàng, hoặc để giải trừ thuật shinobi đã biến Subaru và những người khác thành trẻ con."
+  },
+  {
+    "id": 167,
+    "en": "Rather——,",
+    "vi": "Trái lại——,"
+  },
+  {
+    "id": 168,
+    "en": "Subaru: […A chance, is it?]",
+    "vi": "Subaru: [...Một cơ hội chăng?]"
+  },
+  {
+    "id": 169,
+    "en": "The position of the Nine Divine Generals was such that it was difficult to even contact them, nevertheless to get them on their side.",
+    "vi": "Vị thế của chín Tướng quân Thần thánh cao quý đến mức chỉ riêng việc tiếp cận họ đã khó khăn rồi, chứ chưa nói đến việc lôi kéo họ về phe mình."
+  },
+  {
+    "id": 170,
+    "en": "But presently, for whatever reason, Chaosflame was occupied not only by its Lord, Yorna, but also by Olbart in front of him, and Chisha, who seemed to be posing as a false Emperor.",
+    "vi": "Nhưng hiện tại, vì bất kỳ lý do gì, Chaosflame không chỉ bị chiếm giữ bởi vị Chúa tể của nó là Yorna, mà còn bởi Olbart trước mặt cậu, và Chisha, kẻ dường như đang giả dạng làm Hoàng đế giả."
+  },
+  {
+    "id": 171,
+    "en": "Of course, even if cajoling the opposition posed by Chisha, who had taken the initiative, was an impossibility——,",
+    "vi": "Tất nhiên, ngay cả khi việc dỗ dành sự chống đối đến từ Chisha, kẻ đã giành thế chủ động, là điều bất khả thi——,"
+  },
+  {
+    "id": 172,
+    "en": "Subaru: [If Abel's reasoning from yesterday was correct, it doesn't mean that Olbart-san’s confirmed as an enemy.]",
+    "vi": "Subaru: [Nếu lập luận hôm qua của Abel là chính xác, thì điều đó không có nghĩa Olbart-san chắc chắn là kẻ thù.]"
+  },
+  {
+    "id": 173,
+    "en": "Abel's view was that hope remained regarding Olbart, who stood as one of the Divine Generals considered to already be the enemy’s pawns. At the moment, Subaru had to say that Abel’s judgment was a correct one, as he had managed to get to the point of negotiating with Yorna.",
+    "vi": "Quan điểm của Abel là vẫn còn hy vọng đối với Olbart, người đứng trong số các Tướng quân Thần thánh được coi là đã trở thành quân cờ của kẻ địch. Vào lúc này, Subaru phải thừa nhận rằng phán đoán của Abel là chuẩn xác, khi gã đã thành công đạt đến bước thương lượng với Yorna."
+  },
+  {
+    "id": 174,
+    "en": "If they were to believe his speculation, there should be room for negotiating Olbart’s position.",
+    "vi": "Nếu họ tin vào những phỏng đoán của gã, thì chắc chắn vẫn còn chỗ để thương thuyết về lập trường của Olbart."
+  },
+  {
+    "id": 175,
+    "en": "However, in order to get Olbart on their side here——,",
+    "vi": "Thế nhưng, để kéo Olbart về phe mình lúc này——,"
+  },
+  {
+    "id": 176,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 177,
+    "en": "In silence, Subaru glanced at Abel's profile.",
+    "vi": "Trong im lặng, Subaru liếc nhìn góc nghiêng khuôn mặt của Abel."
+  },
+  {
+    "id": 178,
+    "en": "Revealing the identity of the man sporting the oni mask and keeping his dignified stance, Abel—— That was the absolute most important piece of information that they must disclose in order to conquer Olbart.",
+    "vi": "Tiết lộ thân phận của người đàn ông đeo mặt nạ quỷ và luôn giữ dáng vẻ uy nghiêm kia, Abel—— Đó chính là thông tin quan trọng nhất mà họ phải phơi bày để thu phục Olbart."
+  },
+  {
+    "id": 179,
+    "en": "And frankly, Subaru did not have any further information that could resonate with Olbart.",
+    "vi": "Và thẳng thắn mà nói, Subaru không hề có thêm bất kỳ thông tin nào khác có thể làm lung lay Olbart."
+  },
+  {
+    "id": 180,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 181,
+    "en": "The oni-masked Abel did not even wince, as he met Subaru's gaze towards his side.",
+    "vi": "Abel đeo mặt nạ quỷ thậm chí không thèm chớp mắt khi đón nhận ánh nhìn của Subaru về phía mình."
+  },
+  {
+    "id": 182,
+    "en": "His face was hidden behind a mask, making it impossible to observe any of his emotions. However, there was no way that the intelligent man could not have thought of what Subaru had come up with.",
+    "vi": "Khuôn mặt gã bị che sau lớp mặt nạ khiến người ta không thể quan sát được bất kỳ cảm xúc nào. Tuy nhiên, không đời nào một gã đàn ông thông minh như gã lại không nghĩ đến điều Subaru vừa nảy ra."
+  },
+  {
+    "id": 183,
+    "en": "At this juncture, just how much of his own heart could he bare to the other party, Olbart?",
+    "vi": "Tại thời điểm này, gã có thể bộc lộ bao nhiêu phần thật lòng của mình với đối phương là Olbart đây?"
+  },
+  {
+    "id": 184,
+    "en": "Subaru's thought was that this would be the focal point, but since Abel had not stirred, was he premature in his thinking? Or was he waiting to see what came to pass?",
+    "vi": "Subaru nghĩ rằng đó sẽ là điểm mấu chốt, nhưng vì Abel vẫn chưa hề động tĩnh gì, phải chăng cậu đã nghĩ quá sớm? Hay gã đang chờ đợi xem chuyện gì sẽ xảy ra?"
+  },
+  {
+    "id": 185,
+    "en": "In any case, if they could get Olbart on their side, they would find a way to solve the problem of Subaru's \"infantilization\", their lack of strength, and the battle for the Nine Divine Generals.",
+    "vi": "Dù sao thì, nếu có thể lôi kéo Olbart về phe mình, họ sẽ tìm ra cách giải quyết vấn đề \"trẻ con hóa\" của Subaru, sự thiếu hụt sức mạnh của họ, và cuộc chiến tranh giành chín Tướng quân Thần thánh."
+  },
+  {
+    "id": 186,
+    "en": "Then, this would be the right time to play——,",
+    "vi": "Vậy thì, đây chính là thời điểm thích hợp để ra bài——,"
+  },
+  {
+    "id": 187,
+    "en": "Olbart: [——Ya know, funny thing is, people’s faces do say more than you’d expect, don’t they?]",
+    "vi": "Olbart: [——Biết gì không, điều buồn cười là nét mặt con người thường thể hiện nhiều hơn những gì ngươi nghĩ đấy nhỉ?]"
+  },
+  {
+    "id": 188,
+    "en": "Subaru: [Hmm…?]",
+    "vi": "Subaru: [Hửm...?]"
+  },
+  {
+    "id": 189,
+    "en": "Olbart: [Yer gaze, the way yer face tenses up, the way yer muscles contract just a little… Ya don't actually gotta move yer mouth ta talk a lot.]",
+    "vi": "Olbart: [Ánh mắt nhóc, cách cơ mặt nhóc căng thẳng, cách các múi cơ co lại một chút... Thực ra nhóc chẳng cần phải động đậy miệng để nói nhiều đâu nha.]"
+  },
+  {
+    "id": 190,
+    "en": "Thumping his two fingers against his temples, Olbart spoke. The old man nodded as his gaze fell on Subaru, whose breath had been taken.",
+    "vi": "Vỗ nhẹ hai ngón tay lên thái dương, Olbart cất lời. Lão già gật đầu khi ánh mắt đổ dồn vào Subaru, người vừa bị cướp đi nhịp thở."
+  },
+  {
+    "id": 191,
+    "en": "Olbart: [For example, the girl who looks like a dancer relies on the girl usin’ the bow. The young’un with the cloth wrapped ‘round his head and the wee one rely on ya. And, as for the one usin’ the bow and ya… Well, both of ya rely on that masked young’un.]",
+    "vi": "Olbart: [Ví dụ nha, cô bé trông giống vũ công thì dựa dẫm vào cô bé dùng cung. Cậu nhóc quấn mảnh vải quanh đầu và đứa nhỏ kia thì dựa dẫm vào nhóc. Và, về phần cô bé dùng cung cùng nhóc... Chà, cả hai đều dựa dẫm vào cậu nhóc đeo mặt nạ đó.]"
+  },
+  {
+    "id": 192,
+    "en": "Subaru: [——Hk.]",
+    "vi": "Subaru: [——Hự.]"
+  },
+  {
+    "id": 193,
+    "en": "Olbart: [Ya can see the general direction of each pair of eyes. ——When you're weak, it's even more obvious, isn't it?]",
+    "vi": "Olbart: [Người ta có thể thấy hướng đi chung của mỗi cặp mắt mà lị. ——Khi nhóc yếu đuối thì chuyện đó lại càng rõ ràng hơn đấy chứ?]"
+  },
+  {
+    "id": 194,
+    "en": "The words of Olbart, who flashed his white teeth as he said them, pierced Subaru's mind.",
+    "vi": "Những lời của Olbart, kẻ vừa nhe hàm răng trắng vừa nói, đâm xuyên qua tâm trí Subaru."
+  },
+  {
+    "id": 195,
+    "en": "And Subaru belatedly realized that he had greatly misjudged Olbart’s fundamental nature, a man who had even appeared seemed to be a good-natured old man.",
+    "vi": "Và Subaru muộn màng nhận ra mình đã đánh giá sai lệch nghiêm trọng bản chất của Olbart, kẻ ban nãy trông vẫn giống như một lão già tốt bụng."
+  },
+  {
+    "id": 196,
+    "en": "Olbart: [I've done that myself. They’re interesting, aren’t they, the shinobi arts?]",
+    "vi": "Olbart: [Olbart đã nói rõ lão là người gây ra sự \"trẻ con hóa\" cho họ, và lão làm vậy để nói chuyện với nhóm Subaru.]"
+  },
+  {
+    "id": 197,
+    "en": "——He had never stated that it was to \"negotiate\" with Subaru and the others.",
+    "vi": "——Lão chưa từng tuyên bố rằng mục đích là để \"thương lượng\" với nhóm Subaru."
+  },
+  {
+    "id": 198,
+    "en": "Subaru: [Didn’t you come here to, talk…]",
+    "vi": "Subaru: [Chẳng phải ông đến đây để nói chuyện sao...]"
+  },
+  {
+    "id": 199,
+    "en": "Olbart: [Comin’ here ta \"talk\" and comin’ here ta \"listen\" are similar but slightly different, aren't they? I don't mind chattin’ like this, ya know? But…]",
+    "vi": "Olbart: [Đến đây để \"nói chuyện\" và đến đây để \"lắng nghe\" tuy tương đồng nhưng lại hơi khác nhau đấy nhỉ? Ta không phiền tán gẫu thế này đâu nha. Nhưng...]"
+  },
+  {
+    "id": 200,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 201,
+    "en": "Olbart: [Ya see, I'm also the shinobi head honcho, and I spend my time actin’ as a representative of the people of my village. That's why… I can't trust the words of someone I haven't even tortured, ‘cause it’s too dangerous.]",
+    "vi": "Olbart: [Nhóc thấy đấy, ta cũng là thủ lĩnh shinobi, và ta dành thời gian để đại diện cho người dân trong làng mình. Chính vì thế... ta không thể tin lời của kẻ mình thậm chí còn chưa tra tấn, vì như thế nguy hiểm lắm nha.]"
+  },
+  {
+    "id": 202,
+    "en": "Without losing the air of an old man with an understanding of what he spoke about, Olbart expressed his thoughts in accordance with the shinobi's unwritten rules.",
+    "vi": "Không hề mất đi phong thái của một lão già hiểu đời khi nói chuyện, Olbart bày tỏ suy nghĩ của mình theo các quy tắc bất thành văn của shinobi."
+  },
+  {
+    "id": 203,
+    "en": "The bleakness and harshness of this world were certainly similar to that of the \"ninja\" world known to Subaru.",
+    "vi": "Sự ảm đạm và khắc nghiệt của thế giới này chắc chắn tương đồng với thế giới \"ninja\" mà Subaru biết."
+  },
+  {
+    "id": 204,
+    "en": "However, the feeling of enjoying it as a fiction was very unlike the feeling of being exposed to it first-hand in such a manner.",
+    "vi": "Thế nhưng, cảm giác thưởng thức nó như một tác phẩm hư cấu khác xa hoàn toàn cảm giác phải trực tiếp đối mặt với nó theo cách này."
+  },
+  {
+    "id": 205,
+    "en": "And——,",
+    "vi": "Và——,"
+  },
+  {
+    "id": 206,
+    "en": "Olbart: [So, with his uppity attitude of havin’ no one to rely on, the masked young’un’s the leader, right? Lemme ask ya, what was it that made ya come ta seduce that foxgirl.]",
+    "vi": "Olbart: [Thế nên, với thái độ kiêu ngạo của kẻ không có ai để nương tựa, cậu nhóc đeo mặt nạ chính là thủ lĩnh đúng không nhỉ? Để ta hỏi xem nào, điều gì đã thúc đẩy các ngươi đến quyến rũ cô nàng cáo đó thế.]"
+  },
+  {
+    "id": 207,
+    "en": "Abel: [——. If that does not work, what will?]",
+    "vi": "Abel: [——. Nếu cách đó không hiệu quả, thì sao chứ?]"
+  },
+  {
+    "id": 208,
+    "en": "Olbart: [Then you’ll just have ta find another way, won't'cha? But since I'm forced ta stay out of it, there's not much I can do ‘bout it.]",
+    "vi": "Olbart: [Thì ngươi đành phải tìm cách khác thôi chứ sao nhỉ? Nhưng vì ta bị buộc phải đứng ngoài cuộc, nên ta cũng chẳng làm được gì nhiều đâu nha.]"
+  },
+  {
+    "id": 209,
+    "en": "Olbart shrugged his shoulders, his gaze and attention were turned towards Abel. Of course, it was hardly believable that Olbart, the head honcho of the shinobi, would not be paying attention to the others.",
+    "vi": "Olbart nhún vai, ánh mắt và sự chú ý của lão đều hướng về phía Abel. Tất nhiên, thật khó tin khi Olbart, thủ lĩnh của các shinobi, lại không để mắt đến những người khác."
+  },
+  {
+    "id": 210,
+    "en": "Even if his head was not turned, his attention had not been diverted from Al nor Taritta.",
+    "vi": "Dẫu đầu lão không ngoảnh lại, sự chú ý của lão vẫn không hề lơi lỏng khỏi Al hay Taritta."
+  },
+  {
+    "id": 211,
+    "en": "However, even though a bow was being pointed towards him, to display any intention of attacking Olbart would be unwise for Subaru and the others surrounding him.",
+    "vi": "Thế nhưng, ngay cả khi một cây cung đang chĩa thẳng vào lão, việc tỏ ý định tấn công Olbart cũng là điều dại dột đối với Subaru và những người xung quanh."
+  },
+  {
+    "id": 212,
+    "en": "As per Yorna's command, they were to be welcomed into Chaosflame as messengers.",
+    "vi": "Theo mệnh lệnh của Yorna, họ được chào đón vào Chaosflame với tư cách là sứ giả."
+  },
+  {
+    "id": 213,
+    "en": "Whether this would still apply after causing a disturbance in Chaosflame, and how she would deal with ill-mannered visitors, was a complete unknown.",
+    "vi": "Liệu điều này có còn đúng sau khi gây ra náo loạn ở Chaosflame hay không, và cách cô đối phó với những vị khách thiếu lịch sự ra sao, hoàn toàn là một ẩn số."
+  },
+  {
+    "id": 214,
+    "en": "In other words, the situation here was a stalemate for both Subaru and Olbart.",
+    "vi": "Nói cách khác, tình thế lúc này là thế giằng co giữa cả Subaru lẫn Olbart."
+  },
+  {
+    "id": 215,
+    "en": "Both had no choice but to stare each other down, declaring their readiness to do harm.",
+    "vi": "Cài hai không còn cách nào khác ngoài việc gườm gườm nhìn nhau, tuyên bố sự sẵn sàng ra tay của mình."
+  },
+  {
+    "id": 216,
+    "en": "And in such an extreme limbo——,",
+    "vi": "Và trong một trạng thái lấp lửng tột cùng như vậy——,"
+  },
+  {
+    "id": 217,
+    "en": "Subaru: […But, on the other hand, in these conditions, where can I even prepare it?]",
+    "vi": "Subaru: [...Nhưng mặt khác, trong hoàn cảnh thế này thì tôi biết chuẩn bị ở đâu chứ?]"
+  },
+  {
+    "id": 218,
+    "en": "Reflecting on the established situation, Subaru once again cast a question to the white space that had been born within his mind.",
+    "vi": "Suy ngẫm về tình thế đã định, Subaru một lần nữa đặt câu hỏi cho khoảng trống màu trắng vừa nảy sinh trong tâm trí."
+  },
+  {
+    "id": 219,
+    "en": "And once again, the thought arose, “Isn't this an opportunity?”.",
+    "vi": "Và một lần nữa, ý nghĩ “Đây chẳng phải là cơ hội sao?” lại lóe lên."
+  },
+  {
+    "id": 220,
+    "en": "Bound by Yorna and the false Emperor, Olbart was unable to take any additional actions of hostility.",
+    "vi": "Bị trói buộc bởi Yorna và Hoàng đế giả, Olbart không thể thực hiện thêm bất kỳ hành động thù địch nào."
+  },
+  {
+    "id": 221,
+    "en": "Subaru was judging which side Olbart was leaning; Supposing he was closer to the enemy’s side, they would have to act on this timing, they would not get any other situation like the one they had here.",
+    "vi": "Subaru đang đánh giá xem Olbart đang nghiêng về phía nào; Giả sử lão ở gần phía kẻ thù hơn, họ sẽ phải hành động vào thời điểm này, họ sẽ không có được cơ hội nào khác như thế này nữa."
+  },
+  {
+    "id": 222,
+    "en": "Everyone: [————]",
+    "vi": "Mọi người: [————]"
+  },
+  {
+    "id": 223,
+    "en": "At a slow pace, time progressed.",
+    "vi": "Thời gian trôi đi với nhịp độ chậm chạp."
+  },
+  {
+    "id": 224,
+    "en": "Along with this tense situation, there was also the matter of the time at which the bell of Fire Time would ring, as presented by Yorna.",
+    "vi": "Cùng với tình huống căng thẳng này, còn có vấn đề về thời điểm tiếng chuông Hỏa Giờ ngân vang mà Yorna đã đưa ra."
+  },
+  {
+    "id": 225,
+    "en": "Time was precious. ——The more he wasted, the more his life diminished.",
+    "vi": "Thời gian vô cùng quý giá. ——Càng lãng phí, sinh mạng của cậu càng hao mòn."
+  },
+  {
+    "id": 226,
+    "en": "In silence, Taritta's fingers trembled as she gripped her bow, and Al and Medium too muffled their breaths. Even Louis miraculously was only letting out growls, perhaps instinctively sensing the danger posed by Olbart.",
+    "vi": "Trong im lặng, những ngón tay của Taritta run rẩy khi nắm chặt cây cung, cả Al lẫn Medium cũng kìm nén hơi thở của mình. Ngay cả Louis kỳ diệu thay cũng chỉ gầm gừ khe khẽ, có lẽ bản năng cô bé đã cảm nhận được mối hiểm họa từ Olbart."
+  },
+  {
+    "id": 227,
+    "en": "Perhaps they could not decide to stir. If someone could, it would be——,",
+    "vi": "Có lẽ họ không thể hạ quyết tâm hành động. Nếu có ai đó làm được điều đó, thì chỉ có thể là——,"
+  },
+  {
+    "id": 228,
+    "en": "Subaru: [——Abel.]",
+    "vi": "Subaru: [——Abel.]"
+  },
+  {
+    "id": 229,
+    "en": "Abel: [————]",
+    "vi": "Abel: [————]"
+  },
+  {
+    "id": 230,
+    "en": "Quietly, Subaru called out Abel's name.",
+    "vi": "Subaru khẽ gọi tên Abel."
+  },
+  {
+    "id": 231,
+    "en": "It was visible that his consciousness had turned towards him through the oni mask, upon hearing it. His eyes were invisible, as the oni mask blocked his gaze, but his attention was directed at Subaru.",
+    "vi": "Có thể thấy rõ tâm trí gã đã hướng về phía cậu qua chiếc mặt nạ quỷ khi nghe thấy tiếng gọi. Đôi mắt gã vô hình vì mặt nạ quỷ đã che khuất tầm nhìn, nhưng sự chú ý của gã thì đang hướng vào Subaru."
+  },
+  {
+    "id": 232,
+    "en": "The feelings there could not be seen. ——However, Subaru could guess its intent, as he had felt it.",
+    "vi": "Không thể nhận thấy cảm xúc ở đó. ——Thế nhưng, Subaru có thể đoán được ý định của gã, như thể cậu đã cảm nhận được."
+  },
+  {
+    "id": 233,
+    "en": "Subaru: [This is the Emperor, Vincent Vollachia.]",
+    "vi": "Subaru: [Đây chính là Hoàng đế, Vincent Vollachia.]"
+  },
+  {
+    "id": 234,
+    "en": "Olbart: […Ahhn?]",
+    "vi": "Olbart: […Hảaa?]"
+  },
+  {
+    "id": 235,
+    "en": "In reply to Abel’s gaze, Subaru made that assertion, prompting Olbart to raise an eyebrow.",
+    "vi": "Đáp lại ánh nhìn của Abel, Subaru đưa ra khẳng định đó, khiến Olbart nhướng mày."
+  },
+  {
+    "id": 236,
+    "en": "His eyes hidden by his long, rich eyebrows went open wide, as the old man was suspicious of Subaru's words. It was a natural reaction, but it was far from the reaction he was looking for.",
+    "vi": "Đôi mắt ẩn sau hàng lông mày dài rậm rạp của lão mở to ra, vì lão già nảy sinh sự nghi ngờ trước lời nói của Subaru. Đó là một phản ứng tự nhiên, nhưng lại khác xa với phản ứng cậu đang tìm kiếm."
+  },
+  {
+    "id": 237,
+    "en": "So, in order to elicit the desired response, they would go deeper.",
+    "vi": "Vì vậy, để khơi gợi phản ứng mong muốn, họ sẽ tiến sâu hơn."
+  },
+  {
+    "id": 238,
+    "en": "Subaru: [You want to know who’s the faceless young’un, and what we're here for. Why did we come to see Yorna? The answer is…]",
+    "vi": "Subaru: [Ông muốn biết người thanh niên không mặt mũi kia là ai, và chúng tôi đến đây làm gì. Tại sao chúng tôi lại đến gặp Yorna? Câu trả lời là...]"
+  },
+  {
+    "id": 239,
+    "en": "Olbart: [Oioi, that's not very funny, is it?]",
+    "vi": "Olbart: [Ơ kìa, chuyện đó chẳng vui chút nào đâu nha.]"
+  },
+  {
+    "id": 240,
+    "en": "Subaru: [I wasn’t trying to be funny. ——Abel.]",
+    "vi": "Subaru: [Tôi không hề nói đùa. ——Abel.]"
+  }
+];
+
+fs.writeFileSync(path.join(tempDir, 'ch41_part2.json'), JSON.stringify(part2, null, 2), 'utf-8');
+console.log('Saved ch41_part2.json');

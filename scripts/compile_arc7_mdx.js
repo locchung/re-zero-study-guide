@@ -35,7 +35,13 @@ const chapters = [
   { num: 27, title: 'Chương 27: Kẻ Sở Hữu Và Kẻ Tay Trắng | The Haves and the Have-Nots' },
   { num: 28, title: 'Chương 28: Điều Kiện Chiến Thắng | Victory Conditions' },
   { num: 29, title: 'Chương 29: Vị Thế Của Mỗi Người | To Each Their Stance' },
-  { num: 30, title: 'Chương 30: Anh Hùng Tự Phong Natsuki Subaru | Self-Proclaimed Hero Natsuki Subaru' }
+  { num: 30, title: 'Chương 30: Anh Hùng Tự Phong Natsuki Subaru | Self-Proclaimed Hero Natsuki Subaru' },
+  { num: 40, title: 'Chương 40: Natchuki Subawu | Natchuki Subawu' },
+  { num: 41, title: 'Chương 41: Trò Chuyện Bên Tách Trà | A Chat Over Tea' },
+  { num: 42, title: 'Chương 42: Dã Thú Dã Tâm | Beast of Ambition' },
+  { num: 43, title: 'Chương 43: Phía Sau Mí Mắt | Hidden Behind Your Eyelids' },
+  { num: 44, title: 'Chương 44: Tầm Nhìn Thu Hẹp | Shrinking Vision' },
+  { num: 45, title: 'Chương 45: Konkon | Konkon' }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');

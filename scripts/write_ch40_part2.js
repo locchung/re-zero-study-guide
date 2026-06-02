@@ -1,0 +1,514 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part2 = [
+  {
+    "id": 101,
+    "en": "Medium drew one of her twin swords from the scabbards at her side, but the blade slipped through her grip and nearly sliced Subaru's knee.",
+    "vi": "Medium rút một trong hai thanh kiếm bên hông ra, nhưng lưỡi kiếm trượt khỏi tay cô và suýt chút nữa đã chém trúng đầu gối Subaru."
+  },
+  {
+    "id": 102,
+    "en": "Albeit barely, the tip of the blade almost grazed Subaru then stabbed into the floor, bringing him horror.",
+    "vi": "Mặc dù chỉ trong gang tấc, mũi kiếm suýt nữa đã sượt qua Subaru rồi cắm phập xuống sàn nhà, khiến cậu một phen khiếp vía."
+  },
+  {
+    "id": 103,
+    "en": "Medium: [Wow, Subaru-chin, I'm sorry…]",
+    "vi": "Medium: [Oa, Subaru-chin, tôi xin lỗi nha...]"
+  },
+  {
+    "id": 104,
+    "en": "Subaru: [I-it didn't cut me, so… but that's pretty bad.]",
+    "vi": "Subaru: [Kh-Không trúng tôi đâu, nên... cơ mà thế này tệ thật đấy.]"
+  },
+  {
+    "id": 105,
+    "en": "With a sullen sigh, Medium pulled out the stuck sword and carefully put it back in its sheath.",
+    "vi": "Với một tiếng thở dài ủ rũ, Medium rút thanh kiếm đang cắm trên sàn ra rồi cẩn thận tra lại vào bao."
+  },
+  {
+    "id": 106,
+    "en": "The weapons she had been able to use so freely just the previous day were now in a wholly unusable state. To Medium, whose expected active role was that of a fighter, this was a crisis that shook her to her core.",
+    "vi": "Những món vũ khí mà cô mới sử dụng vô cùng tự do ngày hôm qua giờ đây đã rơi vào tình trạng hoàn toàn không thể dùng được. Với Medium, người vốn đảm nhận vai trò chiến đấu chính, đây quả thực là một cuộc khủng hoảng làm lay chuyển cô tận xương tủy."
+  },
+  {
+    "id": 107,
+    "en": "The same could be said for Al, though not in terms of his military prowess.",
+    "vi": "Điều tương tự cũng có thể nói về Al, dẫu không phải xét về mặt võ nghệ."
+  },
+  {
+    "id": 108,
+    "en": "Subaru: [This means that Taritta-san’s the only one with any legitimate fighting strength at the moment, right?]",
+    "vi": "Subaru: [Nghĩa là lúc này Taritta-san là người duy nhất có sức chiến đấu thực sự, đúng không?]"
+  },
+  {
+    "id": 109,
+    "en": "Medium: [What? I'll do my best even if I'm small, you know!?]",
+    "vi": "Medium: [Hả? Tôi sẽ cố gắng hết sức dẫu có nhỏ bé thế này mà!?]"
+  },
+  {
+    "id": 110,
+    "en": "Subaru: [I appreciate the spirit, but you don't meet the labor standards…]",
+    "vi": "Subaru: [Tôi ghi nhận tinh thần đó, nhưng chị không đủ tiêu chuẩn lao động đâu...]"
+  },
+  {
+    "id": 111,
+    "en": "Medium's undampened attitude was nice, but a realistic view of the situation was also required.",
+    "vi": "Thác độ lạc quan không hề suy giảm của Medium rất đáng quý, nhưng cũng cần phải nhìn nhận tình hình một cách thực tế."
+  },
+  {
+    "id": 112,
+    "en": "With both Al and Medium in this state, the only one able to fight properly was Taritta. ——And even if she was assured of her abilities, it would be a lonely endeavor amidst enemy territory.",
+    "vi": "Khi cả Al và Medium đều ở trong tình trạng này, người duy nhất có thể chiến đấu bình thường là Taritta. ——Và ngay cả khi năng lực của cô có đáng tin cậy đi chăng nữa, đó cũng là một nỗ lực cô độc giữa lòng lãnh thổ địch."
+  },
+  {
+    "id": 113,
+    "en": "Taritta: [It's only me…?]",
+    "vi": "Taritta: [Chỉ có tôi thôi sao...?]"
+  },
+  {
+    "id": 114,
+    "en": "In fact, Taritta was evidently accepting the pressure herself.",
+    "vi": "Thực tế, Taritta rõ ràng đang tự mình gánh chịu áp lực lớn."
+  },
+  {
+    "id": 115,
+    "en": "The reason for this was that the roles that would otherwise have been shared could no longer be divided, and must now be carried on her two shoulders.",
+    "vi": "Lý do là bởi những vai trò đáng lẽ phải được chia sẻ giờ đây không thể phân chia được nữa, và toàn bộ gánh nặng phải đặt lên đôi vai cô."
+  },
+  {
+    "id": 116,
+    "en": "He felt guilty to her for that, but——,",
+    "vi": "Cậu cảm thấy có lỗi với cô vì điều đó, thế nhưng——,"
+  },
+  {
+    "id": 117,
+    "en": "Subaru: [It's going to be quite a burden. But what do we do from here? It seems like they’d have eyes on us, but should we escape from Chaosflame?]",
+    "vi": "Subaru: [Đó hẳn là một gánh nặng lớn đấy. Nhưng chúng ta sẽ làm gì từ đây? Có vẻ như bọn họ đang theo dõi chúng ta, liệu chúng ta có nên trốn khỏi Chaosflame không?]"
+  },
+  {
+    "id": 118,
+    "en": "Al: […So, you think it was that sexy lady castle owner who did this, bro?]",
+    "vi": "Al: […Vậy cậu nghĩ chính cô nàng chủ thành quyến rũ đó đã làm chuyện này sao, người anh em?]"
+  },
+  {
+    "id": 119,
+    "en": "Subaru: [The three of us were the only ones affected.]",
+    "vi": "Subaru: [Chỉ có ba chúng ta là bị ảnh hưởng thôi.]"
+  },
+  {
+    "id": 120,
+    "en": "Having been asked that by Al, Subaru quietly nodded his head.",
+    "vi": "Được Al hỏi vậy, Subaru lặng lẽ gật đầu."
+  },
+  {
+    "id": 121,
+    "en": "It went without saying that Subaru, Al, and Medium had a single thing in common: all of them had gone to the Crimson Lapis Castle as messengers the previous day. That being the case, it was perfectly legitimate to suspect Yorna's involvement in the circumstances of their shrunken limbs.",
+    "vi": "Không cần phải nói, Subaru, Al và Medium đều có một điểm chung duy nhất: cả ba người họ đều đã đến Hồng Ngọc Thành làm sứ giả vào ngày hôm trước. Trong trường hợp đó, hoàn toàn hợp lý khi nghi ngờ sự can thiệp của Yorna vào tình trạng tay chân bị thu nhỏ của họ."
+  },
+  {
+    "id": 122,
+    "en": "Abel: [It seems that you are not as distraught as I had expected.]",
+    "vi": "Abel: [Có vẻ ngươi không hoảng loạn như ta nghĩ.]"
+  },
+  {
+    "id": 123,
+    "en": "Abel, who had been quietly ruminating about the contents of Subaru and Al’s conversation, interrupted them.",
+    "vi": "Abel, người nãy giờ vẫn im lặng suy ngẫm về nội dung cuộc trò chuyện giữa Subaru và Al, đột ngột ngắt lời."
+  },
+  {
+    "id": 124,
+    "en": "Sure, Subaru had been quite distraught right after waking up, but now that he had run into Al and Medium in the same situation, his agitation had lessened considerably.",
+    "vi": "Quả thực, Subaru đã rất hoảng loạn ngay sau khi thức dậy, nhưng giờ đây khi bắt gặp Al và Medium cũng rơi vào hoàn cảnh tương tự, sự bối rối của cậu đã giảm đi đáng kể."
+  },
+  {
+    "id": 125,
+    "en": "In a way, it was possible to say that \"buddies\", as Medium had put it, truly existed.",
+    "vi": "Theo một khía cạnh nào đó, quả thực đúng như Medium nói, \"đồng bọn\" thực sự tồn tại."
+  },
+  {
+    "id": 126,
+    "en": "And yet——,",
+    "vi": "Thế nhưng——,"
+  },
+  {
+    "id": 127,
+    "en": "Subaru: [Perhaps I just missed the timing to be surprised and panicked. Maybe after I find more inconvenient things with this body then I’ll realize the importance of my lost height and weight.]",
+    "vi": "Subaru: [Có lẽ tôi đã bỏ lỡ thời điểm để kinh ngạc và hoảng sợ rồi. Có khi sau khi nhận ra nhiều điều bất tiện hơn với cơ thể này, tôi mới thấy được tầm quan trọng của chiều cao và cân nặng đã mất.]"
+  },
+  {
+    "id": 128,
+    "en": "Abel: [Even though you have shrunk, you are a man who always feels the need to talk.]",
+    "vi": "Abel: [Dẫu có nhỏ đi, ngươi vẫn là kẻ thích nói nhảm.]"
+  },
+  {
+    "id": 129,
+    "en": "Subaru: [Adaptability and cleverness are two of my few selling points, that’s why.]",
+    "vi": "Subaru: [Khability thích ứng và sự nhạy bén là vài điểm mạnh hiếm hoi của tôi mà, bởi thế đó.]"
+  },
+  {
+    "id": 130,
+    "en": "He was being increasingly scorned for ceaseless chatter, but Subaru still retorted without regard. Sure enough, Abel's gaze from behind the oni mask became sharper, and he muttered with visible exasperation, \"You talk too much\".",
+    "vi": "Dù càng lúc càng bị khinh miệt vì thói ba hoa không ngớt, Subaru vẫn thản nhiên đáp trả. Quả nhiên, ánh mắt của Abel từ sau chiếc mặt nạ quỷ trở nên sắc bén hơn, gã lầm bầm với vẻ bực dọc rõ rệt: \"Ngươi nói quá nhiều\"."
+  },
+  {
+    "id": 131,
+    "en": "However, he did not stop at that, and resumed his words.",
+    "vi": "Tuy nhiên, gã không dừng lại ở đó mà tiếp tục nói."
+  },
+  {
+    "id": 132,
+    "en": "Abel: [You can discard your suspicions about Yorna Mishigure. Your transformations differ from the principle of the techniques employed by that thing.]",
+    "vi": "Abel: [Ngươi có thể dẹp bỏ sự nghi ngờ đối với Yorna Mishigure đi. Sự biến đổi của các ngươi khác với nguyên lý thuật pháp mà ả ta sử dụng.]"
+  },
+  {
+    "id": 133,
+    "en": "Subaru: [Are you sure…?]",
+    "vi": "Subaru: [Anh chắc chứ...?]"
+  },
+  {
+    "id": 134,
+    "en": "Abel: [As far as I can surmise, yes. It is up to you to decide whether this is worth believing.]",
+    "vi": "Abel: [Theo những gì ta phỏng đoán thì là vậy. Tin hay không tùy ngươi quyết định.]"
+  },
+  {
+    "id": 135,
+    "en": "Abel directly denied the suspicions held by Subaru just before.",
+    "vi": "Abel trực tiếp bác bỏ những nghi ngờ mà Subaru ôm giữ trước đó."
+  },
+  {
+    "id": 136,
+    "en": "However, it seemed that the basis for this denial lay only within Abel. Subaru's mouth curved in frustration as he was told that he was free to decide whether it was to be trusted or not.",
+    "vi": "Tuy nhiên, có vẻ cơ sở cho sự phủ nhận này chỉ nằm trong suy tính của Abel. Khóe miệng Subaru khẽ giật giật đầy bất mãn khi nghe bảo tin hay không tùy cậu quyết định."
+  },
+  {
+    "id": 137,
+    "en": "Despite this, it did not take him long to mull it over.",
+    "vi": "Dẫu vậy, cậu cũng không mất nhiều thời gian để cân nhắc chuyện đó."
+  },
+  {
+    "id": 138,
+    "en": "Subaru: [——. I understand. But if it wasn't Yorna, then who was it?]",
+    "vi": "Subaru: [——. Tôi hiểu rồi. Nhưng nếu không phải Yorna, thì là ai chứ?]"
+  },
+  {
+    "id": 139,
+    "en": "Abel: [Perhaps it was Olbart Dunkelkenn who caused it.]",
+    "vi": "Abel: [Nhiều khả năng là do Olbart Dunkelkenn gây ra.]"
+  },
+  {
+    "id": 140,
+    "en": "Subaru: [Olbart… That old man from yesterday?!]",
+    "vi": "Subaru: [Olbart... Lão già ngày hôm qua sao?!]"
+  },
+  {
+    "id": 141,
+    "en": "Abel mentioned the name of the architect of this situation to Subaru, who, swallowing his dissatisfaction, placed trust in his speculation.",
+    "vi": "Abel nhắc đến tên kẻ chủ mưu đứng sau tình huống này với Subaru, người dẫu nuốt bất mãn vào trong nhưng vẫn tin vào phỏng đoán của gã."
+  },
+  {
+    "id": 142,
+    "en": "What had come from his mouth, was the name of the false Emperor's companion they had run into at the Crimson Lapis Castle the previous day, a diminutive old man who was said to be one of the Nine Divine Generals.",
+    "vi": "Cái tên vừa thốt ra từ miệng gã chính là người đồng hành của ngài Hoàng đế giả mà họ chạm mặt ở Hồng Ngọc Thành hôm qua, lão già lùn tịt được cho là một trong Cửu Thần Tướng."
+  },
+  {
+    "id": 143,
+    "en": "Among the Empire’s strongest and labelled a General First-Class, he was a person who had been bestowed with the third rank from the top. Naturally, Subaru had anticipated him to be a man possessing might which was not to be taken as trivial, but——,",
+    "vi": "Là một trong những kẻ mạnh nhất Đế Quốc và được phong hàm Thần Tướng Nhất Đẳng, lão là người được ban tặng vị trí thứ ba từ trên xuống. Lẽ tự nhiên, Subaru đã đoán trước lão là một kẻ sở hữu sức mạnh không thể coi thường, thế nhưng——,"
+  },
+  {
+    "id": 144,
+    "en": "Subaru: [I didn't expect him to be such a freaky person who can bring about such nonsensical situations…]",
+    "vi": "Subaru: [Tôi không ngờ lão lại là một kẻ quái đản có thể gây ra những chuyện phi lý thế này...]"
+  },
+  {
+    "id": 145,
+    "en": "Abel: [I know not the depths of his abilities. But you cannot deny what has happened… There are other possibilities aside from Olbart when it comes to forging one’s external appearance.]",
+    "vi": "Abel: [Ta không rõ chiều sâu thực lực của lão. Nhưng ngươi không thể phủ nhận những gì đã xảy ra... Vẫn còn những khả năng khác ngoài Olbart khi nói đến việc biến đổi diện mạo bên ngoài.]"
+  },
+  {
+    "id": 146,
+    "en": "Subaru: […Unfortunately, it doesn't look like a hallucination or anything.]",
+    "vi": "Subaru: [...Đáng tiếc thay, đây trông không giống như một ảo giác hay thứ gì tương tự.]"
+  },
+  {
+    "id": 147,
+    "en": "He had already tried pinching his cheeks and waking up from what seemed like a dream.",
+    "vi": "Cậu đã thử tự nhéo má mình để tỉnh dậy khỏi thứ tưởng như là một giấc mơ."
+  },
+  {
+    "id": 148,
+    "en": "The possibility that magic or drugs were messing with his perception and making him hallucinate was null. The fact that his arms and legs were actually short, and that he had been unable to push back against Louis's strength and weight, posed as pretty good evidence.",
+    "vi": "Khability ma pháp hay thuốc men đang làm rối loạn nhận thức và khiến cậu ảo giác là bằng không. Việc tay chân cậu thực sự ngắn ngủn, và việc cậu không thể chống cự nổi sức mạnh cùng cân nặng của Louis chính là minh chứng rõ ràng nhất."
+  },
+  {
+    "id": 149,
+    "en": "The physical effects on the body, such as the size of Subaru's clothing and Al's helmet, could not be overlooked.",
+    "vi": "Những tác động vật lý lên cơ thể, chẳng hạn như kích cỡ quần áo của Subaru và chiếc mũ giáp của Al, là không thể chối cãi."
+  },
+  {
+    "id": 150,
+    "en": "Abel was probably also regarding it as unlikely. As he had not made any special effort to object to Subaru's insistence that it had an actual, real effect.",
+    "vi": "Abel có lẽ cũng thấy chuyện đó khó xảy ra. Gã đã không hề có động thái phản đối khi Subaru khẳng định rằng nó có tác động thực tế rõ ràng."
+  },
+  {
+    "id": 151,
+    "en": "Subaru: [First of all, it’s good that we don’t have to run away with our tails between our legs… How troublesome. Even the Emperor, Abel, doesn’t know how that old man fights? Who the hell is he?]",
+    "vi": "Subaru: [Trước hết, thật mừng là chúng ta không cần phải cụp đuôi chạy trốn... Rắc rối thật đấy. Ngay cả Hoàng đế như Abel cũng không biết lão già đó chiến đấu thế nào sao? Lão rốt cuộc là ai vậy?]"
+  },
+  {
+    "id": 152,
+    "en": "Abel: [He is the head of a group called the \"Shinobi\", who are masters of peculiar techniques.]",
+    "vi": "Abel: [Lão là thủ lĩnh của một nhóm gọi là \"Shinobi\", những kẻ bậc thầy về các kỹ thuật dị thường.]"
+  },
+  {
+    "id": 153,
+    "en": "Subaru: [Shinobi… A ninja?]",
+    "vi": "Subaru: [Shinobi... Là ninja sao?]"
+  },
+  {
+    "id": 154,
+    "en": "Abel: [——. What is that?]",
+    "vi": "Abel: [——. Đó là cái gì?]"
+  },
+  {
+    "id": 155,
+    "en": "Abel questioned Subaru while raising his eyebrows, the latter having blurted something out unintentionally.",
+    "vi": "Abel hỏi vặn lại Subaru trong khi khẽ nhướn mày, khi thấy cậu vô tình buột miệng thốt ra điều gì đó."
+  },
+  {
+    "id": 156,
+    "en": "When one heard of the word \"shinobi\", their first reflex would be to think of \"ninja\", which had the same meaning. However, it appeared that the latter word sounded new or strange to Abel.",
+    "vi": "Khi nghe đến từ \"shinobi\", phản xạ đầu tiên của một người là nghĩ đến từ \"ninja\", vốn mang cùng một ý nghĩa. Tuy nhiên, có vẻ như từ sau nghe thật mới mẻ hoặc kỳ lạ đối với Abel."
+  },
+  {
+    "id": 157,
+    "en": "But to Subaru, much like when he had first learned about Kararagi dialect and Wafuu-style architecture, he thought it seemed to be knowledge of the world Subaru knew, or felt like a slight remnant of it.",
+    "vi": "Nhưng với Subaru, cũng giống như lần đầu tiên cậu biết về tiếng địa phương Kararagi và kiến trúc kiểu Wafuu, cậu nghĩ nó có vẻ là kiến thức từ thế giới mà Subaru biết, hoặc mang chút bóng dáng tàn dư của nơi đó."
+  },
+  {
+    "id": 158,
+    "en": "Subaru: [These shinobi, do they use ninjutsu, or do they go undercover in the darkness of night to spy on or assassinate people?]",
+    "vi": "Subaru: [Những shinobi đó, họ có dùng nhẫn thuật (ninjutsu), hay trà trộn vào bóng đêm tĩnh mịch để do thám và ám sát người khác không?]"
+  },
+  {
+    "id": 159,
+    "en": "Abel: [I have never heard of ninjutsu, but you understand the main function of the shinobi… That too, is not supposed to be information that reaches the public easily.]",
+    "vi": "Abel: [Ta chưa từng nghe về nhẫn thuật, nhưng ngươi thấu hiểu chức năng chính của shinobi đấy... Điều đó cũng không phải là thông tin dễ dàng truyền ra ngoài công chúng đâu.]"
+  },
+  {
+    "id": 160,
+    "en": "Subaru: [There’s something similar in my homeland, they’re called ninjas. Right, Al?]",
+    "vi": "Subaru: [Ở quê hương tôi có thứ tương tự, họ được gọi là ninja. Đúng không, Al?]"
+  },
+  {
+    "id": 161,
+    "en": "Al: [Hmm? Yeah, right. They're a quartet of turtles with a great sense of humor.]",
+    "vi": "Al: [Hửm? À, phải rồi. Họ là bộ tứ nhà rùa với khiếu hài hước tuyệt vời đấy chứ.]"
+  },
+  {
+    "id": 162,
+    "en": "Perhaps he felt the same tug as Subaru, but Al's answer was a bit off the mark as Subaru thought about it. They were characters from a popular cartoon of yesteryear, though Subaru did not dislike them. [1]",
+    "vi": "Có lẽ cậu ta cũng cảm nhận được sự đồng điệu như Subaru, nhưng câu trả lời của Al hơi chệch hướng khi Subaru ngẫm lại. Đó là những nhân vật từ một bộ phim hoạt hình nổi tiếng thời trước, mặc dù Subaru không hề ghét họ. [1]"
+  },
+  {
+    "id": 163,
+    "en": "Anyway, even if he explained the details, Abel would not comprehend it; and it seemed the latter viewed it as a pointless topic to delve into as he did not make any attempt to ask him about the details.",
+    "vi": "Dù sao thì, ngay cả khi cậu có giải thích chi tiết, Abel cũng chẳng thể hiểu nổi; và có vẻ gã xem đó là một chủ đề vô nghĩa để đào sâu khi không hề có ý định hỏi thêm chi tiết."
+  },
+  {
+    "id": 164,
+    "en": "Instead, Medium let out a \"Oh!\" with her big eyes open wide,",
+    "vi": "Thay vào đó, Medium thốt lên một tiếng \"Ồ!\" với đôi mắt to tròn mở rộng,"
+  },
+  {
+    "id": 165,
+    "en": "Medium: [If it was that Gramps of yesterday who did it, it could be that! You know, when we escaped from the Castle…]",
+    "vi": "Medium: [Nếu là do lão già ngày hôm qua làm, thì có thể là chuyện đó đấy! Cậu biết đó, lúc chúng ta trốn khỏi Lâu đài...]"
+  },
+  {
+    "id": 166,
+    "en": "Subaru: [When we escaped…? Ah.]",
+    "vi": "Subaru: [Lúc chúng ta trốn thoát sao...? À.]"
+  },
+  {
+    "id": 167,
+    "en": "Medium: [When me and you were both struck in the chest!]",
+    "vi": "Medium: [Lúc tôi và cậu đều bị đánh trúng ngực ấy!]"
+  },
+  {
+    "id": 168,
+    "en": "Medium's cry was a bit misleading, but Subaru had an inkling of what was up.",
+    "vi": "Tiếng hét của Medium có chút dễ gây hiểu lầm, nhưng Subaru đã lờ mờ đoán được chuyện gì."
+  },
+  {
+    "id": 169,
+    "en": "It had come to pass the previous day, during their escape from the Crimson Lapis Castle—— in the middle of the life-threatening battle to fulfill Yorna's nasty conditions.",
+    "vi": "Chuyện đó xảy ra vào ngày hôm trước, trong lúc họ trốn thoát khỏi Hồng Ngọc Thành—— giữa trận chiến sinh tử để đáp ứng những điều kiện khắc nghiệt của Yorna."
+  },
+  {
+    "id": 170,
+    "en": "Subaru and his group had escaped from the false Emperor's bodyguard Kafma’s thorns, and broken through the walls of the Castle in an attempt to escape, only for each of them to be pierced by the blow of the pursuing Olbart.",
+    "vi": "Nhóm Subaru đã thoát khỏi những chiếc gai nhọn của Kafma, cận vệ của Hoàng đế giả, và phá vỡ bức tường thành để trốn chạy, chỉ để rồi mỗi người đều bị trúng một đòn từ Olbart đang truy đuổi."
+  },
+  {
+    "id": 171,
+    "en": "However, that Divine General’s attack had not caused any damage to Subaru’s group.",
+    "vi": "Tuy nhiên, đòn tấn công của vị Thần Tướng đó đã không gây ra bất kỳ sát thương nào cho nhóm Subaru."
+  },
+  {
+    "id": 172,
+    "en": "——At that time, that had gone alright. But it could not have been harmless.",
+    "vi": "——Lúc đó, mọi chuyện có vẻ ổn thỏa. Nhưng nó không thể nào vô hại được."
+  },
+  {
+    "id": 173,
+    "en": "Subaru: [That said, it’s normal that something like this couldn’t have been predicted…! I mean, that explains me and Medium-san, but Al? Why did you shrink?]",
+    "vi": "Subaru: [Nói thế chứ, việc chuyện như thế này xảy ra là điều không thể đoán trước được...! Ý tôi là, điều đó giải thích cho tôi và Medium-san, nhưng còn Al? Tại sao anh cũng bị thu nhỏ lại?]"
+  },
+  {
+    "id": 174,
+    "en": "Al: [Sorry, bro. I had a few run-ins with the old man before I jumped out. It wouldn’t be surprising if he’d hit me at some point. I figured that if the wound didn't kill me, it’d be a no-count.] [2]",
+    "vi": "Al: [Xin lỗi nhé, người anh em. Tôi có đụng độ vài lần với lão già đó trước khi nhảy ra ngoài. Chẳng có gì lạ nếu lão đã đánh trúng tôi lúc nào đó. Tôi nghĩ nếu vết thương không giết chết tôi thì coi như huề cả làng thôi đấy chứ.] [2]"
+  },
+  {
+    "id": 175,
+    "en": "In a low tone—— or, at least, in as much of a low tone as a boy whose voice had yet to drop could muster, Al blamed himself for his lapse with a grumble.",
+    "vi": "Bằng một giọng trầm—— hoặc ít nhất, trầm nhất có thể đối với một cậu bé chưa vỡ giọng, Al lầm bầm tự trách bản thân vì sai sót của mình."
+  },
+  {
+    "id": 176,
+    "en": "But it was wrong for Al to blame himself. Al had done his part and allowed Subaru and Medium to survive in that desperate situation. The same can be said for Medium.",
+    "vi": "Nhưng Al tự trách mình là sai. Al đã làm tròn vai trò của mình và giúp Subaru cùng Medium sống sót trong tình cảnh tuyệt vọng đó. Điều tương tự cũng có thể nói về Medium."
+  },
+  {
+    "id": 177,
+    "en": "So, it was Subaru who should have known.",
+    "vi": "Vì vậy, đáng lẽ Subaru phải là người nhận thức rõ."
+  },
+  {
+    "id": 178,
+    "en": "If he could not be of use in a battle, he should have been aware of every eventuality.",
+    "vi": "Nếu cậu không thể giúp ích trong chiến đấu, cậu phải lường trước mọi tình huống xảy ra."
+  },
+  {
+    "id": 179,
+    "en": "The result of failing to do so was this “disgrace”, as Abel had said.",
+    "vi": "Hậu quả của việc không làm được điều đó chính là sự \"nhục nhã\" này, như lời Abel đã phán."
+  },
+  {
+    "id": 180,
+    "en": "Subaru: [I can't let Rem see me like this… If I'm the same size as Beako, Emilia will treat me like I'm younger than she is even more.]",
+    "vi": "Subaru: [Tôi không thể để Rem nhìn thấy mình thế này được... Nếu tôi có cùng kích cỡ với Beako, Emilia sẽ càng coi tôi như đứa em nhỏ của cô ấy hơn mất.]"
+  },
+  {
+    "id": 181,
+    "en": "Al: [Even if I’ve been shrunken down, I don’t think it likely that the Princess’ll treat me affectionately like she does Schult-chan, so I wonder who benefits from this development.]",
+    "vi": "Al: [Dẫu tôi có bị thu nhỏ lại, tôi cũng không nghĩ Công chúa sẽ đối xử ân cần với tôi như với Schult-chan đâu đấy chứ, nên tôi tự hỏi ai là người được lợi từ diễn biến này đây.]"
+  },
+  {
+    "id": 182,
+    "en": "Taritta: [I'm surprised that everyone is so calm… I'm still confused…]",
+    "vi": "Taritta: [Tôi ngạc nhiên khi thấy mọi người bình tĩnh đến vậy... Tôi vẫn còn đang bối rối lắm...]"
+  },
+  {
+    "id": 183,
+    "en": "A pale Taritta revealed her innermost thoughts, as Subaru and Al discussed their shrunken bodies.",
+    "vi": "Gương mặt nhợt nhạt, Taritta thổ lộ những suy nghĩ sâu kín nhất của mình, khi Subaru và Al đang bàn tán về cơ thể bị thu nhỏ của họ."
+  },
+  {
+    "id": 184,
+    "en": "With Louis flopping in her arms, Taritta's bewilderment was palpable, due to being the sole remaining fighting force. It was almost as if she felt guilty for having escaped harm.",
+    "vi": "Với Louis đang ngọ nguậy trong tay, sự bối rối của Taritta hiện rõ mồn một, bởi cô là lực lượng chiến đấu duy nhất còn lại. Gần như thể cô cảm thấy tội lỗi vì đã thoát khỏi tổn hại này."
+  },
+  {
+    "id": 185,
+    "en": "Of course, Taritta was the one who was physically and mentally normal in this situation.",
+    "vi": "Tất nhiên, Taritta mới là người bình thường về mặt thể xác lẫn tinh thần trong hoàn cảnh này."
+  },
+  {
+    "id": 186,
+    "en": "Subaru: [Honestly, I feel like I’d start screaming if I didn’t joke about it a bit.]",
+    "vi": "Subaru: [Thật tình, tôi cảm thấy mình sẽ hét toáng lên nếu không đùa giỡn một chút cho nhẹ lòng.]"
+  },
+  {
+    "id": 187,
+    "en": "Taritta: [I-is that so?]",
+    "vi": "Taritta: [Th-Thật sao?]"
+  },
+  {
+    "id": 188,
+    "en": "Subaru: [Yeah… It's that revolting.]",
+    "vi": "Subaru: [Phải... Cảm giác đó thực sự rất kinh tởm.]"
+  },
+  {
+    "id": 189,
+    "en": "It was not his young body.",
+    "vi": "Đó không phải là cơ thể thơ ấu của cậu."
+  },
+  {
+    "id": 190,
+    "en": "His own body had been unintentionally remade. The disintegration of the definition of the self was sickening.",
+    "vi": "Cơ thể của chính cậu đã bị biến đổi ngoài ý muốn. Sự tan rã định nghĩa về bản ngã khiến người ta buồn nôn."
+  },
+  {
+    "id": 191,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 192,
+    "en": "Subaru was rather proud of himself for having faced a variety of experiences in this other world thus far.",
+    "vi": "Subaru khá tự hào về bản thân vì đã đối mặt với đủ loại trải nghiệm ở dị giới này cho đến nay."
+  },
+  {
+    "id": 193,
+    "en": "Although the experience of death was the most extreme, it was quite possible to say that the dense experiences of the past year and a half were incomparably richer in color, taste, and density than that of an ordinary person.",
+    "vi": "Mặc dù trải nghiệm cái chết là điều cực đoan nhất, nhưng hoàn toàn có thể nói rằng những trải nghiệm dày đặc trong một năm rưỡi qua phong phú hơn vô cùng về màu sắc, hương vị và mức độ so với một người bình thường."
+  },
+  {
+    "id": 194,
+    "en": "Compared to any of these experiences, the inexpressible disgust that came with the feeling of being remade stuck out.",
+    "vi": "So với bất kỳ trải nghiệm nào trong số đó, cảm giác ghê tởm không thể diễn tả bằng lời đi kèm với việc bị biến đổi này nổi bật hơn cả."
+  },
+  {
+    "id": 195,
+    "en": "Subaru: [This is what it feels like, to be one of Lust’s victims…]",
+    "vi": "Subaru: [Đây chính là cảm giác của những nạn nhân của Sắc Dục...]"
+  },
+  {
+    "id": 196,
+    "en": "The sound of wings echoed in Subaru's mind as he hugged his thin, small shoulders and clenched his teeth.",
+    "vi": "Tiếng cánh vỗ rì rào vang vọng trong tâm trí Subaru khi cậu ôm lấy đôi vai gầy guộc, nhỏ bé của mình và nghiến răng."
+  },
+  {
+    "id": 197,
+    "en": "It was the sound of the wings of those who had fallen victim to the Authority of the Sin Archbishop of Lust in the Watergate City—— the memory of the victims whose bodies had been morphed into that of flies, and were still waiting to be saved.",
+    "vi": "Đó là tiếng cánh vỗ của những kẻ đã trở thành nạn nhân dưới Quyền năng của Giám mục Tội lỗi Sắc Dục tại thành phố thủy môn Watergate—— ký ức về những nạn nhân có cơ thể bị biến thành ruồi, vẫn đang mòn mỏi chờ đợi được giải cứu."
+  },
+  {
+    "id": 198,
+    "en": "The tragedy of these people, who had been transformed into something else, easily transcended Subaru's flimsy understanding of their situation.",
+    "vi": "Bi kịch của những người bị biến thành sinh vật khác kia dễ dàng vượt xa sự hiểu biết hời hợt của Subaru về hoàn cảnh của chính họ."
+  },
+  {
+    "id": 199,
+    "en": "The very act that had compelled such a sensation was——,",
+    "vi": "Chính hành động thúc đẩy cảm giác đó là——,"
+  },
+  {
+    "id": 200,
+    "en": "Abel: [——Vicious, I would state.]",
+    "vi": "Abel: [——Ta sẽ gọi đó là sự hiểm độc.]"
+  }
+];
+
+fs.writeFileSync(path.join(tempDir, 'ch40_part2.json'), JSON.stringify(part2, null, 2), 'utf-8');
+console.log('Saved ch40_part2.json');

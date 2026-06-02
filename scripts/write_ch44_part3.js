@@ -1,0 +1,489 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part3 = [
+  {
+    "id": 201,
+    "en": "Even though it was a deep voice at the level of a young boy, it was low enough to change the mood. Abel's gaze, looking down on him, also turned cold, causing Subaru to gulp.",
+    "vi": "Mặc dù đó là giọng nói của một cậu bé, nhưng tông giọng trầm của Al đủ để làm thay đổi bầu không khí. Ánh mắt Abel nhìn xuống Al cũng trở nên lạnh lùng, khiến Subaru nuốt nước bọt."
+  },
+  {
+    "id": 202,
+    "en": "Abel's relationship with Al was much more fragile than Subaru had expected, although he had not paid much attention to it so far.",
+    "vi": "Mối quan hệ giữa Abel và Al mong manh hơn nhiều so với những gì Subaru nghĩ, dù từ trước đến giờ cậu không mấy bận tâm đến chuyện đó."
+  },
+  {
+    "id": 203,
+    "en": "Originally, Al had accompanied Subaru to the Demon City with the intention of going along with him. And, like Subaru, he was a human being belonging to the Kingdom of Lugunica, so he was not too concerned about Abel's return to the throne.",
+    "vi": "Ban đầu, Al đi cùng Subaru tới Ma Thành chỉ với ý định hộ tống cậu. Và giống như Subaru, cậu ta là người thuộc Vương quốc Lugunica, thế nên chẳng mặn mà gì với việc Abel có giành lại được ngai vàng hay không."
+  },
+  {
+    "id": 204,
+    "en": "In blunt terms, it was the desire of Al’s master, Priscilla.",
+    "vi": "Nói một cách thẳng thừng, đó chỉ là mong muốn của Priscilla, chủ nhân của Al."
+  },
+  {
+    "id": 205,
+    "en": "Therefore, Al personally had no reason to support either Abel's cause or Abel himself.",
+    "vi": "Vì vậy, cá nhân Al không có lý do gì để ủng hộ lý tưởng của Abel hay chính bản thân gã."
+  },
+  {
+    "id": 206,
+    "en": "Here it was manifesting itself as a distinct crack in their relationship.",
+    "vi": "Lúc này, vết rạn nứt rõ rệt trong mối quan hệ của họ đang hiển hiện."
+  },
+  {
+    "id": 207,
+    "en": "Physically, Al had shrunk to a ten-year-old him, but could Abel really beat Al? Al’s true capabilities in this state were unknown to him, and there was no benefit in letting this stare-off continue for long.",
+    "vi": "Về mặt thể chất, Al đã bị thu nhỏ thành đứa trẻ mười tuổi, nhưng liệu Abel có thực sự đánh bại nổi Al? Thực lực thực sự của Al ở trạng thái này là ẩn số đối với cậu, và việc để cuộc đấu mắt này kéo dài lâu cũng chẳng mang lại lợi ích gì."
+  },
+  {
+    "id": 208,
+    "en": "So――,",
+    "vi": "Vì vậy――,"
+  },
+  {
+    "id": 209,
+    "en": "Subaru: [Stop fighting! All right, I lost! I give up!]",
+    "vi": "Subaru: [Đừng cãi nhau nữa! Được rồi, tôi thua! Tôi chịu thua là được chứ gì!]"
+  },
+  {
+    "id": 210,
+    "en": "Wrapping around his protector, Al, to put himself in front, Subaru raised his voice.",
+    "vi": "Vòng qua người bảo vệ mình là Al để tiến lên phía trước, Subaru lớn tiếng."
+  },
+  {
+    "id": 211,
+    "en": "There was nothing good to be gained here in a disagreement among allies. It would be much better for Subaru to become the bad guy, than to continue such a useless struggle.",
+    "vi": "Chẳng có gì tốt đẹp khi xảy ra xích mích giữa các đồng minh cả. Thà rằng Subaru tự nhận mình là kẻ xấu, còn hơn là tiếp tục cuộc tranh chấp vô ích này."
+  },
+  {
+    "id": 212,
+    "en": "Besides, either way, he had been able to warn them.",
+    "vi": "Bên cạnh đó, dù sao đi nữa cậu cũng đã cảnh báo được họ."
+  },
+  {
+    "id": 213,
+    "en": "Taritta, Medium, and even Al must have heard Subaru's plea. They would be very careful once they left the inn.",
+    "vi": "Taritta, Medium và cả Al chắc hẳn đã nghe thấy lời thỉnh cầu của Subaru. Họ sẽ cực kỳ cẩn thận một khi bước chân ra khỏi quán trọ."
+  },
+  {
+    "id": 214,
+    "en": "The problem would be, when death loomed in a way that made caution scarce.",
+    "vi": "Vấn đề sẽ phát sinh khi cái chết ập đến một cách bất ngờ khiến sự cảnh giác không kịp phát huy tác dụng."
+  },
+  {
+    "id": 215,
+    "en": "At that point, Subaru would have to put his body on the line and do something about it.",
+    "vi": "Vào lúc đó, Subaru sẽ phải liều mạng để xoay sở."
+  },
+  {
+    "id": 216,
+    "en": "Subaru: [We can’t be wasting time here! Everyone, ready up!]",
+    "vi": "Subaru: [Chúng ta không thể lãng phí thời gian ở đây nữa! Mọi người, chuẩn bị sẵn sàng đi!]"
+  },
+  {
+    "id": 217,
+    "en": "Abel: [――. So, where do you believe “behind the eyelids” is?]",
+    "vi": "Abel: [――. Thế ngươi tin “phía sau mí mắt” là ở đâu?]"
+  },
+  {
+    "id": 218,
+    "en": "Subaru: [It's…]",
+    "vi": "Là..."
+  },
+  {
+    "id": 219,
+    "en": "At any rate, Subaru insisted that they should avoid wasting time in this place. Abel finally responded positively to Subaru's words.",
+    "vi": "Dù sao đi nữa, Subaru quả quyết rằng họ nên tránh lãng phí thời gian tại đây. Abel cuối cùng cũng phản hồi tích cực trước lời nói của Subaru."
+  },
+  {
+    "id": 220,
+    "en": "The fact that this alone led to relief spoke volumes about the flawed people skills His Excellency the Emperor had.",
+    "vi": "Việc chỉ có vậy cũng làm cậu thấy nhẹ nhõm cho thấy kỹ năng giao tiếp tệ hại của vị Hoàng đế bệ hạ."
+  },
+  {
+    "id": 221,
+    "en": "Anyway, Subaru decided to answer with honesty.",
+    "vi": "Dù thế nào đi nữa, Subaru quyết định trả lời một cách thành thật."
+  },
+  {
+    "id": 222,
+    "en": "Olbart's first hiding place, that would be――,",
+    "vi": "Nơi ẩn nấp đầu tiên của Olbart, đó chính là――,"
+  },
+  {
+    "id": 223,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 224,
+    "en": "Olbart: [Next time, I'll be sure to hide a lil’ better!]",
+    "vi": "Olbart: [Lần tới ta chắc chắn sẽ trốn kỹ hơn một chút đấy nha!]"
+  },
+  {
+    "id": 225,
+    "en": "Al: [Wait, old man…! Shit, he's gone!]",
+    "vi": "Al: [Khoan đã, lão già...! Chết tiệt, biến mất rồi!]"
+  },
+  {
+    "id": 226,
+    "en": "Opening the room’s window, Olbart jumped out of the inn.",
+    "vi": "Mở toang cửa sổ phòng trọ, Olbart nhảy tót ra ngoài."
+  },
+  {
+    "id": 227,
+    "en": "Al hurriedly followed the nimble-footed old man, but by the time he reached the window, the skilled shinobi had long since disappeared into the hustle and bustle of the city.",
+    "vi": "Al vội vàng đuổi theo lão già nhanh chân, nhưng lúc cậu ta chạy đến bên cửa sổ, gã shinobi lão luyện đã biến mất hút từ lâu vào sự nhộn nhịp của thành phố."
+  },
+  {
+    "id": 228,
+    "en": "The speed with which he escaped was peerless, you could only be amazed by it or utterly frustrated.",
+    "vi": "Tốc độ đào tẩu của lão là vô song, người ta chỉ biết kinh ngạc hoặc hoàn toàn bất lực."
+  },
+  {
+    "id": 229,
+    "en": "Taritta: [Subaru, that man's next hiding place…]",
+    "vi": "Taritta: [Subaru, nơi ẩn nấp tiếp theo của người đàn ông đó...]"
+  },
+  {
+    "id": 230,
+    "en": "Medium: [Hmhm, Subaru-chin, did you understand? Do you know what it is?]",
+    "vi": "Medium: [Hửm hửm, Subaru-chin có hiểu không nha? Cậu biết đó là nơi nào không?]"
+  },
+  {
+    "id": 231,
+    "en": "Everything has developed as it had before; with Subaru having found Olbart’s first hiding place without trouble, Taritta and Medium both looked at him with expectation.",
+    "vi": "Mọi chuyện diễn tiến y hệt như trước; trước việc Subaru tìm thấy nơi ẩn nấp đầu tiên của Olbart không chút khó khăn, cả Taritta và Medium đều nhìn cậu với ánh mắt mong đợi."
+  },
+  {
+    "id": 232,
+    "en": "However, unfortunately, the second hiding place―― the answer to \"abyss with a great view\", was unknown.",
+    "vi": "Tuy nhiên, thật không may, nơi trốn thứ hai―― câu trả lời cho “vực sâu với góc nhìn tuyệt hảo”, vẫn là một ẩn số."
+  },
+  {
+    "id": 233,
+    "en": "He was unable to give them a suitable answer, and Medium and the others slumped their shoulders, although they collected themselves again, following the same flow as last time.",
+    "vi": "Cậu không thể đưa ra câu trả lời thích hợp, khiến Medium cùng những người khác xụ mặt thất vọng, dẫu vậy họ nhanh chóng lấy lại tinh thần, diễn tiến theo khuôn mẫu cũ."
+  },
+  {
+    "id": 234,
+    "en": "Al: [So, how's it going, Abel-chan? Bro did a great job guessing right where that old man was, didn't he?]",
+    "vi": "Al: [Thế nào rồi hả Abel-chan? Người anh em đã đoán trúng chóc chỗ lão già kia trốn luôn còn gì, đúng không?]"
+  },
+  {
+    "id": 235,
+    "en": "Abel: [He deserves credit for his accomplishments.]",
+    "vi": "Abel: [Hắn xứng đáng được ghi nhận vì thành tựu đó.]"
+  },
+  {
+    "id": 236,
+    "en": "Al: […That's all?]",
+    "vi": "Al: [...Chỉ thế thôi sao?]"
+  },
+  {
+    "id": 237,
+    "en": "Abel: [As usual, we have no time to spare. We must uncover Olbart's whereabouts twice more. What else is there?]",
+    "vi": "Abel: [Như thường lệ, chúng ta không có thời gian rảnh rỗi. Chúng ta phải vạch trần nơi ẩn nấp của Olbart thêm hai lần nữa. Còn gì khác nữa không?]"
+  },
+  {
+    "id": 238,
+    "en": "Al: […Is that so.]",
+    "vi": "Al: [...Ra vậy sao.]"
+  },
+  {
+    "id": 239,
+    "en": "Perhaps because of the earlier conversation, Al, prodding Abel, drooped his shoulders due to the latter’s answer.",
+    "vi": "Có lẽ do cuộc đối thoại trước đó, Al, người vừa thúc giục Abel, xị vai thất vọng trước câu trả lời của gã."
+  },
+  {
+    "id": 240,
+    "en": "Al's sentiment was nice, but that Abel would react like so was predictable. Subaru did not recall getting any comments on the results or anything in particular from Abel the last time around.",
+    "vi": "Ý tốt của Al thật đáng trân trọng, nhưng việc Abel phản ứng như vậy là điều dễ đoán. Subaru không nhớ có nhận được bất kỳ lời nhận xét nào về kết quả hay bất kỳ sự đặc biệt nào từ Abel ở vòng lặp trước."
+  },
+  {
+    "id": 241,
+    "en": "In fact, it was difficult to imagine him praising others, not just Subaru, honestly.",
+    "vi": "Thực tế, thành thật mà nói, rất khó để tưởng tượng ra cảnh gã khen ngợi người khác chứ không riêng gì Subaru."
+  },
+  {
+    "id": 242,
+    "en": "This time, it was just another act that did not betray Abel’s character.",
+    "vi": "Lần này, đó chỉ là một hành động khác không hề đi lệch khỏi tính cách của Abel."
+  },
+  {
+    "id": 243,
+    "en": "Taritta: [“With a great view” means it's probably considered a high place, no?]",
+    "vi": "Taritta: [“Với góc nhìn tuyệt hảo” thì chắc hẳn đó phải là một nơi trên cao đúng không ạ?]"
+  },
+  {
+    "id": 244,
+    "en": "Medium: [“But an abyss” is a hole, right? If it's a hole, wouldn't it be in the ground?]",
+    "vi": "Medium: [Nhưng vực sâu là một cái hố đúng không nha? Nếu là hố thì chẳng phải nó phải ở dưới đất sao?]"
+  },
+  {
+    "id": 245,
+    "en": "Subaru: [I think you’re both on the right track. To answer that question… Abel, I believe you wanted to go to a place with a lot of people?]",
+    "vi": "Subaru: [Tôi nghĩ cả hai người đều đang đi đúng hướng rồi đấy. Để giải quyết câu hỏi đó... Abel, tôi tin anh muốn đến một nơi đông đúc đúng chứ?]"
+  },
+  {
+    "id": 246,
+    "en": "Abel: [――――]",
+    "vi": "Abel: [————]"
+  },
+  {
+    "id": 247,
+    "en": "Taritta and Medium speculated on Olbart’s next hiding place.",
+    "vi": "Taritta và Medium cùng suy đoán về nơi trốn tiếp theo của Olbart."
+  },
+  {
+    "id": 248,
+    "en": "To move that discussion forward, Subaru wanted to implement the plan from Abel that had not come to pass in the previous loop. As per his memories, Abel had originally planned to go to a crowded tavern.",
+    "vi": "Để thúc đẩy cuộc thảo luận tiến triển, Subaru muốn thực thi kế hoạch của Abel vốn chưa kịp diễn ra ở vòng lặp trước. Theo ký ức của cậu, Abel ban đầu đã lên kế hoạch đến một tửu quán đông đúc."
+  },
+  {
+    "id": 249,
+    "en": "As soon as they left the inn, a sudden \"death\" had befallen Subaru and the others amidst the street.",
+    "vi": "Ngay khi vừa rời quán trọ, một cái chết đột ngột đã ập xuống đầu Subaru cùng những người khác ở ngay giữa đường phố."
+  },
+  {
+    "id": 250,
+    "en": "Putting it in another way, the moment in question was fast approaching.",
+    "vi": "Nói cách khác, thời khắc định mệnh ấy đang cận kề."
+  },
+  {
+    "id": 251,
+    "en": "Subaru: [Oi, Abel?]",
+    "vi": "Subaru: [Này, Abel?]"
+  },
+  {
+    "id": 252,
+    "en": "Abel: [――. Your thoughts are not erroneous. A location with many people coming and going… It would also be preferable to be in a place with a lot of people.]",
+    "vi": "Abel: [――. Suy nghĩ của ngươi không sai. Một địa điểm với lượng người qua lại tấp nập... Sẽ tốt hơn nếu là một nơi đông đúc.]"
+  },
+  {
+    "id": 253,
+    "en": "Al: [A place where people come and go…]",
+    "vi": "Al: [Nơi mọi người qua lại sao...]"
+  },
+  {
+    "id": 254,
+    "en": "Subaru: [A place to drink… A tavern, was it?]",
+    "vi": "Subaru: [Nơi ăn nhậu... Ý anh là tửu quán à?]"
+  },
+  {
+    "id": 255,
+    "en": "The conversation proceeded at a brisk pace, and Abel nodded in agreement once Subaru used that word.",
+    "vi": "Cuộc đối thoại diễn ra với tốc độ nhanh chóng, và Abel gật đầu tán thành ngay khi Subaru dùng từ ngữ đó."
+  },
+  {
+    "id": 256,
+    "en": "And so, once they were all settled on leaving the inn and head for a tavern――,",
+    "vi": "And so, once they were all settled on leaving the inn and head for a tavern――,"
+  },
+  {
+    "id": 257,
+    "en": "Abel: [We shall avoid the front, and leave using the inn’s backdoor.]",
+    "vi": "Abel: [Chúng ta sẽ tránh cửa trước, và rời đi bằng lối cửa sau của quán trọ.]"
+  },
+  {
+    "id": 258,
+    "en": "And it was Abel, of all people, to speak so.",
+    "vi": "And it was Abel, of all people, to speak so."
+  },
+  {
+    "id": 259,
+    "en": "Subaru let out a dumbfounded \"What?” to that change in opinions. Al and Taritta raised their eyes, as well.",
+    "vi": "Subaru thốt lên một tiếng “Hả?” ngớ ngẩn trước sự thay đổi ý kiến ấy. Al và Taritta cũng nhướng mắt kinh ngạc."
+  },
+  {
+    "id": 260,
+    "en": "Medium: [Huh? Abel-chin, does that mean you believe what Subaru-chin said?]",
+    "vi": "Medium: [Hả? Abel-chin nói vậy nghĩa là anh tin lời Subaru-chin nói rồi đúng không nha?]"
+  },
+  {
+    "id": 261,
+    "en": "Abel: [There is nothing better than staying vigilant. Now that we have pinpointed Olbart’s whereabouts, there is room for consideration. What I am saying is nothing more, yes?]",
+    "vi": "Abel: [Cẩn tắc vô áy náy. Giờ chúng ta đã xác định được tung tích của Olbart, chuyện này rất đáng để cân nhắc. Những gì ta nói chỉ có thế mà thôi, đúng chứ?]"
+  },
+  {
+    "id": 262,
+    "en": "Subaru: […You, really are a piece of work.]",
+    "vi": "Subaru: [...Anh đúng là một gã phiền phức thật đấy.]"
+  },
+  {
+    "id": 263,
+    "en": "To those words laced with resentment from Subaru, Abel merely responded with a snort from his nose.",
+    "vi": "Trước những lời lẽ pha lẫn sự bất bình từ Subaru, Abel chỉ đáp lại bằng một cái hừ mũi."
+  },
+  {
+    "id": 264,
+    "en": "However, his haughty attitude aside, Abel's decision was helpful to Subaru. Subaru was similarly hoping to somehow lead everyone to the backdoor.",
+    "vi": "Tuy nhiên, gạt thái độ ngạo mạn của gã qua một bên, quyết định của Abel đã trợ giúp Subaru rất nhiều. Bản thân Subaru cũng đang hy vọng bằng cách nào đó dẫn mọi người đi cửa sau."
+  },
+  {
+    "id": 265,
+    "en": "Al: [I think, that means he has the intention to properly give you credit, bro.]",
+    "vi": "Al: [Tôi nghĩ, thế nghĩa là anh ta có ý định ghi nhận công lao của cậu một cách đàng hoàng đấy, người anh em.]"
+  },
+  {
+    "id": 266,
+    "en": "Subaru: […Looks like it. Rather, that's the way it's always been.]",
+    "vi": "Subaru: [...Có vẻ là thế. Hay nói đúng hơn, gã vẫn luôn như vậy từ trước đến nay.]"
+  },
+  {
+    "id": 267,
+    "en": "Somehow, he also doubted Abel's attitude of \"definite punishment or reward\".",
+    "vi": "Bằng cách nào đó, cậu cũng hiểu được thái độ thưởng phạt phân minh của Abel."
+  },
+  {
+    "id": 268,
+    "en": "If he could understand that aspect, it should help him to get a rough idea of a way to deal with Abel; Subaru himself was already supposed to start grasping him this way.",
+    "vi": "Nếu có thể nắm bắt được phương diện đó, nó sẽ giúp cậu có được hình dung đại khái về cách đối phó với Abel; bản thân Subaru đáng lẽ ra đã phải bắt đầu hiểu gã theo cách này rồi."
+  },
+  {
+    "id": 269,
+    "en": "It was as if he were learning how to deal with Abel all over again.",
+    "vi": "Cứ như thể cậu đang học lại cách đối phó với Abel từ đầu vậy."
+  },
+  {
+    "id": 270,
+    "en": "Al: [But I'm still stunned that you were able to guess the old man’s location. I dunno how you did it. ――It’s like, you read a strategy guide for this.]",
+    "vi": "Al: [Nhưng tôi vẫn choáng váng vì cậu đoán trúng chỗ lão già kia ẩn nấp đấy. Tôi chẳng biết cậu làm thế nào nữa. ――Cứ như thể cậu đọc sách hướng dẫn giải mã vậy.]"
+  },
+  {
+    "id": 271,
+    "en": "Subaru: [A strategy guide, that sounds so damn nostalgic. Well, it’d be useful to have something like that, but that’s not remotely it. That was just experience coming into play.]",
+    "vi": "Subaru: [Sách hướng dẫn sao, nghe hoài niệm quá đi mất. Chà, có thứ như thế thì tiện thật đấy, nhưng hoàn toàn không phải đâu. Đó chỉ là kinh nghiệm được phát huy tác dụng thôi.]"
+  },
+  {
+    "id": 272,
+    "en": "Al: [Experience? Of playing hide-and-seek?]",
+    "vi": "Al: [Kinh nghiệm ư? Trò chơi trốn tìm á?]"
+  },
+  {
+    "id": 273,
+    "en": "Subaru: [It's similar, you know. Like before… Like before?]",
+    "vi": "Subaru: [Cũng tương tự vậy thôi. Giống như hồi trước... Giống như hồi trước sao?]"
+  },
+  {
+    "id": 274,
+    "en": "As he responded to his achievement of finding Olbart being probed, Subaru’s thoughts ground to a halt.",
+    "vi": "Trong lúc đáp lời khi thành tích tìm ra Olbart của mình bị thăm dò, dòng suy nghĩ của Subaru bỗng chốc khựng lại."
+  },
+  {
+    "id": 275,
+    "en": "One of the reasons as to why Subaru had been able to tell that Olbart was hiding in the starting room, was because that was a typical development for the kind of behavior a person like him would have.",
+    "vi": "Một trong những lý do giúp Subaru đoán ra Olbart trốn ở căn phòng khởi đầu là bởi đó là lối diễn biến điển hình đối với hành vi của một kẻ như lão."
+  },
+  {
+    "id": 276,
+    "en": "Still, someone must have done something similar to that predictable event before Olbart.",
+    "vi": "Thế nhưng, chắc chắn đã có ai đó từng làm điều tương tự trước Olbart."
+  },
+  {
+    "id": 277,
+    "en": "So, Subaru should remember it clearly.",
+    "vi": "Vì vậy, đáng lẽ Subaru phải nhớ rõ nó mới phải."
+  },
+  {
+    "id": 278,
+    "en": "Al: [Forgetting things? Forgetfulness’s something old people do. Funny that, contrary to what you’d expect, although you’re young now, you’re forgetful too, bro.]",
+    "vi": "Al: [Quên đồ à? Đãng trí là chuyện của người già mà. Buồn cười là trái với mong đợi, dù cậu đang trẻ con hóa nhưng cũng hay quên thật đấy, người anh em.]"
+  },
+  {
+    "id": 279,
+    "en": "Subaru: [Forgetful…]",
+    "vi": "Subaru: [Hay quên...]"
+  },
+  {
+    "id": 280,
+    "en": "Al: [That's it, isn't it? If it was someone else, it was someone close to you, bro. It shouldn’t be the silver-haired girl, maybe the loli that was always with you…]",
+    "vi": "Al: [Đúng thế đúng không? Nếu là người khác, thì đó phải là một người thân cận với cậu cơ, người anh em. Không phải cô nàng tóc bạc đâu, mà có lẽ là nhóc loli lúc nào cũng kè kè bên cậu...]"
+  },
+  {
+    "id": 281,
+    "en": "Subaru: [――Beatrice!]",
+    "vi": "Subaru: [――Beatrice!]"
+  },
+  {
+    "id": 282,
+    "en": "Al: [Whoa.]",
+    "vi": "Al: [Ối.]"
+  },
+  {
+    "id": 283,
+    "en": "Al's shoulders trembled as Subaru looked up and gave a powerful shout.",
+    "vi": "Đôi vai Al khẽ run lên khi Subaru ngẩng đầu lên hét lớn một cách dõng dạc."
+  },
+  {
+    "id": 284,
+    "en": "But Subaru had no time to deal with Al's surprise. Of course not.",
+    "vi": "Nhưng Subaru không có thời gian để để tâm đến sự ngạc nhiên của Al. Tất nhiên là không rồi."
+  },
+  {
+    "id": 285,
+    "en": "Subaru: [Stop joking…]",
+    "vi": "Subaru: [Đừng đùa nữa...]"
+  },
+  {
+    "id": 286,
+    "en": "No matter what he made of it, it was strange.",
+    "vi": "Bất luận thế nào, chuyện này thật quá kỳ lạ."
+  },
+  {
+    "id": 287,
+    "en": "It was Beatrice, Beatrice. Subaru's partner, a Great Spirit both pretty and sweet. The clue to finding Olbart had been the first prank she played on Subaru.",
+    "vi": "Đó là Beatrice, Beatrice. Cộng sự của Subaru, một Đại Tinh Linh vừa xinh xắn vừa ngọt ngào. Manh mối để tìm ra Olbart chính là trò đùa đầu tiên cô bé chơi cùng Subaru."
+  },
+  {
+    "id": 288,
+    "en": "If there was anyone that could take credit for that, it should be earned by Subaru and Beatrice.",
+    "vi": "Nếu có ai xứng đáng nhận công lao cho việc đó, thì đó phải là Subaru và Beatrice."
+  },
+  {
+    "id": 289,
+    "en": "And yet, it was impossible that he’d just let that slip away.",
+    "vi": "Thế mà, làm sao cậu có thể lãng quên điều đó được chứ."
+  },
+  {
+    "id": 290,
+    "en": "It was something that shouldn’t have happened.",
+    "vi": "Đó là chuyện lẽ ra không được phép xảy ra."
+  },
+  {
+    "id": 291,
+    "en": "Taritta: [Subaru, Al, please come here!]",
+    "vi": "Taritta: [Subaru, Al, mau lại đây ạ!]"
+  },
+  {
+    "id": 292,
+    "en": "Suddenly, Taritta's sharp voice called out to the stunned Subaru.",
+    "vi": "Đột nhiên, giọng nói sắc sảo của Taritta cất lên gọi Subaru đang bàng hoàng."
+  },
+  {
+    "id": 293,
+    "en": "Looking up at her in reflex, he saw Taritta at the back door of the inn, peeking out the crack of the slightly-open door to the outside. Her face, seen from the side, had a look of intense alarm.",
+    "vi": "Ngước lên nhìn cô theo phản xạ, cậu thấy Taritta đang đứng ở cửa sau quán trọ, ghé mắt qua khe cửa hé mở nhìn ra ngoài. Gương mặt nhìn nghiêng của cô lộ rõ vẻ cảnh giác cao độ."
+  },
+  {
+    "id": 294,
+    "en": "The reason for this alertness was probably nothing other than the death that had struck Subaru and the others――,",
+    "vi": "Lý do cho sự cảnh giác ấy chắc chắn không gì khác ngoài cái chết từng ập xuống đầu Subaru cùng những người khác――,"
+  },
+  {
+    "id": 295,
+    "en": "Taritta: [――We're already surrounded. There's probably close to a hundred of them.]",
+    "vi": "Taritta: [――Chúng ta đã bị bao vây rồi. Phải có tới gần trăm tên đấy ạ.]"
+  }
+];
+
+fs.writeFileSync(path.join(tempDir, 'ch44_part3.json'), JSON.stringify(part3, null, 2), 'utf-8');
+console.log('Saved ch44_part3.json');

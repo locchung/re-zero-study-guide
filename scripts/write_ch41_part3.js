@@ -1,0 +1,594 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part3 = [
+  {
+    "id": 241,
+    "en": "At a loss for words for an instance, Olbart's voice was laced with a hint of surprise.",
+    "vi": "Bị nghẹn lời trong một khoảnh khắc, giọng nói của Olbart lộ ra một tia ngạc nhiên."
+  },
+  {
+    "id": 242,
+    "en": "Perceiving that with clarity, Subaru called out to Abel at the back of the room. This far in the game, Abel did not try to refute Subaru's words and actions.",
+    "vi": "Nhận thức rõ điều đó, Subaru gọi vọng tới Abel ở phía cuối phòng. Cuộc chơi đã tiến triển đến mức này, Abel không hề cố gắng phản bác lời nói hay hành động của Subaru."
+  },
+  {
+    "id": 243,
+    "en": "Just inaudibly, his gentle fingers reached for his face. And then——,",
+    "vi": "Chỉ trong im lặng, những ngón tay thon dài của gã đưa lên chạm vào mặt mình. Và rồi——,"
+  },
+  {
+    "id": 244,
+    "en": "Olbart: [——This is one hell of a thing.]",
+    "vi": "Olbart: [——Chuyện này quả thực vô lý hết sức nha.]"
+  },
+  {
+    "id": 245,
+    "en": "A concealed visage was revealed in front of Olbart, the latter letting out a voice of astonishment. Before his eyes, the one gazing back at Olbart as his face was tense, was a dark-haired beauty—— none other than the Emperor, Vincent Vollachia.",
+    "vi": "Gương mặt che giấu được phơi bày trước mặt Olbart, khiến lão thốt lên một giọng kinh ngạc. Trước mắt lão, người đang nhìn thẳng lại Olbart với nét mặt căng thẳng là một mỹ nam tóc đen—— không ai khác ngoài Hoàng đế, Vincent Vollachia."
+  },
+  {
+    "id": 246,
+    "en": "Olbart: [Your Excellency? But that's too weird, isn't it? But then, who’d I come wi——]",
+    "vi": "Olbart: [Bệ hạ? Nhưng thế thì kỳ quặc quá đúng không nhỉ? Cơ mà thế thì ta đã đi cùng với ai——]"
+  },
+  {
+    "id": 247,
+    "en": "Abel: [Let your old wits run wild, Olbart Dunkelkenn. You possess the answers. All that remains is to draw them out.]",
+    "vi": "Abel: [Hãy vận dụng bộ óc già cỗi của ngươi đi, Olbart Dunkelkenn. Ngươi đã có sẵn câu trả lời rồi. Việc còn lại chỉ là rút nó ra thôi.]"
+  },
+  {
+    "id": 248,
+    "en": "Olbart: [With the face of Your Excellency, sayin’ things that sound like Your Excellency… Ah, so that’s it.]",
+    "vi": "Olbart: [Với gương mặt của Bệ hạ, nói những lời nghe giống như Bệ hạ... À, ra là thế nha.]"
+  },
+  {
+    "id": 249,
+    "en": "At first he had been taken aback, but the old shinobi soon regained his composure.",
+    "vi": "Ban đầu lão có hơi sửng sốt, nhưng thủ lĩnh shinobi già nhanh chóng lấy lại sự bình tĩnh."
+  },
+  {
+    "id": 250,
+    "en": "Having revealed his face, Abel passed an order as the Emperor, and doing as he had said, Olbart seemed to come to a conclusion of the situation he was in with the information he had.",
+    "vi": "Sau khi lộ mặt, Abel đưa ra mệnh lệnh với tư cách Hoàng đế, và đúng như gã nói, Olbart dường như đã đi đến kết luận về tình cảnh hiện tại dựa trên những thông tin lão có."
+  },
+  {
+    "id": 251,
+    "en": "Olbart put his hand on his chin, and,",
+    "vi": "Olbart đặt tay lên cằm, và,"
+  },
+  {
+    "id": 252,
+    "en": "Olbart: [Then that’d be Chisha. He's got it all under control… There’s another matter, tho’. It's not like ya, Your Excellency, ta let somethin’ like that happen ta ya, is it?",
+    "vi": "Olbart: [Vậy thì đó chắc là Chisha rồi. Hắn ta kiểm soát mọi thứ rồi mà lị... Nhưng còn một chuyện nữa nha. Bệ hạ mà lại để chuyện như thế xảy ra với mình sao, đúng không nhỉ?]"
+  },
+  {
+    "id": 253,
+    "en": "Abel: [You think your eyes can peer into the depths of my mind?]",
+    "vi": "Abel: [Ngươi nghĩ đôi mắt của ngươi có thể nhìn thấu tâm can ta sao?]"
+  },
+  {
+    "id": 254,
+    "en": "Olbart: [Oh, very scary, very scary.]",
+    "vi": "Olbart: [Ồ, đáng sợ quá, đáng sợ quá nha.]"
+  },
+  {
+    "id": 255,
+    "en": "Waving both his hands in the air, he let out a parched sound at Abel's answer.",
+    "vi": "Vẫy vẫy cả hai tay trên không trung, lão phát ra một tiếng cười khan trước câu trả lời của Abel."
+  },
+  {
+    "id": 256,
+    "en": "In fact, as Olbart had stated, Abel's situation was definitely a groggy one, but his overwhelming bluff did not show any of that.",
+    "vi": "Thực tế, đúng như Olbart nhận định, tình cảnh của Abel rõ ràng là đang chao đảo, nhưng thế nghi binh áp đảo của gã không hề để lộ bất kỳ điều đó."
+  },
+  {
+    "id": 257,
+    "en": "Upon seeing the change in Olbart's expression, however, the tension left Subaru's shoulders as well.",
+    "vi": "Tuy vậy, chứng kiến sự thay đổi trong nét mặt của Olbart, sự căng thẳng cũng vơi bớt khỏi đôi vai Subaru."
+  },
+  {
+    "id": 258,
+    "en": "Olbart understood the situation.",
+    "vi": "Olbart đã hiểu rõ tình hình."
+  },
+  {
+    "id": 259,
+    "en": "Abel had been ousted from his position as Emperor, and Vincent, the man he was accompanying, was a false Emperor.",
+    "vi": "Abel đã bị phế truất khỏi ngôi vị Hoàng đế, và Vincent, kẻ mà lão đồng hành cùng, chỉ là Hoàng đế giả."
+  },
+  {
+    "id": 260,
+    "en": "Olbart: [A lotta things that’d been confusin’ me have become clear. No, I was wondering why ya suddenly came ta see the foxgirl in person.]",
+    "vi": "Olbart: [Nhiều điều khúc mắc làm ta bối rối bấy lâu nay đã sáng tỏ rồi. Không, ta cứ tự hỏi tại sao ngươi lại đột nhiên đích thân đến gặp cô nàng cáo đó chứ.]"
+  },
+  {
+    "id": 261,
+    "en": "Subaru: [All of that… was to stifle the actions of our side.]",
+    "vi": "Subaru: [Tất cả chuyện đó... là để bóp nghẹt mọi hành động từ phía chúng tôi.]"
+  },
+  {
+    "id": 262,
+    "en": "Olbart: [Hahaa, it's hard for ol’ people ta keep up with the ideas of ya smart folks, actually. Young, smart, good lookin’, I guess that’s bein’ super-greedy. Don't’cha think so, too? Don't’cha think? Since you're also so young. Oh, that's because of what I did! Kakakakka.]",
+    "vi": "Olbart: [Hà hà, người già quả thực khó mà theo kịp ý tưởng của đám người thông minh các ngươi đấy chứ. Trẻ trung, thông minh lại còn ưa nhìn, ta đoán thế là tham lam quá mức rồi đấy nha. Nhóc có nghĩ vậy không? Nhóc cũng nghĩ thế đúng không nhỉ? Bởi vì nhóc cũng trẻ măng thế kia mà. Ồ, đó là nhờ thuật của ta làm mà lị! Kakakakka.]"
+  },
+  {
+    "id": 263,
+    "en": "Olbart roared with laughter, trying to get a laugh out of them with what he had said, even though it was not funny.",
+    "vi": "Olbart cười lớn, cố chọc cười bọn họ bằng những lời lão vừa nói, mặc dù điều đó chẳng có gì đáng cười."
+  },
+  {
+    "id": 264,
+    "en": "Subaru's cheeks tightened at the sight, and he exhaled a long breath, suddenly looking at Taritta.",
+    "vi": "Cơ má Subaru siết chặt lại trước cảnh tượng đó, cậu thở hắt ra một hơi dài, rồi chợt nhìn sang Taritta."
+  },
+  {
+    "id": 265,
+    "en": "The Shudraq warrior still kept a wary eye, her bow trained on Olbart. He was attempting to get her to break her battle stance, and regain control of the situation.",
+    "vi": "Nữ chiến binh Shudraq vẫn giữ ánh mắt cảnh giác cao độ, cây cung của cô vẫn chĩa thẳng vào Olbart. Cậu đang cố gắng làm cô từ bỏ tư thế chiến đấu để giành lại quyền kiểm soát tình hình."
+  },
+  {
+    "id": 266,
+    "en": "Subaru: [Taritta-san, you can put your bow down now. Olbart-san’s…]",
+    "vi": "Subaru: [Taritta-san, cô hạ cung xuống được rồi. Olbart-san...]"
+  },
+  {
+    "id": 267,
+    "en": "Olbart: [Oh? No, ya don't have ta put it down, do ya? I think it's impossible for that girl ta lower her guard in front of someone she's not sure isn't an enemy.]",
+    "vi": "Olbart: [Ồ? Không, đâu nhất thiết phải hạ xuống đúng không nhỉ? Ta nghĩ cô bé đó không thể nào lơi lỏng cảnh giác trước một kẻ mà cô bé không chắc có phải kẻ địch hay không đâu nha.]"
+  },
+  {
+    "id": 268,
+    "en": "Subaru: [Huh?]",
+    "vi": "Subaru: [Hả?]"
+  },
+  {
+    "id": 269,
+    "en": "Olbart himself, the target of Taritta's bow, was the one to halt Subaru’s effort to get her to lower her guard and talk to him.",
+    "vi": "Chính Olbart, mục tiêu của cây cung trong tay Taritta, lại là người ngăn chặn nỗ lực của Subaru nhằm bảo cô hạ vũ khí để nói chuyện."
+  },
+  {
+    "id": 270,
+    "en": "The old man took Taritta's caution as something natural, furthermore he did not do anything to try to deny the “naturalness” that was incomprehensible for Subaru.  ——In other words, the danger stemming from himself had not lessened.",
+    "vi": "Lão già coi sự đề phòng của Taritta là lẽ đương nhiên, hơn nữa lão cũng không làm gì để phủ nhận cái \"lẽ đương nhiên\" mà Subaru khó lòng hiểu nổi ấy. ——Nói cách khác, mối nguy hiểm xuất phát từ chính bản thân lão vẫn không hề giảm bớt."
+  },
+  {
+    "id": 271,
+    "en": "However, then it would be as if——,",
+    "vi": "Thế nhưng, nếu vậy thì chẳng khác nào——,"
+  },
+  {
+    "id": 272,
+    "en": "Subaru: [Let's talk about this…]",
+    "vi": "Subaru: [Chúng ta hãy bàn về chuyện này...]"
+  },
+  {
+    "id": 273,
+    "en": "Olbart: [Didn’t’cha hear me? I said I’d make a decision after I listened ta ya. And I did.]",
+    "vi": "Olbart: [Nhóc không nghe ta nói sao? Ta bảo là ta sẽ đưa ra quyết định sau khi lắng nghe các nhóc. Và ta đã làm thế rồi nha.]"
+  },
+  {
+    "id": 274,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 275,
+    "en": "Subaru’s throat clogged up, yet, faced with that, Olbart's attitude did not alter.",
+    "vi": "Cổ họng Subaru nghẹn đắng, thế mà đối diện với điều đó, thái độ của Olbart vẫn chẳng mảy may thay đổi."
+  },
+  {
+    "id": 276,
+    "en": "There was merely a quiet click of the tongue, and,",
+    "vi": "Chỉ có một tiếng tặc lưỡi khe khẽ vang lên, và,"
+  },
+  {
+    "id": 277,
+    "en": "Abel: [This was one of those cards I did not know which way it would tend towards, but that is what you have decided, huh.]",
+    "vi": "Abel: [Đây vốn là một trong những quân bài ta không biết sẽ ngả về hướng nào, nhưng ngươi đã quyết định như vậy rồi sao.]"
+  },
+  {
+    "id": 278,
+    "en": "Olbart: [That doesn't sound like ya, Your Excellency. No, it's fatal that you’re seriously outta cards ta play… And ta boot, ya weren’t lucky on the draw here. Ya know, I've always wanted ta try it.]",
+    "vi": "Olbart: [Nghe chẳng giống ngươi chút nào cả, Bệ hạ. Không, việc ngươi thực sự hết sạch bài để diễn là điều chí mạng đấy... Và tệ hơn nữa là vận may bốc bài của ngươi ở đây chẳng tốt chút nào nha. Biết gì không, ta đã luôn muốn thử chuyện đó đấy.]"
+  },
+  {
+    "id": 279,
+    "en": "Abel: [Ho, and that would be?]",
+    "vi": "Abel: [Ồ, và đó là gì?]"
+  },
+  {
+    "id": 280,
+    "en": "Olbart's plan was set, and the shinobi head honcho laughed at the words of the ousted Emperor.",
+    "vi": "Kế hoạch của Olbart đã định đoạt, thủ lĩnh shinobi cười nhạo trước lời nói của vị Hoàng đế bị phế truất."
+  },
+  {
+    "id": 281,
+    "en": "A laugh, suitable for the man holding the title of “Vicious Old Man”,",
+    "vi": "Một điệu cười vô cùng phù hợp với kẻ mang danh hiệu “Lão Già Hiểm Độc” (Vicious Old Man),"
+  },
+  {
+    "id": 282,
+    "en": "Olbart: [With me being an ol’ man with not long left ta live, I’ve always wholeheartedly wanted ta try and kill the Emperor, ta have a glorious death.]",
+    "vi": "Olbart: [Là một lão già chẳng còn sống được bao lâu, ta luôn toàn tâm toàn ý muốn thử giết chết Hoàng đế một lần, để có được một cái chết vinh quang đấy nha.]"
+  },
+  {
+    "id": 283,
+    "en": "Everyone: [——Hk.]",
+    "vi": "Mọi người: [——Hự.]"
+  },
+  {
+    "id": 284,
+    "en": "The moment that vicious wish was spoken, movement occurred amidst that highly-strung environment.",
+    "vi": "Khoảnh khắc nguyện vọng hiểm độc kia vừa dứt, chuyển động lập tức nổ ra giữa bầu không khí căng như dây đàn."
+  },
+  {
+    "id": 285,
+    "en": "That very moment, Taritta, Al, and Medium all moved to frustrate Olbart's purpose, overriding the \"no fighting\" rule given to each one of them.",
+    "vi": "Ngay giây phút đó, Taritta, Al và Medium đều hành động nhằm phá vỡ ý đồ của Olbart, gạt phăng quy tắc \"không được chiến đấu\" áp đặt lên mỗi người bọn họ."
+  },
+  {
+    "id": 286,
+    "en": "However——,",
+    "vi": "Thế nhưng——,"
+  },
+  {
+    "id": 287,
+    "en": "Olbart: [Yesterday, I couldn’t understand what trick ya were usin’, one-armed one. But it stopped workin’ since ya turned little, didn't it?]",
+    "vi": "Olbart: [Hôm qua ta không tài nào hiểu nổi nhóc đã dùng mánh khóe gì đấy nha, gã cụt tay kia. Nhưng nó đã vô hiệu kể từ khi nhóc biến thành trẻ con rồi đúng không nhỉ?]"
+  },
+  {
+    "id": 288,
+    "en": "Al: [Ka… Hk.]",
+    "vi": "Al: [Khốn... Hự.]"
+  },
+  {
+    "id": 289,
+    "en": "Olbart: [Can’t use the skills ya learned at a later age when you’re young.]",
+    "vi": "Olbart: [Nhóc không thể sử dụng những kỹ năng học được khi lớn tuổi hơn khi nhóc còn nhỏ đâu nha.]"
+  },
+  {
+    "id": 290,
+    "en": "Having spoken those words, Olbart twisted his neck and swung his hands.",
+    "vi": "Dứt lời, Olbart vặn cổ và vung tay."
+  },
+  {
+    "id": 291,
+    "en": "Blood splattered from his fingertips, and a tragedy unfolded in Subaru's field of vision, his eyes open to their utmost.",
+    "vi": "Máu tươi bắn tung tóe từ đầu ngón tay lão, và một thảm kịch lập tức phơi bày trước tầm mắt trợn tròn hết cỡ của Subaru."
+  },
+  {
+    "id": 292,
+    "en": "Medium and Al, who had stepped in and tried to subdue Olbart, had their necks gouged out and blood spouted out. The blood scattered within the room like a fountain, making a person wonder where had so much blood flowed within a small child’s body.",
+    "vi": "Medium và Al, những người vừa lao lên cố gắng khuất phục Olbart, đã bị khoét cổ họng khiến máu phun trào xối xả. Máu tươi bắn tung tóe trong phòng như vòi phun nước, làm người ta phải kinh ngạc tự hỏi làm thế nào mà lại có nhiều máu chảy bên trong cơ thể một đứa trẻ nhỏ bé đến thế."
+  },
+  {
+    "id": 293,
+    "en": "Al: [Tch, ah… Hk]",
+    "vi": "Al: [Tặc, á... Hự]"
+  },
+  {
+    "id": 294,
+    "en": "Olbart: [Judgin’ from this, looks like ya aren’t able ta use yer last ray of hope. Still, I ended up doin’ ya in before finding out how yer trick works, that’s how it was, huh. I messed up, I messed up.]",
+    "vi": "Olbart: [Đánh giá từ chuyện này thì có vẻ nhóc không thể dùng đến tia hy vọng cuối cùng của mình rồi nhỉ. Cơ mà ta lại lỡ tay kết liễu nhóc trước khi tìm hiểu ra cơ chế hoạt động mánh khóe của nhóc mất rồi, ra là thế sao. Ta sai sót quá, sai sót quá đi nha.]"
+  },
+  {
+    "id": 295,
+    "en": "Al crouched there, holding the gushing wound. Medium's eyes went blank and she fell backward, motionless.",
+    "vi": "Al gục xuống tại chỗ, tay bịt chặt vết thương đang tuôn máu. Đôi mắt Medium trở nên vô hồn và cô bé ngã nhào ra sau, hoàn toàn bất động."
+  },
+  {
+    "id": 296,
+    "en": "It was obvious that what they had suffered, was a fatal wound that could not be recovered from.",
+    "vi": "Rõ ràng những gì họ phải gánh chịu là vết thương chí mạng không thể nào cứu vãn được."
+  },
+  {
+    "id": 297,
+    "en": "And Taritta, the only one ready to take on Olbart head-on——,",
+    "vi": "Và Taritta, người duy nhất sẵn sàng đối đầu trực diện với Olbart——,"
+  },
+  {
+    "id": 298,
+    "en": "Subaru: [——Ah.]",
+    "vi": "Subaru: [——A.]"
+  },
+  {
+    "id": 299,
+    "en": "Subaru had been wondering why a shot had not been loosened from the bow.",
+    "vi": "Subaru tự hỏi tại sao một phát bắn vẫn chưa được thả ra từ cây cung."
+  },
+  {
+    "id": 300,
+    "en": "However, the suspicion that the attack that was supposed to take place did not, made Subaru direct his gaze in that direction.",
+    "vi": "Thế nhưng, sự nghi ngờ về việc cuộc tấn công đáng lẽ phải diễn ra lại không xảy ra đã khiến Subaru hướng mắt nhìn về phía đó."
+  },
+  {
+    "id": 301,
+    "en": "Taritta was pinned to the wall.",
+    "vi": "Taritta đã bị đóng đinh vào bức tường."
+  },
+  {
+    "id": 302,
+    "en": "Tall for a woman, Taritta’s slender frame was rested against the wall, her body pinned in place. The reason for her immobilization was a throwing weapon protruding from the center of her cleavage—— a shuriken. [2]",
+    "vi": "Cao ráo so với một phụ nữ, thân hình mảnh mai của Taritta tựa vào tường, cơ thể cô bị ghim chặt tại chỗ. Lý do cô bị bất động là một món vũ khí ám khí nhô ra từ chính giữa khe ngực—— một chiếc shuriken. [2]"
+  },
+  {
+    "id": 303,
+    "en": "As if some kind of joke, the star-shaped projectile had pierced Taritta's chest, skewering her back and pinning her to the wall. Her heart had been destroyed, it was clear she had perished instantly.",
+    "vi": "Cứ như một trò đùa tai ác, món ám khí hình ngôi sao đã xuyên thủng lồng ngực Taritta, ghim chặt lưng cô vào tường. Trái tim cô đã bị hủy hoại, rõ ràng cô đã tử vong ngay tức khắc."
+  },
+  {
+    "id": 304,
+    "en": "Abel: [——Even though you were told not to interfere, you could not help yourself.]",
+    "vi": "Abel: [——Dẫu đã được căn dặn không được can thiệp, các ngươi vẫn không thể kiềm chế được bản thân.]"
+  },
+  {
+    "id": 305,
+    "en": "Suddenly, a man's voice echoed in that room rife with death.",
+    "vi": "Đột nhiên, giọng nói của một người đàn ông vang lên trong căn phòng ngập tràn tử khí."
+  },
+  {
+    "id": 306,
+    "en": "It had come from Abel, standing in a room that had become full of corpses terrifyingly fast. Having left his seat, the man looked down with a penetrating gaze at Olbart, the architect of all this death.",
+    "vi": "Nó phát ra từ Abel, người đang đứng trong căn phòng đã biến thành đống xác chết với tốc độ nhanh đến đáng sợ. Rời khỏi chỗ ngồi, người đàn ông nhìn xuống bằng ánh mắt sâu hoắm chĩa về phía Olbart, kiến trúc sư của tấn thảm kịch chết chóc này."
+  },
+  {
+    "id": 307,
+    "en": "Bathed in that glare, Olbart wiped the blood splattered on his cheek with his finger,",
+    "vi": "Đắm mình trong ánh nhìn trừng trừng đó, Olbart dùng ngón tay lau vệt máu bắn trên má lão,"
+  },
+  {
+    "id": 308,
+    "en": "Olbart: [Yeah. I wanna set off some big fireworks before I die. I'd be completely satisfied ta murder the greatest Emperor of all time, and be executed for it.]",
+    "vi": "Olbart: [Đúng vậy nha. Ta muốn đốt một trận pháo hoa thật lớn trước khi nhắm mắt xuôi tay. Ta sẽ hoàn toàn mãn nguyện khi ám sát được vị Hoàng đế vĩ đại nhất mọi thời đại, dẫu có bị hành quyết vì điều đó đi chăng nữa.]"
+  },
+  {
+    "id": 309,
+    "en": "Abel: [I couldn’t read your destructive tastes. My oversight.]",
+    "vi": "Abel: [Ta đã không thể lường trước được sở thích hủy diệt của ngươi. Là sơ suất của ta.]"
+  },
+  {
+    "id": 310,
+    "en": "Olbart: [Kakakakka! No, no, no, if my dreams of growin’ old were known, I’d be so ashamed that I wouldn't be able ta live.]",
+    "vi": "Olbart: [Kakakakka! Không đâu, không đâu nha, nếu những giấc mơ lúc về già của ta bị lộ ra thì ta sẽ xấu hổ đến mức chẳng thiết sống nữa đâu.]"
+  },
+  {
+    "id": 311,
+    "en": "Al had ceased moving, and Medium and Taritta had stopped breathing.",
+    "vi": "Al đã ngừng động đậy, còn Medium và Taritta cũng đã tắt thở."
+  },
+  {
+    "id": 312,
+    "en": "Under such circumstances, that conversation between Emperor and vassal seemed, to Subaru, to be something from another world. However, it was not another world. It was real. Real, overwhelming reality.",
+    "vi": "Dưới những hoàn cảnh ấy, cuộc đối thoại giữa Hoàng đế và bề tôi đối với Subaru giống như một câu chuyện ở thế giới khác. Thế nhưng, đây không phải thế giới khác. Nó là sự thật. Một sự thật hiển nhiên, áp đảo hoàn toàn."
+  },
+  {
+    "id": 313,
+    "en": "This was the reality that Subaru had arrived at, after making the wrong choice.",
+    "vi": "Đây chính là thực tế mà Subaru đã chuốc lấy sau khi đưa ra lựa chọn sai lầm."
+  },
+  {
+    "id": 314,
+    "en": "Olbart: [Once I’m done with Your Excellency, I’ll go back ta Chisha. I'm sure he'll be able ta handle my death just fine.]",
+    "vi": "Olbart: [Sau khi giải quyết xong xuôi với Bệ hạ, ta sẽ quay lại chỗ Chisha. Ta chắc chắn hắn ta sẽ xử lý cái chết của ta ổn thỏa thôi mà lị.]"
+  },
+  {
+    "id": 315,
+    "en": "Subaru: [I'm… Hk.]",
+    "vi": "Subaru: [Tôi... Hự.]"
+  },
+  {
+    "id": 316,
+    "en": "Olbart: [Oh? Oh, you’re still there.]",
+    "vi": "Olbart: [Ồ? Ồ, nhóc vẫn còn ở đó sao.]"
+  },
+  {
+    "id": 317,
+    "en": "To Subaru, who had spoken up too late, Olbart turned around, the latter plunging into the atmosphere that marked finality.",
+    "vi": "Hướng về phía Subaru, người vừa lên tiếng quá muộn màng, Olbart quay người lại, bầu không khí bao trùm xung quanh lão nhuốm màu định đoạt."
+  },
+  {
+    "id": 318,
+    "en": "The old man turned his neck with a snap to keep Subaru, his own face rigid, in check. Then, pointing to those fallen, Al, Medium and Taritta in turn,",
+    "vi": "Lão già ngoảnh cổ kêu răng rắc để kiềm chế Subaru đang đứng đờ mặt ra. Sau đó, lão lần lượt chỉ tay vào những người đã ngã xuống là Al, Medium và Taritta,"
+  },
+  {
+    "id": 319,
+    "en": "Olbart: [That’s that. These guys tried ta kill me, so I killed ‘em back, but there really isn’t a reason for ya ta die, right? I don’t have the intention ta become a fugitive, so there’s no reason ta silence ya as well.]",
+    "vi": "Olbart: [Là thế đấy nha. Lũ nhóc này cố giết ta nên ta giết lại tụi nó thôi, chứ thực ra đâu có lý do gì để nhóc phải chết đúng không nhỉ? Ta cũng chẳng có ý định trở thành kẻ đào tẩu, nên cũng không có lý do gì phải giết nhóc bịt đầu mối cả nha.]"
+  },
+  {
+    "id": 320,
+    "en": "Subaru: [Da, ah…]",
+    "vi": "Subaru: [Khốn, nạn...]"
+  },
+  {
+    "id": 321,
+    "en": "Olbart: [Oh, guess I went ahead and spoke a lot again. It’s obvious that ya got somethin’ to say, so open yer mouth. I'm an ol’ man with a short life ahead of me, so I can't wait that long tho’, ya know?]",
+    "vi": "Olbart: [Ồ, hình như ta lại luyên thuyên hơi nhiều rồi đấy nhỉ. Rõ ràng là nhóc có điều muốn nói, nên hãy mở miệng ra đi nha. Ta là lão già chẳng còn sống được bao lâu nữa, nên ta không thể đợi lâu thế đâu đấy chứ?]"
+  },
+  {
+    "id": 322,
+    "en": "As Olbart continued to speak leisurely at his own pace, Subaru's thoughts turned white. —— No, his thoughts were being dyed a bright-red. Whether it was anger or the color of the blood that Al and the others had shed, even Subaru himself could not tell.",
+    "vi": "Khi Olbart tiếp tục ung dung nói chuyện theo nhịp độ của riêng lão, tâm trí Subaru bỗng chốc trống rỗng. —— Không, đầu óc cậu đang bị nhuộm một màu đỏ rực. Là do cơn thịnh nộ hay là sắc đỏ của dòng máu mà bọn Al vừa đổ xuống, ngay cả bản thân Subaru cũng không thể phân định nổi."
+  },
+  {
+    "id": 323,
+    "en": "But even so, whatever, at any rate, never, here——,",
+    "vi": "Nhưng dẫu thế, bất luận thế nào, tuyệt đối quyết không bao giờ ở đây——,"
+  },
+  {
+    "id": 324,
+    "en": "Abel: [——Fool.]",
+    "vi": "Abel: [——Kẻ ngu xuẩn.]"
+  },
+  {
+    "id": 325,
+    "en": "And so, those contemptuous words came from Abel.",
+    "vi": "Và thế là, những lời khinh bỉ đó phát ra từ Abel."
+  },
+  {
+    "id": 326,
+    "en": "Currently, his gaze must be piercing the back of Subaru's head. Feeling the pressure of his sharp gaze, Subaru was made keenly aware of the accuracy of his words.",
+    "vi": "Hiện tại, ánh mắt của gã chắc chắn đang đâm xuyên qua sau gáy Subaru. Cảm nhận được áp lực từ ánh nhìn sắc lẹm đó, Subaru nhận thức sâu sắc về tính chuẩn xác trong lời nói của gã."
+  },
+  {
+    "id": 327,
+    "en": "There was no point in standing up for Abel now, with this.",
+    "vi": "Chẳng có ý nghĩa gì khi đứng ra bảo vệ Abel vào lúc này nữa cả."
+  },
+  {
+    "id": 328,
+    "en": "If he had been able to act in such a manner before Al, Medium and Taritta had fallen, perhaps it would have been possible to change something,",
+    "vi": "Nếu cậu có thể hành động theo cách như vậy trước khi Al, Medium và Taritta ngã xuống, có lẽ đã có thể thay đổi được điều gì đó rồi,"
+  },
+  {
+    "id": 329,
+    "en": "Louis: [Uu…!]",
+    "vi": "Louis: [Uu...!]"
+  },
+  {
+    "id": 330,
+    "en": "Olbart: [Oioi, you’re even usin’ a lil’ girl that’s got no connection to me? Your Excellency's method of doin’ things must have been somethin’ that women and young children hated for sure.]",
+    "vi": "Olbart: [Ơ kìa, nhóc thậm chí còn đem cả một cô bé chẳng liên quan gì đến ta ra làm lá chắn sao? Phương thức hành sự của Bệ hạ chắc chắn phải là thứ mà phụ nữ và trẻ nhỏ vô cùng căm ghét đấy nha.]"
+  },
+  {
+    "id": 331,
+    "en": "In front of Olbart, who was putting his hand on his forehand, stood Louis. ——No, Louis was not standing in front of Olbart, but in front of Subaru.",
+    "vi": "Trước mặt Olbart, kẻ đang đưa tay lên trán mình, chính là Louis đang đứng chắn. ——Không, Louis không đứng chắn trước mặt Olbart, mà là đứng chắn trước mặt Subaru."
+  },
+  {
+    "id": 332,
+    "en": "Subaru was shielding Abel, and Louis was shielding Subaru, the three of them standing in a straight line.",
+    "vi": "Subaru đang che chở cho Abel, còn Louis thì đang che chở cho Subaru, ba người bọn họ xếp thành một hàng thẳng tắp."
+  },
+  {
+    "id": 333,
+    "en": "It was just some absurd form of a meat shield.",
+    "vi": "Đó chỉ là một kiểu lá chắn thịt hết sức lố bịch."
+  },
+  {
+    "id": 334,
+    "en": "Olbart: [I thought Your Excellency was supposed ta die alone.]",
+    "vi": "Olbart: [Ta cứ nghĩ Bệ hạ đáng lẽ phải chết trong đơn độc chứ nhỉ.]"
+  },
+  {
+    "id": 335,
+    "en": "Abel: [——. Not everything goes according to one’s calculations.]",
+    "vi": "Abel: [——. Không phải mọi chuyện đều diễn ra theo đúng tính toán của con người.]"
+  },
+  {
+    "id": 336,
+    "en": "Olbart: [Kakakakka!]",
+    "vi": "Olbart: [Kakakakka!]"
+  },
+  {
+    "id": 337,
+    "en": "Abel's inability to keep his mouth shut at this point was met with a sneer and a loud laugh from Olbart.",
+    "vi": "Việc Abel không thể im miệng vào lúc này chỉ nhận lại cái cười khẩy cùng tiếng cười lớn vang dội của Olbart."
+  },
+  {
+    "id": 338,
+    "en": "Within the eyes of the elderly shinobi, neither Subaru's nor Louis's presence were reflected. But he was not so kind as to overlook those who stood before him with hostility.",
+    "vi": "Trong đôi mắt của thủ lĩnh shinobi già nua, cả sự hiện diện của Subaru lẫn Louis đều không hề phản chiếu. Nhưng lão cũng không tử tế đến mức bỏ qua cho những kẻ dám đứng cản đường mình với lòng thù địch."
+  },
+  {
+    "id": 339,
+    "en": "Henceforth——,",
+    "vi": "Bởi thế——,"
+  },
+  {
+    "id": 340,
+    "en": "Subaru: [——I'll never forgive you.]",
+    "vi": "Subaru: [——Tôi sẽ không bao giờ tha thứ cho ông.]"
+  },
+  {
+    "id": 341,
+    "en": "Natsuki Subaru's young body spurted blood and sank into a cold pool of blood, searing into his mind the face of the shinobi as the latter guffawed viciously during his attempt to satisfy his ambition.",
+    "vi": "Cơ thể nhỏ bé của Natsuki Subaru phun máu xối xả rồi chìm vào vũng máu lạnh ngắt, khắc sâu vào tâm khảm cậu gương mặt của tên shinobi khi lão cười sảng khoái hiểm độc trong nỗ lực thỏa mãn dã tâm của mình."
+  },
+  {
+    "id": 342,
+    "en": "And so——,",
+    "vi": "Và thế là——,"
+  },
+  {
+    "id": 343,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 344,
+    "en": "Blood flowed and a hot sensation gushed from the wound.",
+    "vi": "Máu chảy đầm đìa và một cảm giác nóng rát trào ra từ vết thương."
+  },
+  {
+    "id": 345,
+    "en": "The hotness that overflowed endlessly, however, instantly drained the heat from his body.",
+    "vi": "Tuy nhiên, luồng hơi nóng tràn ra vô tận ấy lập tức hút cạn hơi ấm khỏi cơ thể cậu."
+  },
+  {
+    "id": 346,
+    "en": "That which had flowed out rapidly swallowed him, drowned him, rendered him invisible, and then, after he had sunk to the depths of the ocean, he would, he would——,",
+    "vi": "Thứ tuôn ra ào ạt ấy nhanh chóng nuốt chửng cậu, nhấn chìm cậu, khiến cậu không còn thấy gì nữa, và rồi, sau khi cậu chìm xuống đáy sâu đại dương, cậu sẽ, cậu sẽ——,"
+  },
+  {
+    "id": 347,
+    "en": "Subaru: [————]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 348,
+    "en": "Instantly, the lost blood coursed through Subaru’s body, producing a loud noise in his ears.",
+    "vi": "Tức khắc, dòng máu tưởng chừng đã mất lại tuần hoàn cuồn cuộn khắp cơ thể Subaru, tạo nên những tiếng động lớn bên tai cậu."
+  },
+  {
+    "id": 349,
+    "en": "Accompanying the sensation of having his hearing sharpened to the extreme, came the cacophony of blood flowing through him in a quiet space. While being struck by it over his whole body, Subaru let out a ragged exhalation.",
+    "vi": "Đồng hành cùng cảm giác thính giác được nhạy bén đến cực hạn là mớ âm thanh hỗn tạp của dòng máu chảy khắp cơ thể cậu trong một không gian tĩnh lặng. Trong khi toàn thân bị chấn động bởi luồng xúc cảm đó, Subaru thở hắt ra một hơi đứt quãng."
+  },
+  {
+    "id": 350,
+    "en": "With violence he bit his back teeth, his vision flickering on and off due to the distant pain and sense of loss.",
+    "vi": "Cậu nghiến chặt răng hàm một cách thô bạo, tầm nhìn chập chờn lúc tỏ lúc mờ vì cơn đau cùng cảm giác mất mát sâu xa vừa trải qua."
+  },
+  {
+    "id": 351,
+    "en": "He wished to find out where he had returned to——,",
+    "vi": "Cậu mong muốn tìm ra xem mình đã quay trở lại thời điểm nào——,"
+  },
+  {
+    "id": 352,
+    "en": "???: [I've taken the liberty of makin’ tea for myself, does anyone else want some?]",
+    "vi": "???: [Ta tự tiện pha trà cho mình rồi, có ai muốn dùng thêm không nhỉ?]"
+  },
+  {
+    "id": 353,
+    "en": "A moment later, a vicious, unforgettable voice announced the overture of a new battle for Natsuki Subaru.",
+    "vi": "Một khoảnh khắc sau, một giọng nói hiểm độc, không thể nào quên vang lên, báo hiệu khúc dạo đầu cho một cuộc chiến mới của Natsuki Subaru."
+  },
+  {
+    "id": 354,
+    "en": "Translation notes:",
+    "vi": "Chú thích bản dịch:"
+  },
+  {
+    "id": 355,
+    "en": "[1] Subaru slips into his Natsumi Schwartz style of speech for a second here.",
+    "vi": "[1] Subaru thoáng chuyển sang phong cách nói chuyện của Natsumi Schwartz trong một giây ở đây."
+  },
+  {
+    "id": 356,
+    "en": "[2] A shuriken is a concealed weapon originally used as a hidden dagger or as a diversion, used as supplementary weapons. For more information, see here https://en.wikipedia.org/wiki/Shuriken.",
+    "vi": "[2] Shuriken là một loại vũ khí ám khí ban đầu được sử dụng như một loại dao găm giấu kín hoặc để đánh lạc hướng, đóng vai trò vũ khí bổ trợ."
+  }
+];
+
+fs.writeFileSync(path.join(tempDir, 'ch41_part3.json'), JSON.stringify(part3, null, 2), 'utf-8');
+console.log('Saved ch41_part3.json');

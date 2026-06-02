@@ -1,0 +1,714 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const tempDir = path.join(__dirname, 'translation_temp');
+
+const part1 = [
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Machine Translated By :",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 6,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 7,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 8,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 9,
+    "en": "――That proposal spun by the hoarse voice greatly befuddled Subaru and the others.",
+    "vi": "――Đề xuất thốt ra từ giọng nói khàn khàn kia khiến Subaru cùng những người khác vô cùng bối rối."
+  },
+  {
+    "id": 10,
+    "en": "Everyone: [――――]",
+    "vi": "Mọi người: [————]"
+  },
+  {
+    "id": 11,
+    "en": "The \"infantilization\" that had assailed Subaru’s group, and its mastermind, Olbart Dunkelkenn.",
+    "vi": "Sự \"trẻ con hóa\" đã tấn công nhóm Subaru, và kẻ chủ mưu đứng sau nó, Olbart Dunkelkenn."
+  },
+  {
+    "id": 12,
+    "en": "Subaru and the others, who sought to negotiate with Olbart in order to get him to release his infantilization off them, were presented a condition that was befitting of the old man―― no, befitting of the monstrous old man who was toying with their bodies and minds alike; a strange condition, which would lead one’s heart astray upon being heard.",
+    "vi": "Subaru cùng những người khác, vốn đang tìm cách thương lượng với Olbart để lão hóa giải thuật trẻ con hóa cho họ, lại phải nhận một điều kiện rất đỗi phù hợp với lão già―― không, phù hợp với lão già quái vật đang đùa giỡn cả thể xác lẫn tâm trí bọn họ; một điều kiện kỳ quặc khiến người ta không khỏi hoang mang khi nghe thấy."
+  },
+  {
+    "id": 13,
+    "en": "After all――,",
+    "vi": "Bởi lẽ――,"
+  },
+  {
+    "id": 14,
+    "en": "Subaru: [Playing, tag…?]",
+    "vi": "Subaru: [Chơi, đuổi bắt sao...?]"
+  },
+  {
+    "id": 15,
+    "en": "Subaru, who had been dreading what kind of unreasonable request was going to be posed, ruminated on the words he had just been told.",
+    "vi": "Subaru, người vẫn luôn lo sợ không biết lão sẽ đưa ra yêu cầu vô lý đến nhường nào, ngẫm nghĩ về những lời mình vừa nghe."
+  },
+  {
+    "id": 16,
+    "en": "At the sound of Subaru's voice, Olbart, his hands up in the air, frowned quizzically.",
+    "vi": "Nghe giọng của Subaru, Olbart đưa hai tay lên không trung và khẽ nhíu mày tinh quái."
+  },
+  {
+    "id": 17,
+    "en": "Olbart: [What's with the question mark? You're not gonna tell me ya dunno how ta play tag, are ya?]",
+    "vi": "Olbart: [Hỏi thế là sao hả nhóc? Nhóc không định bảo với ta là mình không biết chơi trò đuổi bắt đấy chứ?]"
+  },
+  {
+    "id": 18,
+    "en": "Subaru: [Of course I know what it is. It's just that, it's not a word that should come up in this situation.]",
+    "vi": "Subaru: [Dĩ nhiên là tôi biết rồi. Chỉ là, đó không phải là từ ngữ nên xuất hiện trong hoàn cảnh này thôi.]"
+  },
+  {
+    "id": 19,
+    "en": "No matter how it was framed, it was merely a child's game of \"tag\".",
+    "vi": "Bất luận có diễn giải thế nào, đó cũng chỉ là trò chơi \"đuổi bắt\" của trẻ con."
+  },
+  {
+    "id": 20,
+    "en": "It was hard to imagine that there was another meaning to it. Although, since it would be the kind of game of tag played in a shinobi village, there was a good chance that it would have a unique set of rules.",
+    "vi": "Thật khó để tưởng tượng có một ý nghĩa khác ẩn sau đó. Tuy nhiên, vì đây là trò đuổi bắt chơi ở một làng shinobi, rất có khả năng nó sẽ có một bộ quy tắc độc nhất vô nhị."
+  },
+  {
+    "id": 21,
+    "en": "For example, something like――,",
+    "vi": "Ví dụ như kiểu――,"
+  },
+  {
+    "id": 22,
+    "en": "Subaru: [“Killin’ isn’t against the rules while playin’, tho’”, something like that.]",
+    "vi": "Subaru: [“Trong lúc chơi dẫu có giết nhau cũng không phạm luật”, đại loại thế.]"
+  },
+  {
+    "id": 23,
+    "en": "Olbart: [Kakakakka! Of course not. If that kinda nonsense were popular, the shinobi’d be extinct in no time flat. And that by my hands, with me bein’ their leader. That’d be bad, wouldn't it?]",
+    "vi": "Olbart: [Kakakakka! Đương nhiên là không rồi nha. Nếu ba cái trò nhảm nhí đó mà phổ biến thì giới shinobi đã tuyệt chủng từ lâu rồi mà lị. Hơn nữa lại còn là dưới tay ta, thủ lĩnh của bọn họ nữa chứ. Như thế thì tệ lắm đúng không nhỉ?]"
+  },
+  {
+    "id": 24,
+    "en": "Although Olbart denied Subaru's concerns, Subaru believed him to be a man willing to stain his own hands with the blood of his own people if necessary, taking into account his violent behavior and the things he had said and done so far.",
+    "vi": "Dẫu Olbart phủ nhận mối lo ngại của Subaru, song Subaru tin rằng lão là kẻ sẵn sàng nhuốm máu đồng bào của mình nếu cần thiết, xem xét hành vi bạo lực cùng những lời nói và việc làm của lão từ trước đến nay."
+  },
+  {
+    "id": 25,
+    "en": "To be honest, he would not have been that surprised if that shinobi village of his had already been destroyed.",
+    "vi": "Thẳng thắn mà nói, cậu cũng chẳng mấy ngạc nhiên nếu cái làng shinobi của lão đã bị hủy diệt từ lâu rồi."
+  },
+  {
+    "id": 26,
+    "en": "Abel: [――That tag thing, how does it function?]",
+    "vi": "Abel: [――Trò đuổi bắt đó hoạt động thế nào?]"
+  },
+  {
+    "id": 27,
+    "en": "Rather than Subaru, who was burning with suspicion, it was Abel who urged him to go ahead.",
+    "vi": "Thay vì Subaru, người đang bừng bừng lòng hoài nghi, chính Abel lại là người giục giã lão tiếp tục."
+  },
+  {
+    "id": 28,
+    "en": "His cheeks twisting into a smile, Olbart let out an “Oh”,",
+    "vi": "Cơ má nhăn lại thành một nụ cười, Olbart thốt lên một tiếng: “Ồ”,"
+  },
+  {
+    "id": 29,
+    "en": "Olbart: [You seem ta be more enthusiastic than I’d expected, masked young'un.]",
+    "vi": "Olbart: [Nhìn nhóc có vẻ hào hứng hơn ta tưởng đấy, cậu nhóc đeo mặt nạ.]"
+  },
+  {
+    "id": 30,
+    "en": "Abel: [Foolishness. We have already passed the point of not getting into this game, as soon as we divulged that we possess the information you covet.]",
+    "vi": "Abel: [Vô lý. Ngay khi chúng ta tiết lộ rằng mình đang nắm giữ thông tin ngươi thèm khát, chúng ta đã không còn đường lui để từ chối trò chơi này rồi.]"
+  },
+  {
+    "id": 31,
+    "en": "Olbart: [Kakakakka! Well, guess you're right.]",
+    "vi": "Olbart: [Kakakakka! Chà, ta đoán nhóc nói đúng rồi nha.]"
+  },
+  {
+    "id": 32,
+    "en": "Opening his mouth so wide that it looked like his jaw was about to come off, Olbart gave a hearty laugh without reservations.",
+    "vi": "Ngoác miệng rộng đến mức tưởng chừng quai hàm sắp rớt ra, Olbart cười lớn một cách sảng khoái mà không chút e dè."
+  },
+  {
+    "id": 33,
+    "en": "In fact, Abel's point was correct. Olbart's idea was vicious. Regardless of whether he won or lost this game of tag, Olbart would obtain the information he desired.",
+    "vi": "Thực tế, phán đoán của Abel là hoàn toàn chính xác. Ý đồ của Olbart vô cùng hiểm độc. Bất luận thắng thua trong trò đuổi bắt này ra sao, Olbart vẫn sẽ có được thông tin lão thèm khát."
+  },
+  {
+    "id": 34,
+    "en": "The purpose of this game of tag was to allow them to choose how they wished to give up that information, whether after negotiations, or after torture.",
+    "vi": "Mục đích của trò đuổi bắt này chỉ là để họ lựa chọn cách thức dâng thông tin đó ra, hoặc là sau khi đàm phán, hoặc là sau khi bị tra tấn."
+  },
+  {
+    "id": 35,
+    "en": "Olbart: [So, there's nothin’ really special about how “tag” works. One side runs away, and the other side catches the other… Oh, it’d be better if I were the one runnin’ away. Ya know, since chasin’ a large group of people ‘round’s too much for an ol’ man's stamina.]",
+    "vi": "Olbart: [Vậy nên, cách thức đuổi bắt chẳng có gì đặc biệt cả nha. Một bên chạy trốn, bên kia thì đuổi theo bắt... Ồ, để ta làm bên chạy trốn thì tốt hơn đấy nhỉ. Biết đấy, bắt một nhóm người chạy tán loạn thì quá sức chịu đựng đối với thể lực của một lão già mà lị.]"
+  },
+  {
+    "id": 36,
+    "en": "Medium: [So, if we catch Gramps running away, we win? That’s easy to understand.]",
+    "vi": "Medium: [Vậy là nếu bọn tôi bắt được ông lão đang chạy trốn thì bọn tôi thắng đúng không nha? Thế thì dễ hiểu quá rồi.]"
+  },
+  {
+    "id": 37,
+    "en": "Taritta: [It's easy to understand, but…]",
+    "vi": "Taritta: [Dễ hiểu thật đấy, nhưng mà...]"
+  },
+  {
+    "id": 38,
+    "en": "To Olbart's explanation of the rules, Medium reacted optimistically, and Taritta pessimistically.",
+    "vi": "Trước lời giải thích luật chơi của Olbart, Medium phản ứng một cách lạc quan, còn Taritta lại đầy bi quan."
+  },
+  {
+    "id": 39,
+    "en": "Subaru's opinion was also leaning more towards Taritta’s. Indeed, the rules were simple and there was no room for uncertainty to interfere. ――In other words, it was all up to one’s ability.",
+    "vi": "Quan điểm của Subaru cũng nghiêng về phía Taritta hơn. Quả thực, luật chơi quá đơn giản và không có chỗ cho những yếu tố bất định xen vào. ――Nói cách khác, tất cả hoàn toàn dựa vào thực lực."
+  },
+  {
+    "id": 40,
+    "en": "And on the topic of ability, the total sum of the ability of Subaru’s group was nowhere near that of Olbart’s.",
+    "vi": "Mặc dù thực lực, tổng sức mạnh của nhóm Subaru cộng lại cũng chẳng thể nào chạm tới gấu áo của Olbart."
+  },
+  {
+    "id": 41,
+    "en": "Olbart: [Well, might be hard with all the lil’ ones. Then we can loosen the conditions a tad.]",
+    "vi": "Olbart: [Chà, lũ nhóc toàn đứa bé thế này thì có vẻ hơi khó khăn rồi nha. Vậy ta nới lỏng điều kiện một chút nhé.]"
+  },
+  {
+    "id": 42,
+    "en": "Taritta: [And the person who did it, doesn’t even feel guilty…!]",
+    "vi": "Taritta: [Thế mà kẻ gây ra chuyện này lại chẳng có lấy một chút cảm giác tội lỗi nào sao...!]"
+  },
+  {
+    "id": 43,
+    "en": "Olbart: [Don't get so upset, ya know. If yer finger comes off the bowstring, I'll have a good reason ta defend myself, and it’ll all become a lot easier.]",
+    "vi": "Olbart: [Đừng nổi giận thế chứ nha. Nếu ngón tay nhóc rời khỏi dây cung, ta sẽ có lý do chính đáng để tự vệ, và mọi chuyện sẽ trở nên dễ dàng hơn nhiều đấy nha.]"
+  },
+  {
+    "id": 44,
+    "en": "Taritta: [――――]",
+    "vi": "Taritta: [————]"
+  },
+  {
+    "id": 45,
+    "en": "As Olbart glanced at the faces in the room and shrugged his shoulders, Taritta clacked her molars together.",
+    "vi": "Khi Olbart liếc nhìn gương mặt của mọi người trong phòng và nhún vai, Taritta nghiến chặt răng hàm kêu ken két."
+  },
+  {
+    "id": 46,
+    "en": "It was as the monstrous old man had pointed out; Taritta's bow still remained trained on Olbart. However, the person in question, Olbart, ignored it with a straight face, and rather used it as a bargaining chip.",
+    "vi": "Đúng như những gì lão già quái vật đã chỉ ra; cây cung của Taritta vẫn chĩa thẳng vào Olbart. Thế nhưng, đối tượng bị nhắm bắn là Olbart lại ngó lơ chuyện đó với nét mặt thản nhiên, thậm chí còn lấy nó làm quân bài mặc cả."
+  },
+  {
+    "id": 47,
+    "en": "One could only imagine the mental turmoil Taritta was feeling. But the priority right now was――,",
+    "vi": "Người ta chỉ có thể tưởng tượng ra sự hỗn loạn trong tâm trí Taritta lúc này. Nhưng ưu tiên hàng đầu hiện tại là――,"
+  },
+  {
+    "id": 48,
+    "en": "Subaru: [What do you mean, loosen the conditions?]",
+    "vi": "Subaru: [Ý ông nới lỏng điều kiện là thế nào?]"
+  },
+  {
+    "id": 49,
+    "en": "Olbart: [Talkin’ ‘bout the way we’ll be playin’ tag, here. How ‘bout, ya don't have ta catch me, but instead, if ya find me, ya win. But you’d have to do it thrice.]",
+    "vi": "Olbart: [Ta đang nói về cách thức đuổi bắt ở đây nha. Hay là thế này đi, các nhóc không cần phải bắt được ta, thay vào đó chỉ cần tìm thấy ta là thắng. Nhưng các nhóc phải làm được thế ba lần nha.]"
+  },
+  {
+    "id": 50,
+    "en": "Subaru: [Thrice…]",
+    "vi": "Subaru: [Ba lần sao...]"
+  },
+  {
+    "id": 51,
+    "en": "Olbart: [I’ll hide thrice. Ya folks’re gonna have ta try and find me three times. If ya can't, ya lose. In this case, it's no game of tag, it's a game of seek… which sounds kinda weird.]",
+    "vi": "Olbart: [Ta sẽ trốn ba lần. Các nhóc phải cố gắng tìm ra ta đủ ba lần nha. Nếu không làm được, các nhóc thua. Trong trường hợp này, đó không phải trò đuổi bắt nữa mà là trò tìm kiếm... nghe có vẻ hơi kỳ cục nhỉ.]"
+  },
+  {
+    "id": 52,
+    "en": "“It don’t sound quite right”, said Olbart, cocking his head in puzzlement.",
+    "vi": "“Nghe có vẻ không chuẩn lắm”, Olbart nói rồi nghiêng đầu phân vân."
+  },
+  {
+    "id": 53,
+    "en": "Taking in the old man's suggestion, the words that came from within Subaru, were――,",
+    "vi": "Tiếp nhận lời đề xuất của lão già, những từ ngữ bật ra từ miệng Subaru là――,"
+  },
+  {
+    "id": 54,
+    "en": "Subaru: [――Hide-and-seek?]",
+    "vi": "Subaru: [――Trò trốn tìm sao?]"
+  },
+  {
+    "id": 55,
+    "en": "Olbart: [Oh yeah, that's a good name. We’ll just use that.]",
+    "vi": "Olbart: [Ồ phải rồi, cái tên hay đấy nha. Chúng ta cứ dùng cái tên đó đi.]"
+  },
+  {
+    "id": 56,
+    "en": "With a snap of his fingers, Olbart clicked at the sound of \"hide-and-seek\".",
+    "vi": "Búng tay một cái kêu tách, Olbart tỏ vẻ đồng ý với cụm từ \"trốn tìm\"."
+  },
+  {
+    "id": 57,
+    "en": "As he did so, Olbart held up one finger on each of his outstretched hands, and flashed them to the left and right on the spot for all to see.",
+    "vi": "Vừa làm vậy, Olbart vừa giơ một ngón tay ở mỗi bàn tay đang dang rộng của mình lên, rồi lắc lư chúng sang trái sang phải ngay tại chỗ cho mọi người cùng thấy."
+  },
+  {
+    "id": 58,
+    "en": "Olbart: [In tag, ya only gotta catch me once. In hide-and-seek, ya gotta find me thrice. ――I don't think I need ta tell ya which one you’ve got a better chance of winnin’, do I?]",
+    "vi": "Olbart: [Trong trò đuổi bắt, các nhóc chỉ cần bắt được ta một lần. Còn trong trò trốn tìm, các nhóc phải tìm ra ta ba lần. ――Ta thiết nghĩ mình chẳng cần phải nói xem bên nào các nhóc có cơ hội chiến thắng cao hơn đâu nhỉ?]"
+  },
+  {
+    "id": 59,
+    "en": "Once Olbart posed that question, shutting one eye, Subaru let out a gasp.",
+    "vi": "Khi Olbart đặt câu hỏi đó trong lúc nhắm một mắt lại, Subaru khẽ thở hắt ra."
+  },
+  {
+    "id": 60,
+    "en": "Olbart was right, this was a question that required no further thought. ――Given Olbart’s ability as someone transcendental, something Subaru was already aware of, there was no reason for them to opt for a game of tag.",
+    "vi": "Olbart nói đúng, đây là câu hỏi không cần phải đắn đo thêm. ――Xét đến thực lực siêu phàm của Olbart mà Subaru đã được chứng kiến trước đó, họ không có lý do gì để lựa chọn trò đuổi bắt."
+  },
+  {
+    "id": 61,
+    "en": "There shouldn’t, yet――,",
+    "vi": "Lẽ ra là không nên, thế mà――,"
+  },
+  {
+    "id": 62,
+    "en": "Al: [Ain’t that so kind of you. Can't help but wonder if there's more to it, since you went to the trouble of suggesting a method that’d give us a better chance of winning.]",
+    "vi": "Al: [Lão tốt bụng quá đấy chứ. Tôi không kìm nổi ý nghĩ liệu có uẩn khúc gì sau chuyện này không, khi lão lại cất công đề xuất một phương thức giúp bọn tôi có cơ hội thắng cao hơn thế này.]"
+  },
+  {
+    "id": 63,
+    "en": "With Olbart attempting to pass on the odds of victory to them, Al snapped at him.",
+    "vi": "Trước việc Olbart cố tình nhường cơ hội chiến thắng cho bọn họ, Al vặn hỏi."
+  },
+  {
+    "id": 64,
+    "en": "As a substitute for the helmet he had taken off, Al now had a cloth wrapped around his face. His voice, now high in pitch as he had become younger, was a bit muffled through the cloth, albeit not to the point that it was difficult to understand.",
+    "vi": "Để thay thế cho chiếc mũ giáp đã cởi ra, Al giờ quấn một mảnh vải quanh mặt. Giọng nói của cậu ta, giờ đã cao hơn do bị trẻ con hóa, nghe hơi nghẹt qua lớp vải, dẫu vậy vẫn không đến mức khó hiểu."
+  },
+  {
+    "id": 65,
+    "en": "Olbart, having listened to Al's words, shrugged his shoulders.",
+    "vi": "Olbart lắng nghe lời của Al rồi nhún vai."
+  },
+  {
+    "id": 66,
+    "en": "Olbart: [Oioi, don't make the mistake of thinkin’ that I'm an ol’ man who wants ta win at all costs, young’un. As far as I'm concerned, it’d be better if ya folks win, okay? I'm doin’ this ‘cause I wanna know if ya folks’re worth listenin’ to.]",
+    "vi": "Olbart: [Ơ kìa nhóc, đừng nhầm tưởng ta là một lão già muốn thắng bằng mọi giá nha. Về phần ta, các nhóc thắng thì tốt hơn đấy chứ, hiểu chưa hả? Ta làm vậy là vì muốn xem các nhóc có đáng để ta lắng nghe hay không thôi nha.]"
+  },
+  {
+    "id": 67,
+    "en": "Al: [――――]",
+    "vi": "Al: [————]"
+  },
+  {
+    "id": 68,
+    "en": "Olbart: [As for me, I'm quite interested in what ya folks have ta say. But is it wrong for me ta be worried ‘bout my retirement savings if I'm caught in some random lie and my loyalty to His Excellency’s questioned? Ta prevent that from happenin’, I'm usin’ my sluggish brain ta come up with this plan.]",
+    "vi": "Olbart: [Bản thân ta khá hứng thú với những gì các nhóc muốn nói. Nhưng bộ ta lo lắng cho khoản tiền dưỡng già của mình nếu lỡ bị phát hiện nói dối và lòng trung thành với Bệ hạ bị nghi ngờ là sai sao nhỉ? Để ngăn chuyện đó xảy ra, ta đã phải dùng cái đầu óc chậm chạp này vắt óc nghĩ ra kế hoạch này đấy nha.]"
+  },
+  {
+    "id": 69,
+    "en": "Waving his left and right indexes, Olbart answered Al aloofly.",
+    "vi": "Vẩy vẩy hai ngón tay trỏ trái phải, Olbart trả lời Al một cách thờ ơ."
+  },
+  {
+    "id": 70,
+    "en": "Hearing that answer did not dispel Al's suspicions. But it was a reasonable answer, and he seemed hesitant to pursue the matter further.",
+    "vi": "Nghe câu trả lời đó vẫn không thể xua tan nỗi hoài nghi của Al. Nhưng đó là một lời giải thích hợp lý, và cậu ta có vẻ ngần ngại không muốn truy cứu thêm."
+  },
+  {
+    "id": 71,
+    "en": "Subaru was not so easy-going as to believe that Olbart was being truthful.",
+    "vi": "Subaru không dễ dãi đến mức tin rằng Olbart đang nói thật."
+  },
+  {
+    "id": 72,
+    "en": "However, there was too little time and not enough information to uncover what was within the mind of this accomplished shinobi mastermind.",
+    "vi": "Tuy nhiên, thời gian quá ít ỏi và thông tin lại quá hạn hẹp để vạch trần những gì ẩn giấu trong đầu gã thủ lĩnh shinobi lão luyện này."
+  },
+  {
+    "id": 73,
+    "en": "During all of this, the time limit that Yorna had given was fast approaching, second-by-second.",
+    "vi": "Trong lúc ấy, giới hạn thời gian mà Yorna đưa ra đang cận kề theo từng giây."
+  },
+  {
+    "id": 74,
+    "en": "With Olbart's two inconvenient choices―― neither of which was the best option, the chances of coming up with a way to recover from this were close to zero.",
+    "vi": "Với hai lựa chọn bất tiện của Olbart―― mà chẳng có phương án nào là tối ưu cả, cơ hội tìm ra cách đảo ngược tình thế này gần như bằng không."
+  },
+  {
+    "id": 75,
+    "en": "To put it another way, Subaru had done everything in his power and still arrived at this situation.",
+    "vi": "Nói cách khác, Subaru đã làm hết sức mình nhưng vẫn rơi vào hoàn cảnh này."
+  },
+  {
+    "id": 76,
+    "en": "Abel: [――If we are to take up on your offer, we shall need to be clear about some matters.]",
+    "vi": "Abel: [――Nếu chúng ta chấp nhận lời đề nghị của ngươi, chúng ta cần phải làm rõ một vài vấn đề.]"
+  },
+  {
+    "id": 77,
+    "en": "Olbart: [Oh, whaddya mean?]",
+    "vi": "Olbart: [Ồ, ý nhóc là sao nhỉ?]"
+  },
+  {
+    "id": 78,
+    "en": "Abel: [You yourself have said so. If you wish to give us a higher chance at victory, you should not leave too much room for pointless exertions―― What is desired from one another must be made clear.]",
+    "vi": "Abel: [Chính ngươi đã nói như vậy. Nếu ngươi muốn cho chúng ta cơ hội chiến thắng cao hơn, ngươi không nên để lại quá nhiều chỗ cho những nỗ lực vô ích―― Những gì đôi bên yêu cầu ở nhau phải được làm rõ.]"
+  },
+  {
+    "id": 79,
+    "en": "Olbart: [――. Kakakakka.]",
+    "vi": "Olbart: [――. Kakakakka.]"
+  },
+  {
+    "id": 80,
+    "en": "Seemingly having reached the same conclusion earlier, Abel proceeded, one eye trained on Olbart.",
+    "vi": "Dường như đã đi đến cùng một kết luận từ trước, Abel tiếp tục đối thoại, một mắt khóa chặt vào Olbart."
+  },
+  {
+    "id": 81,
+    "en": "Clarification of the rules of the game―― what laid behind the demand for clarification was clear. It served as a sign that the decision was to accept the game, and its content.",
+    "vi": "Làm rõ luật chơi―― ý đồ đằng sau yêu cầu làm rõ này đã quá rõ ràng. Nó là dấu hiệu cho thấy quyết định chấp nhận trò chơi cùng nội dung của nó."
+  },
+  {
+    "id": 82,
+    "en": "Abel nodded, staring back at Olbart, who gave a low chuckle, his eyes bright and blazing.",
+    "vi": "Abel gật đầu, nhìn thẳng lại Olbart, kẻ đang cười thầm khe khẽ với đôi mắt sáng rực rỡ."
+  },
+  {
+    "id": 83,
+    "en": "And then finally――,",
+    "vi": "Và rồi cuối cùng――,"
+  },
+  {
+    "id": 84,
+    "en": "Abel: [――Hide-and-seek it is.]",
+    "vi": "Abel: [――Trò trốn tìm vậy.]"
+  },
+  {
+    "id": 85,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 86,
+    "en": "――Following that, there were three major agreements made between the two sides.",
+    "vi": "――Sau đó, ba thỏa thuận lớn đã được ký kết giữa hai bên."
+  },
+  {
+    "id": 87,
+    "en": "The first commitment was, “do no harm to each other”.",
+    "vi": "Thỏa thuận đầu tiên là, “không gây tổn hại cho nhau”."
+  },
+  {
+    "id": 88,
+    "en": "Olbart was capable of murdering everyone if he wished so, to begin with. What discouraged him from doing so were the false Emperor’s orders and his wariness towards Yorna.",
+    "vi": "Ngay từ đầu, Olbart đã có khả năng sát hại tất cả mọi người nếu lão muốn. Thứ ngăn cản lão làm vậy chỉ là mệnh lệnh của Hoàng đế giả và sự e dè đối với Yorna."
+  },
+  {
+    "id": 89,
+    "en": "But this assurance was essential, because he would break this ban if the situation warranted it.",
+    "vi": "Nhưng sự đảm bảo này là tối cần thiết, bởi lão sẵn sàng phá vỡ lệnh cấm này nếu tình thế bắt buộc."
+  },
+  {
+    "id": 90,
+    "en": "The second was, “limit the places of hiding to the city’s boundaries”.",
+    "vi": "Thỏa thuận thứ hai là, “giới hạn khu vực ẩn nấp trong phạm vi thành phố”."
+  },
+  {
+    "id": 91,
+    "en": "If they were to believe in the pretense of leaving the odds in their favor, limiting the area was also essential to maintain fairness. Of course, even if it were limited to the city, the play area was quite large.",
+    "vi": "Nếu họ tin vào chiêu bài nhường cơ hội chiến thắng cho họ, việc giới hạn khu vực cũng là yếu tố cốt lõi để duy trì sự công bằng. Tất nhiên, dù chỉ giới hạn trong thành phố, phạm vi chơi vẫn cực kỳ rộng lớn."
+  },
+  {
+    "id": 92,
+    "en": "However, the conditions that Subaru had made him accept should do the job in this regard.",
+    "vi": "Thế nhưng, những điều kiện mà Subaru bắt lão phải chấp nhận sẽ phát huy tác dụng ở khía cạnh này."
+  },
+  {
+    "id": 93,
+    "en": "The third was, “clarify the conditions for victory”.",
+    "vi": "Thỏa thuận thứ ba là, “làm rõ điều kiện chiến thắng”."
+  },
+  {
+    "id": 94,
+    "en": "They had opted to play hide-and-seek because they believed that meant a better chance of winning. Then, no one would be able to say that it would be wrong to pursue victory.",
+    "vi": "Họ chọn chơi trốn tìm vì tin rằng như vậy sẽ có cơ hội thắng cao hơn. Khi ấy, không ai có thể nói rằng việc theo đuổi chiến thắng là sai lầm."
+  },
+  {
+    "id": 95,
+    "en": "So――,",
+    "vi": "Vậy nên――,"
+  },
+  {
+    "id": 96,
+    "en": "Subaru: [I know the odds are different for us in tag compared to hide-and-seek, but why three times? Don't be stingy, can't we only do this once?]",
+    "vi": "Subaru: [Tôi biết cơ hội của chúng tôi trong trò trốn tìm cao hơn đuổi bắt, nhưng tại sao lại phải là ba lần? Đừng keo kiệt thế chứ, chỉ một lần không được sao?]"
+  },
+  {
+    "id": 97,
+    "en": "Olbart: [Kakakakka! That's a tad greedy, young man. Tell ya what. If it happens once, it's prolly a fluke. But if it happens thrice, it’s skill.]",
+    "vi": "Olbart: [Kakakakka! Như thế là hơi tham lam rồi đấy nha, cậu nhóc. Nghe lão bảo này. Nếu xảy ra một lần thì có lẽ chỉ là ăn may. Nhưng nếu xảy ra ba lần thì chính là thực lực nha.]"
+  },
+  {
+    "id": 98,
+    "en": "Subaru: [Some people think luck’s part of skill, you know?]",
+    "vi": "Subaru: [Có người còn nghĩ may mắn cũng là một phần của thực lực đấy, ông biết chứ?]"
+  },
+  {
+    "id": 99,
+    "en": "Olbart: [Hate to tell ya, but I don't believe in luck. I mean, that's what most of the Empire’s people believe. Ya say some darned things, don't’cha?]",
+    "vi": "Olbart: [Rất tiếc phải nói với nhóc là ta không tin vào may mắn đâu nha. Ý ta là, hầu hết người dân Đế quốc đều tin như thế cả. Nhóc nói mấy lời kỳ quặc thật đấy đúng không nhỉ?]"
+  },
+  {
+    "id": 100,
+    "en": "It was an unavoidable school of thought, typical of an empire based on the supremacy of merit.",
+    "vi": "Đó là một hệ tư tưởng tất yếu, đặc trưng của một đế chế hoạt động dựa trên chủ nghĩa thực lực tối thượng."
+  },
+  {
+    "id": 101,
+    "en": "There was no such thing as luck or misfortune, and everything was the result of one's own abilities. This attitude was seemingly suffocating for those unable to live without a refuge.",
+    "vi": "Không có cái gọi là may mắn hay bất hạnh, và mọi thứ đều là kết quả của năng lực bản thân. Thái độ này dường như vô cùng ngột ngạt đối với những kẻ không thể sống thiếu một chốn dung thân."
+  },
+  {
+    "id": 102,
+    "en": "For example, the Subaru of his days as a truant had no place in the Empire.",
+    "vi": "Ví dụ như Subaru trong những ngày tháng trốn học sẽ chẳng thể có chỗ đứng nào chốn Đế quốc này."
+  },
+  {
+    "id": 103,
+    "en": "Olbart: [In addition, why not do it thrice ‘cause there are three among ya who’ve been shrunken? Sounds reasonable for a technicality I just came up with on the spot.]",
+    "vi": "Olbart: [Hơn nữa, tại sao không làm ba lần vì có ba người trong số các nhóc bị thu nhỏ chứ nhỉ? Nghe khá hợp lý cho một cái cớ kỹ thuật ta vừa mới nghĩ ra ngay tại chỗ nha.]"
+  },
+  {
+    "id": 104,
+    "en": "Abel: [Then, every time we find you, you shall undo the technique on one person?]",
+    "vi": "Abel: [Vậy thì, mỗi lần chúng ta tìm thấy ngươi, ngươi phải giải thuật cho một người?]"
+  },
+  {
+    "id": 105,
+    "en": "Olbart: [Oh, and now you're tryin’ ta take advantage of me. Well, let’s just forget that technicality.]",
+    "vi": "Olbart: [Ồ, giờ nhóc lại định lợi dụng ta rồi đấy nha. Chà, thôi cứ quên cái cớ kỹ thuật đó đi vậy.]"
+  },
+  {
+    "id": 106,
+    "en": "Waving his hands in the air, Olbart refused to confirm Abel's statement.",
+    "vi": "Vẫy vẫy tay trên không trung, Olbart từ chối xác nhận lời nói của Abel."
+  },
+  {
+    "id": 107,
+    "en": "Anyhow, with that matter settled, there was presumably nothing else left that required closer examination.",
+    "vi": "Dù sao thì, khi vấn đề đó đã được giải quyết, có lẽ chẳng còn điều gì cần phải xem xét kỹ lưỡng hơn nữa."
+  },
+  {
+    "id": 108,
+    "en": "That meant――,",
+    "vi": "Nghĩa là――,"
+  },
+  {
+    "id": 109,
+    "en": "Olbart: [Well, let's play.]",
+    "vi": "Olbart: [Chà, chơi thôi nào.]"
+  },
+  {
+    "id": 110,
+    "en": "Subaru: [Olbart-san, just double-checking a small detail… No hiding where we can't physically get to. There's nothing we can do if you're hiding in the middle of nowhere.]",
+    "vi": "Subaru: [Olbart-san, tôi chỉ muốn xác nhận lại một chi tiết nhỏ... Không được trốn ở nơi mà bọn tôi không thể đặt chân tới được về mặt vật lý. Nếu ông trốn ở một xó xỉnh xa xôi hẻo lánh nào đó thì bọn tôi chịu chết đấy.]"
+  },
+  {
+    "id": 111,
+    "en": "Olbart: [You're a real stickler for detail, ya know that? ――Well, I would’ve done it if ya hadn't said that.]",
+    "vi": "Olbart: [Nhóc đúng là kẻ hay soi mói tiểu tiết đấy, biết thế không hả? ――Chà, ta định làm thế thật nếu nhóc không nói ra đấy nha.]"
+  },
+  {
+    "id": 112,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [————]"
+  },
+  {
+    "id": 113,
+    "en": "Olbart: [Tell ya what, I was serious when I said I don't need ta win at all costs, ya know? Don't forget tho’, this is yer test.]",
+    "vi": "Olbart: [Ta bảo này, ta nghiêm túc khi nói mình không cần thắng bằng mọi giá đâu nha. Nhưng đừng quên, đây chính là bài kiểm tra dành cho các nhóc đấy.]"
+  },
+  {
+    "id": 114,
+    "en": "In other words, he was looking at them for their adroitness, shrewdness and intelligence too.",
+    "vi": "Nói cách khác, lão cũng đang đánh giá sự khéo léo, nhanh nhạy cùng trí thông minh của họ."
+  },
+  {
+    "id": 115,
+    "en": "Olbart appeared to be generous and easy-going, but he was severe when it came to cutting someone off. Were he to deem someone unworthy of his attention, he would rip their vitals out without mercy.",
+    "vi": "Olbart bề ngoài có vẻ rộng lượng và dễ dãi, song lão lại cực kỳ tàn nhẫn khi cần gạt bỏ ai đó. Nếu lão cho rằng kẻ nào không đáng để lão để tâm, lão sẽ móc nội tạng của họ ra mà không chút thương xót."
+  },
+  {
+    "id": 116,
+    "en": "Even now, if Subaru had not butted in, he would have done so in earnest.",
+    "vi": "Ngay cả vừa rồi, nếu Subaru không xen vào, lão chắc chắn đã làm thế thật rồi."
+  },
+  {
+    "id": 117,
+    "en": "But――,",
+    "vi": "Thế nhưng――,"
+  },
+  {
+    "id": 118,
+    "en": "Olbart: [――I didn't think the masked young'un would’ve overlooked that.]",
+    "vi": "Olbart: [――Ta không nghĩ cậu nhóc đeo mặt nạ lại bỏ qua chi tiết đó đâu nha.]"
+  },
+  {
+    "id": 119,
+    "en": "Indicating Abel by cocking his chin, Olbart displayed him a cunning smile that did not hide his elderly age.",
+    "vi": "Hếch cằm chỉ về phía Abel, Olbart nở một nụ cười gian xảo không hề che giấu tuổi tác già nua của mình."
+  },
+  {
+    "id": 120,
+    "en": "Despite this annoyance, Subaru signaled Abel and Al with his eyes, and once he made sure of their assent, he prepared himself to throw down the gauntlet.",
+    "vi": "Dù cảm thấy khó chịu, Subaru vẫn dùng mắt ra hiệu cho Abel và Al, và sau khi chắc chắn nhận được sự đồng thuận của họ, cậu chuẩn bị sẵn sàng tiếp nhận thử thách."
+  },
+  {
+    "id": 121,
+    "en": "Subaru: [If we win, I'll have you put us back to normal.]",
+    "vi": "Subaru: [Nếu bọn tôi thắng, ông phải biến bọn tôi trở lại bình thường.]"
+  },
+  {
+    "id": 122,
+    "en": "Olbart: [If I win, you'll have ta wait ten years ta get back ta normal. Well, if His Excellency and the foxgirl get any second thoughts, I'll go ask ya for yer secrets my own way.]",
+    "vi": "Olbart: [Nếu ta thắng, các nhóc phải đợi mười năm nữa mới được trở lại bình thường nha. Chà, dẫu cho Bệ hạ và cô nàng cáo có đổi ý đi chăng nữa, ta vẫn sẽ đi hỏi bí mật của các nhóc theo cách riêng của mình nha.]"
+  },
+  {
+    "id": 123,
+    "en": "That would be, a shinobi technique passed down in his shinobi village―― Subaru felt a surge of fear as he regarded Olbart’s dark eyes, feeling that the method the old man had suggested could lead to torture.",
+    "vi": "Đó sẽ là một thuật shinobi truyền lại trong làng shinobi của lão―― Subaru cảm thấy một luồng sợ hãi dâng trào khi nhìn vào đôi mắt tối tăm của Olbart, linh cảm phương pháp lão già gợi ý có thể dẫn đến việc tra tấn."
+  },
+  {
+    "id": 124,
+    "en": "Then, before the old man headed to his first hiding place, he would ask a question,",
+    "vi": "Sau đó, trước khi lão già tiến về nơi ẩn nấp đầu tiên, cậu đặt câu hỏi,"
+  },
+  {
+    "id": 125,
+    "en": "Subaru: [――So what’s the first hint?]",
+    "vi": "Subaru: [――Vậy gợi ý đầu tiên là gì?]"
+  },
+  {
+    "id": 126,
+    "en": "It was a question that would be dismissed as ridiculous if this were a serious game.",
+    "vi": "Đó là câu hỏi sẽ bị coi là nực cười nếu đây là một trò chơi nghiêm túc."
+  },
+  {
+    "id": 127,
+    "en": "However, Olbart did not laugh at this. Because this was a condition for victory that Subaru had forced Olbart to accept for their game of hide-and-seek.",
+    "vi": "Tuy nhiên, Olbart không hề cười nhạo điều đó. Bởi lẽ đây là điều kiện chiến thắng mà Subaru đã buộc Olbart phải chấp nhận cho trò trốn tìm của họ."
+  },
+  {
+    "id": 128,
+    "en": "Now that Subaru had been \"infantilized\", Olbart wanted to evaluate them not in terms of their fighting prowess or physical abilities, but in terms of their mindset and creativity, as mentioned before.",
+    "vi": "Giờ đây khi Subaru đã bị \"trẻ con hóa\", Olbart muốn đánh giá họ không phải ở thực lực chiến đấu hay thể chất, mà là về tư duy và sự sáng tạo như đã nói trước đó."
+  },
+  {
+    "id": 129,
+    "en": "To put it simply, it was none other than the natural feeling called \"not wanting to deal with idiots”.",
+    "vi": "Nói một cách đơn giản, đó chẳng qua là cảm giác tự nhiên mang tên \"không muốn đối phó với lũ ngốc\" mà thôi."
+  },
+  {
+    "id": 130,
+    "en": "Olbart: [First of all, a tryout… Near this inn, I’m gonna hide “behind the eyelids”.]",
+    "vi": "Olbart: [Trước hết là một màn thử thách nhẹ nhàng nha... Gần quán trọ này, ta sẽ trốn “ở phía sau mí mắt” nha.]"
+  },
+  {
+    "id": 131,
+    "en": "Subaru: [――Behind, the eyelids.]",
+    "vi": "Subaru: [――Phía sau, mí mắt sao.]"
+  },
+  {
+    "id": 132,
+    "en": "Olbart: [Well, hang in there, young man. Let this ol’ man have some fun in what’s left of his short life, at least.]",
+    "vi": "Olbart: [Chà, ráng lên nha nhóc con. Ít ra hãy để lão già này có chút niềm vui trong phần đời ngắn ngủi còn lại chứ lị.]"
+  },
+  {
+    "id": 133,
+    "en": "With a fluttering wave of his hand, Olbart turned his back to Subaru and the others. ――At that moment, Subaru felt the tension in the room rise as the man walked away leisurely.",
+    "vi": "Với một cái vẫy tay nhẹ nhàng, Olbart quay lưng lại với Subaru và những người khác. ――Khoảnh khắc đó, Subaru cảm nhận được sự căng thẳng trong phòng dâng cao khi lão già thong thả bước đi."
+  },
+  {
+    "id": 134,
+    "en": "Everyone: [――――]",
+    "vi": "Mọi người: [————]"
+  },
+  {
+    "id": 135,
+    "en": "Who among them had not wished that they could pounce on Olbart and solve the problems of the “hide-and-seek” and the \"infantilization\" at once, in that very moment?",
+    "vi": "Ai trong số họ mà không ước mình có thể lao vào Olbart giải quyết phăng cả rắc rối \"trốn tìm\" lẫn \"trẻ con hóa\" ngay lập tức vào giây phút đó cơ chứ?"
+  },
+  {
+    "id": 136,
+    "en": "But nobody carried out that reckless act. And it was the right thing to do.",
+    "vi": "Thế nhưng chẳng một ai thực hiện hành động liều lĩnh đó cả. Và đó là quyết định đúng đắn."
+  },
+  {
+    "id": 137,
+    "en": "Olbart: [Kakakakka.]",
+    "vi": "Olbart: [Kakakakka.]"
+  },
+  {
+    "id": 138,
+    "en": "Just before the door closed, Olbart laughed because he knew what Subaru's hesitation was about.",
+    "vi": "Ngay trước khi cửa đóng lại, Olbart cười lớn vì lão biết rõ sự do dự của Subaru là về chuyện gì."
+  },
+  {
+    "id": 139,
+    "en": "His behavior lived up to the title of “Vicious Old Man”, his shrill laugh included, right to the end.",
+    "vi": "Hành vi của lão xứng danh với biệt hiệu “Lão Già Hiểm Độc”, bao gồm cả tiếng cười lanh lảnh cho đến tận cuối cùng."
+  },
+  {
+    "id": 140,
+    "en": "And so, once Olbart exited the room, and it was once again occupied only by Subaru and his allies――,",
+    "vi": "Và thế là, khi Olbart rời khỏi phòng, căn phòng một lần nữa chỉ còn lại Subaru cùng các đồng minh của mình――,"
+  }
+];
+
+fs.writeFileSync(path.join(tempDir, 'ch43_part1.json'), JSON.stringify(part1, null, 2), 'utf-8');
+console.log('Saved ch43_part1.json');
