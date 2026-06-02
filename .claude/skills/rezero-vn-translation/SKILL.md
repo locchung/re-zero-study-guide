@@ -64,7 +64,28 @@ For summarized passages, the `en` attribute should contain a **bracketed descrip
 
 **Emotional register.** Dramatic stays dramatic. Comedic stays light. Tense stays tense. Do not flatten emotional peaks with neutral phrasing.
 
-**Avoid repetition.** Do not repeat the same particle, filler phrase, or word (e.g., "nhất định", "chắc chắn", "thực sự") more than once per paragraph. Vary naturally.
+**Avoid repetition — at BOTH paragraph and chapter level.**
+
+- **Per paragraph:** No single word or particle may appear more than once (e.g., "nhất định", "chắc chắn", "thực sự", "dường như", "cơ thể").
+- **Per chapter:** Connector and adverb words accumulate across sentences and become grating even if each paragraph looks clean. A reader who sees "dẫu" six times in one chapter will notice. Track usage mentally across the whole chapter and rotate synonyms.
+
+**High-risk connector words and their rotation alternatives:**
+
+| Overused word | Meaning | Rotate with |
+|---------------|---------|-------------|
+| dẫu / dẫu cho | even though | dù, mặc dù, cho dù, tuy, dù rằng |
+| dù / dù cho | even though | dẫu, mặc dù, cho dù, tuy rằng |
+| nhưng | but | tuy nhiên, song, thế mà, vậy mà, ấy vậy |
+| tuy nhiên | however | song, nhưng, thế mà, vậy mà |
+| chợt / bỗng | suddenly | đột nhiên, bất thình lình, bỗng dưng, chợt nhiên |
+| vẫn | still | vẫn còn, cứ, mãi, cứ mãi |
+| rồi | then / already | sau đó, tiếp theo, kế đó, rồi thì |
+| thậm chí | even | ngay cả, đến cả, cả đến |
+| nhất định | certainly | chắc chắn, hẳn là, ắt, tất nhiên |
+| dường như | seems like | có vẻ, trông có vẻ, như thể, tựa như |
+| thực sự | really/truly | thật sự, quả thật, quả nhiên, thực ra |
+
+**Rule:** If you have used a connector word more than twice in the current chapter, choose a synonym from the rotation list before writing the next sentence.
 
 **Character voice consistency.** Every character must sound like themselves, not like a generic narrator. A Beatrice line that could have been said by Emilia is wrong.
 
@@ -165,7 +186,8 @@ Read the Vietnamese output mentally as continuous prose. Check ALL of the follow
 - [ ] Does it sound like a Vietnamese author wrote it, or like a translated text?
 - [ ] Is every character's xưng hô consistent throughout?
 - [ ] Are emotional peaks preserved?
-- [ ] Are any particles or phrases overused (e.g., "nhất định", "chắc chắn", "thực sự", "cơ thể", "dường như" appearing more than once per paragraph)?
+- [ ] **Paragraph-level:** any single word/particle repeated within the same paragraph?
+- [ ] **Chapter-level:** scan the full output for high-risk connectors — count occurrences of: "dẫu", "dù", "nhưng", "tuy nhiên", "chợt", "bỗng", "vẫn", "rồi", "thậm chí", "nhất định", "dường như", "thực sự". If any appears more than twice, replace excess occurrences with rotation synonyms from Step 2.
 - [ ] Are there any machine translation relics? (e.g., "lị", "sất", "quèn", "d dứt", "d dẫu", "độc độc", "phân một")
 - [ ] No sentence reads like a word-by-word substitution from English
 
