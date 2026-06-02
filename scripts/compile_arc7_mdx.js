@@ -41,7 +41,12 @@ const chapters = [
   { num: 42, title: 'Chương 42: Dã Thú Dã Tâm | Beast of Ambition' },
   { num: 43, title: 'Chương 43: Phía Sau Mí Mắt | Hidden Behind Your Eyelids' },
   { num: 44, title: 'Chương 44: Tầm Nhìn Thu Hẹp | Shrinking Vision' },
-  { num: 45, title: 'Chương 45: Konkon | Konkon' }
+  { num: 45, title: 'Chương 45: Konkon | Konkon' },
+  { num: 46, title: 'Chương 46: Sự Liều Lĩnh Trẻ Con | Childish Recklessness' },
+  { num: 47, title: 'Chương 47: Bất Diệt ■■ | Unperishing ■■' },
+  { num: 48, title: 'Chương 48: Mục Tiêu Ràng Buộc Nơi Ma Thành | Purposes Entangling in the Demon City' },
+  { num: 49, title: 'Chương 49: Ngôi Sao Thẳng Hàng | The Stars Aligned' },
+  { num: 50, title: 'Chương 50: Căn "Hầm" Có Tầm Nhìn Tuyệt Đẹp | A "Hole" With a Great View' }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');
