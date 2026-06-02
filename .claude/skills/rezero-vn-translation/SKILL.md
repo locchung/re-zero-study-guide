@@ -5,9 +5,18 @@ description: Translates Re:Zero web novel chapters from English into literary Vi
 
 # Re:Zero — Vietnamese Translation Skill
 
-## Step 0 — Read the full passage first
+## Step 0 — Pre-translation setup
 
-Before writing a single word, read the entire passage. Understand the scene's purpose, emotional arc, and where it sits in the chapter. Translation quality depends entirely on comprehension before composition.
+### A. Load chapter context (if available)
+
+If translating chapter N and the project's `content/` directory is accessible, skim the MDX of chapters N-1 and N-2 to anchor:
+- How each character has been speaking (xưng hô consistency across chapters)
+- Which connector words appeared recently — avoid carrying "dẫu", "chợt", "nhất định" over from the previous chapter
+- Any terminology decisions already made (e.g., which synonym of "thử thách" was used)
+
+### B. Read the full source passage
+
+Read the **entire passage** before writing a single word. Understand the scene's purpose, emotional arc, and where it sits in the chapter. Translation quality depends entirely on comprehension before composition.
 
 If the arc's central storyline is not obvious from the text, ask the user for a one-sentence summary before proceeding. For Arc 6 specifically, consult [references/arc6-context.md](references/arc6-context.md).
 
@@ -171,25 +180,75 @@ Key rules:
 - Summarized passages → single `<Sentence>`, no `<Word>` tags
 - HTML-escape `en` attributes: `"` → `&quot;`, `'` → `&apos;`, `&` → `&amp;`
 
-## Step 5 — Self-review before outputting
+## PASS 1 — Translate (accuracy focus)
 
-Read the Vietnamese output mentally as continuous prose. Check ALL of the following:
+Work through every paragraph following Steps 1–4 in order. For each paragraph:
+1. Classify it (full translation or summarize)
+2. Apply correct xưng hô for every speaker
+3. Write the Vietnamese text inside the correct MDX structure
+4. Run the English leakage check (Step 2.5) before moving to the next paragraph
 
-### Translation completeness check:
-- [ ] Every "vi" field contains Vietnamese text — no empty fields remain
-- [ ] No English words survive in the Vietnamese output (except proper nouns)
+**Pass 1 focus:** meaning accuracy only. Get every sentence right. Do not stop to polish flow or prose rhythm — that is Pass 2's exclusive job. Mixing the two passes degrades both.
+
+---
+
+## PASS 2 — Naturalness audit
+
+When all paragraphs are drafted, **stop writing**. Read the complete Vietnamese output from the first sentence to the last as a continuous prose reader would — not as the translator who wrote it. Do not edit as you go; complete the full read first, then fix.
+
+After reading, fix any of the following:
+- Sentences that sound translated rather than written in Vietnamese
+- Connector words used too many times — rotate using the table in Step 2
+- Character voice that drifted mid-chapter (any character starting to sound like the narrator)
+- Emotional register that flattened (dramatic scenes that became neutral, tense scenes that became calm)
+- Unnatural word order inherited from English syntax
+- Any line where a more vivid or precise Vietnamese expression exists
+
+**Benchmark:** See [references/examples.md](references/examples.md) for target-quality excerpt pairs to calibrate against.
+
+After fixing, run the checklist below.
+
+---
+
+## Step 5 — Completeness checklist (after Pass 2)
+
+### Translation completeness:
+- [ ] Every paragraph has a `<Sentence>` block — no skipped paragraphs
+- [ ] No English words in the Vietnamese text (except proper nouns)
 - [ ] No English conjunctions leaked: "and", "but", "or", "if", "the", etc.
-- [ ] All descriptive speaker labels are translated to Vietnamese
-- [ ] No raw English phrases or sentence fragments remain
+- [ ] All descriptive speaker labels are in Vietnamese (e.g., "Thanh niên tóc cam:", not "Orange Haired Youth:")
+- [ ] No raw English sentence fragments survive
 
-### Quality check:
-- [ ] Does it sound like a Vietnamese author wrote it, or like a translated text?
-- [ ] Is every character's xưng hô consistent throughout?
-- [ ] Are emotional peaks preserved?
-- [ ] **Paragraph-level:** any single word/particle repeated within the same paragraph?
-- [ ] **Chapter-level:** scan the full output for high-risk connectors — count occurrences of: "dẫu", "dù", "nhưng", "tuy nhiên", "chợt", "bỗng", "vẫn", "rồi", "thậm chí", "nhất định", "dường như", "thực sự". If any appears more than twice, replace excess occurrences with rotation synonyms from Step 2.
-- [ ] Are there any machine translation relics? (e.g., "lị", "sất", "quèn", "d dứt", "d dẫu", "độc độc", "phân một")
-- [ ] No sentence reads like a word-by-word substitution from English
+### Quality:
+- [ ] Does it read like a Vietnamese author wrote it?
+- [ ] Every character's xưng hô consistent throughout the chapter?
+- [ ] Emotional peaks preserved at their original intensity?
+- [ ] **Paragraph-level repetition:** any word repeated within the same paragraph?
+- [ ] **Chapter-level connectors:** "dẫu", "dù", "chợt", "bỗng", "nhất định", "dường như", "thực sự", "tuy nhiên" — any appearing 3+ times? Rotate excess with synonyms from Step 2.
+- [ ] Machine translation relics? ("lị", "sất", "quèn", "d dứt", "độc độc", "phân một")
+- [ ] Any sentence that is a word-for-word substitution from English?
+
+> **Tip:** Run `python scripts/check_terms.py <file.mdx>` to automatically scan for terminology errors and connector overuse.
+
+---
+
+## Step 6 — Adversarial review
+
+After the checklist, read the output one final time as a skeptic whose only job is to find something wrong. Use these targeted tests:
+
+**1. Beatrice test** — for every Beatrice line, ask: *"Could Emilia have said this?"* If yes, the line has lost Beatrice's voice. Add her sentence-final markers ("…nhỉ", "…đấy chứ") and restore the archaic/haughty register.
+
+**2. Subaru voice test** — for every Subaru line, ask: *"Does this sound like a teenager from modern Japan, or like a generic fantasy protagonist?"* If the latter, inject personality: sarcasm, self-deprecation, a pop-culture aside, rougher phrasing.
+
+**3. Intensity test** — for every dramatic or battle sentence, find the most intense Vietnamese word used. Does it match the intensity of the English source? Emotional peaks must not be softened. If the source says "screamed at the top of his lungs," the Vietnamese must match that energy — not "nói lớn" or "hét lên" but the most visceral equivalent.
+
+**4. Dead-word sweep** — scan for: "thực sự", "cũng", "vẫn", "rồi", "lại" appearing in every sentence. These padding words drain prose energy. Cut or replace where the sentence stands without them.
+
+**5. Opening / closing test** — read the first and last sentence of the chapter output. Does the first sentence set the right tone? Does the last sentence land with the appropriate weight? These two are the reader's strongest impressions.
+
+**6. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
+
+If the adversarial review finds issues: fix them, then output. If it finds nothing: output immediately. Do not over-refine after a clean adversarial pass.
 
 Fix any issues. Output only the MDX block — no commentary, no explanation outside the MDX.
 
