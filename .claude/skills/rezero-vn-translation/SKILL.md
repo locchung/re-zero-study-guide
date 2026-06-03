@@ -252,21 +252,25 @@ After fixing, run the checklist below.
 
 After the checklist, read the output one final time as a skeptic whose only job is to find something wrong. Use these targeted tests:
 
-**1. Beatrice test** — for every Beatrice line, ask: *"Could Emilia have said this?"* If yes, the line has lost Beatrice's voice. Add her sentence-final markers ("…nhỉ", "…đấy chứ") and restore the archaic/haughty register.
+**1. Possessive pronoun check** — for every character who uses "ta/ngươi" (Priscilla, Beatrice, Abel, Mizelda, Roswaal), scan their lines for possessive phrases. Ask: does "của ta / của ngươi / của cô ấy" match who actually *owns* the thing in the English source? "Của ta" = mine (the speaker's). "Của ngươi" = yours (the listener's). These are the most common mix-up.
+
+❌ Priscilla telling Abel: "ngai vàng **của ta**" when English says "**your** throne" → should be "của **ngươi**"
+
+**3. Beatrice test** — for every Beatrice line, ask: *"Could Emilia have said this?"* If yes, the line has lost Beatrice's voice. Add her sentence-final markers ("…nhỉ", "…đấy chứ") and restore the archaic/haughty register.
 
 **2. Subaru voice test** — for every Subaru line, ask: *"Does this sound like a teenager from modern Japan, or like a generic fantasy protagonist?"* If the latter, inject personality: sarcasm, self-deprecation, a pop-culture aside, rougher phrasing.
 
-**3. Naturalness test** — pick 3 random sentences from the output and run the Quick Diagnostic from [references/naturalness.md](references/naturalness.md). If any trigger a trap (passive, existential, nominalization, subject repetition, weak verb), fix the entire passage they came from — other sentences nearby likely have the same issue.
+**4. Naturalness test** — pick 3 random sentences from the output and run the Quick Diagnostic from [references/naturalness.md](references/naturalness.md). If any trigger a trap (passive, existential, nominalization, subject repetition, weak verb), fix the entire passage they came from — other sentences nearby likely have the same issue.
 
-**4. Intensity test** — for every dramatic or battle sentence, find the most intense Vietnamese word used. Does it match the intensity of the English source? Emotional peaks must not be softened. If the source says "screamed at the top of his lungs," the Vietnamese must match that energy — not "nói lớn" or "hét lên" but the most visceral equivalent.
+**5. Intensity test** — for every dramatic or battle sentence, find the most intense Vietnamese word used. Does it match the intensity of the English source? Emotional peaks must not be softened. If the source says "screamed at the top of his lungs," the Vietnamese must match that energy — not "nói lớn" or "hét lên" but the most visceral equivalent.
 
-**5. Phrase fragment check** — read each long sentence and look for any 2+ word sequence appearing twice within the same sentence. The second occurrence is almost always a leaked fragment from an earlier clause. Example: "trên hết tất cả, là điều **hết tất cả** khó tin" — "hết tất cả" leaked from "trên hết tất cả" into the next clause. Fix: remove the intruder. (Automated detection is unreliable for this — human eye only.)
+**6. Phrase fragment check** — read each long sentence and look for any 2+ word sequence appearing twice within the same sentence. The second occurrence is almost always a leaked fragment from an earlier clause. Example: "trên hết tất cả, là điều **hết tất cả** khó tin" — "hết tất cả" leaked from "trên hết tất cả" into the next clause. Fix: remove the intruder. (Automated detection is unreliable for this — human eye only.)
 
-**6. Dead-word sweep** — scan for: "thực sự", "cũng", "vẫn", "rồi", "lại" appearing in every sentence. These padding words drain prose energy. Cut or replace where the sentence stands without them.
+**7. Dead-word sweep** — scan for: "thực sự", "cũng", "vẫn", "rồi", "lại" appearing in every sentence. These padding words drain prose energy. Cut or replace where the sentence stands without them.
 
-**7. Opening / closing test** — read the first and last sentence of the chapter output. Does the first sentence set the right tone? Does the last sentence land with the appropriate weight? These two are the reader's strongest impressions.
+**8. Opening / closing test** — read the first and last sentence of the chapter output. Does the first sentence set the right tone? Does the last sentence land with the appropriate weight? These two are the reader's strongest impressions.
 
-**8. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
+**9. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
 
 > Full error catalogue with bad/good examples for every category: [references/mistakes.md](references/mistakes.md)
 

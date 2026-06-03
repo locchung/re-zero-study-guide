@@ -173,6 +173,27 @@ Ram speaks in minimal, cutting sentences. Every extra word is an error.
 
 ---
 
+### 3.4b Possessive pronoun confusion for "ta/ngươi" characters
+
+Characters who use "ta" (self) and "ngươi" (other) must keep their possessives consistent:
+
+| English | Speaker uses "ta" | Correct Vietnamese |
+|---------|-------------------|--------------------|
+| my X | ta | X của **ta** |
+| your X | ta → listener is "ngươi" | X của **ngươi** ← this is the error-prone one |
+| his/her X | — | X của **gã/cô** |
+
+**The trap:** A character's speech is full of "ta" so the translator defaults to "ta" for all pronouns — including possessives that refer to the *listener's* belongings.
+
+❌ `"ngươi đã bị ép buộc phải từ bỏ ngai vàng cao quý của ta"` — "của ta" = mine (Priscilla's throne)
+✓ `"ngươi đã bị ép buộc phải từ bỏ ngai vàng cao quý của ngươi"` — "của ngươi" = yours (listener's throne)
+
+**Characters most at risk:** Priscilla (ta/ngươi), Beatrice (ta/ngươi), Abel (ta/ngươi), Mizelda (ta/ngươi), Roswaal (ta/cậu).
+
+**Check:** For every possessive phrase in an archaic-pronoun character's speech, verify: does the English "your/my/his" match who actually owns the thing?
+
+---
+
 ### 3.5 Echidna (sage): editorializing
 Echidna states facts. She does not add emotional coloring or adjectives that aren't in the source.
 ❌ `"Kết cục bi thảm của họ đã rõ ràng..."` — "bi thảm" is editorial; she didn't say it was tragic

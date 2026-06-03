@@ -82,6 +82,15 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-28', title: 'Chương 28: Điều Kiện Chiến Thắng | Victory Conditions', chapterNumber: 28, arc: 7 },
   { slug: 'chuong-29', title: 'Chương 29: Vị Thế Của Mỗi Người | To Each Their Stance', chapterNumber: 29, arc: 7 },
   { slug: 'chuong-30', title: 'Chương 30: Anh Hùng Tự Phong Natsuki Subaru | Self-Proclaimed Hero Natsuki Subaru', chapterNumber: 30, arc: 7 },
+  { slug: 'chuong-51', title: 'Chương 51: Nữ Chủ Ma Thành | The Demon City’s Mistress', chapterNumber: 51, arc: 7 },
+  { slug: 'chuong-52', title: 'Chương 52: Tình Yêu Không Thể Chúc Thư | Love Can’t Be Bequeathed', chapterNumber: 52, arc: 7 },
+  { slug: 'chuong-53', title: 'Chương 53: Điều Nằm Ngoài Giây Thứ Mười Một | What Lies Beyond the Eleventh Second', chapterNumber: 53, arc: 7 },
+  { slug: 'chuong-54', title: 'Chương 54: Utopia của Chaosflame | The Utopia of Chaosflame', chapterNumber: 54, arc: 7 },
+  { slug: 'chuong-55', title: 'Chương 55: Tiếng Huyên Náo Của Thành Phố Quỷ | The Cacophony of the Demon City', chapterNumber: 55, arc: 7 },
+  { slug: 'chuong-56', title: 'Chương 56: Cuộc Đại Thảm Họa | The Great Disaster', chapterNumber: 56, arc: 7 },
+  { slug: 'chuong-57', title: 'Chương 57: Không Thể Sống Khôn Ngoan Hơn | I Can’t Live Wiser', chapterNumber: 57, arc: 7 },
+  { slug: 'chuong-58', title: 'Chương 58: Những Kẻ Không Nơi Nương Tựa | Those With No Place to Turn To', chapterNumber: 58, arc: 7 },
+  { slug: 'chuong-59', title: 'Chương 59: Taritta Shudraq | Taritta Shudraq', chapterNumber: 59, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
