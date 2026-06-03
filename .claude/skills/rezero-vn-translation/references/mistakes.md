@@ -739,6 +739,55 @@ English idioms must never be translated word-for-word. The meaning of the idiom 
 
 ---
 
+## CATEGORY 16 — Internet slang and informal abbreviations
+
+Internet slang has absolutely no place in a literary translation. These strings are artifacts of the MT tool using informal training data.
+
+| Slang | Meaning | Fix |
+|-------|---------|-----|
+| `cmnr` | Vietnamese internet slang (vulgar) | Remove entirely; rephrase naturally |
+| `vcl` | Vietnamese internet slang (vulgar) | Remove entirely |
+| `vl` | Vietnamese internet slang (vulgar) | Remove entirely |
+| `lol`, `omg`, `wtf` | English internet slang | Remove entirely |
+
+**Detected automatically** by the script.
+
+---
+
+## CATEGORY 17 — Doubled future marker "sẽ"
+
+The MT tool inserts "sẽ" (future marker / will) twice within the same clause, once before an evidential modifier and once before the verb. Both cannot coexist.
+
+**Pattern:** `sẽ [1–3 words] sẽ`
+
+| ❌ Wrong | ✓ Fix |
+|---------|-------|
+| `sẽ có vẻ sẽ là` | `có vẻ là` or `sẽ là` |
+| `sẽ tựa như sẽ dũng mãnh` | `tựa như dũng mãnh` |
+| `sẽ như thể sẽ rất thích` | `như thể rất thích` |
+| `sẽ trông có vẻ sẽ hoàn toàn` | `trông có vẻ hoàn toàn` |
+
+**Rule:** Keep the evidential modifier (có vẻ, tựa như, như thể) OR the "sẽ" — never both. If the sentence is about future events, keep "sẽ". If it's about appearance/seeming, use the evidential phrase alone.
+
+**Detected automatically** by the script.
+
+---
+
+## CATEGORY 18 — Spatial word used where a temporal phrase is needed
+
+Vietnamese words for location ("chốn ấy" = that place, "nơi đó" = that place) sometimes appear where the English source means a point-in-time ("from there on out", "from that point", "up to that point").
+
+| English | ❌ Wrong (spatial) | ✓ Correct (temporal) |
+|---------|-------------------|----------------------|
+| from there on out | chốn ấy | từ đó trở đi / kể từ đó |
+| from that point | chốn ấy | từ thời điểm đó |
+| up to that point | tới chốn ấy | cho đến tận lúc đó |
+| at this stage | chốn này | ở giai đoạn này / lúc này |
+
+**Test:** if removing the location word makes the sentence about time rather than place, the word is wrong.
+
+---
+
 ## HOW TO USE THIS FILE
 
 - **Before Pass 2:** Scan Category 1 (overused words) and Category 3 (character voice) — these are the most likely Pass 1 survivors.
