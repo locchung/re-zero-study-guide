@@ -250,7 +250,40 @@ These wrong forms have been detected across actual translated chapters using `--
 
 ---
 
-## CATEGORY 6 — English leakage
+## CATEGORY 6 — "đã" used as conjunction instead of "và"
+
+The most destructive MT error in Arc 7 chapters. The machine translation systematically replaces "và" (and) with "đã" (past tense marker / already), making dozens of sentences confusing or ungrammatical.
+
+**Quick test:** if replacing "đã" with "và" makes the sentence natural → it should be "và".
+
+**"đã" is correct when:**
+- It marks past tense before a verb: `cậu đã nói` (he said), `cô đã hiểu` (she understood)
+- It means "already": `đã xong rồi` (already done)
+
+**"đã" is WRONG (should be "và") when:**
+- It connects two nouns: `Ram đã Rem` → `Ram và Rem`
+- It connects two adjectives: `phóng khoáng đã bình dân` → `phóng khoáng và bình dân`
+- It connects two verb clauses (parallel actions): `mở cửa đã bước ra` → `mở cửa và bước ra`
+- It starts a clause meaning "and": `Đã đó là lúc` → `Và đó là lúc`
+
+**Common wrong patterns (all found in Arc 7 chapters):**
+
+| ❌ Wrong | ✓ Fix |
+|---------|-------|
+| `[Name1] đã [Name2]` | `[Name1] và [Name2]` |
+| `[noun] đã [noun]` | `[noun] và [noun]` |
+| `[adj] đã [adj]` | `[adj] và [adj]` |
+| `[verb clause], đã [verb clause]` | `[verb clause], và [verb clause]` |
+| `Đã đó là lúc...` | `Và đó là lúc...` |
+| `ngưỡng mộ đã lòng kính trọng` | `ngưỡng mộ và lòng kính trọng` |
+| `tốc độ đã chất lượng` | `tốc độ và chất lượng` |
+| `trang điểm đã tóc giả` | `trang điểm và tóc giả` |
+
+**Detected automatically** by the script (checks for proper noun pairs joined by "đã").
+
+---
+
+## CATEGORY 7 — English leakage
 
 ### 6.1 Conjunction leakage (most common)
 ❌ `"Garfiel and Otto đã sẵn sàng."` → ✓ `"Garfiel và Otto đã sẵn sàng."`
