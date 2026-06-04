@@ -6,10 +6,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const chapters = [
-  { num: '60', url: 'https://witchculttranslation.com/2022/05/04/arc-7-chapter-60-the-planting-of-a-tumultuous-seedling/' },
-  { num: '54b', url: 'https://witchculttranslation.com/2022/05/08/arc-7-chapter-54b-covering-the-blue-sky/' },
-  { num: '55b', url: 'https://witchculttranslation.com/2022/05/14/arc-7-chapter-55b-the-cacophony-of-the-fortress-city/' },
-  { num: '56b', url: 'https://witchculttranslation.com/2022/05/20/arc-7-chapter-56b-the-flying-dragon-cataclysm/' }
+  { num: '36', url: 'https://witchculttranslation.com/2022/02/12/arc-7-chapter-36-chaotic-demon-city/' },
+  { num: '37', url: 'https://witchculttranslation.com/2022/02/13/arc-7-chapter-37-the-lord-of-the-crimson-lapis-castle/' },
+  { num: '38', url: 'https://witchculttranslation.com/2022/02/18/arc-7-chapter-38-a-reward-eight-years-in-the-making/' },
+  { num: '39', url: 'https://witchculttranslation.com/2022/02/23/arc-7-chapter-39-vicious/' }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');
