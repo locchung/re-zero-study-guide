@@ -6,9 +6,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const chapters = [
-  { num: '57b', title: 'Chương 57B: Bị Gọi Là Đồ Ngốc Cũng Chẳng Sao | I Don’t Mind Being Called a Moron', chapterVal: 57.5 },
-  { num: '58b', title: 'Chương 58B: Những Kẻ Không Còn Nơi Để Quay Về | Those Who Have No Place to Turn To', chapterVal: 58.5 },
-  { num: '59b', title: 'Chương 59B: Flop O’Connell | Flop O’Connell', chapterVal: 59.5 }
+  { num: '61', title: 'Chương 61: Chào Mừng Đến Với Đảo Đấu Sĩ | Welcome, to the Gladiator Island!', chapterVal: 61 },
+  { num: '62', title: 'Chương 62: Luật Lệ Của Hòn Đảo | The Island’s Order', chapterVal: 62 },
+  { num: '63', title: 'Chương 63: Sparka | Sparka', chapterVal: 63 },
+  { num: '64', title: 'Chương 64: Những Từ Ngữ Ma Thuật | Magic Words', chapterVal: 64 },
+  { num: '65', title: 'Chương 65: Chiến Thần Ăn Chực Học Đường | The School Food Fighter', chapterVal: 65 }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');
@@ -113,7 +115,20 @@ function compileChapter({ num, title, chapterVal }) {
         { en: 'Kafma Irulux', vi: 'Kafma Irulux' },
         { en: 'Kafma', vi: 'Kafma' },
         { en: 'Todd', vi: 'Todd' },
-        { en: 'Jamal', vi: 'Jamal' }
+        { en: 'Jamal', vi: 'Jamal' },
+        { en: 'Cecilus Segmunt', vi: 'Cecilus Segmunt' },
+        { en: 'Cecilus', vi: 'Cecilus' },
+        { en: 'Schwartz', vi: 'Schwartz' },
+        { en: 'Ginunhive', vi: 'Ginunhive' },
+        { en: 'Weitz', vi: 'Weitz' },
+        { en: 'Hiain', vi: 'Hiain' },
+        { en: 'Idra', vi: 'Idra' },
+        { en: 'Gustav Morello', vi: 'Gustav Morello' },
+        { en: 'Gustav', vi: 'Gustav' },
+        { en: 'Ceci', vi: 'Ceci' },
+        { en: 'Basu', vi: 'Basu' },
+        { en: 'Sparka', vi: 'Sparka' },
+        { en: 'Guiltilaw', vi: 'Guiltilaw' }
       ];
 
       // Sort proper nouns by length of vi descending to match longer ones first

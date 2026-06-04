@@ -118,6 +118,11 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-57b', title: 'Chương 57B: Bị Gọi Là Đồ Ngốc Cũng Chẳng Sao | I Don\'t Mind Being Called a Moron', chapterNumber: 57.5, arc: 7 },
   { slug: 'chuong-58b', title: 'Chương 58B: Những Kẻ Không Còn Nơi Để Quay Về | Those Who Have No Place to Turn To', chapterNumber: 58.5, arc: 7 },
   { slug: 'chuong-59b', title: 'Chương 59B: Flop O\'Connell | Flop O\'Connell', chapterNumber: 59.5, arc: 7 },
+  { slug: 'chuong-61', title: 'Chương 61: Chào Mừng Đến Với Đảo Đấu Sĩ | Welcome, to the Gladiator Island!', chapterNumber: 61, arc: 7 },
+  { slug: 'chuong-62', title: 'Chương 62: Luật Lệ Của Hòn Đảo | The Island’s Order', chapterNumber: 62, arc: 7 },
+  { slug: 'chuong-63', title: 'Chương 63: Sparka | Sparka', chapterNumber: 63, arc: 7 },
+  { slug: 'chuong-64', title: 'Chương 64: Những Từ Ngữ Ma Thuật | Magic Words', chapterNumber: 64, arc: 7 },
+  { slug: 'chuong-65', title: 'Chương 65: Chiến Thần Ăn Chực Học Đường | The School Food Fighter', chapterNumber: 65, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
