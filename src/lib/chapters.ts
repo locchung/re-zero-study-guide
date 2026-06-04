@@ -107,6 +107,13 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-57', title: 'Chương 57: Không Thể Sống Khôn Ngoan Hơn | I Can’t Live Wiser', chapterNumber: 57, arc: 7 },
   { slug: 'chuong-58', title: 'Chương 58: Những Kẻ Không Nơi Nương Tựa | Those With No Place to Turn To', chapterNumber: 58, arc: 7 },
   { slug: 'chuong-59', title: 'Chương 59: Taritta Shudraq | Taritta Shudraq', chapterNumber: 59, arc: 7 },
+  { slug: 'chuong-60', title: 'Chương 60: Gieo Mầm Hạt Giống Huyên Náo | The Planting of a Tumultuous Seedling', chapterNumber: 60, arc: 7 },
+  { slug: 'chuong-54b', title: 'Chương 54B: Che Phủ Bầu Trời Xanh | Covering the Blue Sky', chapterNumber: 54.5, arc: 7 },
+  { slug: 'chuong-55b', title: 'Chương 55B: Tiếng Huyên Náo Của Thành Lũy | The Cacophony of the Fortress City', chapterNumber: 55.5, arc: 7 },
+  { slug: 'chuong-56b', title: 'Chương 56B: Tai Họa Phi Long | The Flying Dragon Cataclysm', chapterNumber: 56.5, arc: 7 },
+  { slug: 'chuong-57b', title: 'Chương 57B: Bị Gọi Là Đồ Ngốc Cũng Chẳng Sao | I Don\'t Mind Being Called a Moron', chapterNumber: 57.5, arc: 7 },
+  { slug: 'chuong-58b', title: 'Chương 58B: Những Kẻ Không Còn Nơi Để Quay Về | Those Who Have No Place to Turn To', chapterNumber: 58.5, arc: 7 },
+  { slug: 'chuong-59b', title: 'Chương 59B: Flop O\'Connell | Flop O\'Connell', chapterNumber: 59.5, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {

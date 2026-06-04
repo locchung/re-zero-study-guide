@@ -1,0 +1,742 @@
+[
+  {
+    "id": 141,
+    "en": "The question that had arisen in her mind was resolved, and Rem gently stroked Schult's curly-haired head. There was a strange charm about Schult that made Rem want to pet him like this.",
+    "vi": "Thắc mắc nảy sinh trong lòng đã được giải đáp, Rem nhẹ nhàng xoa đầu mái tóc xoăn của Schult. Schult có một sức hút kỳ lạ khiến Rem muốn cưng chiều cậu bé như thế này."
+  },
+  {
+    "id": 142,
+    "en": "Of those within the city, Rem also wanted to pet Utakata, who would come by every now and then.",
+    "vi": "Trong số những người ở thành phố, Rem cũng muốn cưng chiều Utakata, cô bé thỉnh thoảng lại ghé qua đây chơi."
+  },
+  {
+    "id": 143,
+    "en": "Perhaps, she simply wanted to dote on younger people though.",
+    "vi": "dù vậy, có lẽ cô chỉ đơn giản là thích cưng chiều những đứa trẻ nhỏ tuổi hơn mình."
+  },
+  {
+    "id": 144,
+    "en": "Heinkel: [Eh, shit, I can't keep up with you. Miss Priscilla! Just answer the question now. If you don't need me, I'll be at the tavern…]",
+    "vi": "Heinkel: [Hừ, phiền phức quá, ta không cãi nhau với các ngươi nữa. Tiểu thư Priscilla! Người trả lời câu hỏi đi chứ. Nếu người không cần ta ở đây nữa, ta sẽ ra quán rượu…]"
+  },
+  {
+    "id": 145,
+    "en": "Priscilla: [――It is about time for those who have left this city to arrive at the Demon City.]",
+    "vi": "Priscilla: [――Đã đến lúc những kẻ rời khỏi thành phố này đặt chân tới Demon City rồi đấy.]"
+  },
+  {
+    "id": 146,
+    "en": "Heinkel: [Ah…]",
+    "vi": "Heinkel: [À…]"
+  },
+  {
+    "id": 147,
+    "en": "Priscilla: [If circumstances were to change, the likelihood that this opportunity would be made the most of is high. Do not lower your guard.]",
+    "vi": "Priscilla: [Nếu tình thế xoay chuyển, khả năng cao là thời cơ này sẽ được tận dụng triệt để. Đừng lơ là cảnh giác.]"
+  },
+  {
+    "id": 148,
+    "en": "The humidity in the air changed as Priscilla spoke this, resting her cheek upon her hand on the armrest.",
+    "vi": "Độ ẩm trong không khí thay đổi khi Priscilla thốt ra những lời này, cô khẽ tựa má lên tay vịn của chiếc ghế."
+  },
+  {
+    "id": 149,
+    "en": "The parched, stale air was a sign that attention had been correctly applied to Priscilla's words; Heinkel's expression sharpened, and Rem felt as if she had been prodded in the chest.",
+    "vi": "Luồng không khí ngột ngạt khô khốc là dấu hiệu cho thấy mọi người đang tập trung cao độ vào lời của Priscilla; nét mặt Heinkel sắc lẹm lại, còn Rem cảm giác như có thứ gì đó đâm mạnh vào lồng ngực."
+  },
+  {
+    "id": 150,
+    "en": "Only Schult, Rem's hand on his head still, had shown appreciation for the group who had embarked on a long journey, saying, \"Al-sama, thank you for your efforts~”.",
+    "vi": "Chỉ riêng Schult, khi bàn tay của Rem vẫn đặt trên đầu cậu bé, là bày tỏ sự kính trọng đối với nhóm người đã lên đường đi xa, khẽ nói: \"Anh Al, cảm ơn anh vì đã vất vả nhé~\"."
+  },
+  {
+    "id": 151,
+    "en": "Rem: [――――]",
+    "vi": "Rem: [――――]"
+  },
+  {
+    "id": 152,
+    "en": "If circumstances were to change, was what Priscilla had prefaced her statement with. But at least for Subaru and the others who had departed, it would bring about definite changes, both good and bad.",
+    "vi": "Nếu tình thế xoay chuyển, đó là lời mở đầu của Priscilla. Nhưng ít nhất đối với Subaru và những người đã rời đi, việc này sẽ mang lại những thay đổi rõ rệt, cả tốt lẫn xấu."
+  },
+  {
+    "id": 153,
+    "en": "Negotiating with the only potential ally―― this negotiation would certainly determine Abel’s decisions from henceforth.",
+    "vi": "Thương thảo với đồng minh tiềm năng duy nhất―― cuộc đàm phán này hẳn là sẽ quyết định các bước đi tiếp theo của Abel kể từ giờ trở đi."
+  },
+  {
+    "id": 154,
+    "en": "Heinkel: [This whole thing about, this opportunity being made the most of… Miss Priscilla, is there something particular that you noticed?]",
+    "vi": "Heinkel: [Cái chuyện tận dụng triệt để thời cơ này… tiểu thư Priscilla, người đã nhận thấy điều gì đặc biệt rồi sao?]"
+  },
+  {
+    "id": 155,
+    "en": "Priscilla: [No, it is nothing so concrete. It is merely a rule of thumb of mine.]",
+    "vi": "Priscilla: [Không, chẳng có gì cụ thể cả. Đó chỉ là kinh nghiệm đúc kết của ta mà thôi.]"
+  },
+  {
+    "id": 156,
+    "en": "Heinkel: [Rule of thumb, is it? What is that supposed to…]",
+    "vi": "Heinkel: [Kinh nghiệm đúc kết sao? Ý người là thế nào…]"
+  },
+  {
+    "id": 157,
+    "en": "Priscilla: [When great things move, they move all at once, as if the quietness that had prevailed up to that point were a lie. It is as if by design, all at once, akin to lined-up building blocks falling down in a row.]",
+    "vi": "Priscilla: [Khi những đại cục chuyển dịch, chúng sẽ chuyển dịch đồng loạt, như thể sự tĩnh lặng trước đó chỉ là một lời dối trá. Giống như được sắp đặt từ trước, tất cả sẽ đổ rạp cùng một lúc, tựa như những khối xếp hình được xếp thẳng hàng đổ xuống liên tiếp.]"
+  },
+  {
+    "id": 158,
+    "en": "There was a kind of ineffable compelling force in Priscilla's indifferent manner of speaking.",
+    "vi": "Có một sức thuyết phục khó tả trong lối nói thản nhiên của Priscilla."
+  },
+  {
+    "id": 159,
+    "en": "Ultimately, it was a singular point about not letting one’s guard down, yet Rem took a deep breath and looked down to regard her feet again. If she were to get hung up about Subaru and the others so much as to neglect what was close to her, that would be like putting cart before the Galewind Horse.",
+    "vi": "Rốt cuộc, đó chỉ là lời nhắc nhở không được lơ là cảnh giác, nhưng Rem vẫn hít sâu một hơi và nhìn xuống chân mình. Nếu cô cứ bận tâm về Subaru và những người khác đến mức bỏ bê những gì ở ngay cạnh mình, thì chẳng khác nào đặt cái cày trước con Ngựa Gió."
+  },
+  {
+    "id": 160,
+    "en": "To begin with, putting something such as getting hung up over Subaru into words yet again made her realize just how unpleasant the situation was.",
+    "vi": "Ngay từ đầu, việc lại nói ra thành lời rằng mình đang bận lòng về Subaru càng làm cô nhận ra tình cảnh này khó chịu đến nhường nào."
+  },
+  {
+    "id": 161,
+    "en": "Rem: [Whether he’s around or not, he’s a troublesome person…]",
+    "vi": "Rem: [Dù có ở đây hay không, anh ta vẫn là một kẻ phiền phức…]"
+  },
+  {
+    "id": 162,
+    "en": "Schult: [Rem-sama? Is everything fine? Your face is somewhat red.]",
+    "vi": "Schult: [Chị Rem? Chị ổn chứ ạ? Mặt chị trông hơi đỏ kìa.]"
+  },
+  {
+    "id": 163,
+    "en": "Rem: [It's okay. Something was just surging within me. I was seething, angry.]",
+    "vi": "Rem: [Không sao đâu. Chỉ là có chút cảm xúc trào dâng trong lòng thôi. Tôi đang bực mình chút ấy mà.]"
+  },
+  {
+    "id": 164,
+    "en": "Schult: [It is not good to be angry! Rem-sama looks wonderful when she is smiling~!]",
+    "vi": "Schult: [Tức giận là không tốt đâu ạ! Chị Rem trông xinh đẹp nhất là khi mỉm cười đấy ạ~!]"
+  },
+  {
+    "id": 165,
+    "en": "The corners of Rem’s eyes lowered due to Schult flapping his limbs and raising a potent appeal. Heinkel’s face, on the other hand, became serious after Priscilla's admonishment,",
+    "vi": "Khóe mắt Rem dịu lại trước hành động khua tay múa chân đầy nhiệt huyết của Schult. Trong khi đó, nét mặt Heinkel trở nên nghiêm túc sau lời cảnh báo của Priscilla,"
+  },
+  {
+    "id": 166,
+    "en": "Heinkel: [Miss Priscilla, if that's all you want to talk about, then I'm going.]",
+    "vi": "Heinkel: [Tiểu thư Priscilla, nếu người chỉ muốn nói bấy nhiêu thôi thì ta đi đây.]"
+  },
+  {
+    "id": 167,
+    "en": "Priscilla: [Do as you like. You are free to indulge in alcoholism or spend your time in sloth.]",
+    "vi": "Priscilla: [Cứ tự nhiên. Ngươi cứ việc chìm đắm trong men rượu hay lãng phí thời gian vào sự lười nhác.]"
+  },
+  {
+    "id": 168,
+    "en": "Heinkel: [I'm not in the mood for booze. I'm going to go talk to the shaggy-headed commander at the City Hall.]",
+    "vi": "Heinkel: [Ta không có tâm trạng uống rượu. Ta sẽ đến Tòa thị chính nói chuyện với tên chỉ huy tóc tai bù xù kia.]"
+  },
+  {
+    "id": 169,
+    "en": "Answering right back with an earnest look on his face, Heinkel walked out of the room with broad steps. Seeing him off, Rem then turned to Priscilla,",
+    "vi": "Đáp lại bằng vẻ mặt nghiêm nghị, Heinkel rảo bước ra khỏi phòng. Dõi mắt tiễn chú đi, Rem quay sang nhìn Priscilla,"
+  },
+  {
+    "id": 170,
+    "en": "Rem: [So, what is it you’re going to do, Priscilla-san?]",
+    "vi": "Rem: [Vậy còn cô thì sao, Priscilla-san? Cô định làm gì?]"
+  },
+  {
+    "id": 171,
+    "en": "Priscilla: [Are you concerned about mine activities?]",
+    "vi": "Priscilla: [Ngươi lại quan tâm đến hành động của ta sao?]"
+  },
+  {
+    "id": 172,
+    "en": "Rem: [That is… a given. I don't think that everything Priscilla does is correct, but…]",
+    "vi": "Rem: [Đó là… điều hiển nhiên. Tôi không nghĩ mọi việc Priscilla-san làm đều đúng, nhưng…]"
+  },
+  {
+    "id": 173,
+    "en": "Still, Priscilla judged things with knowledge and insight that Rem did not have.",
+    "vi": "Dù vậy, Priscilla vẫn phán đoán mọi việc bằng tri thức và nhãn quan mà Rem không hề có."
+  },
+  {
+    "id": 174,
+    "en": "For Rem, who possessed very little, this was a valuable resource to determine what to decide next. At Rem’s remarks, which were extremely rude in a sense, Priscilla let out a laugh,",
+    "vi": "Đối với một người sở hữu quá ít thứ như cô, đây là một nguồn tham khảo quý giá để quyết định xem bản thân nên làm gì tiếp theo. Trước những nhận xét theo nghĩa nào đó là cực kỳ vô lễ của Rem, Priscilla bật cười tự mãn,"
+  },
+  {
+    "id": 175,
+    "en": "Priscilla: [So you are not planning to become a doll without a mind of its own? Well, there would not have been any meaning in having you at my side in such a case.]",
+    "vi": "Priscilla: [So ngươi không định biến thành một con búp bê vô hồn vô sắc sao? Phải thế chứ, nếu không thì việc giữ ngươi bên cạnh ta cũng chẳng còn ý nghĩa gì.]"
+  },
+  {
+    "id": 176,
+    "en": "Rem: [Priscilla-san?]",
+    "vi": "Rem: [Priscilla-san?]"
+  },
+  {
+    "id": 177,
+    "en": "Priscilla: [Guessing from the answer to my question, preparations shall be laid out by that simpleton. The General and the People of Shudraq may also be used accordingly. With that, I shall…]",
+    "vi": "Priscilla: [Từ câu trả lời của ta ban nãy, tên ngốc kia tin rằng sẽ đi chuẩn bị mọi thứ. Tướng quân và Tộc nhân Shudraq cũng sẽ được huy động tương ứng. Và rồi, ta sẽ…]"
+  },
+  {
+    "id": 178,
+    "en": "Rem: [Priscilla-san will…?]",
+    "vi": "Rem: [Priscilla-san sẽ…?]"
+  },
+  {
+    "id": 179,
+    "en": "With a slight gulp, Rem waited for Priscilla’s next words. Unknowingly, next to Rem, Schult also clenched his fists in anticipation, waiting for their master's answer.",
+    "vi": "Khẽ nuốt nước bọt, Rem nín thở chờ đợi lời tiếp theo từ Priscilla. Cạnh bên cô, Schult cũng vô thức siết chặt nắm tay trong sự phấn khích, đợi chờ câu trả lời của chủ nhân."
+  },
+  {
+    "id": 180,
+    "en": "As she met the gaze of the two, Priscilla's almond-shaped eyes narrowed, and,",
+    "vi": "Bắt gặp ánh nhìn của cả hai, đôi mắt phượng của Priscilla khẽ nheo lại, và,"
+  },
+  {
+    "id": 181,
+    "en": "Priscilla: [――Prepare a hot bath. Float the petals and burn the incense.]",
+    "vi": "Priscilla: [――Chuẩn bị bồn tắm nước nóng đi. Thả thêm cánh hoa và đốt hương trầm lên.]"
+  },
+  {
+    "id": 182,
+    "en": "Rem: […Huh?]",
+    "vi": "Rem: […Hả?]"
+  },
+  {
+    "id": 183,
+    "en": "Priscilla: [What, do not make me say it twice. I shall take a bath. Prepare the bathhouse as soon as possible.]",
+    "vi": "Priscilla: [Gì chứ, đừng để ta phải nhắc lại lần thứ hai. Ta muốn tắm. Hãy mau chuẩn bị phòng tắm đi.]"
+  },
+  {
+    "id": 184,
+    "en": "With a fluttering wave of her hand, Priscilla urged Rem and Schult to hurry up.",
+    "vi": "Vẫy tay một cách hờ hững, Priscilla thúc giục Rem và Schult nhanh chóng hành động."
+  },
+  {
+    "id": 185,
+    "en": "Of course, Rem was incapable of hiding her bewilderment, letting out a “W-wha?”. But Schult saluted her in a snap,",
+    "vi": "Tất nhiên, Rem không thể giấu nổi sự bàng hoàng của mình, bật thốt ra tiếng \"C-cái gì?\". Nhưng Schult thì ngay lập tức giơ tay chào,"
+  },
+  {
+    "id": 186,
+    "en": "Schult: [Understood, oh yes indeed! I will go and heat the water right away~!]",
+    "vi": "Schult: [Rõ rồi ạ, vâng thưa tiểu thư! Em đi đun nước nóng ngay đây ạ~!]"
+  },
+  {
+    "id": 187,
+    "en": "After answering cheerfully, just like that Schult ran out of the room with great energy. Seeing off his small back, Rem then turned to Priscilla.",
+    "vi": "Sau câu trả lời hớn hở, Schult thoăn thoắt chạy ra khỏi phòng đầy năng lượng. Nhìn theo bóng lưng nhỏ bé của cậu, Rem quay lại đối diện với Priscilla."
+  },
+  {
+    "id": 188,
+    "en": "Priscilla was still resting her chin on her hand, set to resume reading the book once again.",
+    "vi": "Priscilla vẫn đang chống cằm lên tay, chuẩn bị tiếp tục đọc cuốn sách của mình."
+  },
+  {
+    "id": 189,
+    "en": "Priscilla: [Shall you not go? If left to Schult alone, I am sure he shall forget the plug and much hot water shall be wasted.]",
+    "vi": "Priscilla: [Ngươi không định đi sao? Nếu chỉ giao việc cho một mình Schult, ta dám chắc nó sẽ quên đậy nắp cống và làm lãng phí rất nhiều nước nóng đấy.]"
+  },
+  {
+    "id": 190,
+    "en": "Rem: [I’ll help Schult-san. It’s just, what are you thinking?]",
+    "vi": "Rem: [Tôi sẽ đi giúp Schult-san. Chỉ là, cô đang suy tính điều gì vậy?]"
+  },
+  {
+    "id": 191,
+    "en": "Priscilla: [Your skepticism is also a sign of your preconceived notions. Do you regard me as this world’s Observers, who can manipulate every event at will?]",
+    "vi": "Priscilla: [Sự hoài nghi của ngươi cũng là biểu hiện cho thấy định kiến của ngươi đấy. Ngươi coi ta như những Observers của thế giới này, những kẻ có thể thao túng mọi sự kiện theo ý muốn chăng?]"
+  },
+  {
+    "id": 192,
+    "en": "Rem: [I wouldn’t go that far, but…]",
+    "vi": "Rem: [Tôi không nghĩ xa đến thế, nhưng…]"
+  },
+  {
+    "id": 193,
+    "en": "Persuaded by facts and logic, the momentum of Rem's questioning deflated.",
+    "vi": "Bị thuyết phục bởi thực tế và lý lẽ, sự dồn dập trong câu hỏi của Rem lập tức xì hơi."
+  },
+  {
+    "id": 194,
+    "en": "Priscilla scoffed at Rem's behavior, and continued, \"Listen”,",
+    "vi": "Priscilla cười khẩy trước biểu cảm của Rem, rồi tiếp lời: \"Nghe đây\","
+  },
+  {
+    "id": 195,
+    "en": "Priscilla: [Everything in this world is made for my convenience. But that does not mean that everything shall follow mine will. Such tedium is not what I desire.]",
+    "vi": "Priscilla: [Mọi thứ trên thế giới này được tạo ra để phục vụ cho sự tiện lợi của ta. Nhưng điều đó không đồng nghĩa với việc tất cả đều phải tuân theo ý chí của ta. Sự tẻ nhạt đó không phải thứ ta mong muốn.]"
+  },
+  {
+    "id": 196,
+    "en": "Rem: [Having everything according to your will, is tedium?]",
+    "vi": "Rem: [Mọi việc diễn ra theo ý mình mà lại là tẻ nhạt sao?]"
+  },
+  {
+    "id": 197,
+    "en": "Priscilla: [Where is the point of facing tomorrow if everything that can happen is as written? Rem, do you desire a world where everything has been over since the day you were born?]",
+    "vi": "Priscilla: [Ý nghĩa của việc đón chào ngày mai nằm ở đâu nếu mọi sự có thể xảy ra đều đã được an bài từ trước? Rem, ngươi có khao khát một thế giới mà mọi thứ đã sớm kết thúc kể từ ngày ngươi được sinh ra chăng?]"
+  },
+  {
+    "id": 198,
+    "en": "Rem: [――――]",
+    "vi": "Rem: [――――]"
+  },
+  {
+    "id": 199,
+    "en": "Upon being asked that by Priscilla, Rem shut her mouth in silence.",
+    "vi": "Nhận được câu hỏi đó từ Priscilla, Rem im lặng mím chặt môi."
+  },
+  {
+    "id": 200,
+    "en": "Priscilla's words were again esoteric, so she barely comprehended the point of the conversation. To live one's days as desired meant never encountering the new or the unknown.",
+    "vi": "Những lời của Priscilla một lần nữa thật cao siêu, nên cô chỉ hiểu lờ mờ cốt lõi của câu chuyện. Sống qua từng ngày theo đúng ý nguyện đồng nghĩa với việc không bao giờ được chạm trán với những điều mới mẻ hay những ẩn số chưa biết."
+  },
+  {
+    "id": 201,
+    "en": "And that, was undesirable for Priscilla.",
+    "vi": "Và đó là điều Priscilla không hề mong muốn."
+  },
+  {
+    "id": 202,
+    "en": "However――,",
+    "vi": "Thế nhưng――,"
+  },
+  {
+    "id": 203,
+    "en": "Rem: [As someone who can’t perform many things properly, I will strongly disagree.]",
+    "vi": "Rem: [Là một người không thể làm tốt được nhiều việc, tôi xin kiên quyết phản đối quan điểm đó.]"
+  },
+  {
+    "id": 204,
+    "en": "Rem had seen Subaru off on his journey, remaining in the Fortress City beside Priscilla. Underlying this was a desire for the \"Rem\" that had been lost, and a search for a way or a chance to break free from her current inadequate self.",
+    "vi": "Rem đã tiễn Subaru lên đường và ở lại Fortress City bên cạnh Priscilla. Ẩn sâu dưới điều đó là nỗi khát khao tìm lại một \"Rem\" đã mất, và tìm kiếm một con đường hay cơ hội để thoát khỏi bản thân kém cỏi hiện tại."
+  },
+  {
+    "id": 205,
+    "en": "Priscilla's way of enjoying what did not follow her wishes was incomprehensible to Rem, who suffered from being unable to do anything the way she wanted.",
+    "vi": "Cách tận hưởng những thứ không theo ý nguyện của Priscilla là điều không thể hiểu nổi đối với một Rem đang đau khổ vì không thể làm được bất cứ điều gì theo ý mình."
+  },
+  {
+    "id": 206,
+    "en": "Even if that made Priscilla give up on her, regarding her as an uninteresting woman.",
+    "vi": "dù cho điều đó có thể khiến Priscilla từ bỏ cô, coi cô là một người phụ nữ nhạt nhẽo đi chăng nữa."
+  },
+  {
+    "id": 207,
+    "en": "Priscilla: [I do not expect you to be like me, nor do I expect you to want the same thing. Do as you please.]",
+    "vi": "Priscilla: [Ta không mong đợi ngươi giống như ta, cũng không hy vọng ngươi có cùng mong muốn với ta. Cứ làm những gì ngươi thích đi.]"
+  },
+  {
+    "id": 208,
+    "en": "But Priscilla's reaction to Rem, who was even prepared to speak out of her pathetic conviction, was unexpectedly soft.",
+    "vi": "Nhưng phản ứng của Priscilla đối với Rem, người thậm chí đã sẵn sàng nói ra niềm tin có phần thảm hại của mình, lại dịu dàng một cách bất ngờ."
+  },
+  {
+    "id": 209,
+    "en": "Priscilla looked at Rem, eyes rounded in amazement, as if gazing at a helpless puppy,",
+    "vi": "Priscilla nhìn Rem với đôi mắt tròn xoe đầy kinh ngạc, như thể đang ngắm nhìn một chú cún con yếu ớt vô hại,"
+  },
+  {
+    "id": 210,
+    "en": "Priscilla: [The world is beautiful just as it is.]",
+    "vi": "Priscilla: [Thế giới này vốn đã rất tươi đẹp theo cách của riêng nó rồi.]"
+  },
+  {
+    "id": 211,
+    "en": "Priscilla's quiet mutterings seemed to contain her true feelings without any compromise.",
+    "vi": "Lời thì thầm khẽ khàng của Priscilla dường như chứa đựng những cảm xúc thật lòng nhất của cô mà không hề có chút che giấu nào."
+  },
+  {
+    "id": 212,
+    "en": "Posteriorly to thinking so, Rem dismissed the idea as ridiculous. Because if those were her true feelings without any compromise, they were far too grandiose.",
+    "vi": "Ngay sau khi nghĩ vậy, Rem lập tức gạt bỏ ý nghĩ đó vì cho rằng nó thật lố bịch. Bởi lẽ nếu đó quả nhiên là những cảm xúc chân thành không che giấu của cô, thì chúng lại quá đỗi vĩ đại."
+  },
+  {
+    "id": 213,
+    "en": "Priscilla loved and cared for things far too grandiose.",
+    "vi": "Priscilla yêu thương và trân trọng những điều vĩ đại vượt bậc."
+  },
+  {
+    "id": 214,
+    "en": "Rem: [Caring for and cherishing is the exact opposite impression I get from Priscilla-san…]",
+    "vi": "Rem: [Yêu thương và trân trọng lại là ấn tượng hoàn toàn trái ngược với những gì tôi thấy ở Priscilla-san…]"
+  },
+  {
+    "id": 215,
+    "en": "Priscilla: [Did you say something?]",
+    "vi": "Priscilla: [Ngươi vừa nói gì à?]"
+  },
+  {
+    "id": 216,
+    "en": "Rem: [No, nothing of importance…]",
+    "vi": "Rem: [Không, không có gì quan trọng đâu ạ…]"
+  },
+  {
+    "id": 217,
+    "en": "Rem shook her head loosely; the fuzziness in her chest had faded slightly.",
+    "vi": "Rem khẽ lắc đầu; sự bứt rứt trong lòng cô đã vơi đi đôi chút."
+  },
+  {
+    "id": 218,
+    "en": "Not all was clear, but that dark cloud that had just been there had disappeared. Indeed, Rem had just finished a step further into her self-analysis and――,",
+    "vi": "Dù chưa sáng tỏ mọi điều, nhưng đám mây mù vừa giăng kín đó đã tan biến. Quả thực, Rem vừa hoàn thành thêm một bước nữa trong việc tự chiêm nghiệm bản thân và――,"
+  },
+  {
+    "id": 219,
+    "en": "Schult: [W-w-w-wah~! Hot water, hot water is overflowing! I am drowning~!]",
+    "vi": "Schult: [Á á á~! Nước nóng, nước nóng đang tràn ra rồi! Em sắp chìm nghỉm rồi cứu em với~!]"
+  },
+  {
+    "id": 220,
+    "en": "And so, they heard Schult's urgent screams coming from the bathhouse of the mansion. Sure enough, Rem was reminded of Schult, the latter amidst an unexpected situation, and directed her face upwards.",
+    "vi": "Cứ như thế, họ nghe thấy những tiếng la hét khẩn thiết của Schult vọng lại từ phòng tắm của dinh thự. Đúng như dự đoán, Rem sực nhớ ra Schult đang rơi vào một tình huống dở khóc dở cười, lập tức ngẩng đầu lên."
+  },
+  {
+    "id": 221,
+    "en": "Priscilla's eyes meet hers, the former then jerking her white chin and commanding her, “Go”.",
+    "vi": "Đôi mắt Priscilla chạm lấy mắt cô, rồi cô ấy hếch chiếc cằm trắng nõn ra hiệu lệnh: \"Đi đi\"."
+  },
+  {
+    "id": 222,
+    "en": "Rem: [I won’t move to your whim, Priscilla-san.]",
+    "vi": "Rem: [Tôi sẽ không hành động theo hứng chí của cô đâu, Priscilla-san.]"
+  },
+  {
+    "id": 223,
+    "en": "Priscilla: [But you cannot ignore Schult's screams. See, the victor is I.]",
+    "vi": "Priscilla: [Nhưng ngươi đâu thể phớt lờ tiếng kêu cứu của Schult. Thấy chưa, kẻ thắng cuộc chính là ta.]"
+  },
+  {
+    "id": 224,
+    "en": "Rem's resistance to at least not being at her mercy dissipated, as if ephemeral.",
+    "vi": "Sự kháng cự của Rem để ít nhất không bị cô ấy xoay như chong chóng lập tức tan biến như bọt nước."
+  },
+  {
+    "id": 225,
+    "en": "Because Schult’s safety was at stake, no further defense was raised.",
+    "vi": "Vì sự an nguy của Schult đang bị đe dọa, cô không thể biện minh thêm lời nào nữa."
+  },
+  {
+    "id": 226,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 227,
+    "en": "――Priscilla’s advice, it had with certainty driven a wedge deep into Rem's heart.",
+    "vi": "――Lời khuyên của Priscilla không nghi ngờ gì đã cắm một cột mốc sâu hoắm vào trái tim Rem."
+  },
+  {
+    "id": 228,
+    "en": "When things moved on a grand scale, they would pay no heed to every individual puny human.",
+    "vi": "Khi đại cục xoay vần, nó sẽ chẳng bao giờ bận tâm tới từng cá nhân con người nhỏ bé."
+  },
+  {
+    "id": 229,
+    "en": "With nary a worry for those who embroiled into it, they washed over the latter much like surging waves.",
+    "vi": "Không một chút đắn đo cho những kẻ bị cuốn vào, chúng sẽ cuốn phăng tất cả tựa như những cơn sóng cuộn trào."
+  },
+  {
+    "id": 230,
+    "en": "Rem believed she had experienced this first-hand.",
+    "vi": "Rem tin rằng bản thân cô đã trực tiếp trải nghiệm điều này."
+  },
+  {
+    "id": 231,
+    "en": "Having woken up without memories, the current Rem’s memories started in an unfamiliar place, with an unfamiliar someone holding her arm.",
+    "vi": "Tỉnh dậy mà không có ký ức, những ký ức của Rem hiện tại bắt đầu ở một nơi xa lạ, với một người xa lạ đang níu chặt lấy cánh tay cô."
+  },
+  {
+    "id": 232,
+    "en": "Running from that boy, coming across him once more, being captured by many Imperial Soldiers after that, being rescued from within the smoke and flames, she now spent her days in this city just going with the flow.",
+    "vi": "Chạy trốn khỏi cậu thiếu niên đó, rồi lại tình cờ gặp lại cậu, bị vô số Binh lính Đế quốc bắt giữ sau đó, được giải cứu từ trong khói lửa mịt mù, giờ đây cô dành những ngày tháng ở thành phố này chỉ để trôi theo dòng chảy sự kiện."
+  },
+  {
+    "id": 233,
+    "en": "So much so that Rem believed that “turbulence” was just the word for what she had been through.",
+    "vi": "Nhiều đến mức Rem tin chắc rằng \"sóng gió huyên náo\" chính là từ chính xác nhất để lột tả những gì cô đã trải qua."
+  },
+  {
+    "id": 234,
+    "en": "――However, the fact that even that understanding of hers was too naive was something that Rem would soon be made aware of.",
+    "vi": "――Song, sự thật là ngay cả cách hiểu đó của cô vẫn còn quá đỗi ngây thơ, đó là điều mà Rem sẽ sớm nhận ra."
+  },
+  {
+    "id": 235,
+    "en": "Rem: [――Priscilla-san?]",
+    "vi": "Rem: [――Priscilla-san?]"
+  },
+  {
+    "id": 236,
+    "en": "Rem’s brow creased due to Priscilla, who stood up after smoothly evading her hands.",
+    "vi": "Chân mày Rem nhíu lại trước hành động đứng dậy sau khi nhẹ nhàng né tránh đôi bàn tay cô của Priscilla."
+  },
+  {
+    "id": 237,
+    "en": "Enveloped by warm vapor, Rem was in the mansion’s bathroom, wrapped in a bath towel. The principal reason for which Priscilla had requisitioned this mansion was the existence of this splendid bathroom.",
+    "vi": "Được bao bọc trong làn hơi ấm áp, Rem đang ở trong phòng tắm của dinh thự, quấn một chiếc khăn tắm quanh người. Lý do chính khiến Priscilla chiếm giữ dinh thự này là nhờ sự hiện diện của phòng tắm lộng lẫy này."
+  },
+  {
+    "id": 238,
+    "en": "A bath that you could fill with hot water, stretch your limbs in, and be completely submerged in, seemed to have been made on the design of the mansion’s owner. Nothing in the world could replace it.",
+    "vi": "Một chiếc bồn tắm có thể đổ đầy nước nóng, giúp bạn duỗi thẳng chân tay và ngâm mình hoàn toàn trong đó, có vẻ được làm theo ý muốn thiết kế của chủ nhân cũ của dinh thự. Không thứ gì trên đời có thể thay thế được nó."
+  },
+  {
+    "id": 239,
+    "en": "While in actuality Rem would be allowed to bathe in it only after she had finished assisting Priscilla with her own bath, she’d had such an experience with it that she could even understand Priscilla’s feelings of wanting to hog it all for herself.",
+    "vi": "đã trên thực tế Rem chỉ được phép tắm sau khi đã phụ giúp Priscilla tắm rửa xong xuôi, cô vẫn có trải nghiệm tuyệt vời với nó đến mức cô có thể hiểu được cảm giác muốn độc chiếm bồn tắm của Priscilla."
+  },
+  {
+    "id": 240,
+    "en": "At any rate, during her bath in the bathhouse, Priscilla stood up gently, distancing herself from Rem’s hands which were washing her hair, and headed towards the bathroom’s window.",
+    "vi": "Dù sao thì, khi đang ngâm mình trong phòng tắm, Priscilla nhẹ nhàng đứng dậy, rời khỏi đôi bàn tay đang gội đầu cho cô của Rem, rồi tiến về phía cửa sổ phòng tắm."
+  },
+  {
+    "id": 241,
+    "en": "Rem: [Priscilla-san, I’m still in the process of washing your body so… Ah!]",
+    "vi": "Rem: [Priscilla-san, tôi vẫn đang tắm rửa cho cô mà nên… A!]"
+  },
+  {
+    "id": 242,
+    "en": "What are you trying to do, that question of Rem’s seemingly fell on deaf ears, as Priscilla, her beautiful body generously exposed, opened the bathroom’s window.",
+    "vi": "Cô định làm gì vậy, câu hỏi của Rem dường như bị bỏ ngoài tai khi Priscilla, thân thể tuyệt mỹ của cô lộ rõ trước mắt, đẩy tung cửa sổ phòng tắm ra."
+  },
+  {
+    "id": 243,
+    "en": "Cold open air which could not compare to the hot steam entered the bathroom, and Rem unconsciously drew in her body. However, Priscilla’s sudden actions did not stop there.",
+    "vi": "Luồng không khí lạnh giá bên ngoài ùa vào phòng tắm phá tan hơi nóng mịt mù, khiến Rem vô thức co rúm người lại. Tuy vậy, hành động đột ngột của Priscilla không dừng lại ở đó."
+  },
+  {
+    "id": 244,
+    "en": "She leaned her body over the open window, and continued out towards the balcony outside the bathroom.",
+    "vi": "Cô trèo qua ô cửa sổ mở toang, bước thẳng ra ngoài ban công phía ngoài phòng tắm."
+  },
+  {
+    "id": 245,
+    "en": "Rem: [W-what are you doing!? Others will see you! No matter if this is the top floor, you can’t just…]",
+    "vi": "Rem: [C-cô đang làm gì vậy chứ!? Người khác sẽ nhìn thấy đấy! Cho dù đây có là tầng cao nhất, cô cũng không thể cứ thế…]"
+  },
+  {
+    "id": 246,
+    "en": "In a rush, grabbing onto the cane and a towel, Rem pursued Priscilla who had gone outside. Draping the towel over her slender shoulders, she admonished herself for believing herself adapted to her suddenness.",
+    "vi": "Cuống cuồng vớ lấy cây gậy và chiếc khăn tắm, Rem đuổi theo Priscilla ra ngoài ban công. Choàng chiếc khăn lên bờ vai thon thả của Priscilla, cô tự trách bản thân vì đã lầm tưởng mình đã thích nghi được với tính cách thất thường của cô ấy."
+  },
+  {
+    "id": 247,
+    "en": "However, ignoring Rem’s introspection, Priscilla with her gaze turned towards the sky、",
+    "vi": "Thế nhưng, phớt lờ sự tự vấn của Rem, Priscilla ngước nhìn lên bầu trời và cất lời、"
+  },
+  {
+    "id": 248,
+    "en": "Priscilla: [――It is the sky.]",
+    "vi": "Priscilla: [――Bầu trời kìa.]"
+  },
+  {
+    "id": 249,
+    "en": "Rem: [The sky… We’re not so high up as to be there. Come on, before the water gets cold, let’s――]",
+    "vi": "Rem: [Bầu trời sao… Chúng ta đâu có ở trên cao đến thế. Nào, trước khi nước bị nguội lạnh, chúng ta hãy――]"
+  },
+  {
+    "id": 250,
+    "en": "Go back in; as she tried to pull on her arm, Rem’s movement was interrupted.",
+    "vi": "Vào trong thôi; khi cô định nắm lấy cánh tay kéo Priscilla vào, hành động của Rem liền bị chặn lại."
+  },
+  {
+    "id": 251,
+    "en": "Priscilla turned around, having gently and smoothly pressed her finger onto Rem’s lips. In front of Rem whose eyes had unconsciously opened wide, Priscilla’s blood-red pupils swayed and、",
+    "vi": "Priscilla xoay người lại, nhẹ nhàng và uyển chuyển đặt ngón tay lên bờ môi của Rem. Trước mặt một Rem đang vô thức mở to đôi mắt, con ngươi đỏ tươi như máu của Priscilla dao động và、"
+  },
+  {
+    "id": 252,
+    "en": "Priscilla: [Look to the sky, Rem. ――It appears to be the end of this vacayshon.]",
+    "vi": "Priscilla: [Nhìn lên bầu trời đi, Rem. ――Có vẻ như kỳ nghỉ dưỡng này đã đi đến hồi kết rồi.]"
+  },
+  {
+    "id": 253,
+    "en": "She did not understand that word, her tone had not allowed Rem to hold any doubt.",
+    "vi": "Rem không hiểu từ ngữ đó, song giọng điệu của Priscilla chẳng cho phép cô hoài nghi điều gì."
+  },
+  {
+    "id": 254,
+    "en": "Her line of sight was simply carried up as if guided, and Rem too turned her eyes towards the sky Priscilla looked up at. Rem’s blue pupils focused so as to see the same thing Priscilla had seen.",
+    "vi": "Tầm mắt cô chỉ đơn giản là bị kéo lên như thể có người dẫn lối, và Rem cũng hướng đôi mắt về phía bầu trời mà Priscilla đang ngước nhìn. Con ngươi màu xanh lam của Rem tập trung quan sát để nhìn thấy thứ tương tự như Priscilla."
+  },
+  {
+    "id": 255,
+    "en": "However, the fact that she had definitely not failed to notice it, was something that she could not enthusiastically declare.",
+    "vi": "Thế nhưng, sự thật là cô không thể không nhận ra thứ đó, một điều cô chẳng thể hồ hởi khẳng định."
+  },
+  {
+    "id": 256,
+    "en": "As for why――,",
+    "vi": "Lý do là bởi vì――,"
+  },
+  {
+    "id": 257,
+    "en": "Rem: [That’s…]",
+    "vi": "Rem: [Đó là…]"
+  },
+  {
+    "id": 258,
+    "en": "Above the balcony, overhead from Rem and Priscilla basking in the wind, in the sky that the overly big sun was shining upon, there was a black spot of light floating there, slowly approaching.",
+    "vi": "Phía trên ban công, ngay trên đầu Rem và Priscilla đang đón nhận những cơn gió, trên bầu trời vầng thái dương lớn chói chang đang tỏa sáng, có một vệt đen trôi nổi ở đó, đang từ từ tiến lại gần."
+  },
+  {
+    "id": 259,
+    "en": "The black spot was a single one―― Nay, two, three, slowly multiplying; as their blurry shape became more and more distinct, Rem’s throat unwittingly released a gasp.",
+    "vi": "Điểm đen đó lúc đầu chỉ là một―― Không, hai rồi ba, cứ thế nhân rộng ra; khi hình thù mờ ảo của chúng ngày càng rõ nét, cổ họng của Rem vô thức phát ra một tiếng thở dốc."
+  },
+  {
+    "id": 260,
+    "en": "Their numbers increasing, the true identity of the approaching black spots was――,",
+    "vi": "Số lượng của chúng ngày một nhiều lên, danh tính thực ra của những vệt đen đang tiến lại gần kia chính là――,"
+  },
+  {
+    "id": 261,
+    "en": "Priscilla: [――Hurry, and tell those below to make ready weapons. A flock of winged dragons is no laughing matter.]",
+    "vi": "Priscilla: [――Mau báo cho những kẻ bên dưới chuẩn bị vũ khí đi. Một đàn phi long không phải chuyện đùa đâu.]"
+  },
+  {
+    "id": 262,
+    "en": "Priscilla’s advice becoming more pronounced with reality, was something Rem perceived with her skin, with her soul.",
+    "vi": "Lời cảnh báo của Priscilla đang dần trở thành hiện thực rõ nét, một điều mà Rem cảm nhận được bằng cả da thịt lẫn linh hồn."
+  },
+  {
+    "id": 263,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 264,
+    "en": "――At the same time, gazing at a city surrounded by tall walls from above, golden pupils narrowed.",
+    "vi": "――Cùng lúc đó, nhìn xuống một thành phố được bao quanh bởi những bức tường cao từ trên không, đôi con ngươi vàng kim khẽ nheo lại."
+  },
+  {
+    "id": 265,
+    "en": "Body entirely wrapped by the azure sky, traveling through a grand space like they owned it, an existence that cut through the wind flying next to the clouds―― This greatest of all the world’s creatures, a swarm of flying dragons.",
+    "vi": "Toàn thân được bao bọc bởi vòm trời xanh thẳm, di chuyển trong không gian rộng lớn như thể thuộc về mình, một sự tồn tại rẽ gió lướt đi bên cạnh những đám mây―― Sinh vật vĩ đại nhất trong số các tạo vật trên đời, một đàn phi long."
+  },
+  {
+    "id": 266,
+    "en": "???: [――The Fortress City of Guaral.]",
+    "vi": "Madelyn: [――Fortress City Guaral.]"
+  },
+  {
+    "id": 267,
+    "en": "Putting the target city’s name on their tongue, their seething, burning fighting spirit fired up the blood in their entire body.",
+    "vi": "Nhắc đến tên thành phố mục tiêu, ý chí chiến đấu sục sôi rực lửa đốt cháy dòng máu trong khắp hình hài cô."
+  },
+  {
+    "id": 268,
+    "en": "Responding to that rising fighting spirit, the spirits and enthusiasm of the flying companions surrounding them increased. The sound of neighing mixed with the flapping of wings in the sky, as their anticipation for the hunting time drew near before their eyes escalated.",
+    "vi": "Đáp lại ý chí chiến đấu đang dâng cao đó, sĩ khí và sự phấn khích của những người bạn đồng hành biết bay xung quanh cô cũng tăng lên. Tiếng gầm rú hòa lẫn tiếng vỗ cánh vang vọng bầu trời, khi sự mong chờ thời khắc săn mồi cận kề trước mắt ngày một leo thang."
+  },
+  {
+    "id": 269,
+    "en": "Whoever rebuked this as rashness, would be nothing but a shame to the hunters of the azure skies, the dragons.",
+    "vi": "Bất kỳ kẻ nào coi đây là sự hấp tấp sẽ chỉ là nỗi nhục nhã đối với những kẻ đi săn trên bầu trời xanh thẳm, loài rồng."
+  },
+  {
+    "id": 270,
+    "en": "Whoever did not have their blood boil from this expectation, was a coward without the qualifications to be adjacent to the white clouds.",
+    "vi": "Ai không có dòng máu sôi sục vì sự kỳ vọng này là một kẻ hèn nhát không đủ tư cách đứng cạnh những áng mây trắng."
+  },
+  {
+    "id": 271,
+    "en": "Dragon: [――Kiryararahhh!!]",
+    "vi": "Dragon: [――Kiryararahhh!!]"
+  },
+  {
+    "id": 272,
+    "en": "???: [Understood. Let’s do our job properly, as the senile old man said.]",
+    "vi": "Madelyn: [Ta hiểu rồi. Hãy làm tốt công việc của chúng ta, như lời lão già lụ khụ kia nói.]"
+  },
+  {
+    "id": 273,
+    "en": "The appeal rising from below their feet was the expectation displayed towards the hunt from the one who's back they borrowed.",
+    "vi": "Tiếng rít cất lên từ phía dưới chân cô là kỳ vọng hướng về cuộc đi săn từ kẻ mà cô đang cưỡi trên lưng."
+  },
+  {
+    "id": 274,
+    "en": "On the back of a flying dragon flapping its wings, the small figure of a person with arms crossed expressed their understanding of that excitement.",
+    "vi": "Trên lưng con phi long đang vỗ cánh bay, bóng hình nhỏ nhắn của một người đang khoanh tay thể hiện sự thấu hiểu đối với sự phấn khích đó."
+  },
+  {
+    "id": 275,
+    "en": "Sky-blue hair that met at the shoulders, and golden eyes that shone brightly. The florid dress that wrapped that seemingly dainty figure did not express in the slightest the ferociousness and savageness of that existence.",
+    "vi": "Mái tóc màu xanh da trời dài ngang vai, và đôi mắt vàng kim lấp la lấp lánh. Bộ váy sặc sỡ bao bọc lấy vóc dáng có vẻ mảnh khảnh đó không hề thể hiện chút nào sự hung hãn và dã man của sự tồn tại ấy."
+  },
+  {
+    "id": 276,
+    "en": "At a glance, some could even describe it as a charming appearance. However, that was only till one laid eyes on the two black horns that rested atop that figure’s head.",
+    "vi": "Thoạt nhìn, vài người thậm chí có thể miêu tả đó là một diện mạo đầy quyến rũ. Nhưng, điều đó chỉ đúng cho đến khi người ta nhìn thấy hai chiếc sừng đen trên đầu cô."
+  },
+  {
+    "id": 277,
+    "en": "Even in the Vollachian Empire, where horned races were not few, laying eyes upon black horns was something that seldom―― Nay, never should come to pass.",
+    "vi": "Ngay cả tại Đế quốc Vollachia, nơi các bộ tộc có sừng không hề hiếm gặp, việc nhìn thấy một cặp sừng màu đen là điều hiếm khi―― Không, chưa bao giờ xảy ra."
+  },
+  {
+    "id": 278,
+    "en": "Because that was nothing if not proof of an existence that should not be.",
+    "vi": "Bởi lẽ đó không là gì khác ngoài minh chứng cho một sự tồn tại không nên có trên đời."
+  },
+  {
+    "id": 279,
+    "en": "???: [Everyone, are you ready?]",
+    "vi": "Madelyn: [Mọi người, sẵn sàng chưa?]"
+  },
+  {
+    "id": 280,
+    "en": "The figure with black horns that should not be, their call beckoned innumerable neighing―― the responses of the swarm of flying dragons, of the rulers of the sky, of the uncomeatable swarm of several hundred.",
+    "vi": "Bóng hình sở hữu hai chiếc sừng đen không nên có kia, tiếng gọi của cô triệu gọi vô số tiếng gầm rú đáp lại―― phản hồi từ đàn phi long, những bá chủ của bầu trời, một những rồng đông đảo lên tới hàng trăm con không thể cản phá."
+  },
+  {
+    "id": 281,
+    "en": "With the sun at their backs, crossing the blue sky, the embodiment of ruin advanced in droves.",
+    "vi": "Đón ánh mặt trời sau lưng, băng qua bầu trời xanh, hiện thân của sự hủy diệt đang lũ lượt tiến lên."
+  },
+  {
+    "id": 282,
+    "en": "A catastrophe should they swoop down, shouts and screams would reverb in the air. All life would be extinguished, vanishing to naught.",
+    "vi": "Một thảm họa nếu chúng sà xuống, tiếng la hét và la ó sẽ vang vọng trong không trung. Mọi sinh mạng sẽ bị dập tắt, tan biến vào cõi hư vô."
+  },
+  {
+    "id": 283,
+    "en": "Strangely, at the same time a Great Disaster laid waste to a far-off city, a catastrophe in a different form approached the city protected by a fortress.",
+    "vi": "Thật kỳ lạ, cùng lúc Great Disaster tàn phá một thành phố xa xôi, một thảm họa dưới hình thái khác đang tiếp cận thành phố được bảo vệ bởi thành lũy."
+  },
+  {
+    "id": 284,
+    "en": "Before the curtain call of the absolute, inescapable, cruel hunt, that existence’s golden eyes―― those of Madelyn Eschart, narrowed, her cheeks contorting into a smile.",
+    "vi": "Trước khi bức màn hạ xuống cho cuộc đi săn tàn độc, tuyệt đối, không thể trốn chạy, đôi mắt vàng kim của sự tồn tại ấy―― đôi mắt của Madelyn Eschart, nheo lại, khóe miệng vặn vẹo thành một nụ cười."
+  },
+  {
+    "id": 285,
+    "en": "The Flying Dragon General, Ninth of the Nine Divine Generals, having been ordered to destroy the city, passed her judgment.",
+    "vi": "Flying Dragon General, đứng thứ chín trong Nine Divine Generals, sau khi nhận được lệnh tiêu diệt thành phố, đã đưa ra phán quyết của mình."
+  },
+  {
+    "id": 286,
+    "en": "Madelyn: [Tremble in fear, try and flee. You all have nowhere to run. ――For I, the dragon, have come.]",
+    "vi": "Madelyn: [Hãy run sợ đi, hãy cố mà chạy trốn đi. Các ngươi không có nơi nào để trốn thoát đâu. ――Bởi vì ta, rồng, đã tới đây.]"
+  },
+  {
+    "id": 287,
+    "en": "So she spoke.",
+    "vi": "Cô đã nói như thế."
+  },
+  {
+    "id": 288,
+    "en": "So she spoke.",
+    "vi": "Cô đã nói như thế."
+  }
+]

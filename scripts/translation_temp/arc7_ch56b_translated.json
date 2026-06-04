@@ -1,0 +1,2587 @@
+[
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Machine Translated By:",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 6,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 7,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 8,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 9,
+    "en": "――The moment he saw the little girl standing amidst the plume of smoke, alarm bells went off in Flop's head.",
+    "vi": "――Khoảnh khắc nhìn thấy cô bé đứng giữa làn khói bụi mịt mù, tiếng chuông cảnh báo vang lên inh ỏi trong đầu Flop."
+  },
+  {
+    "id": 10,
+    "en": "Not the real alarm bell echoing throughout Guaral however; it was the clanging alarm of his own survival instincts as a living creature. So loud was its noise, that it made his head ache.",
+    "vi": "Tuy nhiên, đó không phải là tiếng chuông báo động thực sự đang vang vọng khắp Guaral; đó là tiếng chuông inh ỏi từ bản năng sinh tồn của bản thân anh với tư cách là một sinh vật sống. Âm thanh ấy lớn đến mức khiến đầu anh đau nhói."
+  },
+  {
+    "id": 11,
+    "en": "Quite frankly, Flop was unlike Medium; he was a man unable to fight.",
+    "vi": "Thành thật mà nói, Flop không giống như Medium; anh là một người không có khả năng chiến đấu."
+  },
+  {
+    "id": 12,
+    "en": "Attempting to train his body had brought him some degree of frustration, and he wished to not detract from his sister's role, which she had chosen in her own way after much thinking, upon realizing that she was actually causing her brother pain by stroking his wounds.",
+    "vi": "Việc nỗ lực rèn luyện cơ thể chỉ mang lại cho anh sự nản lòng, và anh cũng không muốn can thiệp vào vai trò mà em gái mình đã chọn theo cách riêng sau nhiều trăn trở, khi con bé nhận ra việc xoa dịu vết thương của anh thực chất lại đang khiến anh trai mình đau đớn."
+  },
+  {
+    "id": 13,
+    "en": "Therefore, he possessed no warrior's intuition nor discernment.",
+    "vi": "Vì vậy, anh chẳng hề sở hữu trực giác hay khả năng phán đoán của một chiến binh."
+  },
+  {
+    "id": 14,
+    "en": "And yet――,",
+    "vi": "Thế nhưng――,"
+  },
+  {
+    "id": 15,
+    "en": "Flop: [That girl’s bad news.]",
+    "vi": "Flop: [Cô bé đó là rắc rối lớn đấy.]"
+  },
+  {
+    "id": 16,
+    "en": "And then, he swallowed bitter spit as the little girl propped her leg out of the gaping hole made by the impact of the fall.",
+    "vi": "Rồi anh nuốt một ngụm nước bọt đắng chát khi cô bé nhấc chân bước ra khỏi cái hố sâu hoắm do chấn động từ cú rơi tạo ra."
+  },
+  {
+    "id": 17,
+    "en": "Girl: [――――]",
+    "vi": "Cô bé: [――――]"
+  },
+  {
+    "id": 18,
+    "en": "A young girl of short stature, the pupils of her golden eyes narrowed, glaring at Flop and the others.",
+    "vi": "Một cô bé với vóc dáng nhỏ nhắn, đồng tử trong đôi mắt vàng kim nheo lại, lườm nhóm Flop."
+  },
+  {
+    "id": 19,
+    "en": "She appeared to be two or three years older than Schult and Utakata, but the atmosphere she exuded was on par with that of Medium or Mizelda―― no, even more dangerous.",
+    "vi": "Trông cô bé chỉ lớn hơn Schult và Utakata khoảng hai ba tuổi, nhưng luồng khí thế tỏa ra lại ngang ngửa với Medium hay Mizelda―― không, thậm chí còn nguy hiểm hơn."
+  },
+  {
+    "id": 20,
+    "en": "It was almost like that of the imposing Divine General that had dispossessed Mizelda of her leg.",
+    "vi": "Nó gần giống như luồng khí thế áp bức của vị Thần Tướng uy nghiêm đã tước đi chiếc chân của Mizelda."
+  },
+  {
+    "id": 21,
+    "en": "Flop: […Redhead-san, do you think you can manage to create an opening? I want to let at least Butler-kun and Miss Utakata escape somehow.]",
+    "vi": "Flop: […Anh tóc đỏ ơi, anh có thể tạo ra một sơ hở không? Tôi muốn ít nhất nhóc quản gia và tiểu thư Utakata có thể trốn thoát bằng cách nào đó.]"
+  },
+  {
+    "id": 22,
+    "en": "The one to whom Flop gave that suggestion to in the form of a whisper was Heinkel, also the one person who held any fighting strength in this place.",
+    "vi": "Người mà Flop thầm thì đề xuất chính là Heinkel, cũng là người duy nhất sở hữu sức mạnh chiến đấu ở nơi này."
+  },
+  {
+    "id": 23,
+    "en": "Having demonstrated his swordsmanship by slaying a flying dragon, he would be more than capable of assisting in the protection of Utakata and the others, as opposed to having Flop become a meat shield.",
+    "vi": "Với việc đã chứng tỏ được kiếm thuật của mình bằng cách hạ gục một con phi long, chú sẽ thừa khả năng giúp bảo vệ Utakata và những người khác, thay vì để Flop làm tấm khiên thịt."
+  },
+  {
+    "id": 24,
+    "en": "Ideally, it would be great if Heinkel were strong enough to defeat that little girl.",
+    "vi": "Lý tưởng nhất là nếu Heinkel đủ mạnh để đánh bại cô bé đó thì tốt biết mấy."
+  },
+  {
+    "id": 25,
+    "en": "Heinkel: [――Hk.]",
+    "vi": "Heinkel: [――Hực.]"
+  },
+  {
+    "id": 26,
+    "en": "Flop: [Redhead-san?]",
+    "vi": "Flop: [Anh tóc đỏ?]"
+  },
+  {
+    "id": 27,
+    "en": "Leaving his guard up toward the girl, Flop questioned Heinkel, from whom there was no reply.",
+    "vi": "Vẫn đề phòng nhìn về phía cô bé, Flop cất tiếng hỏi Heinkel, người nãy giờ vẫn im hơi lặng tiếng."
+  },
+  {
+    "id": 28,
+    "en": "He was hesitant to take his gaze away from the threat before him, but working with Heinkel was the top priority. Having readied his resolve, Flop glanced at Heinkel to examine him.",
+    "vi": "Anh lưỡng lự không muốn rời mắt khỏi mối đe dọa trước mặt, nhưng phối hợp với Heinkel là ưu tiên hàng đầu. Lấy lại bình tĩnh, Flop liếc nhìn Heinkel để dò xét chú."
+  },
+  {
+    "id": 29,
+    "en": "――Heinkel's eyes were wide open in shock, his face pale with greasy sweat streaking across it.",
+    "vi": "――Đôi mắt Heinkel trợn trừng kinh ngạc, khuôn mặt tái mét với những giọt mồ hôi nhễ nhại chảy dài."
+  },
+  {
+    "id": 30,
+    "en": "Schult: [H-Heinkel-sama? Are you all right?]",
+    "vi": "Schult: [Ng-ngài Heinkel? Ngài có sao không ạ?]"
+  },
+  {
+    "id": 31,
+    "en": "Heinkel: [Uh, ah…]",
+    "vi": "Heinkel: [Ư, á.]"
+  },
+  {
+    "id": 32,
+    "en": "Flop and Schult took notice of Heinkel’s unusual behavior at nearly the exact same time.",
+    "vi": "Flop và Schult nhận ra hành vi bất thường của Heinkel gần như cùng một lúc."
+  },
+  {
+    "id": 33,
+    "en": "Schult voiced his clear concern for Heinkel, and the red-haired swordsman's cheeks became rigid due to the youngster's words, an inarticulate voice escaping his throat.",
+    "vi": "Schult bày tỏ sự lo lắng rõ rệt dành cho Heinkel, và đôi má của kiếm sĩ tóc đỏ cứng đờ trước lời nói của cậu bé, một giọng nói ú ớ thoát ra từ cổ họng chú."
+  },
+  {
+    "id": 34,
+    "en": "It was difficult to tell, from looking from the side, whether the response was because he was aware of the girl’s identity. However, regardless of the question, there was one clear, unequivocal fact.",
+    "vi": "Nhìn từ bên cạnh, thật khó để biết liệu phản ứng của chú có phải là do chú nhận ra danh tính của cô bé hay không. Tuy nhiên, bất kể câu hỏi là gì, có một sự thật hiển nhiên rõ ràng."
+  },
+  {
+    "id": 35,
+    "en": "That was――,",
+    "vi": "Đó chính là――,"
+  },
+  {
+    "id": 36,
+    "en": "Girl: [What’s with you? Are you scared?]",
+    "vi": "Cô bé: [Ngươi bị sao thế? Sợ rồi à?]"
+  },
+  {
+    "id": 37,
+    "en": "The squinting girl's gaze was directed at Heinkel's legs as he stood there. His legs were trembling at both knees, so much so that he was barely managing to keep standing.",
+    "vi": "Ánh mắt nheo lại của cô bé hướng thẳng vào đôi chân của Heinkel khi chú đứng đó. Đầu gối của chú run lên bần bật, run rẩy đến mức chú khó lòng trụ vững nổi."
+  },
+  {
+    "id": 38,
+    "en": "What was present there, obvious to anyone who laid eyes upon him, was plenty of fear and trepidation. In other words, despair.",
+    "vi": "Những gì hiển hiện ở đó, ai nhìn vào cũng thấy rõ, chính là sự sợ hãi và kinh hoàng tột độ. Nói cách khác, là sự tuyệt vọng."
+  },
+  {
+    "id": 39,
+    "en": "Flop: [Hey there! I've never seen you before, little lady, would you mind talking to me for a bit!?]",
+    "vi": "Flop: [Chào cháu! Ta chưa từng gặp cháu trước đây đâu, tiểu thư nhỏ nhắn ơi, cháu có phiền trò chuyện với ta một chút không nào!?]"
+  },
+  {
+    "id": 40,
+    "en": "Having observed Heinkel's despair, Flop immediately shouted that out.",
+    "vi": "Nhìn thấy sự tuyệt vọng của Heinkel, Flop lập tức hét to lên như thế."
+  },
+  {
+    "id": 41,
+    "en": "Immediately, Heinkel and Schult's shoulders hitched, and the girl in front of them turned her eyes filled with suspicion toward him. Her gaze alone would not kill him, but the oppressive sensation coming from it was such that it was not be surprising if it did.",
+    "vi": "Ngay lập tức, vai của Heinkel và Schult co rúm lại, và cô bé trước mặt họ quay ánh mắt đầy nghi ngờ về phía anh. Chỉ riêng ánh mắt của cô bé thì không giết chết anh được, nhưng cảm giác áp bức tỏa ra từ nó thật khủng khiếp đến mức nếu nó có thể giết người thì cũng chẳng ai ngạc nhiên."
+  },
+  {
+    "id": 42,
+    "en": "But Flop rallied his heart, loosened his cheeks, and spread his hands wide, producing a smile.",
+    "vi": "Nhưng Flop lấy lại can đảm, giãn cơ mặt và dang rộng hai tay, nở một nụ cười thật tươi."
+  },
+  {
+    "id": 43,
+    "en": "Flop: [I’m Flop O'Connell, a humble merchant. I'm in a rather difficult and bewildering situation. You seem to know more about it than I do, don't you?]",
+    "vi": "Flop: [Ta là Flop O'Connell, một thương nhân thấp kém. Ta đang ở trong một tình thế khá khó khăn và bối rối. Cháu có vẻ hiểu rõ chuyện này hơn ta đúng không nhỉ?]"
+  },
+  {
+    "id": 44,
+    "en": "Girl: [――. Are you collateral damage? Then you're out of luck.]",
+    "vi": "Cô bé: [――. Ngươi là kẻ bị vạ lây à? Thế thì ngươi xui xẻo rồi.]"
+  },
+  {
+    "id": 45,
+    "en": "Flop: [Well, being out of luck’s a phrase I'm not used to being told. I got a lot of things missing, but I'm proud to say that I do have luck. Why would I be out of luck?]",
+    "vi": "Flop: [Chà, xui xẻo là cụm từ ta không quen bị người khác gán cho đâu nhé. Ta thiếu thốn nhiều thứ thật đấy, nhưng ta tự hào khẳng định mình rất may mắn. Tại sao ta lại xui xẻo chứ?]"
+  },
+  {
+    "id": 46,
+    "en": "Girl: [You may kill everyone in this city. That's what the senile old man said.]",
+    "vi": "Cô bé: [Tất cả mọi người trong thành phố này đều sẽ bị tiêu diệt. Lão già lẩm cẩm kia đã nói như vậy.]"
+  },
+  {
+    "id": 47,
+    "en": "Flop: [Everyone in the city.]",
+    "vi": "Flop: [Tất cả mọi người trong thành phố sao.]"
+  },
+  {
+    "id": 48,
+    "en": "The little girl jerked her chin, answering by gesturing towards her surroundings, to which Flop gave a strained smile. But, deep inside, his state of mind was far from corresponding to that of a bitter smile, he was more panicked than anything else.",
+    "vi": "Cô bé hất cằm, vừa ra hiệu về phía xung quanh vừa trả lời, khiến Flop chỉ biết nở một nụ cười gượng gạo. Nhưng sâu bên trong, tâm trạng của anh lúc này chẳng hề thoải mái như nụ cười ấy, anh đang hoảng loạn hơn bất cứ ai."
+  },
+  {
+    "id": 49,
+    "en": "Would there be room for negotiation, given her objective was to annihilate the city's inhabitants completely?",
+    "vi": "Liệu còn có cơ hội thương lượng nào không, khi mục tiêu của cô bé là hủy diệt hoàn toàn cư dân trong thành phố?"
+  },
+  {
+    "id": 50,
+    "en": "If only he could talk to the \"senile old man\" who had ordered her to do such a deed.",
+    "vi": "Giá như anh có thể nói chuyện trực tiếp với \"lão già lẩm cẩm\" đã ra lệnh cho cô bé làm việc này."
+  },
+  {
+    "id": 51,
+    "en": "Flop: [From what I’ve heard, the senile old man seems to have made a mistake in telling you to wipe out the whole city. So why don't you double-check that with your friends and colleagues who have come with you?]",
+    "vi": "Flop: [Theo những gì ta nghe được, lão già lẩm cẩm kia dường như đã sai lầm khi bảo cháu xóa sổ cả thành phố này đấy. Nên sao cháu không thử kiểm tra lại chuyện đó với bạn bè và đồng nghiệp đi cùng mình xem?]"
+  },
+  {
+    "id": 52,
+    "en": "Girl: [There are no friends or colleagues. There are only brethren and enemies with I, the dragon. ――You, are mocking this dragon. It appears you don’t know fear.]",
+    "vi": "Cô bé: [Ta không có bạn bè hay đồng nghiệp nào hết. Chỉ có đồng bào và kẻ thù đối với ta, loài rồng này mà thôi. ――Ngươi đang chế nhạo con rồng này. Có vẻ ngươi không biết sợ là gì.]"
+  },
+  {
+    "id": 53,
+    "en": "Flop: [Mocking you, that’s outrageous! I want to get along with you. For starters, I was just thinking about asking your name. Don't you agree?]",
+    "vi": "Flop: [Chế nhạo cháu sao, thật oan uổng quá! Ta muốn kết bạn với cháu mà. Trước hết, ta chỉ đang định hỏi tên cháu thôi. Cháu có đồng ý không nào?]"
+  },
+  {
+    "id": 54,
+    "en": "Schult: [Y-yes, that is correct! I would like to know your name too! Mine is Schult!]",
+    "vi": "Schult: [V-vâng, đúng vậy ạ! Em cũng muốn biết tên của chị nữa! Em là Schult!]"
+  },
+  {
+    "id": 55,
+    "en": "As the girl lay on verge of becoming ill-tempered, Flop clapped his hands, asking his allies for agreement. Schult, taking advantage of the situation, then said his name as he raised his hand.",
+    "vi": "Thấy cô bé chuẩn bị nổi cáu, Flop vỗ tay tán thưởng, kêu gọi sự đồng tình từ đồng minh. Schult liền tận dụng thời cơ, giơ tay giới thiệu tên mình."
+  },
+  {
+    "id": 56,
+    "en": "With Flop and Schult now having been introduced themselves, the girl wrinkled the brow of her pretty face, and,",
+    "vi": "Sau khi Flop và Schult lần lượt tự giới thiệu, cô bé nhíu mày trên gương mặt xinh xắn của mình, và,"
+  },
+  {
+    "id": 57,
+    "en": "???: [――Madelyn Eschart. I, the dragon, am of the Nine Divine Generals.]",
+    "vi": "Cô bé: [――Madelyn Eschart. Ta, loài rồng này, là một trong các Cửu Thần Tướng.]"
+  },
+  {
+    "id": 58,
+    "en": "Heinkel: [Nine Di…!]",
+    "vi": "Heinkel: [Cửu Thần…!]"
+  },
+  {
+    "id": 59,
+    "en": "Unassumingly, the girl―― Madelyn introduced herself via her title, to which Heinkel became at a loss for words.",
+    "vi": "Cô bé―― Madelyn tự giới thiệu một cách thản nhiên kèm theo danh hiệu của mình, khiến Heinkel cứng họng không nói nên lời."
+  },
+  {
+    "id": 60,
+    "en": "His knees, which had been trembling ever since they had met, worsened further upon hearing her title, a corroboration of her strength. It was a miracle that he did not fall on his buttocks.",
+    "vi": "Đầu gối của chú vốn đã run rẩy kể từ khi họ chạm mặt, nay lại càng run tợn hơn sau khi nghe thấy danh hiệu chứng minh cho sức mạnh của cô bé. Việc chú không ngã chổng vó ra đất đã là một điều kỳ diệu rồi."
+  },
+  {
+    "id": 61,
+    "en": "Even Flop was unable to laugh at Heinkel. Heinkel's opponent, whom Flop had considered to be as dangerous as a Divine General, turned out to actually be a Divine General.",
+    "vi": "Ngay cả Flop cũng không thể cười nổi Heinkel. Đối thủ của Heinkel, người mà Flop từng nghĩ là nguy hiểm ngang hàng với một Thần Tướng, hóa ra lại chính là một Thần Tướng thực sự."
+  },
+  {
+    "id": 62,
+    "en": "And beyond that――,",
+    "vi": "Và hơn thế nữa――,"
+  },
+  {
+    "id": 63,
+    "en": "Flop: [――Miss Utakata.]",
+    "vi": "Flop: [――Tiểu thư Utakata.]"
+  },
+  {
+    "id": 64,
+    "en": "Quietly, Flop noticed a change in the situation, invoking the name of the person who had caused this change.",
+    "vi": "Khẽ nhận ra sự thay đổi của tình hình, Flop gọi tên người đã gây ra sự biến chuyển này."
+  },
+  {
+    "id": 65,
+    "en": "Utakata, the girl called upon by Flop, stirred, focusing on Madelyn in front of her. Retrieving the bow from her back, she prepared an arrow, aimed at Madelyn.",
+    "vi": "Utakata, cô bé được Flop gọi tên, khẽ chuyển động, dồn sự chú ý vào Madelyn ở phía trước. Lấy cây cung từ sau lưng, cô bé giương cung lắp tên, nhắm thẳng vào Madelyn."
+  },
+  {
+    "id": 66,
+    "en": "The distance between them amounted to seven or eight meters; even considering her abilities, she would not miss.",
+    "vi": "Khoảng cách giữa họ vào khoảng bảy đến tám mét; với năng lực của cô bé, phát bắn này chắc chắn sẽ không trượt."
+  },
+  {
+    "id": 67,
+    "en": "If that were to be called an advantage, however, that could not be farther from the truth.",
+    "vi": "Thế nhưng, nếu coi đó là một lợi thế thì hoàn toàn sai lầm."
+  },
+  {
+    "id": 68,
+    "en": "Utakata: [That enemy is the leader of the flock of flying dragons. She’s the same as Mii was before, and the same as Taa is now. Defeat that enemy, and the fight is over.]",
+    "vi": "Utakata: [Kẻ địch đó là thủ lĩnh của đàn phi long. Cô ta cũng giống như Midii trước đây, và giống như Taa hiện tại đó nha. Chỉ cần đánh bại kẻ địch đó là trận chiến kết thúc.]"
+  },
+  {
+    "id": 69,
+    "en": "Schult: [I-is that so?]",
+    "vi": "Schult: [Th-thật thế sao ạ?]"
+  },
+  {
+    "id": 70,
+    "en": "Flop: [Perhaps Miss Utakata’s conception is correct. Unless there are other Divine Generals besides her.]",
+    "vi": "Flop: [Có lẽ suy đoán của tiểu thư Utakata là chính xác đấy. Trừ phi ngoài cô bé ra còn có những Thần Tướng khác.]"
+  },
+  {
+    "id": 71,
+    "en": "When Flop took a glance towards her, Madelyn said nothing of it.",
+    "vi": "Khi Flop liếc nhìn về phía cô bé, Madelyn không có phản ứng phản đối gì về điều đó."
+  },
+  {
+    "id": 72,
+    "en": "Judging from her attitude so far, she was a child who would respond to the words being spoken. If they were to state something obviously wrong, it would be more natural for her to react in some way.",
+    "vi": "Đánh giá từ thái độ nãy giờ, cô bé là kiểu đứa trẻ sẽ phản hồi lại những lời được nói ra. Nếu họ nói điều gì đó sai bét, đáng lẽ cô bé phải phản ứng lại theo cách nào đó mới phải."
+  },
+  {
+    "id": 73,
+    "en": "In other words, Madelyn was leading the assault on the Fortress City. Utakata's view that defeating her would force the flying dragons to withdraw would be correct.",
+    "vi": "Nói cách khác, Madelyn chính là kẻ dẫn đầu cuộc tấn công vào Thành Phố Pháo Đài. Nhận định của Utakata rằng đánh bại cô bé sẽ khiến đàn phi long rút lui là hoàn toàn có cơ sở."
+  },
+  {
+    "id": 74,
+    "en": "The only problem, was that it did not appear to be something that could feasibly be done.",
+    "vi": "Vấn đề duy nhất là điều đó dường như bất khả thi."
+  },
+  {
+    "id": 75,
+    "en": "Madelyn: [You’re a warrior, you’re a warrior, and you… won’t run away. You’re a warrior.]",
+    "vi": "Madelyn: [Ngươi là chiến binh, ngươi là chiến binh, và ngươi… không bỏ chạy. Ngươi chính là một chiến binh.]"
+  },
+  {
+    "id": 76,
+    "en": "Schult: [Huh…Me, you mean?]",
+    "vi": "Schult: [Hả… Ý chị là em sao?]"
+  },
+  {
+    "id": 77,
+    "en": "Madelyn: [Yes. You're a warrior as well.]",
+    "vi": "Madelyn: [Đúng vậy. Ngươi cũng là một chiến binh.]"
+  },
+  {
+    "id": 78,
+    "en": "Suddenly being pointed towards, Schult’s eyes became rounder after being appraised as such.",
+    "vi": "Bất ngờ bị chỉ vào người, đôi mắt Schult tròn xoe kinh ngạc khi được đánh giá như vậy."
+  },
+  {
+    "id": 79,
+    "en": "To Schult's surprise, Madelyn pointed with her small hand to Utakata, Flop, and himself, describing them as \"warriors\".",
+    "vi": "Trước sự kinh ngạc của Schult, Madelyn dùng bàn tay nhỏ bé của mình chỉ lần lượt vào Utakata, Flop và cậu bé, gọi họ là \"những chiến binh\"."
+  },
+  {
+    "id": 80,
+    "en": "Following on, Madelyn's finger was pointed at the last one, Heinkel――,",
+    "vi": "Kế đó, ngón tay của Madelyn trỏ vào người cuối cùng, Heinkel――,"
+  },
+  {
+    "id": 81,
+    "en": "Madelyn: [You’re no warrior. Even though you slew a dragon, you’re a coward.]",
+    "vi": "Madelyn: [Ngươi không phải là chiến binh. Dù ngươi đã giết một con rồng, ngươi chỉ là kẻ hèn nhát.]"
+  },
+  {
+    "id": 82,
+    "en": "Heinkel: [Guh…]",
+    "vi": "Heinkel: [Gự…]"
+  },
+  {
+    "id": 83,
+    "en": "Madelyn: [Draw your sword. For I, the dragon, will strike you. For every drop of blood that has been shed.]",
+    "vi": "Madelyn: [Rút kiếm ra đi. Vì ta, loài rồng này, sẽ trừng trị ngươi. Để bắt ngươi trả giá cho từng giọt máu đã rơi.]"
+  },
+  {
+    "id": 84,
+    "en": "As she said this, Madelyn slowly took a step toward him.",
+    "vi": "Vừa dứt lời, Madelyn từ từ bước một bước về phía chú."
+  },
+  {
+    "id": 85,
+    "en": "And so, slowly, Madelyn's feet closed the distance headed toward the flying-dragon-killer Heinkel, uncaring of being targeted by Utakata's arrow.",
+    "vi": "Và cứ thế, Madelyn chậm rãi rút ngắn khoảng cách tiến về phía kẻ sát long Heinkel, chẳng mảy may bận tâm đến mũi tên đang nhắm vào mình của Utakata."
+  },
+  {
+    "id": 86,
+    "en": "Utakata: [――Hit her!]",
+    "vi": "Utakata: [――Bắn trúng cô ta đi!]"
+  },
+  {
+    "id": 87,
+    "en": "Synchronized with that declaration of intent, Utakata's arrow was loosed, aiming at Madelyn's chest. It flew straight at Madelyn, but was caught between two fingers of Madelyn's lifted hand.",
+    "vi": "Đồng thời với khẩu lệnh đó, mũi tên của Utakata lao đi, nhắm thẳng vào ngực Madelyn. Nó bay vút về phía Madelyn nhưng bị cô bé giơ tay kẹp chặt giữa hai ngón tay dễ dàng."
+  },
+  {
+    "id": 88,
+    "en": "Madelyn did not even look at Utakata. Her line of sight was trained straight towards Heinkel.",
+    "vi": "Madelyn thậm chí không thèm liếc nhìn Utakata. Tầm mắt của cô bé khóa chặt vào Heinkel."
+  },
+  {
+    "id": 89,
+    "en": "Flop: [Redhead-san!]",
+    "vi": "Flop: [Anh tóc đỏ!]"
+  },
+  {
+    "id": 90,
+    "en": "Schult: [Heinkel-sama!]",
+    "vi": "Schult: [Ngài Heinkel!]"
+  },
+  {
+    "id": 91,
+    "en": "Realizing the danger, Flop screamed and Schult tried to pull on Heinkel's arm. However, Schult's lack of power was not enough to make Heinkel even twitch.",
+    "vi": "Nhận ra nguy hiểm, Flop hét lớn và Schult cố gắng kéo tay Heinkel. Song, sức lực yếu ớt của Schult không đủ để làm Heinkel lay động dù chỉ một chút."
+  },
+  {
+    "id": 92,
+    "en": "Rather, faced with Madelyn approaching him, Heinkel cleared his throat, shook off that arm of Schult’s attempting to pull him away.",
+    "vi": "Trái lại, đối mặt với Madelyn đang tiến sát, Heinkel gầm gừ trong cổ họng, gạt phắt cánh tay đang cố kéo chú ra của Schult."
+  },
+  {
+    "id": 93,
+    "en": "Schult fell on his butt; Heinkel clenched his molars.",
+    "vi": "Schult ngã chổng mông; Heinkel nghiến chặt răng hàm."
+  },
+  {
+    "id": 94,
+    "en": "Heinkel: [Oh, ohhh…!]",
+    "vi": "Heinkel: [Ô, ôồ…!]"
+  },
+  {
+    "id": 95,
+    "en": "Heinkel's sword hand gripped tightly, infused with force. His cheeks turned vermillion as he clenched his jaw and mandible, the blood pumping through his body attempting to dispel the fright making his legs tremble.",
+    "vi": "Bàn tay cầm kiếm của Heinkel siết chặt gồng lực. Đôi má chú đỏ bừng lên khi chú nghiến chặt quai hàm, máu chảy rần khắp cơ thể cố xua tan nỗi sợ hãi đang khiến đôi chân chú run lẩy bẩy."
+  },
+  {
+    "id": 96,
+    "en": "Yet despite that, Madelyn did not halt, still closing her distance to Heinkel.",
+    "vi": "Dù vậy, Madelyn vẫn không hề dừng bước, tiếp tục thu hẹp khoảng cách với Heinkel."
+  },
+  {
+    "id": 97,
+    "en": "Compared to a flying dragon, this little girl was incomparably smaller in size.",
+    "vi": "So với một con phi long, cô bé này có vóc dáng nhỏ bé hơn nhiều."
+  },
+  {
+    "id": 98,
+    "en": "Against the approaching petite child, Heinkel struck a blow with his sword――.",
+    "vi": "Đối phó với đứa trẻ nhỏ nhắn đang tiến lại gần, Heinkel vung kiếm chém xuống――."
+  },
+  {
+    "id": 99,
+    "en": "Heinkel: [――Oh.]",
+    "vi": "Heinkel: [――Ô.]"
+  },
+  {
+    "id": 100,
+    "en": "With a high-pitched clang, the sword tumbled from Heinkel's trembling hand.",
+    "vi": "Kèm theo tiếng keng thanh mảnh, thanh kiếm tuột khỏi bàn tay run rẩy của Heinkel rơi xuống đất."
+  },
+  {
+    "id": 101,
+    "en": "At the moment the full extent of his sword technique was to be unleashed, he was unable to raise his arm, letting his sword go.",
+    "vi": "Vào khoảnh khắc đáng lẽ phải tung ra toàn bộ bản lĩnh kiếm thuật của mình, chú lại chẳng thể nhấc nổi cánh tay, đành để thanh kiếm tuột mất."
+  },
+  {
+    "id": 102,
+    "en": "And――,",
+    "vi": "Và――,"
+  },
+  {
+    "id": 103,
+    "en": "Madelyn: [After all, you’re no warrior.]",
+    "vi": "Madelyn: [Rốt cuộc ngươi chẳng phải chiến binh.]"
+  },
+  {
+    "id": 104,
+    "en": "Madelyn's contemptuous words were driven into Heinkel's side accompanied by a fist.",
+    "vi": "Lời khinh bỉ của Madelyn giáng thẳng vào mạn sườn Heinkel cùng với một cú đấm trời giáng."
+  },
+  {
+    "id": 105,
+    "en": "The blow struck Heinkel's stout frame, and with tremendous force, the red-haired swordsman was blown sideways. His entire body slammed into a stone building, cracking the stone wall in the shape of his human form.",
+    "vi": "Cú đấm giáng vào thân hình vạm vỡ của Heinkel, và với lực đạo kinh người, kiếm sĩ tóc đỏ bị thổi bay sang một bên. Toàn thân chú đập thẳng vào một tòa nhà bằng đá, làm bức tường đá nứt toác theo hình dáng thân thể chú."
+  },
+  {
+    "id": 106,
+    "en": "The blow, that one hit, caused Heinkel’s eyes to roll to the back of his head, also producing an intense gale.",
+    "vi": "Cú đấm đó, chỉ một đòn duy nhất, đã khiến mắt Heinkel trợn ngược ra sau, đồng thời tạo ra một trận cuồng phong dữ dội."
+  },
+  {
+    "id": 107,
+    "en": "Regardless of having fired off a punch that produced a boom, that fist carrying energy not below that of the rocks being repeatedly hurled by the flying dragons at the city, Madelyn’s ire did not abate.",
+    "vi": "Dù đã tung ra một cú đấm tạo ra tiếng nổ lớn, nắm đấm mang theo sức công phá không hề kém cạnh những tảng đá mà đám phi long liên tục trút xuống thành phố, cơn giận của Madelyn vẫn chẳng hề nguôi ngoai."
+  },
+  {
+    "id": 108,
+    "en": "Heinkel: [Kah!]",
+    "vi": "Heinkel: [Khặc!]"
+  },
+  {
+    "id": 109,
+    "en": "As Heinkel slumped forward, Madelyn's other fist smashed into his nose. The back of his head slammed against the wall, and as he ricocheted in return, a punt from the girl pummeled his torso.",
+    "vi": "Khi Heinkel đổ gục về phía trước, nắm đấm còn lại của Madelyn đấm thẳng vào mũi chú. Sau gáy chú đập mạnh vào tường, và khi chú bị nảy ngược trở lại, một cú đá của cô bé đã nện thẳng vào thân người chú."
+  },
+  {
+    "id": 110,
+    "en": "The impact went through him, causing the house behind him to collapse thunderously, exposed to that destructive power. Grabbing Heinkel's leg as it was engulfed in a plume of smoke, Madelyn brutally threw him in the opposite direction.",
+    "vi": "Lực tác động xuyên qua người chú, khiến ngôi nhà phía sau đổ sập xuống ầm trước sức tàn phá kinh hồn đó. Tóm lấy chân Heinkel khi chú đang chìm trong làn khói bụi, Madelyn ném mạnh chú về hướng ngược lại một cách tàn nhẫn."
+  },
+  {
+    "id": 111,
+    "en": "Heinkel's body rumbled and tumbled vigorously as he fell back onto the ground of the street. The building across the street from the house that had just collapsed, now gave him a firm welcome.",
+    "vi": "Hình hài Heinkel lăn lộn dữ dội rồi văng xuống lòng đường. Tòa nhà đối diện với ngôi nhà vừa đổ sập giờ đây đón lấy chú một cách thô bạo."
+  },
+  {
+    "id": 112,
+    "en": "Windows shattered on impact, the scattered debris showering down on Heinkel like rain. The fallen Heinkel did not even twitch as they left fine cuts all over his body.",
+    "vi": "Kính cửa sổ vỡ vụn khi va chạm, những mảnh vụn văng tung tóe trút xuống người Heinkel như mưa. Heinkel nằm bất động, không hề cựa quậy khi những vết cắt rướm máu rải rác khắp người chú."
+  },
+  {
+    "id": 113,
+    "en": "Flop: [――――]",
+    "vi": "Flop: [――――]"
+  },
+  {
+    "id": 114,
+    "en": "Were it Flop, that onslaught would have been fatal.",
+    "vi": "Nếu là Flop, đòn tấn công dồn dập đó chắc chắn đã lấy mạng anh rồi."
+  },
+  {
+    "id": 115,
+    "en": "Besides Flop, most people would have died to that assault. It was uncertain whether Heinkel was dead or alive, having been showered by a series of attacks that perhaps even Medium would be unable to survive.",
+    "vi": "Không chỉ riêng Flop, hầu hết mọi người đều sẽ bỏ mạng trước cuộc tấn công tàn bạo đó. Hiện tại chẳng rõ Heinkel còn sống hay đã chết, sau khi hứng chịu chuỗi đòn tấn công liên tiếp mà có lẽ ngay cả Medium cũng khó lòng sống sót."
+  },
+  {
+    "id": 116,
+    "en": "But Madelyn, whose profession was fighting, would not permit such half-hearted denouement.",
+    "vi": "Thế nhưng Madelyn, một kẻ chiến đấu chuyên nghiệp, không chấp nhận một kết cục chóng vánh như vậy."
+  },
+  {
+    "id": 117,
+    "en": "Madelyn: [Wimp.]",
+    "vi": "Madelyn: [Kẻ yếu ớt.]"
+  },
+  {
+    "id": 118,
+    "en": "Madelyn's hand reached behind her back, muttering in a voice that did not conceal her contempt. The belt on her back was unbuttoned, and immediately afterward, an item that had been stored there was opened with a noise.",
+    "vi": "Bàn tay Madelyn đưa ra sau lưng, khẽ lẩm bẩm bằng chất giọng không thèm che giấu sự khinh bỉ. Chiếc thắt lưng sau lưng cô bé được tháo ra, và ngay sau đó, một món đồ được cất giữ ở đó mở ra với một tiếng động."
+  },
+  {
+    "id": 119,
+    "en": "It was a foldable, razor-sharp blade, a long weapon shaped like a wide-open pair of scissors. Flop recalled seeing something similar during the hunts of nomadic people across the wide, grand grasslands.",
+    "vi": "Đó là một lưỡi dao sắc bén có thể gấp lại, một món vũ khí dài có hình dáng giống như một chiếc kéo đang mở rộng. Flop nhớ lại mình từng thấy thứ tương tự trong những cuộc đi săn của những người du mục trên vùng thảo nguyên rộng lớn, bao la."
+  },
+  {
+    "id": 120,
+    "en": "Called a Flying Winged Blade, a skillful user could throw it for dozens of meters, spinning the blade around and back to the user's hand.",
+    "vi": "Được gọi là Phi Dực Đao, một người sử dụng điêu luyện có thể ném nó đi xa hàng chục mét, xoay tròn lưỡi đao rồi quay trở lại tay người dùng."
+  },
+  {
+    "id": 121,
+    "en": "However, Madelyn's weapon was as tall as she was small, a sharp weapon possessing a specialized handle that could be used for purposes other than throwing.",
+    "vi": "Nhưng, món vũ khí của Madelyn lại cao tương đương với vóc dáng nhỏ bé của cô bé, một thứ vũ khí sắc bén sở hữu phần tay cầm chuyên dụng có thể dùng cho nhiều mục đích khác ngoài việc ném đi."
+  },
+  {
+    "id": 122,
+    "en": "Devoid of mercy, she directed it at Heinkel laying on the ground, having entered that state after being beaten up by her bare hands. Were he to be struck by that weapon, assuredly no trace of him would remain.",
+    "vi": "Chẳng chút nhân từ, cô bé chỉa món vũ khí về phía Heinkel đang nằm la liệt trên mặt đất sau khi bị cô bé đấm đá bằng tay không. Nếu chú bị món vũ khí đó chém trúng, hẳn là thân xác sẽ chẳng còn nguyên vẹn."
+  },
+  {
+    "id": 123,
+    "en": "Flop: [Won’t you stop, Miss Madelyn? I understand your anger. I know how angry you must be after your friends were killed. But if someone’s attacked, they have no choice but to fight back.]",
+    "vi": "Flop: [Xin cháu dừng tay lại đi, tiểu thư Madelyn. Ta hiểu sự tức giận của cháu. Ta biết cháu hẳn phải phẫn nộ thế nào khi bạn bè mình bị giết hại. Nhưng nếu bị tấn công, người ta không còn lựa chọn nào khác ngoài việc tự vệ đánh trả.]"
+  },
+  {
+    "id": 124,
+    "en": "Biting his lip to brace himself, Flop said this to Madelyn's back. With the Flying Winged Blade in her hand, she turned away and responded to Flop, \"Don't be mistaken”,",
+    "vi": "Cắn chặt môi để lấy can đảm, Flop nói điều đó với lưng của Madelyn. Cầm Phi Dực Đao trong tay, cô bé quay mặt đi và đáp lại Flop, \"Đừng hiểu lầm\","
+  },
+  {
+    "id": 125,
+    "en": "Madelyn: [Dragons are the greatest creatures in the world. If you people snap right back at dragons, you deserve to be exterminated. Besides…]",
+    "vi": "Madelyn: [Loài rồng là sinh vật vĩ đại nhất thế giới này. Nếu lũ người các ngươi dám phản kháng lại loài rồng, các ngươi đáng bị tuyệt diệt. Hơn nữa.]"
+  },
+  {
+    "id": 126,
+    "en": "Flop: [Besides?]",
+    "vi": "Flop: [Hơn nữa?]"
+  },
+  {
+    "id": 127,
+    "en": "Madelyn: [Is it possible to tolerate the action of such a coward, I wonder?]",
+    "vi": "Madelyn: [Làm sao có thể dung thứ cho hành động của một kẻ hèn nhát như thế được cơ chứ?]"
+  },
+  {
+    "id": 128,
+    "en": "Madelyn's golden eyes quaked with anger, and Flop realized the reason for her irritation.",
+    "vi": "Đôi mắt vàng kim của Madelyn rung lên vì giận dữ, và Flop đã nhận ra nguyên do cho sự bực bội của cô bé."
+  },
+  {
+    "id": 129,
+    "en": "Naturally, she was angry about flying dragon accompanying her having been murdered, but more significant was the fact that the one who had performed that deed, Heinkel, was unable to wage battle, having let go of his sword.",
+    "vi": "Lẽ tự nhiên cô bé tức giận vì con phi long đi cùng mình bị giết hại, nhưng điều quan trọng hơn chính là kẻ thực hiện hành vi đó, Heinkel, lại không thể tiếp tục chiến đấu khi đã buông kiếm đầu hàng."
+  },
+  {
+    "id": 130,
+    "en": "She was angered that her companion had been felled by someone so insignificant.",
+    "vi": "Cô bé phẫn nộ vì đồng bào của mình lại bị hạ gục bởi một kẻ tầm thường đến nhường này."
+  },
+  {
+    "id": 131,
+    "en": "It was an insult not only to Heinkel, but to the life of the flying dragon he had slain――,",
+    "vi": "Đó là một sự sỉ nhục không chỉ đối với Heinkel, mà còn đối với sinh mạng của con phi long mà chú đã hạ gục――,"
+  },
+  {
+    "id": 132,
+    "en": "Flop: [Uwah!]",
+    "vi": "Flop: [Oa!]"
+  },
+  {
+    "id": 133,
+    "en": "Utakata: [Uh!]",
+    "vi": "Utakata: [Ư!]"
+  },
+  {
+    "id": 134,
+    "en": "A moment later, Madelyn kicked a pebble on the ground to stop Flop before he could move. The pebble struck Flop, about to make a move, and Utakata, who was about to nock her next arrow, hitting their legs and arms respectively, hence hindering their actions.",
+    "vi": "Ngay sau đó, Madelyn đá một viên sỏi dưới đất để ngăn Flop trước khi anh kịp cử động. Viên sỏi bay trúng Flop, người đang định hành động, và Utakata, cô bé đang chuẩn bị lắp mũi tên tiếp theo, lần lượt đánh vào chân và tay của họ, qua đó cản trở hành động của cả hai."
+  },
+  {
+    "id": 135,
+    "en": "In the meantime, Madelyn raised her Flying Winged Blade as to snuff out Heinkel right beneath her eyes.",
+    "vi": "Trong lúc đó, Madelyn giơ Phi Dực Đao lên như thể muốn kết liễu Heinkel ngay trước mắt mình."
+  },
+  {
+    "id": 136,
+    "en": "But――,",
+    "vi": "Thế nhưng――,"
+  },
+  {
+    "id": 137,
+    "en": "Schult: [N-no, please don’t――!]",
+    "vi": "Schult: [Kh-không, xin đừng――!]"
+  },
+  {
+    "id": 138,
+    "en": "Unlike the two who were hit by pebbles, Schult, who was standing away out of precaution, rushed in-between them in desperation. The young boy held out his hands and stepped in between Madelyn and Heinkel.",
+    "vi": "Khác với hai người bị sỏi trúng, Schult, người đứng cách xa để đề phòng, lao vào giữa họ trong sự tuyệt vọng. Cậu bé dang rộng hai tay và bước vào ngăn giữa Madelyn và Heinkel."
+  },
+  {
+    "id": 139,
+    "en": "Schult's small body covered Heinkel, a shelter far too fragile to resist the storm that was approaching.",
+    "vi": "Thân hình nhỏ bé của Schult che chở cho Heinkel, một lá chắn quá đỗi mong manh trước cơn bão đang cận kề."
+  },
+  {
+    "id": 140,
+    "en": "But Madelyn was not so kind as to hold back, upon seeing the boy's recklessness.",
+    "vi": "Thế nhưng Madelyn không tử tế đến mức nương tay khi nhìn thấy sự liều lĩnh của cậu bé."
+  },
+  {
+    "id": 141,
+    "en": "Madelyn: [Nobody was going to let you live anyway.]",
+    "vi": "Madelyn: [Đằng nào thì cũng chẳng ai để ngươi sống sót đâu.]"
+  },
+  {
+    "id": 142,
+    "en": "Madelyn's eyes narrowed, and the Flying Winged Blade was driven down into Schult's head.",
+    "vi": "Đôi mắt Madelyn nheo lại, và Phi Dực Đao giáng thẳng xuống đầu Schult."
+  },
+  {
+    "id": 143,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 144,
+    "en": "???: [――Rem! Are you safe!?]",
+    "vi": "Giọng nói bí ẩn: [――Rem! Em có an toàn không!?]"
+  },
+  {
+    "id": 145,
+    "en": "Shouting so, a slender woman opened the large door and rushed into the mansion.",
+    "vi": "Hét lớn như thế, một người phụ nữ mảnh khảnh mở toang cánh cửa lớn lao vào trong dinh thự."
+  },
+  {
+    "id": 146,
+    "en": "Rem, who had been running through the hall, looked towards the familiar voice and replied with “Yes!”,",
+    "vi": "Rem, người đang chạy qua đại sảnh, nhìn về phía giọng nói quen thuộc và đáp lại, “Vâng!,”"
+  },
+  {
+    "id": 147,
+    "en": "Rem: [Kuna-san! And Holly-san]",
+    "vi": "Rem: [Chị Kuna! Và chị Holly]"
+  },
+  {
+    "id": 148,
+    "en": "Holly: [I’m glad you’re okay~! The whole city is a huge mess already~!]",
+    "vi": "Holly: [May quá em không sao~! Cả thành phố giờ đang rối tung rối mù hết cả lên rồi nha~!]"
+  },
+  {
+    "id": 149,
+    "en": "Before Rem’s wide-open eyes, a pair of footsteps rushed towards her, one light and another heavy, belonging to two members of the People of Shudraq stationed in the city, Kuna and Holly.",
+    "vi": "Trước đôi mắt mở to của Rem, hai tiếng bước chân lao về phía cô, một nhẹ một nặng, thuộc về hai thành viên của Người tộc Shudraq đang đồn trú trong thành phố, Kuna và Holly."
+  },
+  {
+    "id": 150,
+    "en": "Upon hearing the voices of those two, Rem’s eyes eased in slight relief,",
+    "vi": "Nghe thấy giọng nói của hai người họ, đôi mắt Rem khẽ giãn ra vì chút nhẹ nhõm,"
+  },
+  {
+    "id": 151,
+    "en": "Rem: [I’m glad that you two are alright. Do you have any injuries?]",
+    "vi": "Rem: [Em rất vui vì hai chị vẫn bình an vô sự. Hai chị có bị thương ở đâu không?]"
+  },
+  {
+    "id": 152,
+    "en": "Kuna: [We’re fine, for now. It’s just…]",
+    "vi": "Kuna: [Hiện tại thì bọn chị không sao. Chỉ là…]"
+  },
+  {
+    "id": 153,
+    "en": "Holly: […Everyone is so beat already~.]",
+    "vi": "Holly: […Mọi người đều mệt lử cả rồi đó mà~.]"
+  },
+  {
+    "id": 154,
+    "en": "The tone of the two’s voices drooping, they looked about the hall that Rem ran through, speaking their mind.",
+    "vi": "Giọng điệu hai người chùng xuống, họ nhìn quanh đại sảnh nơi Rem vừa chạy qua, bộc lộ suy nghĩ của mình."
+  },
+  {
+    "id": 155,
+    "en": "Around the three of them, residents who had been hurt and injured amidst the chaos that had sparked within the city were being brought in droves. The place gave the appearance of a field hospital, as volunteers helped in patching everyone up.",
+    "vi": "Xung quanh ba người họ, những người dân bị thương giữa đống hỗn loạn bùng phát trong thành phố đang được đưa đến từng đoàn. Nơi này mang dáng vẻ của một bệnh viện dã chiến, khi các tình nguyện viên hỗ trợ băng bó cho mọi người."
+  },
+  {
+    "id": 156,
+    "en": "If the wound was shallow, it could be sewn shut and bandaged. However, if the wound was deep and life-threatening――,",
+    "vi": "Nếu vết thương nông, nó có thể được khâu lại và băng bó. Thế mà, nếu vết thương sâu và đe dọa đến tính mạng――,"
+  },
+  {
+    "id": 157,
+    "en": "Rem: [I need to do something…]",
+    "vi": "Rem: [Tôi phải làm gì đó thôi.]"
+  },
+  {
+    "id": 158,
+    "en": "Biting her lip tightly, Rem clenched her hands.",
+    "vi": "Cắn chặt môi, Rem nắm chặt hai bàn tay."
+  },
+  {
+    "id": 159,
+    "en": "Her right hand, opposite the cane, was already smeared with blood that was not Rem’s. No matter how many times she tried to scrub it away, the blood on her hand had dried far too much.",
+    "vi": "Bàn tay phải, đối diện với cây gậy, đã dính đầy máu vốn không phải của Rem. Dù cô có cố gắng lau chùi bao nhiêu lần đi nữa, máu trên tay cô đã khô cứng từ lâu."
+  },
+  {
+    "id": 160,
+    "en": "Soon after Rem and Priscilla witnessed the flock of flying dragons from the bathhouse’s balcony, the black specks approaching from afar quickly turned into a threat, launching an assault on the city.",
+    "vi": "Ngay sau khi Rem và Priscilla nhìn thấy đàn phi long từ ban công nhà tắm, những đốm đen tiến lại gần từ phía xa đã nhanh chóng biến thành hiểm họa, phát động một cuộc tấn công vào thành phố."
+  },
+  {
+    "id": 161,
+    "en": "Some of the flying dragons hurled down large rocks from the sky, while some of them engaged in a cruel hunt, snatching the fleeing people from the ground to then drop them right back from great heights.",
+    "vi": "Một số phi long trút những tảng đá lớn từ trên trời xuống, trong khi một số khác tham gia vào một cuộc săn lùng tàn bạo, cắp lấy những người đang chạy trốn từ mặt đất rồi thả họ xuống từ trên cao."
+  },
+  {
+    "id": 162,
+    "en": "The citizens who lacked the strength to fight against either of these attacks, were nothing but easy prey.",
+    "vi": "Những người dân thành thị thiếu đi sức mạnh để chống lại cả hai đợt tấn công này chẳng khác nào những con mồi dễ dàng."
+  },
+  {
+    "id": 163,
+    "en": "Having been exposed to such danger, the people had rushed here for a shelter and center of treatment; that was the reason behind the misery currently present within the mansion.",
+    "vi": "Phải đối mặt với nguy hiểm như thế, người dân đã đổ xô đến đây để lánh nạn và chữa trị; đó chính là lý do đằng sau cảnh tượng khốn khổ hiện tại trong dinh thự."
+  },
+  {
+    "id": 164,
+    "en": "One would think Priscilla to be greatly upset with such happenings, and yet――,",
+    "vi": "Người ta cứ nghĩ Priscilla hẳn phải rất khó chịu với những sự việc như thế này, thế nhưng――,"
+  },
+  {
+    "id": 165,
+    "en": "Priscilla: [To begin with, the mansion was taken in order to make the precious healer’s whereabouts somewhere distinct, somewhere sound. Zikr and the others were also ordered to escort the wounded.]",
+    "vi": "Priscilla: [Ngay từ đầu, ta chiếm dinh thự này là để tạo một nơi ở an toàn, rõ ràng cho trị liệu sư quý giá. Zikr và những người khác cũng nhận được lệnh hộ tống người bị thương đến đây.]"
+  },
+  {
+    "id": 166,
+    "en": "Rem: [I-is that so…!?]",
+    "vi": "Rem: [R-ra là vậy sao…!?]"
+  },
+  {
+    "id": 167,
+    "en": "Priscilla: [What, did you really believe that I seized the mansion only for its bathhouse? The true reason, is for its bathhouse, and its spaciousness.]",
+    "vi": "Priscilla: [Sao thế, ngươi thật sự nghĩ ta chiếm giữ dinh thự chỉ vì phòng tắm của nó thôi à? Lý do thật sự là vì phòng tắm, và vì sự rộng rãi của nó.]"
+  },
+  {
+    "id": 168,
+    "en": "And so, it should be noted that such an exchange had previously occurred.",
+    "vi": "Và vì thế, cần lưu ý rằng cuộc đối thoại như vậy đã diễn ra trước đó."
+  },
+  {
+    "id": 169,
+    "en": "In any case, Priscilla had allowed the wounded into the mansion. Apparently, Zikr, Mizelda, and other key personnel in the city had been informed of this.",
+    "vi": "Dù sao đi nữa, Priscilla đã cho phép những người bị thương vào dinh thự. Có vẻ như Zikr, Mizelda và các nhân sự chủ chốt khác trong thành phố đều đã được thông báo về chuyện này."
+  },
+  {
+    "id": 170,
+    "en": "Rem: [So then, I don’t know why I wasn’t told anything about it, being the most important aspect, but…!]",
+    "vi": "Rem: [Dù vậy, tôi không hiểu sao mình là nhân tố quan trọng nhất mà lại chẳng được báo một lời nào cả…!]"
+  },
+  {
+    "id": 171,
+    "en": "Because she felt that obtaining a satisfying answer was not possible, Rem did not probe it any deeper.",
+    "vi": "Vì cảm thấy có gặng hỏi cũng không nhận được câu trả lời thỏa đáng, Rem không truy hỏi sâu thêm nữa."
+  },
+  {
+    "id": 172,
+    "en": "Above all, Rem had no time for worrying over Priscilla’s childish mischievousness. After all, injured people who required Rem’s help were being brought in one after another.",
+    "vi": "Trên hết, Rem chẳng có thời gian để bận tâm về trò tinh nghịch trẻ con của Priscilla. Rốt cuộc, những người bị thương cần Rem giúp đỡ đang liên tục được đưa vào."
+  },
+  {
+    "id": 173,
+    "en": "Rem: [Kuna-san and Holly-san, you two are…]",
+    "vi": "Rem: [Chị Kuna và chị Holly, hai chị…]"
+  },
+  {
+    "id": 174,
+    "en": "Holly: [Chieftain… Ah! Not anymore~! Former Chieftain Mizelda said this~!]",
+    "vi": "Holly: [Bộ lạc trưởng… A! Không phải nữa rồi~! Cựu bộ lạc trưởng Mizelda đã nói thế này nè~!]"
+  },
+  {
+    "id": 175,
+    "en": "Kuna: [The more people die, the lower the morale will get. We don’t want fewer people to be able to fight, so we’re Rem’s guards. Leaving that aside…]",
+    "vi": "Kuna: [Càng nhiều người chết thì sĩ khí sẽ càng giảm sút. Bọn chị không muốn số người có thể chiến đấu bị hao hụt, nên bọn chị sẽ là hộ vệ của Rem. Mà bỏ qua chuyện đó đi.]"
+  },
+  {
+    "id": 176,
+    "en": "Cutting her words off there, Kuna narrowed her almond-shaped eyes. Because of the sharpness of the look, Rem stiffened, as Kuna indicated the wounded in the mansion with her chin,",
+    "vi": "Ngắt lời ở đó, Kuna nheo đôi mắt hình hạnh nhân của mình lại. Trước ánh nhìn sắc lẹm ấy, Rem cứng người, trong khi Kuna dùng cằm hất về phía những người bị thương trong dinh thự,"
+  },
+  {
+    "id": 177,
+    "en": "Kuna: [Where’s that princess who was taking care of you? Don’t tell me, she’s relaxing in her room with all this mayhem going on?]",
+    "vi": "Kuna: [Cô công chúa đang chăm sóc em đâu rồi? Đừng bảo chị là cô ta vẫn đang thư giãn trong phòng giữa lúc hỗn loạn thế này nhé?]"
+  },
+  {
+    "id": 178,
+    "en": "Holly: [If so, she’s a very heavy sleeper~. I am too, but even if I were snoozing and had my belly full, I’d wake up with this much noise~.]",
+    "vi": "Holly: [Nếu vậy thì cô ta ngủ say thật đấy nha~. Chị cũng thế thôi, nhưng dù có đang chợp mắt và no căng bụng thì với tiếng ồn thế này chị cũng phải thức giấc thôi~.]"
+  },
+  {
+    "id": 179,
+    "en": "To the pair’s questions, their tone differing in tension exquisitely, Rem shook her head sideways.",
+    "vi": "Trước những câu hỏi của cả hai, với tông giọng khác nhau một cách tinh tế, Rem lắc đầu phủ nhận."
+  },
+  {
+    "id": 180,
+    "en": "Certainly, Priscilla was the proprietor of a self-centered, arrogant personality, and it was understandable that the two of them would be concerned about her being so whimsical.",
+    "vi": "Quả thực, Priscilla sở hữu tính cách ích kỷ, kiêu ngạo, và hoàn toàn dễ hiểu khi cả hai lo lắng về sự tùy hứng của cô."
+  },
+  {
+    "id": 181,
+    "en": "Rem: [Surprisingly, Priscilla-san is a very dependable person.]",
+    "vi": "Rem: [Đáng ngạc nhiên là cô Priscilla lại là một người rất đáng tin cậy.]"
+  },
+  {
+    "id": 182,
+    "en": "And immediately following Rem’s comment on the absent Priscilla,",
+    "vi": "Và ngay sau nhận xét của Rem về một Priscilla đang vắng mặt,"
+  },
+  {
+    "id": 183,
+    "en": "???: [――Kiryararahhh!!]",
+    "vi": "Phi long: [――Kiryarrr!!]"
+  },
+  {
+    "id": 184,
+    "en": "A high-pitched sound, like a strong wind blowing between buildings, descended headlong onto the front yard of the mansion.",
+    "vi": "Một âm thanh chói tai, tựa như một luồng gió mạnh thổi qua các tòa nhà, lao thẳng xuống sân trước của dinh thự."
+  },
+  {
+    "id": 185,
+    "en": "Propping up a tremendous cloud of dust by scraping the lawn, was the massive body of a dragon possessing wings, which had just failed a landing from above. Its total wingspan would put the flying dragon at roughly four meters long; it landed in an unsightly manner, as if it had just flown for the first time.",
+    "vi": "Cào nát bãi cỏ tạo nên một đám bụi mù mịt là thân hình khổng lồ của một con rồng có cánh, kẻ vừa thất bại trong việc hạ cánh từ trên cao. Tổng sải cánh của con phi long này dài khoảng bốn mét; nó tiếp đất một cách khó coi, cứ như thể đây là lần đầu tiên nó cất cánh bay."
+  },
+  {
+    "id": 186,
+    "en": "Although, that was only natural.",
+    "vi": "Thế nhưng, điều đó cũng là tự nhiên thôi."
+  },
+  {
+    "id": 187,
+    "en": "The basic landing maneuvers that would normally have been founded in experience and instinct could not have been satisfactorily demonstrated, given its head had been smashed in.",
+    "vi": "Những thao tác hạ cánh cơ bản vốn dựa trên kinh nghiệm và bản năng đã không thể thực hiện một cách trọn vẹn, bởi vì đầu của nó đã bị đập nát bét."
+  },
+  {
+    "id": 188,
+    "en": "Just then, right next to the crashed corpse of the flying dragon, a figure landed from the sky. A beautiful woman, the hem of her red dress fluttering, a jeweled crimson sword in her hand―― Priscilla.",
+    "vi": "Ngay lúc đó, ngay cạnh xác con phi long vừa rơi xuống, một bóng người đáp xuống từ trên trời. Một người phụ nữ xinh đẹp, tà váy đỏ phấp phới, tay cầm thanh kiếm đỏ thẫm nạm ngọc quý―― Priscilla."
+  },
+  {
+    "id": 189,
+    "en": "Priscilla: [You used me as a guard. This debt shall cost you greatly, Rem.]",
+    "vi": "Priscilla: [Ngươi dám dùng ta làm hộ vệ sao. Món nợ này sẽ khiến ngươi phải trả giá đắt đấy, Rem.]"
+  },
+  {
+    "id": 190,
+    "en": "Rem: [Thank you very much. I shall wash your hair as a show of my heartfelt gratitude.]",
+    "vi": "Rem: [Cảm ơn cô rất nhiều. Tôi sẽ gội đầu cho cô để thể hiện lòng biết ơn chân thành của mình.]"
+  },
+  {
+    "id": 191,
+    "en": "Priscilla: [How audacious of you, to attempt to get away with such a thing. I shall allow it. I am pleased with it.]",
+    "vi": "Priscilla: [Thật to gan khi dám thương lượng bằng thứ đó để trốn nợ. Nhưng ta chấp nhận. Ta rất hài lòng.]"
+  },
+  {
+    "id": 192,
+    "en": "Priscilla acceded to Rem's reply with a hawkish response given through the opened doorway.",
+    "vi": "Priscilla chấp thuận câu trả lời của Rem bằng một phản hồi sắc sảo hướng qua cánh cửa đang mở."
+  },
+  {
+    "id": 193,
+    "en": "She had been making full use of her extraordinary physical abilities to cut down and repel the flying dragons that had come soaring towards the mansion.",
+    "vi": "Cô đã tận dụng tối đa khả năng thể chất phi thường của mình để chém hạ và đẩy lùi những con phi long đang bay lượn về phía dinh thự."
+  },
+  {
+    "id": 194,
+    "en": "Witnessing this firsthand, Kuna and Holly, as would be expected, could not conceal their astonishment.",
+    "vi": "Tận mắt chứng kiến cảnh này, Kuna và Holly lẽ tất nhiên không thể giấu nổi sự kinh ngạc."
+  },
+  {
+    "id": 195,
+    "en": "For some reason, Rem felt petty pride resulting from the reactions of those two. However, Priscilla, squaring off against the dragons, was not entirely free of concern.",
+    "vi": "Không hiểu vì sao, Rem cảm thấy một chút tự hào nhỏ nhoi trước phản ứng của hai người họ. Vậy mà, Priscilla, dù đang đối đầu với lũ rồng, không phải hoàn toàn không có mối bận tâm."
+  },
+  {
+    "id": 196,
+    "en": "The primary reason for this laid within the beautiful red-jeweled sword wielded in her hand――,",
+    "vi": "Nguyên nhân chính cho điều đó nằm ở thanh kiếm nạm ngọc đỏ tuyệt đẹp trên tay cô――,"
+  },
+  {
+    "id": 197,
+    "en": "Rem: [Priscilla-san, how is your Yang Sword doing…?]",
+    "vi": "Rem: [Cô Priscilla, Yang Sword của cô thế nào rồi…?]"
+  },
+  {
+    "id": 198,
+    "en": "Priscilla: [As you can see, the sun has darkened. For now, this is merely a blunt object that cannot be called a sword. Although…]",
+    "vi": "Priscilla: [Như ngươi thấy đấy, vầng thái dương đã u tối rồi. Hiện tại, thứ này chỉ là một vật cùn không thể gọi là kiếm nữa. Mặc dù vậy.]"
+  },
+  {
+    "id": 199,
+    "en": "Having revealed that something was wrong with the Yang Sword, Priscilla turned back around.",
+    "vi": "Sau khi tiết lộ rằng Yang Sword đang gặp trục trặc, Priscilla quay người lại."
+  },
+  {
+    "id": 200,
+    "en": "In that instant, a flying dragon plunged towards Priscilla, its open mouth lined with ravenous fangs aimed at her back. Priscilla ruthlessly plunged the Yang Sword, dull as it was, into the dragon's maw.",
+    "vi": "Ngay khoảnh khắc đó, một con phi long lao về phía Priscilla, cái miệng há hốc đầy những chiếc răng nanh háo mồi nhắm thẳng vào lưng cô. Priscilla tàn nhẫn đâm thanh Yang Sword, dù đã cùn, thẳng vào vòm họng con rồng."
+  },
+  {
+    "id": 201,
+    "en": "The fangs shattered as the tip of the Yang Sword pierced the back of the dragon's throat with brutal force, killing it.",
+    "vi": "Những chiếc răng nanh vỡ vụn khi mũi kiếm Yang Sword xuyên qua cuống họng con rồng với lực đạo tàn bạo, kết liễu mạng sống của nó."
+  },
+  {
+    "id": 202,
+    "en": "Priscilla: [Before me, a winged dragon amounts to naught, even with a blunt object that cannot cut.]",
+    "vi": "Priscilla: [Trước mặt ta, một con rồng có cánh chẳng là gì cả, ngay cả khi ta chỉ dùng một vật cùn không thể chém.]"
+  },
+  {
+    "id": 203,
+    "en": "With a sweep of her sword, Priscilla tossed the dragon's corpse to the edge of the garden. Having now easily disposed of the threat, she turned to notice Kuna and Holly standing beside Rem.",
+    "vi": "Với một đường kiếm gạt đi, Priscilla hất xác con rồng ra rìa khu vườn. Sau khi dễ dàng giải quyết mối đe dọa, cô quay lại chú ý đến Kuna và Holly đang đứng cạnh Rem."
+  },
+  {
+    "id": 204,
+    "en": "Priscilla: [Shudraqians, is it. I suppose you have come to protect Rem.]",
+    "vi": "Priscilla: [Người tộc Shudraq à. Ta đoán các ngươi đến đây để bảo vệ Rem.]"
+  },
+  {
+    "id": 205,
+    "en": "Rem: [Priscilla-san, the two of them came to help the wounded…]",
+    "vi": "Rem: [Cô Priscilla, hai chị ấy đến để giúp đỡ những người bị thương…]"
+  },
+  {
+    "id": 206,
+    "en": "Priscilla: [Do not lose sight of reality because of romantic ideals. What use are the wounded on a battlefield? Who is the most valuable one here? Aside from me, it is you.]",
+    "vi": "Priscilla: [Đừng để những lý tưởng lãng mạn che mờ hiện thực. Kẻ bị thương thì ích gì trên chiến trường chứ? Ai là người có giá trị nhất ở đây? Ngoài ta ra, chính là ngươi.]"
+  },
+  {
+    "id": 207,
+    "en": "Rem: [――Hk!]",
+    "vi": "Rem: [――Hực!]"
+  },
+  {
+    "id": 208,
+    "en": "Rem choked up, faced with Priscilla's sharp rebuttal. Kuna nodded her head in affirmation of Priscilla's ruthless assessment, \"That's right\",",
+    "vi": "Rem nghẹn lời trước sự bác bỏ sắc bén của Priscilla. Kuna gật đầu khẳng định đánh giá tàn nhẫn của Priscilla, “Đúng vậy,”"
+  },
+  {
+    "id": 209,
+    "en": "Kuna: [It’s our role to protect Rem. And Rem’s role is….]",
+    "vi": "Kuna: [Vai trò của bọn chị là bảo vệ Rem. Còn vai trò của Rem là.]"
+  },
+  {
+    "id": 210,
+    "en": "Holly: [To minimize the casualties, as much as possible~!]",
+    "vi": "Holly: [Giảm thiểu thương vong nhiều nhất có thể đó mà~!]"
+  },
+  {
+    "id": 211,
+    "en": "Kuna's hushed words were buttressed by Holly's cheerful remark.",
+    "vi": "Lời thì thầm của Kuna được củng cố bằng nhận xét vui vẻ của Holly."
+  },
+  {
+    "id": 212,
+    "en": "Burned by both of their words, and by Priscilla's gaze, Rem admonished herself. Just the previous day, Rem had been feeling sorry for herself, for not being in such an important position.",
+    "vi": "Bị tác động bởi lời nói của cả hai lẫn ánh mắt của Priscilla, Rem tự răn đe bản thân. Mới ngày hôm trước thôi, Rem còn tự ti về bản thân vì không ở một vị trí quan trọng như thế."
+  },
+  {
+    "id": 213,
+    "en": "No longer could she be complacent about her position. Above all, Rem herself had desired it.",
+    "vi": "Cô không thể tiếp tục tự mãn về vị trí của mình nữa. Trên hết, đây chính là điều mà bản thân Rem mong muốn."
+  },
+  {
+    "id": 214,
+    "en": "Rem: [I will fight my battles myself. Kuna-san, Holly-san, thank you very much.]",
+    "vi": "Rem: [Tôi sẽ tự mình chiến đấu trận chiến của bản thân. Chị Kuna, chị Holly, cảm ơn hai chị rất nhiều.]"
+  },
+  {
+    "id": 215,
+    "en": "Kuna: [Oh!]",
+    "vi": "Kuna: [Ừ!]"
+  },
+  {
+    "id": 216,
+    "en": "Holly: [You're the one in charge~!]",
+    "vi": "Holly: [Trông cậy cả vào em đó nha~!]"
+  },
+  {
+    "id": 217,
+    "en": "Kuna and Holly nodded, responding to Rem's determination with encouraging smiles.",
+    "vi": "Kuna và Holly gật đầu, đáp lại quyết tâm của Rem bằng những nụ cười khích lệ."
+  },
+  {
+    "id": 218,
+    "en": "The two granting salvation to her feelings, Rem looked towards Priscilla. She had been defending the mansion until guards capable of protecting Rem arrived――,",
+    "vi": "Sau khi hai người họ vực dậy tinh thần cho mình, Rem nhìn về phía Priscilla. Cô đã bảo vệ dinh thự cho đến khi những hộ vệ có khả năng bảo vệ Rem đến nơi――,"
+  },
+  {
+    "id": 219,
+    "en": "Rem: [You're leaving, aren't you?]",
+    "vi": "Rem: [Cô định rời đi đúng không?]"
+  },
+  {
+    "id": 220,
+    "en": "Priscilla: [It seems to me that there are many situations in which you shall not be able to stand without me. Zikr will know how to dispense with the lack of strength, but he shall not be able to stand up to the enemy's main force.]",
+    "vi": "Priscilla: [Ta thấy có nhiều tình huống ngươi sẽ không thể tự đứng vững nếu thiếu ta. Zikr biết cách bù đắp cho sự thiếu hụt binh lực, nhưng hắn sẽ không thể chống lại lực lượng chủ lực của kẻ thù.]"
+  },
+  {
+    "id": 221,
+    "en": "Rem: [The enemy's main force being…]",
+    "vi": "Rem: [Lực lượng chủ lực của kẻ thù là…]"
+  },
+  {
+    "id": 222,
+    "en": "Priscilla: [――Naturally, that would be a Divine General.]",
+    "vi": "Priscilla: [――Lẽ dĩ nhiên, đó chính là một Thần Tướng.]"
+  },
+  {
+    "id": 223,
+    "en": "Rem gulped, as Priscilla answered with one eye closed.",
+    "vi": "Rem nuốt nước bọt khi Priscilla nhắm hờ một mắt trả lời."
+  },
+  {
+    "id": 224,
+    "en": "The existence of the Nine Divine Generals was a critical factor affecting the tide of war in the Empire. In order to recruit as many of them as possible, Subaru, Abel, and the others had set out for Chaosflame.",
+    "vi": "Sự hiện diện của Cửu Thần Tướng là một yếu tố then chốt ảnh hưởng đến cục diện chiến sự trong Đế Quốc. Để chiêu mộ nhiều người trong số họ nhất có thể, Subaru, Abel và những người khác đã lên đường đến Chaosflame."
+  },
+  {
+    "id": 225,
+    "en": "Nevertheless, the fact that one of the Nine Divine Generals was attacking this city was no coincidence.",
+    "vi": "Song, việc một trong Cửu Thần Tướng tấn công thành phố này hoàn toàn không phải ngẫu nhiên."
+  },
+  {
+    "id": 226,
+    "en": "Priscilla: [Of course, this is the doing of someone from within the opposing party. Abel's situation looks increasingly bleak. How come he built something upon such shoddy foundations?]",
+    "vi": "Priscilla: [Tất nhiên, đây là hành động của ai đó bên phía đối địch. Tình cảnh của Abel trông ngày càng ảm đạm rồi. Sao hắn có thể xây dựng cơ đồ trên một nền móng lỏng lẻo như vậy chứ?]"
+  },
+  {
+    "id": 227,
+    "en": "Rem: [I can't say anything about that, because I don’t know much about how Abel works. Leaving it at that, I’m sure it would have been very difficult for the people around him…]",
+    "vi": "Rem: [Tôi không thể nói gì về điều đó, vì tôi không hiểu rõ cách làm việc của Abel. Nhưng bỏ chuyện đó sang bên, tôi tin rằng những người xung quanh anh ta hẳn phải gặp nhiều khó khăn lắm…]"
+  },
+  {
+    "id": 228,
+    "en": "While Rem had many qualms about Subaru, she did not believe Abel's attitude was a commendable one either. Abel, who stood out for his arrogant behavior stemming from his cleverness, foresight, and ability to read the situations, was a difficult opponent for Rem, who had no memories to support herself with.",
+    "vi": "Mặc dù Rem có nhiều điểm bất bình với Subaru, cô cũng không cho rằng thái độ của Abel là đáng khen ngợi. Abel, người nổi bật với hành vi kiêu ngạo xuất phát từ sự thông minh, tầm nhìn xa và khả năng đọc tình huống, là một đối thủ khó nhằn đối với một Rem không có ký ức gì để làm điểm tựa."
+  },
+  {
+    "id": 229,
+    "en": "Being at the top of the country, he must have been surrounded by a great many people. It was very unlikely that all of them would have accepted his ideas and obeyed him so easily.",
+    "vi": "Đứng ở đỉnh cao của một đất nước, anh ta không nghi ngờ gì phải được vây quanh bởi rất nhiều người. Rất khó có khả năng tất cả bọn họ đều chấp nhận ý tưởng của anh ta và phục tùng anh ta dễ dàng như vậy."
+  },
+  {
+    "id": 230,
+    "en": "That was also why a rebellion had been raised. However――,",
+    "vi": "Đó cũng là lý do tại sao một cuộc phản loạn đã nổ ra. Thế nhưng――,"
+  },
+  {
+    "id": 231,
+    "en": "Rem: [Nonetheless, to allow something as terrible as this because of that…!]",
+    "vi": "Rem: [Dù vậy, chỉ vì chuyện đó mà lại để xảy ra một điều tồi tệ thế này sao…!]"
+  },
+  {
+    "id": 232,
+    "en": "Rem, who had built herself upon a fragile foundation, appealed to Priscilla with her gaze.",
+    "vi": "Rem, người đã gầy dựng bản thân trên một nền móng mong manh, khẩn khoản nhìn Priscilla."
+  },
+  {
+    "id": 233,
+    "en": "Priscilla produced a scoff, accompanied by a smile, due to Rem's exclamation, as if suggesting she knew what she was thinking. As Rem's eyes widened in response, Priscilla turned away, the smile disappearing as if it had never existed at all,",
+    "vi": "Priscilla khẽ cười khẩy trước lời cảm thán của Rem, như thể ngụ ý cô biết thừa Rem đang nghĩ gì. Khi đôi mắt Rem mở to đáp lại, Priscilla quay đi, nụ cười biến mất như chưa từng tồn tại,"
+  },
+  {
+    "id": 234,
+    "en": "Priscilla: [This flock of flying dragons can not be explained through the taming of flying dragons. This General First-Class must have sprouted during mine absence. If what Serena spoke was true, there is one who became the Flying Dragon General.]",
+    "vi": "Priscilla: [Đàn phi long này không thể giải thích bằng việc thuần hóa phi long thông thường được. Tên Nhất đẳng Tướng quân này chắc hẳn đã trỗi dậy trong thời gian ta vắng mặt. Nếu những gì Serena nói là thật, thì có một kẻ đã trở thành Phi Long Tướng quân.]"
+  },
+  {
+    "id": 235,
+    "en": "Rem: [Surely, the Ninth… That person should be somewhere in the city…]",
+    "vi": "Rem: [Quả quyết là người đứng thứ chín… Người đó hẳn phải ở đâu đó trong thành phố…]"
+  },
+  {
+    "id": 236,
+    "en": "Priscilla: [――The City Hall.]",
+    "vi": "Priscilla: [――Tòa Thị Chính.]"
+  },
+  {
+    "id": 237,
+    "en": "Rem: [――――]",
+    "vi": "Rem: [――――]"
+  },
+  {
+    "id": 238,
+    "en": "Priscilla: [If the enemy is not too foolish, that is where they shall head. After all, they have a direct path to it, cleaving through the skies. There is no reason why they would overlook the commanding post.]",
+    "vi": "Priscilla: [Nếu kẻ thù không quá ngu ngốc, đó là nơi chúng sẽ hướng tới. Rốt cuộc, chúng có một con đường trực tiếp dẫn đến đó bằng cách rẽ gió băng trời. Không có lý do gì chúng lại bỏ qua sở chỉ huy.]"
+  },
+  {
+    "id": 239,
+    "en": "Rem's thoughts became clouded for a moment due to the obviousness of such a remark.",
+    "vi": "Suy nghĩ của Rem thoáng chốc trở nên rối bời trước sự hiển nhiên của lời nhận xét đó."
+  },
+  {
+    "id": 240,
+    "en": "However, as soon as those words registered in her mind, she was immediately struck by the urgency of the situation. However, Priscilla's calm and nonchalant demeanor brought Rem to the verge of panic.",
+    "vi": "Thế nhưng, ngay khi những lời đó được tiếp thu trong đầu, cô lập tức bị chấn động bởi tính chất khẩn cấp của tình hình. dù vậy, thái độ bình tĩnh và thờ ơ của Priscilla đã đẩy Rem đến bờ vực hoảng loạn."
+  },
+  {
+    "id": 241,
+    "en": "Rem: [I-isn't it a crisis that the command post is being attacked!? Priscilla-san!?]",
+    "vi": "Rem: [S-sở chỉ huy bị tấn công không phải là một cuộc khủng hoảng sao!? Cô Priscilla!?]"
+  },
+  {
+    "id": 242,
+    "en": "Priscilla: [Fool. Plump though he may be, Zikr yet remains a General of the Empire. He shall not perish that easily, nor he is so foolish as to keep by his side those who cannot do battle.]",
+    "vi": "Priscilla: [Đồ ngốc. Dù béo tròn thật đấy, nhưng Zikr vẫn là một Tướng quân của Đế Quốc. Hắn sẽ không mất mạng dễ dàng thế đâu, và hắn cũng không ngốc đến mức giữ bên mình những kẻ không thể chiến đấu.]"
+  },
+  {
+    "id": 243,
+    "en": "Rem: [That is… Ah. Speaking of those who can't fight, Schult-san!]",
+    "vi": "Rem: [Chuyện đó… A. Nhắc đến người không thể chiến đấu, em Schult!]"
+  },
+  {
+    "id": 244,
+    "en": "Reminded of the boy who had left the mansion before Priscilla and Rem started bathing, Rem grew anxious.",
+    "vi": "Nghĩ đến cậu bé đã rời khỏi dinh thự trước khi Priscilla và Rem chuẩn bị tắm, Rem trở nên vô cùng lo lắng."
+  },
+  {
+    "id": 245,
+    "en": "Hardworking but clumsy, Schult was a boy with no more power than those that needed Rem's help.",
+    "vi": "Chăm chỉ nhưng vụng về, Schult là một cậu bé không có nhiều sức mạnh hơn những người cần Rem giúp đỡ."
+  },
+  {
+    "id": 246,
+    "en": "That boy, Schult, had been abandoned in this city of utter chaos.",
+    "vi": "Cậu bé Schult đó đã bị bỏ lại trong thành phố hỗn loạn tột cùng này."
+  },
+  {
+    "id": 247,
+    "en": "If only he had someone, an adult he could rely on, to join up with, but if not――,",
+    "vi": "Giá như em ấy có ai đó, một người lớn có thể tin cậy để đi cùng, còn nếu không thì――,"
+  },
+  {
+    "id": 248,
+    "en": "Rem: [Priscilla-san, quickly, please hurry!]",
+    "vi": "Rem: [Cô Priscilla, nhanh lên, xin cô hãy khẩn trương lên!]"
+  },
+  {
+    "id": 249,
+    "en": "Priscilla: [At the very least, it is your duty to earnestly beseech me for my safety. In fact, you needn't be in such a hurry, Schult shall not die so easily.]",
+    "vi": "Priscilla: [Ít nhất thì nhiệm vụ của ngươi là phải tha thiết cầu nguyện cho sự an toàn của ta. Thực ra, ngươi không cần phải vội vã như thế, Schult sẽ không chết dễ dàng vậy đâu.]"
+  },
+  {
+    "id": 250,
+    "en": "Rem: [Huh…?]",
+    "vi": "Rem: [Hả…?]"
+  },
+  {
+    "id": 251,
+    "en": "Replying with a casual demeanor, Priscilla snorted at Rem, who was impatiently motioning with her hand.",
+    "vi": "Trả lời với phong thái nhàn nhã, Priscilla khịt mũi trước một Rem đang sốt ruột vẫy tay ra hiệu."
+  },
+  {
+    "id": 252,
+    "en": "Rem furrowed her eyebrows into a frown, not understanding the meaning behind Priscilla's words. Kuna and Holly, naturally, had no clue as to them as well, their faces conveying confusion with that child’s appearance as the reason.",
+    "vi": "Rem nhíu mày cau có, không hiểu ý nghĩa đằng sau những lời của Priscilla. Kuna và Holly lẽ tự nhiên cũng chẳng hiểu gì cả, gương mặt họ biểu lộ vẻ hoang mang khi lý do lại liên quan đến sự xuất hiện của cậu bé đó."
+  },
+  {
+    "id": 253,
+    "en": "How could she be certain that Schult, wielding only his cuteness and diligence as weapons, would be safe?",
+    "vi": "Làm sao cô có thể hẳn là rằng Schult, người chỉ sở hữu sự dễ thương và chuyên cần làm vũ khí, lại được an toàn chứ?"
+  },
+  {
+    "id": 254,
+    "en": "Facing the skeptical eyes of Rem and the others, Priscilla put her hand on the door of the mansion, keeping them out of the way of the flying dragons’ onslaught.",
+    "vi": "Đối mặt với những ánh mắt hoài nghi của Rem và những người khác, Priscilla đặt tay lên cánh cửa dinh thự, ngăn họ khỏi tầm ảnh hưởng của cuộc tấn công dồn dập của lũ phi long."
+  },
+  {
+    "id": 255,
+    "en": "Priscilla: [――Because he has won mine favor with his charm and bravery, you know.]",
+    "vi": "Priscilla: [――Bởi vì đứa trẻ đó đã giành được sự sủng ái của ta bằng sự đáng yêu và dũng cảm của mình đấy.]"
+  },
+  {
+    "id": 256,
+    "en": "And with that answer, the door of the mansion was closed.",
+    "vi": "Và cùng với câu trả lời đó, cánh cửa dinh thự khép lại."
+  },
+  {
+    "id": 257,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 258,
+    "en": "A harsh, dull thud rang out, and Flop felt his soul crushed under the weight of his own helplessness.",
+    "vi": "Một tiếng bịch khô khốc vang lên, và Flop cảm thấy linh hồn mình như bị nghiền nát dưới sức nặng của sự bất lực của chính mình."
+  },
+  {
+    "id": 259,
+    "en": "The pain from the pebble stopped him in his tracks, a tragedy that did not even allow him to reach out.",
+    "vi": "Cơn đau từ viên sỏi đã ghìm chân anh tại chỗ, một bi kịch ngay cả không cho phép anh đưa tay ra giúp đỡ."
+  },
+  {
+    "id": 260,
+    "en": "He wished to shut his eyes, to avert his face from their demise, but he did not. Doing so, he believed, would mean running away from his responsibility, stemming from his powerlessness, from his inability to do anything.",
+    "vi": "Anh muốn nhắm mắt lại, ngoảnh mặt đi trước cái chết của họ, nhưng anh đã không làm thế. Làm vậy, anh tin rằng, đồng nghĩa với việc trốn tránh trách nhiệm bắt nguồn từ sự bất lực của chính mình, từ việc không thể làm được gì."
+  },
+  {
+    "id": 261,
+    "en": "At the very least, he himself had to ascertain the result of what he had done, and of what he had been unable to do.",
+    "vi": "Ít nhất, chính bản thân anh phải xác thực được kết quả của những gì mình đã làm, và cả những gì mình đã không thể thực hiện được."
+  },
+  {
+    "id": 262,
+    "en": "With such modest resolve, Flop refused to look away.",
+    "vi": "Với quyết tâm khiêm tốn đó, Flop kiên quyết không ngoảnh mặt đi."
+  },
+  {
+    "id": 263,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 264,
+    "en": "Madelyn: [What, are you?]",
+    "vi": "Madelyn: [Ngươi là cái thứ gì thế?]"
+  },
+  {
+    "id": 265,
+    "en": "Madelyn swung down the Flying Winged Blade in her hand, intending to slice her prey in two with its sharp edge.",
+    "vi": "Madelyn vung Phi Dực Đao trong tay xuống, định dùng lưỡi đao sắc bén chém đôi con mồi."
+  },
+  {
+    "id": 266,
+    "en": "Undoubtedly, she had tried to cut both of them in half simultaneously, the disgraceful Heinkel and Schult, who tried to protect him, alike. It was not as if she had paused midway through her attack.",
+    "vi": "Không còn nghi ngờ gì nữa, cô bé đã cố gắng chém đôi cả hai cùng lúc, cả Heinkel nhục nhã lẫn Schult, người đang cố bảo vệ chú. Không có chuyện cô bé dừng lại giữa chừng đòn tấn công của mình."
+  },
+  {
+    "id": 267,
+    "en": "And yet――,",
+    "vi": "Vậy mà――,"
+  },
+  {
+    "id": 268,
+    "en": "Schult: [Uhh, uhhh…!]",
+    "vi": "Schult: [Ư, ưự…!]"
+  },
+  {
+    "id": 269,
+    "en": "Gnashing his teeth firmly with a groan, Schult covered the fallen Heinkel.",
+    "vi": "Nghiến chặt răng chịu đựng tiếng rên rỉ, Schult che chở cho Heinkel đã gục ngã."
+  },
+  {
+    "id": 270,
+    "en": "His body had been neither torn nor crushed. However, Madelyn's blow should have caught him squarely in the back of the head, shattering it.",
+    "vi": "Tấm thân cậu không bị xé rách cũng không bị nghiền nát. Lẽ ra, cú chém của Madelyn phải trúng trực diện vào sau đầu cậu và đập nát nó mới đúng."
+  },
+  {
+    "id": 271,
+    "en": "In fact, Flop had witnessed the blow with his very eyes, and had heard its dull sound.",
+    "vi": "Thực tế, Flop đã tận mắt chứng kiến cú chém đó và nghe thấy âm thanh trầm đục của nó."
+  },
+  {
+    "id": 272,
+    "en": "However, only the dull sound had echoed.",
+    "vi": "Thế nhưng, chỉ có âm thanh trầm đục đó vang vọng lại."
+  },
+  {
+    "id": 273,
+    "en": "Madelyn: [――?]",
+    "vi": "Madelyn: [――?]"
+  },
+  {
+    "id": 274,
+    "en": "Madelyn tilted her head, her curious eyes repeatedly moving back and forth between her weapon and the back of Schult's head. Her head still inclined, Madelyn brought the Flying Winged Blade down on Schult once more.",
+    "vi": "Madelyn nghiêng đầu, đôi mắt tò mò liên tục đảo qua đảo lại giữa món vũ khí của mình và sau gáy của Schult. Đầu vẫn nghiêng, Madelyn lại giáng Phi Dực Đao xuống người Schult một lần nữa."
+  },
+  {
+    "id": 275,
+    "en": "Once, twice, three times, four times, over and over again, in rapid succession――,",
+    "vi": "Một lần, hai lần, ba lần, bốn lần, liên tiếp hết lần này đến lần khác――,"
+  },
+  {
+    "id": 276,
+    "en": "Schult: [No, no, please stop! It hurts!]",
+    "vi": "Schult: [Không, xin hãy dừng lại đi ạ! Đau quá!]"
+  },
+  {
+    "id": 277,
+    "en": "Madelyn: [That’s strange. I, the dragon, intended to kill. Why don’t you die?",
+    "vi": "Madelyn: [Lạ thật đấy. Ta, loài rồng này, có ý định giết ngươi mà. Sao ngươi lại không chết?]"
+  },
+  {
+    "id": 278,
+    "en": "Flop: [That… Maybe, your reluctance towards killing a person’s making your hand slacken just before the weapon hits… Guah!]",
+    "vi": "Flop: [Chuyện đó… Có lẽ, sự do dự của cháu đối với việc giết chóc đã khiến tay cháu chùn lại ngay trước khi vũ khí chạm trúng… Hự!]"
+  },
+  {
+    "id": 279,
+    "en": "Madelyn: [Don’t make fun of this dragon!]",
+    "vi": "Madelyn: [Đừng có trêu đùa con rồng này!]"
+  },
+  {
+    "id": 280,
+    "en": "Lamenting about not understanding a thing, Madelyn’s ire was directed at Flop.",
+    "vi": "Phẫn nộ vì không thể hiểu nổi chuyện gì đang xảy ra, cơn giận của Madelyn trút thẳng lên Flop."
+  },
+  {
+    "id": 281,
+    "en": "She sent a stone larger than the one she had used to stop Flop in his tracks previously flying with a punt; it hit him square in the chest, knocking him flat on his rear.",
+    "vi": "Cô bé đá bay một viên đá lớn hơn viên đá đã ghìm chân Flop lúc trước; nó găm thẳng vào ngực anh, đánh gục anh ngã ngửa ra đất."
+  },
+  {
+    "id": 282,
+    "en": "His sternum creaked from the force of the impact, leaving Flop no longer able to breathe properly.",
+    "vi": "Xương ức của anh kêu răng rắc trước lực tác động mạnh mẽ, khiến Flop không thể thở nổi."
+  },
+  {
+    "id": 283,
+    "en": "However――,",
+    "vi": "dù vậy――,"
+  },
+  {
+    "id": 284,
+    "en": "Schult: [O-ouch, it hurts…]",
+    "vi": "Schult: [Ui-da, đau quá…]"
+  },
+  {
+    "id": 285,
+    "en": "It was a fact that, Schult, having been struck again and again by the sharp blade, grunted in pain, yet did not die. This bizarre occurrence ultimately sparked an outburst from Madelyn.",
+    "vi": "Sự thật là Schult, dù bị lưỡi đao sắc bén chém liên tục, chỉ rên rỉ vì đau đớn chứ không hề mất mạng. Sự kiện kỳ quái này cuối cùng đã kích ngòi cho sự bộc phát từ Madelyn."
+  },
+  {
+    "id": 286,
+    "en": "As her hand grabbed Schult's peach-colored hair, hoisting his body, Madelyn gnashed her teeth together.",
+    "vi": "Khi bàn tay cô bé túm lấy mái tóc màu hồng đào của Schult, nhấc bổng toàn thân cậu lên, Madelyn nghiến chặt răng lại."
+  },
+  {
+    "id": 287,
+    "en": "And then,",
+    "vi": "Và rồi,"
+  },
+  {
+    "id": 288,
+    "en": "Madelyn: [You, what in the world are you hiding…?]",
+    "vi": "Madelyn: [Ngươi, rốt cuộc ngươi đang che giấu cái gì thế hả…?]"
+  },
+  {
+    "id": 289,
+    "en": "Schult: [~~Hk!]",
+    "vi": "Schult: [~~Hực!]"
+  },
+  {
+    "id": 290,
+    "en": "While being hoisted up, Schult screamed in agony. But Madelyn’s reaction, as she turned her angry eyes towards him, exceeded his.",
+    "vi": "Trong lúc bị nhấc bổng lên, Schult hét lên trong đau đớn. Nhưng phản ứng của Madelyn, khi cô bé quay đôi mắt giận dữ về phía cậu, còn dữ dội hơn thế."
+  },
+  {
+    "id": 291,
+    "en": "Madelyn's golden eyes widened, her lips quivering with a wince. Flop, teary-eyed with pain, could nonetheless make out what had made her react in such a way.",
+    "vi": "Đôi mắt vàng kim của Madelyn mở to, đôi môi cô bé run lên vì nhăn nhó. Flop, dù nước mắt giàn giụa vì đau, vẫn có thể nhận ra điều gì đã khiến cô bé phản ứng như thế."
+  },
+  {
+    "id": 292,
+    "en": "A dramatic change in Schult's appearance had been triggered.",
+    "vi": "Một sự thay đổi đáng kinh ngạc trong diện mạo của Schult đã được kích hoạt."
+  },
+  {
+    "id": 293,
+    "en": "That change was――,",
+    "vi": "Sự thay đổi đó là――,"
+  },
+  {
+    "id": 294,
+    "en": "Utakata: [Schuu's eyes, they're burning.]",
+    "vi": "Utakata: [Mắt của Shuu, chúng đang bốc cháy đó nha.]"
+  },
+  {
+    "id": 295,
+    "en": "Utakata, witnessing the same scene, succinctly and accurately described it so.",
+    "vi": "Utakata, khi chứng kiến cùng một cảnh tượng, đã mô tả nó một cách ngắn gọn và chính xác như vậy."
+  },
+  {
+    "id": 296,
+    "en": "At first glance, what Utakata had pointed out made no sense, yet there existed no better way to describe what was happening. From Flop's perspective, it was precisely as she had described it.",
+    "vi": "Thoạt nhìn, những gì Utakata chỉ ra có vẻ vô lý, song không có cách nào tốt hơn để mô tả những gì đang diễn ra. Từ góc nhìn của Flop, mọi chuyện đúng xác thực như cô bé đã mô tả."
+  },
+  {
+    "id": 297,
+    "en": "It was a thing most unusual; in both of Schult's red eyes, a flickering flame blazed.",
+    "vi": "Đó là một điều vô cùng bất thường; trong cả hai mắt màu đỏ của Schult, một ngọn lửa chập chờn đang bùng cháy."
+  },
+  {
+    "id": 298,
+    "en": "Schult: [Eh, eh, eh…]",
+    "vi": "Schult: [Ơ, ơ, ơ…]"
+  },
+  {
+    "id": 299,
+    "en": "However, the one being talked about himself, Schult, was oblivious to this fact, blinking his eyes, his face conveying that he was unable to make sense of the reactions of the people around him. His wandering eyes eventually landed upon his own face reflected in the Flying Winged Blade that had struck him, then realized what it was that had drawn everyone's attention.",
+    "vi": "Nhưng, bản thân người được nhắc đến, Schult, lại không hề hay biết về sự thật này, cậu chớp mắt, khuôn mặt lộ rõ vẻ không hiểu nổi phản ứng của những người xung quanh. Đôi mắt đảo quanh của cậu cuối cùng dừng lại ở khuôn mặt của chính mình phản chiếu trên thanh Phi Dực Đao đã chém trúng cậu, rồi nhận ra điều gì đã thu hút sự chú ý của mọi người."
+  },
+  {
+    "id": 300,
+    "en": "Schult's features, reflected in that curved blade, appeared distorted, but he could clearly see the fire burning in his eyes.",
+    "vi": "Các đường nét của Schult, phản chiếu qua lưỡi đao cong đó, trông bị méo mó, nhưng cậu có thể thấy rõ ngọn lửa đang cháy trong mắt mình."
+  },
+  {
+    "id": 301,
+    "en": "Schult: [W-what is this? H-hot! Ah! It’s not hot!]",
+    "vi": "Schult: [C-cái gì thế này? N-nóng quá! A! Không nóng tí nào!]"
+  },
+  {
+    "id": 302,
+    "en": "While running his hand all over his face, Schult exclaimed about his inability to feel the flames.",
+    "vi": "Trong lúc lấy tay sờ khắp mặt, Schult thốt lên vì không hề cảm thấy hơi nóng từ ngọn lửa."
+  },
+  {
+    "id": 303,
+    "en": "It appeared that, while it was not like his face had just burst in flames spontaneously, the cause of the fire was still inexplicable. However, only Flop and his companions were puzzled as to the meaning of the flames.",
+    "vi": "Có vẻ như, dù không phải khuôn mặt cậu đột nhiên bùng cháy dữ dội, nguyên nhân của ngọn lửa vẫn là một điều không thể giải thích được. Song, chỉ có nhóm Flop là bối rối trước ý nghĩa của ngọn lửa ấy."
+  },
+  {
+    "id": 304,
+    "en": "Looking into Schult's face, Madelyn found her cheeks stiffening in astonishment, as she  recognized the conflagration blazing within the child's two eyes.",
+    "vi": "Nhìn sâu vào khuôn mặt Schult, Madelyn thấy cơ mặt mình cứng đờ vì kinh ngạc khi nhận ra ngọn lửa lớn đang bùng cháy trong đôi mắt của cậu bé."
+  },
+  {
+    "id": 305,
+    "en": "Consequently, she exclaimed her suspicion.",
+    "vi": "Kết quả là, cô bé lớn tiếng nói ra nghi ngờ của mình."
+  },
+  {
+    "id": 306,
+    "en": "Madelyn: [You… can’t possibly be friggin' related to that foxperson!?]",
+    "vi": "Madelyn: [Ngươi… không thể nào có mối quan hệ chết tiệt gì với con hồ ly kia chứ!?]"
+  },
+  {
+    "id": 307,
+    "en": "Schult: [Fox…]",
+    "vi": "Schult: [Hồ ly…]"
+  },
+  {
+    "id": 308,
+    "en": "Flop: [Person?]",
+    "vi": "Flop: [Người cáo?]"
+  },
+  {
+    "id": 309,
+    "en": "Utakata: [――?]",
+    "vi": "Utakata: [――?]"
+  },
+  {
+    "id": 310,
+    "en": "Agitated, Madelyn batted her eyes because those three people had no inkling as to what she was talking about.",
+    "vi": "Bực bội, Madelyn chớp mắt khi thấy ba người họ hoàn toàn mù tịt về những gì cô bé đang nói."
+  },
+  {
+    "id": 311,
+    "en": "Without the mental leeway to notice her tone of voice breaking just before it actually did, she was overcome by strong surprise and confusion, staring at Schult.",
+    "vi": "Không còn tâm trí để ý rằng giọng nói của mình suýt chút nữa đã lạc đi, cô bé bị lấn át bởi sự ngạc nhiên và bối rối tột độ, dán mắt vào Schult."
+  },
+  {
+    "id": 312,
+    "en": "The hand gripping Schult let go of him, and the boy, falling forward with a “Wah!”, dropped to the ground. Madelyn kicked off the ground with force in front of the boy, who was again covering Heinkel.",
+    "vi": "Bàn tay đang túm lấy Schult buông ra, và cậu bé ngã nhào về phía trước với một tiếng “Oa!,” ngã nhào xuống đất. Madelyn dậm mạnh chân lùi lại trước mặt cậu bé, người lại một lần nữa che chở cho Heinkel."
+  },
+  {
+    "id": 313,
+    "en": "Madelyn: [――――]",
+    "vi": "Madelyn: [――――]"
+  },
+  {
+    "id": 314,
+    "en": "In one go, Madelyn's figure leapt, ascending to the sky above the street.",
+    "vi": "Chỉ trong một nhịp, bóng dáng Madelyn phóng vút lên, bay lên bầu trời phía trên đường phố."
+  },
+  {
+    "id": 315,
+    "en": "Its abruptness and velocity made it appear to Flop as if she had simply vanished. However, the ground that she had stepped on caved in violently and in addition, the building she had utilized as a foothold to accelerate her motion crumbled.",
+    "vi": "Sự đột ngột và vận tốc kinh người đó khiến Flop cảm giác như cô bé đơn giản là đã biến mất. Thế mà, mặt đất nơi cô bé dậm chân lún xuống dữ dội, và hơn thế nữa, tòa nhà cô bé dùng làm bàn đạp để tăng tốc cũng sụp đổ tan tành."
+  },
+  {
+    "id": 316,
+    "en": "Madelyn, having risen high up into the air in such a manner, lifted the Flying Winged Blade aloft in both her hands with all her might.",
+    "vi": "Madelyn, sau khi bay cao lên không trung theo cách đó, giơ cao thanh Phi Dực Đao bằng cả hai tay với tất cả sức lực của mình."
+  },
+  {
+    "id": 317,
+    "en": "Madelyn: [Yer friggin' getting in this dragon's way again… Friggin' disappear, YOU NUISANCE――!!]",
+    "vi": "Madelyn: [Lũ các ngươi lại dám ngáng đường chết tiệt con rồng này một lần nữa… Biến đi cho khuất mắt, LŨ PHIỀN PHỨC――!!]"
+  },
+  {
+    "id": 318,
+    "en": "That voice of protest echoed through the air, and the Flying Winged Blade swung down, furiously approaching the ground.",
+    "vi": "Giọng nói phản kháng đó vang vọng khắp không trung, và Phi Dực Đao được phóng xuống, lao điên cuồng về phía mặt đất."
+  },
+  {
+    "id": 319,
+    "en": "Its principle was the same as how the flying dragons threw their stones, but the force behind the readied blade was orders of magnitude greater. Unlike the large rocks being hurled without aim, this blade aimed to cleave Schult's body in two.",
+    "vi": "Nguyên lý của nó giống như cách lũ phi long ném đá, nhưng lực đạo đằng sau lưỡi đao được chuẩn bị sẵn lớn hơn gấp bội. Không giống như những tảng đá lớn bị ném không mục đích, lưỡi đao này nhắm thẳng vào việc chém đôi thân thể của Schult."
+  },
+  {
+    "id": 320,
+    "en": "By some underlying logic, Schult's body had become sturdy.",
+    "vi": "Bằng một logic ngầm nào đó, hình hài của Schult đã trở nên cứng cáp."
+  },
+  {
+    "id": 321,
+    "en": "However, being struck again and again still caused Schult to cry out in pain. Meaning that it was not that his body had become impervious to the impact from her blows.",
+    "vi": "Vậy mà, việc bị chém liên tiếp vẫn khiến Schult khóc lên vì đau đớn. Nghĩa là không phải thân xác cậu đã hoàn toàn miễn nhiễm trước tác động từ các đòn đánh của cô bé."
+  },
+  {
+    "id": 322,
+    "en": "Moreover, no matter how sturdy their body may be, a child would still cry out if they were in pain――,",
+    "vi": "Hơn nữa, bất kể tấm thân có cứng cáp đến đâu, một đứa trẻ vẫn sẽ bật khóc nếu bị đau đớn hành hạ――,"
+  },
+  {
+    "id": 323,
+    "en": "Flop: [If I don’t do something, Medium will be angry with me.]",
+    "vi": "Flop: [Nếu ta không làm gì đó, Medium sẽ giận ta lắm đấy.]"
+  },
+  {
+    "id": 324,
+    "en": "Enduring the pain of his creaking chest, Flop rushed towards Schult.",
+    "vi": "Nén cơn đau nhức nhối ở lồng ngực, Flop lao nhanh về phía Schult."
+  },
+  {
+    "id": 325,
+    "en": "He knew not just how much of a shield his body would be in face of that attack. But if he were to lessen the impact even ever-so-slightly, saving Schult, he would be satisfied.",
+    "vi": "Anh không biết toàn thân mình sẽ làm tấm khiên chắn được bao nhiêu trước đòn tấn công đó. Nhưng nếu có thể làm giảm bớt lực tác động dù chỉ một chút để cứu Schult, anh cũng đã mãn nguyện rồi."
+  },
+  {
+    "id": 326,
+    "en": "Devoid of any more time to think, Flop exposed himself to the menace that was the Flying Winged Blade,",
+    "vi": "Không còn thời gian suy nghĩ, Flop lao mình ra trước hiểm họa từ thanh Phi Dực Đao,"
+  },
+  {
+    "id": 327,
+    "en": "???: [――Well done.]",
+    "vi": "Giọng nói bí ẩn: [――Làm tốt lắm.]"
+  },
+  {
+    "id": 328,
+    "en": "Unknowing of the reason, he clearly heard that voice even though it was not a loud one; there was a crash, and the impact of violent, mutual blows produced light that scorched Flop’s eyes.",
+    "vi": "Không hiểu vì lý do gì, anh nghe rõ ràng giọng nói đó dù nó không hề lớn; một tiếng va chạm chát chúa vang lên, và lực tác động từ những đòn đánh dữ dội của hai bên đã tạo ra ánh sáng chói lòa thiêu đốt đôi mắt Flop."
+  },
+  {
+    "id": 329,
+    "en": "Flop: [――――]",
+    "vi": "Flop: [――――]"
+  },
+  {
+    "id": 330,
+    "en": "This radiance, was produced by a bright-red jeweled blade clashing with the side of the rapidly spinning Flying Winged Blade approaching from directly above.",
+    "vi": "Luồng hào quang này được tạo ra bởi một lưỡi kiếm nạm ngọc đỏ tươi va chạm với phần cạnh của thanh Phi Dực Đao đang xoay tròn nhanh như chớp từ ngay phía trên đầu."
+  },
+  {
+    "id": 331,
+    "en": "Crimson light burst forth silently, and Flop felt the false sensation of his whole body being enveloped by the wind.",
+    "vi": "Ánh sáng đỏ thẫm bùng lên trong im lặng, và Flop cảm nhận được ảo giác như thể toàn thân mình đang được gió bao bọc lấy."
+  },
+  {
+    "id": 332,
+    "en": "With that over, what followed were the dull thuds of flesh hitting flesh.",
+    "vi": "Khi chuyện đó qua đi, những gì tiếp theo là những tiếng bịch trầm đục của thịt đập vào thịt."
+  },
+  {
+    "id": 333,
+    "en": "Flop: [――Hk!]",
+    "vi": "Flop: [――Hực!]"
+  },
+  {
+    "id": 334,
+    "en": "Looking upwards, the figure of a person flew through the air at an angle accompanied with a cry of pain, crashing into a building on the ground. Flop quite belatedly realized that it had been Madelyn’s body who had so violently caused the stone building to crumble.",
+    "vi": "Nhìn lên trên, bóng một người bay xéo qua không trung kèm theo tiếng la hét đau đớn, đập mạnh vào một tòa nhà trên mặt đất. Rất lâu sau đó Flop mới nhận ra rằng chính thân thể Madelyn đã làm tòa nhà bằng đá sụp đổ dữ dội như vậy."
+  },
+  {
+    "id": 335,
+    "en": "The one responsible for this was a beautiful woman adorned in red who landed in front of the breathless Flop and his companions.",
+    "vi": "Người chịu trách nhiệm cho chuyện này là một người phụ nữ xinh đẹp diện trang phục đỏ đáp xuống trước mặt Flop cùng đồng bọn đang thở không ra hơi."
+  },
+  {
+    "id": 336,
+    "en": "Flop: [Princess-kun!]",
+    "vi": "Flop: [Cô công chúa nhỏ!]"
+  },
+  {
+    "id": 337,
+    "en": "Schult: [Priscilla-sama!]",
+    "vi": "Schult: [Tiểu thư Priscilla!]"
+  },
+  {
+    "id": 338,
+    "en": "Utakata: [Puu!]",
+    "vi": "Utakata: [Puu!]"
+  },
+  {
+    "id": 339,
+    "en": "Priscilla: [Should you not know by now? What you must shout at a time such as this, is praise.]",
+    "vi": "Priscilla: [Các ngươi vẫn chưa biết sao? Thứ mà các ngươi phải hô lên vào lúc này chính là lời ca tụng đấy.]"
+  },
+  {
+    "id": 340,
+    "en": "While leisurely brushing the hem of her dress, Priscilla stated such.",
+    "vi": "Vừa nhàn nhã phủi tà váy của mình, Priscilla vừa nói như vậy."
+  },
+  {
+    "id": 341,
+    "en": "At a time the city was under siege by attacks from flying dragons, with even a Divine General being dispatched, her indomitable attitude and way of being was incomparably reliable.",
+    "vi": "Vào lúc thành phố đang bị bao vây bởi các cuộc tấn công từ phi long, đến cả một Thần Tướng cũng được phái đến, thái độ kiên cường và phong thái của cô là cực kỳ đáng tin cậy không gì sánh bằng."
+  },
+  {
+    "id": 342,
+    "en": "In truth, she had just dealt a serious blow to Madelyn, and, in the process, rescued Flop and the others from a life-threatening situation.",
+    "vi": "Thực chất, cô vừa giáng một đòn chí mạng vào Madelyn, và trong quá trình đó, đã giải cứu nhóm Flop khỏi tình huống đe dọa tính mạng."
+  },
+  {
+    "id": 343,
+    "en": "Priscilla: [However, that you would have been kept at a place like this was something I was certain would not happen. I thought that you would naturally aim for the City Hall right away.]",
+    "vi": "Priscilla: [Song, việc các ngươi bị giữ lại ở một nơi thế này là điều ta tin rằng sẽ không xảy ra. Ta cứ nghĩ các ngươi đương nhiên phải nhắm thẳng tới Tòa Thị Chính ngay rồi chứ.]"
+  },
+  {
+    "id": 344,
+    "en": "Flop: [Yeah, we were struggling to decide if we should do so. Wondering if we should go to the mansion where Princess-kun and Wife-san are, or to the City Hall where Ballhead-kun is…]",
+    "vi": "Flop: [Đúng vậy, bọn tôi đã rất lưỡng lự xem có nên làm thế không đấy. Băn khoăn không biết nên đến dinh thự nơi cô công chúa nhỏ và cô em dâu đang ở, hay đến Tòa Thị Chính nơi cậu đầu trọc đang có mặt…]"
+  },
+  {
+    "id": 345,
+    "en": "Priscilla: [Absolutely not. That is precisely the target of the General First-Class who attacked the city.]",
+    "vi": "Priscilla: [Tuyệt đối không được. Đó chính xác là mục tiêu của tên Nhất đẳng Tướng quân đã tấn công thành phố.]"
+  },
+  {
+    "id": 346,
+    "en": "With a jerk of her chin, Priscilla stopped Flop from continuing, indicating the place where Madelyn had crashed into.",
+    "vi": "Với một cái hất cằm, Priscilla ngăn Flop tiếp tục nói, chỉ về phía nơi Madelyn vừa lao vào."
+  },
+  {
+    "id": 347,
+    "en": "Hearing that, Flop's mind was lost in thought for a moment, but readily dismissed that as unimportant for the time being. Then, he called out to Priscilla, \"Princess-kun…\",",
+    "vi": "Nghe thấy điều đó, tâm trí Flop thoáng chút suy nghĩ, nhưng nhanh chóng gạt nó đi vì cho rằng hiện tại chuyện đó chưa quan trọng. Rồi, anh gọi Priscilla, “Cô công chúa nhỏ ơi…”"
+  },
+  {
+    "id": 348,
+    "en": "Flop: [Thank you for saving us. I'm going to find shelter together with Butler-kun and Miss Utakata, but please tell us where to go. I have to take Redhead-san with me as well.]",
+    "vi": "Flop: [Cảm ơn cô đã cứu mạng bọn tôi. Tôi định cùng nhóc quản gia và tiểu thư Utakata đi tìm nơi lánh nạn, nhưng xin hãy chỉ cho bọn tôi biết nên đi đâu. Tôi cũng phải mang theo anh tóc đỏ nữa.]"
+  },
+  {
+    "id": 349,
+    "en": "Priscilla: [Ho, so you can make a reasonable judgment? In that case, head for the mansion. It shall be safer there than in the City Hall, the focus of their assault. And…]",
+    "vi": "Priscilla: [Hô, ra là ngươi cũng có thể đưa ra một phán đoán hợp lý sao? Nếu thế thì hãy hướng về phía dinh thự đi. Ở đó sẽ an toàn hơn Tòa Thị Chính, tiêu điểm của cuộc tấn công của chúng đấy. Và…]"
+  },
+  {
+    "id": 350,
+    "en": "Priscilla’s line of sight shifted over, glancing at Heinkel, laying on the ground behind him. Priscilla narrowed her crimson eyes, then let out a minute sigh,",
+    "vi": "Tầm mắt của Priscilla dịch chuyển, liếc nhìn Heinkel đang nằm la liệt trên mặt đất phía sau anh. Priscilla nheo đôi mắt đỏ thẫm lại, rồi thở dài một tiếng khẽ khàng,"
+  },
+  {
+    "id": 351,
+    "en": "Priscilla: [Feel free to leave that behind. If it is of no help, then that is the end of it.]",
+    "vi": "Priscilla: [Cứ tự nhiên bỏ mặc kẻ kia lại đó đi. Nếu nó vô dụng thì coi như xong.]"
+  },
+  {
+    "id": 352,
+    "en": "Flop: [Unfortunately, that's not going to happen. Redhead-san’s going to be a valuable asset once he wakes up, and most importantly, your precious Butler-kun went through a lot of pain to protect him.]",
+    "vi": "Flop: [Rất tiếc chuyện đó không xảy ra đâu. Anh tóc đỏ sẽ là một trợ thủ đắc lực khi tỉnh lại, và quan trọng nhất là nhóc quản gia yêu quý của cô đã phải chịu bao đau đớn để bảo vệ anh ấy.]"
+  },
+  {
+    "id": 353,
+    "en": "Priscilla: [――――]",
+    "vi": "Priscilla: [――――]"
+  },
+  {
+    "id": 354,
+    "en": "At the sound of Flop’s words, Priscilla’s gaze was suddenly set on Schult.",
+    "vi": "Nghe thấy những lời của Flop, ánh mắt Priscilla bất chợt hướng về phía Schult."
+  },
+  {
+    "id": 355,
+    "en": "Water welled up in Schult's eyes, overwhelmed from having been saved in the nick of time by his master's appearance. Both his eyes still burned, the tears and the blaze making for a spectacle.",
+    "vi": "Nước mắt tràn ra trong đôi mắt Schult, cậu xúc động hết sức khi được cứu sống kịp thời nhờ sự xuất hiện của chủ nhân mình. Cả hai mắt cậu vẫn đang bốc cháy, những giọt lệ cùng ngọn lửa tạo nên một cảnh tượng kỳ lạ."
+  },
+  {
+    "id": 356,
+    "en": "However, Schult did not express his anxiety over the strange situation that had befallen him; instead, he squeezed the leg of the fallen Heinkel,",
+    "vi": "dù vậy, Schult không tỏ ra lo lắng trước tình huống kỳ lạ ập đến với mình; thay vào đó, cậu bóp chặt chân của Heinkel đang bất tỉnh,"
+  },
+  {
+    "id": 357,
+    "en": "Schult: [I-I will be carrying Heinkel-sama…! But, Priscilla-sama, what will…]",
+    "vi": "Schult: [Em-em sẽ cõng ngài Heinkel…! Nhưng, tiểu thư Priscilla, ngài định…]"
+  },
+  {
+    "id": 358,
+    "en": "Priscilla: [There is some business that still requires being taken care of. Certainly, you comprehend.]",
+    "vi": "Priscilla: [Vẫn còn một số việc cần phải giải quyết dứt điểm. Không nghi ngờ gì ngươi cũng hiểu mà.]"
+  },
+  {
+    "id": 359,
+    "en": "Schult: [Y-es. Something great that only Priscilla-sama can handle…!]",
+    "vi": "Schult: [V-vâng. Chuyện vĩ đại mà chỉ có tiểu thư Priscilla mới giải quyết được…!]"
+  },
+  {
+    "id": 360,
+    "en": "How did that brave boy’s faith, Schult’s faith in her, affect Priscilla?",
+    "vi": "Niềm tin của cậu bé dũng cảm ấy, niềm tin của Schult dành cho cô, đã tác động đến Priscilla thế nào?"
+  },
+  {
+    "id": 361,
+    "en": "Priscilla, whose expression did not change, simply nodded mutely, accepting Schult's words. Without a moment's pause, she then glanced towards the alley,",
+    "vi": "Priscilla, với nét mặt không hề thay đổi, chỉ lặng lẽ gật đầu đồng ý trước lời nói của Schult. Không chút chậm trễ, cô liền liếc nhìn về phía con hẻm,"
+  },
+  {
+    "id": 362,
+    "en": "Priscilla: [Avoid the main street, take the alleys at the side of tall buildings. Schult, you should recall the path.]",
+    "vi": "Priscilla: [Tránh đường lớn ra, đi vào các con hẻm bên cạnh các tòa nhà cao tầng. Schult, ngươi nên nhớ đường đi chứ.]"
+  },
+  {
+    "id": 363,
+    "en": "Schult: [Yes! I walked down that path every day, diligently!]",
+    "vi": "Schult: [Vâng! Em đã đi qua con đường đó mỗi ngày một cách chăm chỉ ạ!]"
+  },
+  {
+    "id": 364,
+    "en": "Priscilla: [I shall give you my commendation.]",
+    "vi": "Priscilla: [Ta khen ngợi sự chuyên cần của ngươi.]"
+  },
+  {
+    "id": 365,
+    "en": "After a brief note of praise for his efforts, Priscilla turned her back to Schult.",
+    "vi": "Sau lời khen ngắn ngủi cho những nỗ lực của cậu, Priscilla quay lưng về phía Schult."
+  },
+  {
+    "id": 366,
+    "en": "Her attitude was clear; time for chatting was over. Flop’s instincts too, informed him that remaining in that place any longer was not a good idea.",
+    "vi": "Thái độ của cô rất rõ ràng; thời gian tán gẫu đã hết. Bản năng của Flop cũng mách bảo anh rằng ở lại nơi đó lâu hơn không phải là một ý kiến hay."
+  },
+  {
+    "id": 367,
+    "en": "If they stayed near Priscilla however, they would be safe from the threat of the flying dragons.",
+    "vi": "Song, nếu họ ở gần Priscilla, họ sẽ an toàn trước hiểm họa từ lũ phi long."
+  },
+  {
+    "id": 368,
+    "en": "Flop: [Butler-kun, I'll need you to show me around. I'll somehow manage to carry Redhead-san. As for Miss Utakata, be on the lookout on the streets in our stead. I'm sure you're used to hunting, I'll be relying on you!]",
+    "vi": "Flop: [Nhóc quản gia ơi, tôi cần nhóc chỉ đường đấy. Tôi sẽ xoay xở cõng anh tóc đỏ. Còn tiểu thư Utakata, xin hãy canh gác trên đường thay bọn tôi nhé. Tôi chắc rằng tiểu thư đã quen với việc đi săn rồi, tôi tin tưởng vào tiểu thư đấy!]"
+  },
+  {
+    "id": 369,
+    "en": "Schult: [I-I understand. I will do my best to show you the way!]",
+    "vi": "Schult: [E-em hiểu rồi ạ. Em sẽ cố gắng hết sức để dẫn đường!]"
+  },
+  {
+    "id": 370,
+    "en": "Utakata: […Uu understands as well.]",
+    "vi": "Utakata: […Uu cũng hiểu rồi đó nha.]"
+  },
+  {
+    "id": 371,
+    "en": "Utakata, visibly hesitant to run away for a second, nodded as she was given her part.",
+    "vi": "Utakata, thoáng chút lưỡng lự khi phải bỏ chạy trong một giây, gật đầu khi nhận được vai trò của mình."
+  },
+  {
+    "id": 372,
+    "en": "With this, the division of the roles was complete. All that remained was――,",
+    "vi": "Đến đây, việc phân chia vai trò đã hoàn tất. Tất cả những gì còn lại là――,"
+  },
+  {
+    "id": 373,
+    "en": "Flop: [Princess-kun! Thank you once again!]",
+    "vi": "Flop: [Cô công chúa nhỏ! Một lần nữa xin cảm ơn cô nhé!]"
+  },
+  {
+    "id": 374,
+    "en": "Priscilla: [Gratitude or the like are needless. Nothing but words of praise towards mineself are required.]",
+    "vi": "Priscilla: [Lòng biết ơn hay những thứ tương tự là vô ích. Thứ ta cần chỉ là những lời ca tụng dành cho bản thân ta mà thôi.]"
+  },
+  {
+    "id": 375,
+    "en": "With her back towards him, Priscilla responded to Flop’s gratitude. Chuckling at her frank demeanor, he proceeded to pick up Heinkel's fallen body.",
+    "vi": "Với tấm lưng quay về phía anh, Priscilla đáp lại lòng biết ơn của Flop. Cười khúc khích trước thái độ thẳng thắn của cô, anh bắt đầu nâng hình hài đã gục ngã của Heinkel lên."
+  },
+  {
+    "id": 376,
+    "en": "Tall and well-trained, his body was quite heavy. It was a good thing he was used to carrying Medium and escaping in times of emergency. Carrying his body over both shoulders like a piece of luggage, he was somehow still able to move.",
+    "vi": "Với vóc dáng cao lớn và được rèn luyện tốt, thân xác chú khá nặng. Thật may là anh đã quen với việc cõng Medium và bỏ chạy trong những trường hợp khẩn cấp. Vác tấm thân chú lên hai vai như một món hành lý, anh bằng cách nào đó vẫn có thể di chuyển."
+  },
+  {
+    "id": 377,
+    "en": "Schult: [We must not forget this, either.]",
+    "vi": "Schult: [Chúng ta cũng không được quên thứ này ạ.]"
+  },
+  {
+    "id": 378,
+    "en": "And so, Schult picked up Heinkel's fallen sword, gripping it tightly within his thin hand.",
+    "vi": "Và thế là, Schult nhặt thanh kiếm rơi trên đất của Heinkel, nắm chặt nó trong bàn tay nhỏ nhắn của mình."
+  },
+  {
+    "id": 379,
+    "en": "With that, Flop, Schult and Utakata briefly faced each other and nodded, only for them to then run into the alleyway, the mansion as their destination.",
+    "vi": "Nói đoạn, Flop, Schult và Utakata khẽ nhìn nhau gật đầu, rồi lao vào con hẻm nhỏ với đích đến là dinh thự."
+  },
+  {
+    "id": 380,
+    "en": "Before they had completely gotten away however――,",
+    "vi": "Nhưng, trước khi họ hoàn toàn thoát khỏi――,"
+  },
+  {
+    "id": 381,
+    "en": "Schult: [Priscilla-sama, this fire, was surely… Thank you so very much!]",
+    "vi": "Schult: [Tiểu thư Priscilla, ngọn lửa này quả quyết là… Cảm ơn ngài nhiều lắm ạ!]"
+  },
+  {
+    "id": 382,
+    "en": "With his burning eyes opened wide, Schult voiced his gratitude towards Priscilla.",
+    "vi": "Đôi mắt bốc cháy mở to, Schult lên tiếng bày tỏ lòng biết ơn đối với Priscilla."
+  },
+  {
+    "id": 383,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 384,
+    "en": "――And so, after Schult and the others had left noisily and hurriedly.",
+    "vi": "――Và rồi, sau khi đám người Schult rời đi một cách ồn ào và vội vã."
+  },
+  {
+    "id": 385,
+    "en": "Priscilla: [Schult, and that guy who named himself as Flop or something. Were that other man in such a predicament without such assistance, he would have been rife with bad luck.]",
+    "vi": "Priscilla: [Schult, và gã tự xưng là Flop hay gì đó nữa. Nếu kẻ kia rơi vào tình cảnh khốn đốn như vậy mà không có sự giúp đỡ ấy, hắn hẳn đã gặp vận rủi chồng chất rồi.]"
+  },
+  {
+    "id": 386,
+    "en": "Amidst the street devoid of people, Priscilla quietly muttered this.",
+    "vi": "Giữa con phố không một bóng người, Priscilla lặng lẽ thì thầm điều đó."
+  },
+  {
+    "id": 387,
+    "en": "That comment was directed not to Schult, whose eyes blazed, nor to Flop, who made up for his inability with tact, nor to Utakata, her magnanimity too large for her size, but to the final person remaining.",
+    "vi": "Lời bình luận đó không hướng tới Schult, người có đôi mắt rực cháy, cũng không hướng tới Flop, người bù đắp cho sự bất tài của mình bằng tài khéo léo, hay Utakata, cô bé có lòng bao dung quá lớn so với tầm vóc, mà hướng về kẻ cuối cùng còn sót lại."
+  },
+  {
+    "id": 388,
+    "en": "He had survived in a situation that would have definitely killed him. It was nothing but the devil’s luck.",
+    "vi": "Hắn đã sống sót trong một tình huống hẳn là sẽ lấy mạng hắn. Đó chẳng qua chỉ là thứ may mắn quái dị mà thôi."
+  },
+  {
+    "id": 389,
+    "en": "Although――,",
+    "vi": "Mặc dù vậy――,"
+  },
+  {
+    "id": 390,
+    "en": "Priscilla: [It is doubtful that someone who does not perish when they should have, ought to be dubbed lucky.]",
+    "vi": "Priscilla: [Thật đáng nghi ngờ khi coi một kẻ không chết vào lúc hắn đáng phải chết là kẻ may mắn đấy chứ.]"
+  },
+  {
+    "id": 391,
+    "en": "Not pity, but something close to pity had been inserted into those words.",
+    "vi": "Không phải sự thương hại, mà là một thứ gì đó gần giống như thương hại đã ẩn chứa trong những lời lẽ ấy."
+  },
+  {
+    "id": 392,
+    "en": "It melted into the wind of the battlefield, laden with the scent of blood, and vanished, going unheard by anyone.",
+    "vi": "Nó tan vào làn gió chiến trận nồng nặc mùi máu, rồi biến mất mà không ai nghe thấy."
+  },
+  {
+    "id": 393,
+    "en": "At that moment――,",
+    "vi": "Ngay lúc đó――,"
+  },
+  {
+    "id": 394,
+    "en": "Priscilla: [――――]",
+    "vi": "Priscilla: [――――]"
+  },
+  {
+    "id": 395,
+    "en": "With a sound, the ornament that adorned Priscilla's orange hair shattered.",
+    "vi": "Kèm theo một tiếng động, món trâm cài tô điểm cho mái tóc màu cam của Priscilla vỡ vụn."
+  },
+  {
+    "id": 396,
+    "en": "By that, it did not mean that a fragile portion of the jeweled hair ornament had broken, rather that the entire ornament cracked and shattered to dust in one fell swoop.",
+    "vi": "Chuyện đó không có nghĩa là một phần mỏng manh của chiếc trâm nạm ngọc bị gãy, mà là toàn bộ chiếc trâm đã nứt toác và tan thành tro bụi chỉ trong nháy mắt."
+  },
+  {
+    "id": 397,
+    "en": "Instantly, Priscilla's long, collected hair unfurled, flowing down her back in waves.",
+    "vi": "Ngay lập tức, mái tóc dài được búi gọn gàng của Priscilla xõa tung ra, xõa xuống lưng cô thành từng gợn sóng."
+  },
+  {
+    "id": 398,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 399,
+    "en": "Madelyn: [――You won't friggin' die either?]",
+    "vi": "Madelyn: [――Ngươi cũng không chịu bỏ mạng chết tiệt sao?]"
+  },
+  {
+    "id": 400,
+    "en": "Slowly, a shadow appeared in the street, alongside the sound of debris being kicked up.",
+    "vi": "Chậm rãi, một bóng người hiện ra trên phố, cùng với tiếng gạch đá vụn bị dẫm lên."
+  },
+  {
+    "id": 401,
+    "en": "There, a being whose entire body was smeared with dust, however, whose body itself was yet energetic―― a figure with two black horns sprouting from her head, at which Priscilla narrowed her eyes,",
+    "vi": "Ở đó, một thực thể với toàn thân lấm lem bụi đất, song bản thân toàn thân vẫn tràn đầy sinh lực―― một dáng người với hai chiếc sừng đen nhú ra từ trên đầu, khiến Priscilla phải nheo mắt lại,"
+  },
+  {
+    "id": 402,
+    "en": "Priscilla: [A dragonkin. Where was such an antique unearthed?]",
+    "vi": "Priscilla: [Long nhân à. Thứ cổ lai hy này được khai quật từ đâu ra thế?]"
+  },
+  {
+    "id": 403,
+    "en": "Madelyn: [Are you friggin' looking down on this dragon? Surely you don’t friggin' believe you can get away without consequences, do you?]",
+    "vi": "Madelyn: [Ngươi dám xem thường con rồng này chết tiệt sao? Ngươi tin rằng không tin mình có thể trốn thoát mà không chịu hậu quả chết tiệt gì chứ?]"
+  },
+  {
+    "id": 404,
+    "en": "Baring her teeth because of Priscilla’s words, the girl―― Madelyn, squinted the dragon-like pupils of her eyes.",
+    "vi": "Nhe răng nanh trước lời nói của Priscilla, cô bé―― Madelyn, nheo đồng tử giống như mắt rồng của mình lại."
+  },
+  {
+    "id": 405,
+    "en": "As she felt the draconic energy emanating from her small figure as if it were the wind, Priscilla gently stroked her unraveled hair with her hand,",
+    "vi": "Cảm nhận được nguồn năng lượng loài rồng tỏa ra từ vóc dáng nhỏ bé của cô bé như một luồng gió, Priscilla khẽ dùng tay vuốt mái tóc xõa tung của mình,"
+  },
+  {
+    "id": 406,
+    "en": "Priscilla: [You seem to resent the fact that I am not dead, do you not?]",
+    "vi": "Priscilla: [Ngươi có vẻ căm phẫn trước sự thật là ta chưa chết nhỉ?]"
+  },
+  {
+    "id": 407,
+    "en": "Madelyn: [Well, I should’ve friggin' flattened those overinflated breasts. People who won’t die even if they have their hearts crushed are friggin' annoying, no matter who they are.]",
+    "vi": "Madelyn: [Chà, lẽ ra ta nên nghiền nát bộ ngực quá khổ chết tiệt kia. Lũ người không chết ngay cả khi bị bóp nát tim thật là phiền phức chết tiệt, bất kể chúng là ai.]"
+  },
+  {
+    "id": 408,
+    "en": "Priscilla: [――Even if their hearts are crushed, huh?]",
+    "vi": "Priscilla: [――Ngay cả khi tim bị bóp nát sao?]"
+  },
+  {
+    "id": 409,
+    "en": "Sighing at Madelyn's manner of putting it, Priscilla looked downwards at the breasts the former had indicated; her own.",
+    "vi": "Thở dài trước cách diễn đạt của Madelyn, Priscilla cúi xuống nhìn bộ ngực mà cô bé vừa chỉ; chính là ngực của cô."
+  },
+  {
+    "id": 410,
+    "en": "Priscilla's ample breasts were more pronounced than usual, due to the constricting design of her dress, but Madelyn's blow had certainly reached those prized breasts.",
+    "vi": "Bộ ngực căng đầy của Priscilla trông nổi bật hơn bình thường nhờ thiết kế bó sát của chiếc váy, nhưng cú đấm của Madelyn không nghi ngờ gì đã chạm tới bộ ngực đáng tự hào đó."
+  },
+  {
+    "id": 411,
+    "en": "It had not been visible to Schult nor to any of the others, but battling in midair had been a painful experience.",
+    "vi": "Cả Schult lẫn những người khác đều không nhìn thấy, song cuộc chiến giữa không trung quả thực là một trải nghiệm đau đớn."
+  },
+  {
+    "id": 412,
+    "en": "Just as Priscilla's strike had sent Madelyn flying, Madelyn's counterattack had also struck a harsh blow to Priscilla’s chest.",
+    "vi": "Giống như đòn tấn công của Priscilla đã thổi bay Madelyn, đòn phản công của Madelyn cũng đã giáng một đòn nặng nề vào ngực Priscilla."
+  },
+  {
+    "id": 413,
+    "en": "If it looked like Priscilla was looking at things like it was no big deal right now, that was because――,",
+    "vi": "Nếu hiện tại vẻ ngoài Priscilla trông như thể chuyện này chẳng có gì to tát, đó là vì――,"
+  },
+  {
+    "id": 414,
+    "en": "Priscilla: [Apparently, even my property itself is unwilling to see me lost to this world.]",
+    "vi": "Priscilla: [Xem ra, ngay cả tài sản của ta cũng không nỡ thấy ta biến mất khỏi thế gian này.]"
+  },
+  {
+    "id": 415,
+    "en": "Madelyn: [――The Soul Marriage Technique.]",
+    "vi": "Madelyn: [――Soul Marriage Technique.]"
+  },
+  {
+    "id": 416,
+    "en": "As the unexpected words came out of Madelyn's mouth, Priscilla raised her eyebrows.",
+    "vi": "Trước những lời bất ngờ phát ra từ miệng Madelyn, Priscilla nhướng mày."
+  },
+  {
+    "id": 417,
+    "en": "Madelyn kept glaring at Priscilla, pointing at a building in the street―― No, far, far beyond it, far away to the southeast.",
+    "vi": "Madelyn tiếp tục lườm Priscilla, chỉ vào một tòa nhà trên phố―― Không, xa, xa hơn thế rất nhiều, tận hướng đông nam xa xôi."
+  },
+  {
+    "id": 418,
+    "en": "Madelyn: [You're the friggin' same as that foxwoman. Do you friggin' know her?]",
+    "vi": "Madelyn: [Ngươi cũng giống hệt con hồ ly chết tiệt kia. Ngươi có biết cô ta chết tiệt không?]"
+  },
+  {
+    "id": 419,
+    "en": "Priscilla: [I do not. If you possess any idea about something similar to this of my own possession, then they are a rip-off of me. I am the original.] [1]",
+    "vi": "Priscilla: [Ta không biết. Nếu ngươi biết bất kỳ thứ gì tương tự như thứ ta sở hữu, thì chúng chỉ là hàng nhái của ta thôi. Ta mới là bản gốc.] [1]"
+  },
+  {
+    "id": 420,
+    "en": "Madelyn: [――?]",
+    "vi": "Madelyn: [――?]"
+  },
+  {
+    "id": 421,
+    "en": "Priscilla: [Do you not comprehend?]",
+    "vi": "Priscilla: [Ngươi vẫn chưa hiểu sao?]"
+  },
+  {
+    "id": 422,
+    "en": "Words she had never heard of before were hurled at Madelyn, confusion dawning on her visage. Consequently, Priscilla decided to make things simple in an attempt to clear up the confusion.",
+    "vi": "Những từ ngữ cô bé chưa từng nghe trước đây nhắm thẳng vào Madelyn, khiến vẻ hoang mang hiện rõ trên gương mặt. Do đó, Priscilla quyết định diễn đạt đơn giản để làm sáng tỏ sự hoang mang này."
+  },
+  {
+    "id": 423,
+    "en": "In other words――,",
+    "vi": "Nói cách khác――,"
+  },
+  {
+    "id": 424,
+    "en": "Priscilla: [Much like someone with the awareness that this shall be a difficult affair for them, within yourself, you know you are no match for me.]",
+    "vi": "Priscilla: [Giống như kẻ nhận thức rõ đây sẽ là một việc khó khăn đối với mình, trong thâm tâm, ngươi thừa hiểu mình không phải đối thủ của ta.]"
+  },
+  {
+    "id": 425,
+    "en": "Madelyn: [――Hk, are you making a friggin' fool of this dragon!?]",
+    "vi": "Madelyn: [――Hực, ngươi dám biến con rồng này thành trò hề chết tiệt sao!?]"
+  },
+  {
+    "id": 426,
+    "en": "Priscilla: [Nonsense. As if you get to choose who you are. ――Mineself is at the top, and everyone else is at the bottom.]",
+    "vi": "Priscilla: [Vớ vẩn. Làm gì có chuyện ngươi được tự chọn mình là ai chứ. ――Bản thân ta đứng ở trên đỉnh cao, còn tất cả những kẻ khác đều ở dưới chân ta.]"
+  },
+  {
+    "id": 427,
+    "en": "The moment she answered with a smile, Madelyn's anger reached the boiling point.",
+    "vi": "Khoảnh khắc cô mỉm cười trả lời, cơn thịnh nộ của Madelyn đã đạt tới điểm sôi."
+  },
+  {
+    "id": 428,
+    "en": "The dragonkin, red-faced and with glowing golden eyes, roared, a threat looming before her eyes.",
+    "vi": "Cô bé long nhân đỏ bừng mặt, đôi mắt vàng kim rực sáng, gầm lên một tiếng, một mối hiểm họa hiện rõ mồn một trước mắt cô."
+  },
+  {
+    "id": 429,
+    "en": "With Madelyn to her front, Priscilla glanced to the sky.",
+    "vi": "Đối mặt với Madelyn ở phía trước, Priscilla liếc nhìn lên bầu trời."
+  },
+  {
+    "id": 430,
+    "en": "As if searching for the sky―― Nay, searching for the hilt of the crimson treasured sword, which had the atmosphere as its sheath,",
+    "vi": "Như thể đang tìm kiếm bầu trời―― Không, tìm kiếm chuôi của thanh bảo kiếm màu đỏ thẫm lấy bầu khí quyển làm bao kiếm,"
+  },
+  {
+    "id": 431,
+    "en": "Priscilla: [Has the sunshine ceased? This shall be somewhat more complicated.]",
+    "vi": "Priscilla: [Ánh thái dương đã tắt rồi sao? Chuyện này sẽ phức tạp hơn đôi chút đây.]"
+  },
+  {
+    "id": 432,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 433,
+    "en": "――The shock and destruction began in one corner of the Fortress City, but did not end there.",
+    "vi": "――Chấn động và sự hủy diệt bắt đầu từ một góc của Thành Phố Pháo Đài, nhưng không dừng lại ở đó."
+  },
+  {
+    "id": 434,
+    "en": "???: [――――]",
+    "vi": "Giọng nói bí ẩn: [――――]"
+  },
+  {
+    "id": 435,
+    "en": "The fierce battle had initially begun in the south side of the city, bringing forth a chain of destruction to a cluster of densely-packed buildings; in which seemed to be all too telling of the enormity of the cataclysm caused by the flying dragons, accompanied by a plume of smoke.",
+    "vi": "Trận chiến khốc liệt ban đầu bùng phát ở phía nam thành phố, kéo theo một chuỗi tàn phá đối với các dãy nhà san sát nhau; điều này có vẻ lột tả quá rõ rệt sự khủng khiếp của thảm họa do đàn phi long gây ra, kèm theo một cột khói lớn."
+  },
+  {
+    "id": 436,
+    "en": "However, that which plunged the southern part of the Fortress City into a state of devastation was not the cataclysm brought by the flying dragons.",
+    "vi": "dù vậy, thứ đẩy phần phía nam của Thành Phố Pháo Đài vào tình trạng hoang tàn đổ nát không phải là thảm họa do phi long mang lại."
+  },
+  {
+    "id": 437,
+    "en": "Of course, the hunt of the flying dragons, as they cast down large rocks from the sky, laying waste to the land below, was a calamity in itself.",
+    "vi": "Tất nhiên, cuộc săn lùng của đàn phi long, khi chúng trút những tảng đá lớn từ trên trời xuống tàn phá mặt đất bên dưới, tự thân nó đã là một tai họa."
+  },
+  {
+    "id": 438,
+    "en": "When people running for cover in fear of the raining rocks showed up, the claws and fangs of the gliding flying dragons would rend and chew them to pieces, leading to the number of dead piling up on the streets.",
+    "vi": "Khi những người chạy tìm nơi ẩn nấp trong sự sợ hãi trước những tảng đá trút xuống như mưa xuất hiện, móng vuốt và răng nanh của những con phi long lượn lờ sẽ xé xác và nhai nghiền họ thành từng mảnh, khiến số xác chết chất đống trên các con phố."
+  },
+  {
+    "id": 439,
+    "en": "Some would resist. Some would strike back by shooting their bows at the flying dragons, grounding them.",
+    "vi": "Một số người sẽ kháng cự. Một số sẽ bắn trả bằng cách bắn cung vào phi long, buộc chúng phải tiếp đất."
+  },
+  {
+    "id": 440,
+    "en": "However, most people, exposed to the one-sided assault of the flying dragons, only sought salvation.",
+    "vi": "Thế nhưng, phần lớn mọi người, trước cuộc tấn công một chiều của lũ phi long, chỉ biết tìm kiếm sự cứu rỗi."
+  },
+  {
+    "id": 441,
+    "en": "That, was just how immense and tremendous the damage caused by the flying dragons was.",
+    "vi": "Điều đó cho thấy mức độ thiệt hại do đàn phi long gây ra to lớn và khủng khiếp đến dường nào."
+  },
+  {
+    "id": 442,
+    "en": "But the fierce battle was so destructive, that even those flying dragons avoided approaching it.",
+    "vi": "Nhưng trận chiến ác liệt ấy lại có sức tàn phá kinh hoàng đến mức ngay cả những con phi long kia cũng tránh xa không dám tiếp cận."
+  },
+  {
+    "id": 443,
+    "en": "Madelyn: [GaaaaaaaaaaaAHHHHHHHHHHHHH――!]",
+    "vi": "Madelyn: [GaaaaaaaaaaaAHHHHHHHHHHHHH――!]"
+  },
+  {
+    "id": 444,
+    "en": "The howling, leaping little body clutched a mighty Flying Winged Blade with both arms.",
+    "vi": "Thân hình nhỏ bé đang gào rú, nhảy vọt lên ấy ôm chặt thanh Phi Dực Đao uy mãnh bằng cả hai cánh tay."
+  },
+  {
+    "id": 445,
+    "en": "The crooked blade adroitly sliced through the resistance of the wind and air alike, and, upon being thrown, would revolve to then return to its original position. For experts, it served as a throwing utility which could zone in on the heads of distant prey. However, it had been thrown with terrific energy, flying around, scything down everything in its path.",
+    "vi": "Lưỡi đao cong khéo léo chém đứt sức cản của gió cũng như không khí, và khi được ném đi, nó sẽ xoay tròn rồi quay lại vị trí ban đầu. Đối với các chuyên gia, nó đóng vai trò như một công cụ ném có thể khóa mục tiêu vào đầu những con mồi ở xa. Song, nó đã được ném đi với năng lượng khủng khiếp, bay lượn xung quanh, càn quét mọi thứ trên đường đi của nó."
+  },
+  {
+    "id": 446,
+    "en": "Its weight, sharpness, and destructive power all, were beyond comparison to the supposedly-small Flying Winged Blade.",
+    "vi": "Trọng lượng, độ sắc bén và sức công phá của nó, tất cả đều vượt trội hoàn toàn so với thanh Phi Dực Đao được cho là nhỏ bé thông thường."
+  },
+  {
+    "id": 447,
+    "en": "If a conventional Flying Winged Blade were about the size of a one-handed sword, this one was as massive as two large swords joined together, and even heavier than ten large swords melted and cast together.",
+    "vi": "Nếu một thanh Phi Dực Đao thông thường chỉ có kích thước tương đương một thanh kiếm một tay, thì thanh này lại đồ sộ bằng hai thanh kiếm lớn gộp lại, và cả đến còn nặng hơn mười thanh kiếm lớn nung chảy rồi đúc cùng nhau."
+  },
+  {
+    "id": 448,
+    "en": "Once upon a time, ten swords, of Enchanted and Holy type both, holding special powers, were brought forth in this world.",
+    "vi": "Ngày xửa ngày xưa, mười thanh kiếm, bao gồm cả loại Ma Kiếm và Thánh Kiếm sở hữu sức mạnh đặc biệt, đã được sinh ra trên thế gian này."
+  },
+  {
+    "id": 449,
+    "en": "This weapon, made of metal allegedly on par with those, fully demonstrated its power, a fiendish weapon that was far more deadly than it appeared.",
+    "vi": "Môn vũ khí này, được làm từ kim loại được cho là ngang hàng với những thanh kiếm đó, đã thể hiện trọn vẹn sức mạnh của mình, một thứ vũ khí tàn độc nguy hiểm hơn nhiều so với vẻ ngoài."
+  },
+  {
+    "id": 450,
+    "en": "With each throw, an area of several dozen meters would be shaved wholly; anything in its path, whether building or living creature, would be struck indiscriminately.",
+    "vi": "Với mỗi cú ném, một khu vực rộng vài chục mét sẽ bị cạo sạch hoàn toàn; bất cứ thứ gì trên đường đi của nó, dù là tòa nhà hay sinh vật sống, đều bị tấn công không phân biệt."
+  },
+  {
+    "id": 451,
+    "en": "The dragonkin's unusual physical strength and mentality of caring naught for the resulting damage to the surroundings were the reason for these devastating tactics, which would have only been possible if the dragonkin had been able to destroy the south side of the Fortress City.",
+    "vi": "Sức mạnh thể chất phi thường của cô bé long nhân cùng tâm lý chẳng mảy may bận tâm đến thiệt hại gây ra cho xung quanh là lý do cho chiến thuật hủy diệt này, điều chỉ khả thi nếu long nhân có thể phá hủy hoàn toàn phía nam của Thành Phố Pháo Đài."
+  },
+  {
+    "id": 452,
+    "en": "Those defying the flying dragons in various parts of the city, had no time to turn to look at the ground, ergo, did not come to notice it.",
+    "vi": "Những người đang chống chọi với lũ phi long ở các nơi khác nhau trong thành phố không có thời gian để quay lại nhìn xuống mặt đất, do đó, họ đã không nhận ra điều đó."
+  },
+  {
+    "id": 453,
+    "en": "Of course, the sound of the roar and earthquake reached them, but they were far too occupied looking up at the sky, exchanging words with whomever was beside them, to pay any attention to the damage.",
+    "vi": "Dĩ nhiên, âm thanh gầm rú và chấn động từ trận động đất đã truyền đến tai họ, song họ quá bận rộn ngẩng đầu nhìn lên bầu trời, trao đổi lời nói với bất cứ ai bên cạnh, nên không để tâm đến thiệt hại đó."
+  },
+  {
+    "id": 454,
+    "en": "And that, was fortune amidst lack of it.",
+    "vi": "Và đó chính là sự may mắn trong cảnh rủi ro."
+  },
+  {
+    "id": 455,
+    "en": "Had they been witness to the overwhelming destruction, they would have forgotten to even cling to the thin threads of survival, to drop to their knees.",
+    "vi": "Nếu họ chứng kiến sự tàn phá áp đảo đó, họ sẽ quên mất cả việc bám lấy những sợi chỉ sinh tồn mong manh mà quỳ rạp xuống đất."
+  },
+  {
+    "id": 456,
+    "en": "To a certain extent, the existence of the rampaging dragonkin was a disaster of a kind apart from the catastrophe brought about by the flying dragons.",
+    "vi": "Ở một mức độ nào đó, sự hiện diện của cô bé long nhân đang cuồng nộ là một tai họa thuộc một loại khác biệt hoàn toàn so với thảm họa do phi long mang lại."
+  },
+  {
+    "id": 457,
+    "en": "To be struck by two natural disasters simultaneously, in a single city, was nothing short of a nightmare.",
+    "vi": "Bị ảnh hưởng bởi hai thiên tai đồng thời trong cùng một thành phố quả thực không khác nào một cơn ác mộng."
+  },
+  {
+    "id": 458,
+    "en": "And moreover, of those natural disasters, one was being brought about to destroy merely a single person.",
+    "vi": "Và hơn thế nữa, trong số những thiên tai đó, một cái được tạo ra chỉ để tiêu diệt một người duy nhất."
+  },
+  {
+    "id": 459,
+    "en": "Priscilla: [――――]",
+    "vi": "Priscilla: [――――]"
+  },
+  {
+    "id": 460,
+    "en": "Priscilla kicked the ground as if she were dancing, continuously avoiding the attacks in Madelyn’s rampage.",
+    "vi": "Priscilla dậm chân trên đất như thể đang khiêu vũ, liên tục tránh né những đòn đánh trong cơn điên loạn của Madelyn."
+  },
+  {
+    "id": 461,
+    "en": "Although the physical prowess of the dragonkin was not to be underestimated, Madelyn's fighting style lacked finesse. She had not learned any sort of martial arts. Perhaps, that was because she underestimated humans as inferior.",
+    "vi": "Mặc dù sức mạnh thể chất của long nhân không thể xem nhẹ, phong cách chiến đấu của Madelyn thiếu đi sự tinh tế. Cô bé chưa từng học bất kỳ loại võ thuật nào. Có lẽ, đó là vì cô bé xem thường con người là sinh vật thấp kém."
+  },
+  {
+    "id": 462,
+    "en": "Priscilla: [Although, I have never learnt the martial arts myself.]",
+    "vi": "Priscilla: [Mặc dù vậy, bản thân ta cũng chưa từng học qua võ thuật bao giờ.]"
+  },
+  {
+    "id": 463,
+    "en": "If there was anything Priscilla recalled seeing well, the movements of those that wielded swords would be it. Aside from that, she held a perfect grasp of what her body was, and how it moved.",
+    "vi": "Nếu có điều gì Priscilla nhớ là mình từng xem kỹ, thì đó chính là chuyển động của những kẻ sử dụng kiếm. Ngoài chuyện đó ra, cô nắm giữ sự hiểu biết hoàn hảo về thân thể mình là gì và nó hoạt động thế nào."
+  },
+  {
+    "id": 464,
+    "en": "If there was a reason as to why she managed to handle the Yang Sword like a master, it was precisely because of that reason.",
+    "vi": "Nếu có lý do giúp cô xoay xở sử dụng Yang Sword như một bậc thầy, thì đó chính là nhờ nguyên do ấy."
+  },
+  {
+    "id": 465,
+    "en": "However, at a time she could not draw the Yang Sword, each blow of Madelyn's was a threat.",
+    "vi": "Thế mà, vào lúc cô không thể rút thanh Yang Sword ra, mỗi đòn đánh của Madelyn đều là một mối đe dọa."
+  },
+  {
+    "id": 466,
+    "en": "Priscilla: [――――]",
+    "vi": "Priscilla: [――――]"
+  },
+  {
+    "id": 467,
+    "en": "The sunlight had ceased, the sun having been clouded over.",
+    "vi": "Ánh mặt trời đã tắt, vầng thái dương đã bị mây che phủ."
+  },
+  {
+    "id": 468,
+    "en": "There were certain rules for the utilization of the Yang Sword. The sun did not always shine. For half of a day, it shared its responsibilities with the moon, using the time to build up its strength.",
+    "vi": "Có những quy tắc nhất định cho việc sử dụng Yang Sword. Mặt trời không phải lúc nào cũng chiếu sáng. Trong nửa ngày, nó chia sẻ nhiệm vụ với mặt trăng, tận dụng khoảng thời gian đó để tích lũy sức mạnh."
+  },
+  {
+    "id": 469,
+    "en": "If there was a sun that shone always, then that would be none other than Priscilla herself.",
+    "vi": "Nếu có một vầng thái dương luôn tỏa sáng rực rỡ, thì đó không ai khác ngoài chính Priscilla."
+  },
+  {
+    "id": 470,
+    "en": "Although――,",
+    "vi": "Mặc dù vậy――,"
+  },
+  {
+    "id": 471,
+    "en": "Priscilla: [The longer this takes, the deeper the wound shall be, is it?]",
+    "vi": "Priscilla: [Cuộc chiến kéo dài càng lâu, vết thương sẽ càng sâu thêm đúng không?]"
+  },
+  {
+    "id": 472,
+    "en": "Priscilla was cautiously responding to Madelyn's attacks. Of course, the lack of the decisive Yang Sword was a pretext for her being unable to push through, but the high vitality of the dragonkin was also of concern.",
+    "vi": "Priscilla đang thận trọng đối phó với các đợt tấn công của Madelyn. Tất nhiên, việc thiếu thanh kiếm quyết định Yang Sword là cái cớ khiến cô không thể áp sát hạ gục nhanh, song sức sống dẻo dai của long nhân cũng là điều đáng lo ngại."
+  },
+  {
+    "id": 473,
+    "en": "If not slain in one fell swoop, Madelyn's counterattack would likely reach Priscilla.",
+    "vi": "Nếu không thể kết liễu chỉ trong một đòn, đòn phản công của Madelyn nhiều khả năng sẽ đánh trúng Priscilla."
+  },
+  {
+    "id": 474,
+    "en": "Reaching a stalemate via mutual injury, much like how she had done the first time around, was not something that could be repeated over and over again.",
+    "vi": "Việc rơi vào thế bế tắc do đôi bên cùng bị thương, giống như cô đã trải qua lần đầu tiên, không phải là điều có thể lặp đi lặp lại mãi."
+  },
+  {
+    "id": 475,
+    "en": "If the conclusion of this kept getting postponed like this, the damage to the Fortress City would only spread.",
+    "vi": "Nếu kết cục của chuyện này cứ liên tục bị trì hoãn như thế, thiệt hại của Thành Phố Pháo Đài sẽ chỉ càng lan rộng."
+  },
+  {
+    "id": 476,
+    "en": "Just as the southern part of the city had been directly razed by Madelyn’s destruction, elsewhere the casualties would continue to mount, as assault after assault by the flying dragons continued to rain down.",
+    "vi": "Cũng giống như phần phía nam thành phố đã bị san phẳng trực tiếp bởi sự tàn phá của Madelyn, thương vong ở những nơi khác sẽ tiếp tục gia tăng khi cuộc tấn công này đến cuộc tấn công khác của đàn phi long tiếp tục trút xuống."
+  },
+  {
+    "id": 477,
+    "en": "Besides――,",
+    "vi": "Hơn nữa――,"
+  },
+  {
+    "id": 478,
+    "en": "???: [――Kiryararahhh!!!!]",
+    "vi": "Phi long: [――Kiryarrr!!!!]"
+  },
+  {
+    "id": 479,
+    "en": "Madelyn caught the Flying Winged Blade gliding in return, then planted both her feet on the ground; proof of her fighting spirit. The dragonkin's continuously rising spirit, transmitted through the air, inspired the flying dragons in the city's skies.",
+    "vi": "Madelyn bắt lấy thanh Phi Dực Đao đang bay ngược trở lại, rồi đứng vững cả hai chân trên đất; minh chứng cho ý chí chiến đấu của cô bé. Ý chí không ngừng dâng cao của long nhân, truyền qua không trung, đã kích thích đàn phi long trên bầu trời thành phố."
+  },
+  {
+    "id": 480,
+    "en": "For humans, it would be a morale-boosting phenomenon, but it had the effect of arousing the instincts of the fiercest species living in the wild, an effect that ought to be dubbed as madness.",
+    "vi": "Đối với con người, đó là hiện tượng thúc đẩy sĩ khí, nhưng nó có tác dụng đánh thức bản năng của loài dã thú hung tợn nhất sống trong tự nhiên hoang dã, một tác dụng đáng được gọi là sự điên cuồng."
+  },
+  {
+    "id": 481,
+    "en": "Were the flying dragons to become more and more ferocious, more and more aggressive, they would become literally unmanageable.",
+    "vi": "Nếu đàn phi long ngày càng trở nên hung tợn và hung hãn hơn, chúng sẽ quả thật trở nên không thể kiểm soát nổi."
+  },
+  {
+    "id": 482,
+    "en": "She desired to get things moving before that came to pass. To that end――,",
+    "vi": "Cô muốn đẩy nhanh tiến độ trước khi điều đó xảy ra. Vì vậy――,"
+  },
+  {
+    "id": 483,
+    "en": "Priscilla: [I need one more move.]",
+    "vi": "Priscilla: [Ta cần thêm một nước đi nữa.]"
+  },
+  {
+    "id": 484,
+    "en": "To make the situation move forth, she needed some kind of grand move.",
+    "vi": "Để thúc đẩy tình hình phát triển, cô cần một bước đi đột phá nào đó."
+  },
+  {
+    "id": 485,
+    "en": "Priscilla: [――――]",
+    "vi": "Priscilla: [――――]"
+  },
+  {
+    "id": 486,
+    "en": "Ducking under Madelyn's attack and taking a great leap forward, Priscilla stood amidst the collapsed cityscape.",
+    "vi": "Cúi người tránh đòn đánh của Madelyn rồi nhảy một bước dài về phía trước, Priscilla đứng giữa cảnh quan thành phố đã đổ nát."
+  },
+  {
+    "id": 487,
+    "en": "The city touted as the Fortress City, its robustness the pride of its residents, a pillar of peace and tranquility, was now a shadow of its former self. Even after this calamity had been driven away, reconstruction would be no easy task.",
+    "vi": "Thành phố vốn được ca tụng là Thành Phố Pháo Đài, với sự kiên cố là niềm tự hào của cư dân nơi đây, một trụ cột của hòa bình và yên tĩnh, giờ chỉ còn là cái bóng của chính mình trước đây. Ngay cả sau khi tai họa này bị xua đuổi, việc tái thiết cũng sẽ không phải là một nhiệm vụ dễ dàng."
+  },
+  {
+    "id": 488,
+    "en": "However, all those things would only be an issue after the great disaster before it had been eliminated.",
+    "vi": "Thế nhưng, tất cả những điều đó chỉ là vấn đề sau khi đại họa trước mắt đã được loại bỏ."
+  },
+  {
+    "id": 489,
+    "en": "Madelyn: [Next, will hit…!]",
+    "vi": "Madelyn: [Đòn tiếp theo, sẽ trúng…!]"
+  },
+  {
+    "id": 490,
+    "en": "As she continued to lay on these insipid attacks, which Priscilla was able to repeatedly dodge with ease, Madelyn roared like a beast.",
+    "vi": "Khi liên tục tung ra những đòn tấn công tẻ nhạt này, những đòn mà Priscilla có thể dễ dàng tránh né hết lần này đến lần khác, Madelyn gầm lên như một dã thú."
+  },
+  {
+    "id": 491,
+    "en": "But she was also slowly correcting her tactics, all whilst she kept on launching unsuccessful attacks. It would be excellent if she were an enemy possessing scarce will to learn; but as that was not the case, she would grow during battle.",
+    "vi": "dù vậy, cô bé cũng đang dần điều chỉnh chiến thuật của mình trong khi liên tục tung ra các đòn tấn công không thành công. Sẽ thật tuyệt nếu cô bé là một kẻ địch hiếm khi có ý chí học hỏi; nhưng thực tế không phải vậy, cô bé sẽ tiến bộ ngay trong trận chiến."
+  },
+  {
+    "id": 492,
+    "en": "Madelyn exhaled sharply a white breath in front of Priscilla, hoping to avoid any further development.",
+    "vi": "Madelyn thở ra một luồng khí trắng xóa trước mặt Priscilla, hy vọng tránh được bất kỳ diễn biến nào khác."
+  },
+  {
+    "id": 493,
+    "en": "The dragon's blood circulated through her body, the rise in body temperature provoking steam to rise from the girl's diminutive frame.",
+    "vi": "Máu rồng lưu thông khắp hình hài cô bé, sự gia tăng nhiệt độ thân xác khiến hơi nước bốc lên từ vóc dáng nhỏ bé của cô bé."
+  },
+  {
+    "id": 494,
+    "en": "Combined with the white breath, her figure seemed as though it were even enveloped in white smoke――,",
+    "vi": "Kết hợp với luồng hơi thở màu trắng, vóc dáng của cô bé trông như thể được bao bọc trong làn khói trắng――,"
+  },
+  {
+    "id": 495,
+    "en": "Priscilla: [――Nay.]",
+    "vi": "Priscilla: [――Không phải.]"
+  },
+  {
+    "id": 496,
+    "en": "How odd, so thought Priscilla as she closed one eye shut as she peered towards Madelyn.",
+    "vi": "Thật kỳ lạ, Priscilla nghĩ thầm khi nhắm một mắt lại lườm về phía Madelyn."
+  },
+  {
+    "id": 497,
+    "en": "As the battle protracted further, it was no wonder that the dragon’s blood had awakened. It was also clear that Madelyn’s budding emotions, dragonkin as she was, were causing the flying dragons to become frantic.",
+    "vi": "Khi trận chiến kéo dài hơn, không có gì lạ khi máu rồng đã thức tỉnh. Chuyện đó cũng rõ ràng rằng những cảm xúc chớm nở của Madelyn, một long nhân, đang khiến lũ phi long trở nên điên cuồng."
+  },
+  {
+    "id": 498,
+    "en": "However, amidst the climate of the Vollachian Empire, her exhaled breath was white and misty.",
+    "vi": "Thế nhưng, giữa khí hậu của Đế Quốc Vollachia, hơi thở cô bé phả ra lại có màu trắng và đầy sương mù."
+  },
+  {
+    "id": 499,
+    "en": "Not to mention――,",
+    "vi": "Chưa kể đến――,"
+  },
+  {
+    "id": 500,
+    "en": "Priscilla: [It is not possible for it to snow.]",
+    "vi": "Priscilla: [Nơi này không thể nào có tuyết rơi được.]"
+  },
+  {
+    "id": 501,
+    "en": "Glancing around, Priscilla noted white flakes falling languidly at the edge of her vision.",
+    "vi": "Nhìn lướt qua xung quanh, Priscilla nhận thấy những bông tuyết trắng đang rơi xuống một cách uể oải ở rìa tầm mắt cô."
+  },
+  {
+    "id": 502,
+    "en": "Slowly but surely increasing, snow fell upon the Fortress City, while most of the shelters protecting its people were being lost.",
+    "vi": "Tuyết rơi xuống Thành Phố Pháo Đài ngày một nhiều hơn, trong khi hầu hết các hầm trú ẩn bảo vệ người dân nơi đây đều đang bị phá hủy."
+  },
+  {
+    "id": 503,
+    "en": "Words like “rare” did not suffice to describe this event, one could call it a sort of natural disaster.",
+    "vi": "Những từ như “hiếm có” không đủ để mô tả sự kiện này, người ta có thể gọi đó là một loại thiên tai."
+  },
+  {
+    "id": 504,
+    "en": "In Vollachia, there were more than a few people who had never witnessed snow.",
+    "vi": "Ở Vollachia, có không ít người chưa từng một lần chứng kiến tuyết rơi."
+  },
+  {
+    "id": 505,
+    "en": "To be struck by two natural disasters simultaneously, in a single city, was nothing short of a nightmare, as had been stated.",
+    "vi": "Như đã nói, bị ảnh hưởng bởi hai thiên tai đồng thời trong cùng một thành phố quả thực không khác nào một cơn ác mộng."
+  },
+  {
+    "id": 506,
+    "en": "But what if there were a new natural disaster, a third one, that coincided with it?",
+    "vi": "Nhưng chuyện gì sẽ xảy ra nếu có một thiên tai mới, một thiên tai thứ ba trùng hợp xuất hiện cùng lúc?"
+  },
+  {
+    "id": 507,
+    "en": "Would that be a nightmare or――,",
+    "vi": "Đó sẽ là một cơn ác mộng hay là――,"
+  },
+  {
+    "id": 508,
+    "en": "???: [――That’s enough.]",
+    "vi": "Giọng nói bí ẩn: [――Đủ rồi đấy.]"
+  },
+  {
+    "id": 509,
+    "en": "A voice echoed from the ground, amidst the cold drops from the heavens slowly falling upon them.",
+    "vi": "Một giọng nói vang vọng từ mặt đất, giữa những giọt lạnh buốt từ trên trời cao đang chậm rãi rơi xuống người họ."
+  },
+  {
+    "id": 510,
+    "en": "A beautiful, yet resonant sound, akin to the ringing of a silver bell.",
+    "vi": "Một âm thanh tuyệt đẹp nhưng ngân vang, tựa như tiếng chuông bạc ngân reo."
+  },
+  {
+    "id": 511,
+    "en": "――This third natural disaster, if it were to coincide with the others, would it be a nightmare?",
+    "vi": "――Thiên tai thứ ba này, nếu trùng hợp xuất hiện cùng những thiên tai khác, liệu có phải là một cơn ác mộng?"
+  },
+  {
+    "id": 512,
+    "en": "――Or could it be a grand move?",
+    "vi": "――Hay có thể là một nước đi đột phá?"
+  },
+  {
+    "id": 513,
+    "en": "???: [I'm in a bit of a hurry, but I can't let this pass. ――I'm reaaally angry.]",
+    "vi": "Giọng nói bí ẩn: [Tôi đang có chút vội, nhưng tôi không thể làm ngơ chuyện này được. ――Tôi thậậật sự tức giận rồi đấy.]"
+  },
+  {
+    "id": 514,
+    "en": "In that place where anything and everything had met the onslaught of a great disaster, the footsteps of a silver-haired young girl echoed.",
+    "vi": "Tại nơi mà vạn vật đều hứng chịu sự tàn phá của đại họa, tiếng bước chân của một cô gái tóc bạc ngân vang."
+  },
+  {
+    "id": 515,
+    "en": "In search of her missing knight, a Witch, accompanied by snow, had come to the Fortress City.",
+    "vi": "Để tìm kiếm kỵ sĩ mất tích của mình, một Phù Thủy, đi cùng với tuyết rơi, đã đặt chân đến Thành Phố Pháo Đài."
+  },
+  {
+    "id": 516,
+    "en": "Translation note:",
+    "vi": "Chú thích dịch thuật:"
+  },
+  {
+    "id": 517,
+    "en": "[1] The expression Priscilla uses here translated as “rip-off” is not English, the use of which is typically noted via underlining on WCT’s chapter. However, this is a modern expression, the implication being that she learned it from Al, from whom she also learned some English expressions.",
+    "vi": "[1] Cụm từ Priscilla sử dụng ở đây được dịch là “hàng nhái” không phải là tiếng Anh thông thường (thứ vốn thường được gạch chân trong các chương dịch của WCT). Vậy mà, đây là một cách diễn đạt hiện đại, ngầm ý rằng cô đã học nó từ Al, người mà cô cũng học lỏm được một số cụm từ tiếng Anh."
+  }
+]

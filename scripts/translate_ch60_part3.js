@@ -1,0 +1,122 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const rawPath = path.join(__dirname, 'translation_temp', 'arc7_ch60_raw.json');
+const rawData = JSON.parse(fs.readFileSync(rawPath, 'utf-8'));
+
+const translations = {
+  301: "Medium: [Abel! Ngài nói vậy là có ý gì, giải thích mau đi chứ nha!?]",
+  302: "Abel: [Ngươi cần giải thích về điều gì?]",
+  303: "Medium: [Mọi thứ! Vừa mới nãy ngài nói như thể Subaru-chin đã chết rồi vậy, chính thế đó nha.]",
+  304: "Abel: [Ta vừa nói rằng, nếu các ngươi tin cậu ta sống sót, các ngươi cần đưa ra lập luận khác ngoài mặt tình cảm. Ta thực sự tin cậu ta có lý do để sống sót. Đó là lý do ta nghĩ cậu ta còn sống. Câu chuyện kết thúc ở đây.]",
+  305: "Medium: [~~Hự!]",
+  306: "Câu trả lời thiếu tế nhị của Abel khiến Medium đỏ mặt tía tai và biểu lộ sự bất bình sâu sắc. Điều đó cũng chẳng có chút tác dụng nào đối với Abel; hắn thậm chí còn không thèm ngoái đầu lại nhìn.",
+  307: "Bước chân của Abel, dắt theo ba người bọn họ, cuối cùng dừng lại sau một lúc đi bộ. Họ dừng lại ngay trước cái hố khổng lồ do Great Disaster vừa tan rã tạo ra, nơi Thành phố Quỷ từng tọa lạc.",
+  308: "Và ở đó――",
+  309: "Louis: [Uau…]",
+  310: "Ở đó, cúi gập người bên rìa hố, là một cô bé nhỏ nhắn―― Louis, đầu cúi gằm xuống.",
+  311: "Bộ quần áo trắng của cô bé lấm lem bùn đất hoàn toàn, và con bé đang dùng đôi bàn tay trần đào đất một cách yếu ớt. Đôi bàn tay con bé bẩn thỉu vì bùn cát, và người ta cũng nhận thấy chúng đã nhuộm sắc đỏ rỉ máu do móng tay bị gãy.",
+  312: "Medium: [Louis-chan…!]",
+  313: "Trong lúc hốt hoảng, Medium vội vàng lao đến ôm chặt Louis từ phía sau; dù có vòng tay ôm của Medium, đôi tay của Louis vẫn không chịu dừng lại.",
+  314: "Cào cào lớp đất cát, hay gạt các mảnh vụn sang một bên, cô bé vẫn không ngừng tìm kiếm thứ gì đó. ――Không, không phải thứ gì đó.",
+  315: "Taritta: [Cô bé đang tìm kiếm Subaru…]",
+  316: "Al: [Dù sao thì cũng… Chậc, cảm giác chẳng dễ chịu chút nào.]",
+  317: "Nhìn bóng lưng nhỏ bé của Louis, Taritta và Al mỗi người đều buông ra những suy nghĩ riêng của mình.",
+  318: "Taritta không hiểu vì sao thái độ của Al đối với Louis lại trở nên vô cùng bực dọc như vậy. Tuy nhiên, Al chính là người đã bảo vệ Louis khỏi đòn tấn công cuối cùng thổi bay Great Disaster. Vì vậy, Taritta không thể giải mã nổi mối quan hệ thực sự giữa hai người họ về mặt đó.",
+  319: "Tò mò tìm hiểu chuyện đó lúc này có lẽ chẳng làm ai vui vẻ cả. Cô lờ mờ đoán ra, nhưng Taritta vờ như không quan tâm đến chủ đề vừa được đề cập.",
+  320: "Abel: [Dừng lại đi. Đào bới đống đất cát và tìm kiếm dưới đống đổ nát kia không giúp ngươi tìm thấy thứ mình muốn đâu.]",
+  321: "Louis: [Ư… Aau!]",
+  322: "Khi Louis được Medium ôm lấy, Abel đứng ở phía sau cô bé. Ngoảnh đầu lại để nhìn ánh mắt dò xét từ chiếc mặt nạ quỷ hướng về phía mình, Louis bày ra vẻ mặt không hẳn là giận dữ, cũng chẳng phải đau thương.",
+  323: "Vẻ mặt đó vừa như đang oán trách Abel, vừa như đang van xin hắn đừng ngăn cản mình.",
+  324: "Abel không bận tâm nếu là vế trước, và ngay cả khi là vế sau, hắn cũng sẽ bỏ ngoài tai. Vì thế, hắn hếch cằm về phía cái hố lớn bên cạnh Louis――",
+  325: "Abel: [Việc tìm kiếm cậu ta sẽ tốn rất nhiều công sức của ngươi đấy. Ít nhất, cậu ta sẽ không lộ diện dù ngươi có tự mình cào đất đi chăng nữa. ――Hơn nữa, bản thân ngươi còn không biết cậu ta bị thổi bay đến phương nào.]",
+  326: "Louis: [Au! Aau! Uauua!]",
+  327: "Abel: [Ngươi cứ tìm kiếm như một kẻ ngốc đi, nhưng ngươi sẽ không bao giờ thấy được cậu ta đâu. Khôn hồn thì nhận thức rõ điều đó đi.]",
+  328: "Louis: [Ư… Ưkh!]",
+  329: "Những lời nói nhẫn tâm của Abel khiến Louis đỏ mặt và há miệng phản đối kịch liệt.",
+  330: "Từ sinh khí và vẻ giận dữ của cô bé, rõ ràng là con bé sẽ không bao giờ từ bỏ việc tìm kiếm Subaru, và nó tin chắc mình sẽ tìm thấy cậu mà không hề thất bại.",
+  331: "Và rồi――",
+  332: "Medium: [Abel-chin, có cách nào để tìm thấy Subaru-chin không nha?]",
+  333: "Louis: [Ư, ư?]",
+  334: "Medium: [Cách ngài vừa nói, rằng Louis-chan không thể tự tìm thấy Subaru-chin một mình. Ngài có phương pháp nào tốt hơn trong đầu không nha? Hay là không có chứ nha? Có không nha?]",
+  335: "Trong khi Medium đặt câu hỏi cho Abel, nhìn thẳng vào mắt hắn, Louis trở nên kích động hơn khi được Medium ôm lấy. Khi sự phấn khích của Louis dịu đi nhờ những lời của Medium, Abel nheo một bên mắt lại,",
+  336: "Abel: [Ngươi tuy không nhạy bén lắm, nhưng trực giác lại khá nhạy đấy chứ? Ngươi và huynh trưởng của ngươi quả là hai giọt nước.]",
+  337: "Medium: [Dĩ nhiên rồi nha, vì đại ca và tôi là anh em ruột thịt mà nha. Quan trọng hơn, trả lời tôi đàng hoàng đi nha! Có cách nào tìm thấy Subaru-chin không nha? Có không? Có không hả nha!?]",
+  338: "Sự kỳ vọng trào dâng, Medium liên tục lặp lại câu hỏi đó nhiều lần. Thở dài trước sự vội vã của Medium, Abel dừng lại một nhịp rồi bổ sung,",
+  339: "Abel: [Đó không phải là một phương pháp tìm kiếm đàng hoàng đâu. Mục tiêu ban đầu vốn không phải là tìm kiếm kẻ mất tích, mà là để kiếm một cái cớ gây náo loạn trong Hoàng thành.]",
+  340: "Medium: [Nói cho dễ hiểu hơn đi nha!]",
+  341: "Abel: […Nếu kế hoạch đó thành công, nguyện ước của ngươi và con bé này có thể thành hiện thực. Sau cùng, cả Đế quốc sẽ lùng sục khắp nơi để tìm kiếm một người đó.]",
+  342: "Taritta: [Cả Đế quốc lùng sục tìm kiếm Subaru… ngài nói vậy sao?]",
+  343: "Nắm bắt được phần thú vị trong lời nói của Abel, chân mày Taritta khẽ cau lại.",
+  344: "Giống như Medium, Taritta không phải là người nhạy bén nhất. Điểm khác biệt duy nhất là Medium sẽ nói thẳng ra những gì mình không hiểu, trong khi Taritta sẽ giữ kín trong lòng.",
+  345: "Dù thế nào đi nữa, lời giải thích của Abel, vốn đã cố gắng diễn đạt một cách dễ hiểu, vẫn không thể được Taritta nắm bắt hoàn toàn do thiếu kiến thức nền tảng trước đó.",
+  346: "Thế nhưng――",
+  347: "Louis: [――Uau, auau?]",
+  348: "Ý đồ đằng sau những lời đó chỉ được truyền đạt một cách chắc chắn tới người được hướng tới.",
+  349: "Louis, người vừa đứng bên bờ vực bùng nổ dữ dội, thả lỏng người trong vòng tay Medium; và, nhìn chằm chằm vào Abel đang bất động, cô bé đưa ra câu hỏi không lời.",
+  350: "Đáp lại, Abel gật đầu, cất tiếng \"Lẽ tự nhiên\". Mặc dù, có lẽ hắn không hiểu hết ý nghĩa chính xác của nó.",
+  351: "Al: [Vậy chúng ta sẽ làm gì? Làm thế nào để thực hiện kế hoạch này để tìm bro đây?]",
+  352: "Abel: [Không có gì khó khăn cả, chỉ cần truyền tin đi thôi.]",
+  353: "Medium: [――――]",
+  354: "Abel trả lời câu hỏi của Al, và Medium lại lườm hắn sắc lẹm. Rồi, Abel thở dài, như thể dự đoán trước sự hạch sách tiếp theo từ Medium, và tiếp tục.",
+  355: "Tiếp tục với――",
+  356: "Abel: [――Rằng đứa con ngoài giá thú của Vincent Vollachia, một kẻ đáng ghê tởm với mái tóc đen và đôi mắt đen, đang mưu cầu vị trí của cha mình. Chính xác như một màn tái hiện lại \"Máy chém Magrizza\" (Magrizza’s Guillotine).]",
+  357: "△▼△▼△▼△",
+  358: "――Cùng ngày, cùng thời điểm, tại một nơi nào đó.",
+  359: "???: [――Hự.]",
+  360: "Họ dùng hết sức đẩy cơ thể ướt sũng của mình lên, kéo người lại gần bờ đất, nơi các ngón tay của họ chỉ vừa kịp bám chặt vào. Sẽ không còn đường quay lại nếu họ buông xuôi cảm giác này, dù chỉ trong một khoảnh khắc.",
+  361: "Người này thực sự đang trong một cuộc chiến sinh tử―― không, đúng hơn là đang nỗ lực giành giật lấy sự sống.",
+  362: "Dòng nước đen ngòm, không một chỗ dung thân, cướp đi thân nhiệt và thể lực của họ một cách khủng khiếp, nhiều lần làm họ ngỡ mình đã trút hơi thở cuối cùng. Họ không thể phân biệt nổi đây là giấc mơ hay hiện thực.",
+  363: "Họ cảm giác như mình bị cắn xé liên tiếp bởi một con cá lớn ẩn mình dưới nước. Họ cảm thấy mình như chết đuối, nếm trải vị máu tươi, buồng phổi chứa đầy nước chát chúa, không thể hô hấp. Có những lúc họ đã ngất đi vì hạ thân nhiệt hoặc kiệt sức, mạng sống của họ chực chờ vụt tắt trong giấc ngủ.",
+  364: "Và cứ thế, lặp đi lặp lại chuyện đó, tích tụ lại, vùng vẫy, cuối cùng họ――",
+  365: "???: [Phù, oẹ…]",
+  366: "Họ cố rướn người lên bờ trong lúc ho ra ngụm nước vừa nuốt phải. Chuyện này thật gian nan, đau đớn và nặng nề. Từ sâu thẳm tâm hồn, họ ước mình có thể sử dụng cả hai tay để mọi việc dễ dàng hơn. Thế nhưng, họ không thể làm vậy.",
+  367: "Trái ngược với bàn tay phải đang bám chặt vào bờ, quấn quanh cánh tay trái của họ, là một thứ gì đó mà họ tuyệt đối không bao giờ được phép buông tay.",
+  368: "Họ đã thất bại nhiều lần trước khi hiểu được danh tính của nó. Họ đã từng lỡ tay buông bỏ.",
+  369: "Nhưng một khi đã hiểu rõ nó là gì, họ tuyệt đối không bao giờ buông ra nữa. Và họ đã phạm phải rất nhiều, rất nhiều sai lầm; vậy mà, họ vẫn không hề bỏ cuộc――",
+  370: "???: [――――]",
+  371: "Trước khi tự cứu lấy mình, họ đẩy người đang quấn quanh cánh tay trái lên bờ cát.",
+  372: "Dù vóc dáng nhỏ bé, đối phương vẫn rất nặng. Việc người mang vác không ở trong tình trạng hoàn hảo, và cả hai đều không mặc trang phục bơi lội, quả là một điều bất hạnh.",
+  373: "Càng tệ hơn đối với cô bé, vì con bé đang mặc kimono, và trang phục đó có nhiều lớp vải hơn quần áo bình thường. Nghĩa là nó sẽ thấm nhiều nước hơn.",
+  374: "Họ hy vọng cô bé sẽ tha thứ cho việc cởi bớt một phần kimono của con bé dọc đường để giảm bớt trọng lượng.",
+  375: "Một thứ gì đó cũng găm mạnh vào hông và gáy họ khi kéo cô bé về phía mình. Lý do của việc đó là cặp gạc lộng lẫy mọc ra từ đầu con bé. ――Với nỗi đau này, họ muốn con bé coi như cả hai bên đã huề nhau.",
+  376: "Tất cả những gì còn lại là――",
+  377: "???: [Ư, hự…!]",
+  378: "Họ đẩy cô bé lên bờ, và giờ tất cả những gì còn lại là dồn chút sức tàn cuối cùng để đưa bản thân lên bờ cát.",
+  379: "Tuy nhiên, có lẽ vì sợi dây căng thẳng đã đứt một khi cô bé được đặt lên mép nước, họ không thể tìm đâu ra chút sức tàn cuối cùng để dồn lực, và đôi tay họ chỉ biết cào bới vô vọng trên nền cát khô.",
+  380: "Cái đầu quay cuồng và tiếng ù tai o o thúc giục họ, báo cho họ biết không thể cứ tiếp tục như thế này.",
+  381: "Đó là điềm báo cho thấy ý thức đang mờ nhạt dần. Và mất đi ý thức ở đây đồng nghĩa với cái chết.",
+  382: "Nếu sự căng thẳng bị cắt đứt, và ý chí thực hiện bất cứ điều gì bị dập tắt, họ sẽ lại bị mắc kẹt trong việc lặp đi lặp lại giấc mơ và hiện thực để có được vận may này một lần nữa.",
+  383: "Không được phép như thế, họ nghĩ, cố gắng đấu tranh dữ dội hơn, nhiều hơn, nhiều hơn nữa để đánh thức ý thức của mình.",
+  384: "Ý thức của họ mờ nhạt đi. Cuối cùng, tay họ buông lỏng khỏi bờ cát――",
+  385: "???: [――Ấy chà, cẩn thận nào.]",
+  386: "Vào khoảnh khắc đó, khi họ nới lỏng tay bám trên bờ cát và một lần nữa chìm vào nước, có ai đó đã nắm lấy bàn tay đó.",
+  387: "Những ngón tay thon thả, săn chắc nắm chặt lấy cổ tay họ, kéo cơ thể đang chìm nghỉm của họ lên bờ. Gương mặt họ ngoi lên khỏi mặt nước trong lúc thở dốc, và ngay trước khi mất đi ý thức, họ nhìn người kia.",
+  388: "Tuy nhiên, ai là người đã nắm lấy tay họ chứ――",
+  389: "???: [Không, đừng có như thế chứ. Cậu đang bên bờ vực mất ý thức bất cứ lúc nào đúng không? Như vậy thì tệ quá đấy. Có được cơ hội này, tôi muốn khởi đầu mọi chuyện một cách kịch tính hơn cơ.]",
+  390: "Giữa bao nhiêu chuyện, bàn tay đối diện với bàn tay đang nắm lấy họ lại vươn tới che mắt họ khi họ cố gắng nhìn người kia. Những gì họ quan sát được chỉ là những đường chỉ tay của đối phương.",
+  391: "Bàn tay của một kẻ xa lạ với những đường sinh mệnh dài bất thường. [2]",
+  392: "Với đó là điều cuối cùng họ nhìn thấy, ý thức của họ chìm vào bóng tối――",
+  393: "???: [Thế nhưng, bơi được đến tận đây giỏi thật đấy! Thực sự, đúng là một sự trùng hợp kỳ lạ, đi theo chiều gió đưa tôi đến tận đây! Ái chà chà chà, thực sự rất tuyệt đúng không nào!?]",
+  394: "Bị cuốn đi bởi ý thức đang phai nhạt, giọng nói vui tươi đó đồng hành cùng họ cho đến tận cùng.",
+  395: "Giọng nói đó gần như giống như một tiếng sấm rộn rã đầy hào hứng.",
+  396: "???: [――Cậu có cảm thấy một câu chuyện vĩ đại sắp bắt đầu không?]",
+  397: "Với câu hỏi không thể trả lời đó, ý thức của họ―― ý thức của Natsuki Subaru chìm vào bóng tối mà không đưa ra lời đáp.",
+  398: "Ghi chú dịch thuật:",
+  399: "[1] Obidome (帯止め) là phụ kiện dùng để luồn qua dây buộc kimono. Người ta nói rằng những phụ kiện này ban đầu được sử dụng bởi geisha (kỹ nữ truyền thống Nhật Bản), hình mẫu truyền cảm hứng cho nhân vật Yorna, trước khi trở nên phổ biến. Để biết thêm thông tin, xem https://www.japanese-wiki-corpus.org/culture/Obidome.html.",
+  400: "[2] Đây là một phép chơi chữ, vì \"生命線\" vừa có nghĩa là \"đường sinh mệnh\" (đường chỉ tay), vừa có nghĩa là \"sợi dây cứu mạng\" (yếu tố quyết định sự sống chết)."
+};
+
+for (const item of rawData) {
+  if (translations[item.id] !== undefined) {
+    item.vi = translations[item.id];
+  }
+}
+
+const partPath = path.join(__dirname, 'translation_temp', 'ch60_part3.json');
+fs.writeFileSync(partPath, JSON.stringify(rawData.filter(x => x.id > 300), null, 2), 'utf-8');
+console.log("Saved part 3 to", partPath);

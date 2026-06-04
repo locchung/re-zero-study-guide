@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Human Translated By:",
+    "vi": "Người dịch:"
+  },
+  {
+    "id": 3,
+    "en": "Machine Translated By:",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 6,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 7,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 8,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 9,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 10,
+    "en": "――Once she became unaware of Natsuki Subaru’s whereabouts, Emilia panicked and made the biggest commotion of her life.",
+    "vi": "――Ngay khi không còn biết tung tích của Natsuki Subaru ở đâu nữa, Emilia đã hoảng loạn và gây ra một sự huyên náo lớn nhất trong cuộc đời mình."
+  },
+  {
+    "id": 11,
+    "en": "Emilia: [Please, Subaru… I really hope you’ll be alright with Rem.]",
+    "vi": "Emilia: [Làm ơn đấy, Subaru. Tôi thực sự mong cậu sẽ bình an vô sự cùng Rem.]"
+  },
+  {
+    "id": 12,
+    "en": "The tempest of the shadows which attacked the Pleiades Watchtower, that was when both Subaru and Rem were blown away―― Nay, to be precise, it was not just those two. She knew there had been one more unknown component alongside them.",
+    "vi": "Cơn bão bóng tối tấn công Tháp Canh Pleiades chính là lúc cả Subaru và Rem bị thổi bay đi―― Không, nói chính xác hơn thì không chỉ có hai người họ. Cô biết rằng có một thực thể bí ẩn khác đã bị cuốn đi cùng họ nữa."
+  },
+  {
+    "id": 13,
+    "en": "That Emilia had gotten through that without losing her composure, was because Beatrice and Ram, who had a connection to those two, had confirmed their survival.",
+    "vi": "Việc Emilia có thể vượt qua chuyện đó mà không mất đi sự bình tĩnh là nhờ Beatrice và Ram, những người có sợi dây liên kết với hai người họ, đã xác nhận rằng họ vẫn còn sống."
+  },
+  {
+    "id": 14,
+    "en": "Of course, even if they were alive, the possibility they could come face-to-face with something dangerous or scary still existed.",
+    "vi": "Dĩ nhiên, ngay cả khi họ còn sống, khả năng họ phải đối mặt với những mối hiểm nguy hay đáng sợ vẫn hiển hiện."
+  },
+  {
+    "id": 15,
+    "en": "In fact, it was because he had to save the sleeping Rem in an unknown land, that it was definitely, absolutely assured that Subaru would act recklessly. However, because Subaru did not have Emilia, nor Beatrice with him, he must have been in quite the panic.",
+    "vi": "Quả thực, vì phải cứu một Rem vẫn đang chìm vào giấc ngủ tại một vùng đất xa lạ, chắc chắn Subaru sẽ hành động liều lĩnh. Thế nhưng, do Subaru không có Emilia hay Beatrice bên cạnh, hẳn cậu ấy đã vô cùng hoảng loạn."
+  },
+  {
+    "id": 16,
+    "en": "Emilia: [I have to hurry and find them…!]",
+    "vi": "Emilia: [Tôi phải mau chóng đi tìm họ thôi.!]"
+  },
+  {
+    "id": 17,
+    "en": "With that resolution, Emilia and the group that had proceeded to conquer the Pleiades Watchtower moved out.",
+    "vi": "Với quyết tâm đó, Emilia cùng nhóm người đã chinh phục Tháp Canh Pleiades lập tức xuất phát."
+  },
+  {
+    "id": 18,
+    "en": "For starters, they had to find a way to enter the land to the south believed to be where Subaru had gotten blown off to, the Vollachian Empire―― the country which had forbidden travel to and from the Kingdom of Lugunica.",
+    "vi": "Trước tiên, họ phải tìm cách thâm nhập vào vùng đất phương nam được cho là nơi Subaru đã bị thổi bay tới, Đế Quốc Vollachia―― quốc gia vốn đã cấm việc đi lại qua biên giới với Vương Quốc Lugunica."
+  },
+  {
+    "id": 19,
+    "en": "???: [We’re gonna try ‘n tackle this one from Kararagi. Security might be laxer in Kararagi in comparison, as Lugunica and Vollachia’ve been havin’ a stand-off.]",
+    "vi": "???: [Tụi mình sẽ cố tiếp cận từ phía Kararagi nhen. An ninh ở Kararagi có lẽ sẽ lỏng lẻo hơn so với việc đi trực tiếp từ Lugunica sang Vollachia, vốn đang trong tình trạng đối đầu căng thẳng đó nè.]"
+  },
+  {
+    "id": 20,
+    "en": "Those were Anastasia’s words, promising to cooperate with the search for Subaru.",
+    "vi": "Đó là những lời của Anastasia, hứa hẹn sẽ hợp tác trong cuộc tìm kiếm Subaru."
+  },
+  {
+    "id": 21,
+    "en": "Anastasia’s group, of which Julius and Echidna were a part of, were believed to not have much to spare by any means, having had such a torrid experience at Pleiades Watchtower.",
+    "vi": "Nhóm của Anastasia, bao gồm cả Julius và Echidna, được cho là không còn nhiều sức lực dư thừa sau những trải nghiệm kinh hoàng tại Tháp Canh Pleiades."
+  },
+  {
+    "id": 22,
+    "en": "But that they had still offered to do that for Subaru’s group, was something that made Emilia very happy.",
+    "vi": "Thế mà họ vẫn đề nghị giúp đỡ nhóm của Subaru, điều đó khiến Emilia vô cùng cảm kích."
+  },
+  {
+    "id": 23,
+    "en": "Emilia: [I’m very glad I became friends with Anastasia-san.]",
+    "vi": "Emilia: [Tôi rất vui vì đã trở thành bạn với Anastasia-san.]"
+  },
+  {
+    "id": 24,
+    "en": "Anastasia: [Weeell, I think we’re a wee bit different from friends. Like before, our positions’ll stay that of rivals ‘n whatnot. But…]",
+    "vi": "Anastasia: [Chà chà, ta nghĩ tụi mình hơi khác bạn bè một xíu đó nè. Giống như trước đây, vị thế của tụi mình vẫn là đối thủ cạnh tranh này nọ thôi. Thế nhưng.]"
+  },
+  {
+    "id": 25,
+    "en": "Emilia: [But?]",
+    "vi": "Emilia: [Thế nhưng?]"
+  },
+  {
+    "id": 26,
+    "en": "Anastasia: [After this Natsuki-kun ‘n Royal Selection business’s all done ‘n dusted, how ‘bout we become friends? I’m much like Emilia-san, in that I ain’t got many friends.]",
+    "vi": "Anastasia: [Sau khi chuyện của Natsuki-kun và cuộc Tuyển chọn Vương nữ này hoàn toàn kết thúc êm xuôi, tụi mình làm bạn với nhau nha? Ta cũng giống như Emilia-san ở chỗ không có nhiều bạn bè lắm đâu nè.]"
+  },
+  {
+    "id": 27,
+    "en": "Saying so with a light-hearted attitude, Anastasia promised to lend her strength to them.",
+    "vi": "Nói lời đó với thái độ nhẹ nhàng, Anastasia đã hứa sẽ cho họ mượn sức mạnh của mình."
+  },
+  {
+    "id": 28,
+    "en": "Despite knowing that now was not the time, to Emilia, that promise―― the one for Subaru’s search, was something she was also glad for. However, the day in which the fulfillment of her promise for them to become friends was one she longed for.",
+    "vi": "Dù biết hiện tại không phải lúc thích hợp, nhưng với Emilia, lời hứa―― lời hứa tìm kiếm Subaru, vẫn là điều khiến cô vui mừng. Dù vậy, cô vẫn cực kỳ mong đợi ngày lời hứa trở thành bạn bè của họ được thực hiện."
+  },
+  {
+    "id": 29,
+    "en": "And――,",
+    "vi": "Và――,"
+  },
+  {
+    "id": 30,
+    "en": "???: [If Anastasia-sama will devise a means to go through Kararagi, then us trying to simply find a way through the Vollachian border would be the best plan, wouuuldn’t~ it?]",
+    "vi": "???: [Nếu Anastasia-sama nghĩ ra cách đi qua Kararagi, thì việc chúng ta tìm lối qua biên giới Vollachia sẽ là phương án tốt nhất nhỉ~~?]"
+  },
+  {
+    "id": 31,
+    "en": "Having reunited with Emilia and the others once they came back from Pleiades Watchtower, Roswaal, understanding the urgency of the situation, respected Emilia’s desire to search for Subaru immediately.",
+    "vi": "Sau khi hội ngộ với bọn họ lúc vừa trở về từ Tháp Canh Pleiades, Roswaal, hiểu rõ tính chất khẩn cấp của tình hình, đã tôn trọng nguyện vọng đi tìm Subaru ngay lập tức của Emilia."
+  },
+  {
+    "id": 32,
+    "en": "However, even using Roswaal’s rank and power, it appeared that entering the Vollachian Empire was not a matter so simple. And even should they fly in, it seemed flying dragons would gnaw at them.",
+    "vi": "Thế nhưng, dù có dùng đến danh thế và quyền lực của Roswaal, việc thâm nhập vào Đế Quốc Vollachia dường như cũng chẳng hề đơn giản. Thậm chí nếu bay vào, họ cũng sẽ bị đàn phi long cắn xé."
+  },
+  {
+    "id": 33,
+    "en": "Even having earned Roswaal’s approval, entry into the Empire would not be easy.",
+    "vi": "Dù đã nhận được sự đồng thuận của Roswaal, việc thâm nhập vào Đế Quốc vẫn không hề dễ dàng."
+  },
+  {
+    "id": 34,
+    "en": "Above all, though it was called an Empire, it was very large. Even if they somehow managed to cross into it, they did not know if they could find Subaru’s group right away. [1]",
+    "vi": "Trên hết, tuy gọi là một Đế Quốc, nhưng lãnh thổ lại hết sức rộng lớn. Cho dù có tìm cách vượt qua biên giới thành công, họ cũng chẳng biết liệu có thể tìm thấy nhóm của Subaru ngay lập tức hay không. [1]"
+  },
+  {
+    "id": 35,
+    "en": "In the middle of this increasingly agitating situation, a proposal to break this deadlock came from someone who yet again proved his reliability.",
+    "vi": "Giữa tình cảnh ngày càng bế tắc này, một đề xuất nhằm phá vỡ thế bí đã đến từ một người một lần nữa chứng minh sự đáng tin cậy của mình."
+  },
+  {
+    "id": 36,
+    "en": "???: [About the way to get into the Vollachian Empire, I may or may not have an idea. However, it is not quite the commendable way, and there is some risk to it.]",
+    "vi": "???: [Về cách thâm nhập vào Đế Quốc Vollachia, tôi có thể có một ý tưởng. Tuy nhiên, nó không phải là một phương thức chính thống cho lắm, và cũng đi kèm một số rủi ro.]"
+  },
+  {
+    "id": 37,
+    "en": "So was stated, breaking the ice with some hesitation, by the one whose return coincided with the Emilia group’s return home, Otto.",
+    "vi": "Lời đề xuất đó được đưa ra một cách đầy ngập ngừng bởi người trở về đúng lúc nhóm Emilia quay về nhà, Otto."
+  },
+  {
+    "id": 38,
+    "en": "That person, having stayed in the Watergate City of Pristella to recover, returned alongside Garfiel, who had remained alongside him, and indicated a path towards hope for Emilia’s group, who was greatly troubled over their challenge.",
+    "vi": "Người đó, sau khi ở lại Watergate City Priestella để dưỡng thương, đã trở về cùng Garfiel, người luôn túc trực bên cạnh anh, và chỉ ra con đường hy vọng cho nhóm Emilia đang rất phiền muộn vì thử thách trước mắt."
+  },
+  {
+    "id": 39,
+    "en": "However, those means were decidedly――,",
+    "vi": "Thế nhưng, phương thức đó chắc chắn là――,"
+  },
+  {
+    "id": 40,
+    "en": "Otto: [――Entering via smuggling. In Picoutatte… One of the Five Great Cities to the south of Lugunica. I may be able to prepare a means for you to enter from that city, my hometown.]",
+    "vi": "Otto: [――Vượt biên bằng cách buôn lậu. Tại Picoutatte. một trong Năm Đại Thành Phố ở phía nam Lugunica. Tôi có thể chuẩn bị cách thâm nhập từ thành phố đó, quê hương của tôi.]"
+  },
+  {
+    "id": 41,
+    "en": "Entering through smuggling was the furtive passage into the nation, circumventing the regular procedures and arrangements.",
+    "vi": "Vượt biên bằng con đường buôn lậu là hành vi lẻn vào quốc gia khác một cách lén lút, né tránh mọi thủ tục và thỏa ước thông thường."
+  },
+  {
+    "id": 42,
+    "en": "As Otto had said, it was not a very commendable method, and it was undeniable that it was quite the dangerous choice were they to be found.",
+    "vi": "Đúng như Otto đã nói, đó không phải là một phương thức đáng hoan nghênh, và không thể phủ nhận rằng đó là lựa chọn cực kỳ nguy hiểm nếu họ bị phát giác."
+  },
+  {
+    "id": 43,
+    "en": "However, if there was no other way.",
+    "vi": "Dù vậy, nếu không còn con đường nào khác."
+  },
+  {
+    "id": 44,
+    "en": "Emilia: [We have to do everything we can for them.]",
+    "vi": "Emilia: [Chúng ta phải làm tất cả những gì có thể cho họ.]"
+  },
+  {
+    "id": 45,
+    "en": "Steeling her strong resolve, Emilia conveyed her resolution to everyone else.",
+    "vi": "Nung nấu quyết tâm sắt đá, Emilia đã truyền đạt quyết định của mình tới mọi người."
+  },
+  {
+    "id": 46,
+    "en": "Nobody said anything like “Let’s not” to Emilia’s resolve, even Ram and Otto who were under a lot of stress. Everyone prayed for Subaru’s safety.",
+    "vi": "Không ai nói lời ngăn cản quyết tâm của Emilia, kể cả Ram và Otto đang chịu nhiều áp lực. Mọi người đều cầu nguyện cho sự an toàn của Subaru."
+  },
+  {
+    "id": 47,
+    "en": "Emilia was most proud of that, above anything else.",
+    "vi": "Emilia tự hào về điều đó hơn bất cứ thứ gì khác."
+  },
+  {
+    "id": 48,
+    "en": "???: [No matter what it takes, we’ll bring back Subaru safely, in fact. We will do it, I suppose.]",
+    "vi": "???: [Dù có thế nào đi nữa, chúng ta cũng sẽ đưa Subaru trở về an toàn đấy chứ. Chúng ta nhất định phải làm vậy nhỉ.]"
+  },
+  {
+    "id": 49,
+    "en": "Emilia: [Yeah, that’s right. ――Let’s do our best.]",
+    "vi": "Emilia: [Phải, đúng vậy. ――Tụi mình cùng cố gắng nhé.]"
+  },
+  {
+    "id": 50,
+    "en": "Her hand being gripped tightly by Beatrice’s own, the one most anxious about the estranged Subaru, Emilia answered gently, by tightening her grip in return.",
+    "vi": "Được bàn tay nhỏ bé của Beatrice nắm chặt, người đang lo lắng nhất cho Subaru đang thất lạc, Emilia dịu dàng đáp lại bằng cách siết nhẹ tay cô bé."
+  },
+  {
+    "id": 51,
+    "en": "And then, in Otto’s hometown, going through a quarrel with Otto’s old acquaintances that were after his life; going through Petra’s handsome negotiations with the group who would smuggle them across the border, and aided by the bridal panic concerning Frederica’s special constitution, the group searching for Subaru crossed the country, and――,",
+    "vi": "Và rồi, tại quê hương của Otto, trải qua cuộc cãi vã với những người quen cũ của Otto đang muốn lấy mạng anh; qua những cuộc đàm phán xuất sắc của Petra với nhóm vượt biên lén lút, cùng sự hỗ trợ từ vụ náo loạn kén rể liên quan đến thể chất đặc biệt của Frederica, nhóm tìm kiếm Subaru đã vượt qua biên giới quốc gia, và――,"
+  },
+  {
+    "id": 52,
+    "en": "Emilia: [――That’s enough.]",
+    "vi": "Emilia: [――Thế là đủ rồi.]"
+  },
+  {
+    "id": 53,
+    "en": "In the Fortress City with madness swirling about, Emilia, who brought down snow, proclaimed so.",
+    "vi": "Trong Thành Phố Pháo Đài đang quay cuồng trong cơn điên loạn, Emilia, người đã gọi tuyết rơi xuống, đã tuyên bố như thế."
+  },
+  {
+    "id": 54,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 55,
+    "en": "???: [――――]",
+    "vi": "???: [――――]"
+  },
+  {
+    "id": 56,
+    "en": "Numerous buildings collapsed, as the once-beautiful cityscape collapsed with nary a trace of it remaining.",
+    "vi": "Vô số tòa nhà đổ sụp, cảnh sắc thành thị từng xinh đẹp sụp đổ không còn sót lại một vết tích."
+  },
+  {
+    "id": 57,
+    "en": "And yet, Emilia's anger only soared as she observed large figures moving left and right through the sky from afar, making complete use of their wings to crush the lives of people.",
+    "vi": "Thế mà, cơn giận của Emilia càng dâng cao khi cô quan sát những sinh vật to lớn chao lượn trên bầu trời phía xa, dang rộng đôi cánh tước đoạt đi mạng sống của con người."
+  },
+  {
+    "id": 58,
+    "en": "Just how could they do such a terrible thing?",
+    "vi": "Sao bọn chúng có thể làm ra chuyện tàn nhẫn như vậy chứ?"
+  },
+  {
+    "id": 59,
+    "en": "Could there have been a better way to do it, and had they even made a proper effort at finding it?",
+    "vi": "Liệu có cách nào tốt hơn để giải quyết không, và bọn họ đã thực sự nỗ lực tìm kiếm nó chưa?"
+  },
+  {
+    "id": 60,
+    "en": "Nevertheless, even the one who believed this, Emilia herself, could not think of a way to halt the fight at this moment aside from using her own power, which was frustrating.",
+    "vi": "Tuy nhiên, ngay cả chính Emilia, người luôn tin vào điều đó, cũng không thể nghĩ ra cách nào để ngăn chặn trận chiến lúc này ngoại trừ việc dùng đến sức mạnh của bản thân, một sự thật đầy bất lực."
+  },
+  {
+    "id": 61,
+    "en": "That was why, Emilia would be as frustrated as she could be, trying to not forget that feeling.",
+    "vi": "Vì thế, Emilia tột cùng ấm ức, tự nhủ không được phép quên đi cảm giác này."
+  },
+  {
+    "id": 62,
+    "en": "To that end――,",
+    "vi": "Để đạt được mục tiêu đó――,"
+  },
+  {
+    "id": 63,
+    "en": "Emilia: [――Ice Age.]",
+    "vi": "Emilia: [――Kỷ Băng Hà.]"
+  },
+  {
+    "id": 64,
+    "en": "Around Emilia, as she muttered this, the world started to lose its heat at a furious pace.",
+    "vi": "Xung quanh Emilia, khi cô khẽ thì thầm từ đó, thế giới bắt đầu mất nhiệt với tốc độ chóng mặt."
+  },
+  {
+    "id": 65,
+    "en": "The air slowly cooled, white snowflakes began falling gently from the chilling sky. Rapidly, without exemption, Emilia blanketed the city's perimeter with cold.",
+    "vi": "Không khí lạnh dần, những bông tuyết trắng bắt đầu nhẹ rơi từ bầu trời buốt giá. Không một ngoại lệ, Emilia nhanh chóng phủ lạnh toàn bộ khu vực thành phố."
+  },
+  {
+    "id": 66,
+    "en": "With great care, adjusting the magic power, being cautious to not overdo it.",
+    "vi": "Cực kỳ cẩn thận, cô điều chỉnh lượng ma lực, dè chừng không để bản thân quá tay."
+  },
+  {
+    "id": 67,
+    "en": "She could not afford to err, and let the city turn to ice like the Great Forest of Elior, Emilia's homeland. Needless to say, even if she had thoughts of melting it later, to cool it down to the point of suspended animation, like Regulus’s wives, was strictly forbidden.",
+    "vi": "Cô không được phép phạm sai lầm để thành phố này hóa đá băng như Đại Khu Rừng Elior, quê hương của mình. Lẽ dĩ nhiên, ngay cả khi có ý định làm tan băng sau đó, việc làm đông cứng họ đến mức ngưng đọng sinh mệnh như những người vợ của Regulus cũng là điều cấm kỵ."
+  },
+  {
+    "id": 68,
+    "en": "All Emilia had to do, was to bring an unbearable ice season to lands unacquainted with the cold, those of the Empire. [2]",
+    "vi": "Tất cả những gì Emilia cần làm là mang một mùa đông buốt giá không thể chống chọi đến vùng đất chưa từng biết đến cái lạnh của Đế Quốc. [2]"
+  },
+  {
+    "id": 69,
+    "en": "The biting cold wind, the falling white snowflakes accumulating, the white breath of the magical season of ice, would cover the Fortress City struck by this flying dragon cataclysm.",
+    "vi": "Luồng gió lạnh thấu xương, những bông tuyết trắng rơi phủ dày, hơi thở buốt giá của mùa băng giá ma pháp bao trùm lấy Thành Phố Pháo Đài đang hứng chịu tai họa phi long."
+  },
+  {
+    "id": 70,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 71,
+    "en": "Priscilla: [Dragonkind is weak against the cold. And when it comes to flying dragons, which have never known freezing cold, the harshness will be even more pronounced on their wings.]",
+    "vi": "Priscilla: [Loài rồng vốn yếu trước cái lạnh. Đặc biệt là lũ phi long chưa từng biết đến băng giá, đôi cánh của chúng sẽ càng phải chịu đựng sự khắc nghiệt nặng nề.]"
+  },
+  {
+    "id": 72,
+    "en": "With that, a figure leapt onto the half-destroyed wall on which Emilia stood, accompanied by the light sound of footsteps.",
+    "vi": "Dứt lời, một bóng người nhảy lên bức tường đổ nát nơi Emilia đang đứng, kèm theo tiếng bước chân nhẹ nhàng."
+  },
+  {
+    "id": 73,
+    "en": "Glancing over, Emilia then nodded with a “Yes”,",
+    "vi": "Liếc nhìn sang, Emilia liền gật đầu đáp “Vâng”,"
+  },
+  {
+    "id": 74,
+    "en": "Emilia: [Before I took off, Petra-chan told me that flying dragons don't like the cold. She's reaaally good at studying, and learned a lot about the Empire very quickly.]",
+    "vi": "Emilia: [Trước khi khởi hành, bé Petra đã nói với tôi rằng phi long không thích cái lạnh đâu. Con bé học hành giỏi lắ~~m, tiếp thu thông tin về Đế Quốc rất nhanh luôn.]"
+  },
+  {
+    "id": 75,
+    "en": "Priscilla: [So you relied on the wisdom of your servant? No wonder, you had me thinking it was a decent plan, for a half-devil devoid of wisdom.]",
+    "vi": "Priscilla: [Hóa ra ngươi đã dựa vào trí khôn của kẻ hầu cận sao? Chẳng trách, ta cứ ngỡ đó là một kế hoạch tử tế đối với một con bán quỷ thiếu thốn trí tuệ.]"
+  },
+  {
+    "id": 76,
+    "en": "Emilia: [There’s no need for you to put it like that. Besides, how do you know that I'm a half-elf… Huh?]",
+    "vi": "Emilia: [Không cần thiết phải nói năng khó nghe như thế đâu. Hơn nữa, làm sao cô biết tôi là nửa tiên. Hả?]"
+  },
+  {
+    "id": 77,
+    "en": "And then Emilia rounded her amethyst eyes, her lips forming a pout because of how the other person had spoken.",
+    "vi": "Rồi Emilia mở to đôi mắt tím thạch anh, bĩu môi không hài lòng vì cách nói của đối phương."
+  },
+  {
+    "id": 78,
+    "en": "A woman in a red dress, her long orange hair blowing in the cold wind; her hairstyle was different from what she remembered, but there, was――,",
+    "vi": "Một người phụ nữ trong bộ váy đỏ, mái tóc dài màu cam tung bay trước gió lạnh; kiểu tóc của cô ta tuy có khác so với trí nhớ của Emilia, nhưng đứng ở đó chính là――,"
+  },
+  {
+    "id": 79,
+    "en": "Emilia: [Huh, Priscilla? Why are you here? This isn’t Lugunica, you know?]",
+    "vi": "Emilia: [Ơ, Priscilla? Sao cô lại ở đây? Đây không phải Lugunica đâu đấy biết không?]"
+  },
+  {
+    "id": 80,
+    "en": "Priscilla: [I shall return you with the same thing. Although, I have an idea as to why you have set foot in the Empire… How did you cross into the country?]",
+    "vi": "Priscilla: [Ta cũng hỏi ngươi câu tương tự đấy. Song, ta hiểu lý do ngươi đặt chân đến Đế Quốc này rồi. Làm thế nào ngươi vượt biên được vào đây?]"
+  },
+  {
+    "id": 81,
+    "en": "Emilia: [Oh, the method is a secret. I'm not supposed to tell you. I'm also supposed to hide who I am. So I have to be careful. I…]",
+    "vi": "Emilia: [Ồ, phương pháp là bí mật nha. Tôi không được kể cho cô đâu. Tôi cũng phải giấu kín thân phận nữa. Nên tôi phải cẩn thận. Tôi.]"
+  },
+  {
+    "id": 82,
+    "en": "Emilia was surprised to see Priscilla, a woman she had never expected to lay eyes upon in this foreign country to the south, yet she was strangely moved by the sight of her.",
+    "vi": "Emilia hết tất cả ngạc nhiên khi thấy Priscilla, một người phụ nữ cô không bao giờ nghĩ sẽ gặp ở quốc gia phương nam xa lạ này, song cô vẫn cảm thấy xúc động một cách kỳ lạ khi nhìn thấy cô ta."
+  },
+  {
+    "id": 83,
+    "en": "However, she could not stay just being surprised there. The manner through which Emilia had entered the Empire was an irrational act, something labelled as a misdeed.",
+    "vi": "Thế nhưng, cô không thể cứ đứng ngạc nhiên mãi ở đó. Phương thức thâm nhập vào Đế Quốc của Emilia là một hành vi không hợp lệ, bị coi là phạm pháp."
+  },
+  {
+    "id": 84,
+    "en": "Therefore, she did not want to make that clear to Priscilla unless necessary.",
+    "vi": "Vì vậy, cô không muốn tiết lộ điều đó cho Priscilla trừ khi thật sự cần thiết."
+  },
+  {
+    "id": 85,
+    "en": "But――,",
+    "vi": "Thế nhưng――,"
+  },
+  {
+    "id": 86,
+    "en": "Emilia: [――! Priscilla, look out!]",
+    "vi": "Emilia: [――! Priscilla, cẩn thận!]"
+  },
+  {
+    "id": 87,
+    "en": "Interrupting what she was about to say, Emilia prompted Priscilla to pay heed.",
+    "vi": "Cắt ngang câu nói đang dang dở, Emilia lên tiếng cảnh báo Priscilla chú ý."
+  },
+  {
+    "id": 88,
+    "en": "The next moment, Priscilla, clicking her tongue, bounced away, and a blade―― a Flying Winged Blade, spinning furiously, gouged out the spot she had been at.",
+    "vi": "Ngay giây tiếp theo, Priscilla tặc lưỡi nhảy tránh ra, và một lưỡi đao―― Phi Dực Đao, xoay tròn điên cuồng, khoét sâu vào chỗ cô vừa đứng."
+  },
+  {
+    "id": 89,
+    "en": "The battered, near-collapsed wall, was cleanly sliced away by the sharpness of the blade, and conversely, it was miraculously spared from collapsing. Priscilla, having managed to avoid the blade, landed closer to Emilia this time, right next to her, the hem of her dress fluttering.",
+    "vi": "Bức tường đổ nát tưởng chừng sắp sập bị lưỡi đao sắc bén chém đứt ngọt lịm, và ngược lại, kỳ diệu thay nó vẫn giữ vững mà không đổ sập. Tránh được lưỡi đao, Priscilla đáp xuống gần Emilia hơn, ngay bên cạnh cô, tà váy đỏ phấp phới."
+  },
+  {
+    "id": 90,
+    "en": "And――,",
+    "vi": "Và――,"
+  },
+  {
+    "id": 91,
+    "en": "Madelyn: [One after the other, what the frig' are you people?]",
+    "vi": "Madelyn: [Hết kẻ này đến kẻ khác, lũ các ngươi rốt cuộc là cái quái gì thế hả?]"
+  },
+  {
+    "id": 92,
+    "en": "The girl's voice, full of wrath, reached Emilia as the former caught the returning Flying Winged Blade with a single hand.",
+    "vi": "Giọng nói tràn đầy phẫn nộ của cô bé truyền đến tai Emilia khi cô bé bắt lấy chiếc Phi Dực Đao đang quay trở lại bằng một tay."
+  },
+  {
+    "id": 93,
+    "en": "Looking down towards the destroyed cityscape, amidst it stood a horn-wielding girl, her bright eyes glaring at Emilia and Priscilla standing side-by-side.",
+    "vi": "Nhìn xuống cảnh đổ nát của thành phố, giữa đống vụn vỡ là một cô bé có sừng đang đứng đó, đôi mắt lấp lánh lườm Emilia và Priscilla đang đứng kề vai."
+  },
+  {
+    "id": 94,
+    "en": "It seemed the one standing there was very angry. But Emilia was very angry as well.",
+    "vi": "Dường như kẻ đứng đó đang cực kỳ giận dữ. Nhưng Emilia cũng đang giận dữ cực kỳ."
+  },
+  {
+    "id": 95,
+    "en": "Therefore, Emilia jabbed her finger out toward the girl,",
+    "vi": "Vì vậy, Emilia chỉ thẳng ngón tay về phía cô bé,"
+  },
+  {
+    "id": 96,
+    "en": "Emilia: [My name is Emili… Emily! I'm just a Spiritual Arts User passing through!]",
+    "vi": "Emilia: [Tên tôi là Emili. Emily! Tôi chỉ là một Tinh Linh Thuật Sĩ đi ngang qua thôi!]"
+  },
+  {
+    "id": 97,
+    "en": "Almost giving out her real name in the heat of the moment, Emilia succeeded in giving a false name that had been previously agreed upon. Priscilla's eyes narrowed at Emilia's boldness, and the little girl, to whom Emilia had introduced herself to, muttered, \"Spiritual Arts User…\", with a wary look in her eyes.",
+    "vi": "Suýt chút nữa đã nói ra tên thật trong lúc bối rối, Emilia đã thành công dùng một cái tên giả đã được thống nhất từ trước. Đôi mắt Priscilla nheo lại trước sự bộc trực của Emilia, còn cô bé nghe lời tự giới thiệu lẩm nhẩm: \"Tinh Linh Thuật Sĩ.\" với ánh mắt đầy cảnh giác."
+  },
+  {
+    "id": 98,
+    "en": "Madelyn: [Are you the friggin' same as that doggirl…?]",
+    "vi": "Madelyn: [Ngươi cũng giống như con bé cẩu nhân kia sao.?]"
+  },
+  {
+    "id": 99,
+    "en": "Priscilla: [If Arakiya is the one you are thinking of, she is a Spirit Eater, not a Spiritual Arts User. That would be a misconception, Madelyn Eschart.]",
+    "vi": "Priscilla: [Nếu kẻ ngươi đang nghĩ tới là Arakiya, thì cô ta là Tinh Linh Thực Nhân, chứ không phải Tinh Linh Thuật Sĩ. Ngươi đã nhầm lẫn rồi, Madelyn Eschart.]"
+  },
+  {
+    "id": 100,
+    "en": "Madelyn: [Guh…]",
+    "vi": "Madelyn: [Gự.]"
+  },
+  {
+    "id": 101,
+    "en": "Priscilla’s point was as if she had read the thoughts of the little girl―― of Madelyn, which made the latter’s cheeks become stiff. However, there had been something just now that Emilia could not help but hear more about.",
+    "vi": "Lời vạch trần của Priscilla cứ như thể đã đọc vị được suy nghĩ của cô bé―― của Madelyn, khiến đôi má cô bé cứng đờ. Nhưng, lúc này có một điều khiến Emilia không thể không tò mò tìm hiểu kỹ hơn."
+  },
+  {
+    "id": 102,
+    "en": "Emilia: [What is a Spirit Eater? What do they do with Spirits?]",
+    "vi": "Emilia: [Tinh Linh Thực Nhân là gì vậy? Bọn họ làm gì các Tinh Linh thế?]"
+  },
+  {
+    "id": 103,
+    "en": "Priscilla: [It is exactly as you have heard, she feeds on Spirits. They take their power onto themselves and utilize it to the fullest. It is a practice near extinction, Arakiya being the last remaining user in the Empire.]",
+    "vi": "Priscilla: [Đúng như những gì ngươi vừa nghe đấy, cô ta ăn các Tinh Linh. Bọn họ nuốt chửng sức mạnh của Tinh Linh vào bản thân và sử dụng chúng một cách triệt để. Thuật pháp này gần như đã tuyệt tích, và Arakiya là kẻ sử dụng duy nhất còn sót lại ở Đế Quốc.]"
+  },
+  {
+    "id": 104,
+    "en": "Emilia: [They eat Spirits!? How awful…]",
+    "vi": "Emilia: [Ăn các Tinh Linh sao!? Tàn nhẫn quá.]"
+  },
+  {
+    "id": 105,
+    "en": "For Emilia, a Spiritual Arts User who had forged Contracts with many Micro Spirits herself, this was a bewildering thing to hear.",
+    "vi": "Với Emilia, một Tinh Linh Thuật Sĩ vốn đã tự mình lập Khế Ước với vô số Vi Tinh Linh, chuyện này thật khó lòng chấp nhận."
+  },
+  {
+    "id": 106,
+    "en": "If Puck or Beatrice were to meet a Spirit Eater, would their forms be gobbled up? Just thinking about it made her feel sorry for them.",
+    "vi": "Nếu Puck hay Beatrice chạm mặt một Tinh Linh Thực Nhân, liệu họ có bị nuốt chửng hay không? Chỉ cần nghĩ đến điều đó thôi đã khiến cô thấy xót xa cho họ rồi."
+  },
+  {
+    "id": 107,
+    "en": "However, rather than worrying about such things that had yet to happen, the priority right now, was the problem at hand.",
+    "vi": "Thế mà, thay vì lo lắng về những chuyện chưa xảy ra, ưu tiên hàng đầu lúc này là vấn đề trước mắt."
+  },
+  {
+    "id": 108,
+    "en": "Emilia: [You’re, Madelyn-chan?]",
+    "vi": "Emilia: [Em là Madelyn-chan đúng không?]"
+  },
+  {
+    "id": 109,
+    "en": "Madelyn: […Do not belittle this dragon, you half-devil.]",
+    "vi": "Madelyn: […Đừng có coi thường con rồng này, con bán quỷ kia.]"
+  },
+  {
+    "id": 110,
+    "en": "Emilia: [Then let's talk it through properly, Madelyn. You're the one who's having those flying dragons attack the city. I want you to stop this, right this instant.]",
+    "vi": "Emilia: [Vậy thì hãy nói chuyện nghiêm túc đi, Madelyn. Em là người đã điều khiển lũ phi long tấn công thành phố này. Chị muốn em dừng việc này lại ngay lập tức.]"
+  }
+]

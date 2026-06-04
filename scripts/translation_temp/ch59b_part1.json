@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Machine Translated By:",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 6,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 7,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 8,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 9,
+    "en": "Miles: [――Treasure your life, Flop. Self-sacrifice’s for morons.]",
+    "vi": "Miles: [――Hãy trân quý mạng sống của mình đi, Flop. Tự hi sinh chỉ dành cho lũ ngốc thôi.]"
+  },
+  {
+    "id": 10,
+    "en": "That was the advice Miles, the benefactor who had taken Flop out of a squalid environment, had given him.",
+    "vi": "Đó là lời khuyên mà Miles, vị ân nhân đã đưa Flop ra khỏi môi trường bẩn thỉu nhếch nhác, đã trao cho anh."
+  },
+  {
+    "id": 11,
+    "en": "It appeared that the orphanage where Flop and Medium had spent their childhood was a much worse place than they could have even expected.",
+    "vi": "Hóa ra viện mồ côi nơi Flop và Medium trải qua thời thơ ấu lại là một nơi tồi tệ hơn nhiều so với những gì người ta có thể tưởng tượng."
+  },
+  {
+    "id": 12,
+    "en": "A habitual saying of the grownups at the orphanage was that it was a place for children who had no family, no place to go, and no one to rely on, which provided them with a roof over their heads.",
+    "vi": "Lời cửa miệng của những người lớn ở viện mồ côi là nơi đây đã dang tay che chở cho những đứa trẻ không gia đình, không nơi nương tựa và không ai để dựa dẫm."
+  },
+  {
+    "id": 13,
+    "en": "Caretaker: [You’re blessed compared to so many other children who’ve got nothing to eat and no work to do.]",
+    "vi": "Người quản lý: [Các ngươi đã may mắn hơn biết bao đứa trẻ khác không có gì bỏ bụng và cũng chẳng có việc làm ngoài kia rồi đấy.]"
+  },
+  {
+    "id": 14,
+    "en": "In fact, that was what he also thought.",
+    "vi": "Thực tế, anh cũng từng nghĩ như vậy."
+  },
+  {
+    "id": 15,
+    "en": "For him and his younger sister Medium, having been abandoned by their family, it was a harsh life of going through hell and back. In regards to food, they would eat grass, insects, and the occasional rabbit, which would cause great furor upon being caught. Worst-case scenario, they would have to munch on soil and moss to stave off the hunger.",
+    "vi": "Đối với anh và cô em gái nhỏ Medium, việc bị gia đình bỏ rơi là điểm khởi đầu cho một cuộc sống khắc nghiệt như đi qua địa ngục. Về đồ ăn, họ phải ăn cỏ, côn trùng, và thi thoảng là một con thỏ bắt được trong sự hỗn loạn náo nhiệt. Trong trường hợp tệ nhất, họ phải nhai cả đất và rêu để chống chọi với cơn đói."
+  },
+  {
+    "id": 16,
+    "en": "In comparison, life at the orphanage was much better.",
+    "vi": "So với tình cảnh đó, cuộc sống ở viện mồ côi tốt hơn nhiều."
+  },
+  {
+    "id": 17,
+    "en": "They were given blankets, albeit thin and tattered ones, meals were provided, albeit consisting of tasteless soup with a piece of bread. They were assigned with menial jobs where numbers mattered, and although they were beaten up by adults on a whim, it was only on occasion.",
+    "vi": "Họ được phát chăn, dù chỉ là những tấm chăn mỏng manh rách nát; họ được cung cấp bữa ăn, dù chỉ là món súp nhạt nhẽo đi kèm một mẩu bánh mì. Họ được giao những công việc lặt vặt cần sức người, và đã thỉnh thoảng có bị người lớn đánh đập vô cớ, thì việc đó cũng chỉ diễn ra đôi khi."
+  },
+  {
+    "id": 18,
+    "en": "There was some truth in the grownups’ words of admonishment, that the outside world was much more painful. And so, the idea of running away did not even pop up.",
+    "vi": "Những lời răn đe của người lớn rằng thế giới bên ngoài còn đau đớn hơn nhiều cũng có phần đúng đắn. Vì thế, ý nghĩ bỏ trốn thậm chí chưa từng xuất hiện."
+  },
+  {
+    "id": 19,
+    "en": "Be that as it may, he could not bear to expose Medium and the other children to the punches and kicks of the adults. Thus, Flop learned to act as cheerfully as possible to draw the grownups' attention.",
+    "vi": "Tuy nhiên, anh không thể chịu đựng được cảnh Medium và những đứa trẻ khác phải hứng chịu những cú đấm đá từ người lớn. Thế là, Flop học cách cư xử hoạt bát, vui vẻ nhất có thể để thu hút sự chú ý của họ."
+  },
+  {
+    "id": 20,
+    "en": "Flop made up his mind that, every day, he would be the one to get the most attention from the adults.",
+    "vi": "Flop hạ quyết tâm rằng mỗi ngày, anh phải là kẻ nhận được nhiều sự chú ý từ người lớn nhất."
+  },
+  {
+    "id": 21,
+    "en": "Flop's conspicuousness would make the adults soften their attitude toward the other children. Even on days the adults were in a bad mood, it was Flop who, standing out as he did, would be the first target of the abuse.",
+    "vi": "Sự nổi bật của Flop sẽ khiến người lớn nới lỏng thái độ đối với những đứa trẻ khác. Ngay cả vào những ngày người lớn gắt gỏng, Flop, kẻ nổi bần bật ở đó, sẽ là mục tiêu trút giận đầu tiên."
+  },
+  {
+    "id": 22,
+    "en": "Standing out, was a weapon in its own right.",
+    "vi": "Nổi bật cũng là một loại vũ khí theo cách riêng của nó."
+  },
+  {
+    "id": 23,
+    "en": "Loud voices and gestures, exaggerated facial expressions and mannerisms. Luckily, it was not difficult to establish a habit of doing these things. It seemed that he had a natural talent for drawing attention.",
+    "vi": "Giọng nói lớn và điệu bộ cử chỉ dứt khoát, nét mặt và hành vi phóng đại. May mắn thay, việc rèn luyện thói quen làm những điều này không hề khó khăn. Có vẻ như anh sở hữu tài năng thiên bẩm trong việc thu hút sự chú ý."
+  },
+  {
+    "id": 24,
+    "en": "Flop had shifted the focus of their anger from the younger children towards himself, and had gone through terrible hardships that had left him half dead. It was there, on that night in which Medium had comforted Flop’s wounds all throughout, that he became convinced.",
+    "vi": "Flop đã chuyển hướng cơn thịnh nộ của người lớn từ lũ trẻ nhỏ sang chính mình, trải qua những trận đòn roi tàn khốc khiến anh gần như mất mạng. Chính vào đêm hôm ấy, khi Medium túc trực xoa dịu vết thương cho Flop suốt đêm, anh đã hoàn toàn tin tưởng."
+  },
+  {
+    "id": 25,
+    "en": "This, was the role he had to play in that place.",
+    "vi": "Đây chính là vai trò anh phải đảm nhận ở nơi này."
+  },
+  {
+    "id": 26,
+    "en": "Amidst the excruciating pain, that was what Flop told himself――,",
+    "vi": "Giữa cơn đau đớn dữ dội thể xác, đó là điều Flop tự nhủ với bản thân――,"
+  },
+  {
+    "id": 27,
+    "en": "???: [Of course not, you dimwit.]",
+    "vi": "???: [Tất nhiên là không rồi, đồ ngốc.]"
+  },
+  {
+    "id": 28,
+    "en": "Flop: [Huh…]",
+    "vi": "Flop: [Hả.]"
+  },
+  {
+    "id": 29,
+    "en": "???: [First time I’ve shown my face in goodness knows how many years, and looking at it, it's still the same disgusting place, with the same stupid kids doing the same stupid things. When it comes to crazy kids, Lil’ Balle’s more than enough.]",
+    "vi": "???: [Lần đầu tiên ta ló mặt về đây sau không biết bao nhiêu năm trời, xem ra nó vẫn là cái xó xỉnh tởm lợm như trước, với lũ trẻ ngu xuẩn làm những trò ngu xuẩn y hệt. Khi nói đến mấy đứa nhóc điên rồ, nhóc Lil' Balle là quá đủ rồi.]"
+  },
+  {
+    "id": 30,
+    "en": "Having identified the role he himself should take on, Flop was prepared to shoulder the worst aspects of the orphanage.",
+    "vi": "Khi đã xác định rõ vai trò bản thân phải gánh vác, Flop sẵn sàng đứng mũi chịu sào trước những góc tối tồi tệ nhất của viện mồ côi."
+  },
+  {
+    "id": 31,
+    "en": "However, one night, Flop's plans were shattered abruptly.",
+    "vi": "Thế nhưng vào một đêm nọ, kế hoạch của Flop đột ngột vỡ tan tành."
+  },
+  {
+    "id": 32,
+    "en": "The person who had appeared mounted atop a flying dragon was not a person with a neat appearance, to say the least.",
+    "vi": "Người xuất hiện trên lưng một con phi long tối thiểu không phải là một kẻ có vẻ ngoài chỉn chu gọn gàng."
+  },
+  {
+    "id": 33,
+    "en": "He did not hide his ill-bred and violent nature, and the way he was ruffling his gray hair with irritation made Flop, even as a child, believe that he was the kind of person he would rather not have anything to do with. His features, reminiscent of a subservient rat, also contributed to this impression. A being around whom one should normally keep one's head down to avoid being punched.",
+    "vi": "Gã không hề che giấu bản chất thô lỗ và bạo lực của mình, và cách gã vò mái tóc xám đầy bực dọc khiến Flop, ngay cả khi còn là một đứa trẻ, tin rằng đây là kiểu người mình tốt nhất nên tránh xa. Nét mặt của gã gợi liên tưởng tới một con chuột nhắt luồn cúi, càng củng cố thêm ấn tượng đó. Một kẻ mà bình thường người ta sẽ phải cúi đầu để tránh bị ăn đấm."
+  },
+  {
+    "id": 34,
+    "en": "That person―― Miles, languidly betrayed Flop's unkind impression of him.",
+    "vi": "Người đó―― Miles, đã gạt bỏ ấn tượng thiếu thiện cảm của Flop bằng vẻ uể oải của gã."
+  },
+  {
+    "id": 35,
+    "en": "Miles: [I come from this institution like y'all. Well, it was a horrible place even back then. That's why I got the hell outta here and survived by roughing it out.]",
+    "vi": "Miles: [Ta cũng từ cái viện này mà ra như các ngươi thôi. Chà, hồi đó nó cũng là một nơi kinh tởm rồi. Thế nên ta đã cút xéo khỏi đây và sống sót bằng cách lăn lộn ngoài đời.]"
+  },
+  {
+    "id": 36,
+    "en": "At night, the door to the children's room would be secured with a heavy, metal lock to prevent the kids from sneaking out at a time they were supposed to be sleeping.",
+    "vi": "Vào ban đêm, cửa phòng của lũ trẻ sẽ được khóa chặt bằng một ổ khóa kim loại nặng nề để ngăn chúng lẻn ra ngoài trong giờ ngủ."
+  },
+  {
+    "id": 37,
+    "en": "Having broken the heavy lock quite violently and peeking inside, upon seeing nearly two dozen children crammed into a small room, Miles clicked his tongue with great annoyance.",
+    "vi": "Sau khi phá tan ổ khóa nặng nề một cách thô bạo và nhìn vào bên trong, chứng kiến gần hai mươi đứa trẻ nhồi nhét trong một căn phòng nhỏ hẹp, Miles tặc lưỡi đầy khó chịu."
+  },
+  {
+    "id": 38,
+    "en": "He then escorted the children, startled and frightened by the appearance of an unfamiliar adult, out of the room; leaving them with a single word, “Wait”, he headed for the adults' room.",
+    "vi": "Gã liền dẫn lũ trẻ, vốn đang giật mình và sợ hãi trước sự xuất hiện của một người lớn xa lạ, ra khỏi phòng; để lại cho chúng một từ duy nhất \"Đợi đấy\", gã hướng thẳng về phía phòng của những người lớn."
+  },
+  {
+    "id": 39,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 40,
+    "en": "Miles: [I was straddling the line between life and death day-after-day, but eventually my fortunes started picking up. Then, years later, I remembered our house of abominations and found… this.]",
+    "vi": "Miles: [Ta từng phải cận kề giữa ranh giới sinh tử ngày qua ngày, nhưng cuối cùng vận may cũng bắt đầu mỉm cười. Thế rồi, nhiều năm sau, ta nhớ lại căn nhà tởm lợm này và tìm thấy. thứ này.]"
+  },
+  {
+    "id": 41,
+    "en": "Rolling the tied-up adults on the floor of the room around, and kicking them in the face while he insulted them as ingrates, Miles smiled vulgarly and spat, saying \"Serves you right\".",
+    "vi": "Lăn lộn những người lớn bị trói chặt trên sàn nhà, và đá thẳng vào mặt họ trong khi lăng mạ họ là lũ vô ơn, Miles cười tục tĩu và nhổ nước bọt nói \"Đáng đời các ngươi lắm\"."
+  },
+  {
+    "id": 42,
+    "en": "These children must have had a very hard time with the adults. That said, Flop could not help but tilt his head and wonder if he should be going to such extremes.",
+    "vi": "Lũ trẻ chắc hẳn đã phải trải qua những ngày tháng khốn khổ dưới tay người lớn. dù vậy, Flop không khỏi nghiêng đầu tự hỏi liệu gã có cần phải làm đến mức cực đoan như thế không."
+  },
+  {
+    "id": 43,
+    "en": "Turning to Flop, Miles raised his thin eyebrows, and stated,",
+    "vi": "Quay sang Flop, Miles nhướng đôi lông mày mỏng lên và nói,"
+  },
+  {
+    "id": 44,
+    "en": "Miles: [What, you wanna join in as well? Then go ahead and get even. Get even, a hundred times over.]",
+    "vi": "Miles: [Sao, ngươi cũng muốn tham gia à? Thế thì cứ việc xông vào mà đòi nợ đi. Đòi lại gấp trăm lần vào.]"
+  },
+  {
+    "id": 45,
+    "en": "Flop: [Oh, no, I'm not …]",
+    "vi": "Flop: [Ồ, không, tôi không.]"
+  },
+  {
+    "id": 46,
+    "en": "Miles: [――Come on!!]",
+    "vi": "Miles: [――Nhào vô đi!!]"
+  },
+  {
+    "id": 47,
+    "en": "Miles' fiendish whisper made Flop hesitate in his response.",
+    "vi": "Lời thì thầm quỷ quyệt của Miles khiến Flop ngập ngừng trong câu trả lời."
+  },
+  {
+    "id": 48,
+    "en": "Only for Medium to then jump out from behind Flop, and proceed to punch the head of a tied-up adult without hesitation, using a branch she had picked up. ――No, it was not merely Medium.",
+    "vi": "Thế nhưng Medium lập tức nhảy vọt ra từ phía sau Flop, cầm một cành cây nhặt được lao tới nện thẳng vào đầu một người lớn đang bị trói không chút chần chừ. ――Không, đâu chỉ có mỗi Medium."
+  },
+  {
+    "id": 49,
+    "en": "All the children, except for a stunned Flop, became enraged renegades.",
+    "vi": "Tất cả lũ trẻ, ngoại trừ một Flop đang đứng chết lặng, đều biến thành những kẻ nổi loạn giận dữ."
+  },
+  {
+    "id": 50,
+    "en": "???: [You were always hurting us!]",
+    "vi": "???: [Các người luôn làm tổn thương chúng tôi!]"
+  },
+  {
+    "id": 51,
+    "en": "???: [I hate you!]",
+    "vi": "???: [Tôi ghét các người!]"
+  },
+  {
+    "id": 52,
+    "en": "Medium: [This is for big bro!]",
+    "vi": "Medium: [Cái này là trả thù cho anh trai!]"
+  },
+  {
+    "id": 53,
+    "en": "Stop stop, so went the screams of the adults, bound and unable to resist, drowned by the children’s screams of rage.",
+    "vi": "Dừng lại, dừng lại đi, những tiếng la hét của người lớn bị trói không thể phản kháng vang lên, nhưng tất cả đều bị nhấn chìm bởi tiếng thét phẫn nộ của lũ trẻ."
+  },
+  {
+    "id": 54,
+    "en": "They clawed at the grownups’ faces, slapped them on the cheeks, and finally urinated on them, their pent-up anger exploding.",
+    "vi": "Chúng cào cấu vào mặt người lớn, tát vào má họ, và cuối cùng là tiểu tiện lên người họ, trút sạch cơn giận dồn nén bấy lâu."
+  },
+  {
+    "id": 55,
+    "en": "Miles: [Bwahahaha! Look at their faces! What a masterpiece!]",
+    "vi": "Miles: [Ha ha! Nhìn mặt tụi nó kìa! Đúng là một kiệt tác!]"
+  },
+  {
+    "id": 56,
+    "en": "Flop, dumbfounded, watched the mutiny of his little sister and the other children, while Miles laughed hysterically at the vulgarity of it all.",
+    "vi": "Flop, há hốc mồm kinh ngạc, chứng kiến cuộc nổi loạn của cô em gái nhỏ và những đứa trẻ khác, trong khi Miles cười nắc nẻ trước sự hỗn tạp của cảnh tượng đó."
+  },
+  {
+    "id": 57,
+    "en": "Flop really could not bring himself to laugh at it. He just kept darting his eyes about as the others made the adults go through all this, wondering what would happen to them now.",
+    "vi": "Flop thực sự không thể cười nổi. Anh chỉ biết đưa mắt nhìn dáo dác khi những người khác bắt người lớn trải qua tất cả những chuyện này, tự hỏi chuyện gì sẽ xảy ra với họ từ giờ trở đi."
+  },
+  {
+    "id": 58,
+    "en": "Miles: [Well then, now do as you like… Or that’s what I’d like to say, but I dunno if Countess Dracroy’s gonna flip her shit at me if I abandon y’all.]",
+    "vi": "Miles: [Được rồi, giờ thì muốn làm gì thì tùy. Ta định nói vậy đấy, nhưng ta không biết liệu Nữ Bá Tước Dracroy có nổi trận lôi đình với ta nếu ta bỏ mặc các ngươi hay không.]"
+  },
+  {
+    "id": 59,
+    "en": "Looking around at the children after the conclusion of their emotional rebellion, Miles addressed his young juniors, now outside the facility. Continuing with \"And so\",",
+    "vi": "Nhìn quanh lũ trẻ sau khi cuộc nổi loạn cảm xúc kết thúc, Miles trò chuyện với những hậu bối nhỏ tuổi của mình, lúc này đã đứng ngoài viện. Tiếp nối bằng câu \"Vì thế\","
+  },
+  {
+    "id": 60,
+    "en": "Miles: [For now, I'm gonna take you to the Countess. You can do whatever you wanna after that. You don’t really need to follow me tho’.]",
+    "vi": "Miles: [Trước mắt, ta sẽ đưa các ngươi đến chỗ Nữ Bá Tước. Sau đó các ngươi muốn làm gì thì làm. Nhưng không nhất thiết phải đi theo ta đâu.]"
+  },
+  {
+    "id": 61,
+    "en": "Receiving Miles’s crude invitation, the children looked at one another.",
+    "vi": "Nhận lời mời cộc lốc của Miles, lũ trẻ nhìn nhau."
+  },
+  {
+    "id": 62,
+    "en": "Anxiety and perplexity emerged in their faces. Miles had stated that they were free to follow him or not, but that was a \"choice\" that neither Flop, nor the other children, had ever had before.",
+    "vi": "Sự lo âu và bối rối hiện rõ trên khuôn mặt chúng. Miles nói chúng có quyền đi theo gã hoặc không, nhưng đó lại là một \"sự lựa chọn\" mà cả Flop lẫn những đứa trẻ khác chưa bao giờ có được trước đây."
+  },
+  {
+    "id": 63,
+    "en": "Never had they possessed the right to choose anything, having followed the instructions of adults their entire lives. Therefore, upon suddenly being gifted that right, they were thrown into a state of confusion.",
+    "vi": "Chưa bao giờ họ có quyền tự quyết định bất cứ điều gì, cả đời chỉ biết tuân theo chỉ thị của người lớn. Vì vậy, khi đột ngột được ban tặng quyền lợi đó, bọn họ rơi vào trạng thái hoang mang tột độ."
+  },
+  {
+    "id": 64,
+    "en": "Towards the children’s hesitation, Miles shrugged his shoulders with an \"Oioi\",",
+    "vi": "Trước sự ngập ngừng của lũ trẻ, Miles nhún vai tặc lưỡi \"Này này\","
+  },
+  {
+    "id": 65,
+    "en": "Miles: [It’s a lil’ too late now, how pitiful. ――You've already made them pay their dues. You guys can choose what you wanna do.]",
+    "vi": "Miles: [Giờ thì hơi muộn rồi đấy, thật đáng thương làm sao. ――Các ngươi đã bắt chúng phải trả giá rồi. Giờ các ngươi có thể tự chọn việc mình muốn làm.]"
+  },
+  {
+    "id": 66,
+    "en": "Only once Miles stated so, did the children realize it for the first time.",
+    "vi": "Chỉ khi Miles nói thế, lũ trẻ mới lần đầu tiên nhận thức được."
+  },
+  {
+    "id": 67,
+    "en": "Just as Miles had said, they had already chosen to rebel.",
+    "vi": "Đúng như Miles đã nói, bọn chúng vốn đã chọn nổi loạn rồi."
+  },
+  {
+    "id": 68,
+    "en": "――When all was done and dusted, none of the children opted to stay in the orphanage.",
+    "vi": "――Khi mọi chuyện đã xong xuôi ổn thỏa, không một đứa trẻ nào lựa chọn ở lại viện mồ côi."
+  },
+  {
+    "id": 69,
+    "en": "Of course, although he had not been complicit, Flop could not say that he would stay in the orphanage that had wronged him as such. To begin with, Medium was quick to accept Miles's invitation, saying, \"I'll go!”, urging Flop to join her as well, voicing out, \"Let's go!”.",
+    "vi": "Tất nhiên cũng không tham gia đồng lõa, Flop cũng không thể nói rằng mình sẽ tiếp tục ở lại nơi đã đối xử tệ bạc với anh như thế. Ngay từ đầu, Medium đã nhanh chóng nhận lời mời của Miles: \"Em đi chứ!\" và thúc giục Flop đi cùng: \"Đi thôi anh!\"."
+  },
+  {
+    "id": 70,
+    "en": "There was no way Flop could refuse Medium's wish, or choose to part ways with his sister. For these reasons, a tad more passive compared to those of the other kids, Flop left the facility.",
+    "vi": "Flop không thể từ chối nguyện vọng của Medium, hay chọn cách chia cắt với em gái mình. Vì những lý do có phần bị động hơn so với lũ trẻ khác, Flop đã rời bỏ viện mồ côi."
+  },
+  {
+    "id": 71,
+    "en": "He had done something outrageous.",
+    "vi": "Anh đã làm một chuyện động trời."
+  },
+  {
+    "id": 72,
+    "en": "Or, perhaps, he had gotten himself involved in something quite outrageous; regret tormented his heart.",
+    "vi": "Hoặc có lẽ, anh đã tự vướng vào một rắc rối cực kỳ nghiêm trọng; sự hối hận giằng xé tâm can anh."
+  },
+  {
+    "id": 73,
+    "en": "However――,",
+    "vi": "Tuy nhiên――,"
+  },
+  {
+    "id": 74,
+    "en": "Medium: [Good night, big bro.]",
+    "vi": "Medium: [Chúc anh ngủ ngon, anh hai.]"
+  },
+  {
+    "id": 75,
+    "en": "On their way to Miles’s master or whatever, the words hit him as he and his sister slept somewhere without a roof, wrapped in blankets brought from the facility.",
+    "vi": "Trên đường đến chỗ chủ nhân của Miles hay bất cứ nơi nào, những lời nói đó vang lên khi anh và em gái ngủ ở một góc lộ thiên không mái che, quấn trong những tấm chăn mang theo từ viện."
+  },
+  {
+    "id": 76,
+    "en": "The sight of his sister, who abandoned herself to her relief. The view outside, devoid of the prison called shelter.",
+    "vi": "Nhìn bóng hình em gái, người đang chìm sâu vào sự nhẹ nhõm. Cảnh sắc bên ngoài không còn chốn giam cầm mang danh mái ấm."
+  },
+  {
+    "id": 77,
+    "en": "He realized that no longer did he have to worry about being beaten or about his sister being brought to tears.",
+    "vi": "Anh nhận ra rằng mình không còn phải lo lắng về việc bị đánh đập hay cảnh em gái phải khóc ròng nữa."
+  },
+  {
+    "id": 78,
+    "en": "Flop: [――Sniff.]",
+    "vi": "Flop: [――Sụt sịt.]"
+  },
+  {
+    "id": 79,
+    "en": "And on noticing that, Flop cried.",
+    "vi": "Và khi nhận thức được điều đó, Flop đã khóc."
+  },
+  {
+    "id": 80,
+    "en": "He cried and cried and cried, savoring the salty taste of his freedom.",
+    "vi": "Anh khóc và khóc, nhấm nháp vị mặn chát của sự tự do."
+  },
+  {
+    "id": 81,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 82,
+    "en": "――In the distance, wings flapping, flying dragons flew away, out into the gray cloud-covered sky.",
+    "vi": "――Phía đằng xa, vỗ rộng cánh bay, đàn phi long cất cánh bay đi, hướng về bầu trời xám xịt giăng mây phủ."
+  },
+  {
+    "id": 83,
+    "en": "Zikr remained watchful until the distant shadow was as small as a pea, lest it be a prelude to the next attack, and only then did he relax his body.",
+    "vi": "Zikr vẫn tiếp tục cảnh giác cho đến khi bóng đen phía xa nhỏ lại như hạt đậu, đề phòng đó là màn dạo đầu cho đợt tấn công tiếp theo, rồi mới thả lỏng cơ thể."
+  },
+  {
+    "id": 84,
+    "en": "For reasons unknown, the flock of flying dragons had retreated. Since the City Hall had not completely fallen, there were two possible reasons for the retreat―― either they had achieved the objective of their operation, or they had found themselves unable to accomplish it.",
+    "vi": "Vì lý do chưa rõ, đàn phi long đã rút lui. Khi Tòa Thị Chính chưa hoàn toàn sụp đổ, có hai nguyên nhân khả thi cho sự thoái lui này―― hoặc chúng đã hoàn thành mục tiêu của chiến dịch, hoặc chúng nhận thấy bản thân không thể thực hiện được mục tiêu đó."
+  },
+  {
+    "id": 85,
+    "en": "From Zikr's perspective, the former was preferable.",
+    "vi": "Dưới góc nhìn của Zikr, giả thuyết trước có phần dễ chịu hơn."
+  },
+  {
+    "id": 86,
+    "en": "Taking the dramatic events that had taken place during the intense assault, lasting only an hour or so into account, objectively, it seemed that the former was more likely.",
+    "vi": "Xét đến chuỗi sự kiện kịch tính diễn ra trong suốt đợt oanh tạc ác liệt chỉ kéo dài chừng một giờ đồng hồ, về mặt khách quan, có vẻ khả năng trước dễ xảy ra hơn."
+  },
+  {
+    "id": 87,
+    "en": "Zikr: [A sharp drop in temperature, and catastrophic damage to the southern part of the city…]",
+    "vi": "Zikr: [Nhiệt độ giảm mạnh, và thiệt hại thảm khốc ở phía nam thành phố.]"
+  },
+  {
+    "id": 88,
+    "en": "Running a hand through his own abundantly bushy hair, Zikr touched upon two anomalies that he could not put a finger on.",
+    "vi": "Vuốt bàn tay qua mái tóc rậm rạp của mình, Zikr đề cập đến hai điểm bất thường mà anh không thể lý giải nổi."
+  },
+  {
+    "id": 89,
+    "en": "During the battle, the temperature within the Fortress City had dropped in the blink of an eye, and then, once white snow began floating down, he doubted his eyes. Apparently snow was sometimes seen atop high, very high mountains, but if one were to see snow in Vollachia, the occurrence would be expected to be accompanied by some sort of natural disaster.",
+    "vi": "Trong trận chiến, nhiệt độ ở Thành Phố Pháo Đài đã hạ thấp chỉ trong nháy mắt, và rồi khi tuyết trắng bắt đầu nhẹ rơi xuống, anh còn nghi ngờ đôi mắt của chính mình. Rõ ràng tuyết đôi khi xuất hiện trên đỉnh những ngọn núi cao, rất cao, nhưng nếu người ta thấy tuyết ở Vollachia, sự kiện đó thường sẽ đi kèm với một loại thiên tai nào đó."
+  },
+  {
+    "id": 90,
+    "en": "In other words, the snowfall that had occurred during the battle was nothing short of a natural disaster.",
+    "vi": "Nói cách khác, trận tuyết rơi diễn ra trong cuộc chiến không khác gì một thảm họa thiên nhiên."
+  },
+  {
+    "id": 91,
+    "en": "But that in itself had worked out to be fortuitous, for Zikr and the others.",
+    "vi": "Thế nhưng chính điều đó lại là sự may mắn đối với Zikr và những người khác."
+  },
+  {
+    "id": 92,
+    "en": "Sudden changes in temperature made flying dragons vulnerable, even more so when it became colder. Their troublesome ability to fly had been noticeably reduced. Without it, the damage would have been much greater and more profound.",
+    "vi": "Sự thay đổi nhiệt độ đột ngột khiến loài phi long trở nên suy yếu, nhất là khi trời lạnh hơn. Năng lực bay lượn phiền phức của chúng bị suy giảm thấy rõ. Nếu không có chuyện đó, thiệt hại chắc chắn sẽ lớn và sâu sắc hơn rất nhiều."
+  },
+  {
+    "id": 93,
+    "en": "However――,",
+    "vi": "Song――,"
+  },
+  {
+    "id": 94,
+    "en": "Zikr: [What in the world was that white light…?]",
+    "vi": "Zikr: [Luồng sáng trắng ban nãy rốt cuộc là cái gì thế.?]"
+  },
+  {
+    "id": 95,
+    "en": "Uncontrollable destruction had obliterated the southern part of the city flat.",
+    "vi": "Sự hủy diệt không thể ngăn cản đã san phẳng khu vực phía nam thành phố."
+  },
+  {
+    "id": 96,
+    "en": "It was something of an end-of-the-world spectacle, even the term \"natural disaster\" was insufficient to describe it. Even though no further damage had followed, the city had been dealt a painful blow by that single blast.",
+    "vi": "Đó là cảnh tượng tựa như ngày thế giới lụi tàn, ngay cả thuật ngữ \"thiên tai\" cũng không đủ để mô tả nó. Mặc dù không có thêm thiệt hại nào sau đó, thành phố đã phải hứng chịu một đòn đau đớn từ phát bắn duy nhất đó."
+  },
+  {
+    "id": 97,
+    "en": "The chain of command had been thrown into disarray, causing the evaluation of the battle status to be delayed. Had the flying dragons pressed on as they were, it was possible that the city would have gradually fallen.",
+    "vi": "Hệ thống chỉ huy bị xáo trộn, khiến việc đánh giá tình trạng chiến đấu bị trì hoãn. Nếu đàn phi long cứ tiếp tục dồn ép như cũ, khả năng thành phố dần dần thất thủ hoàn toàn có thể xảy ra."
+  },
+  {
+    "id": 98,
+    "en": "For that reason, it was fortuitous and strange that the flock of flying dragons had retreated.",
+    "vi": "Vì lẽ đó, việc đàn phi long thoái lui vừa là sự may mắn vừa là điều vô cùng kỳ lạ."
+  },
+  {
+    "id": 99,
+    "en": "Consequently, Zikr speculated it may have had something to do with their enemies.",
+    "vi": "Hệ quả là, Zikr suy đoán chuyện này có thể liên quan đến kẻ thù của họ."
+  },
+  {
+    "id": 100,
+    "en": "Had someone struck a crushing blow to the enemy in place of Zikr and his men, who were forced to defend the city? In that case, the most likely candidates would be Mizelda, the leader of the Shudraqians, or Priscilla, who had a proven record of defeating Arakiya, a General First-Class.",
+    "vi": "Phải chăng có ai đó đã giáng một đòn chí mạng vào kẻ địch thay cho Zikr và binh lính của anh, những người vốn bị buộc phải phòng thủ thành phố? Nếu vậy, những ứng viên có thể nhất sẽ là Mizelda, thủ lĩnh tộc Shudraq, hoặc Priscilla, người đã có thành tích đánh bại Nhất Đẳng Tướng Quân Arakiya."
+  }
+]

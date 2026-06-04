@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Machine Translated By:",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 6,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 7,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi nhất một dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 8,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 9,
+    "en": "Vincent: [――Yorna Mishigure must abdicate the Demon City in an attempt to destroy the Great Disaster. The Soul Marriage Technique might succeed in this, but there is no guarantee.]",
+    "vi": "Vincent: [――Yorna Mishigure phải từ bỏ Thành phố Quỷ để cố gắng tiêu diệt Great Disaster. Soul Marriage Technique có thể thành công trong việc này, nhưng không có gì bảo đảm.]"
+  },
+  {
+    "id": 10,
+    "en": "Tanza: […Supposing the Demon City were offered, and it’s not enough…]",
+    "vi": "Tanza: […Giả sử dâng nộp Thành phố Quỷ mà vẫn không đủ…]"
+  },
+  {
+    "id": 11,
+    "en": "Vincent: [If that does come to pass, the Great Disaster, with no way to stop it, shall threaten to engulf the entire Empire, or perhaps even more, spreading outside its borders. With the Demon City as its epicenter.]",
+    "vi": "Vincent: [Nếu chuyện đó xảy ra, Great Disaster, không còn cách nào ngăn chặn, sẽ đe dọa nuốt chửng toàn bộ Đế quốc, hoặc thậm chí xa hơn thế, lan rộng ra ngoài biên giới. Với Thành phố Quỷ là tâm chấn.]"
+  },
+  {
+    "id": 12,
+    "en": "Tanza: [――――]",
+    "vi": "Tanza: [――――]"
+  },
+  {
+    "id": 13,
+    "en": "Vincent: [――――]",
+    "vi": "Vincent: [――――]"
+  },
+  {
+    "id": 14,
+    "en": "Tanza: [Yorna-sama will not approve of giving up this city.]",
+    "vi": "Tanza: [Yorna-sama sẽ không chấp thuận từ bỏ thành phố này.]"
+  },
+  {
+    "id": 15,
+    "en": "Vincent: [This is not a situation for sentimentality. Regardless of whether you want it or not, the city shall be abandoned. In the first place, it is not up to me to persuade you to do so.]",
+    "vi": "Vincent: [Đây không phải lúc để ủy mị. Dù có muốn hay không, thành phố này vẫn sẽ bị bỏ hoang. Ngay từ đầu, việc thuyết phục cô ta không thuộc về trách nhiệm của ta.]"
+  },
+  {
+    "id": 16,
+    "en": "Tanza: [You believe he can convince Yorna-sama?]",
+    "vi": "Tanza: [Ngài tin cậu ta có thể thuyết phục được Yorna-sama?]"
+  },
+  {
+    "id": 17,
+    "en": "Vincent: [If he cannot, everything shall turn to dust. If he must, he shall undertake it. That is the type of person he is, he has maintained that way of being since forever.]",
+    "vi": "Vincent: [Nếu không thể, tất cả sẽ tan thành tro bụi. Nếu buộc phải làm, cậu ta sẽ thực hiện. Cậu ta chính là kiểu người như vậy, xưa nay luôn duy trì cách sống đó.]"
+  },
+  {
+    "id": 18,
+    "en": "Tanza: […I don't understand. If you know that much, and are so sure about him, what do you want from me?]",
+    "vi": "Tanza: […Tôi không hiểu. Nếu ngài biết nhiều và chắc chắn về cậu ta như vậy, ngài còn muốn gì ở tôi?]"
+  },
+  {
+    "id": 19,
+    "en": "Vincent: [You should already be aware of what I intend. You are young, but you are in a position to be utilized plenty by the ruler of the Demon City.]",
+    "vi": "Vincent: [Ngươi chắc cũng tự hiểu ý đồ của ta. Ngươi tuy còn nhỏ tuổi, nhưng lại ở vị trí có thể được kẻ trị vì Thành phố Quỷ trọng dụng rất nhiều.]"
+  },
+  {
+    "id": 20,
+    "en": "Tanza: [――――]",
+    "vi": "Tanza: [――――]"
+  },
+  {
+    "id": 21,
+    "en": "Vincent: [In case the Great Disaster is not destroyed, Yorna Mishigure shall suffer tremendously. The Demon City shall be used against a Great Disaster that has yet to develop fully, but if that does not suffice――]",
+    "vi": "Vincent: [Trong trường hợp Great Disaster không bị tiêu diệt, Yorna Mishigure sẽ phải gánh chịu đau khổ tột cùng. Thành phố Quỷ sẽ được dùng để chống lại Great Disaster chưa phát triển hoàn chỉnh, nhưng nếu điều đó vẫn chưa đủ――]"
+  },
+  {
+    "id": 22,
+    "en": "Tanza: [――I…]",
+    "vi": "Tanza: [――Tôi…]"
+  },
+  {
+    "id": 23,
+    "en": "Vincent: [――――]",
+    "vi": "Vincent: [――――]"
+  },
+  {
+    "id": 24,
+    "en": "Tanza: [Yorna-sama… For Yorna Mishigure’s sake, the most magnificent among all, a lady akin to a compassionate mother, For that far away love I am to die a martyr's death, I assume.]",
+    "vi": "Tanza: [Yorna-sama… Vì lợi ích của Yorna Mishigure vĩ đại nhất, một phu nhân tựa như người mẹ nhân từ, tôi sẵn sàng tử vì đạo vì tình yêu xa xôi ấy, tôi đoán vậy.]"
+  },
+  {
+    "id": 25,
+    "en": "Vincent: [――. It is a grand undertaking.]",
+    "vi": "Vincent: [――. Đó là một nghĩa cử cao đẹp.]"
+  },
+  {
+    "id": 26,
+    "en": "Tanza: [I do not need consolation nor compliments. ――Except, Yorna-sama’s tears.]",
+    "vi": "Tanza: [Tôi không cần lời an ủi hay ca tụng. ――Ngoại trừ giọt lệ của Yorna-sama.]"
+  },
+  {
+    "id": 27,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 28,
+    "en": "Yorna: [――Don’t!]",
+    "vi": "Yorna: [――Đừng!]"
+  },
+  {
+    "id": 29,
+    "en": "Tanza ran with Yorna's voice behind her, the latter reaching out her hand, shouting with a pained expression on her face.",
+    "vi": "Tanza chạy đi khi giọng nói của Yorna vang lên phía sau, phu nhân vươn tay ra, hét lên với vẻ mặt đầy đau đớn."
+  },
+  {
+    "id": 30,
+    "en": "Pitching forward, Tanza nimbly kicked the ground, her right eye blazing red, her young body filled with strength that even heavily-armored Imperial Soldiers would be unable to match.",
+    "vi": "Lao mình về phía trước, Tanza thoăn thoắt dậm chân lên mặt đất, con mắt bên phải rực cháy sắc đỏ, cơ thể nhỏ nhắn tràn đầy sức mạnh mà ngay cả những Binh lính Đế quốc giáp trụ đầy mình cũng không thể bì kịp."
+  },
+  {
+    "id": 31,
+    "en": "She was no exceptional fighter, nor did she excel in magic or special techniques.",
+    "vi": "Cô bé không phải là một chiến binh xuất chúng, cũng chẳng giỏi ma pháp hay những bí thuật đặc biệt."
+  },
+  {
+    "id": 32,
+    "en": "Still, no one could stop her current self.",
+    "vi": "Dù vậy, vào lúc này không ai có thể ngăn cản nổi cô bé."
+  },
+  {
+    "id": 33,
+    "en": "The reason for that was that she was aware of being loved by Yorna, more loved than anyone else was.",
+    "vi": "Lý do là bởi cô bé biết mình được Yorna yêu thương, được yêu thương nhiều hơn bất kỳ ai khác."
+  },
+  {
+    "id": 34,
+    "en": "She supported Yorna by her side, was given affection, spoken to, helped, thought of, prayed for.",
+    "vi": "Cô bé ở bên cạnh hỗ trợ Yorna, được phu nhân trao gửi tình thương, trò chuyện, giúp đỡ, quan tâm, và cầu nguyện cho."
+  },
+  {
+    "id": 35,
+    "en": "To love Yorna, and to be loved by Yorna, were the necessary qualifications to receive the maximum benefits of the Soul Marriage Technique―― yet Tanza's love for Yorna was not out of self-interest.",
+    "vi": "Yêu thương Yorna, và được Yorna yêu thương, chính là những điều kiện cần thiết để nhận được lợi ích tối đa từ Soul Marriage Technique―― thế nhưng tình yêu Tanza dành cho Yorna không hề xuất phát từ tư lợi."
+  },
+  {
+    "id": 36,
+    "en": "One may perhaps say that love requested naught in return, speaking with a know-it-all look.",
+    "vi": "Có kẻ nói với vẻ thông thái rằng tình yêu chân chính không cần hồi báo."
+  },
+  {
+    "id": 37,
+    "en": "However, Tanza believed in that. ――She believed that the feeling of loving someone was in itself a reward.",
+    "vi": "Nhưng Tanza tin vào điều đó. ――Cô bé tin rằng cảm xúc yêu thương một ai đó bản thân nó đã là một phần thưởng."
+  },
+  {
+    "id": 38,
+    "en": "The thought of that person and the beating of their heart was the reward for love.",
+    "vi": "Nghĩ về người đó và nhịp đập con tim của họ chính là phần thưởng của tình yêu."
+  },
+  {
+    "id": 39,
+    "en": "Then Tanza had to reciprocate it, with all of her little body, in return for what she had received.",
+    "vi": "Vì thế Tanza phải đáp lại điều đó, bằng toàn bộ cơ thể nhỏ bé của mình, để đền đáp những gì đã nhận được."
+  },
+  {
+    "id": 40,
+    "en": "That was exactly――,",
+    "vi": "Đó chính là――"
+  },
+  {
+    "id": 41,
+    "en": "Tanza: [The reason why I was given this life.]",
+    "vi": "Tanza: [Lý do tôi được ban tặng sinh mệnh này.]"
+  },
+  {
+    "id": 42,
+    "en": "The first time Tanza was granted audience with Yorna, having been driven away from someplace else, she was far too young. Concealed behind her kind older sister’s back, unable to do anything besides looking up towards Yorna and her dignified conduct.",
+    "vi": "Lần đầu tiên Tanza được diện kiến Yorna sau khi bị xua đuổi khỏi nơi khác, cô bé còn quá nhỏ. Nép mình sau lưng người chị gái dịu dàng, cô bé chẳng thể làm gì ngoài ngước nhìn Yorna và phong thái uy nghiêm của phu nhân."
+  },
+  {
+    "id": 43,
+    "en": "But, for the first time in her life, she had been promised that she could live her days without being threatened by anyone. Believing in that promise, she had thoughts more than fleeting about spending her days with her older sister.",
+    "vi": "Nhưng, lần đầu tiên trong đời, cô bé được hứa hẹn rằng mình có thể sống những ngày tháng mà không bị bất kỳ ai đe dọa. Tin tưởng vào lời hứa đó, cô bé đã có những suy nghĩ thoáng qua về việc trải qua những ngày tháng yên bình bên chị gái."
+  },
+  {
+    "id": 44,
+    "en": "The second time she was granted audience with Yorna, having had her older sister stolen by horrible things, Tanza snapped at Yorna in desperation; however, Yorna did not reproach her.",
+    "vi": "Lần thứ hai diện kiến Yorna, sau khi người chị bị cướp đi bởi những thứ kinh hoàng, Tanza đã gào thét vào mặt Yorna trong tuyệt vọng; tuy nhiên, Yorna không hề trách phạt cô bé."
+  },
+  {
+    "id": 45,
+    "en": "On the contrary, she listened sincerely to Tanza's pleas and even helped to avenge her lost sister's death. ――Even if she would be stigmatized as a rebel, in return.",
+    "vi": "Ngược lại, phu nhân chân thành lắng nghe lời cầu xin của Tanza và thậm chí còn giúp báo thù cho người chị đã khuất. ――Dù cho đổi lại, phu nhân sẽ bị mang danh là kẻ phản nghịch."
+  },
+  {
+    "id": 46,
+    "en": "Why, should she not love her?",
+    "vi": "Tại sao cô bé lại không yêu thương phu nhân cho được?"
+  },
+  {
+    "id": 47,
+    "en": "A kind person, who had given so much love and compassion to Tanza priorly.",
+    "vi": "Một người nhân từ, đã trao cho Tanza biết bao tình yêu thương và lòng trắc ẩn từ trước tới nay."
+  },
+  {
+    "id": 48,
+    "en": "She wept at the death of Tanza's older sister, regretted being unable to keep her promise, and apologized to Tanza.",
+    "vi": "Phu nhân đã khóc trước cái chết của chị gái Tanza, hối tiếc vì không thể giữ lời hứa, và xin lỗi cô bé."
+  },
+  {
+    "id": 49,
+    "en": "――Why, should she not love her?",
+    "vi": "――Tại sao cô bé lại không yêu thương phu nhân cho được?"
+  },
+  {
+    "id": 50,
+    "en": "Tanza: [――――]",
+    "vi": "Tanza: [――――]"
+  },
+  {
+    "id": 51,
+    "en": "In front of her, she could observe a horrifying, writhing black mass of stagnation gathering behind a plume of smoke.",
+    "vi": "Trước mặt cô bé, một khối đen ngòm ngọ nguậy đầy uế khí đang tụ lại sau làn khói bụi mù mịt."
+  },
+  {
+    "id": 52,
+    "en": "The city beloved by Yorna had been destroyed, and yet her stubborn persistence remained unshattered. Tanza was not intimidated by the darkness that made everyone wish to avert their gaze from itself.",
+    "vi": "Thành phố mà Yorna yêu quý đã bị hủy diệt, song ý chí kiên định của phu nhân vẫn chưa hề lay chuyển. Tanza không hề sợ hãi trước bóng tối khiến bất kỳ ai cũng muốn lánh mắt đi kia."
+  },
+  {
+    "id": 53,
+    "en": "If fear was a reason to falter, then that was not what ruled Tanza's heart.",
+    "vi": "Nếu nỗi sợ là lý do để chùn bước, thì đó không phải là thứ trong trái tim Tanza."
+  },
+  {
+    "id": 54,
+    "en": "Accordingly, Tanza jumped forward using the debris as footing, pushing headlong into the flickering Great Disaster.",
+    "vi": "Theo đó, Tanza dậm chân nhảy lên các mảnh vụn, lao thẳng vào Great Disaster đang chập chờn trước mắt."
+  },
+  {
+    "id": 55,
+    "en": "If she turned around, it would become a lingering attachment. She knew it would in turn become a curse.",
+    "vi": "Nếu quay đầu lại, nó sẽ trở thành nỗi vương vấn. Cô bé biết điều đó sẽ biến thành một lời nguyền."
+  },
+  {
+    "id": 56,
+    "en": "But――,",
+    "vi": "Nhưng――"
+  },
+  {
+    "id": 57,
+    "en": "Yorna: [Tanza――!]",
+    "vi": "Yorna: [Tanza――!]"
+  },
+  {
+    "id": 58,
+    "en": "Hearing the one she loved calling out her name, Tanza's gaze was directed behind her back.",
+    "vi": "Nghe thấy người mình yêu quý gọi tên, Tanza ngoảnh đầu lại phía sau."
+  },
+  {
+    "id": 59,
+    "en": "There she saw Yorna lying on the ground, reaching out her hand. A single arrow had painfully pierced her leg; she understood that the person wielding a bow far away from her had been the one to perform that deed.",
+    "vi": "Ở đó, cô bé nhìn thấy Yorna đang ngã trên mặt đất, vươn tay về phía mình. Một mũi tên đã găm sâu vào chân phu nhân đầy đau đớn; cô bé hiểu rằng kẻ cầm cung từ đằng xa chính là người đã làm việc đó."
+  },
+  {
+    "id": 60,
+    "en": "Were it not for that arrow, Yorna would have rushed towards the Great Disaster, towards Tanza.",
+    "vi": "Nếu không có mũi tên ấy, Yorna chắc chắn đã lao thẳng vào Great Disaster, lao về phía Tanza."
+  },
+  {
+    "id": 61,
+    "en": "Tanza was thankful to the arrow’s shooter, as she could not have done anything as drastic as that.",
+    "vi": "Tanza thầm biết ơn người bắn tên, bởi bản thân cô bé không thể làm điều gì quyết liệt như thế."
+  },
+  {
+    "id": 62,
+    "en": "And then――,",
+    "vi": "Và rồi――"
+  },
+  {
+    "id": 63,
+    "en": "Tanza: [――Yorna-sama.]",
+    "vi": "Tanza: [――Yorna-sama.]"
+  },
+  {
+    "id": 64,
+    "en": "Her lips moved.",
+    "vi": "Đôi môi cô bé mấp máy."
+  },
+  {
+    "id": 65,
+    "en": "Whether the words that followed reached Yorna or were inaudible, she would not know.",
+    "vi": "Liệu những lời tiếp theo có truyền đến tai Yorna hay không, cô bé không rõ."
+  },
+  {
+    "id": 66,
+    "en": "However, in that moment, just like she did every day before sleeping, every time she woke up had she even the slightest of time, she offered a prayer.",
+    "vi": "Thế nhưng, vào khoảnh khắc ấy, giống như mọi ngày trước khi đi ngủ, mỗi lần thức dậy hay bất cứ lúc nào có một chút thời gian rảnh rỗi, cô bé lại dâng lên một lời cầu nguyện."
+  },
+  {
+    "id": 67,
+    "en": "――May you, my beloved, be in good health each and every day.",
+    "vi": "――Cầu mong người tôi yêu thương luôn được bình an mỗi ngày."
+  },
+  {
+    "id": 68,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 69,
+    "en": "The light blew away everything, white scorching the retinae of all.",
+    "vi": "Ánh sáng thổi bay vạn vật, sắc trắng chói lòa thiêu đốt võng mạc của tất cả mọi người."
+  },
+  {
+    "id": 70,
+    "en": "As the light faded and the seared eyes gradually regained their capabilities, all beings witnessed the end of the Demon City.",
+    "vi": "Khi ánh sáng nhạt dần và đôi mắt bị bỏng rát dần hồi phục, tất cả chúng sinh đều chứng kiến hồi kết của Thành phố Quỷ."
+  },
+  {
+    "id": 71,
+    "en": "???: [――――]",
+    "vi": "???: [――――]"
+  },
+  {
+    "id": 72,
+    "en": "The ground zero of the explosion had caved in, as if a circle had been gouged out, and, at the center of the Demon City, where the Crimson Lapis Castle should have been located, a titanic hole had been opened wide.",
+    "vi": "Tâm chấn của vụ nổ đã sụt xuống, như thể bị khoét đi một vòng tròn hoàn hảo, và tại trung tâm Thành phố Quỷ, nơi đáng lẽ Crimson Lapis Castle tọa lạc, một cái hố khổng lồ đã mở rộng hoác."
+  },
+  {
+    "id": 73,
+    "en": "It was as if a giant’s arm had dug up the large pit, a literal mark that proved the existence of a fearsome entity that had swallowed up the entirety of the Demon City.",
+    "vi": "Cứ như thể cánh tay của một gã khổng lồ đã đào lên cái hố lớn này, một dấu vết rõ ràng chứng minh sự hiện diện của một thực thể đáng sợ đã nuốt chửng toàn bộ Thành phố Quỷ."
+  },
+  {
+    "id": 74,
+    "en": "And the Disaster, which had been defied by the forces of concerted battle, had vanished abruptly.",
+    "vi": "Và tai ương, thứ đã bị các lực lượng liên minh chiến đấu chống lại, đột ngột biến mất."
+  },
+  {
+    "id": 75,
+    "en": "It was the result of the trump card played by Yorna Mishigure, the Mistress of the Demon City, and all those who had participated in the battle knew that the final push had been performed by the little girl who had staked her life.",
+    "vi": "Đó là kết quả từ quân bài tẩy của Yorna Mishigure, Chủ nhân Thành phố Quỷ, và tất cả những ai tham gia trận chiến đều biết rằng cú hích cuối cùng được thực hiện bởi cô bé đã đánh cược mạng sống của mình."
+  },
+  {
+    "id": 76,
+    "en": "In other words――,",
+    "vi": "Nói cách khác――"
+  },
+  {
+    "id": 77,
+    "en": "???: [――We were saved by that girl. I am deplorable.]",
+    "vi": "???: [――Chúng ta đã được cứu bởi cô bé đó. Ta thật đáng hổ thẹn.]"
+  },
+  {
+    "id": 78,
+    "en": "A man so muttered as he peered into the bottom of the gaping hole, stretching out the vines of thorn he wielded―― Kafma Irulux.",
+    "vi": "Một người đàn ông lẩm bẩm khi nhìn xuống đáy hố sâu hoắm, giương ra những sợi gai mà hắn điều khiển―― chính là Kafma Irulux."
+  },
+  {
+    "id": 79,
+    "en": "There was no falsehood; probably, those words were true, from his heart. As typical of a warrior a cut above the rest, this honest young man who adhered to the philosophy of the Empire reproached himself for having allowed others to correct his own shortcomings.",
+    "vi": "Không hề có sự dối trá; có lẽ, những lời đó xuất phát từ tận đáy lòng hắn. Đúng như phong thái của một chiến binh vượt trội, chàng thanh niên bộc trực tuân theo triết lý của Đế quốc tự trách bản thân vì đã để người khác phải sửa chữa sai lầm của mình."
+  },
+  {
+    "id": 80,
+    "en": "And making it all the more aggravating, was that a young girl's life had been spent to cover for that.",
+    "vi": "Và điều càng khiến hắn đau lòng hơn là mạng sống của một cô bé đã hy sinh để bù đắp cho điều đó."
+  },
+  {
+    "id": 81,
+    "en": "Kafma: [Originally, I am at odds with you and your people. Now that things have settled down, I see that the truce should end here, and that we should turn towards that…]",
+    "vi": "Kafma: [Ban đầu, ta vốn có hiềm khích với ngươi và đồng bọn của ngươi. Giờ đây mọi chuyện đã lắng xuống, ta thấy thỏa ước đình chiến nên kết thúc tại đây, và chúng ta nên chuyển hướng sang…]"
+  },
+  {
+    "id": 82,
+    "en": "???: […Then, you’ll fight us?]",
+    "vi": "???: […Vậy, ngươi muốn chiến đấu với chúng ta?]"
+  },
+  {
+    "id": 83,
+    "en": "Kafma: [――. We should not.]",
+    "vi": "Kafma: [――. Không nên.]"
+  },
+  {
+    "id": 84,
+    "en": "Looking back at the big hole behind him, Kafma shook his head at the question.",
+    "vi": "Nhìn lại cái hố lớn phía sau, Kafma lắc đầu trước câu hỏi."
+  },
+  {
+    "id": 85,
+    "en": "Facing Kafma was Medium, her barbarian sword, too large for her small frame, carried on her back. The query of the battered girl covered in mud was a shining ray of light, even amidst the devastation.",
+    "vi": "Đối mặt với Kafma là Medium, trên lưng mang thanh đại đao quá khổ so với vóc dáng nhỏ bé của cô. Câu hỏi của cô bé lấm lem bùn đất tựa như một tia sáng lấp lánh, ngay cả giữa cảnh hoang tàn đổ nát."
+  },
+  {
+    "id": 86,
+    "en": "That beautiful beam of light was what Kafma believed necessary to keep things from deteriorating.",
+    "vi": "Tia sáng tươi đẹp ấy là điều Kafma tin rằng cần thiết để giữ cho tình hình không tồi tệ thêm."
+  },
+  {
+    "id": 87,
+    "en": "At any rate, the end result was that the Demon City of Chaosflame had been destroyed, and no building could be found standing straight. From here, the survivors' struggle to pull through would commence.",
+    "vi": "Dù sao đi nữa, kết quả cuối cùng là Thành phố Quỷ Chaosflame đã bị hủy diệt, và không một tòa nhà nào còn đứng vững. Kể từ đây, cuộc đấu tranh sinh tồn của những người sống sót sẽ bắt đầu."
+  },
+  {
+    "id": 88,
+    "en": "Of course, Kafma's role as a General of the Empire was to deal with those refugees and with Yorna Mishigure, who would lead them.",
+    "vi": "Dĩ nhiên, vai trò của Kafma với tư cách là Tướng quân Đế quốc là đối phó với những người tị nạn đó và với Yorna Mishigure, người sẽ dẫn dắt họ."
+  },
+  {
+    "id": 89,
+    "en": "Kafma: [Right now, I am travelling as the bodyguard for a very important person. First and foremost, I must give priority to meeting up with said individual. Everything else is trivial at this point.]",
+    "vi": "Kafma: [Hiện tại, ta đang đi hộ tống cho một nhân vật vô cùng quan trọng. Trước hết, ta phải ưu tiên hội quân với người đó. Mọi chuyện khác lúc này đều không quan trọng.]"
+  },
+  {
+    "id": 90,
+    "en": "Medium: [Trivial? Trivial, you say? I think putting it like that is awful!]",
+    "vi": "Medium: [Không quan trọng? Ngươi nói không quan trọng sao? Ta nghĩ nói như vậy thật quá đáng!]"
+  },
+  {
+    "id": 91,
+    "en": "Kafma: [N-no, that's not what I meant…]",
+    "vi": "Kafma: [Kh-không, ý ta không phải thế…]"
+  },
+  {
+    "id": 92,
+    "en": "Receiving an objection for being unscrupulous, Kafma flinched slightly at Medium's barbs. But, a somber voice called out to her just like Kafma, \"Lil’ Miss Medium\", offering him some timely help.",
+    "vi": "Nhận phải lời phản đối vì sự vô tình của mình, Kafma hơi chùn bước trước những lời gay gắt của Medium. Nhưng một giọng nói trầm ấm cất lên gọi cô bé giống như cách Kafma gọi, \"Cô nhóc Medium\", đã kịp thời cứu nguy cho hắn."
+  },
+  {
+    "id": 93,
+    "en": "Looking toward them, slowly coming their way, was a one-armed figure――,",
+    "vi": "Nhìn về phía họ, đang chậm rãi tiến lại gần là một bóng hình một tay――"
+  },
+  {
+    "id": 94,
+    "en": "???: [That’s just that guy’s own concern. He’s saying he’s got more important things to do, so he won’t fight us. So let’s settle it with that, that about right?]",
+    "vi": "???: [Đó chỉ là mối bận tâm của gã đó thôi. Gã đang muốn nói rằng mình có việc quan trọng hơn phải làm, nên sẽ không đánh nhau với chúng ta. Vậy nên cứ quyết định như thế đi, được chứ?]"
+  },
+  {
+    "id": 95,
+    "en": "Kafma: […I cannot say anything myself. I will leave how you interpret that up to you.]",
+    "vi": "Kafma: […Ta không thể tự mình nói gì thêm. Ta sẽ để các ngươi tự diễn giải điều đó.]"
+  },
+  {
+    "id": 96,
+    "en": "???: [Heyhey. Plenty of people like you around; y’know, roundabout like you here, big bro.]",
+    "vi": "???: [Này này. Có đầy người giống như anh quanh đây đấy; anh biết đấy, quanh co như anh ở đây này, ông anh.]"
+  },
+  {
+    "id": 97,
+    "en": "Shrugging his shoulders in exasperation, the one-armed man―― Al, stood next to Medium. Looking up at him, Medium's eyes widened with an \"Ah\".",
+    "vi": "Nhún vai ngao ngán, người đàn ông một tay―― Al, đứng cạnh Medium. Ngước nhìn gã, mắt Medium mở to kinh ngạc với tiếng \"A\"."
+  },
+  {
+    "id": 98,
+    "en": "And then, once she pointed at his face.",
+    "vi": "Và rồi, cô bé chỉ tay vào mặt gã."
+  },
+  {
+    "id": 99,
+    "en": "Medium: [Al-chin, you actually managed to find your helmet?]",
+    "vi": "Medium: [Al-chin, anh thực sự tìm thấy mũ giáp của mình rồi sao nha?]"
+  },
+  {
+    "id": 100,
+    "en": "Al: [Yeah, somehow. It was lying in the vicinity of where the inn was, so it was a blessing in disguise. I just needed to find it, since I knew it wouldn't break.]",
+    "vi": "Al: [Ừ, bằng cách nào đó. Nó nằm gần khu vực nơi quán trọ từng tọa lạc, nên cũng là cái may trong cái rủi. Tôi chỉ cần tìm thấy nó thôi, vì tôi biết nó sẽ không bị vỡ.]"
+  },
+  {
+    "id": 101,
+    "en": "Medium: [――? You mean it’s tough?]",
+    "vi": "Medium: [――? Ý anh là nó rất cứng sao nha?]"
+  },
+  {
+    "id": 102,
+    "en": "Al: [Yeahyeah, I mean tough. No one in this world can break it.]",
+    "vi": "Al: [Ừ ừ, ý tôi là nó rất cứng. Không ai trên đời này có thể phá vỡ nó đâu.]"
+  },
+  {
+    "id": 103,
+    "en": "As he declared that, Al rapped his fingers on the jet-black helmet he donned. Medium nodded her head with a \"Really~?” in reply, but Kafma shot a sharp look at Al.",
+    "vi": "Tuyên bố như thế, Al dùng ngón tay gõ vào chiếc mũ giáp đen kịt gã đang đội. Medium gật đầu đáp lại \"Thật sao~?\", nhưng Kafma lại ném cho Al một cái nhìn sắc lẹm."
+  },
+  {
+    "id": 104,
+    "en": "Noticing the look in his eyes, Al tilted his head, asking \"What do you wanna do?”.",
+    "vi": "Nhận ra ánh mắt đó, Al nghiêng đầu hỏi \"Anh muốn làm gì?\"."
+  },
+  {
+    "id": 105,
+    "en": "Al: [Your opinion’s that you don’t wanna fight us, right? Of course, same goes for us… Or perhaps I should say that we’re all too worn out for that.]",
+    "vi": "Al: [Ý kiến của anh là anh không muốn đánh nhau với chúng tôi, đúng không? Dĩ nhiên, chúng tôi cũng vậy… Hay nói đúng hơn là tất cả chúng ta đều đã quá kiệt sức vì chuyện đó rồi.]"
+  },
+  {
+    "id": 106,
+    "en": "Kafma: [You directed us brilliantly during that battle earlier. Why did you know how the Great Disaster would move?]",
+    "vi": "Kafma: [Ngươi đã chỉ huy chúng ta rất xuất sắc trong trận chiến lúc nãy. Tại sao ngươi lại biết trước Great Disaster sẽ di chuyển thế nào?]"
+  },
+  {
+    "id": 107,
+    "en": "Al: [Trade secret. If I don't tell you that, no truce?]",
+    "vi": "Al: [Bí mật nghệ nghiệp. Nếu tôi không nói cho anh biết, thì thỏa ước đình chiến sẽ bị hủy bỏ sao?]"
+  },
+  {
+    "id": 108,
+    "en": "Kafma: [――. No, I will not retract my statement.]",
+    "vi": "Kafma: [――. Không, ta sẽ không rút lại lời tuyên bố của mình.]"
+  },
+  {
+    "id": 109,
+    "en": "Shaking his head, Kafma responded to Al's answer with genuine sincerity. He then dusted off his tattered cloak with his hand, turning his back on both Al and Medium.",
+    "vi": "Lắc đầu, Kafma chân thành đáp lại câu trả lời của Al. Hắn sau đó phủi bụi trên chiếc áo choàng rách rưới, quay lưng lại với cả Al và Medium."
+  },
+  {
+    "id": 110,
+    "en": "He turned to what he had stated was a very important person.",
+    "vi": "Hắn hướng về phía người mà hắn đã tuyên bố là nhân vật vô cùng quan trọng."
+  },
+  {
+    "id": 111,
+    "en": "Kafma: [I cooperated with you this time because of these developments. But you and I are enemies… Lest you reconsider, we will see each other on the battlefield. At that time, I will not stay my hand.]",
+    "vi": "Kafma: [Ta hợp tác với các ngươi lần này là vì tình thế ép buộc. Nhưng ta và các ngươi là kẻ thù… Trừ phi các ngươi thay đổi ý định, chúng ta sẽ gặp lại nhau trên chiến trường. Khi đó, ta sẽ không nương tay đâu.]"
+  },
+  {
+    "id": 112,
+    "en": "Al: [Even if you didn’t tell us that…]",
+    "vi": "Al: [Ngay cả khi anh không nói điều đó thì…]"
+  },
+  {
+    "id": 113,
+    "en": "Medium: [Same goes for us as well…! Thanks for helping us.]",
+    "vi": "Medium: [Chúng tôi cũng vậy thôi…! Cảm ơn vì đã giúp đỡ nha.]"
+  },
+  {
+    "id": 114,
+    "en": "Kafma: [I only did what I was supposed to do as a General of the Empire.]",
+    "vi": "Kafma: [Ta chỉ làm những gì ta phải làm với tư cách là Tướng quân Đế quốc.]"
+  },
+  {
+    "id": 115,
+    "en": "With these words, Kafma spread his transparent wings across his sturdy back and flew away in one swift movement, the beating of his wings producing a loud noise.",
+    "vi": "Nói xong, Kafma dang rộng đôi cánh trong suốt trên tấm lưng cường tráng rồi bay vút đi trong một chuyển động nhanh gọn, tiếng đập cánh phát ra âm thanh vang dội."
+  },
+  {
+    "id": 116,
+    "en": "Medium and Al watched his back as he moved away, a cloud of dust and smoke enveloping him as he kicked up dust. As Kafma disappeared from sight,",
+    "vi": "Medium và Al dõi theo bóng lưng hắn khuất dần, một làn khói bụi bao bọc lấy hắn khi hắn tung cánh bay đi. Khi Kafma biến mất khỏi tầm mắt,"
+  },
+  {
+    "id": 117,
+    "en": "Medium: […Al-chin, thank you so much. Really, thanks. You saved my life.]",
+    "vi": "Medium: […Al-chin, cảm ơn anh nhiều lắm nha. Thực sự cảm ơn anh. Anh đã cứu mạng tôi đó nha.]"
+  },
+  {
+    "id": 118,
+    "en": "Al: [Well, it's a win-win situation. If it weren't for your persistence, that big thing's assault would’ve been much more lopsided. There would’ve been a lot more dead people.]",
+    "vi": "Al: [Ồ, đôi bên cùng có lợi thôi mà. Nếu không nhờ sự kiên trì của cô nhóc, cuộc tấn công của thứ khổng lồ đó sẽ thảm khốc hơn nhiều. Sẽ có thêm rất nhiều người chết.]"
+  },
+  {
+    "id": 119,
+    "en": "Medium: [Dead people…]",
+    "vi": "Medium: [Người chết…]"
+  },
+  {
+    "id": 120,
+    "en": "Hearing Al's answer, Medium gently lowered her eyes.",
+    "vi": "Nghe câu trả lời của Al, Medium khẽ nhắm mắt lại."
+  },
+  {
+    "id": 121,
+    "en": "Looking at Medium casting her gaze down with a heart-rending expression on her face, Al fiddled with the seams of his helmet’s visor with his fingers, and said,",
+    "vi": "Nhìn Medium cúi đầu với vẻ mặt đau đớn khôn nguôi, Al lấy ngón tay nghịch khe hở trên kính chắn gió của chiếc mũ giáp, rồi nói:"
+  },
+  {
+    "id": 122,
+    "en": "Al: [I know you dunno what I mean, and I know it's not much consolation, but if that kid… If Tanza hadn't done that, we would’ve been wiped out. For sure.]",
+    "vi": "Al: [Tôi biết cô nhóc không hiểu ý tôi, và tôi biết điều này không có nhiều tác dụng an ủi, nhưng nếu con bé đó… Nếu Tanza không làm vậy, chúng ta đã bị quét sạch rồi. Hẳn là luôn.]"
+  },
+  {
+    "id": 123,
+    "en": "Medium: [Maybe, you know, we could’ve tried harder.]",
+    "vi": "Medium: [Có lẽ, anh biết đấy, chúng ta đã có thể cố gắng hơn nữa nha.]"
+  },
+  {
+    "id": 124,
+    "en": "Al: [Nah, that way wouldn’t have worked out. ――Experimenting with that went up in smoke.]",
+    "vi": "Al: [Không, cách đó không hiệu quả đâu. ――Mọi nỗ lực thử nghiệm đều đã tan thành mây khói rồi.]"
+  },
+  {
+    "id": 125,
+    "en": "The dejected Al’s words really made no sense to Medium. However, she would have been lying if she said it was not comforting.",
+    "vi": "Những lời của Al thất vọng thật sự không có ý nghĩa gì với Medium. Tuy nhiên, cô bé sẽ là nói dối nếu bảo rằng chúng không mang lại chút an ủi nào."
+  },
+  {
+    "id": 126,
+    "en": "She understood that Al had said something for the sake of consoling Medium. So it was a genuine consolation.",
+    "vi": "Cô bé hiểu rằng Al nói vậy là để an ủi Medium. Nên đó là sự an ủi chân thành."
+  },
+  {
+    "id": 127,
+    "en": "Medium: [Thanks, Al-chin.]",
+    "vi": "Medium: [Cảm ơn anh nha, Al-chin.]"
+  },
+  {
+    "id": 128,
+    "en": "Al: […You're welcome.]",
+    "vi": "Al: […Không có gì.]"
+  },
+  {
+    "id": 129,
+    "en": "The words Al responded with, once again, made no sense to Medium.",
+    "vi": "Những lời Al đáp lại, một lần nữa, chẳng có nghĩa lý gì với Medium."
+  },
+  {
+    "id": 130,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 131,
+    "en": "???: [Have you finished settling your mind on what needs to be done, Yorna Mishigure?]",
+    "vi": "???: [Ngươi đã thông suốt những gì cần phải làm chưa, Yorna Mishigure?]"
+  },
+  {
+    "id": 132,
+    "en": "Yorna: […Is that, you?]",
+    "vi": "Yorna: […Là ngài sao?]"
+  },
+  {
+    "id": 133,
+    "en": "Piles of rubble, the broken remains of buildings, and an unfathomably large hole had been created in the aftermath of the fierce battle.",
+    "vi": "Những đống đổ nát, tàn tích đổ nát của các tòa nhà và một cái hố khổng lồ không tưởng đã được tạo ra sau trận chiến khốc liệt."
+  },
+  {
+    "id": 134,
+    "en": "While Yorna stood on top of a hill, surveying the spectacle of scars that remained as a result of the Demon City of Chaosflame going to all-out war against the Great Disaster, a man appeared beneath her.",
+    "vi": "Trong lúc Yorna đứng trên đỉnh đồi, quan sát cảnh tượng đầy những vết sẹo còn sót lại sau khi Thành phố Quỷ Chaosflame dốc toàn lực chiến đấu chống lại Great Disaster, một người đàn ông xuất hiện phía dưới cô."
+  },
+  {
+    "id": 135,
+    "en": "Abel, his face hidden behind an oni mask, inquired as to her feelings in a tone of voice audibly devoid of even a hint of emotion.",
+    "vi": "Abel, gương mặt ẩn sau mặt nạ quỷ, hỏi về cảm xúc của cô bằng một tông giọng hoàn toàn không có lấy một chút cảm xúc nào."
+  },
+  {
+    "id": 136,
+    "en": "Unhurriedly, Abel made his way through the rubble, desiring to see the same scene as Yorna; however, without inserting any emotion into his voice he spoke,",
+    "vi": "Không vội vã, Abel bước đi trên đống đổ nát, muốn ngắm nhìn cùng một cảnh tượng với Yorna; song, không hề để chút cảm xúc nào lọt vào giọng nói, hắn cất lời:"
+  },
+  {
+    "id": 137,
+    "en": "Abel: [What I can offer you is exactly as I wrote in the missive. Let us hear your answer.]",
+    "vi": "Abel: [Những gì ta có thể đề nghị cho ngươi chính xác là những gì ta đã viết trong mật thư. Hãy cho ta nghe câu trả lời của ngươi.]"
+  },
+  {
+    "id": 138,
+    "en": "Yorna: [Is that really what you should say when looking at this tragic scene?]",
+    "vi": "Yorna: [Đó quả thật là những gì ngài nên nói khi nhìn vào cảnh tượng bi thương này sao?]"
+  },
+  {
+    "id": 139,
+    "en": "Abel: [Will comfort provide shelter, or pity a refuge? You and I both were born amongst the haves, part of those who chose their duty. As such, a second from us is not of equivalent value to a second from others.]",
+    "vi": "Abel: [Lời an ủi sẽ mang lại chỗ trú chân, hay sự thương hại sẽ tạo ra nơi ẩn náu sao? Ngươi và ta đều sinh ra trong số những kẻ có quyền thế, là một phần của những kẻ đã chọn nghĩa vụ của mình. Vì vậy, một giây của chúng ta không có giá trị tương đương với một giây của những kẻ khác.]"
+  },
+  {
+    "id": 140,
+    "en": "Yorna: [――――]",
+    "vi": "Yorna: [――――]"
+  },
+  {
+    "id": 141,
+    "en": "To not wish for comfort, nor for sympathy; he was someone who had chosen that way of being.",
+    "vi": "Không mong cầu sự an ủi, cũng không cần sự đồng cảm; hắn là kẻ đã chọn cách sống đó."
+  },
+  {
+    "id": 142,
+    "en": "Understanding that, Yorna held back from rebelling against his attitude. Most importantly, Yorna would gain nothing by antagonizing him here for emotional reasons.",
+    "vi": "Hiểu được điều đó, Yorna kìm chế không phản kháng lại thái độ của hắn. Quan trọng nhất, Yorna sẽ không đạt được gì nếu đối đầu với hắn ở đây chỉ vì lý do cảm xúc."
+  },
+  {
+    "id": 143,
+    "en": "Yorna: [I’ve already lost too much today.]",
+    "vi": "Yorna: [Hôm nay thiếp đã mất mát quá nhiều rồi.]"
+  },
+  {
+    "id": 144,
+    "en": "Abel: [The city, its citizens. It would be a mistake to add the time you took postponing this matter to those.]",
+    "vi": "Abel: [Thành phố, và người dân của nó. Sẽ là sai lầm nếu cộng thêm khoảng thời gian ngươi trì hoãn vấn đề này vào những tổn thất đó.]"
+  },
+  {
+    "id": 145,
+    "en": "Yorna: [She was, Tanza.]",
+    "vi": "Yorna: [Con bé tên là Tanza.]"
+  },
+  {
+    "id": 146,
+    "en": "Abel: [――――]",
+    "vi": "Abel: [――――]"
+  },
+  {
+    "id": 147,
+    "en": "Yorna: [The beloved child who sacrificed herself to save us at the end… Her name was Tanza.]",
+    "vi": "Yorna: [Đứa trẻ yêu quý đã hy sinh thân mình để cứu chúng ta đến cuối cùng… Tên con bé là Tanza.]"
+  },
+  {
+    "id": 148,
+    "en": "With these words, Yorna pulled out the obidome from her kimono and showed it to Abel. [1]",
+    "vi": "Nói xong, Yorna rút chiếc obidome từ chiếc kimono của mình ra và đưa cho Abel xem. [1]"
+  },
+  {
+    "id": 149,
+    "en": "Abel threw her a sidelong glance as she scrubbed it in a circular motion, questioning her intentions mutely. The outer corner of Yorna’s eyes lowered slightly due to that questioning gaze,",
+    "vi": "Abel liếc nhìn cô một cái khi cô xoa nhẹ nó theo vòng tròn, lặng lẽ hỏi về ý định của cô. Đuôi mắt Yorna khẽ cụp xuống trước ánh nhìn dò xét đó,"
+  },
+  {
+    "id": 150,
+    "en": "Yorna: [This obidome was fashioned from the horns of that girl’s older sister. When mourning over her sister's corpse, Tanza made it for me… and aside from that…]",
+    "vi": "Yorna: [Chiếc obidome này được làm từ sừng của chị gái con bé. Khi khóc thương bên thi thể của chị mình, Tanza đã làm nó cho thiếp… và ngoài chuyện đó ra…]"
+  },
+  {
+    "id": 151,
+    "en": "Abel: [――――]",
+    "vi": "Abel: [――――]"
+  },
+  {
+    "id": 152,
+    "en": "Yorna: [Both these hairpins and kanzashi are tributes from my beloved children. These are the marks of those children who have been driven away from their homes, those children who have nothing, and gave of themselves to repay me.]",
+    "vi": "Yorna: [Cả những chiếc trâm cài và kanzashi này đều là cống vật từ những đứa trẻ yêu quý của thiếp. Đây là dấu vết của những đứa trẻ bị xua đuổi khỏi quê hương, những đứa trẻ không có gì cả, và đã dâng hiến bản thân để đền đáp thiếp.]"
+  },
+  {
+    "id": 153,
+    "en": "The colorful ornaments, the hairpins, the kanzashi were all tributes from the residents of the Demon City.",
+    "vi": "Những món trang sức sặc sỡ, những chiếc trâm cài, kanzashi đều là cống vật từ những cư dân của Thành phố Quỷ."
+  },
+  {
+    "id": 154,
+    "en": "Some had removed their scales, some had gathered feathers, some had polished their horns and fangs, only to then offer them to Yorna, their way of life and gratitude giving them form.",
+    "vi": "Người thì bóc vảy, người thì thu nhặt lông vũ, người thì mài giũa sừng và nanh của mình, chỉ để dâng chúng cho Yorna, cách sống và lòng biết ơn của họ đã định hình nên chúng."
+  },
+  {
+    "id": 155,
+    "en": "To Yorna, they were more valuable than any precious gem and treasure, and for having been given such things, she felt that she had to live up to their love.",
+    "vi": "Với Yorna, chúng còn giá trị hơn bất kỳ loại đá quý hay kho báu nào, và vì đã được ban tặng những thứ như thế, cô cảm thấy mình phải sống xứng đáng với tình yêu của họ."
+  },
+  {
+    "id": 156,
+    "en": "And yet――,",
+    "vi": "Thế nhưng――"
+  },
+  {
+    "id": 157,
+    "en": "Yorna: [I cannot afford to make any more mistakes in my promises…]",
+    "vi": "Yorna: [Thiếp không thể phạm thêm bất kỳ sai lầm nào trong lời hứa của mình nữa…]"
+  },
+  {
+    "id": 158,
+    "en": "Abel: [――. Sooner or later, the departed Vincent Vollachia and his group shall begin moving. They shall not make a move here given the situation, but it is only a matter of time. There is no time to spare.]",
+    "vi": "Abel: [――. Sớm muộn gì, Vincent Vollachia đã thoái vị và phe cánh của hắn cũng sẽ bắt đầu hành động. Chúng sẽ không hành động ở đây trong tình cảnh này, nhưng đó chỉ là vấn đề thời gian. Không có thời gian để lãng phí đâu.]"
+  },
+  {
+    "id": 159,
+    "en": "Yorna: [What will you do regarding the place where my children go to?]",
+    "vi": "Yorna: [Ngài sẽ làm gì với nơi mà những đứa trẻ của thiếp sẽ đi tới?]"
+  },
+  {
+    "id": 160,
+    "en": "Abel: [We shall have no choice but to use the Fortress City as a base at first. Along the way, we shall seize other towns and add them to our banner. With you and the inhabitants of the Demon City, it is possible.]",
+    "vi": "Abel: [Trước mắt chúng ta không còn lựa chọn nào khác ngoài việc sử dụng Fortress City làm căn cứ. Trên đường đi, chúng ta sẽ chiếm lĩnh các thị trấn khác và đưa chúng vào dưới trướng của mình. Có ngươi và cư dân của Thành phố Quỷ, điều đó hoàn toàn khả thi.]"
+  }
+]
