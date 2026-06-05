@@ -1,0 +1,1787 @@
+[
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Machine Translated By:",
+    "vi": "Dịch máy bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm dịch Nhật-Anh bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 6,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 7,
+    "en": "This is an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã qua biên tập, được kiểm chứng chất lượng bởi nhất quan dịch giả Nhật-Anh. Bản dịch này có thể có sai sót nhỏ về độ chính xác, do đó độc giả nên cân nhắc sự đánh đổi giữa tốc độ cập nhật và chất lượng bản dịch. Bản dịch chất lượng cao hơn cho chương này đang được đội ngũ thực hiện, nếu muốn bạn có thể chờ đợi thêm một thời gian và theo dõi cập nhật trên trang truyền thông xã hội của chúng tôi."
+  },
+  {
+    "id": 8,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 9,
+    "en": "――The most important thing for him when asking Old Man Null for a “drug”, had been its reliability.",
+    "vi": "――Điều quan trọng nhất đối với cậu khi hỏi xin “thuốc” từ Lão Null chính là độ tin cậy của nó."
+  },
+  {
+    "id": 10,
+    "en": "For starters, Old Man Null wasn’t exactly an eager student of medicine.",
+    "vi": "Ngay từ đầu, Lão Null không hẳn là một người ham học y thuật."
+  },
+  {
+    "id": 11,
+    "en": "He was just an amateur who had been allowed access to the healing room after treating a fellow gladiator and, somehow, he had ended up staying there.",
+    "vi": "Ông chỉ là một kẻ nghiệp dư được phép lui tới phòng trị liệu sau khi chữa trị cho một bạn đấu sĩ, rồi bằng cách nào đó, ông cứ thế ở lại luôn."
+  },
+  {
+    "id": 12,
+    "en": "So it was obvious, that those on the administrative side of the Island would not give Old Man Null, one of the gladiators, a highly effective drug that could be either poison or medicine.",
+    "vi": "Thế nên rõ ràng là phe quản lý đảo sẽ không bao giờ giao cho Lão Null, một trong các đấu sĩ, một loại thuốc cực mạnh vừa có thể làm thuốc lại vừa có thể làm độc."
+  },
+  {
+    "id": 13,
+    "en": "That was why it was impossible for Old Man Null to concoct a drug―― an immediately effective “strong poison”.",
+    "vi": "Vì vậy, Lão Null không thể nào điều chế ra một thứ thuốc―― tức loại “kịch độc” có tác dụng ngay tức thì."
+  },
+  {
+    "id": 14,
+    "en": "The only thing Old Man Null could make was a deleterious concoction of as many drugs as he could get his hands on, which would kill someone by disrupting the blood flow throughout their body.",
+    "vi": "Thứ duy nhất Lão Null có thể làm là trộn lẫn nhiều loại dược liệu nhất có thể để tạo ra một hỗn hợp độc hại, giết chết nạn nhân bằng cách làm rối loạn tuần hoàn máu khắp cơ thể."
+  },
+  {
+    "id": 15,
+    "en": "If one were to swallow it, they would definitely die after suffering tremendously―― however, its existence, if you thought about it, it was somewhat convenient for Subaru.",
+    "vi": "Nếu uống phải, người đó chắc chắn sẽ chết sau khi phải chịu đựng đau đớn tột cùng―― thế nhưng, nếu nghĩ kỹ lại, sự tồn tại của nó lại có phần tiện lợi cho Subaru."
+  },
+  {
+    "id": 16,
+    "en": "Subaru: [After all, my foundation is being a lazy, giant idiot.]",
+    "vi": "Subaru: [Dẫu sao thì, bản chất của mình vẫn là một tên đại ngốc lười biếng mà.]"
+  },
+  {
+    "id": 17,
+    "en": "Considering Subaru’s over-reliant nature, a poison that killed without causing suffering was out of the question.",
+    "vi": "Với bản tính dễ ỷ lại của Subaru, một loại độc dược giúp chết mà không đau đớn là hoàn toàn không thể chấp nhận."
+  },
+  {
+    "id": 18,
+    "en": "He would immediately think about starting over on something trivial and start relying on the poison’s potency. In doing so, Natsuki Subaru would become a monster.",
+    "vi": "Cậu sẽ lập tức nghĩ đến việc bắt đầu lại từ những chuyện vụn vặt và bắt đầu lạm dụng độc tính của thuốc. Làm vậy, Natsuki Subaru sẽ trở thành một con quái vật."
+  },
+  {
+    "id": 19,
+    "en": "An inhuman monster that did not understand human pain or suffering.",
+    "vi": "Một con quái vật vô nhân tính, không hiểu được nỗi đau hay sự đau khổ của con người."
+  },
+  {
+    "id": 20,
+    "en": "Subaru: [No way, definitely NO!]",
+    "vi": "Subaru: [Không đời nào, tuyệt đối KHÔNG!]"
+  },
+  {
+    "id": 21,
+    "en": "Already, the memory and realization of the time when his arms and legs were fully grown were both fading away. Even so, Subaru would not allow his experience and ideals to be twisted any further.",
+    "vi": "Lúc này, ký ức và nhận thức về thời điểm tay chân mình phát triển đầy đủ đang dần phai nhạt. Dẫu vậy, Subaru không cho phép trải nghiệm và lý tưởng của mình bị bẻ cong thêm nữa."
+  },
+  {
+    "id": 22,
+    "en": "That change in nature would be a betrayal to everyone who had accepted Subaru as he was.",
+    "vi": "Sự thay đổi bản chất đó sẽ là sự phản bội đối với tất cả những ai đã chấp nhận con người thật của Subaru."
+  },
+  {
+    "id": 23,
+    "en": "He could betray himself, but not everyone, not his family.",
+    "vi": "Cậu có thể phản bội chính mình, nhưng không thể phản bội tất cả mọi người, không thể phản bội gia đình."
+  },
+  {
+    "id": 24,
+    "en": "While Natsuki Subaru could be set side, Natsuki Subaru’s ties could not.",
+    "vi": "Dẫu có thể gạt bản thân Natsuki Subaru sang một bên, nhưng mối liên kết của Natsuki Subaru thì không."
+  },
+  {
+    "id": 25,
+    "en": "Therefore――,",
+    "vi": "Bởi thế――,"
+  },
+  {
+    "id": 26,
+    "en": "Subaru: […Sorry, Old Man Null, for lying about using it against a Sparka opponent.]",
+    "vi": "Subaru: […Xin lỗi Lão Null vì cháu đã nói dối là dùng nó để chống lại đối thủ trong trận Sparka.]"
+  },
+  {
+    "id": 27,
+    "en": "Even if Natsuki Subaru were to experience hellish pain, he could not withdraw his outstretched hands.",
+    "vi": "Dù Natsuki Subaru có phải chịu đựng nỗi đau như dưới địa ngục, cậu cũng không thể rút lại đôi tay đã dang ra."
+  },
+  {
+    "id": 28,
+    "en": "Because that was that one tenet that would not bend, even on this Gladiator Island of isolating waters.",
+    "vi": "Bởi đó là nguyên tắc duy nhất không bao giờ lung lay, ngay cả trên Đảo Đấu Sĩ cô độc giữa vùng nước này."
+  },
+  {
+    "id": 29,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 30,
+    "en": "Though he had tried to put on a strong front――,",
+    "vi": "Mặc dù cậu đã cố tỏ ra cứng cỏi――,"
+  },
+  {
+    "id": 31,
+    "en": "Subaru: [Gah, guh, geh… hk]",
+    "vi": "Subaru: [Gah, ư, hự… hộc]"
+  },
+  {
+    "id": 32,
+    "en": "Gritting his teeth to the point they were seemingly about to break, Subaru endured pain that tore his heart to shreds. ――No, he was not enduring it. The pain to endure had already passed.",
+    "vi": "Nghiến răng chặt đến mức tưởng chừng như sắp vỡ vụn, Subaru chịu đựng nỗi đau xé nát tâm can. ――Không, cậu không hề chịu đựng nó. Cơn đau cần chịu đựng đã trôi qua rồi."
+  },
+  {
+    "id": 33,
+    "en": "He had died, he had returned, so the suffering from which that death originated was nowhere to be found.",
+    "vi": "Cậu đã chết, cậu đã quay trở lại, nên sự đau đớn dẫn đến cái chết đó chẳng còn dấu vết."
+  },
+  {
+    "id": 34,
+    "en": "Still, his soul dragged on. That was why, both tears and snot, did not cease trickling out.",
+    "vi": "Thế nhưng, linh hồn cậu vẫn bị kéo lê đi. Đó là lý do cả nước mắt lẫn nước mũi cứ không ngừng tuôn rơi."
+  },
+  {
+    "id": 35,
+    "en": "Weitz: [Oi, Schwartz…! What’s the matter, all of a sudden…!]",
+    "vi": "Weitz: [Này, Schwartz…! Có chuyện gì thế hả, tự dưng lại…!]"
+  },
+  {
+    "id": 36,
+    "en": "Subaru: [I-I’m fhine…]",
+    "vi": "Subaru: [T-tôi không tha-ao…]"
+  },
+  {
+    "id": 37,
+    "en": "Weitz: [How can ya be fine… in such an ugly state…!]",
+    "vi": "Weitz: [Thế này mà bảo không sao à… bộ dạng nhếch nhác thế kia cơ mà…!]"
+  },
+  {
+    "id": 38,
+    "en": "Weitz’s voice trembled as Subaru cowered on the spot, his face smeared with various fluids.",
+    "vi": "Giọng Weitz run rẩy khi Subaru co rúm lại một chỗ, khuôn mặt lem nhem đủ loại dịch thể."
+  },
+  {
+    "id": 39,
+    "en": "He rushed over to hoist Subaru up, and without hesitation, wiped his runny nose with his bare hands. Every time, Weitz’s attitude would impress Subaru, always.",
+    "vi": "Anh ta lao tới đỡ Subaru dậy, và không chút ngần ngại, dùng tay không lau nước mũi cho cậu. Lần nào thái độ của Weitz cũng khiến Subaru vô cùng cảm phục."
+  },
+  {
+    "id": 40,
+    "en": "To be able to act without believing dirty people were dirty, that was an incredibly respectable thing.",
+    "vi": "Việc có thể hành động mà không bận tâm đến việc người khác có dơ bẩn hay không quả thực là một điều rất đáng kính trọng."
+  },
+  {
+    "id": 41,
+    "en": "Subaru: [Ahh, uh…]",
+    "vi": "Subaru: [À, ừ…]"
+  },
+  {
+    "id": 42,
+    "en": "Violently wiping away his runny nose and tears, Subaru put his hand to his dazed head.",
+    "vi": "Cố sức lau đi nước mũi cùng hàng nước mắt, Subaru đưa tay lên cái đầu đang quay cuồng."
+  },
+  {
+    "id": 43,
+    "en": "Little-by-little, as the shock of dying in the past faded away, he accepted the slow present of being alive. Switching over to an easygoing consciousness happened generally every time Subaru died from the “drug”.",
+    "vi": "Từng chút một, khi cú sốc của cái chết trước đó nhạt dần, cậu chấp nhận hiện tại chậm rãi của việc được sống. Sự chuyển biến sang trạng thái tỉnh táo bình thường này thường xảy ra mỗi lần Subaru chết vì “thuốc”."
+  },
+  {
+    "id": 44,
+    "en": "He had prepared the “poison” behind his molar as a trump card in order to ensure his death, but surprisingly, it had not come into play as Subaru’s cause of death on the Gladiator Island very often.",
+    "vi": "Cậu đã chuẩn bị gói “thuốc độc” ở răng hàm như một con bài tẩy để tự kết liễu, nhưng thật ngạc nhiên, nó không thường xuyên là nguyên nhân cái chết của Subaru trên Đảo Đấu Sĩ."
+  },
+  {
+    "id": 45,
+    "en": "The overwhelming majority of his deaths during Sparka had been caused by the claws and fangs of the Gladiator Beast drawing near to him.",
+    "vi": "Hầu hết những cái chết của cậu trong các trận Sparka đều do móng vuốt và nanh vuốt của Ma Thú Đấu Sĩ tiếp cận."
+  },
+  {
+    "id": 46,
+    "en": "However, when he was unable to die, or when he was unsure of how to be up to the task in a situation where casualties had been made, he had no choice but to have this “drug” carry out its purpose.",
+    "vi": "Tuy nhiên, vào những lúc cậu không thể chết, hoặc khi không biết phải xoay xở ra sao trong hoàn cảnh đã có thương vong xảy ra, cậu không còn cách nào khác ngoài việc để thứ “thuốc” này hoàn thành sứ mệnh của nó."
+  },
+  {
+    "id": 47,
+    "en": "That was, the excruciating anguish Natsuki Subaru had to bear.",
+    "vi": "Đó chính là nỗi đau đớn tột cùng mà Natsuki Subaru phải chịu đựng."
+  },
+  {
+    "id": 48,
+    "en": "After all――,",
+    "vi": "Dẫu sao thì――,"
+  },
+  {
+    "id": 49,
+    "en": "Subaru: […Since it’s my fault for screwing up.]",
+    "vi": "Subaru: […Bởi vì đó là lỗi của tôi khi làm hỏng mọi chuyện.]"
+  },
+  {
+    "id": 50,
+    "en": "If the person who should be able to, somehow, do the most failed, what could the rest of them do?",
+    "vi": "Nếu người có khả năng gánh vác nhiều nhất lại thất bại, thì những người còn lại biết phải làm sao?"
+  },
+  {
+    "id": 51,
+    "en": "Subaru had a responsibility. The responsibility of having the highest probability to somehow accomplish something.",
+    "vi": "Subaru có một trách nhiệm. Trách nhiệm của kẻ sở hữu khả năng cao nhất để hoàn thành một việc gì đó."
+  },
+  {
+    "id": 52,
+    "en": "Although that power was not one he had desired to obtain, provided it was Natsuki Subaru, he would be able to master it.",
+    "vi": "Dù sức mạnh đó không phải là thứ cậu mong muốn có được, nhưng chỉ cần là Natsuki Subaru, cậu sẽ làm chủ được nó."
+  },
+  {
+    "id": 53,
+    "en": "Because he was that person’s son, Natsuki Kenichi’s son.",
+    "vi": "Bởi vì cậu là con trai của người đàn ông đó, con trai của Natsuki Kenichi."
+  },
+  {
+    "id": 54,
+    "en": "Weitz: [――Hk, what…!?]",
+    "vi": "Weitz: [――Hự, cái gì thế…!?]"
+  },
+  {
+    "id": 55,
+    "en": "Subaru: [The drawbridge…!]",
+    "vi": "Subaru: [Cầu nâng…!]"
+  },
+  {
+    "id": 56,
+    "en": "He pressed his fist against the dirty floor and, as he tried to raise himself up, the entire island creaked and shook.",
+    "vi": "Cậu tì nắm tay xuống sàn nhà bẩn thỉu, cố gượng dậy trong lúc cả hòn đảo rung chuyển và phát ra tiếng cọt kẹt."
+  },
+  {
+    "id": 57,
+    "en": "From Weitz in front of him and the gloomy cold atmosphere, Subaru realized that the place he had died and returned to was the lower stratum of the Gladiator Island―― just before the drawbridge had been raised.",
+    "vi": "Nhìn Weitz trước mặt cùng bầu không khí u ám lạnh lẽo, Subaru nhận ra nơi cậu vừa chết đi sống lại chính là tầng dưới của Đảo Đấu Sĩ―― ngay trước khi cầu nâng được kéo lên."
+  },
+  {
+    "id": 58,
+    "en": "Connecting the Island and the outside world, the only bridge that stood.",
+    "vi": "Cây cầu duy nhất kết nối hòn đảo với thế giới bên ngoài đứng sừng sững."
+  },
+  {
+    "id": 59,
+    "en": "Which meant that——,",
+    "vi": "Điều đó có nghĩa là――,"
+  },
+  {
+    "id": 60,
+    "en": "Subaru: [――They’re coming.]",
+    "vi": "Subaru: [――Chúng đang đến.]"
+  },
+  {
+    "id": 61,
+    "en": "That scene, akin to a painting of hell itself, along with the utmost horrid adversary who painted it.",
+    "vi": "Cảnh tượng giống như một bức tranh địa ngục, cùng với kẻ thù tàn độc nhất đã vẽ nên nó."
+  },
+  {
+    "id": 62,
+    "en": "Once more, he would face a person he even prayed to never meet again―― he would have a rematch with Todd.",
+    "vi": "Một lần nữa, cậu sẽ phải đối mặt với kẻ mà bản thân từng cầu nguyện sẽ không bao giờ gặp lại―― cậu sẽ có một trận tái đấu với Todd."
+  },
+  {
+    "id": 63,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 64,
+    "en": "Trembling, Subaru hugged his shoulders as fear engulfed him.",
+    "vi": "Run rẩy, Subaru tự ôm lấy hai vai khi nỗi sợ hãi bủa vây."
+  },
+  {
+    "id": 65,
+    "en": "As soon as he closed his eyes, what came back to him behind his eyelids was the disastrous scene riddled with corpses. The faces he knew, blood pouring from their eyes and noses, trembling with fear while lying on the ground, that was the utmost horrid memory.",
+    "vi": "Chỉ cần nhắm mắt lại, hiện ra sau mí mắt cậu là cảnh tượng thảm khốc rải rác những xác chết. Những gương mặt quen thuộc, máu tuôn ra từ mắt và mũi, run rẩy trong sợ hãi khi nằm trên nền đất, đó chính là ký ức kinh hoàng nhất."
+  },
+  {
+    "id": 66,
+    "en": "Weitz before him, wiping Subaru’s runny nose, was no exception.",
+    "vi": "Weitz trước mặt cậu, người đang lau nước mũi cho Subaru, cũng không ngoại lệ."
+  },
+  {
+    "id": 67,
+    "en": "Subaru: [That kind of, never again…]",
+    "vi": "Subaru: [Chuyện đó, tuyệt đối không được lặp lại…]"
+  },
+  {
+    "id": 68,
+    "en": "He must not let it happen, that sense of duty fired up his chest.",
+    "vi": "Cậu không được phép để chuyện đó xảy ra, tinh thần trách nhiệm nung nấu trong lồng ngực."
+  },
+  {
+    "id": 69,
+    "en": "However, even though he was so enthusiastic, his thoughts stopped at the question of what to do. How in the world was such a desperate situation even created?",
+    "vi": "Thế nhưng, dù có quyết tâm đến đâu, suy nghĩ của cậu vẫn khựng lại trước câu hỏi phải làm gì. Làm sao mà một tình thế tuyệt vọng như vậy lại có thể xảy ra chứ?"
+  },
+  {
+    "id": 70,
+    "en": "Hailing from the Imperial Capital, under the name of envoys, and entering the Gladiator Island, were Todd and Arakiya.",
+    "vi": "Đến từ Hoàng đô dưới danh nghĩa sứ giả và đặt chân lên Đảo Đấu Sĩ chính là Todd và Arakiya."
+  },
+  {
+    "id": 71,
+    "en": "Just having a Divine General who had once opposed him standing in his way was enough to give him a headache, but to have Todd, the human devil, join the fray was the worst possible nightmare.",
+    "vi": "Chỉ riêng việc một Thần Tướng từng đối đầu với cậu đứng chắn đường đã đủ khiến cậu đau đầu, đằng này lại có thêm Todd, ác quỷ mang lốt người, tham gia vào cuộc chơi thì đúng là cơn ác mộng tồi tệ nhất."
+  },
+  {
+    "id": 72,
+    "en": "In the first place, just why were Todd and Arakiya together?",
+    "vi": "Ngay từ đầu, tại sao Todd và Arakiya lại đi cùng nhau chứ?"
+  },
+  {
+    "id": 73,
+    "en": "Subaru: […I’m an idiot, I remember. The one who let Arakiya escape after she was captured, it was that guy.]",
+    "vi": "Subaru: […Mình ngốc thật, nhớ ra rồi. Kẻ đã để Arakiya trốn thoát sau khi bị bắt chính là hắn.]"
+  },
+  {
+    "id": 74,
+    "en": "It could be considerably shocking, but memories related to Todd were surprisingly clear.",
+    "vi": "Dẫu có phần đáng sợ, nhưng những ký ức liên quan đến Todd lại rõ ràng đến kinh ngạc."
+  },
+  {
+    "id": 75,
+    "en": "The end of Subaru and Todd’s shared fate had been in the high-walled city―― in Guaral, during an operation to occupy the City Hall. The end of it had been when Subaru, dressed as a woman, had interacted with him.",
+    "vi": "Điểm dừng trong mối nhân duyên giữa Subaru và Todd là ở thành phố tường cao―― tại Guaral, trong chiến dịch chiếm đóng Tòa Thị Chính. Kết cục của nó là khi Subaru giả gái và đối mặt với hắn."
+  },
+  {
+    "id": 76,
+    "en": "After that, the rampaging Arakiya was done away with by Priscilla, clad in crimson; then Arakiya, who had supposedly been captured, had been released by somebody, somebody who Subaru had suspected to be Todd.",
+    "vi": "Sau đó, Arakiya điên cuồng đã bị Priscilla trong bộ y phục đỏ rực đánh bại; rồi Arakiya, kẻ đáng lẽ đã bị giam giữ, lại được ai đó giải thoát, người mà Subaru nghi ngờ chính là Todd."
+  },
+  {
+    "id": 77,
+    "en": "If they were together now, it appeared that his guess had not been incorrect.",
+    "vi": "Nếu giờ họ đi cùng nhau, có vẻ như suy đoán của cậu không hề sai."
+  },
+  {
+    "id": 78,
+    "en": "Subaru: [Damnit, even though you said you wanted to go back to your fiancée, why are you here? Had you just returned to your hometown quietly… That big lying bastard…!]",
+    "vi": "Subaru: [Khốn kiếp, rõ ràng bảo muốn quay về với vị hôn thê của mình, sao lại ở đây chứ? Phải chi hắn cứ lẳng lặng quay về quê nhà… Tên dối trá trắng trợn đó…!]"
+  },
+  {
+    "id": 79,
+    "en": "Even if he groaned about things differing from what he had promised, it was not like it would make Todd disappear. Though he understood this, he had to let out his pent-up anger at least once.",
+    "vi": "Dù có càu nhàu về việc mọi chuyện diễn ra khác với những gì hắn hứa hẹn, chuyện đó cũng chẳng thể làm Todd biến mất. Hiểu rõ điều này, nhưng cậu vẫn phải trút bỏ cơn giận kìm nén bấy lâu ít nhất một lần."
+  },
+  {
+    "id": 80,
+    "en": "After doing that, he inhaled a deep breath, exhaled, inhaled, exhaled.",
+    "vi": "Xong xuôi, cậu hít một hơi thật sâu, thở ra, rồi lại hít vào, thở ra."
+  },
+  {
+    "id": 81,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 82,
+    "en": "Weitz: [The next victims for Sparka…?]",
+    "vi": "Weitz: [Những nạn nhân tiếp theo cho trận Sparka sao…?]"
+  },
+  {
+    "id": 83,
+    "en": "Subaru: [Not necessarily. Weitz, can you help me out a little?]",
+    "vi": "Subaru: [Chưa chắc đâu. Weitz, anh giúp tôi một tay được không?]"
+  },
+  {
+    "id": 84,
+    "en": "Weitz: [――. Did’cha forget what I said just now…?]",
+    "vi": "Weitz: [――. Mày quên những lời tao vừa nói rồi à…?]"
+  },
+  {
+    "id": 85,
+    "en": "The tattoo on Weitz’s face contorted as Subaru heard this, feeling the tremors under his feet.",
+    "vi": "Những hình xăm trên mặt Weitz co rúm lại khi nghe Subaru nói vậy, cùng lúc cảm nhận được những rung chấn dưới chân."
+  },
+  {
+    "id": 86,
+    "en": "At this time, Weitz had spoken some words. Subaru’s head was in a panic because of the aftermath of the “drug”, but he remembered them because they’d had a great impact.",
+    "vi": "Vào lúc này, Weitz đã nói vài lời. Đầu óc Subaru đang rối bời do tác dụng phụ của “thuốc”, nhưng cậu vẫn nhớ vì chúng mang lại ấn tượng rất mạnh."
+  },
+  {
+    "id": 87,
+    "en": "Subaru: [Just lending strength, right? So please, lend me your strength.]",
+    "vi": "Subaru: [Chỉ là cho mượn sức mạnh thôi đúng không? Vậy nên làm ơn, hãy cho tôi mượn sức mạnh của anh.]"
+  },
+  {
+    "id": 88,
+    "en": "Weitz: [As long as ya get it, it’s fine…. So, what do ya want me to do…?]",
+    "vi": "Weitz: [Mày hiểu được là tốt rồi… Thế, mày muốn tao làm gì đây…?]"
+  },
+  {
+    "id": 89,
+    "en": "Naturally, they were going to see the next candidates for gladiator come across the drawbridge.",
+    "vi": "Lẽ tự nhiên, họ chuẩn bị đi xem những ứng viên đấu sĩ tiếp theo đi qua cầu nâng."
+  },
+  {
+    "id": 90,
+    "en": "He was thinking that would probably be his proposal, but Weitz, with his arms crossed, switched quickly. That strong sense of duty, and the rule he had once decided for himself, which he obstinately abided by, were truly helpful.",
+    "vi": "Cậu đang định đề xuất chuyện đó, nhưng Weitz đã khoanh tay và nhanh chóng đổi ý. Tinh thần trách nhiệm cao độ cùng nguyên tắc mà anh ta từng tự đặt ra và bám sát quả thực vô cùng hữu ích."
+  },
+  {
+    "id": 91,
+    "en": "With great appreciation for Weitz’s personality――,",
+    "vi": "Trong lòng đầy biết ơn trước tính cách của Weitz――,"
+  },
+  {
+    "id": 92,
+    "en": "Subaru: [Just a little is fine. I need you to stall the people who came to the Island just now.]",
+    "vi": "Subaru: [Một chút là được rồi. Tôi cần anh cầm chân những kẻ vừa đặt chân lên đảo.]"
+  },
+  {
+    "id": 93,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 94,
+    "en": "――Natsuki Subaru’s only weapon, the Authority of Return by Death.",
+    "vi": "――Vũ khí duy nhất của Natsuki Subaru, Authority của Return by Death."
+  },
+  {
+    "id": 95,
+    "en": "Ever since coming to the Vollachian Empire, and all while surmounting various obstacles, it had clearly been malfunctioning.",
+    "vi": "Kể từ khi đến Đế quốc Vollachia, và trong suốt quá trình vượt qua nhiều chướng ngại khác nhau, năng lực này rõ ràng đã gặp trục trặc."
+  },
+  {
+    "id": 96,
+    "en": "The biggest reason that came to mind was that the ongoing “infantilization” assailing Subaru was its origin.",
+    "vi": "Nguyên nhân lớn nhất hiện lên trong đầu cậu chính là việc Subaru đang bị “trẻ hóa” chính là nguồn cơn."
+  },
+  {
+    "id": 97,
+    "en": "Because his body had shrunk like it had, Return by Death had yielded behavior that was completely abnormal.",
+    "vi": "Bởi vì cơ thể cậu bị teo nhỏ như thế, Return by Death đã hoạt động một cách hoàn toàn bất thường."
+  },
+  {
+    "id": 98,
+    "en": "A prime example of that, were those horrible ten seconds on Chaosflame’s Crimson Lapis Castle.",
+    "vi": "Ví dụ điển hình cho chuyện đó chính là mười giây kinh hoàng trên Crimson Lapis Castle của Chaosflame."
+  },
+  {
+    "id": 99,
+    "en": "It seemed those endless ten seconds had not been for the sake of saving Subaru, but rather bestowed for the sake of causing him despair; immediately after that had passed, the situation remained poor, even on the Gladiator Island he had been sent to.",
+    "vi": "Dường như mười giây vô tận kia không phải để cứu sống Subaru, mà được ban xuống nhằm đẩy cậu vào tuyệt vọng; ngay sau khi nó qua đi, tình hình vẫn vô cùng tồi tệ, ngay cả trên Đảo Đấu Sĩ nơi cậu bị gửi đến."
+  },
+  {
+    "id": 100,
+    "en": "It was not as bad as those ten seconds atop the castle tower, but the grace period granted now was unusually short.",
+    "vi": "Dẫu không tệ hại như mười giây trên đỉnh tháp lâu đài đó, nhưng khoảng thời gian trì hoãn được ban cho lúc này lại ngắn ngủi một cách bất thường."
+  },
+  {
+    "id": 101,
+    "en": "This time too, he had been able to return roughly thirty minutes to the past―― when taking the time limit until everyone on the Island would begin to die into consideration, that time would become even shorter.",
+    "vi": "Lần này cũng vậy, cậu chỉ có thể quay về quá khứ khoảng ba mươi phút―― khi tính đến thời hạn trước khi mọi người trên đảo bắt đầu bỏ mạng, khoảng thời gian đó thậm chí còn ngắn hơn."
+  },
+  {
+    "id": 102,
+    "en": "In other words, Subaru had to overwrite this situation in under thirty minutes.",
+    "vi": "Nói cách khác, Subaru phải thay đổi cục diện này trong vòng chưa đầy ba mươi phút."
+  },
+  {
+    "id": 103,
+    "en": "For that purpose――,",
+    "vi": "Vì mục tiêu đó――,"
+  },
+  {
+    "id": 104,
+    "en": "Subaru: [First, I need time to think. ――Remember remember remember, what just happened.]",
+    "vi": "Subaru: [Trước hết, mình cần thời gian để suy nghĩ. ――Nhớ lại, nhớ lại, nhớ lại chuyện vừa xảy ra đi.]"
+  },
+  {
+    "id": 105,
+    "en": "He was depending on Weitz’s benevolence, who had vigorously declared he would undertake that request to delay the arriving envoys from passing through.",
+    "vi": "Cậu đang trông cậy vào lòng tốt của Weitz, người đã dứt khoát tuyên bố sẽ nhận yêu cầu cản đường những sứ giả mới đến."
+  },
+  {
+    "id": 106,
+    "en": "However, he had also said that there would be no strategy involving Weitz himself going on a rampage.",
+    "vi": "Dẫu vậy, cậu cũng tự nhủ rằng không thể dùng đến chiến thuật để Weitz tự mình làm loạn."
+  },
+  {
+    "id": 107,
+    "en": "The reason was simple, even if Weitz went on a rampage, should Arakiya be there, he would be stopped in an instant. Furthermore, if Todd were present, Weitz would be killed without mercy.",
+    "vi": "Lý do rất đơn giản, dù Weitz có làm loạn đi chăng nữa, nếu Arakiya có mặt ở đó, anh ta cũng sẽ bị ngăn chặn trong tích tắc. Hơn nữa, nếu có Todd, Weitz chắc chắn sẽ bị giết không thương tiếc."
+  },
+  {
+    "id": 108,
+    "en": "Both of those, were events Subaru wanted to avoid.",
+    "vi": "Cả hai khả năng đó đều là những chuyện Subaru muốn tránh."
+  },
+  {
+    "id": 109,
+    "en": "Subaru: [As they died, everyone was bleeding from their faces… Poison gas? Some sort of magic?]",
+    "vi": "Subaru: [Khi họ chết, ai nấy đều chảy máu trên mặt… Khí độc? Hay một loại ma pháp nào đó?]"
+  },
+  {
+    "id": 110,
+    "en": "He was in the middle of revealing that he intended to escape from the Gladiator Island.",
+    "vi": "Đó là lúc cậu đang tiết lộ ý định trốn khỏi Đảo Đấu Sĩ."
+  },
+  {
+    "id": 111,
+    "en": "Hiain, Weitz and Idra had all collapsed one after the other, and Tanza, too, had been no exception to that. Everyone died the same way, together, so he thought that probably there was no mistaking it.",
+    "vi": "Hiain, Weitz và Idra lần lượt ngã xuống, và Tanza cũng không ngoại lệ. Mọi người đều chết theo cùng một cách, cùng một lúc, nên cậu nghĩ chắc chắn là vậy."
+  },
+  {
+    "id": 112,
+    "en": "If that meant the cause of death had been the same, then the other gladiators who had fallen had also―― That was not it.",
+    "vi": "Nếu điều đó có nghĩa là nguyên nhân cái chết giống nhau, thì các đấu sĩ khác đã ngã xuống cũng―― Không phải thế."
+  },
+  {
+    "id": 113,
+    "en": "Subaru: [The guards, they were also part of those who had died.]",
+    "vi": "Subaru: [Cả lính gác nữa, bọn họ cũng nằm trong số những người đã chết.]"
+  },
+  {
+    "id": 114,
+    "en": "Remembering the events that had occurred properly, there really were no exceptions in that hell.",
+    "vi": "Nhớ lại mọi chuyện một cách chính xác, thực sự không hề có ngoại lệ nào trong địa ngục đó."
+  },
+  {
+    "id": 115,
+    "en": "Unable to think straight at the time, he had not checked to see if the Gladiator Beasts in the cages were still alive, but at least all the humans, without exception, had died―― that was not it, either. There had been exceptions.",
+    "vi": "Dù lúc đó đầu óc không thể tỉnh táo để kiểm tra xem Ma Thú Đấu Sĩ trong chuồng còn sống hay không, nhưng ít nhất tất cả con người, không trừ một ai, đều đã chết―― không, cũng không đúng. Vẫn có ngoại lệ."
+  },
+  {
+    "id": 116,
+    "en": "Subaru: [Me, and Todd.]",
+    "vi": "Subaru: [Tôi, và Todd.]"
+  },
+  {
+    "id": 117,
+    "en": "Indeed, only Subaru and Todd had met face-to-face on the Island without dying.",
+    "vi": "Quả thực, chỉ có Subaru và Todd đối mặt nhau trên đảo mà không mất mạng."
+  },
+  {
+    "id": 118,
+    "en": "However, though Subaru had not died, he had still felt the pain of being near death, and just like everyone else, the phenomenon of blood streaming out his face had also occurred to him. That did not seem to apply to Todd.",
+    "vi": "Dẫu vậy, tuy Subaru không chết, cậu vẫn cảm nhận được nỗi đau cận kề cái chết, và giống như những người khác, hiện tượng máu chảy ròng ròng trên mặt cũng xảy ra với cậu. Nhưng chuyện đó có vẻ không ứng nghiệm lên Todd."
+  },
+  {
+    "id": 119,
+    "en": "Since it was difficult to imagine he would be able to endure that nonchalantly, it was certain that Todd had not been subject to those means of dying.",
+    "vi": "Vì thật khó tin là hắn có thể thản nhiên chịu đựng điều đó, nên chắc chắn Todd không phải chịu chung cách thức cái chết này."
+  },
+  {
+    "id": 120,
+    "en": "Subaru: [If it’s poison gas, did Todd take an antidote before coming here or something? If it’s some kind of magic, was it Arakiya who used it…? Come to think of it, Arakiya was nowhere to be found.]",
+    "vi": "Subaru: [Nếu là khí độc, liệu Todd có uống thuốc giải trước khi đến đây không? Còn nếu là ma pháp, liệu Arakiya có phải là người ra tay…? Mà nhắc mới nhớ, không thấy Arakiya đâu cả.]"
+  },
+  {
+    "id": 121,
+    "en": "Although he’d had no intentions of the sort, he had briefly checked the corpses of all his acquaintances.",
+    "vi": "Dù không hề có ý định đó, cậu vẫn lướt qua xác của tất cả những người quen."
+  },
+  {
+    "id": 122,
+    "en": "Tanza and the others who had collapsed in front of him, Orson and the others whom he had saved in the second Sparka, Old Man Null in the healing room, and even the guard he recognized, who had treated him coldly and harshly.",
+    "vi": "Tanza và những người ngã xuống trước mặt cậu, Orson và những người cậu cứu trong trận Sparka thứ hai, Lão Null trong phòng trị liệu, và cả tên lính gác quen mặt luôn đối xử lạnh lùng, khắc nghiệt với cậu."
+  },
+  {
+    "id": 123,
+    "en": "Everyone, absolutely everyone, had become motionless with blood streaming from their faces.",
+    "vi": "Mọi người, hoàn toàn tất cả mọi người, đều đã nằm bất động với máu chảy ròng ròng trên mặt."
+  },
+  {
+    "id": 124,
+    "en": "Subaru: [But, there are just three people I didn’t see.]",
+    "vi": "Subaru: [Nhưng, có đúng ba người tôi không nhìn thấy.]"
+  },
+  {
+    "id": 125,
+    "en": "――Those were Arakiya and Gustav, alongside the fake Cecilus, making it three people.",
+    "vi": "――Đá là Arakiya, Gustav, cùng với Cecilus giả, tổng cộng là ba người."
+  },
+  {
+    "id": 126,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 127,
+    "en": "Of course, Subaru did not remember every gladiator on the Island either, so he could not really declare that all of them had died. However, he could not be certain about those three.",
+    "vi": "Tất nhiên, Subaru cũng không thể nhớ hết mọi đấu sĩ trên đảo, nên cậu không thể khẳng định tất cả họ đã chết. Dẫu vậy, cậu không thể chắc chắn về ba người kia."
+  },
+  {
+    "id": 128,
+    "en": "Arakiya was someone on Todd’s side. Since she was Todd’s ally, who was probably the mastermind behind the massacre, it was only natural that she would not have died in the massacre.",
+    "vi": "Arakiya là người bên phe Todd. Vì cô ta là đồng minh của Todd, kẻ có khả năng cao là chủ mưu vụ tàn sát, nên việc cô ta không chết trong thảm cảnh đó là điều dễ hiểu."
+  },
+  {
+    "id": 129,
+    "en": "However, just what had happened to the other two?",
+    "vi": "Nhưng hai người còn lại thì sao chứ?"
+  },
+  {
+    "id": 130,
+    "en": "Gustav, the Chief of the Island holding the position of Governor, and the fake Cecilus, the enigmatic and suspicious juvenile.",
+    "vi": "Gustav, Đảo Trưởng nắm giữ chức vụ Thống Đốc, và Cecilus giả, đứa trẻ bí ẩn đầy khả nghi."
+  },
+  {
+    "id": 131,
+    "en": "Even on this Gladiator Island, those two held special positions――.",
+    "vi": "Ngay cả trên Đảo Đấu Sĩ này, hai người đó cũng giữ những vị thế vô cùng đặc biệt――."
+  },
+  {
+    "id": 132,
+    "en": "Subaru: [――Ah.]",
+    "vi": "Subaru: [――À.]"
+  },
+  {
+    "id": 133,
+    "en": "Indeed, just as he remembered these two special people, a bolt of lightning suddenly ran though Subaru’s mind.",
+    "vi": "Quả nhiên, ngay khi nhớ ra hai nhân vật đặc biệt này, một tia chớp đột ngột lóe lên trong trí óc Subaru."
+  },
+  {
+    "id": 134,
+    "en": "The massacre that had occurred on the Island, he suspected that it had been brought about through the means of magic or poison gas. However, while a feeble possibility, there was one more thing that came to mind.",
+    "vi": "Cậu nghi ngờ vụ tàn sát trên đảo được thực hiện bằng ma pháp hoặc khí độc. Thế nhưng, dù khả năng rất mong manh, vẫn còn một điều nữa hiện lên trong đầu cậu."
+  },
+  {
+    "id": 135,
+    "en": "Something which possessed a large influence on the Gladiator Island only―― the “curse rule”.",
+    "vi": "Thứ sở hữu tầm ảnh hưởng to lớn chỉ có trên Đảo Đấu Sĩ này―― “quy tắc lời nguyền”."
+  },
+  {
+    "id": 136,
+    "en": "The Gladiator Island Ginunhive’s gladiators were shackled by the binds of an unseen impairment.",
+    "vi": "Đấu sĩ trên Đảo Đấu Sĩ Ginunhive bị trói buộc bởi xiềng xích của một hạn chế vô hình."
+  },
+  {
+    "id": 137,
+    "en": "The curse rule, if disobeyed, would even put one’s life in peril. The prospects of its candidacy were rising.",
+    "vi": "Quy tắc lời nguyền mà nếu bất tuân, thậm chí sẽ đe dọa đến tính mạng. Khả năng nó là nguyên nhân đang tăng lên."
+  },
+  {
+    "id": 138,
+    "en": "Subaru: [However, the curse rule was just an empty threat, it shouldn’t actually exist.]",
+    "vi": "Subaru: [Nhưng quy tắc lời nguyền chỉ là lời đe dọa suông thôi mà, nó không thực sự tồn tại chứ.]"
+  },
+  {
+    "id": 139,
+    "en": "Subaru himself had increased his belief in that, by risking his life in a back-and-forth with Gustav.",
+    "vi": "Chính Subaru đã củng cố niềm tin đó bằng cách liều mạng trong cuộc đối thoại dây dưa với Gustav."
+  },
+  {
+    "id": 140,
+    "en": "He had been clear in telling Gustav that he was escaping from the Gladiator Island, thus displeasing him and defying the will of the Vollachian Emperor, to whom Gustav swore allegiance.",
+    "vi": "Cậu đã nói thẳng với Gustav rằng mình sẽ trốn khỏi Đảo Đấu Sĩ, qua đó làm phật lòng ông ta và chống lại ý chí của Hoàng đế Vollachia, người mà Gustav thề trung thành."
+  },
+  {
+    "id": 141,
+    "en": "If a curse rule truly were to exist, Gustav would have used it against him right there and then. If he did not make an example of Subaru with it, the Gladiator Island’s order would crumble.",
+    "vi": "Nếu quy tắc lời nguyền thực sự tồn tại, Gustav chắc chắn đã dùng nó để trừng phạt cậu ngay tại chỗ. Nếu không đem Subaru ra làm gương bằng thứ đó, trật tự trên Đảo Đấu Sĩ sẽ sụp đổ."
+  },
+  {
+    "id": 142,
+    "en": "Had he circulated the fact of there being no curse rule, there would be a rather major incident involving a riot from the gladiators.",
+    "vi": "Nếu cậu phát tán sự thật rằng không hề có quy tắc lời nguyền nào, một vụ bạo loạn lớn từ các đấu sĩ sẽ nổ ra."
+  },
+  {
+    "id": 143,
+    "en": "Subaru: [No matter how much Gustav-san doesn’t want us to die, it wouldn’t be logical to bend on there. So there shouldn’t be a curse rule… No, I’m overthinking it.]",
+    "vi": "Subaru: [Dù Gustav-san có không muốn tụi tôi chết đến mức nào, ông ta cũng không thể thỏa hiệp ở điểm đó. Nên chắc chắn là không có quy tắc lời nguyền rồi… Không, mình nghĩ nhiều quá.]"
+  },
+  {
+    "id": 144,
+    "en": "Gustav’s policy of doing as much as he could to keep his gladiators alive, whether true or not, there were grounds that made it easier to deny the curse rule’s existence. There were many, many of those lying around.",
+    "vi": "Dù việc Gustav cố hết sức giữ mạng cho đấu sĩ là thật hay giả, vẫn có những cơ sở giúp phủ nhận sự tồn tại của quy tắc lời nguyền một cách dễ dàng hơn. Có rất nhiều, rất nhiều manh mối như vậy ở khắp nơi."
+  },
+  {
+    "id": 145,
+    "en": "The guards had also died, not just the gladiators, was it not?",
+    "vi": "Không chỉ đấu sĩ mà cả lính gác cũng chết cơ mà, đúng không?"
+  },
+  {
+    "id": 146,
+    "en": "Subaru: [Gustav-san’s got no reason to kill all the guards… If you put it that way, there’s also no reason for him to kill all the gladiators out of nowhere.]",
+    "vi": "Subaru: [Gustav-san chẳng có lý do gì để giết hết lính gác cả… Nói thế thì ông ta cũng không có lý do gì để tự dưng sát hại toàn bộ đấu sĩ.]"
+  },
+  {
+    "id": 147,
+    "en": "The more he thought about it, the more Gustav’s intentions seemed unrelated to the massacre.",
+    "vi": "Càng nghĩ, ý đồ của Gustav càng có vẻ không liên quan gì đến vụ tàn sát."
+  },
+  {
+    "id": 148,
+    "en": "If that were the case, narrowing down the reasoning to backtrack to the initial two options, either the mastermind Todd had scattered poison gas, or cooperating with Arakiya, had made use of some outrageous magic.",
+    "vi": "Nếu vậy, thu hẹp suy luận để quay lại hai phương án ban đầu, hoặc là kẻ chủ mưu Todd đã rải khí độc, hoặc là hắn hợp tác với Arakiya để sử dụng một loại ma pháp tàn khốc nào đó."
+  },
+  {
+    "id": 149,
+    "en": "However, both of these had the exact same problem.",
+    "vi": "Thế nhưng, cả hai phương án này đều vấp phải cùng một vấn đề."
+  },
+  {
+    "id": 150,
+    "en": "Subaru: [Why was I the only one on whom the effect was so weak?]",
+    "vi": "Subaru: [Tại sao chỉ có mỗi mình là chịu tác động nhẹ như vậy?]"
+  },
+  {
+    "id": 151,
+    "en": "Excluding Todd, who would have taken precautions beforehand, Subaru had been the only one with mild symptoms.",
+    "vi": "Ngoại trừ Todd, kẻ hẳn đã có sự chuẩn bị từ trước, Subaru là người nhất quan chỉ có triệu chứng nhẹ."
+  },
+  {
+    "id": 152,
+    "en": "What was it about Subaru that had made him alone different from everyone else who had died?",
+    "vi": "Điểm gì ở Subaru đã khiến một mình cậu khác biệt so với tất cả những người đã bỏ mạng chứ?"
+  },
+  {
+    "id": 153,
+    "en": "Was it because he was a child? ――No, Tanza had died.",
+    "vi": "Có phải vì cậu là trẻ con? ――Không, Tanza đã chết."
+  },
+  {
+    "id": 154,
+    "en": "Was it because of his behavior being different from theirs just before? ――No, Weitz had died.",
+    "vi": "Có phải vì hành vi của cậu trước đó khác với họ? ――Không, Weitz đã chết."
+  },
+  {
+    "id": 155,
+    "en": "Was it because race made a difference? ――No, Hiain and Idra had both died together.",
+    "vi": "Có phải vì sự khác biệt về chủng tộc? ――Không, cả Hiain và Idra đều đã chết cùng nhau."
+  },
+  {
+    "id": 156,
+    "en": "Was it because he was from another world? Because he had spent time in the Kingdom? Because he had a contractual relationship with a super-cute Spirit? Because he was continuously stalked by the Witch? Because he had been “infantilized” into a smaller body? What else, what else what else what else what else, what else was there?",
+    "vi": "Có phải vì cậu đến từ thế giới khác? Vì cậu từng sống ở Vương quốc? Vì cậu có giao ước với một Tinh Linh siêu đáng yêu? Vì cậu liên tục bị Phù Thủy bám đuôi? Vì cậu bị “trẻ hóa” thành một cơ thể nhỏ bé? Còn gì nữa, còn gì nữa, còn gì nữa, còn gì nữa, còn điều gì nữa chứ?"
+  },
+  {
+    "id": 157,
+    "en": "――Only Subaru was different from everyone else, just what was that something?",
+    "vi": "――Chỉ có mỗi Subaru là khác biệt, rốt cuộc thứ đó là gì?"
+  },
+  {
+    "id": 158,
+    "en": "Subaru: [What’s――]",
+    "vi": "Subaru: [Là――]"
+  },
+  {
+    "id": 159,
+    "en": "???: [――Oh, Basu, something troubling you?]",
+    "vi": "???: [――Ồ, Basu, có chuyện gì làm cậu bận tâm thế nha?]"
+  },
+  {
+    "id": 160,
+    "en": "Subaru: [Woah!?]",
+    "vi": "Subaru: [Oái!?]"
+  },
+  {
+    "id": 161,
+    "en": "A voice came from behind Subaru, who had been frantically racking his brain in search of possibilities.",
+    "vi": "Một giọng nói vang lên từ phía sau Subaru, người đang điên cuồng vắt óc suy nghĩ các khả năng."
+  },
+  {
+    "id": 162,
+    "en": "Because it was so sudden, and because he had erased the possibility of the speaker from his mind, Subaru, squealing, turned around with eyes wide open.",
+    "vi": "Vì quá đột ngột, và cũng bởi cậu đã xóa bỏ khả năng người đó xuất hiện khỏi tâm trí, Subaru hét lên một tiếng rồi quay ngoắt lại với đôi mắt mở to."
+  },
+  {
+    "id": 163,
+    "en": "Behind Subaru, walking with his hands in the sleeves of his kimono, was the fake Cecilus.",
+    "vi": "Phía sau Subaru, đang thong thả bước tới với hai tay đút trong tay áo kimono, chính là Cecilus giả."
+  },
+  {
+    "id": 164,
+    "en": "Subaru blinked his eyes in surprise several times at that attitude of his, carefree as always.",
+    "vi": "Subaru kinh ngạc chớp mắt mấy lần trước thái độ nhởn nhơ như thường lệ của anh ta."
+  },
+  {
+    "id": 165,
+    "en": "Subaru: [C-Ceci…?]",
+    "vi": "Subaru: [C-Ceci…?]"
+  },
+  {
+    "id": 166,
+    "en": "Cecilus: [Yes that’s correct, but what’s up with that reaction? You look as if me being here is an outrageous, world-shattering development. It’s true that I’m the leading actor of this world, so I can understand why you might feel daunted, but my intention was just to spend my time close to Basu at a distance where I can talk to you and touch you, y’know?]",
+    "vi": "Cecilus: [Đúng vậy nha, nhưng phản ứng đó là sao chứ? Trông cậu cứ như việc tôi ở đây là một chuyện động trời làm rung chuyển thế giới ấy nhỉ. Quả thực tôi là diễn viên chính của thế giới này, nên tôi hiểu vì sao cậu lại thấy e dè, nhưng ý định của tôi chỉ là muốn ở gần Basu để tiện trò chuyện và chạm vào cậu thôi mà lị?]"
+  },
+  {
+    "id": 167,
+    "en": "In this way, the fake Cecilus, approaching from his front, looked down into Subaru’s face at a distance close enough that he could almost feel his breath on his face.",
+    "vi": "Cứ thế, Cecilus giả tiến lại gần từ phía trước, cúi xuống nhìn thẳng vào mặt Subaru ở cự ly gần đến mức gần như có thể cảm nhận được hơi thở của anh ta."
+  },
+  {
+    "id": 168,
+    "en": "And with that unchanging attitude and gesture, Subaru involuntarily backed away.",
+    "vi": "Trước thái độ và cử chỉ không đổi đó, Subaru bất giác lùi lại."
+  },
+  {
+    "id": 169,
+    "en": "Just then, from Subaru’s side, the fake Cecilus quietly looked at the view below―― from Subaru’s side as he ascended, the fake Cecilus gazed at the already-submerged drawbridge.",
+    "vi": "Đúng lúc đó, từ bên cạnh Subaru, Cecilus giả lặng lẽ nhìn xuống cảnh tượng bên dưới―― đứng cạnh Subaru khi cậu đi lên, Cecilus giả đăm đăm nhìn về phía cầu nâng đã hạ xuống."
+  },
+  {
+    "id": 170,
+    "en": "Cecilus: [It seems that the carriage wasn’t carrying participants for the next Sparka, but rather more distinct guests. It’s what everyone on the Island’s talking about.]",
+    "vi": "Cecilus: [Xem ra cỗ xe đó không chở đấu sĩ cho trận Sparka tiếp theo đâu, mà là những vị khách đặc biệt hơn đấy chứ. Mọi người trên đảo đang bàn tán xôn xao cả lên nha.]"
+  },
+  {
+    "id": 171,
+    "en": "Subaru: […Ah, they seem to be emissaries from the Imperial Capital. I don’t know what they came here for, though.]",
+    "vi": "Subaru: […À, hình như họ là sứ giả đến từ Hoàng đô. Dẫu vậy, tôi không biết mục đích họ đến đây để làm gì.]"
+  },
+  {
+    "id": 172,
+    "en": "Cecilus: [When it comes to emissaries from the Imperial Capital, I can imagine that they came to inform us about the situation outside, or to make preparations concerning the next show. As you want to leave this place, Basu, wouldn’t that be good news for you?]",
+    "vi": "Cecilus: [Đã là sứ giả từ Hoàng đô thì tôi đoán họ đến để thông báo tình hình bên ngoài, hoặc chuẩn bị cho buổi biểu diễn tiếp theo đấy chứ. Chẳng phải Basu đang muốn rời khỏi nơi này sao, vậy thì đây là tin tốt cho cậu còn gì nhỉ?]"
+  },
+  {
+    "id": 173,
+    "en": "Subaru: [――. I’m not going to deny it.]",
+    "vi": "Subaru: [――. Tôi không phủ nhận chuyện đó.]"
+  },
+  {
+    "id": 174,
+    "en": "Subaru gave a curt response to the fake Cecilus as the latter looked at the surface of the lake, sheltering his eyes with his hand.",
+    "vi": "Subaru đáp lại Cecilus giả một cách cộc lốc khi anh ta đưa tay lên che mắt, nhìn ra mặt hồ rộng lớn."
+  },
+  {
+    "id": 175,
+    "en": "Frankly, this unforeseen encounter with the fake Cecilus had made Subaru unsure on how to behave toward him.",
+    "vi": "Thú thật, cuộc chạm trán bất ngờ với Cecilus giả này khiến Subaru không biết phải cư xử với anh ta thế nào."
+  },
+  {
+    "id": 176,
+    "en": "He did not believe that the fake Cecilus had committed the massacre alongside Todd and Arakiya.",
+    "vi": "Cậu không tin Cecilus giả đã tham gia vụ tàn sát cùng Todd và Arakiya."
+  },
+  {
+    "id": 177,
+    "en": "But, it was true that he, who was supposedly the most feared gladiator on the Gladiator Island, had vanished in the midst of the massacre.",
+    "vi": "Nhưng sự thật là anh ta, người đáng lẽ là đấu sĩ đáng sợ nhất trên Đảo Đấu Sĩ, đã biến mất không dấu vết ngay giữa cuộc thảm sát."
+  },
+  {
+    "id": 178,
+    "en": "Subaru: [Though, it’s questionable whether my eyes were working properly…]",
+    "vi": "Subaru: [Dù vậy, cũng không chắc mắt tôi lúc đó có nhìn lầm hay không…]"
+  },
+  {
+    "id": 179,
+    "en": "In such a horrific situation, by no means could he be said to have been mentally stable.",
+    "vi": "Trong hoàn cảnh kinh hoàng như thế, cậu không thể nào giữ được tinh thần tỉnh táo."
+  },
+  {
+    "id": 180,
+    "en": "Even so, if someone had quarreled or battled within the Island, it would have been impossible for him to fail to hear it.",
+    "vi": "Tuy thế, nếu có ai đó tranh chấp hay chiến đấu trên đảo, cậu không thể nào không nghe thấy."
+  },
+  {
+    "id": 181,
+    "en": "That was why, if he were to think about what had become of the fake Cecilus back then――,",
+    "vi": "Thế nên, nếu suy ngẫm về những gì đã xảy ra với Cecilus giả vào thời điểm đó――,"
+  },
+  {
+    "id": 182,
+    "en": "Subaru: [Did he die somewhere I couldn’t see him, or was he not on the Island?]",
+    "vi": "Subaru: [Cậu ta đã chết ở nơi nào đó mình không nhìn thấy, hay vốn dĩ không có mặt trên đảo?]"
+  },
+  {
+    "id": 183,
+    "en": "But if he had not been on the Island, then where, and how?",
+    "vi": "Nhưng nếu anh ta không ở trên đảo, thì là ở đâu, và bằng cách nào chứ?"
+  },
+  {
+    "id": 184,
+    "en": "Even at this very moment, while he was talking to the fake Cecilus, the clock was ticking down towards the time limit. Until that absurd eventuality, even though the fake Cecilus had no time to spare either.",
+    "vi": "Ngay cả vào lúc này, trong khi cậu đang trò chuyện với Cecilus giả, thời gian vẫn đang trôi dần về giới hạn cuối cùng. Cho đến khi sự việc phi lý kia ập đến, dẫu Cecilus giả cũng không có thời gian để lãng phí."
+  },
+  {
+    "id": 185,
+    "en": "Cecilus: [You’re not going to deny it. But your face says that you’re worried about other things, y’know.]",
+    "vi": "Cecilus: [Cậu không phủ nhận nha. Nhưng nét mặt cậu đang nói rằng cậu băn khoăn về những chuyện khác đấy chứ.]"
+  },
+  {
+    "id": 186,
+    "en": "He thought and thought, yet Subaru got nowhere, and the fake Cecilus instinctively picked at his ambiguous words.",
+    "vi": "Cậu vắt óc suy nghĩ nhưng vẫn không đi đến đâu, còn Cecilus giả thì theo bản năng đã nhận ra sự lấp lửng trong lời nói của cậu."
+  },
+  {
+    "id": 187,
+    "en": "It was probably just guesswork, and not something like a reading of Subaru’s expression, speech, or conduct. It was intuition. Reeling in the correct interpretation was something that people like the fake Cecilus were capable of.",
+    "vi": "Đó có lẽ chỉ là phỏng đoán, chứ không phải do anh ta đọc vị nét mặt, lời nói hay hành vi của Subaru. Là trực giác. Khả năng nắm bắt được bản chất thực sự là điều mà những kẻ như Cecilus giả hoàn toàn có thể làm được."
+  },
+  {
+    "id": 188,
+    "en": "Since a handful of those kinds of monsters were crowding this world, Subaru’s resolve came into question.",
+    "vi": "Giữa một thế giới tràn ngập những con quái vật như thế, quyết tâm của Subaru đang bị thử thách."
+  },
+  {
+    "id": 189,
+    "en": "That he would not lose, that he must not lose, that resolve.",
+    "vi": "Quyết tâm không đầu hàng, quyết tâm tuyệt đối không được bại trận."
+  },
+  {
+    "id": 190,
+    "en": "Subaru: [Ceci, something terrible’s about to happen on the Island. Probably, those guys from the Imperial Capital are responsible. I can’t tell you the details, but…]",
+    "vi": "Subaru: [Ceci, một chuyện khủng khiếp sắp xảy ra trên đảo này. Rất có thể những kẻ từ Hoàng đô là thủ phạm. Tôi không thể kể chi tiết cho cậu, nhưng…]"
+  },
+  {
+    "id": 191,
+    "en": "Cecilus: [Judging from how serious your atmosphere is, it’d be too horrifying to even put into words as well… That little deergirl and the people of Basu’s Unit are in a predicament. No, is it more like a certain-death-kinda feeling?]",
+    "vi": "Cecilus: [Nhìn bầu không khí nghiêm trọng của cậu thì việc đó chắc hẳn quá kinh hoàng đến mức khó lòng diễn tả bằng lời đấy chứ… Cô bé hươu nhỏ kia cùng những người trong Unit của Basu đang lâm vào thế kẹt nha. Không, phải gọi là tình cảnh thập tử nhất sinh mới đúng nhỉ?]"
+  },
+  {
+    "id": 192,
+    "en": "Subaru: [――Hk.]",
+    "vi": "Subaru: [――Hự.]"
+  },
+  {
+    "id": 193,
+    "en": "Cecilus: [Weeell, Basu’s response has a splendid feeling to it, how nice! However, is that really so? I’m delighted that there are finally signs of things happening. I was so tired of waiting that I was about to die!]",
+    "vi": "Cecilus: [Chà chà, phản ứng của Basu thật tuyệt vời nha! Thế nhưng chuyện đó là thật sao chứ? Tôi rất vui vì rốt cuộc cũng có chuyện thú vị xảy ra rồi đấy chứ. Tôi đã chán ngấy việc chờ đợi đến mức sắp chết đến nơi rồi đây!]"
+  },
+  {
+    "id": 194,
+    "en": "Laughing with his mouth open, the fake Cecilus cheerfully stomped his feet.",
+    "vi": "Cười lớn thành tiếng, Cecilus giả phấn khích dậm chân xuống đất."
+  },
+  {
+    "id": 195,
+    "en": "Taken aback by his reaction, which was as if he were warmly welcoming trouble, then, while baring his teeth, Subaru rushed to shorten the distance between themselves.",
+    "vi": "Sững sờ trước phản ứng như thể đang nồng nhiệt chào đón rắc rối của anh ta, Subaru nghiến chặt răng, vội vàng thu hẹp khoảng cách giữa hai người."
+  },
+  {
+    "id": 196,
+    "en": "Subaru: [Ceci! It’s not a joke! Everyone’s in trouble!]",
+    "vi": "Subaru: [Ceci! Đây không phải trò đùa đâu! Mọi người đang gặp nguy hiểm đấy!]"
+  },
+  {
+    "id": 197,
+    "en": "Cecilus: [More gravitas! It’s wonderful if you’re not joking. I’d welcome it, since it’d be souring to be told that everything here was just you thinking too much, a made-up story. Crisis, predicament, and hardship, such great relief!]",
+    "vi": "Cecilus: [Thêm chút trang trọng nữa đi nha! Không phải đùa thì tuyệt vời quá rồi còn gì. Tôi rất hoan nghênh đấy chứ, vì sẽ thật mất hứng nếu cậu bảo tất cả chỉ là do cậu nghĩ nhiều hoặc bịa ra nha. Khủng hoảng, hiểm cảnh và gian nan, thật là nhẹ nhõm làm sao!]"
+  },
+  {
+    "id": 198,
+    "en": "Subaru: [――Hk!]",
+    "vi": "Subaru: [――Hự!]"
+  },
+  {
+    "id": 199,
+    "en": "Cecilus: [Or could it be, that you truly thought I’d take your side unconditionally, Basu?]",
+    "vi": "Cecilus: [Hay là cậu thực sự nghĩ tôi sẽ vô điều kiện đứng về phía cậu thế hả, Basu?]"
+  },
+  {
+    "id": 200,
+    "en": "When Subaru complained that Cecilus could not understand the gravity of the situation, Cecilus lowered his voice. It was just as if the glint in his eyes wanted to say that Subaru was the one who could not understand.",
+    "vi": "Khi Subaru trách Cecilus không hiểu được mức độ nghiêm trọng của tình hình, Cecilus hạ thấp giọng. Ánh nhìn sắc lạnh trong mắt anh ta cứ như muốn nói chính Subaru mới là kẻ không hiểu chuyện."
+  },
+  {
+    "id": 201,
+    "en": "Experiencing blade-like coldness from those long-slitted blue eyes, Subaru swallowed a breath.",
+    "vi": "Cảm nhận được luồng khí lạnh lẽo như lưỡi kiếm tỏa ra từ đôi mắt xanh lam ti hí kia, Subaru nuốt nước bọt."
+  },
+  {
+    "id": 202,
+    "en": "As the fake Cecilus broadly smiled at the silent Subaru,",
+    "vi": "Nhìn Cecilus giả nở nụ cười rạng rỡ với một Subaru đang im lặng,"
+  },
+  {
+    "id": 203,
+    "en": "Cecilus: [――Here, right here.]",
+    "vi": "Cecilus: [――Đây rồi, chính là đây nha.]"
+  },
+  {
+    "id": 204,
+    "en": "Then, assailing Subaru with straightforward words, he did a twirl on the spot and outstretched his hands.",
+    "vi": "Rồi, nói với Subaru bằng những lời thẳng thắn, anh ta xoay người một vòng tại chỗ và dang rộng hai tay."
+  },
+  {
+    "id": 205,
+    "en": "On the mountainside of the Gladiator Island, in order to set the high ground from where they overlooked the Island and half the lake as the stage. The fake Cecilus looked up to the sky, opened his mouth wide, and――,",
+    "vi": "Trên sườn núi của Đảo Đấu Sĩ, lấy khu đất cao nhìn ra hòn đảo cùng một góc hồ làm sân khấu. Cecilus giả ngửa mặt lên trời, há to miệng và――,"
+  },
+  {
+    "id": 206,
+    "en": "Cecilus: [This is undoubtedly the divide! You’d asked if you could get me on your side unconditionally, but allow me to inform you that, at this very moment, you’re able to fulfill those conditions.]",
+    "vi": "Cecilus: [Đây chắc chắn là bước ngoặt rồi nha! Cậu đã hỏi liệu có thể kéo tôi về phe cậu vô điều kiện không đúng chứ, vậy thì để tôi báo cho cậu biết, ngay khoảnh khắc này, cậu đã đủ khả năng đáp ứng những điều kiện đó rồi đấy chứ!]"
+  },
+  {
+    "id": 207,
+    "en": "Subaru: [Right now, this moment…]",
+    "vi": "Subaru: [Ngay lúc này, thời điểm này…]"
+  },
+  {
+    "id": 208,
+    "en": "Cecilus: [Yes, yes, that’s right! Basu, you enthrall me through your premonitions! Connect with me through anticipation! Make me laugh through your negotiations! And, you’re proving yourself right at the climax!]",
+    "vi": "Cecilus: [Đúng vậy, đúng vậy nha! Basu, cậu đã cuốn hút tôi bằng điềm báo của mình! Kết nối với tôi bằng sự kỳ vọng! Hãy làm tôi cười bằng những cuộc thương thảo đi nha! Và, cậu đang chứng minh bản thân đúng đắn ở hồi kết đấy chứ!]"
+  },
+  {
+    "id": 209,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 210,
+    "en": "Cecilus: [Come along now, oh wolf pierced by swords! All you Observers who look down upon these harsh and ruthless vast lands, see him clear! In this world, he, who is enthralling me, this very Cecilus Segmunt!]",
+    "vi": "Cecilus: [Đến đây nào, hỡi chú sói bị kiếm đâm xuyên! Hỡi tất cả các Quan Sát Giả đang nhìn xuống vùng đất bao la và tàn nhẫn này, hãy nhìn cho kỹ nha! Trong thế giới này, cậu ta chính là người đang cuốn hút tôi, chính Cecilus Segmunt này đấy chứ!]"
+  },
+  {
+    "id": 211,
+    "en": "It seemed that if he were not convinced of those existences, of spectators present beyond the heavens, he would not have been able to make that outstanding utterance.",
+    "vi": "Có vẻ như nếu không tin tưởng vào sự tồn tại của những khán giả ở bên kia bầu trời, anh ta đã không thể nói ra những lời tuyên bố hùng hồn như vậy."
+  },
+  {
+    "id": 212,
+    "en": "Without exaggeration, it would be natural to doubt the sanity of the fake Cecilus’s given his eccentric behavior. Certainly, anyone on this Island would avert their eyes and not lend their ears to his conduct, however, Subaru had acquired a peculiar confidence.",
+    "vi": "Không hề ngoa khi nói rằng hành vi lập dị của Cecilus giả đủ khiến người ta nghi ngờ sự tính táo của anh ta. Chắc chắn bất kỳ ai trên đảo này cũng sẽ ngoảnh mặt đi chỗ khác và không bận tâm đến hành động đó, thế nhưng, Subaru lại có được một niềm tin kỳ lạ."
+  },
+  {
+    "id": 213,
+    "en": "That the fake Cecilus was―― No, that Cecilus Segmunt was the real deal.",
+    "vi": "Rằng Cecilus giả―― Không, Cecilus Segmunt chính là hàng thật giá thật."
+  },
+  {
+    "id": 214,
+    "en": "This bonafide monster truly held faith that he could speak to the world, and that if the world truly possessed a mind of its own, then it would be unable to take its eyes off him.",
+    "vi": "Con quái vật thực thụ này thực lòng tin rằng mình có thể cất tiếng nói với thế giới, và nếu thế giới thực sự có ý thức, nó sẽ không thể rời mắt khỏi anh ta."
+  },
+  {
+    "id": 215,
+    "en": "This little monster had been overflowing with that much presence and cogency.",
+    "vi": "Con quái vật nhỏ bé này toát ra một sự hiện diện và sức thuyết phục mạnh mẽ đến nhường đó."
+  },
+  {
+    "id": 216,
+    "en": "Subaru: [I’m…]",
+    "vi": "Subaru: [Tôi…]"
+  },
+  {
+    "id": 217,
+    "en": "Cecilus: [What was that?]",
+    "vi": "Cecilus: [Cậu nói gì cơ chứ?]"
+  },
+  {
+    "id": 218,
+    "en": "Subaru: [I’m going to make you my comrade. I’m gonna work you hard, that’s what I’ve decided.]",
+    "vi": "Subaru: [Tôi sẽ biến cậu thành đồng đội của mình. Tôi sẽ vắt kiệt sức lao động của cậu, tôi đã quyết định thế rồi.]"
+  },
+  {
+    "id": 219,
+    "en": "While being overwhelmed, though it was not the time for it, Subaru put his hand against his chest and spoke out.",
+    "vi": "Dù đang bị áp đảo hoàn toàn, và dù đây không phải lúc thích hợp, Subaru vẫn đặt tay lên ngực và lên tiếng."
+  },
+  {
+    "id": 220,
+    "en": "Firmly setting his eyes on the other person, he declared that.",
+    "vi": "Nhìn thẳng vào mắt đối phương, cậu dõng dạc tuyên bố điều đó."
+  },
+  {
+    "id": 221,
+    "en": "Cecilus: [――That impulsiveness, I don’t dislike it, rather, I quite like it.]",
+    "vi": "Cecilus: [――Sự bốc đồng đó tôi không ghét đâu nha, trái lại, tôi khá thích nó đấy chứ.]"
+  },
+  {
+    "id": 222,
+    "en": "He conceived a smile as he spoke, however, this had not been the same carefree smile Cecilus had wore until now, but rather a smile of merely relaxing his lips as he responded to Subaru.",
+    "vi": "Anh ta nở nụ cười khi nói, dẫu vậy, đây không phải nụ cười hời hợt thường thấy của Cecilus, mà chỉ đơn thuần là nụ cười thả lỏng đôi môi để đáp lại Subaru."
+  },
+  {
+    "id": 223,
+    "en": "Perhaps it was a sign that Cecilus had undoubtedly recognized Subaru as a contender.",
+    "vi": "Có lẽ đó là dấu hiệu cho thấy Cecilus đã thực sự công nhận Subaru là một đối thủ cạnh tranh."
+  },
+  {
+    "id": 224,
+    "en": "Immediately following that――,",
+    "vi": "Ngay sau đó――,"
+  },
+  {
+    "id": 225,
+    "en": "Cecilus: [――I see.]",
+    "vi": "Cecilus: [――Ra thế nha.]"
+  },
+  {
+    "id": 226,
+    "en": "Tightening the lips that had just displayed a smile, Cecilus gently stroked his chin with a finger.",
+    "vi": "Thu lại nụ cười trên môi, Cecilus đưa ngón tay nhẹ nhàng vuốt cằm."
+  },
+  {
+    "id": 227,
+    "en": "His chin, onto which blood had trickled down from his finely shaped nose, then from which it fell.",
+    "vi": "Dưới cằm anh ta, những giọt máu chảy ra từ sống mũi thanh tú đang rỉ xuống, rồi rơi lã chã."
+  },
+  {
+    "id": 228,
+    "en": "Subaru: [Wha…!?]",
+    "vi": "Subaru: [Cái gì…!?]"
+  },
+  {
+    "id": 229,
+    "en": "Seeing fresh blood spilling from Cecilus’s nose, Subaru hurriedly looked over the hand railing.",
+    "vi": "Nhìn thấy máu tươi chảy ra từ mũi Cecilus, Subaru vội vàng nhoài người qua lan can nhìn xuống."
+  },
+  {
+    "id": 230,
+    "en": "It was not like he could see inside of rooms or into the basement by looking down onto the Island, but even so, from what he could see here and there, he understood that there many figures, collapsed, belonging to many people.",
+    "vi": "Tuy không thể nhìn thấu vào các căn phòng hay tầng hầm của đảo từ trên cao, nhưng qua những gì có thể quan sát được ở chỗ này chỗ kia, cậu hiểu rằng rất nhiều bóng người đã đổ gục."
+  },
+  {
+    "id": 231,
+    "en": "The massacre, had begun.",
+    "vi": "Vụ tàn sát đã bắt đầu."
+  },
+  {
+    "id": 232,
+    "en": "Begun, in the time Subaru had been using to put the situation in order and consider the possibilities carefully.",
+    "vi": "Nó bắt đầu trong khoảng thời gian Subaru dùng để sắp xếp lại tình hình và cân nhắc kỹ lưỡng các khả năng."
+  },
+  {
+    "id": 233,
+    "en": "Death had violently ravaged the people throughout the island, harvesting lives without exception.",
+    "vi": "Cái chết đã tàn bạo cướp đi sinh mạng của mọi người trên khắp hòn đảo, thu hoạch những linh hồn không chừa một ai."
+  },
+  {
+    "id": 234,
+    "en": "Indeed, without exception――.",
+    "vi": "Quả thực, không hề có ngoại lệ――."
+  },
+  {
+    "id": 235,
+    "en": "Cecilus: [Uh-oh.]",
+    "vi": "Cecilus: [Ối chà.]"
+  },
+  {
+    "id": 236,
+    "en": "Subaru: [Ceci!?]",
+    "vi": "Subaru: [Ceci!?]"
+  },
+  {
+    "id": 237,
+    "en": "As he pulled himself away from the railing, Subaru also felt a sting inside his nose, but he was more worried about Cecilus, who had sat down next to him.",
+    "vi": "Khi lùi lại khỏi lan can, Subaru cũng cảm thấy mũi mình nhói đau, nhưng cậu lo lắng cho Cecilus, người vừa ngồi sụp xuống bên cạnh cậu hơn."
+  },
+  {
+    "id": 238,
+    "en": "Cecilus rested his back against the railing, perspiring as he slumped down into a cross-legged sitting position.",
+    "vi": "Cecilus tựa lưng vào lan can, mồ hôi nhễ nhại khi anh ta ngồi khoanh chân gục xuống."
+  },
+  {
+    "id": 239,
+    "en": "He had an easygoing attitude, but the blood coming from his nose, which he was holding down with his hand, had not ceased.",
+    "vi": "Thái độ của anh ta vẫn nhởn nhơ, nhưng máu từ mũi, dù được anh ta dùng tay bịt lại, vẫn không ngừng chảy."
+  },
+  {
+    "id": 240,
+    "en": "Subaru: [A-are you, okay?]",
+    "vi": "Subaru: [Cậu ổn-ổn chứ?]"
+  },
+  {
+    "id": 241,
+    "en": "Cecilus: [Well, this sure seems tricky. This is a quite formidable enemy, Basu. Concerning this opponent, does there happen to be any shortcomings you’re aware of?]",
+    "vi": "Cecilus: [Chà, chuyện này xem ra khá nan giải nha. Đối thủ lần này quả thực rất ghê gớm đấy chứ, Basu. Về kẻ địch này, cậu có biết điểm yếu nào của họ không nhỉ?]"
+  },
+  {
+    "id": 242,
+    "en": "Subaru: [Is this the time to be saying that!? You’re bleeding from your nose, and from your eyes too!]",
+    "vi": "Subaru: [Giờ này mà còn nói thế được à!? Cậu đang chảy máu mũi, và chảy cả máu mắt nữa kìa!]"
+  },
+  {
+    "id": 243,
+    "en": "Cecilus: [I see… Even though I was proud to say that I’d never spilled a drop of blood ’til now.]",
+    "vi": "Cecilus: [Ra thế nha… Mặc dù tôi luôn tự hào rằng bản thân chưa từng đổ một giọt máu nào cho đến tận bây giờ đấy chứ.]"
+  },
+  {
+    "id": 244,
+    "en": "Even as they spoke, blood flowed from the sitting Cecilus’s eyes.",
+    "vi": "Ngay cả trong lúc họ trò chuyện, máu vẫn chảy dài từ khóe mắt của Cecilus đang ngồi bệt."
+  },
+  {
+    "id": 245,
+    "en": "Cecilus’s state was becoming so awful that it was hard to look at it, but it was frightening that even with the blood pouring out of his nose, his tone of voice had not changed in the slightest.",
+    "vi": "Tình trạng của Cecilus tồi tệ đến mức khó lòng nhìn thẳng, nhưng điều đáng sợ là dù máu tuôn ra từ mũi và mắt, giọng điệu của anh ta vẫn không thay đổi dù chỉ một chút."
+  },
+  {
+    "id": 246,
+    "en": "However, the scariest thing about Cecilus, had not been that.",
+    "vi": "Tuy vậy, điều đáng sợ nhất ở Cecilus lại không phải là chuyện đó."
+  },
+  {
+    "id": 247,
+    "en": "Subaru: [Aren’t you… afraid of dying…?]",
+    "vi": "Subaru: [Cậu không… sợ chết sao…?]"
+  },
+  {
+    "id": 248,
+    "en": "Cecilus: [People die, after all.]",
+    "vi": "Cecilus: [Con người ai rồi cũng phải chết mà lị.]"
+  },
+  {
+    "id": 249,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 250,
+    "en": "While understanding that what was drawing ever closer to him was imminent Death, Cecilus responded without any hesitation.",
+    "vi": "Dù hiểu rằng thứ đang đến gần là cái chết cận kề, Cecilus vẫn đáp lại không chút do dự."
+  },
+  {
+    "id": 251,
+    "en": "Without hesitation, without bewilderment, without fear, without anxiety, without nervousness, without regret.",
+    "vi": "Không do dự, không hoang mang, không sợ hãi, không lo âu, không bồn chồn, không hối tiếc."
+  },
+  {
+    "id": 252,
+    "en": "Unlike Subaru, no place should lay beyond his death.",
+    "vi": "Không giống như Subaru, sẽ không có điểm đến nào khác phía sau cái chết của anh ta."
+  },
+  {
+    "id": 253,
+    "en": "Even so, Cecilus held no fear towards Death, supposedly the most feared thing among living beings.",
+    "vi": "Dù vậy, Cecilus không hề sợ hãi cái chết, thứ đáng sợ nhất đối với mọi sinh vật sống."
+  },
+  {
+    "id": 254,
+    "en": "And so, without showing any fear of Death――,",
+    "vi": "Và cứ như thế, không hề lộ ra chút sợ hãi nào trước cái chết――,"
+  },
+  {
+    "id": 255,
+    "en": "Cecilus: [――――]",
+    "vi": "Cecilus: [――――]"
+  },
+  {
+    "id": 256,
+    "en": "The hand holding his nose down dropped, and as if to conceal the bloodstain, his sleeve enshrouded his arm, and, with his back resting against the fence, Cecilus became motionless.",
+    "vi": "Bàn tay đang bịt mũi của anh ta buông thõng xuống, ống tay áo phủ lên cánh tay như muốn che đi vết máu, và Cecilus dựa lưng vào hàng rào, bất động."
+  },
+  {
+    "id": 257,
+    "en": "His eyelids were closed and cast down, and without even a twitch, he became unable to move.",
+    "vi": "Mí mắt anh ta nhắm nghiền trĩu xuống, không một tiếng động hay cử động nào nữa, anh ta hoàn toàn không thể di chuyển."
+  },
+  {
+    "id": 258,
+    "en": "Subaru clearly understood what that meant.",
+    "vi": "Subaru hiểu rất rõ chuyện đó có nghĩa là gì."
+  },
+  {
+    "id": 259,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 260,
+    "en": "Subaru: [Khoff]",
+    "vi": "Subaru: [Khụ]"
+  },
+  {
+    "id": 261,
+    "en": "The hand he placed over his coughing mouth was stained with blood; Death had been looming closer to Subaru as well.",
+    "vi": "Bàn tay cậu đưa lên che miệng ho nhuộm đầy máu tươi; cái chết cũng đang cận kề Subaru."
+  },
+  {
+    "id": 262,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 263,
+    "en": "The same, the very same devastating scene dominated the Gladiator Island in its entirety.",
+    "vi": "Cảnh tượng thảm khốc y hệt bao trùm lên toàn bộ Đảo Đấu Sĩ."
+  },
+  {
+    "id": 264,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 265,
+    "en": "Slowly dragging his feet, Subaru wandered around the Island, searching for survivors.",
+    "vi": "Lết từng bước chân nặng nề, Subaru đi lang thang khắp đảo để tìm kiếm người sống sót."
+  },
+  {
+    "id": 266,
+    "en": "However, now that even Cecilus was out of the running, as if living up to Subaru’s tattered expectations, there was no occurrence of such an entity appearing.",
+    "vi": "Thế nhưng, giờ đây ngay cả Cecilus cũng đã gục ngã, như để chứng minh cho kỳ vọng vụn vỡ của Subaru, không hề có sự xuất hiện của bất kỳ ai còn sống."
+  },
+  {
+    "id": 267,
+    "en": "Subaru: [Tanza, and the others too, and even Old Man Null…]",
+    "vi": "Subaru: [Tanza, cả những người khác nữa, và cả Lão Null…]"
+  },
+  {
+    "id": 268,
+    "en": "Every single one of them had collapsed, and lost their lives.",
+    "vi": "Từng người, từng người một đều đã ngã xuống và mất đi sinh mạng."
+  },
+  {
+    "id": 269,
+    "en": "Shutting the eyelids on everyone’s astonished faces, as they were unable to comprehend the events that had occurred, and cleaning their faces somewhat, was the best that Subaru could do for them.",
+    "vi": "Vuốt mắt cho những gương mặt kinh ngạc khi họ không thể hiểu nổi chuyện gì đã xảy ra, rồi lau sạch mặt cho họ là điều tốt nhất Subaru có thể làm lúc này."
+  },
+  {
+    "id": 270,
+    "en": "Subaru: [Sorry, Tanza…]",
+    "vi": "Subaru: [Xin lỗi em, Tanza…]"
+  },
+  {
+    "id": 271,
+    "en": "He had failed. He had erred in his procedure.",
+    "vi": "Cậu đã thất bại. Cậu đã sai sót trong quá trình hành động."
+  },
+  {
+    "id": 272,
+    "en": "He should have told Tanza and the others about the danger as well, he should have had them take some kind of precautions.",
+    "vi": "Đáng lẽ cậu phải cảnh báo cho Tanza và những người khác về mối nguy hiểm, đáng lẽ phải để họ đề phòng từ trước."
+  },
+  {
+    "id": 273,
+    "en": "If only they had stayed together, after converging with Tanza and the others and before ascending to the vantage point. If only he had been able to make her at ease and not let her die. That girl, who was anxious about this place in which she could not rely on anyone, who knew nothing of the situation.",
+    "vi": "Phải chi họ đi cùng nhau sau khi hội ngộ với Tanza và những người khác trước khi lên khu đất cao. Phải chi cậu có thể làm cô bé yên lòng để không phải chết. Cô bé ấy, người luôn lo âu về nơi chốn không thể tin cậy vào ai này, người hoàn toàn mù tịt về tình hình."
+  },
+  {
+    "id": 274,
+    "en": "Until he found their bodies, he had not even thought about such an obvious thing.",
+    "vi": "Cho đến khi tìm thấy xác của họ, cậu thậm chí còn chưa từng nghĩ đến một điều hiển nhiên như vậy."
+  },
+  {
+    "id": 275,
+    "en": "Subaru: [――――]",
+    "vi": "Subaru: [――――]"
+  },
+  {
+    "id": 276,
+    "en": "Having wandered around the Island, he had seen that all the guards were dead as well.",
+    "vi": "Lang thang khắp hòn đảo, cậu thấy tất cả lính gác cũng đã chết."
+  },
+  {
+    "id": 277,
+    "en": "The way they had died was the same as the gladiators; everyone had bled to death, blood coming out from their faces. Along that way, he had gone go see the cages where the Gladiator Beasts were locked up, and there Subaru saw that all of them, too, had died.",
+    "vi": "Cách họ chết cũng giống hệt các đấu sĩ; ai nấy đều chảy máu từ mắt, mũi và tai cho đến chết. Trên đường đi, cậu ghé qua các chuồng nhốt Ma Thú Đấu Sĩ, và Subaru thấy tất cả chúng cũng đều đã chết."
+  },
+  {
+    "id": 278,
+    "en": "They had collapsed in their cages, bleeding from their eyes and noses, having died in the same way the humans had.",
+    "vi": "Chúng đổ gục trong chuồng, máu chảy ra từ mắt và mũi, chết cùng một cách thức như con người."
+  },
+  {
+    "id": 279,
+    "en": "Subaru: […I guess that means I’m more durable.]",
+    "vi": "Subaru: […Xem ra mình dẻo dai hơn bọn chúng nhỉ.]"
+  },
+  {
+    "id": 280,
+    "en": "While near death, he made a joke that the lifeless Gladiator Beasts did not laugh at.",
+    "vi": "Trong tình cảnh cận kề cái chết, cậu buông một lời đùa cợt mà những con Ma Thú Đấu Sĩ không thể cười nổi."
+  },
+  {
+    "id": 281,
+    "en": "It was difficult to breathe because his nose was completely blocked by blood. His eyes had also become moist and misty, and upon wiping them with his fingers, it was like a faint red curtain would cover them.",
+    "vi": "Lồng ngực khó thở vì mũi đã bị máu bịt kín. Đôi mắt cậu cũng mờ đi, mỗi lần dùng ngón tay lau nước mắt, một bức màn đỏ nhạt lại như bao phủ tầm nhìn."
+  },
+  {
+    "id": 282,
+    "en": "Towards Subaru, and Subaru only, slowly approached an absolutely disgusting Death God.",
+    "vi": "Hướng về phía Subaru, chỉ một mình Subaru, là một Tử Thần cực kỳ đáng ghét đang chậm rãi tiến lại gần."
+  },
+  {
+    "id": 283,
+    "en": "To that disgusting Death God, Subaru erected his trembling middle finger.",
+    "vi": "Đối với vị Tử Thần đáng ghét đó, Subaru dựng ngón tay giữa run rẩy của mình lên."
+  },
+  {
+    "id": 284,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 285,
+    "en": "???: [――Hey you, what are you doing in a place like this?]",
+    "vi": "???: [――Này nhóc, đang làm gì ở một nơi thế này thế?]"
+  },
+  {
+    "id": 286,
+    "en": "In the middle stratum of the Island, in the place known as the courtyard, the Death God muttered as he cracked the bones in his neck.",
+    "vi": "Tại tầng trung của hòn đảo, nơi được biết đến là sân trong, vị Tử Thần vừa bẻ các khớp cổ kêu răng rắc vừa lẩm bẩm."
+  },
+  {
+    "id": 287,
+    "en": "Wearing a black bandana and giving the outward appearance of a friendly young man, was the Death God―― Todd. As he looked at Subaru, who had raised the middle finger towards him, he gradually drew closer.",
+    "vi": "Đội chiếc khăn bandana màu đen và mang vẻ ngoài thân thiện của một thanh niên trẻ tuổi, chính là vị Tử Thần―― Todd. Nhìn Subaru đang giơ ngón tay giữa về phía mình, hắn dần dần thu hẹp khoảng cách."
+  },
+  {
+    "id": 288,
+    "en": "Todd: [As you can see, I’d thought every guy on the Island had died, but…]",
+    "vi": "Todd: [Như nhóc thấy đấy, ta cứ tưởng mọi kẻ trên hòn đảo này đều chết sạch rồi chứ, nhưng…]"
+  },
+  {
+    "id": 289,
+    "en": "Todd skillfully pulled out a large knife, wearing a puzzled face as he looked at Subaru.",
+    "vi": "Todd thành thục rút ra một con dao lớn, khuôn mặt lộ vẻ băn khoăn khi nhìn Subaru."
+  },
+  {
+    "id": 290,
+    "en": "In many ways, he was probably thinking he had gotten into an unexplainable situation. Meeting a living person here must have been outside of Todd’s expectations.",
+    "vi": "Về nhiều mặt, hắn hẳn đang nghĩ mình rơi vào một tình huống khó giải thích. Việc bắt gặp một người còn sống ở đây chắc chắn nằm ngoài dự tính của Todd."
+  },
+  {
+    "id": 291,
+    "en": "The feeling of falling into an ambush, certainly had also been ominous to Todd.",
+    "vi": "Cảm giác bị rơi vào bẫy phục kích chắc chắn cũng đem lại điềm báo không lành cho Todd."
+  },
+  {
+    "id": 292,
+    "en": "However, Subaru knew that if he waited here, he would come.",
+    "vi": "Tuy vậy, Subaru biết nếu cậu đợi ở đây, hắn sẽ tới."
+  },
+  {
+    "id": 293,
+    "en": "If he could finish this without meeting him, he would rather have that, but this was a confrontation he could not avoid no matter what.",
+    "vi": "Nếu có thể giải quyết chuyện này mà không cần gặp hắn, cậu thà chọn cách đó, nhưng đây là cuộc đối đầu cậu không thể tránh khỏi bằng bất cứ giá nào."
+  },
+  {
+    "id": 294,
+    "en": "There was no one else left alive anymore, and in the time until Subaru died, the only one to have any chance of speaking to him was this Death God.",
+    "vi": "Không còn một ai sống sót nữa, và trong khoảng thời gian trước khi Subaru lâm chung, kẻ duy nhất có cơ hội trò chuyện với cậu chính là vị Tử Thần này."
+  },
+  {
+    "id": 295,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 296,
+    "en": "The look in his eyes lacked negligence, but there was no hesitation in his approaching steps. It was not so much an attitude of looking down upon Subaru, but more of an attitude of not viewing Subaru as a problem.",
+    "vi": "Ánh mắt hắn không hề có chút lơ là, nhưng bước chân tiến lại không một nhịp do dự. Đó không hẳn là thái độ khinh thường Subaru, mà giống như thái độ không coi Subaru là một vấn đề đáng bận tâm hơn."
+  },
+  {
+    "id": 297,
+    "en": "That he was underestimating Subaru because he was a child, could not be the case.",
+    "vi": "Việc hắn coi thường Subaru chỉ vì cậu là một đứa trẻ chắc chắn không xảy ra."
+  },
+  {
+    "id": 298,
+    "en": "Without letting out jokes or metaphors, Subaru was already at the point of death. If one were to be overly cautious towards a helpless child about to die, that would not be cautiousness, but rather cowardice.",
+    "vi": "Không cần dùng đến những lời đùa cợt hay ẩn dụ, Subaru đã ở rất gần cái chết. Nếu tỏ ra quá cẩn trọng với một đứa trẻ bất lực sắp chết, đó không phải là cẩn thận mà là hèn nhát."
+  },
+  {
+    "id": 299,
+    "en": "Though, Todd could be spoken of as cunning and cautious, not as cowardly.",
+    "vi": "Tuy vậy, Todd chỉ có thể được gọi là kẻ xảo quyệt và thận trọng, chứ không phải hèn nhát."
+  },
+  {
+    "id": 300,
+    "en": "――Facing him, Subaru, who had let the girl’s Death go by through his stupidity, was thinking.",
+    "vi": "――Đối mặt với hắn, Subaru, người đã để cái chết của cô bé trôi qua vì sự ngu ngốc của mình, đang suy nghĩ."
+  },
+  {
+    "id": 301,
+    "en": "Even though Todd had appeared just as he had wished, he was not sure if things from now would go as he wished.",
+    "vi": "Mặc dù Todd đã xuất hiện đúng như mong muốn của cậu, cậu cũng không chắc liệu mọi chuyện từ giờ có diễn ra suôn sẻ hay không."
+  },
+  {
+    "id": 302,
+    "en": "Even if he had a chance, Todd was not a person who would give hints easily. He did not have the kindness to give a helpless dying child something to help them die in peace.",
+    "vi": "Ngay cả khi có cơ hội, Todd cũng không phải kiểu người dễ dàng đưa ra gợi ý. Hắn không có lòng tốt đến mức cho một đứa trẻ sắp chết và bất lực bất cứ thứ gì để ra đi thanh thản."
+  },
+  {
+    "id": 303,
+    "en": "If so, against this cold-blooded Death God, how could he bring back some form of information?",
+    "vi": "Nếu đã vậy, trước vị Tử Thần máu lạnh này, làm sao cậu có thể khai thác được một chút thông tin nào chứ?"
+  },
+  {
+    "id": 304,
+    "en": "Maybe, there was just one thing.",
+    "vi": "Có lẽ, chỉ có duy nhất một điều."
+  },
+  {
+    "id": 305,
+    "en": "Even if he did extremely well, the information he could get was just one thing.",
+    "vi": "Ngay cả khi mọi chuyện diễn ra vô cùng suôn sẻ, thông tin cậu thu được cũng chỉ là một thứ."
+  },
+  {
+    "id": 306,
+    "en": "That one thing, he had to make it something worth his while.",
+    "vi": "Một thứ đó, cậu phải biến nó thành điều xứng đáng với công sức bỏ ra."
+  },
+  {
+    "id": 307,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 308,
+    "en": "Step-by-step, the distance between Subaru and Todd diminished.",
+    "vi": "Từng bước, từng bước một, khoảng cách giữa Subaru và Todd thu hẹp lại."
+  },
+  {
+    "id": 309,
+    "en": "As soon as this distance reached zero, it would not be surprising for the other party to stab Subaru and bring him death mutely. With his head and body lacking oxygen, he had to draw the correct answer.",
+    "vi": "Ngay khi khoảng cách này trở về không, việc đối phương đâm Subaru và lặng lẽ cướp đi sinh mạng cậu là điều không có gì ngạc nhiên. Trong tình trạng đầu óc và cơ thể thiếu dưỡng khí, cậu phải tìm ra câu trả lời chính xác."
+  },
+  {
+    "id": 310,
+    "en": "It was Todd who committed this massacre on the Island. There was no use in asking.",
+    "vi": "Todd chính là kẻ đã thực hiện vụ tàn sát này trên đảo. Hỏi chuyện đó cũng vô ích."
+  },
+  {
+    "id": 311,
+    "en": "Who was still alive? It would be useless to ask that. There would be no meaning.",
+    "vi": "Ai vẫn còn sống? Hỏi điều đó cũng vô ích, chẳng có ý nghĩa gì."
+  },
+  {
+    "id": 312,
+    "en": "Where was Arakiya? As much as he would like to know that, he did not think Todd would answer him. It would be useless.",
+    "vi": "Arakiya đang ở đâu? Dù rất muốn biết chuyện đó, cậu không nghĩ Todd sẽ trả lời. Hỏi cũng bằng thừa."
+  },
+  {
+    "id": 313,
+    "en": "What had happened to Gustav? That, like Arakiya, would be a useless shot.",
+    "vi": "Có chuyện gì đã xảy ra với Gustav? Điều đó, cũng giống như Arakiya, sẽ là một câu hỏi vô dụng."
+  },
+  {
+    "id": 314,
+    "en": "Then, what remained, was it the method behind the massacre?",
+    "vi": "Vậy thì, thứ còn lại, liệu có phải là phương pháp đứng sau vụ tàn sát?"
+  },
+  {
+    "id": 315,
+    "en": "Todd: [――――]",
+    "vi": "Todd: [――――]"
+  },
+  {
+    "id": 316,
+    "en": "Poison gas, was not it. Subaru had erased that option from his mind.",
+    "vi": "Không phải là khí độc. Subaru đã gạt bỏ phương án đó khỏi tâm trí."
+  },
+  {
+    "id": 317,
+    "en": "Halfway up the Island’s mountain, Subaru had happened upon Cecilus at the vantage point, and had decided to stay there after all. ――If the answer to the massacre were to be poison gas, then he would have been safe with the strong winds of the vantage point, probably.",
+    "vi": "Ở lưng chừng núi của hòn đảo, Subaru tình cờ gặp Cecilus tại khu đất cao và đã quyết định ở lại đó. ――Nếu câu trả lời cho vụ tàn sát là khí độc, thì rất có thể họ đã an toàn nhờ những cơn gió lớn thổi qua khu đất cao rồi."
+  },
+  {
+    "id": 318,
+    "en": "But as it turned out, neither Subaru nor Cecilus had escaped the carnage of the massacre. The possibility of poison gas was quite low, considering those outside and on the Island had also collapsed.",
+    "vi": "Thế nhưng kết cục là cả Subaru lẫn Cecilus đều không thoát khỏi thảm cảnh tàn sát. Khả năng là khí độc rất thấp, khi xét đến việc những người ở ngoài lẫn trên đảo cũng đều đổ gục."
+  },
+  {
+    "id": 319,
+    "en": "Then, the other possibility was――,",
+    "vi": "Vậy thì, khả năng còn lại chính là――,"
+  },
+  {
+    "id": 320,
+    "en": "Subaru: [――Ah.]",
+    "vi": "Subaru: [――À.]"
+  },
+  {
+    "id": 321,
+    "en": "Magic, from Arakiya. Arakiya, who had appeared together with Todd, had utilized some kind of slaughter magic to annihilate the gladiators, the guards, and the Gladiator Beasts on the Island.",
+    "vi": "Ma pháp của Arakiya. Arakiya, người xuất hiện cùng với Todd, đã sử dụng một loại ma pháp tàn sát nào đó để tiêu diệt các đấu sĩ, lính gác và Ma Thú Đấu Sĩ trên đảo."
+  },
+  {
+    "id": 322,
+    "en": "If he could acquire that certainty, then, next time, next time he would go about things in actual proper fashion.",
+    "vi": "Nếu cậu có được sự chắc chắn đó, thì lần sau, lần sau cậu sẽ hành động một cách thực sự đúng đắn."
+  },
+  {
+    "id": 323,
+    "en": "If he could, acquire that certainty――.",
+    "vi": "Nếu cậu có thể có được sự chắc chắn đó――."
+  },
+  {
+    "id": 324,
+    "en": "???: [――Here, right here.]",
+    "vi": "???: [――Đây rồi, chính là đây nha.]"
+  },
+  {
+    "id": 325,
+    "en": "That instant, an auditory hallucination dominated Subaru’s mind.",
+    "vi": "Ngay khoảnh khắc đó, một ảo giác thính giác chiếm lấy tâm trí Subaru."
+  },
+  {
+    "id": 326,
+    "en": "The voice of the star actor, who should no longer be among them, yielded a heat within Subaru’s weak thinking.",
+    "vi": "Giọng nói của người diễn viên chính, kẻ đáng lẽ không còn hiện diện ở đây nữa, thắp lên một tia sáng ấm áp trong dòng suy nghĩ yếu ớt của Subaru."
+  },
+  {
+    "id": 327,
+    "en": "And then, as if that heat was urging him to do so, he opened his mouth and――,",
+    "vi": "Và rồi, như thể được thúc giục bởi tia sáng đó, cậu mở miệng ra và――,"
+  },
+  {
+    "id": 328,
+    "en": "Subaru: [――THE CURSE RULE!!]",
+    "vi": "Subaru: [――QUY TẮC LỜI NGUYỀN!!]"
+  },
+  {
+    "id": 329,
+    "en": "The possibility he had once erased, albeit unable to do it fully; he shouted it in a loud voice toward the Death God.",
+    "vi": "Khả năng cậu từng gạt bỏ, dù không thể phủ nhận hoàn toàn; cậu hét lớn hướng về phía vị Tử Thần."
+  },
+  {
+    "id": 330,
+    "en": "That bloodcurdling voice from Subaru was an inescapable attack, one which seized hold of the Death God. And then, the instant he heard that shout, the Death God―― Todd, moved.",
+    "vi": "Giọng nói thảng thốt đó từ Subaru là một đòn tấn công không thể tránh né, đòn đánh đã tóm lấy vị Tử Thần. Và rồi, ngay khoảnh khắc nghe thấy tiếng hét đó, vị Tử Thần―― Todd, hành động."
+  },
+  {
+    "id": 331,
+    "en": "Todd: [Die.]",
+    "vi": "Todd: [Chết đi.]"
+  },
+  {
+    "id": 332,
+    "en": "The hint of suspicion, the bothersome air, just about everything disappeared, leaving only the intent to kill.",
+    "vi": "Chút hoài nghi, vẻ phiền phức, tất cả mọi thứ đều biến mất, chỉ còn lại sát ý nguyên bản."
+  },
+  {
+    "id": 333,
+    "en": "If one were to see it in a sane state, that murderous intent was so thick and dense they would almost faint. With that in his eyes and a knife in his hand, Todd leapt at Subaru in a single breath’s time.",
+    "vi": "Nếu chứng kiến trong trạng thái tỉnh táo, sát ý đậm đặc đó đủ làm người ta ngất xỉu. Với sát khí ngập tràn trong mắt và con dao trong tay, Todd lao vào Subaru chỉ trong một nhịp thở."
+  },
+  {
+    "id": 334,
+    "en": "Subaru: [Kah.]",
+    "vi": "Subaru: [Hộc.]"
+  },
+  {
+    "id": 335,
+    "en": "The thrust of the cold blade buried it deep into Subaru’s chest.",
+    "vi": "Lưỡi dao lạnh buốt cắm phập vào sâu trong lồng ngực Subaru."
+  },
+  {
+    "id": 336,
+    "en": "Without a shred of mercy, the knife clawed through everything vital within his chest, and was wrenched out with a twist, to ensure that he would never be saved.",
+    "vi": "Không một chút nương tay, con dao cào nát mọi cơ quan trọng yếu trong ngực cậu, rồi được xoay một vòng trước khi rút ra để đảm bảo cậu không bao giờ có thể được cứu."
+  },
+  {
+    "id": 337,
+    "en": "A gush of blood spurted, staining Todd’s blank face with fresh blood.",
+    "vi": "Một dòng máu tươi tuôn ra xối xả, bắn tung tóe lên khuôn mặt vô cảm của Todd."
+  },
+  {
+    "id": 338,
+    "en": "Subaru: [――Ghuh.]",
+    "vi": "Subaru: [――Hộc.]"
+  },
+  {
+    "id": 339,
+    "en": "He had been stabbed, and then, the blade had been yanked out; the force of that had flung his body onto the hard ground. The blood rushed through his throat with a vigor he had never experienced before, as he spit out a gulp of blood alongside the packaged “drug”.",
+    "vi": "Cậu bị đâm, rồi lưỡi dao giật mạnh ra ngoài; phản lực của cú đâm hất văng cơ thể cậu xuống nền đất cứng. Máu trào lên cổ họng với tốc độ chưa từng thấy, cậu phun ra một ngụm máu lớn cùng với gói “thuốc” bọc kín."
+  },
+  {
+    "id": 340,
+    "en": "He had bit down, but failed to tear the envelope. But, this wound did not require the “drug”.",
+    "vi": "Cậu đã cắn mạnh, nhưng không làm rách được lớp bọc. Dẫu vậy, vết thương này không cần dùng đến “thuốc” nữa."
+  },
+  {
+    "id": 341,
+    "en": "Todd: [From the inside of your mouth, are you sane?]",
+    "vi": "Todd: [Lấy ra từ trong miệng sao, nhóc điên rồi à?]"
+  },
+  {
+    "id": 342,
+    "en": "As he picked up the red-tinged package with his fingers and sniffed it, Todd muttered. Could he tell from the smell alone that the contents were dangerous, or had he guessed because it had come out of Subaru’s mouth?",
+    "vi": "Hắn dùng ngón tay nhặt gói thuốc nhuốm màu đỏ lên ngửi rồi lẩm bẩm. Hắn có thể biết thứ bên trong nguy hiểm chỉ nhờ mùi hương, hay phỏng đoán vì nó được phun ra từ miệng Subaru?"
+  },
+  {
+    "id": 343,
+    "en": "Either way, it did not matter. It was something that Subaru could no longer reach.",
+    "vi": "Dù thế nào đi nữa, điều đó không còn quan trọng. Đó là chuyện Subaru không thể với tới được nữa."
+  },
+  {
+    "id": 344,
+    "en": "Only, only, if there was something he wanted to say, that would be.",
+    "vi": "Chỉ là, chỉ là, nếu có điều gì cậu muốn nói, thì đó sẽ là."
+  },
+  {
+    "id": 345,
+    "en": "Subaru: […thing.]",
+    "vi": "Subaru: […thứ.]"
+  },
+  {
+    "id": 346,
+    "en": "Todd: [――What?]",
+    "vi": "Todd: [――Cái gì?]"
+  },
+  {
+    "id": 347,
+    "en": "Subaru: [One, thing.]",
+    "vi": "Subaru: [Một, thứ.]"
+  },
+  {
+    "id": 348,
+    "en": "The one thing, he had grasped it.",
+    "vi": "Một thứ đó, cậu đã nắm bắt được."
+  },
+  {
+    "id": 349,
+    "en": "His expression changing, giving it precedence above all else, he hastily killed Subaru.",
+    "vi": "Nét mặt thay đổi, đặt chuyện này lên trên hết thảy, hắn vội vã ra tay kết liễu Subaru."
+  },
+  {
+    "id": 350,
+    "en": "That was why, Subaru had grasped it.",
+    "vi": "Chính vì vậy, Subaru đã nắm bắt được."
+  },
+  {
+    "id": 351,
+    "en": "Subaru: [Curs――]",
+    "vi": "Subaru: [Lời ng――]"
+  },
+  {
+    "id": 352,
+    "en": "He had grasped it, he had grasped it, and then, died.",
+    "vi": "Cậu đã nắm bắt được, đã nắm bắt được nó, rồi qua đời."
+  },
+  {
+    "id": 353,
+    "en": "In exchange for dying, he had grasped it.",
+    "vi": "Đổi lại bằng chính cái chết, cậu đã nắm bắt được nó."
+  },
+  {
+    "id": 354,
+    "en": "――That which had been responsible for the killings upon the Gladiator Island Ginunhive, was the “curse rule” that supposedly did not exist.",
+    "vi": "――Thứ chịu trách nhiệm cho những cái chết trên Đảo Đấu Sĩ Ginunhive chính là “quy tắc lời nguyền” vốn dĩ được cho là không tồn tại."
+  },
+  {
+    "id": 355,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  },
+  {
+    "id": 356,
+    "en": "Witch Cult Translations is recruiting! We’re currently looking for machine translators and Japanese to English checkers. If you’re interested in either of these roles, you can leave a reply in the comments below with your contact information, send a DM to @WCTranslations, or contact Ice#6557 on Discord.",
+    "vi": "Witch Cult Translations đang tuyển thành viên! Chúng tôi hiện đang tìm kiếm biên dịch viên máy và kiểm tra chất lượng dịch thuật Nhật-Anh. Nếu bạn quan tâm đến một trong các vai trò này, bạn có thể để lại phản hồi trong phần bình luận bên dưới với thông tin liên hệ của bạn, gửi DM tới @WCTranslations, hoặc liên hệ Ice#6557 on Discord."
+  },
+  {
+    "id": 357,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※"
+  }
+]

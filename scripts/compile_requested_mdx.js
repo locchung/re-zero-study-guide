@@ -6,11 +6,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const chapters = [
-  { num: '61', title: 'Chương 61: Chào Mừng Đến Với Đảo Đấu Sĩ | Welcome, to the Gladiator Island!', chapterVal: 61 },
-  { num: '62', title: 'Chương 62: Luật Lệ Của Hòn Đảo | The Island’s Order', chapterVal: 62 },
-  { num: '63', title: 'Chương 63: Sparka | Sparka', chapterVal: 63 },
-  { num: '64', title: 'Chương 64: Những Từ Ngữ Ma Thuật | Magic Words', chapterVal: 64 },
-  { num: '65', title: 'Chương 65: Chiến Thần Ăn Chực Học Đường | The School Food Fighter', chapterVal: 65 }
+  { num: '66', title: 'Chương 66: Ngôi Sao Nguyện Cầu Thiết Tha | The Star that Earnestly Wishes', chapterVal: 66 },
+  { num: '67', title: 'Chương 67: Đếm Một | Count One', chapterVal: 67 },
+  { num: '68', title: 'Chương 68: ■■ ■ | ■■ ■', chapterVal: 68 },
+  { num: '69', title: 'Chương 69: Thanh Thiết Chùy Phi Lý Của Kiếm | The Absurd Iron Hammer of the Sword', chapterVal: 69 },
+  { num: '70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterVal: 70 }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');

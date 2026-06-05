@@ -123,6 +123,11 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-63', title: 'Chương 63: Sparka | Sparka', chapterNumber: 63, arc: 7 },
   { slug: 'chuong-64', title: 'Chương 64: Những Từ Ngữ Ma Thuật | Magic Words', chapterNumber: 64, arc: 7 },
   { slug: 'chuong-65', title: 'Chương 65: Chiến Thần Ăn Chực Học Đường | The School Food Fighter', chapterNumber: 65, arc: 7 },
+  { slug: 'chuong-66', title: 'Chương 66: Ngôi Sao Nguyện Cầu Thiết Tha | The Star that Earnestly Wishes', chapterNumber: 66, arc: 7 },
+  { slug: 'chuong-67', title: 'Chương 67: Đếm Một | Count One', chapterNumber: 67, arc: 7 },
+  { slug: 'chuong-68', title: 'Chương 68: ■■ ■ | ■■ ■', chapterNumber: 68, arc: 7 },
+  { slug: 'chuong-69', title: 'Chương 69: Thanh Thiết Chùy Phi Lý Của Kiếm | The Absurd Iron Hammer of the Sword', chapterNumber: 69, arc: 7 },
+  { slug: 'chuong-70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterNumber: 70, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
