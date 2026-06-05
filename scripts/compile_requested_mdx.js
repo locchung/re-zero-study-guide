@@ -10,7 +10,8 @@ const chapters = [
   { num: '67', title: 'Chương 67: Đếm Một | Count One', chapterVal: 67 },
   { num: '68', title: 'Chương 68: ■■ ■ | ■■ ■', chapterVal: 68 },
   { num: '69', title: 'Chương 69: Thanh Thiết Chùy Phi Lý Của Kiếm | The Absurd Iron Hammer of the Sword', chapterVal: 69 },
-  { num: '70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterVal: 70 }
+  { num: '70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterVal: 70 },
+  { num: '71', title: 'Chương 71: Nước | Water', chapterVal: 71 }
 ];
 
 const tempDir = path.join(__dirname, 'translation_temp');

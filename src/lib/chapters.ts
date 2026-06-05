@@ -128,6 +128,7 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-68', title: 'Chương 68: ■■ ■ | ■■ ■', chapterNumber: 68, arc: 7 },
   { slug: 'chuong-69', title: 'Chương 69: Thanh Thiết Chùy Phi Lý Của Kiếm | The Absurd Iron Hammer of the Sword', chapterNumber: 69, arc: 7 },
   { slug: 'chuong-70', title: 'Chương 70: Ngôi Sao Tha Thiết | The Earnest Star', chapterNumber: 70, arc: 7 },
+  { slug: 'chuong-71', title: 'Chương 71: Nước | Water', chapterNumber: 71, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
