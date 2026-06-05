@@ -5,6 +5,16 @@ description: Translates Re:Zero web novel chapters from English into literary Vi
 
 # Re:Zero — Vietnamese Translation Skill
 
+## Workflow context — where translation fits
+
+Translation is one stage of the chapter pipeline (`pnpm chapter <stage> <num>`):
+
+```
+crawl ─▶ scaffold ─▶ [TRANSLATE ← this skill] ─▶ compile ─▶ qa ─▶ register
+```
+
+`pnpm chapter all <num>` crawls + scaffolds a worksheet (`translation_temp/arc<A>_ch<num>_translated.json`, `{id, en, vi}` with `vi` empty). You fill every `vi` using the steps below, then `pnpm chapter compile <num>` builds the MDX and `pnpm chapter qa <num>` runs the automated checks (`check_terms.py` + `check_completeness.py`). Full usage: [references/pipeline.md](references/pipeline.md). If the user hands you raw text directly instead, skip straight to Step 0.
+
 ## Step 0 — Pre-translation setup
 
 ### A. Load chapter context (if available)
