@@ -129,6 +129,10 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-69', title: 'Chương 69: Đến Từ Đế Đô | Arriving from the Imperial Capital', chapterNumber: 69, arc: 7 },
   { slug: 'chuong-70', title: 'Chương 70: Một Điều Duy Nhất | One Thing', chapterNumber: 70, arc: 7 },
   { slug: 'chuong-71', title: 'Chương 71: Nước | Water', chapterNumber: 71, arc: 7 },
+  { slug: 'chuong-72', title: 'Chương 72: ■■ ■', chapterNumber: 72, arc: 7 },
+  { slug: 'chuong-73', title: 'Chương 73: Weitz Rogen | Weitz Rogen', chapterNumber: 73, arc: 7 },
+  { slug: 'chuong-74', title: 'Chương 74: Idra Missanga | Idra Missanga', chapterNumber: 74, arc: 7 },
+  { slug: 'chuong-75', title: 'Chương 75: Tôi Biết | I know', chapterNumber: 75, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
