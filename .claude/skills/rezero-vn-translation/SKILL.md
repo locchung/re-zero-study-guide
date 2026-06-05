@@ -217,7 +217,7 @@ After reading, fix any of the following:
 - Any line where a more vivid or precise Vietnamese expression exists
 
 **For unnatural sentences, apply the diagnostic from [references/naturalness.md](references/naturalness.md):**
-Run through the 12 construction traps — passive voice, existential "có một", nominalization ("sự+noun"), "bắt đầu" overuse, subject repetition, weak-verb+adverb, body-language calques. If a sentence triggers any of them, rewrite before moving on.
+Run through the 13 construction traps — passive voice, existential "có một", nominalization ("sự+noun"), "bắt đầu" overuse, subject repetition, weak-verb+adverb, body-language calques, and wrong-sense multi-meaning adjectives ("lạnh" vs "lạnh lùng"). If a sentence triggers any of them, rewrite before moving on.
 
 **Benchmark:** See [references/examples.md](references/examples.md) for target-quality excerpt pairs to calibrate against.
 
@@ -227,8 +227,26 @@ After fixing, run the checklist below.
 
 ## Step 5 — Completeness checklist (after Pass 2)
 
-### Translation completeness:
-- [ ] Every paragraph has a `<Sentence>` block — no skipped paragraphs
+### Translation completeness — verify against the source, do NOT eyeball it:
+
+A whole paragraph going missing is the #1 silent failure of MT-based translation: the surrounding text still reads fine, so nothing flags it. **Never trust a visual scan to confirm completeness.** Because the MDX embeds each English source paragraph in its `en="..."` attribute, completeness is checkable automatically — every source paragraph must be represented among the `en` values (translated, split, or condensed into a `[summary]`).
+
+**Mandatory step — run the completeness checker before finalizing:**
+```bash
+# If a raw source file exists in scratch/ (e.g. scratch/chapter_53_raw.txt):
+python scripts/check_completeness.py --auto content/arc7/chuong-53.mdx
+# Or point at the source explicitly:
+python scripts/check_completeness.py <source.txt> <chapter.mdx>
+```
+- **✗ MISSING** (coverage < 34%) → almost certainly a dropped paragraph. Add the missing `<Sentence>` block. **A flagged DIALOGUE line is critical** — dialogue must always be translated in full, never summarized or dropped.
+- **⚠ REVIEW** (34–80%) → only partially covered. Confirm it was an *intentional* summary, not a partial drop. If it is plot-advancing content, restore the full translation.
+- **⚠ DUPLICATE en** → the same source line appears in more MDX blocks than the source itself has — a copy-paste tell where one paragraph's block overwrote another's (the en↔vi mismatch failure). Verify each Vietnamese block matches its own `en`.
+
+If no raw source file is available, fall back to the manual check below, comparing the MDX against the source text the user provided.
+
+- [ ] Completeness checker reports **0 missing** (or every REVIEW item is a confirmed intentional summary)
+- [ ] Every source paragraph has a `<Sentence>` block — no skipped paragraphs
+- [ ] Every Vietnamese block's content actually matches its own `en` attribute (no mismatches)
 - [ ] No English words in the Vietnamese text (except proper nouns)
 - [ ] No English conjunctions leaked: "and", "but", "or", "if", "the", etc.
 - [ ] All descriptive speaker labels are in Vietnamese (e.g., "Thanh niên tóc cam:", not "Orange Haired Youth:")
@@ -240,11 +258,12 @@ After fixing, run the checklist below.
 - [ ] Emotional peaks preserved at their original intensity?
 - [ ] **Paragraph-level repetition:** any word repeated within the same paragraph?
 - [ ] **Chapter-level connectors:** "dẫu", "dù", "chợt", "bỗng", "nhất định", "dường như", "thực sự", "tuy nhiên" — any appearing 3+ times? Rotate excess with synonyms from Step 2.
-- [ ] Machine translation relics? ("lị", "sất", "quèn", "d dứt", "độc độc", "phân một")
+- [ ] Machine translation relics? ("lị", "sất", "quèn", "d dứt", "độc độc", "phân một", "một tán", "o cùng", "dứng")
 - [ ] Any sentence that is a word-for-word substitution from English?
 
 > **Tip:** Run `python scripts/check_terms.py <file.mdx>` to automatically scan for terminology errors, proper noun violations, duplicated consecutive words, and connector overuse.
 > Run `python scripts/check_terms.py --all --cross-check` to see cross-chapter consistency (which chapters use wrong term variants).
+> Run `python scripts/check_completeness.py --auto <file.mdx>` to verify no source paragraph was dropped.
 
 ---
 
@@ -256,9 +275,9 @@ After the checklist, read the output one final time as a skeptic whose only job 
 
 ❌ Priscilla telling Abel: "ngai vàng **của ta**" when English says "**your** throne" → should be "của **ngươi**"
 
-**3. Beatrice test** — for every Beatrice line, ask: *"Could Emilia have said this?"* If yes, the line has lost Beatrice's voice. Add her sentence-final markers ("…nhỉ", "…đấy chứ") and restore the archaic/haughty register.
+**2. Beatrice test** — for every Beatrice line, ask: *"Could Emilia have said this?"* If yes, the line has lost Beatrice's voice. Add her sentence-final markers ("…nhỉ", "…đấy chứ") and restore the archaic/haughty register.
 
-**2. Subaru voice test** — for every Subaru line, ask: *"Does this sound like a teenager from modern Japan, or like a generic fantasy protagonist?"* If the latter, inject personality: sarcasm, self-deprecation, a pop-culture aside, rougher phrasing.
+**3. Subaru voice test** — for every Subaru line, ask: *"Does this sound like a teenager from modern Japan, or like a generic fantasy protagonist?"* If the latter, inject personality: sarcasm, self-deprecation, a pop-culture aside, rougher phrasing.
 
 **4. Naturalness test** — pick 3 random sentences from the output and run the Quick Diagnostic from [references/naturalness.md](references/naturalness.md). If any trigger a trap (passive, existential, nominalization, subject repetition, weak verb), fix the entire passage they came from — other sentences nearby likely have the same issue.
 
@@ -272,7 +291,10 @@ After the checklist, read the output one final time as a skeptic whose only job 
 
 **9. Connector count** — do one final count of "dẫu / dù / chợt / bỗng". If any appears 3+ times, you missed it in Pass 2. Fix now.
 
+**10. Dialect & register test** — scan for Southern-dialect particles ("chi" for "gì", "chăng", "sao chăng") and over-archaic wuxia vocabulary ("cô nương", "tức tốc", "phát ngôn" for plain speech, "hèn hạ" on every villain line). Re:Zero is a modern light novel — plain modern source must read as plain modern Vietnamese. See [references/mistakes.md Category 21](references/mistakes.md). Run `python scripts/check_terms.py` to catch the dialect particles automatically.
+
 > Full error catalogue with bad/good examples for every category: [references/mistakes.md](references/mistakes.md)
+> Completeness: `python scripts/check_completeness.py --auto <file.mdx>` confirms no source paragraph or scene was dropped.
 
 If the adversarial review finds issues: fix them, then output. If it finds nothing: output immediately. Do not over-refine after a clean adversarial pass.
 

@@ -306,22 +306,22 @@ The most destructive MT error in Arc 7 chapters. The machine translation systema
 
 ## CATEGORY 7 — English leakage
 
-### 6.1 Conjunction leakage (most common)
+### 7.1 Conjunction leakage (most common)
 ❌ `"Garfiel and Otto đã sẵn sàng."` → ✓ `"Garfiel và Otto đã sẵn sàng."`
 ❌ `"But cậu không thể làm vậy."` → ✓ `"Nhưng cậu không thể làm vậy."`
 
-### 6.2 Untranslated speaker labels
+### 7.2 Untranslated speaker labels
 ❌ `Orange Haired Youth: "..."` → ✓ `Thanh niên tóc cam: "..."`
 ❌ `Hooded Figure: "..."` → ✓ `Người đội mũ trùm đầu: "..."`
 ❌ `Old Man: "..."` → ✓ `Lão già: "..."` / `Ông lão: "..."`
 
-### 6.3 Partial source sentence survived
+### 7.3 Partial source sentence survived
 ❌ `"cậu ta nhìn thẳng vào mắt the youth in front of him"` — English fragment leaked mid-sentence
 ✓ Every word must be Vietnamese
 
 ---
 
-## CATEGORY 7 — Machine translation artifacts
+## CATEGORY 8 — Machine translation artifacts
 
 MT artifacts follow a small number of structural patterns. The script (`check_terms.py`) detects these **by pattern**, so you do not need to add every new corrupted word individually. Only add to the "specific tokens" list when a word slips through all three pattern checks.
 
@@ -346,9 +346,23 @@ The MT tool drops the first syllable of a two-syllable compound, leaving a meani
 |------------------|--------------------|---------|
 | `một vân` | `phân vân` | hesitant, undecided |
 | `phân một` | `phân vân` | hesitant, undecided |
+| `một tán` | `phân tán` | scattered, diverted |
 
-**Detected automatically** by the script (checks for `vân` appearing without `phân` before it).
-When you find a new split compound, add the orphaned syllable to `_ORPHANED_SYLLABLES` in `check_terms.py` — only if the syllable has **no valid standalone meaning** in Vietnamese prose.
+**Detected automatically** by the script (checks for the orphan appearing without its compound partner before it).
+When you find a new split compound, add the pair to `CANONICAL_TERMS` (or `_ORPHANED_SYLLABLES`) in `check_terms.py` — only if the syllable has **no valid standalone meaning** in Vietnamese prose.
+
+---
+
+### Pattern D — Single-letter corruption inside a word
+A letter is dropped or swapped mid-word, leaving a token that looks almost right but is invalid.
+
+| Corrupted | Was supposed to be | What happened |
+|-----------|--------------------|---------------|
+| `o cùng` | `vô cùng` (extremely) | leading "v" dropped: vô → o |
+| `dứng` | `đứng` (to stand) | "đ" flattened to "d" |
+| `d sẽ`, `d dũng` | `sẽ`, `dũng` | stray "d " prefix (see Pattern A) |
+
+**Detected automatically** by the script (`CANONICAL_TERMS` entries). Add a new pair when a corrupted token recurs.
 
 ---
 
@@ -379,49 +393,49 @@ Only add here when a token is confirmed as an artifact but doesn't match Pattern
 
 ---
 
-## CATEGORY 8 — MDX format errors
+## CATEGORY 9 — MDX format errors
 
-### 8.1 Unescaped quotes in `en=""` attribute
+### 9.1 Unescaped quotes in `en=""` attribute
 ❌ `<Sentence en="He said "hello."">`  — breaks the JSX attribute
 ✓ `<Sentence en="He said &quot;hello.&quot;">` — must escape with &quot;
 
-### 8.2 Word tags inside dialogue
+### 9.2 Word tags inside dialogue
 ❌ `<Sentence en="..."><Word en="word">từ</Word> inside dialogue</Sentence>`
 ✓ Dialogue lines get `<Sentence>` only — no `<Word>` tags inside quoted speech
 
-### 8.3 Word tags inside summarized passages
+### 9.3 Word tags inside summarized passages
 ❌ `<Sentence en="[summary]"><Word en="thing">thứ gì đó</Word>…</Sentence>`
 ✓ Summarized passages: plain text inside `<Sentence>`, no `<Word>` tags
 
-### 8.4 Verbatim source text as `en=""` for summaries
+### 9.4 Verbatim source text as `en=""` for summaries
 ❌ `<Sentence en="[The exact 200-word original English paragraph pasted here]">`
 ✓ `<Sentence en="[Julius explained that expeditions into the sand dunes had always failed, implying the witch beasts coordinate against intruders.]">` — bracketed summary of 1–2 sentences
 
-### 8.5 Missing `ーー` preservation
+### 9.5 Missing `ーー` preservation
 When the source sentence begins with `ーー`, the Vietnamese must also begin with `ーー`.
 ❌ `"Bầy Ma Thú đã tới."` — lost the dash
 ✓ `"ーーBầy Ma Thú đã tới."` — preserve it
 
 ---
 
-## CATEGORY 9 — Structural mistakes
+## CATEGORY 10 — Structural mistakes
 
-### 9.1 Skipped section dividers
+### 10.1 Skipped section dividers
 Every `※ ※ ※` divider in the source must appear in the output as a `<Sentence>` block.
 
-### 9.2 Skipped paragraphs
-Every paragraph in the source — including short ones like "ーーThat situation wasーー," — must have a `<Sentence>` block. Never silently omit a paragraph.
+### 10.2 Skipped paragraphs
+Every paragraph in the source — including short ones like "ーーThat situation wasーー," — must have a `<Sentence>` block. Never silently omit a paragraph. A whole dropped paragraph (or scene) reads fine in isolation, so it is invisible to a visual scan — **verify against the source with `python scripts/check_completeness.py --auto <file.mdx>`**. A flagged MISSING DIALOGUE line is always a real drop (dialogue is never summarized).
 
-### 9.3 Over-summarizing
+### 10.3 Over-summarizing
 A scene where a character makes an irreversible decision is main plot even if it feels like interior monologue. When in doubt, translate fully.
 
 ---
 
-## CATEGORY 10 — Duplicated consecutive words
+## CATEGORY 11 — Duplicated consecutive words
 
 A word appearing twice in a row is almost always a copy-paste or machine translation artifact. It is never intentional in Vietnamese literary prose (unless it is a recognized Vietnamese reduplicate adjective like "xanh xanh", "nhỏ nhỏ").
 
-### 10.0 — Common duplicated word patterns
+### 11.0 — Common duplicated word patterns
 
 ❌ `"cũng cũng"` — padding word accidentally doubled
 ❌ `"lại lại"` — particle accidentally doubled
@@ -444,39 +458,39 @@ A word appearing twice in a row is almost always a copy-paste or machine transla
 
 All character names, place names, ability/skill names, and aliases must stay in their original WCT English form. The following patterns are all errors.
 
-### 10.1 Phonetic transcription of character names
+### 12.1 Phonetic transcription of character names
 ❌ `"Su-ba-ru"`, `"E-mi-li-a"`, `"Bê-a-trít-xơ"` — never phonetically transcribe names into Vietnamese script
 ✓ `"Subaru"`, `"Emilia"`, `"Beatrice"` — keep exactly as-is
 
-### 10.2 Invented Vietnamese name equivalents
+### 12.2 Invented Vietnamese name equivalents
 ❌ `"Natsuki Subaro"`, `"Emilia nữ thần"`, `"phù thủy bé bỏng"` as a substitute for Beatrice's name
 ✓ Use the character's actual name as established by WCT
 
-### 10.3 Translating ability names that must stay in English
+### 12.3 Translating ability names that must stay in English
 ❌ `"Trở Về Từ Cái Chết"` — do not translate "Return by Death" into Vietnamese
 ❌ `"Bảo Hộ Thần Thánh"` — do not translate "Divine Protection"
 ❌ `"Nhân Tố Ma Nữ"` — do not translate "Witch Factor"
 ❌ `"Bàn Tay Vô Hình"` — do not translate "Unseen Hand"
 ✓ Write the English proper name directly in the Vietnamese sentence: `"Return by Death"`, `"Divine Protection"`, `"Witch Factor"`, `"Unseen Hand"`
 
-### 10.4 Translating location names
+### 12.4 Translating location names
 ❌ `"Thành Phố Cổng Nước"` — do not translate "Priestella" into Vietnamese
 ❌ `"Sa Mạc Augria"` — do not translate "Augria Sand Dunes" into Vietnamese description
 ❌ `"Đế Chế Thánh Thiện"` — do not invent a Vietnamese name for Vollachia
 ✓ `"Priestella"`, `"Augria Sand Dunes"`, `"Vollachia"` — keep original
 
-### 10.5 Wrong WCT spelling
+### 12.5 Wrong WCT spelling
 ❌ `"Betelgeuse"` → ✓ `"Petelgeuse"`
 ❌ `"Pristella"` → ✓ `"Priestella"`
 ❌ `"Louise Arneb"` → ✓ `"Louis Arneb"`
 ❌ `"Garfield"` → ✓ `"Garfiel"`
 
-### 10.6 Translating faction/organization names
+### 12.6 Translating faction/organization names
 ❌ `"Giáo Phái Phù Thủy"` — do not translate "Witch Cult"
 ❌ `"Hội Đồng Kỵ Sĩ Hoàng Gia"` — do not translate "Royal Guard" if it is a proper organization name
 ✓ `"Witch Cult"`, `"Witch Cult Fingers"` — keep as-is
 
-### 10.7 Alias handling
+### 12.7 Alias handling
 Characters sometimes go by aliases or epithets that function as proper names. Keep these in their original form.
 - "The Sword Saint" → "Kiếm Thánh" (this is a title that has an established Vietnamese form — see Table B)
 - But named aliases like "Black Serpent" or "Crimson Valkyrie" that are proper names stay in English
@@ -675,6 +689,8 @@ Two words with overlapping meanings placed together, creating a redundancy. Diff
 | kết thúc chấm dứt | "kết thúc" = end, "chấm dứt" = end/terminate | kết thúc **or** chấm dứt |
 | lo lắng âu lo | "lo lắng" = worry, "âu lo" = anxiety/worry | lo lắng **or** âu lo |
 | biến mất tan biến | "biến mất" = disappear, "tan biến" = vanish | biến mất **or** tan biến |
+| chính xác chính là | "chính xác" = exactly, "chính là" = is precisely — stacked emphasis | **chính là** (or "đúng là") |
+| (chỉ) vỏn vẹn chỉ | "vỏn vẹn" = only/merely, "chỉ" = only — "only" twice | **vỏn vẹn** or **chỉ**, not both |
 
 ### How to catch it
 After translating a compound phrase, read the two words together and ask: *if I removed the second word, would any distinct meaning be lost?* If no — remove it.
@@ -683,7 +699,7 @@ The script detects known pairs (see `PLEONASMS` in `check_terms.py`). New pairs 
 
 ---
 
-## CATEGORY 15 — Vietnamese homophone / near-homophone confusion
+## CATEGORY 16 — Vietnamese homophone / near-homophone confusion
 
 Vietnamese is highly tonal. Many words share the same consonants and vowels but differ only in tone or a single vowel, producing completely different meanings. MT tools and careless translators frequently swap them.
 
@@ -691,7 +707,7 @@ Vietnamese is highly tonal. Many words share the same consonants and vowels but 
 
 ---
 
-### 14.1 "rìu" vs "rìa"
+### 16.1 "rìu" vs "rìa"
 
 | Word | Meaning | Tone |
 |------|---------|------|
@@ -707,7 +723,7 @@ But note: even the correct form is still a literal calque of "out of the loop." 
 
 ---
 
-### 14.2 Common Vietnamese near-homophone pairs to watch
+### 16.2 Common Vietnamese near-homophone pairs to watch
 
 | Pair | Distinction |
 |------|-------------|
@@ -724,11 +740,11 @@ But note: even the correct form is still a literal calque of "out of the loop." 
 
 ---
 
-## CATEGORY 15 — English idioms translated literally
+## CATEGORY 17 — English idioms translated literally
 
 English idioms must never be translated word-for-word. The meaning of the idiom should be rendered in natural Vietnamese — not a calque of the English words.
 
-### 15.1 "out of the loop"
+### 17.1 "out of the loop"
 
 **Meaning:** not being kept informed / excluded from a discussion or decision
 
@@ -739,7 +755,7 @@ English idioms must never be translated word-for-word. The meaning of the idiom 
 
 ---
 
-### 15.2 Common English idioms and their natural Vietnamese equivalents
+### 17.2 Common English idioms and their natural Vietnamese equivalents
 
 | English idiom | ❌ Literal Vietnamese | ✓ Natural Vietnamese |
 |---------------|----------------------|----------------------|
@@ -760,7 +776,7 @@ English idioms must never be translated word-for-word. The meaning of the idiom 
 
 ---
 
-## CATEGORY 16 — Internet slang and informal abbreviations
+## CATEGORY 18 — Internet slang and informal abbreviations
 
 Internet slang has absolutely no place in a literary translation. These strings are artifacts of the MT tool using informal training data.
 
@@ -775,7 +791,7 @@ Internet slang has absolutely no place in a literary translation. These strings 
 
 ---
 
-## CATEGORY 17 — Doubled future marker "sẽ"
+## CATEGORY 19 — Doubled future marker "sẽ"
 
 The MT tool inserts "sẽ" (future marker / will) twice within the same clause, once before an evidential modifier and once before the verb. Both cannot coexist.
 
@@ -792,9 +808,18 @@ The MT tool inserts "sẽ" (future marker / will) twice within the same clause, 
 
 **Detected automatically** by the script.
 
+### Related — evidential modifier on a purposeful action verb
+
+An evidential ("tựa như" = as if / "có vẻ như" = seemingly) wrongly attached to a deliberate-effort verb produces nonsense, because you cannot "seemingly try hard" as a fact of the scene.
+
+❌ `"không có thứ gì có thể tựa như dốc toàn lực sử dụng được"` — "as if putting in full effort to be used" (meaningless)
+✓ `"không có thứ gì có thể sử dụng được"` — "nothing that could be used"
+
+**Rule:** Remove the evidential before action verbs like *dốc toàn lực, ra sức, nỗ lực, cố gắng, quyết tâm* — keep only the verb. **Detected automatically** by the script.
+
 ---
 
-## CATEGORY 18 — Spatial word used where a temporal phrase is needed
+## CATEGORY 20 — Spatial word used where a temporal phrase is needed
 
 Vietnamese words for location ("chốn ấy" = that place, "nơi đó" = that place) sometimes appear where the English source means a point-in-time ("from there on out", "from that point", "up to that point").
 
@@ -809,9 +834,48 @@ Vietnamese words for location ("chốn ấy" = that place, "nơi đó" = that pl
 
 ---
 
+## CATEGORY 21 — Regional dialect & over-archaic ("wuxia") register leakage
+
+Re:Zero is a modern light novel: its narration and most dialogue are contemporary and plain. MT tools — especially on Arc 7 — drift into **Southern Vietnamese dialect** and an overwrought **kiếm hiệp / wuxia period-drama register** that is wrong for the work's tone. A whole chapter can become exhausting to read this way (Ch. 23 was a severe case).
+
+### 21.1 Southern dialect particles → standard Vietnamese
+
+| ❌ Dialect | ✓ Standard | Note |
+|-----------|-----------|------|
+| chi | gì | "what / any" — `nghi ngờ chi` → `nghi ngờ gì`; `cách chi` → `cách nào` |
+| chăng / sao chăng | không / đúng không / sao | archaic/dialectal question tag — `đây sao chăng?` → `là vậy sao?` |
+| chừ | giờ / bây giờ | "now" |
+| răng / rứa | sao / thế | "how / so" |
+
+**Detected automatically** by the script (`chi` and its punctuation variants).
+
+### 21.2 Over-archaic / wuxia vocabulary creep
+
+These period-drama words flatten every character into a wuxia stock figure. Reserve archaic register only where a character genuinely speaks that way (e.g. Olbart's crusty old-man speech) — never in narration or modern characters' dialogue.
+
+| ❌ Wuxia register | ✓ Modern Vietnamese | Context |
+|------------------|---------------------|---------|
+| cô nương | cô gái / cô ấy | "young lady" — only OK in deliberately archaic speech |
+| chốn ấy / chốn này (as filler) | nơi đó / ở đây / (often drop it) | overused as padding; see Category 20 |
+| tức tốc | lập tức / vội vã | "immediately" |
+| nghênh ngang dạo bước | nghênh ngang bước vào / sải bước | "swagger in" |
+| dung tục | thô tục / bậy bạ | "vulgar" |
+| hèn hạ (every villain line) | đê tiện / hèn / (vary it) | becomes monotonous when every antagonist verb takes it |
+| phát ngôn (for ordinary speech) | nói / lên tiếng | "speak" — "phát ngôn" is官方/formal |
+| lắng tai | lắng nghe / nghe thấy | "listen" |
+
+**Rule:** Read any passage that feels like a martial-arts costume drama. If the source is plain modern English, the Vietnamese must be plain modern Vietnamese. Match the register of the source, not the MT's default flourish.
+
+---
+
 ## HOW TO USE THIS FILE
 
 - **Before Pass 2:** Scan Category 1 (overused words) and Category 3 (character voice) — these are the most likely Pass 1 survivors.
-- **During adversarial review (Step 6):** Check Category 2 (calques), Category 4 (intensity), Category 5 (terminology).
-- **After outputting:** Run `python scripts/check_terms.py <file.mdx>` — this catches Category 5 and Category 1 automatically.
-- **When a new mistake type is discovered:** Add it to this file in the appropriate category.
+- **During adversarial review (Step 6):** Check Category 2 (calques), Category 4 (intensity), Category 5 (terminology), Category 21 (dialect/register).
+- **After outputting — run both scripts:**
+  - `python scripts/check_terms.py <file.mdx>` — catches Categories 1, 5, 6, 7, 8, 11, 15, 18, 19, 21 automatically (terminology, đã-as-và, leakage, MT artifacts, pleonasm, slang, doubled-sẽ, dialect).
+  - `python scripts/check_completeness.py --auto <file.mdx>` — catches Category 10.2 (dropped paragraphs/scenes) by comparing against the raw source.
+- **Category coverage map** — automated vs. human-eye:
+  - *Automated (scripts):* 1, 5, 6, 7, 8, 10.2, 11, 15, 18, 19, 21
+  - *Human review only:* 2 (calques), 3 (voice), 4 (register), 9 (MDX), 12 (proper nouns), 13 (multi-sense adjectives), 14 (phrase-fragment dup), 16 (homophones), 17 (idioms), 20 (spatial/temporal)
+- **When a new mistake type is discovered:** Add it to this file in the appropriate category, and add a detector to the relevant script if the pattern is mechanically detectable.

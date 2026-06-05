@@ -2,15 +2,17 @@
 
 ## File structure
 
-Every chapter file lives at `content/arc6/chuong-NN.mdx` and begins with YAML frontmatter:
+Every chapter file lives at `content/arcN/chuong-NN.mdx` (e.g. `content/arc7/chuong-45.mdx`) and begins with YAML frontmatter:
 
 ```mdx
 ---
-title: 'Chương NN: Vietnamese Title'
+title: 'Chương NN: Tựa đề tiếng Việt | English Title'
 chapter: NN
-arc: 6
+arc: N
 ---
 ```
+
+Use the arc number of the chapter being translated (`arc: 7` for Arc 7, etc.).
 
 Everything after the frontmatter is the chapter body — a sequence of `<Sentence>` blocks.
 
