@@ -1,0 +1,11 @@
+{
+  "_comment": "Single source of truth for the chapter pipeline. Add an entry per chapter: num, arc, source URL (WCT), and the bilingual title used in the MDX frontmatter + registry. Run stages with `node scripts/pipeline.mjs <stage> <num>`.",
+  "arc": 7,
+  "chapters": [
+    { "num": 66, "arc": 7, "url": "https://witchculttranslation.com/2022/08/20/arc-7-chapter-66-hiain-yatz/", "title": "Chương 66: Hiain Yatz | Hiain Yatz" },
+    { "num": 67, "arc": 7, "url": "https://witchculttranslation.com/2022/08/24/arc-7-chapter-67-hidden-behind-the-molar/", "title": "Chương 67: Ẩn Sau Chiếc Răng Hàm | Hidden Behind the Molar" },
+    { "num": 68, "arc": 7, "url": "https://witchculttranslation.com/2022/08/29/arc-7-chapter-68-guidance-of-the-sword-wolf/", "title": "Chương 68: Sự Dẫn Dắt Của Kiếm Lang | Guidance of the Sword Wolf" },
+    { "num": 69, "arc": 7, "url": "https://witchculttranslation.com/2022/09/06/arc-7-chapter-69-arriving-from-the-imperial-capital/", "title": "Chương 69: Đến Từ Đế Đô | Arriving from the Imperial Capital" },
+    { "num": 70, "arc": 7, "url": "https://witchculttranslation.com/2022/09/08/arc-7-chapter-70-one-thing/", "title": "Chương 70: Một Điều Duy Nhất | One Thing" }
+  ]
+}
