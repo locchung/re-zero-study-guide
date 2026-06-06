@@ -214,19 +214,22 @@ function register(num) {
   const tsPath = path.join(ROOT, 'src', 'lib', 'chapters.ts');
   let ts = fs.readFileSync(tsPath, 'utf-8');
   const slug = `chuong-${pad(c.num)}`;
-  if (ts.includes(`slug: '${slug}'`)) { console.log(`  · ${slug} already registered.`); return; }
+  const regPattern = new RegExp(`slug:\\s*'${slug}',.*arc:\\s*${c.arc}\\s*\\}`);
+  if (regPattern.test(ts)) { console.log(`  · ${slug} for arc ${c.arc} already registered.`); return; }
   console.warn(`  ⚠ NOTE: registry numbering currently tags entries arc: 6 and may collide across arcs — verify placement.`);
   const entry = `  { slug: '${slug}', title: ${JSON.stringify(c.title)}, chapterNumber: ${c.num}, arc: ${c.arc} },`;
   const idx = ts.lastIndexOf(']');
   ts = ts.slice(0, idx) + entry + '\n' + ts.slice(idx);
   fs.writeFileSync(tsPath, ts, 'utf-8');
-  console.log(`  ✓ registered ${slug} (review order in chapters.ts).`);
+  console.log(`  ✓ registered ${slug} for arc ${c.arc} (review order in chapters.ts).`);
 }
 
 // ── status ─────────────────────────────────────────────────────────────────
 function status() {
   const flag = (b) => (b ? '✓' : '·');
   console.log('num  raw  trans  done  mdx  reg   title');
+  const tsPath = path.join(ROOT, 'src', 'lib', 'chapters.ts');
+  const regContent = fs.existsSync(tsPath) ? fs.readFileSync(tsPath, 'utf-8') : '';
   for (const c0 of cfg.chapters) {
     const c = { ...c0, arc: c0.arc ?? cfg.arc };
     const hasRaw = fs.existsSync(rawJson(c));
@@ -234,8 +237,8 @@ function status() {
     let done = false;
     if (hasTrans) { const d = JSON.parse(fs.readFileSync(transJson(c), 'utf-8')); done = d.length > 0 && d.every((s) => s.vi && s.vi.trim()); }
     const hasMdx = fs.existsSync(mdxPath(c));
-    const reg = fs.existsSync(path.join(ROOT, 'src', 'lib', 'chapters.ts')) &&
-      fs.readFileSync(path.join(ROOT, 'src', 'lib', 'chapters.ts'), 'utf-8').includes(`chuong-${pad(c.num)}'`);
+    const regPattern = new RegExp(`slug:\\s*'chuong-${pad(c.num)}',.*arc:\\s*${c.arc}\\s*\\}`);
+    const reg = regPattern.test(regContent);
     console.log(`${String(c.num).padEnd(4)} ${flag(hasRaw)}    ${flag(hasTrans)}      ${flag(done)}     ${flag(hasMdx)}    ${flag(reg)}     ${c.title}`);
   }
 }

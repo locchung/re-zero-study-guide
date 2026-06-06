@@ -135,8 +135,12 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-75', title: 'Chương 75: Tôi Biết | I know', chapterNumber: 75, arc: 7 },
   { slug: 'chuong-76', title: 'Chương 76: Hội Ngộ Ngẫu Nhiên Nơi Đế Đô | Chance Meetings at the Imperial Capital', chapterNumber: 76, arc: 7 },
   { slug: 'chuong-77', title: 'Chương 77: Trò Đùa Của Số Phận | Twist of Fate', chapterNumber: 77, arc: 7 },
-  { slug: 'chuong-78', title: 'Chương 78: Cuộc Tái Ngộ Đầy Biến Động | A Volatile Reunion', chapterNumber: 78, arc: 7 },
-  { slug: 'chuong-79', title: 'Chương 79: Tiếng Cười Đỏ Thắm | A Roar of Scarlet Laughter', chapterNumber: 79, arc: 7 },
+  { slug: 'chuong-78', title: 'Cuộc Tái Ngộ Đầy Biến Động | A Volatile Reunion', chapterNumber: 78, arc: 7 },
+  { slug: 'chuong-79', title: 'Tiếng Cười Đỏ Thắm | A Roar of Scarlet Laughter', chapterNumber: 79, arc: 7 },
+  { slug: 'chuong-80', title: 'Chương 80: Iris và Vua Gai | Iris and the King of Thorns', chapterNumber: 80, arc: 7 },
+  { slug: 'chuong-81', title: 'Chương 81: Nữ Kiệt và Gã Hề | The Fierce Lady and the Clown', chapterNumber: 81, arc: 7 },
+  { slug: 'chuong-82', title: 'Chương 82: Ý Đồ Phe Phiến Loạn | The Rebels’ Intent', chapterNumber: 82, arc: 7 },
+  { slug: 'chuong-83', title: 'Chương 83: Chiến Loạn và Chiến Trường | Warfare and Warzones', chapterNumber: 83, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
