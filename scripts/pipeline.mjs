@@ -202,7 +202,7 @@ function qa(num) {
     ['completeness', 'check_completeness.py', ['--auto', file]],
   ]) {
     console.log(`\n── ${label} ──`);
-    const r = spawnSync('python', [path.join(SKILL, script), ...args], { encoding: 'utf-8', env: { ...process.env, PYTHONIOENCODING: 'utf-8' } });
+    const r = spawnSync('python3', [path.join(SKILL, script), ...args], { encoding: 'utf-8', env: { ...process.env, PYTHONIOENCODING: 'utf-8' } });
     process.stdout.write(r.stdout || '');
     if (r.stderr) process.stderr.write(r.stderr);
   }

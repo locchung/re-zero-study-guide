@@ -133,6 +133,10 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-73', title: 'Chương 73: Weitz Rogen | Weitz Rogen', chapterNumber: 73, arc: 7 },
   { slug: 'chuong-74', title: 'Chương 74: Idra Missanga | Idra Missanga', chapterNumber: 74, arc: 7 },
   { slug: 'chuong-75', title: 'Chương 75: Tôi Biết | I know', chapterNumber: 75, arc: 7 },
+  { slug: 'chuong-76', title: 'Chương 76: Hội Ngộ Ngẫu Nhiên Nơi Đế Đô | Chance Meetings at the Imperial Capital', chapterNumber: 76, arc: 7 },
+  { slug: 'chuong-77', title: 'Chương 77: Trò Đùa Của Số Phận | Twist of Fate', chapterNumber: 77, arc: 7 },
+  { slug: 'chuong-78', title: 'Chương 78: Cuộc Tái Ngộ Đầy Biến Động | A Volatile Reunion', chapterNumber: 78, arc: 7 },
+  { slug: 'chuong-79', title: 'Chương 79: Tiếng Cười Đỏ Thắm | A Roar of Scarlet Laughter', chapterNumber: 79, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {

@@ -1,0 +1,1447 @@
+[
+  {
+    "id": 1,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 2,
+    "en": "Machine Translated By:",
+    "vi": "Bản dịch máy bởi:"
+  },
+  {
+    "id": 3,
+    "en": "Proofread By:",
+    "vi": "Hiệu đính bởi:"
+  },
+  {
+    "id": 4,
+    "en": "Japanese to English Checking By:",
+    "vi": "Kiểm tra Nhật-Anh bởi:"
+  },
+  {
+    "id": 5,
+    "en": "Art Sources:",
+    "vi": "Nguồn ảnh:"
+  },
+  {
+    "id": 6,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※　※　※　※　※　※　※　※　※　※　※　※"
+  },
+  {
+    "id": 7,
+    "en": "This an edited Machine Translation, which has been checked by at least one Japanese-English Human Translator for quality. This is expected to have a quality dip in accuracy, therefore, if you read this chapter you must take into consideration the tradeoffs between speed and quality. A proper, higher-quality translation for this chapter is in the works by our team, so if you would prefer to wait for it, then feel free to check back at a later date, keeping an eye out on our social media for updates.",
+    "vi": "Đây là bản dịch máy đã được chỉnh sửa và được kiểm tra chất lượng bởi ít nhất một dịch giả Nhật-Anh. Bản dịch này có thể giảm sút độ chính xác, do đó, khi đọc chương này bạn cần cân nhắc giữa tốc độ và chất lượng dịch thuật. Đội ngũ của chúng tôi vẫn đang thực hiện bản dịch chính thức chất lượng cao hơn, vì vậy nếu muốn, bạn có thể chờ đợi và theo dõi các kênh mạng xã hội của chúng tôi để cập nhật thông tin."
+  },
+  {
+    "id": 8,
+    "en": "※　※　※　※　※　※　※　※　※　※　※　※",
+    "vi": "※　※　※　※　※　※　※　※　※　※　※　※"
+  },
+  {
+    "id": 9,
+    "en": "It was while Rem was strolling through the mansion where she was held under house arrest, that she noticed a certain woman.",
+    "vi": "Đó là khi Rem đang dạo bước quanh dinh thự nơi cô bị quản thúc tại gia, cô chợt nhận ra bóng dáng của một người phụ nữ."
+  },
+  {
+    "id": 10,
+    "en": "In the heights of the battle at the Fortress City of Guaral, in order to treat a wounded Flop O’Connell, Rem had been abducted from the city along with him―― taken, to the Imperial Capital, and placed under house arrest in what was probably one of the most magnificent mansions in the city.",
+    "vi": "Giữa đỉnh điểm trận chiến tại Thành lũy Guaral, để cứu chữa cho một Flop O’Connell bị thương, Rem đã bị bắt đi cùng anh khỏi thành phố―― đưa đến Đế đô, và bị quản thúc tại một nơi có lẽ là một trong những dinh thự tráng lệ bậc nhất nơi đây."
+  },
+  {
+    "id": 11,
+    "en": "However, while it was called house arrest, Rem still possessed relatively ample freedom.",
+    "vi": "Tuy nhiên, dẫu gọi là bị quản thúc, Rem vẫn được hưởng sự tự do tương đối rộng rãi."
+  },
+  {
+    "id": 12,
+    "en": "She was not confined to cramped rooms or prisons, nor was she subjected to excessive violence or verbal abuse. While it could have hardly been called tranquil, it was possible for one to say that the treatment she got was mild.",
+    "vi": "Cô không bị giam cầm trong những căn phòng chật hẹp hay ngục tối, cũng không phải chịu bạo lực hay những lời lăng mạ quá mức. Dẫu khó lòng gọi là yên ả, người ta vẫn có thể coi sự đối đãi dành cho cô là ôn hòa."
+  },
+  {
+    "id": 13,
+    "en": "Food was prepared for every mealtime, and a time for bathing was also available. In some ways, it was definitely a better place to live than in the village of the People of Shudraq.",
+    "vi": "Mỗi bữa ăn đều được chuẩn bị tươm tất, và thời gian tắm rửa cũng được sắp xếp đầy đủ. Ở khía cạnh nào đó, cuộc sống ở đây rõ ràng tốt hơn nhiều so với tại ngôi làng của tộc Shudraq."
+  },
+  {
+    "id": 14,
+    "en": "However, even though she was not imprisoned, she still could not go outside the mansion, as the Soldiers responsible for security―― the private army of Berstetz Fondalfon, kept watch, reminding her of her limitations.",
+    "vi": "Thế nhưng, dù không bị giam giữ, cô vẫn không thể bước chân ra ngoài dinh thự, bởi các binh lính chịu trách nhiệm canh phòng―― tư quân của Berstetz Fondalfon, luôn túc trực nghiêm ngặt, như nhắc nhở cô về giới hạn của mình."
+  },
+  {
+    "id": 15,
+    "en": "In any case, leaving aside the topic of whether she was more free than not, the situation at hand was not one she wished for.",
+    "vi": "Dù sao đi nữa, gác lại chuyện cô có thực sự tự do hay không, tình cảnh hiện tại quyết chẳng phải điều cô mong muốn."
+  },
+  {
+    "id": 16,
+    "en": "Naturally, she had made Kuna and Holly experience some inadequacy, and it would not be surprising if she were now the object of Priscilla’s indignation, having left as she pleased.",
+    "vi": "Lẽ tự nhiên, sự ra đi tùy ý của cô đã khiến Kuna và Holly gặp không ít phiền toái, và cô cũng chẳng ngạc nhiên nếu bản thân giờ đây là đối tượng cho sự phẫn nộ của Priscilla."
+  },
+  {
+    "id": 17,
+    "en": "Above all, how would the people that had left for the east react upon their return?",
+    "vi": "Trên hết, những người đã rời đi về phía đông sẽ phản ứng ra sao khi họ quay trở lại?"
+  },
+  {
+    "id": 18,
+    "en": "Louis, Medium, and the boy named Natsuki Subaru――.",
+    "vi": "Louis, Medium, và cả cậu thiếu niên tên Natsuki Subaru――."
+  },
+  {
+    "id": 19,
+    "en": "???: [――Ah.]",
+    "vi": "???: [――A.]"
+  },
+  {
+    "id": 20,
+    "en": "And, it was while Rem was lost in her own thoughts that brought her heartache, that she heard a painfully feeble voice.",
+    "vi": "Và, khi Rem đang chìm đắm trong dòng suy tư trĩu nặng lòng mình, cô chợt nghe thấy một giọng nói yếu ớt đầy khổ sở."
+  },
+  {
+    "id": 21,
+    "en": "Upon turning her face toward the direction of the voice, she saw an unfamiliar figure in the garden in the center of the mansion―― one likely used more as a courtyard for the purpose of mounting and dismounting flying dragons, than for preserving a lush green landscape.",
+    "vi": "Khi ngoảnh mặt về hướng phát ra âm thanh, cô thấy một bóng người lạ lẫm trong khu vườn ở trung tâm dinh thự―― nơi có lẽ được dùng làm sân đáp địa long bay nhiều hơn là để nuôi dưỡng một thảm thực vật xanh tươi."
+  },
+  {
+    "id": 22,
+    "en": "Although she had not met all of the Soldiers and servants working in the mansion, she could tell at a glance that the person was neither of these.",
+    "vi": "Dẫu chưa từng gặp hết các binh lính và người hầu trong dinh thự, cô vẫn có thể nhận ra ngay lập tức người kia không thuộc hai nhóm này."
+  },
+  {
+    "id": 23,
+    "en": "For the reason, was because that very person did not walk on their own feet, and sat in a chair with wheels attached.",
+    "vi": "Lý do là bởi, chính người đó không hề đi bằng đôi chân của mình, mà đang ngồi trên một chiếc ghế có gắn bánh xe."
+  },
+  {
+    "id": 24,
+    "en": "???: [Kuh, ugh…]",
+    "vi": "???: [Ư, hự...]"
+  },
+  {
+    "id": 25,
+    "en": "She was a fair-skinned woman with unruly dark-brown hair, which was parted in two on either side of her head. Her long-lashed blue eyes flickered, and then she put strength into her slender shoulders and leaned forward.",
+    "vi": "Đó là một người phụ nữ da trắng với mái tóc màu nâu sẫm rối bù được rẽ đôi sang hai bên đầu. Đôi mắt xanh thẳm với hàng mi dài khẽ chớp động, rồi cô ta dồn lực vào bờ vai mảnh khảnh của mình và nghiêng người về phía trước."
+  },
+  {
+    "id": 26,
+    "en": "What those trembling arms were putting strength into was the wheeled chair she was sitting in―― specifically, the wheels of her wheelchair. They possessed large rims, which the person sitting in the chair could turn by hand to move forwards or backwards.",
+    "vi": "Thứ mà đôi cánh tay đang run rẩy kia đang dồn lực vào chính là chiếc ghế lăn cô ta đang ngồi―― cụ thể là hai chiếc bánh xe. Chúng có những vành đẩy lớn, giúp người ngồi trên ghế có thể dùng tay tự xoay để di chuyển tiến lùi."
+  },
+  {
+    "id": 27,
+    "en": "However, it seemed one of the wheels had got caught in a ditch in the corner of the path and, unable to get out, she had been stuck there.",
+    "vi": "Thế nhưng, có vẻ một bên bánh xe đã bị kẹt vào khe rãnh ở góc lối đi, khiến cô ta loay hoay mãi mà không thoát ra được."
+  },
+  {
+    "id": 28,
+    "en": "???: [――――]",
+    "vi": "???: [――――]"
+  },
+  {
+    "id": 29,
+    "en": "Biting on her thin lips with force, the woman strenuously tried time after time to turn the wheel.",
+    "vi": "Mím chặt bờ môi mỏng, người phụ nữ kiên trì cố gắng xoay bánh xe hết lần này đến lần khác."
+  },
+  {
+    "id": 30,
+    "en": "Still, her slender arms did not provide the necessary strength, and the wheel just wiggled back and forth fruitlessly. If she were to raise her voice and call for help, someone would have rushed to her, and yet she did not.",
+    "vi": "Song, đôi cánh tay mảnh mai của cô ta không có đủ sức lực cần thiết, bánh xe chỉ nhúc nhích qua lại vô ích. Nếu cô ta cất tiếng gọi giúp đỡ, hẳn đã có người chạy đến ngay, thế nhưng cô ta lại không làm vậy."
+  },
+  {
+    "id": 31,
+    "en": "She did not want to rely on anyone. Rem felt a sense of kinship with such obstinacy. Of course, she did not know due to what emotional state she was like that, but――,",
+    "vi": "Cô ta không muốn dựa dẫm vào bất kỳ ai. Rem cảm nhận được một sự đồng điệu sâu sắc trước sự bướng bỉnh ấy. Lẽ dĩ nhiên, cô không biết vì tâm trạng gì mà cô ta lại như thế, nhưng――,"
+  },
+  {
+    "id": 32,
+    "en": "Rem: [――I’ll help you.]",
+    "vi": "Rem: [――Tôi giúp cô nhé.]"
+  },
+  {
+    "id": 33,
+    "en": "???: [Ah…]",
+    "vi": "???: [A...]"
+  },
+  {
+    "id": 34,
+    "en": "Unable to leave her be, Rem walked over to the woman stuck in the ditch, and called out to her from behind.",
+    "vi": "Không thể làm ngơ, Rem bước đến gần người phụ nữ đang bị kẹt dưới rãnh nước và gọi từ phía sau."
+  },
+  {
+    "id": 35,
+    "en": "Immediately rolling her eyes, the woman looked over her shoulder and gasped at Rem’s presence. But soon her look became one of embarrassment, chewing on her lips as she went silent.",
+    "vi": "Lập tức tròn mắt quay đầu nhìn lại, người phụ nữ khẽ nấc lên ngạc nhiên trước sự hiện diện của Rem. Song vẻ mặt cô ta nhanh chóng chuyển sang bối rối, cô ta cắn môi và im lặng."
+  },
+  {
+    "id": 36,
+    "en": "Rem, once again feeling a sense of kinship to her reaction, placed her hand on the back of the wheelchair.",
+    "vi": "Một lần nữa cảm thấy đồng điệu trước phản ứng ấy, Rem đặt tay lên điểm tựa lưng của chiếc xe lăn."
+  },
+  {
+    "id": 37,
+    "en": "The back of the wheelchair had handles on either side, so that a person standing behind could push it. And so, putting her hands there, and pushing it,",
+    "vi": "Phía sau xe lăn có hai tay vịn hai bên để người đứng sau có thể đẩy đi. Thế là, đặt tay lên đó và đẩy mạnh,"
+  },
+  {
+    "id": 38,
+    "en": "Rem: [One, two aaand three!]",
+    "vi": "Rem: [Một, hai... và ba!]"
+  },
+  {
+    "id": 39,
+    "en": "Rem put her strength into it, the wheel bounced with a bang, and the wheelchair escaped from the ditch in which it was stuck.",
+    "vi": "Rem dồn sức lực đẩy tới, bánh xe nảy mạnh lên một cái, và chiếc xe lăn đã thoát khỏi khe rãnh đang mắc kẹt."
+  },
+  {
+    "id": 40,
+    "en": "Using her hands, the woman stopped the wheelchair which had moved slightly forward with too much momentum, then abruptly spun the wheels on the spot and looked back toward Rem.",
+    "vi": "Người phụ nữ dùng tay ghì chặt bánh xe để hãm đà chiếc xe lăn vốn đang lao mạnh về phía trước, rồi đột ngột xoay bánh xe quay ngoắt lại nhìn Rem."
+  },
+  {
+    "id": 41,
+    "en": "And then――,",
+    "vi": "Và rồi――,"
+  },
+  {
+    "id": 42,
+    "en": "???: […Who asked you, to do that.]",
+    "vi": "???: [...Ai mượn cô làm thế chứ.]"
+  },
+  {
+    "id": 43,
+    "en": "And what came, was a very particular greeting.",
+    "vi": "Và chào đón Rem là một lời chào vô cùng đặc biệt."
+  },
+  {
+    "id": 44,
+    "en": "Rem: [――――]",
+    "vi": "Rem: [――――]"
+  },
+  {
+    "id": 45,
+    "en": "Reflexively, Rem’s eyes went wide and blinked in surprise, as she was taken aback by the woman’s words.",
+    "vi": "Theo bản năng, Rem mở to mắt chớp chớp ngạc nhiên, hoàn toàn ngỡ ngàng trước những lời của người phụ nữ."
+  },
+  {
+    "id": 46,
+    "en": "Meanwhile, the woman averted her eyes from Rem, chewing on her lips,",
+    "vi": "Trong lúc đó, người phụ nữ ngoảnh mặt đi tránh ánh nhìn của Rem, cắn môi lẩm bẩm,"
+  },
+  {
+    "id": 47,
+    "en": "???: [I would’ve been fine without help for something that trivial. I mean, what do you think you’re doing, when you need a cane yourself? Y-you should rather worry about yourself.]",
+    "vi": "???: [Mấy chuyện vặt vãnh đó không cần ai giúp tôi cũng tự lo được. Mà cô nghĩ mình đang làm cái gì thế hả, trong khi bản thân còn phải chống gậy kia chứ? C-cô nên lo cho chính mình trước đi thì hơn.]"
+  },
+  {
+    "id": 48,
+    "en": "Rem: [Ummm… Thank you for your concern.]",
+    "vi": "Rem: [Ừm... Cảm ơn vì sự quan tâm của cô.]"
+  },
+  {
+    "id": 49,
+    "en": "???: [I’m not worried or anything! Are your ears perhaps not working properly? If not, then I guess the problem’s in your head, yes it’s rather in your head.]",
+    "vi": "???: [Tôi thèm lo cho cô chắc! Bộ tai cô có vấn đề à? Nếu không thì tôi đoán đầu óc cô có vấn đề rồi đấy, đúng thế, đầu óc cô có vấn đề chắc luôn.]"
+  },
+  {
+    "id": 50,
+    "en": "Rem belatedly realized that those stammered words were apparently meant to be a cutting remark.",
+    "vi": "Rem muộn màng nhận ra rằng những lời nói lắp bắp kia thực chất là muốn châm chọc cô."
+  },
+  {
+    "id": 51,
+    "en": "Her tone was harsh, but since the subtle sense that she was not accustomed to such speech hung in the air, she lacked the talent to deal damage with such sarcasm.",
+    "vi": "Giọng điệu cô ta có vẻ gay gắt, song vì ẩn hiện cảm giác cô ta vốn không quen ăn nói kiểu này, nên những lời mỉa mai kia chẳng có chút sức sát thương nào."
+  },
+  {
+    "id": 52,
+    "en": "Frankly speaking, from Rem’s point of view, after encountering Priscilla, the difference in the potency of this woman and Priscilla, was about the same as that between a puppy and Mizelda.",
+    "vi": "Nói một cách thành thật, dưới góc nhìn của Rem sau khi đã tiếp xúc với Priscilla, sự khác biệt về uy thế giữa người phụ nữ này với Priscilla cũng giống như sự khác biệt giữa một chú cún con và Mizelda vậy."
+  },
+  {
+    "id": 53,
+    "en": "???: [N-now, get lost. I don’t have the free time to be concerned about… about you.]",
+    "vi": "???: [Gi-giờ thì biến đi cho khuất mắt. Tôi không rảnh rỗi để bận tâm... bận tâm về cô đâu.]"
+  },
+  {
+    "id": 54,
+    "en": "Rem: [If you don’t have any free time, does that mean you have some role to fulfill?]",
+    "vi": "Rem: [Nếu cô không có thời gian rảnh, điều đó nghĩa là cô đang có nhiệm vụ nào đó cần hoàn thành sao?]"
+  },
+  {
+    "id": 55,
+    "en": "???: [A role…! Y-yes, that’s right. I have a proper role. Unlike you…]",
+    "vi": "???: [Nhiệm vụ...! Đ-đúng thế, phải rồi. Tôi có một vai trò đàng hoàng. Không giống như cô...]"
+  },
+  {
+    "id": 56,
+    "en": "After having been asked a question in return by Rem, the woman answered, her cheeks stiffening. As she answered, she scrunched up her thin eyebrows and looked Rem over top to bottom as if scrutinizing her.",
+    "vi": "Bị hỏi vặn lại, người phụ nữ trả lời với cơ mặt đanh lại. Vừa nói, cô ta vừa nhíu đôi lông mày thanh tú, chăm chú nhìn Rem từ đầu đến chân như thể đang dò xét."
+  },
+  {
+    "id": 57,
+    "en": "Then, she brought her right thumb to her mouth, chomped at it ever-so-slightly, and,",
+    "vi": "Rồi, cô ta đưa ngón tay cái bên phải lên miệng, khẽ cắn cắn đầu ngón tay, và,"
+  },
+  {
+    "id": 58,
+    "en": "???: […A face I haven’t seen, and a presence I hadn’t noticed. Who are you?]",
+    "vi": "???: [...Một gương mặt tôi chưa từng thấy, và một sự hiện diện tôi chưa từng nhận ra. Cô là ai?]"
+  },
+  {
+    "id": 59,
+    "en": "Rem: [――. My name is Rem. Because of some circumstances, I was abducted to this mansion.]",
+    "vi": "Rem: [――. Tôi tên là Rem. Vì một vài lý do, tôi đã bị bắt cóc đưa tới dinh thự này.]"
+  },
+  {
+    "id": 60,
+    "en": "???: [Abducted…]",
+    "vi": "???: [Bị bắt cóc...]"
+  },
+  {
+    "id": 61,
+    "en": "Rem: [Yes. Hmm, may I ask for your name?]",
+    "vi": "Rem: [Vâng. Ừm, tôi có thể hỏi tên cô được không?]"
+  },
+  {
+    "id": 62,
+    "en": "In order to approach the woman biting her nails and muttering, Rem asked for her name.",
+    "vi": "Để tiếp cận người phụ nữ đang vừa cắn móng tay vừa lẩm bẩm kia, Rem cất tiếng hỏi tên cô ta."
+  },
+  {
+    "id": 63,
+    "en": "She thought that, perhaps, the likelihood of receiving an unfriendly rejection was higher.",
+    "vi": "Cô thầm nghĩ, có lẽ khả năng mình nhận lại một lời từ chối lạnh lùng sẽ cao hơn."
+  },
+  {
+    "id": 64,
+    "en": "???: [――Katya.]",
+    "vi": "???: [――Katya.]"
+  },
+  {
+    "id": 65,
+    "en": "However, surprisingly without reserves, she―― Katya had introduced herself as such.",
+    "vi": "Thế nhưng, thật bất ngờ khi cô ta―― Katya lại giới thiệu bản thân một cách không chút ngần ngại."
+  },
+  {
+    "id": 66,
+    "en": "Rem did not know if it was due to some ulterior motive, or if she had named herself reflexively while she was lost in thought, but Katya seemingly deliberated as she continued to bite her nails.",
+    "vi": "Rem không biết đó là do cô ta có ý đồ gì khác, hay chỉ là phản xạ tự nhiên khi đang lơ đãng, nhưng Katya trông có vẻ đăm chiêu suy nghĩ trong khi vẫn tiếp tục cắn móng tay."
+  },
+  {
+    "id": 67,
+    "en": "Katya: [By abducted, do you mean that you’re a hostage too?]",
+    "vi": "Katya: [Bị bắt cóc, ý cô là cô cũng là con tin sao?]"
+  },
+  {
+    "id": 68,
+    "en": "Rem: [Hostage… That may very well be the case. It does not seem appropriate to request that I play such a role…]",
+    "vi": "Rem: [Con tin... Có lẽ đúng là như vậy. Dẫu tôi thấy việc mình phải đóng vai trò đó thật chẳng hợp lý chút nào...]"
+  },
+  {
+    "id": 69,
+    "en": "Unmistakably, Subaru was probably the only one that would worry non-stop over Rem’s disappearance.",
+    "vi": "Quyết chẳng sai vào đâu được, Subaru có lẽ là người duy nhất lo sốt vó trước sự biến mất của Rem."
+  },
+  {
+    "id": 70,
+    "en": "Of course, she felt the Shudraqians and the O’Connell siblings would be anxious as well, and Priscilla might at least move an eyebrow, but that would not affect the overall situation.",
+    "vi": "Dĩ nhiên, cô cảm thấy tộc nhân Shudraq và anh em nhà O’Connell cũng sẽ lo lắng, và Priscilla ít nhất cũng sẽ khẽ nhíu mày, nhưng điều đó chẳng ảnh hưởng gì đến cục diện chung."
+  },
+  {
+    "id": 71,
+    "en": "Rem’s existence would only affect the overall situation, when Subaru affected the overall situation.",
+    "vi": "Sự tồn tại của Rem chỉ tác động đến đại cục khi Subaru tác động đến đại cục."
+  },
+  {
+    "id": 72,
+    "en": "However――,",
+    "vi": "Thế nhưng――,"
+  },
+  {
+    "id": 73,
+    "en": "Rem: [I wouldn’t expect that person to go that far.]",
+    "vi": "Rem: [Tôi không trông mong người đó sẽ đi xa đến thế.]"
+  },
+  {
+    "id": 74,
+    "en": "To Rem, it did not seem likely that he could do it, nor did she think that he should.",
+    "vi": "Với Rem, cô không nghĩ cậu có thể làm được, và cô cũng không cho rằng cậu nên làm như vậy."
+  },
+  {
+    "id": 75,
+    "en": "In a short time, she had been shown, time and time again for a short period, a figure resisting and resisting earnestly with their lack of ability as he was tormented by absurdity. His figure, as he kept on shouldering the burden of having to do everything by himself.",
+    "vi": "Trong khoảng thời gian ngắn ngủi vừa qua, cô đã chứng kiến bóng dáng một kẻ bất tài vô dụng hết lần này đến lần khác ngoan cường giãy giụa chống chọi khi bị đày đọa bởi những điều vô lý. Một tấm lưng cô độc luôn tự gánh vác mọi chuyện trên vai."
+  },
+  {
+    "id": 76,
+    "en": "Rem could not stand it at all. It was not because she disliked or hated him.",
+    "vi": "Rem hoàn toàn không thể chịu đựng được cảnh tượng đó. Quyết chẳng phải vì cô ghét bỏ hay căm hận cậu."
+  },
+  {
+    "id": 77,
+    "en": "It was still difficult to verbalize why that was, though.",
+    "vi": "Mặc dù vậy, thật khó để cô diễn tả thành lời lý do tại sao lại như thế."
+  },
+  {
+    "id": 78,
+    "en": "Rem: [――――]",
+    "vi": "Rem: [――――]"
+  },
+  {
+    "id": 79,
+    "en": "Katya: […Hey, don’t just go silent on me?]",
+    "vi": "Katya: […Hey, don’t just go silent on me?]"
+  },
+  {
+    "id": 80,
+    "en": "Rem: [Ah, sorry. I was just lost in thought… Katya, what are you to Berstetz?]",
+    "vi": "Rem: [A, tôi xin lỗi. Tôi chỉ hơi lơ đãng một chút... Katya này, cô có mối quan hệ gì với Berstetz vậy?]"
+  },
+  {
+    "id": 81,
+    "en": "Called out to by Katya, whose eyes had sharpened, Rem apologized for her silence, then posed a question.",
+    "vi": "Bị đánh thức bởi tiếng gọi của Katya, người có ánh mắt sắc sảo vừa hướng về mình, Rem xin lỗi vì sự im lặng rồi cất tiếng hỏi."
+  },
+  {
+    "id": 82,
+    "en": "Since she was in this mansion, there was no doubt that Katya also had some connection to Berstetz. However, it was difficult to imagine their relationship.",
+    "vi": "Vì cô ta ở trong dinh thự này, chắc chắn Katya phải có mối liên hệ nào đó với Berstetz. Tuy nhiên, thật khó để hình dung ra mối quan hệ giữa hai người."
+  },
+  {
+    "id": 83,
+    "en": "If she were someone with fighting strength like what Madelyn possessed, or if she were to look like an Imperial Soldier, the relationship would be obvious, but Katya’s appearance made it difficult to establish any sort of connection.",
+    "vi": "Nếu cô ta là người có sức chiến đấu như Madelyn, hay có dáng vẻ của một binh lính Đế quốc thì mối quan hệ đã rõ ràng, nhưng ngoại hình của Katya khiến người ta khó lòng suy đoán nổi."
+  },
+  {
+    "id": 84,
+    "en": "If there was anything that came to mind――,",
+    "vi": "Nếu có điều gì lóe lên trong đầu cô thì――,"
+  },
+  {
+    "id": 85,
+    "en": "Rem: [Berstetz’s daughter or grandchild, perhaps?]",
+    "vi": "Rem: [Con gái hay cháu gái của Berstetz chăng?]"
+  },
+  {
+    "id": 86,
+    "en": "Katya: [A relative of Prime Minister-sama? Oh, stop it you. In the first place, Berstetz-sama isn’t married, and supposedly doesn’t have a family. I’m not that big of a deal.]",
+    "vi": "Katya: [Họ hàng của Tể tướng-sama á? Xin cô đấy. Ngay từ đầu, Berstetz-sama đã không kết hôn, và nghe bảo cũng chẳng có người thân nào cả. Tôi không phải nhân vật tầm cỡ gì đâu.]"
+  },
+  {
+    "id": 87,
+    "en": "Rem: [Is that so? That’s surprising.]",
+    "vi": "Rem: [Vậy sao? Thật bất ngờ quá.]"
+  },
+  {
+    "id": 88,
+    "en": "“Surprising?”, Katya said as she tilted her head, but Rem shook her head as to gloss over her words’ true meaning.",
+    "vi": "“Bất ngờ?”, Katya nghiêng đầu thắc mắc, nhưng Rem chỉ lắc đầu khẽ lướt qua để che giấu ý nghĩa thực sự của câu nói."
+  },
+  {
+    "id": 89,
+    "en": "Once before, at the time Berstetz and Rem had met face-to-face, he had explained the reason for his own rebellion against the Emperor―― that was, his distrust of an Emperor that would not produce an heir. From Berstetz’s standpoint as someone working for the nation, the Emperor’s actions would seem like a dishonorable dereliction of duty.",
+    "vi": "Trước đây, khi Berstetz và Rem gặp mặt trực tiếp, lão đã giải thích lý do mình tạo phản Hoàng đế―― đó là vì sự thiếu tin tưởng vào một Hoàng đế không chịu sinh người nối dõi. Đứng trên lập trường của Berstetz, một người cống hiến cả đời cho đất nước, hành động của Hoàng đế chẳng khác nào sự trốn tránh trách nhiệm đáng hổ thẹn."
+  },
+  {
+    "id": 90,
+    "en": "Rem had been satisfied with that logic, even if it was difficult for her to sympathize, having been dragged into it.",
+    "vi": "Rem đã chấp nhận lập luận đó, dù cô thật khó lòng đồng cảm khi bản thân bị cuốn vào đống hỗn độn này."
+  },
+  {
+    "id": 91,
+    "en": "However, the fact that Berstetz had started a rebellion for such a reason was unconvincing when he himself, just like the Emperor, did not have a family.",
+    "vi": "Thế nhưng, việc Berstetz khơi mào phản loạn vì lý do đó có phần mâu thuẫn khi chính lão, giống hệt Hoàng đế, cũng chẳng có lấy một gia đình."
+  },
+  {
+    "id": 92,
+    "en": "Of course, she believed Berstetz had his own reasons.",
+    "vi": "Dĩ nhiên, cô tin rằng Berstetz có lý do của riêng mình."
+  },
+  {
+    "id": 93,
+    "en": "Rem: [But, if you’re not either of those, why are you in the mansion?]",
+    "vi": "Rem: [Nhưng nếu cô không thuộc hai trường hợp đó, tại sao cô lại ở dinh thự này?]"
+  },
+  {
+    "id": 94,
+    "en": "Katya: […You’re an unperceptive woman. I asked if you were also hostage.]",
+    "vi": "Katya: [...Cô đúng là người phụ nữ chậm hiểu. Tôi đã hỏi cô có phải cũng là con tin giống tôi không cơ mà.]"
+  },
+  {
+    "id": 95,
+    "en": "Rem: [――. Does that mean, that you’re a hostage as well, Katya-san?]",
+    "vi": "Rem: [――. Điều đó nghĩa là cô cũng đang làm con tin sao, Katya?]"
+  },
+  {
+    "id": 96,
+    "en": "With Rem returning with a question, Katya begrudgingly nodded, the bitter look on her face unchanging.",
+    "vi": "Nghe Rem hỏi vặn lại, Katya ấm ức gật đầu, vẻ mặt cay đắng vẫn không hề thay đổi."
+  },
+  {
+    "id": 97,
+    "en": "Katya, too, was being held captive in the mansion as someone’s hostage. ――Slightly surprised at that fact, Rem spun around and surveyed the mansion.",
+    "vi": "Katya cũng bị giam lỏng ở dinh thự này làm con tin cho ai đó. ――Hơi ngạc nhiên trước sự thật ấy, Rem xoay người quan sát xung quanh dinh thự."
+  },
+  {
+    "id": 98,
+    "en": "A spacious mansion amidst the Imperial Capital, a mansion enveloped in a majestic atmosphere.",
+    "vi": "Một dinh thự rộng lớn nằm giữa lòng Đế đô, một dinh thự toát lên vẻ uy nghiêm tráng lệ."
+  },
+  {
+    "id": 99,
+    "en": "However, there were probably many other secrets lying within, of which Rem and Katya, as well as the injured Flop, were a part of.",
+    "vi": "Tuy nhiên, chắc hẳn còn có nhiều bí mật khác ẩn giấu nơi đây, mà Rem, Katya, cùng với một Flop đang dưỡng thương đều bị biến thành một phần trong đó."
+  },
+  {
+    "id": 100,
+    "en": "Having confronted Berstetz directly, Rem recognized the old man as someone of great intellectual stature, a formidable wall standing in the way of Abel’s attempt to regain the imperial throne.",
+    "vi": "Khi trực tiếp đối mặt với Berstetz, Rem nhận ra lão già kia là một kẻ có trí tuệ tầm cỡ, một bức tường thành kiên cố cản đường Abel giành lại ngai vàng."
+  },
+  {
+    "id": 101,
+    "en": "However, Rem’s imagination and speculation would probably never be able to wholly gauge just how dreadful Berstetz could be, should he be willing to scheme and target his enemy’s weaknesses.",
+    "vi": "Dù vậy, trí tưởng tượng và sự phán đoán của Rem có lẽ chẳng bao giờ lường hết được sự đáng sợ của Berstetz một khi lão vạch ra mưu đồ và nhắm vào điểm yếu của đối phương."
+  },
+  {
+    "id": 102,
+    "en": "Rem: [Your family must surely be very worried about you having been taken hostage.]",
+    "vi": "Rem: [Chắc hẳn gia đình cô đang vô cùng lo lắng khi cô bị bắt làm con tin đấy.]"
+  },
+  {
+    "id": 103,
+    "en": "Katya: […I wouldn’t be so sure about that. To him, I might be nothing more than a replaceable tool. I-if I get in the way, he’ll drop me like a hot potato.]",
+    "vi": "Katya: [...Tôi không chắc về chuyện đó đâu. Với anh ta, tôi có lẽ chẳng qua chỉ là một công cụ có thể thay thế. N-nếu tôi cản đường, anh ta sẽ vứt bỏ tôi không chút tiếc nuối.]"
+  },
+  {
+    "id": 104,
+    "en": "Averting her gaze, so spat out Katya.",
+    "vi": "Ngoảnh mặt đi chỗ khác, Katya buông lời cay đắng tự giễu."
+  },
+  {
+    "id": 105,
+    "en": "Even though her speech had not faltered, Rem could tell that those seemingly hateful words were not her true feelings. She had a clue as to what lay behind Katya’s attitude.",
+    "vi": "Dù lời nói của cô ta không hề ngập ngừng, Rem vẫn có thể nhận ra những lời lẽ đầy oán hận kia quyết chẳng phải cảm xúc thật lòng. Cô đã lờ mờ đoán được nguyên nhân đằng sau thái độ của Katya."
+  },
+  {
+    "id": 106,
+    "en": "Rem: [――――]",
+    "vi": "Rem: [――――]"
+  },
+  {
+    "id": 107,
+    "en": "After all, that was the same shade of obstinacy belonging to none other than Rem.",
+    "vi": "Bởi lẽ, đó cũng chính là sự bướng bỉnh giống hệt như Rem."
+  },
+  {
+    "id": 108,
+    "en": "She did not know what kind of person Katya would curse and keep at a distance. However, this complaint was more for the sake of convincing herself rather than it was for Rem to hear.",
+    "vi": "Cô không biết Katya đang oán trách và muốn giữ khoảng cách với ai. Tuy nhiên, lời than vãn này giống như để tự thuyết phục chính mình hơn là nói cho Rem nghe."
+  },
+  {
+    "id": 109,
+    "en": "It was a lie told because she did not want herself to have too much faith in or too high expectations for that person.",
+    "vi": "Đó là lời nói dối vì cô ta không muốn bản thân quá tin tưởng hay kỳ vọng quá nhiều vào đối phương."
+  },
+  {
+    "id": 110,
+    "en": "It was a lie precisely because she did not want to admit that the other person thought her irreplaceable, nor that the other person was irreplaceable to her.",
+    "vi": "Đó là lời nói dối chỉ vì cô ta không muốn thừa nhận đối phương coi mình là duy nhất, cũng như người đó là duy nhất đối với cô ta."
+  },
+  {
+    "id": 111,
+    "en": "It was a lie specifically to deceive “herself”. Not anyone else.",
+    "vi": "Một lời nói dối để tự đánh lừa “chính mình” mà thôi. Quyết chẳng phải ai khác."
+  },
+  {
+    "id": 112,
+    "en": "Rem: [Katya-san, would you like to talk some more?]",
+    "vi": "Rem: [Katya này, cô có muốn nói chuyện thêm một chút không?]"
+  },
+  {
+    "id": 113,
+    "en": "Katya: [W-what… Doing something so selfish, to Prime Minister-sama…]",
+    "vi": "Katya: [C-cái gì chứ... Tự tiện làm chuyện tùy ý thế này với Tể tướng-sama...]"
+  },
+  {
+    "id": 114,
+    "en": "Rem: [I don’t think he’ll be angry. If he does get angry, then tell him I forced you to do it.]",
+    "vi": "Rem: [Tôi không nghĩ ông ấy sẽ nổi giận đâu. Nếu ông ấy nổi giận thật, cô cứ bảo là tôi ép cô làm nhé.]"
+  },
+  {
+    "id": 115,
+    "en": "Katya: [But, it isn’t actually like th… Ah, wait!]",
+    "vi": "Katya: [Nhưng thực ra đâu phải thế... Ơ, khoan đã!]"
+  },
+  {
+    "id": 116,
+    "en": "With trembling lips, Katya attempted to reject Rem. Quickly moving around behind Katya, Rem tucked her cane under her arm and gently gripped the handle of her wheelchair.",
+    "vi": "Mím đôi môi run rẩy, Katya định lên tiếng từ chối. Rem nhanh chóng vòng ra sau lưng cô ta, kẹp gậy dưới nách và nhẹ nhàng nắm lấy tay vịn của chiếc xe lăn."
+  },
+  {
+    "id": 117,
+    "en": "While pushing the wheelchair, Rem could support her own body in addition to the other person’s. With this, she would not fall even without the cane, and surprisingly, it was not a terrible position.",
+    "vi": "Khi đẩy xe lăn, Rem có thể tựa cơ thể mình vào đó. Bằng cách này, cô sẽ không bị ngã ngay cả khi không chống gậy, và ngạc nhiên thay, tư thế này lại vô cùng thuận lợi."
+  },
+  {
+    "id": 118,
+    "en": "Katya: [J-just doing as you please… As if I would…]",
+    "vi": "Katya: [C-cứ tự ý làm theo ý mình... Ai thèm...]"
+  },
+  {
+    "id": 119,
+    "en": "Rem: [In which direction is your room, Katya-san? My room is on the west side.]",
+    "vi": "Rem: [Phòng cô ở hướng nào vậy, Katya? Phòng tôi ở phía tây.]"
+  },
+  {
+    "id": 120,
+    "en": "Katya: […O-on the opposite side, the east side.]",
+    "vi": "Katya: [...Ở phía đối diện, phía đông.]"
+  },
+  {
+    "id": 121,
+    "en": "Rem: [Understood. Well then, let’s head that way.]",
+    "vi": "Rem: [Tôi hiểu rồi. Vậy thì chúng ta đi hướng đó nhé.]"
+  },
+  {
+    "id": 122,
+    "en": "Hearing Katya’s feeble reply, Rem pushed the wheelchair and started walking. Only at the start was there a slight resistance, but Katya soon detached her fingers from the wheel, and went along for the ride.",
+    "vi": "Nghe câu trả lời lí nhí của Katya, Rem đẩy xe lăn bắt đầu bước đi. Chỉ lúc bắt đầu là có chút kháng cự nhẹ, nhưng Katya nhanh chóng rút tay khỏi bánh xe và phó mặc cho Rem đẩy."
+  },
+  {
+    "id": 123,
+    "en": "She was aware that she was being a bit forceful in moving the conversation forward, but Rem was anything but hesitant in pushing it.",
+    "vi": "Biết rõ bản thân đang có chút ép buộc khi dẫn dắt cuộc trò chuyện, song Rem quyết chẳng hề ngần ngại đẩy chiếc xe lăn tiến bước."
+  },
+  {
+    "id": 124,
+    "en": "In honest truth, she did not possess any ulterior motives, such as befriending Katya to make visible a way out of this deadlock, or her holding knowledge of an important secret to the mansion.",
+    "vi": "Thành thật mà nói, cô quyết chẳng có mưu tính sâu xa nào, kiểu như làm bạn với Katya để tìm lối thoát khỏi tình thế bế tắc này, hay khai thác những bí mật quan trọng ẩn giấu trong dinh thự."
+  },
+  {
+    "id": 125,
+    "en": "Probably, Katya’s presence would not be useful in moving the situation along.",
+    "vi": "Có lẽ, sự hiện diện của Katya quyết chẳng giúp ích được gì trong việc xoay chuyển cục diện."
+  },
+  {
+    "id": 126,
+    "en": "Faintly so, she understood that the reason why Berstetz, who held Rem and Katya’s beings hostage, had no family himself, was so that he would have no weaknesses.",
+    "vi": "Lờ mờ nhận thức được điều đó, cô hiểu rằng lý do Berstetz, kẻ nắm giữ tính mạng của Rem và Katya làm con tin, lại không có gia đình là để bản thân không lộ ra bất kỳ sơ hở nào."
+  },
+  {
+    "id": 127,
+    "en": "And yet, there were several reasons why Rem was trying to come to terms with Katya in this way, but――,",
+    "vi": "Dù vậy, vẫn có vài lý do khiến Rem cố gắng tiếp cận Katya theo cách này, nhưng――,"
+  },
+  {
+    "id": 128,
+    "en": "Rem: [――There are so many things I have to know.]",
+    "vi": "Rem: [――Có quá nhiều điều tôi cần phải biết.]"
+  },
+  {
+    "id": 129,
+    "en": "After having become a captive, she had the belief and resolve that she could not be the kind of weak person who would only spread the seeds of anxiety and worry in the people who knew her.",
+    "vi": "Từ khi bị bắt giam, cô luôn giữ vững niềm tin và quyết tâm rằng mình không thể là một kẻ yếu đuối chỉ biết gieo rắc sự bất an và lo lắng cho những người quan tâm đến mình."
+  },
+  {
+    "id": 130,
+    "en": "Therefore, Rem would make every effort. Even if she did not know how to, she would do things her own way.",
+    "vi": "Vì thế, Rem sẽ dốc hết sức mình. Dù không biết phải làm sao, cô vẫn sẽ hành động theo cách riêng của bản thân."
+  },
+  {
+    "id": 131,
+    "en": "Priscilla: [――No one can escape from who they are. Strive to remember my words, be diligent.]",
+    "vi": "Priscilla: [――Không một ai có thể trốn chạy khỏi bản ngã của chính mình. Hãy khắc cốt ghi tâm lời ta, và hãy chuyên tâm.]"
+  },
+  {
+    "id": 132,
+    "en": "There were more pressing things to do than to repudiate her own helplessness.",
+    "vi": "Có nhiều việc cấp bách cần làm hơn là cứ ngồi oán trách sự bất lực của bản thân."
+  },
+  {
+    "id": 133,
+    "en": "Indeed, for the sake of putting into practice the words of that person, to not remain at a standstill.",
+    "vi": "Phải, cô phải hành động để biến những lời của người đó thành hiện thực, quyết không đứng yên một chỗ."
+  },
+  {
+    "id": 134,
+    "en": "△▼△▼△▼△",
+    "vi": "△▼△▼△▼△"
+  },
+  {
+    "id": 135,
+    "en": "――Flop slowly opened his eyelids, having felt the presence of someone else in the room.",
+    "vi": "――Flop chậm rãi mở mi mắt khi cảm nhận được sự hiện diện của một ai đó khác trong phòng."
+  },
+  {
+    "id": 136,
+    "en": "Flop: [――――]",
+    "vi": "Flop: [――――]"
+  },
+  {
+    "id": 137,
+    "en": "Shaking off the restless hand of drowsiness that entangled him, Flop’s consciousness returned to reality.",
+    "vi": "Xua tan đi cơn buồn ngủ đang vây lấy mình, ý thức của Flop quay trở lại với hiện thực."
+  },
+  {
+    "id": 138,
+    "en": "In the view of his now-open eyes, a clean white ceiling was visible, and he quickly came to the understanding that he was in the room of the mansion where he was being held captive.",
+    "vi": "Trong tầm mắt vừa mở ra của anh, trần nhà màu trắng tinh tươm hiện rõ, và anh nhanh chóng hiểu ra mình đang nằm trong căn phòng của dinh thự nơi mình bị bắt giữ."
+  },
+  {
+    "id": 139,
+    "en": "He was way past the point of panicking because of this realization. It also did not catch him off-guard anymore, and, as a result, he did not make himself experience pain by suddenly moving his body because of his surprise.",
+    "vi": "Anh đã qua cái thời hoảng loạn khi nhận thức được điều này. Nó cũng chẳng còn khiến anh giật mình nữa, và kết quả là anh không tự làm mình đau do đột ngột cử động vì bất ngờ."
+  },
+  {
+    "id": 140,
+    "en": "But still, it was still too early to say that he was acclimated to the situation, considering there was still some feeling of uneasiness left.",
+    "vi": "Dẫu vậy, vẫn còn quá sớm để bảo anh đã quen với hoàn cảnh, khi cảm giác bất an vẫn phảng phất đâu đây."
+  },
+  {
+    "id": 141,
+    "en": "Flop: [As a merchant, I can’t help but be impatient, being bedridden for days like this, alright.]",
+    "vi": "Flop: [Là một thương nhân, việc phải nằm liệt giường nhiều ngày thế này khiến ta quyết chả thể nào bình tâm nổi mà.]"
+  },
+  {
+    "id": 142,
+    "en": "He was a peddler whose efforts on a given day determined how much money he had at its end.",
+    "vi": "Anh vốn là một người bán hàng rong, công sức bỏ ra mỗi ngày sẽ quyết định số tiền anh có khi ngày kết thúc."
+  },
+  {
+    "id": 143,
+    "en": "He could hardly call it his strong suit, but having an elaborate business plan was the shortcut to success. And even if he did not succeed, he still needed to earn even just a little bit.",
+    "vi": "Tuy khó lòng gọi đây là thế mạnh của mình, nhưng việc có một kế hoạch kinh doanh kỹ lưỡng là lối tắt dẫn đến thành công. Và ngay cả khi không thành công, anh vẫn cần phải kiếm được dù chỉ một chút ít."
+  },
+  {
+    "id": 144,
+    "en": "Thus, being tied to a bed in this manner, agitated and distressed him despite the quite leisurely position he found himself in.",
+    "vi": "Vì thế, việc bị trói buộc trên giường thế này khiến anh bồn chồn lo lắng, dù bản thân đang ở trong một tư thế khá nhàn nhã."
+  },
+  {
+    "id": 145,
+    "en": "Wondering how Medium would react if she knew he was being held captive, only made it worse.",
+    "vi": "Ý nghĩ về việc Medium sẽ phản ứng thế nào nếu biết anh bị giam giữ chỉ càng làm nỗi lòng thêm trĩu nặng."
+  },
+  {
+    "id": 146,
+    "en": "In any case――,",
+    "vi": "Dù thế nào đi nữa――,"
+  },
+  {
+    "id": 147,
+    "en": "Flop: [I can hardly ask Wife-san to bring me to perfect condition at this very moment. What an irritating situation.] [1]",
+    "vi": "Flop: [Ta không thể đòi hỏi Vợ-san lập tức đưa ta về trạng thái hoàn hảo vào lúc này được. Thật là một tình cảnh sốt ruột làm sao.] [1]"
+  },
+  {
+    "id": 148,
+    "en": "In order to treat Flop’s injuries, Rem was also being held captive in the mansion.",
+    "vi": "Để cứu chữa vết thương cho Flop, Rem cũng bị bắt giữ trong dinh thự này."
+  },
+  {
+    "id": 149,
+    "en": "For Subaru’s sake, as well as the others who worried for her, Rem had to be brought home safely at any cost, but her situation was far from being secure.",
+    "vi": "Vì lợi ích của Subaru cũng như những người khác đang lo lắng cho cô, Rem cần phải được đưa trở về an toàn bằng mọi giá, nhưng tình cảnh của cô lúc này còn lâu mới gọi là ổn định."
+  },
+  {
+    "id": 150,
+    "en": "Rem’s current position, that of being Flop’s healer, would become quite uncertain once Flop made a complete recovery.",
+    "vi": "Thân phận hiện tại của Rem, người chữa trị cho Flop, sẽ trở nên vô cùng bấp bênh một khi Flop bình phục hoàn toàn."
+  },
+  {
+    "id": 151,
+    "en": "He had hoped that Rem would not immediately be disposed of, as someone who no longer had any use.",
+    "vi": "Anh hy vọng rằng Rem sẽ không lập tức bị trừ khử như một kẻ không còn giá trị lợi dụng."
+  },
+  {
+    "id": 152,
+    "en": "Flop: [I guess you could say that depends exactly on your mood, Miss Madelyn.]",
+    "vi": "Flop: [Xem ra chuyện đó phụ thuộc hoàn toàn vào tâm trạng của cô đấy, tiểu thư Madelyn.]"
+  },
+  {
+    "id": 153,
+    "en": "Having collected and organized his thoughts, Flop proceeded to cast this particular subject of conversation towards the room’s entrance.",
+    "vi": "Sau khi thu xếp và sắp xếp lại các suy nghĩ, Flop hướng đề tài trò chuyện này về phía lối vào phòng."
+  },
+  {
+    "id": 154,
+    "en": "Flop had been awakened by the presence of a certain someone. The other person’s voice could not be heard, but it was obvious that someone was in the room and there were only two people who usually visited him.",
+    "vi": "Flop bị đánh thức bởi sự hiện diện của một ai đó. Dù không nghe thấy giọng nói của đối phương, rõ ràng là có người trong phòng và thường chỉ có hai người ghé thăm anh."
+  },
+  {
+    "id": 155,
+    "en": "Only two; whether it be Rem who came to treat him, or Madelyn who appeared more frequently.",
+    "vi": "Chỉ có hai người; hoặc là Rem đến trị thương, hoặc là Madelyn, người xuất hiện thường xuyên hơn."
+  },
+  {
+    "id": 156,
+    "en": "Leaving aside Rem, who had been given unexpected freedom within the mansion; around Madelyn, Flop had to be somewhat careful.",
+    "vi": "Gác lại chuyện Rem được hưởng sự tự do bất ngờ trong dinh thự; đối với Madelyn, Flop buộc phải có chút thận trọng."
+  },
+  {
+    "id": 157,
+    "en": "Despite her childish appearance, she had tremendous physical strength and could easily rip and tear through Flop with her claws. In addition, she was a proud member of the dragonkin―― someone who Flop, despite having been through many different paths in life, had no idea how to deal with.",
+    "vi": "Dù sở hữu vẻ ngoài của một đứa trẻ, cô ta có sức mạnh thể chất kinh hoàng và có thể dễ dàng xé xác Flop bằng móng vuốt của mình. Thêm vào đó, cô ta là một thành viên kiêu hãnh của long nhân―― một đối tượng mà Flop, dù đã trải qua bao sóng gió cuộc đời, vẫn chẳng biết phải đối phó ra sao."
+  },
+  {
+    "id": 158,
+    "en": "Besides, Flop did not want to mislead Madelyn, nor deceive her with lies, even though she would possibly scold him for being blind to the situation.",
+    "vi": "Hơn nữa, Flop không muốn hướng Madelyn hiểu sai, cũng chẳng muốn dùng lời dối trá để lừa gạt cô ta, dù cô ta rất có thể sẽ mắng anh vì không chịu nhìn nhận hoàn cảnh thực tế."
+  },
+  {
+    "id": 159,
+    "en": "Even Flop had not gone through life without telling a lie. He was proud of the fact that he had relied on the power of words more than anyone else in the Empire, precisely because of his apparent lack of strength.",
+    "vi": "Ngay cả Flop cũng không phải chưa từng nói dối trong đời. Anh tự hào về thực tế rằng mình đã dựa vào sức mạnh của ngôn từ nhiều hơn bất kỳ ai ở Đế quốc, chính bởi sự thiếu hụt sức mạnh cơ bắp hiển nhiên của mình."
+  },
+  {
+    "id": 160,
+    "en": "Being that, the reason as to why he wished to avoid doing anything that would make Madelyn believe he was trying to win her over, was that she genuinely cared about Flop’s precious “close friend”.",
+    "vi": "Dù vậy, lý do anh muốn tránh làm bất kỳ điều gì khiến Madelyn nghĩ anh đang cố lấy lòng cô ta là vì cô ta thực sự quan tâm đến người “bạn tri kỷ” quý giá của Flop."
+  },
+  {
+    "id": 161,
+    "en": "He imagined a particular ”close friend” of his would be appalled at his seemingly stupid way of life.",
+    "vi": "Anh hình dung người “bạn tri kỷ” đặc biệt kia của mình hẳn sẽ kinh ngạc trước cách sống có phần ngốc nghếch của anh."
+  },
+  {
+    "id": 162,
+    "en": "Flop: [That’s the way I live my life, nothing I can do about it.]",
+    "vi": "Flop: [Đó là cách ta sống cuộc đời mình rồi, chẳng thể làm khác được mà.]"
+  },
+  {
+    "id": 163,
+    "en": "Flop was spending his time at the mansion with the determination to take the offensive.",
+    "vi": "Flop dành thời gian ở dinh thự với quyết tâm chủ động tấn công."
+  },
+  {
+    "id": 164,
+    "en": "Therefore, engaging Madelyn in a battle devoid of lies, in which he would make full use of his conversational arts and power of his speech so that her interest would not be exhausted―― was something he expected to happen on this day.",
+    "vi": "Vì vậy, việc lôi kéo Madelyn vào một cuộc chiến không có những lời dối trá, nơi anh tận dụng tối đa nghệ thuật giao tiếp và sức mạnh ngôn từ của mình để cô ta không cảm thấy nhàm chán―― là điều anh kỳ vọng sẽ thực hiện trong hôm nay."
+  },
+  {
+    "id": 165,
+    "en": "But it was not to be. Since――,",
+    "vi": "Nhưng chuyện đã không diễn ra như vậy. Bởi vì――,"
+  },
+  {
+    "id": 166,
+    "en": "Flop: [Miss Madelyn? I thought you might be here to ask me to continue our conversation from yesterday. What was the surprising thing Balleroy said the first time Carillon flew in the sky? I cut off the conversation at that point where――]",
+    "vi": "Flop: [Tiểu thư Madelyn đấy ư? Ta cứ ngỡ cô đến đây để bảo ta tiếp tục cuộc trò chuyện hôm qua chứ. Điều bất ngờ mà Balleroy đã nói khi Carillon lần đầu tiên bay lên bầu trời là gì nhỉ? Ta đã ngắt lời ở đoạn đó khi mà――]"
+  },
+  {
+    "id": 167,
+    "en": "???: [――While that sounds like an interesting topic, it shan’t be the one discussed now.]",
+    "vi": "???: [――Dẫu nghe có vẻ là một đề tài thú vị, nhưng đó quyết chẳng phải chuyện cần thảo luận lúc này.]"
+  },
+  {
+    "id": 168,
+    "en": "Flop: [――――]",
+    "vi": "Flop: [――――]"
+  },
+  {
+    "id": 169,
+    "en": "Flop, who was lying on his bed, talking to the person who was supposedly there, fell in silence upon being answered by a voice different from the one he had expected.",
+    "vi": "Flop đang nằm trên giường trò chuyện với người được cho là đang ở đó, bỗng im bặt khi nhận được câu trả lời từ một giọng nói khác hẳn với những gì anh mong đợi."
+  },
+  {
+    "id": 170,
+    "en": "Flop had assumed it was Madelyn at the entrance, but the answer was returned through the voice of a man. A voice he had heard before.",
+    "vi": "Flop cứ ngỡ người đứng ở lối vào là Madelyn, nhưng câu trả lời lại cất lên bằng giọng của một người đàn ông. Một giọng nói anh từng nghe qua."
+  },
+  {
+    "id": 171,
+    "en": "It was only his small pride, but Flop would never forget a voice having heard it once.",
+    "vi": "Chỉ là một niềm kiêu hãnh nhỏ nhoi, nhưng Flop quyết chẳng bao giờ quên một giọng nói dẫu chỉ nghe qua một lần."
+  },
+  {
+    "id": 172,
+    "en": "Even if it came from a corner of a busy market, Flop could recognize it. Which was why he had not mistaken the voice.",
+    "vi": "Ngay cả khi nó phát ra từ một góc chợ đông đúc, Flop vẫn có thể nhận ra. Đó là lý do anh quyết chẳng thể nhầm lẫn giọng nói này."
+  },
+  {
+    "id": 173,
+    "en": "However, after hearing the voice in question, Flop’s feelings became complex to the extreme.",
+    "vi": "Thế nhưng, sau khi nghe thấy giọng nói đó, cảm xúc của Flop bỗng trở nên vô cùng phức tạp."
+  },
+  {
+    "id": 174,
+    "en": "After all, his relationship with said party had changed quite drastically, at least as far as Flop was concerned.",
+    "vi": "Dù sao đi nữa, mối quan hệ giữa anh và đối phương đã thay đổi một cách chóng mặt, ít nhất là theo góc nhìn của Flop."
+  },
+  {
+    "id": 175,
+    "en": "Flop: [Village Chief-kun… No, perhaps I should say, His Excellency the Emperor-kun?]",
+    "vi": "Flop: [Cậu-Trưởng-làng... Không, có lẽ tôi nên gọi là Cậu-Hoàng-đế-bệ-hạ nhỉ?]"
+  },
+  {
+    "id": 176,
+    "en": "???: [You rephrase yourself, and yet you came to that? Either way, it seems there is no substitute for the profane name you have dubbed me with.]",
+    "vi": "???: [Ngươi tự sửa lời, vậy mà lại ra cách gọi đó sao? Dù thế nào, có vẻ không có cách gọi nào thay thế được cái tên bất kính mà ngươi gán cho ta cả.]"
+  },
+  {
+    "id": 177,
+    "en": "Calling out quietly, Flop strained his trembling arms and sat up on the bed. He still felt a faint numbness in his upper body and a tightness in his skin, but it was not unbearable.",
+    "vi": "Cất tiếng gọi khẽ, Flop cố ghìm đôi tay run rẩy để ngồi dậy trên giường. Anh vẫn cảm thấy nửa thân trên hơi tê rần và làn da căng cứng, nhưng quyết chẳng đến mức không chịu nổi."
+  },
+  {
+    "id": 178,
+    "en": "Then raising his gaze, he finally caught sight of a figure standing at the entrance to the room.",
+    "vi": "Rồi ngước mắt nhìn lên, anh cuối cùng cũng bắt gặp bóng người đứng ở lối vào căn phòng."
+  },
+  {
+    "id": 179,
+    "en": "Standing there was a young man with black hair, fair skin, and sharp eyes.",
+    "vi": "Đứng ở đó là một thanh niên tóc đen, da trắng và sở hữu đôi mắt sắc sảo."
+  },
+  {
+    "id": 180,
+    "en": "His attire was dominated by vermilion and his slender figure matched what he had seen many times before. His face, his eyes, his nose, everything was familiar.",
+    "vi": "Trang phục của hắn chủ yếu là màu đỏ thắm và dáng người mảnh khảnh của hắn trùng khớp với những gì anh đã thấy vô số lần trước đây. Gương mặt, đôi mắt, sống mũi, mọi thứ đều vô cùng quen thuộc."
+  },
+  {
+    "id": 181,
+    "en": "Abel―― No, Vincent Vollachia.",
+    "vi": "Abel―― Không, Vincent Vollachia."
+  },
+  {
+    "id": 182,
+    "en": "That was the name of the current Emperor of the Sacred Vollachian Empire, the rebellious wolf who had been driven from his throne, presently seeking to reclaim it.",
+    "vi": "Đó là tên của Hoàng đế đương nhiệm của Đế quốc Vollachia Thần thánh, con sói phản loạn đã bị trục xuất khỏi ngai vàng và hiện đang tìm cách đoạt lại nó."
+  },
+  {
+    "id": 183,
+    "en": "Having been called disrespectful by the very man behind it all himself, Flop smiled and bowed his head.",
+    "vi": "Bị chính người đàn ông đứng sau tất cả gọi là bất kính, Flop mỉm cười và cúi đầu."
+  },
+  {
+    "id": 184,
+    "en": "Flop: [Excuse me, perhaps I should rephrase. No, perhaps I should also change my speech in general. How embarrassing, would you mind if I start over from the beginning?]",
+    "vi": "Flop: [Xin lỗi nhé, có lẽ tôi nên sửa lại lời. Không, có lẽ tôi cũng nên thay đổi cách ăn nói của mình nói chung. Thật là ngại quá, cô có phiền nếu tôi bắt đầu lại từ đầu không nhỉ?]"
+  },
+  {
+    "id": 185,
+    "en": "Vincent: [No need. Starting over shan’t make up for the deeds you have committed. More importantly, are you a citizen resolved to pledge allegiance and devotion to the Emperor of Vollachia?]",
+    "vi": "Vincent: [Không cần thiết. Bắt đầu lại quyết chẳng thể bù đắp được những việc ngươi đã làm. Quan trọng hơn, ngươi có phải là một thần dân quyết tâm thề trung thành và cống hiến cho Hoàng đế của Vollachia?]"
+  },
+  {
+    "id": 186,
+    "en": "Flop: [I wonder. His Excellency is the Emperor of the country in which I live. Since the reign of His Excellency Vincent Vollachia, disputes, including skirmishes between tribes, have decreased dramatically. I’d say I’m grateful for a country that has become a better place to live.]",
+    "vi": "Flop: [Không biết nữa nha. Bệ hạ là Hoàng đế của đất nước tôi sinh sống mà. Kể từ khi Vincent Vollachia bệ hạ trị vì, các cuộc tranh chấp, bao gồm cả những trận xung đột giữa các bộ tộc, đã giảm đi đáng kể. Tôi phải nói là tôi rất biết ơn vì đất nước đã trở thành một nơi dễ sống hơn nhiều rồi mà.]"
+  },
+  {
+    "id": 187,
+    "en": "Vincent: [That is a very suggestive way of putting it. You dare play with idle words in front of the Emperor?]",
+    "vi": "Vincent: [Đó là một cách diễn đạt đầy ngụ ý đấy. Ngươi dám dùng những lời sáo rỗng trước mặt Hoàng đế sao?]"
+  },
+  {
+    "id": 188,
+    "en": "The Emperor shrugged his slender shoulders and slowly stepped forward.",
+    "vi": "Hoàng đế nhún đôi vai gầy và chậm rãi bước tới."
+  },
+  {
+    "id": 189,
+    "en": "Flop’s eyes widened as the figure became more clearly visible up close. For all intents and purposes, the figure was that of the very Abel he was already acquainted with.",
+    "vi": "Đôi mắt Flop mở to khi bóng người hiện rõ hơn ở cự ly gần. Xét về mọi phương diện, ngoại hình của hắn chính là Abel mà anh đã quen thuộc."
+  },
+  {
+    "id": 190,
+    "en": "But he knew that the man in front of him was not that Abel.",
+    "vi": "Thế nhưng anh biết rõ người đàn ông trước mắt không phải Abel đó."
+  },
+  {
+    "id": 191,
+    "en": "Flop: [I’m very embarrassed by my lack of knowledge, but you really have made a good likeness of him, haven’t you? It’d need to be that good to befit the role of a body double, I guess.]",
+    "vi": "Flop: [Tôi thực sự rất ngại vì sự thiếu hiểu biết của mình, nhưng cô thực sự làm giống hắn y đúc đấy chứ nhỉ? Phải giống đến mức đó mới hợp với vai trò thế thân chứ, tôi đoán vậy.]"
+  },
+  {
+    "id": 192,
+    "en": "Vincent: [If you continue to speak so frivolously, I shall have no choice but to muzzle you. It is naught more than the wish of the Flying Dragon General, Madelyn Eschart, that has provided you shelter here. But where shall the scales tip towards, the General’s wishes or mine whims?]",
+    "vi": "Vincent: [Nếu ngươi tiếp tục nói năng cợt nhả như vậy, ta sẽ không còn cách nào khác ngoài việc bịt miệng ngươi lại. Chỉ có ý muốn của Phi Long Tướng Quân, Madelyn Eschart, mới cho ngươi nơi trú ẩn ở đây. Nhưng bàn cân sẽ nghiêng về phía nào, mong muốn của Tướng quan hay ý thích của ta?]"
+  },
+  {
+    "id": 193,
+    "en": "Flop: [I’ll accept your advice to take care in my words. However, I cannot promise that I’ll be able to put it into practice! My feelings are very mixed, after all! I’d very much like to remark further on that face of yours!]",
+    "vi": "Flop: [Tôi xin nhận lời khuyên là nên cẩn thận lời ăn tiếng nói nhé. Thế nhưng, tôi không dám hứa là mình sẽ thực hiện được đâu! Suy cho cùng thì cảm xúc của tôi đang hỗn loạn lắm! Tôi cực kỳ muốn bàn luận thêm về gương mặt đó của cô đấy mà!]"
+  },
+  {
+    "id": 194,
+    "en": "Vincent: [――――]",
+    "vi": "Vincent: [――――]"
+  },
+  {
+    "id": 195,
+    "en": "Being pointed at with a snap, the other party remained silent after that loud insistence from Flop.",
+    "vi": "Bị chỉ thẳng mặt một cái, đối phương lập tức im lặng trước sự khăng khăng lớn tiếng của Flop."
+  },
+  {
+    "id": 196,
+    "en": "Flop was at a loss on how to address the other party―― the one who was not Abel, who, for the sake of convenience, he had decided to call Vincent.",
+    "vi": "Flop bối rối không biết nên xưng hô với đối phương thế nào―― người không phải Abel, người mà để thuận tiện, anh quyết định gọi là Vincent."
+  },
+  {
+    "id": 197,
+    "en": "Flop knew that Vincent was a false Emperor, a man who had plotted to usurp the throne. However, Flop did not possess any reason to denounce him per-se.",
+    "vi": "Flop biết rõ Vincent là một Hoàng đế giả mạo, kẻ đã mưu đoạt ngai vàng. Tuy nhiên, bản thân Flop quyết chẳng có lý do gì để lên án hắn."
+  },
+  {
+    "id": 198,
+    "en": "If Flop and Abel were bound by a firm friendship, having built a relationship in which they would be willing to speak out on each other’s behalf at every such event, then it would only be natural, but that was not the case.",
+    "vi": "Nếu Flop và Abel gắn kết bằng một tình bạn khăng khít, xây dựng mối quan hệ sẵn sàng lên tiếng thay cho nhau trong mọi biến cố như vậy thì điều đó là lẽ tự nhiên, nhưng quyết chẳng phải như vậy."
+  },
+  {
+    "id": 199,
+    "en": "Rather, Flop and Abel’s relationship was more complicated as well.",
+    "vi": "Nói đúng hơn, mối quan hệ giữa Flop và Abel cũng phức tạp hơn nhiều."
+  },
+  {
+    "id": 200,
+    "en": "Flop: [Unfortunately, the person I really want to give my remarks to is someone else, someone who’s got the same face as you. But still, it truly looks very much alike… I helped Husband-kun do Village Chief-kun’s makeup, it looks just like his bare face.]",
+    "vi": "Flop: [Tiếc thay, người tôi thực sự muốn đưa ra nhận xét lại là người khác cơ, người có gương mặt giống hệt cô ấy. Nhưng mà, nó thực sự giống y đúc... Tôi đã giúp Cậu-Chồng-kia trang điểm cho Cậu-Trưởng-làng mà, trông y hệt mặt mộc của hắn luôn.]"
+  },
+  {
+    "id": 201,
+    "en": "Vincent: [――. The matter of the Fortress City has reached my ears, so you were a part of that scheme too? I can only imagine that you have all tried to besmirch the Emperor’s rule in some ungodly fashion. It was an act of barbarism, and one beyond measure.]",
+    "vi": "Vincent: [――. Chuyện của Thành lũy đã lọt vào tai ta, vậy ngươi cũng là một phần của âm mưu đó sao? Ta chỉ có thể hình dung các ngươi đã cố gắng bôi nhọ sự cai trị của Hoàng đế một cách vô thần. Đó là một hành vi dã man, và vượt ngoài mọi khuôn khổ.]"
+  },
+  {
+    "id": 202,
+    "en": "Flop: [Is that so? It was a fun venture. And most importantly, there were no casualties.]",
+    "vi": "Flop: [Thế sao? Đó là một thương vụ thú vị đấy chứ. Và quan trọng nhất là không có thương vong nào cả.]"
+  },
+  {
+    "id": 203,
+    "en": "Vincent: [That is just a justification based solely upon the results.]",
+    "vi": "Vincent: [Đó chỉ là lời biện hộ dựa trên kết quả mà thôi.]"
+  },
+  {
+    "id": 204,
+    "en": "Flop’s cheeks relaxed, and he thought about the plan for the fortified city that he, Subaru, and Abel had collaborated on.",
+    "vi": "Cơ mặt Flop giãn ra, anh nghĩ về kế hoạch cho thành lũy kiên cố mà anh, Subaru và Abel đã cùng hợp tác."
+  },
+  {
+    "id": 205,
+    "en": "It was a plan that Flop had found astonishing, but it was the funniest of all the plots in which Flop had ever been involved.",
+    "vi": "Đó là một kế hoạch mà Flop thấy kinh ngạc, nhưng lại là mưu đồ thú vị nhất trong số tất cả những vụ việc mà Flop từng tham gia."
+  },
+  {
+    "id": 206,
+    "en": "Everyone involved in that operation had certainly wished for its success.",
+    "vi": "Mọi người tham gia vào chiến dịch đó hiển nhiên đều mong muốn nó thành công."
+  },
+  {
+    "id": 207,
+    "en": "Flop: [Miss Taritta and Miss Kuna did, and I did, as well. ――That’s why I can’t unravel it.]",
+    "vi": "Flop: [Tiểu thư Taritta và tiểu thư Kuna đều muốn, và tôi cũng vậy. ――Chính vì thế mà tôi quyết chả thể hiểu nổi.]"
+  },
+  {
+    "id": 208,
+    "en": "Vincent: [――――]",
+    "vi": "Vincent: [――――]"
+  },
+  {
+    "id": 209,
+    "en": "Flop: [Village Chief-kun, or His Excellency the Emperor-kun… I wonder why he, who I still don’t know how to call, was ousted from the Imperial Throne and put in that position.]",
+    "vi": "Flop: [Cậu-Trưởng-làng, hay Cậu-Hoàng-đế-bệ-hạ... Ta tự hỏi tại sao hắn, người ta vẫn chưa biết xưng hô thế nào, lại bị phế truất khỏi ngai vàng và rơi vào tình cảnh đó nhỉ.]"
+  },
+  {
+    "id": 210,
+    "en": "Flop looked at Vincent, cutting him off, “More to the point”.",
+    "vi": "Flop nhìn Vincent, cắt ngang bằng cụm từ “Quan trọng hơn”."
+  },
+  {
+    "id": 211,
+    "en": "He looked towards the usurper of the throne, whose expression did not even waver, his face a mirror image of the Emperor’s.",
+    "vi": "Anh nhìn về phía kẻ cướp ngôi, người có biểu cảm quyết chẳng hề dao động, gương mặt phản chiếu hình ảnh của Hoàng đế."
+  },
+  {
+    "id": 212,
+    "en": "Flop: [Just why did you and your people have to make our rock-solid Empire quake, why did you have to raise this disturbance?]",
+    "vi": "Flop: [Tại sao cô và người của cô lại phải làm lung lay Đế quốc vững chắc của chúng ta, tại sao phải khơi mào cuộc náo loạn này làm gì vậy nhỉ?]"
+  },
+  {
+    "id": 213,
+    "en": "Vincent: [――. You are quite the talkative man, are you not?]",
+    "vi": "Vincent: [――. Ngươi quả là một kẻ lắm lời nhỉ?]"
+  },
+  {
+    "id": 214,
+    "en": "Flop: [It’s a tool of the trade. I’m a merchant. Also, my dear sister often compliments me on my good looks. That’s another tool of the trade.]",
+    "vi": "Flop: [Đó là công cụ kiếm sống của nghề mà. Tôi là thương nhân. Hơn nữa, em gái yêu quý của tôi thường khen tôi có vẻ ngoài ưa nhìn. Đó cũng là một công cụ kiếm sống khác đấy mà.]"
+  },
+  {
+    "id": 215,
+    "en": "Vincent: [I see. In that case――]",
+    "vi": "Vincent: [Ta hiểu rồi. Trong trường hợp đó――]"
+  },
+  {
+    "id": 216,
+    "en": "Flop had a toothy grin on his face; Vincent nodded at his words, composed, before suddenly grabbing Flop’s face with his outstretched hand and pulling him closer.",
+    "vi": "Flop nở một nụ cười rạng rỡ; Vincent điềm tĩnh gật đầu trước những lời của anh, trước khi đột ngột chìa tay chộp lấy mặt Flop và kéo anh lại gần."
+  },
+  {
+    "id": 217,
+    "en": "Forced to lean forward, his wounds sore, Flop moaned out a “Muggh”. However, Vincent paid no heed to his cries of pain, but stared at Flop closely.",
+    "vi": "Bị ép phải nghiêng người về phía trước, vết thương nhói đau, Flop rên lên một tiếng “Ưm”. Thế nhưng, Vincent quyết chẳng bận tâm đến tiếng kêu đau của anh, mà chăm chú nhìn Flop ở cự ly gần."
+  },
+  {
+    "id": 218,
+    "en": "Vincent: [I can take your face and mouth right here and now to atone for your disrespect.]",
+    "vi": "Vincent: [Ta có thể hủy hoại gương mặt và cái miệng này của ngươi ngay tại đây để tạ tội cho sự bất kính của ngươi.]"
+  },
+  {
+    "id": 219,
+    "en": "His voice slid coldly into Flop’s eardrums with an intimidating quality that went down from his head to his body and froze his heart.",
+    "vi": "Giọng nói của hắn lọt vào màng nhĩ Flop một cách lạnh lẽo với uy thế đáng sợ truyền từ đầu xuống cơ thể và đóng băng cả trái tim anh."
+  },
+  {
+    "id": 220,
+    "en": "For a person who would not shut his mouth like Flop, disrespect towards the Emperor was considered to be unforgivable, yet Vincent’s reply was level-headed with a hint of resentment.",
+    "vi": "Đối với một kẻ không chịu im miệng như Flop, sự bất kính dành cho Hoàng đế vốn là tội lỗi không thể dung thứ, thế nhưng câu trả lời của Vincent vẫn vô cùng điềm tĩnh xen lẫn một chút u uất."
+  },
+  {
+    "id": 221,
+    "en": "Even as he contemplated what it meant――,",
+    "vi": "Ngay cả khi anh đang suy ngẫm về ý nghĩa của điều đó――,"
+  },
+  {
+    "id": 222,
+    "en": "Flop: […If you mean that I should watch my mouth, it might make more sense to take away my voice.]",
+    "vi": "Flop: [...Nếu cô muốn bảo tôi nên giữ mồm giữ miệng, thì việc cướp đi giọng nói của tôi nghe chừng còn có lý hơn đấy chứ.]"
+  },
+  {
+    "id": 223,
+    "en": "Once again, Flop looked back at Vincent with an ugly look on his face, which was still being gripped, giving an answer that was likely to provoke him and make him even angrier.",
+    "vi": "Một lần nữa, Flop trố mắt nhìn Vincent với khuôn mặt méo mó vì đang bị ghì chặt, đưa ra câu trả lời rất có thể sẽ kích động và khiến hắn nổi giận hơn."
+  },
+  {
+    "id": 224,
+    "en": "For a moment, Vincent’s dark eyes narrowed at Flop’s answer, but the emotion that passed within was swept away without being expressed overtly.",
+    "vi": "Trong thoáng chốc, đôi mắt tối sầm của Vincent nheo lại trước câu trả lời của Flop, nhưng cảm xúc thoáng qua bên trong lập tức bị gạt đi mà không hề biểu lộ ra ngoài."
+  },
+  {
+    "id": 225,
+    "en": "Vincent batted one of his eyes shut, letting go of Flop’s face. His look was one which Abel, whom Vincent mimicked, used to do often when observing other people.",
+    "vi": "Vincent nhắm một mắt lại, buông mặt Flop ra. Ánh mắt đó là thứ mà Abel, người mà Vincent thế vai, thường dùng khi quan sát người khác."
+  },
+  {
+    "id": 226,
+    "en": "Vincent: [I made it clear that it was to be understood which of these is more important, mine whims or Madelyn Eschart’s wishes. However, then there would be no avoiding her defection nor rebellion. Is the attitude you have one of reading this far?]",
+    "vi": "Vincent: [Ta đã nói rõ rằng ngươi cần phải hiểu điều nào quan trọng hơn, ý thích của ta hay mong muốn của Madelyn Eschart. Thế nhưng, nếu thế thì sẽ không thể tránh khỏi sự đào tẩu hay phản loạn của cô ta. Liệu thái độ này của ngươi có phải là đã nhìn thấu đến mức đó rồi không?]"
+  },
+  {
+    "id": 227,
+    "en": "Flop: [Huh? Oh, ah, I see. Miss Madelyn would get angry for sure if I die. That’s not good for you either… I hadn’t thought that far ahead, but surely…]",
+    "vi": "Flop: [Hả? Ồ, à, ra vậy. Tiểu thư Madelyn chắc chắn sẽ nổi điên lên nếu ta chết mất. Điều đó cũng không tốt cho cô đâu mà... Ta chưa nghĩ xa đến thế, nhưng chắc chắn là...]"
+  },
+  {
+    "id": 228,
+    "en": "Vincent: [――――]",
+    "vi": "Vincent: [――――]"
+  },
+  {
+    "id": 229,
+    "en": "Flop: [If I, as a prisoner, had risked my life to try and get one over on His Excellency the Emperor-kun, I could’ve at least encouraged Miss Madelyn’s defection. ――Unfortunately though, I can’t do that now.]",
+    "vi": "Flop: [Nếu ta, với tư cách là một tù nhân, đã đánh cược mạng sống của mình để cố gắng vượt qua Cậu-Hoàng-đế-bệ-hạ, ít nhất ta cũng có thể thúc đẩy sự đào tẩu của tiểu thư Madelyn. ――Tiếc thay, hiện tại tôi không thể làm thế được rồi.]"
+  },
+  {
+    "id": 230,
+    "en": "At Vincent’s suggestion, Flop reassessed the value of his life.",
+    "vi": "Trước gợi ý của Vincent, Flop đánh giá lại giá trị mạng sống của mình."
+  },
+  {
+    "id": 231,
+    "en": "With Madelyn’s interests now focused on himself, if Flop’s life were to be taken away unnecessarily, it would be difficult to tame the bestial danger she would pose.",
+    "vi": "Với mối bận tâm của Madelyn hiện đang đổ dồn vào anh, nếu mạng sống của Flop bị tước đoạt một cách vô lý, sẽ thật khó để kiểm soát mối nguy hiểm hoang dã từ loài ma thú mà cô ta mang lại."
+  },
+  {
+    "id": 232,
+    "en": "If Madelyn were to defect from Vincent, the rebellious Abel side would have an advantage.",
+    "vi": "Nếu Madelyn đào tẩu khỏi phe Vincent, phe phản loạn của Abel chắc chắn sẽ chiếm ưu thế."
+  },
+  {
+    "id": 233,
+    "en": "It was understandable that Vincent would suspect that he was provoking him due to that.",
+    "vi": "Việc Vincent nghi ngờ anh đang cố tình kích động hắn vì lẽ đó là điều hoàn toàn dễ hiểu."
+  },
+  {
+    "id": 234,
+    "en": "Vincent: [I hear that you will not yield to any threats and that you will not hesitate to risk your life. It is just as Berstetz said, you seem to be some kind of ill-begotten misfortune.]",
+    "vi": "Vincent: [Ta nghe nói ngươi quyết không chịu khuất phục trước bất kỳ lời đe dọa nào và sẵn sàng đánh cược cả mạng sống của mình. Đúng như lời Berstetz nói, ngươi có vẻ là một loại tai ương xui xẻo sinh ra không đúng lúc.]"
+  },
+  {
+    "id": 235,
+    "en": "Flop: [It seems that I’ve been put in such a position unknowingly. Now, what do you think, Fake Emperor-kun? I’m very difficult to deal with!]",
+    "vi": "Flop: [Có vẻ tôi đã bị đặt vào tình thế đó từ lúc nào không hay rồi mà. Giờ cô nghĩ sao đây, Cậu-Hoàng-đế-giả-mạo? Tôi là một kẻ vô cùng khó đối phó đấy nhé!]"
+  },
+  {
+    "id": 236,
+    "en": "Vincent: [I hear there was a healer girl who was brought here with you. If you care about that girl’s well-being, you shall refrain from unnecessary words and behavior, and remain quiet.]",
+    "vi": "Vincent: [Ta nghe nói có một cô bé trị liệu sư đã được đưa tới đây cùng ngươi. Nếu ngươi lo lắng cho sự an nguy của cô bé đó, tốt nhất hãy hạn chế những lời nói và hành vi thừa thãi, và giữ im lặng đi.]"
+  },
+  {
+    "id": 237,
+    "en": "Flop: [I’ve been completely shut down!]",
+    "vi": "Flop: [Tôi câm nín hoàn toàn rồi!]"
+  },
+  {
+    "id": 238,
+    "en": "With Rem being used as a shield, Flop suddenly had no more moves to make.",
+    "vi": "Khi Rem bị dùng làm lá chắn, Flop đột ngột không còn đường thoái lui."
+  },
+  {
+    "id": 239,
+    "en": "But there was probably no helping it; he had to get Rem back home safely, no matter what it took.",
+    "vi": "Nhưng có lẽ chẳng thể làm khác được; anh phải đưa Rem trở về nhà an toàn bằng mọi giá."
+  },
+  {
+    "id": 240,
+    "en": "Besides――,",
+    "vi": "Hơn nữa――,"
+  },
+  {
+    "id": 241,
+    "en": "Flop: [I myself can’t decide what I should do.]",
+    "vi": "Flop: [Bản thân tôi cũng chẳng thể quyết định mình nên làm gì nữa mà.]"
+  },
+  {
+    "id": 242,
+    "en": "Ultimately, one could say Flop’s position had become the same as Madelyn’s.",
+    "vi": "Sau cùng, có thể nói tình cảnh của Flop cũng đã trở nên giống hệt như Madelyn."
+  },
+  {
+    "id": 243,
+    "en": "Should he, like Madelyn, join the rebellion she was part of, and then plot viciously to eliminate Abel, whom they had ousted, and slowly make him pay for his crimes?",
+    "vi": "Liệu anh có nên giống như Madelyn, tham gia vào cuộc phản loạn của cô ta, rồi sau đó âm mưu tiêu diệt Abel, kẻ họ đã phế truất, và bắt hắn phải từ từ đền tội cho những tội lỗi của mình?"
+  },
+  {
+    "id": 244,
+    "en": "A merchant whose only merit was that his little sister complimented him on his goodness.",
+    "vi": "Một gã thương nhân mà ưu điểm duy nhất là được em gái khen ngợi vì sự tốt tính của mình."
+  },
+  {
+    "id": 245,
+    "en": "Vincent: [Even without Madelyn Eschart, Berstetz shall not do you any harm. Bear in mind what your position is and make sure you spend your time here without stirring up any discord.]",
+    "vi": "Vincent: [Ngay cả khi không có Madelyn Eschart, Berstetz cũng quyết chẳng làm hại ngươi đâu. Hãy nhớ kỹ thân phận của mình và đảm bảo ngươi dành thời gian ở đây mà không gây ra bất kỳ sự bất hòa nào.]"
+  },
+  {
+    "id": 246,
+    "en": "Vincent declared that with his eyes fixed upon the silent Flop.",
+    "vi": "Vincent tuyên bố điều đó với đôi mắt dán chặt vào một Flop đang im lặng."
+  },
+  {
+    "id": 247,
+    "en": "From what he said, Flop understood that he was trying to end this face-to-face meeting. That Vincent had determined there was nothing to be gained out of Flop, or that he had served the purpose of this discussion, and having thought as much――,",
+    "vi": "Từ những gì hắn nói, Flop hiểu rằng hắn đang muốn kết thúc cuộc gặp mặt trực tiếp này. Rằng Vincent đã xác định bản thân quyết chẳng thu được gì từ Flop, hoặc anh đã hoàn thành xong vai trò của cuộc trò chuyện này, và khi nghĩ như vậy――,"
+  },
+  {
+    "id": 248,
+    "en": "Flop: [Fake Emperor-kun, why did you come to this room?]",
+    "vi": "Flop: [Cậu-Hoàng-đế-giả-mạo này, tại sao cô lại đến căn phòng này vậy nhỉ?]"
+  },
+  {
+    "id": 249,
+    "en": "Vincent: [――――]",
+    "vi": "Vincent: [――――]"
+  },
+  {
+    "id": 250,
+    "en": "Flop: [It’s hard for me to imagine, having never rebelled, but still trying my best to realize the power of my imagination here, I reckon the position of His Excellency the Emperor must be rather busy. Even though things are already tough, when there are people like His Excellency the Emperor-kun, who keep acting wildly without giving up, it’s no wonder your business knows no bounds.]",
+    "vi": "Flop: [Thật khó để tôi hình dung vì bản thân chưa bao giờ làm phản, nhưng cố gắng hết sức vận dụng trí tưởng tượng của mình ở đây, tôi nghĩ ngôi vị Hoàng đế của Bệ hạ chắc hẳn phải bận rộn lắm. Dù tình hình vốn dĩ đã khó khăn, nhưng khi có những người như Cậu-Hoàng-đế-bệ-hạ cứ không chịu bỏ cuộc mà quậy phá liên tục, chả trách thương vụ của cô lại phát đạt không tưởng như thế mà.]"
+  },
+  {
+    "id": 251,
+    "en": "Flop was not saying that his usual peddling was easy, but when there were loads of products that fit exactly with the buyer’s needs, one’s business was incomparable to the usual.",
+    "vi": "Flop không bảo công việc bán hàng rong thường ngày của mình là dễ dàng, nhưng khi có vô số món hàng đáp ứng chính xác nhu cầu của người mua, thương vụ của một người chắc chắn sẽ không thể so bì với bình thường."
+  },
+  {
+    "id": 252,
+    "en": "The position of the Fake Emperor would never be held secure while the real Emperor was still alive and well.",
+    "vi": "Ngôi vị của Hoàng đế giả mạo quyết chẳng bao giờ được đảm bảo an toàn một khi vị Hoàng đế thực sự vẫn còn sống sờ sờ ra đó."
+  },
+  {
+    "id": 253,
+    "en": "Under such circumstances, why had Vincent bothered to specifically visit Flop?",
+    "vi": "Trong hoàn cảnh như vậy, tại sao Vincent lại cất công ghé thăm riêng Flop làm gì chứ?"
+  },
+  {
+    "id": 254,
+    "en": "Well――,",
+    "vi": "Chà――,"
+  },
+  {
+    "id": 255,
+    "en": "Flop: [Perhaps you were wondering how His Excellency the Emperor-kun was doing and wanted to hear it from me?]",
+    "vi": "Flop: [Hay là cô đang tò mò không biết tình hình của Cậu-Hoàng-đế-bệ-hạ thế nào và muốn nghe ngóng từ tôi chăng?]"
+  },
+  {
+    "id": 256,
+    "en": "Vincent: [Hypothetically, if I were a usurper, as your nonsensical nickname implies, it would be in poor taste, would it not? I would be attempting to find out what happened to the person I had ousted from the ones in that person’s vicinity.]",
+    "vi": "Vincent: [Giả sử nếu ta là một kẻ cướp ngôi như biệt danh nhảm nhí của ngươi ngụ ý, điều đó thật thiếu tế nhị, đúng không? Ta lại đi cố tìm hiểu xem chuyện gì đã xảy ra với kẻ ta đã phế truất từ những người xung quanh hắn sao.]"
+  },
+  {
+    "id": 257,
+    "en": "Flop: [The importance of gathering information is not so different in commerce or in battle, I guess. If we assume that, I don’t think it’s in bad taste to try to find out what’s going on with your opponent.]",
+    "vi": "Flop: [Tầm quan trọng của việc thu thập thông tin giữa thương trường hay chiến trường dường như cũng chẳng khác nhau mấy mà. Nếu giả định như vậy, tôi không nghĩ việc cố gắng tìm hiểu tình hình đối thủ của mình là thiếu tế nhị đâu nha.]"
+  },
+  {
+    "id": 258,
+    "en": "Vincent: [――. Even if that were the case, you are misguided. I have seen with my own eyes how that person is doing without needing to hear it from your mouth. We even exchanged a few words.]",
+    "vi": "Vincent: [――. Dù có như vậy đi nữa, ngươi cũng đã lầm rồi. Ta đã tận mắt chứng kiến tình trạng của kẻ đó mà không cần nghe từ miệng ngươi. Chúng ta thậm chí đã trao đổi vài lời.]"
+  },
+  {
+    "id": 259,
+    "en": "Flop: [Is that so…]",
+    "vi": "Flop: [Vậy sao...]"
+  },
+  {
+    "id": 260,
+    "en": "A painful evasion after having hit the mark.",
+    "vi": "Một sự lảng tránh đau đớn sau khi đã đâm trúng tim đen."
+  },
+  {
+    "id": 261,
+    "en": "Flop took Vincent’s answer as not having been such a frivolous statement.",
+    "vi": "Flop nhận thấy câu trả lời của Vincent quyết chẳng phải một lời tuyên bố hời hợt."
+  },
+  {
+    "id": 262,
+    "en": "What the circumstances were that he saw Abel in person and exchanged words with him, Flop had no room but to imagine, but he could not believe it to be an outright lie.",
+    "vi": "Hoàn cảnh để hắn gặp mặt trực tiếp Abel và trao đổi lời nói là gì, Flop chỉ có thể tự mình tưởng tượng, nhưng anh không thể tin đó hoàn toàn là một lời nói dối."
+  },
+  {
+    "id": 263,
+    "en": "Although he was also concerned about Medium, Taritta, and Subaru, who were supposed to be by Abel’s side, it seemed unlikely that he would be able to get an answer by digging deeper into the matter.",
+    "vi": "Mặc dù anh cũng lo lắng cho Medium, Taritta và Subaru, những người đáng lý phải ở cạnh Abel, song có vẻ như việc đào sâu thêm cũng quyết chẳng giúp anh có được câu trả lời."
+  },
+  {
+    "id": 264,
+    "en": "At the very least, he could not have done anything to Abel when meeting him face-to-face.",
+    "vi": "Ít nhất thì, hắn quyết chẳng thể làm gì Abel khi đối mặt trực tiếp."
+  },
+  {
+    "id": 265,
+    "en": "If he could have, it would not have been odd for him to have declared victory immediately. He found it hard to believe that he was tasteless enough to bother to come to do that; however, it would have been equally tasteless for him to continue this discussion while withholding that fact, and it did not seem to be either.",
+    "vi": "Nếu có thể, thật không lạ nếu hắn lập tức tuyên bố chiến thắng. Anh thấy thật khó tin nếu hắn lại rảnh rỗi đến mức cất công đến đây làm việc đó; tuy nhiên, việc tiếp tục cuộc đối thoại này trong khi giấu giếm sự thật ấy cũng thiếu tế nhị không kém, và xem ra quyết chẳng phải cả hai."
+  },
+  {
+    "id": 266,
+    "en": "In other words, Vincent was not here to converse with Flop.",
+    "vi": "Nói cách khác, Vincent quyết chẳng phải đến đây để trò chuyện với Flop."
+  },
+  {
+    "id": 267,
+    "en": "If so, there was only one possibility that came to mind.",
+    "vi": "Nếu vậy, chỉ có một khả năng duy nhất lóe lên trong đầu anh."
+  },
+  {
+    "id": 268,
+    "en": "Flop: [If you didn’t want to ask me something, is it because you had something you wanted to tell me, maybe?]",
+    "vi": "Flop: [Nếu cô không muốn hỏi tôi điều gì, chẳng lẽ là vì cô có chuyện muốn nói với tôi chăng?]"
+  },
+  {
+    "id": 269,
+    "en": "Vincent: [Troublesome, I believe that was Berstetz’s evaluation of your position, however, even if you look at it from my point of view, your way of being is one that falls into the troublesome category.]",
+    "vi": "Vincent: [Phiền phức, ta tin đó là đánh giá của Berstetz dành cho ngươi, tuy nhiên, ngay cả dưới góc nhìn của ta, sự tồn tại của ngươi cũng xếp vào loại phiền toái đấy.]"
+  },
+  {
+    "id": 270,
+    "en": "Flop: [Am I to take that as a compliment? It’s more positive for my mentality to think so, so I’ll just take it as such.]",
+    "vi": "Flop: [Tôi có nên coi đó là một lời khen không nhỉ? Nghĩ thế thì tâm lý sẽ thoải mái hơn nhiều, nên tôi cứ nhận đại vậy nhé mà.]"
+  },
+  {
+    "id": 271,
+    "en": "Flop reckoned his words were what made Vincent stop in his tracks as he was about to take his leave.",
+    "vi": "Flop nhận ra những lời của mình chính là thứ đã giữ chân Vincent lại khi hắn chuẩn bị bước ra khỏi phòng."
+  },
+  {
+    "id": 272,
+    "en": "Flop: [――――]",
+    "vi": "Flop: [――――]"
+  },
+  {
+    "id": 273,
+    "en": "Frankly, Flop did not know whether stopping Vincent in his tracks here was good or bad for him.",
+    "vi": "Thành thật mà nói, Flop không biết việc giữ chân Vincent ở đây là tốt hay xấu cho mình."
+  },
+  {
+    "id": 274,
+    "en": "If Vincent’s plan were fulfilled and the usurpation of the Imperial Throne were brought to completion, Abel would surely be forced out from his position in the Empire, but also in this world.",
+    "vi": "Nếu kế hoạch của Vincent thành công và việc cướp ngôi vị Hoàng đế hoàn tất, Abel chắc chắn sẽ bị trục xuất khỏi vị trí của mình ở Đế quốc, và thậm chí là khỏi thế giới này."
+  },
+  {
+    "id": 275,
+    "en": "Was that what he really wished?",
+    "vi": "Liệu đó có phải là điều anh thực sự mong muốn?"
+  },
+  {
+    "id": 276,
+    "en": "Was that what he wished for the person who was involved in the death of his precious “close friend”, Balleroy Temeglyph? Was that what he wished for the person who had taken everything away from him, for him to lose his life?",
+    "vi": "Liệu đó có phải là điều anh mong muốn cho kẻ có liên quan đến cái chết của người “bạn tri kỷ” quý giá, Balleroy Temeglyph? Liệu anh có thực sự muốn kẻ đã cướp đi mọi thứ của mình phải bỏ mạng?"
+  },
+  {
+    "id": 277,
+    "en": "Flop: [Until now, I never knew what I wanted…]",
+    "vi": "Flop: [Từ trước đến nay, ta chưa từng biết mình muốn gì...]"
+  },
+  {
+    "id": 278,
+    "en": "Trying to think if there ever was a time, Flop quickly reconsidered his thoughts.",
+    "vi": "Cố gắng nhớ lại xem liệu có lúc nào như thế không, Flop nhanh chóng thay đổi suy nghĩ."
+  },
+  {
+    "id": 279,
+    "en": "He did not need to recall anything. Before he had met Balleroy and the others, he had spent all his time trying to protect Medium and had no desire for anything else.",
+    "vi": "Anh không cần phải nhớ lại điều gì cả. Trước khi gặp gỡ Balleroy và những người khác, anh đã dành toàn bộ thời gian của mình chỉ để bảo vệ Medium và không hề khao khát điều gì khác."
+  },
+  {
+    "id": 280,
+    "en": "He was the same as he had been then. Then, the answer and the way he arrived at it was the same as then, too.",
+    "vi": "Anh vẫn vậy giống như lúc đó. Khi ấy, câu trả lời và cách anh đưa ra quyết định cũng giống hệt như bây giờ."
+  },
+  {
+    "id": 281,
+    "en": "???: “You guys can choose what you wanna do.“",
+    "vi": "???: “Các ngươi có thể tự chọn điều mình muốn làm.”"
+  },
+  {
+    "id": 282,
+    "en": "He remembered that blunt voice pushing Flop’s back like that.",
+    "vi": "Anh nhớ lại giọng nói cộc cằn kia đã thúc giục tấm lưng Flop như thế."
+  },
+  {
+    "id": 283,
+    "en": "So, rather than being swept away without knowing anything, Flop wanted to choose to set out walking knowing something.",
+    "vi": "Thế nên, thay vì bị cuốn đi mà không hề hay biết điều gì, Flop muốn lựa chọn bước đi khi đã thấu tỏ mọi chuyện."
+  },
+  {
+    "id": 284,
+    "en": "Flop: [Can I ask you something, Fake Emperor-kun? What is it that you have come to tell?]",
+    "vi": "Flop: [Tôi có thể hỏi cô một điều không, Cậu-Hoàng-đế-giả-mạo? Chuyện cô cất công đến đây để nói rốt cuộc là gì vậy nhỉ?]"
+  },
+  {
+    "id": 285,
+    "en": "Flop asked him point-blank, interrupting the Fake Emperor busy in his usurpation of the Imperial Throne.",
+    "vi": "Flop hỏi thẳng thắn, cắt ngang lời vị Hoàng đế giả mạo đang bận rộn trong công cuộc cướp ngôi."
+  },
+  {
+    "id": 286,
+    "en": "In response to his question, Vincent’s lips curved with a slightly different impression than the man Flop knew, and spoke.",
+    "vi": "Đáp lại câu hỏi của anh, khóe môi Vincent cong lên tạo ra một ấn tượng hơi khác so với người mà Flop quen biết, và cất tiếng nói."
+  },
+  {
+    "id": 287,
+    "en": "That it was――,",
+    "vi": "Rằng chuyện đó là――,"
+  },
+  {
+    "id": 288,
+    "en": "Vincent: [――The Great Disaster, regarding the reason for the destruction it brings.]",
+    "vi": "Vincent: [――Về lý do của sự hủy diệt mà Thảm Họa Lớn mang lại.]"
+  },
+  {
+    "id": 289,
+    "en": "Translation notes:",
+    "vi": "Chú thích bản dịch:"
+  }
+]
