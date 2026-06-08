@@ -141,6 +141,10 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-81', title: 'Chương 81: Nữ Kiệt và Gã Hề | The Fierce Lady and the Clown', chapterNumber: 81, arc: 7 },
   { slug: 'chuong-82', title: 'Chương 82: Ý Đồ Phe Phiến Loạn | The Rebels’ Intent', chapterNumber: 82, arc: 7 },
   { slug: 'chuong-83', title: 'Chương 83: Chiến Loạn và Chiến Trường | Warfare and Warzones', chapterNumber: 83, arc: 7 },
+  { slug: 'chuong-84', title: 'Chương 84: Người Dân Đế Quốc Phải Mạnh Mẽ | The People of the Empire Must be Strong', chapterNumber: 84, arc: 7 },
+  { slug: 'chuong-85', title: 'Chương 85: Người Bạn | A Friend', chapterNumber: 85, arc: 7 },
+  { slug: 'chuong-86', title: 'Chương 86: Mắt Khổng Lồ | Giant Eye', chapterNumber: 86, arc: 7 },
+  { slug: 'chuong-87', title: 'Chương 87: Hổ Bùng Cháy | The Blazing Tiger', chapterNumber: 87, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
