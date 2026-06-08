@@ -145,6 +145,9 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-85', title: 'Chương 85: Người Bạn | A Friend', chapterNumber: 85, arc: 7 },
   { slug: 'chuong-86', title: 'Chương 86: Mắt Khổng Lồ | Giant Eye', chapterNumber: 86, arc: 7 },
   { slug: 'chuong-87', title: 'Chương 87: Hổ Bùng Cháy | The Blazing Tiger', chapterNumber: 87, arc: 7 },
+  { slug: 'chuong-88', title: 'Chương 88: Làn Gió Mới | New Wind', chapterNumber: 88, arc: 7 },
+  { slug: 'chuong-89', title: 'Chương 89: Kafma Irulux | Kafma Irulux', chapterNumber: 89, arc: 7 },
+  { slug: 'chuong-90', title: 'Chương 90: Cái Nôi Địa Ngục | The Cradle of Hell', chapterNumber: 90, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
