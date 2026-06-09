@@ -150,6 +150,8 @@ export const chapters: ChapterMeta[] = [
   { slug: 'chuong-90', title: 'Chương 90: Cái Nôi Địa Ngục | The Cradle of Hell', chapterNumber: 90, arc: 7 },
   { slug: 'chuong-91', title: 'Chương 91: Băng Qua Chiến Trường | Racing Across the Battlefield', chapterNumber: 91, arc: 7 },
   { slug: 'chuong-92', title: 'Chương 92: Nối Lại Tình Xưa | Rekindling Old Ties', chapterNumber: 92, arc: 7 },
+  { slug: 'chuong-93', title: 'Chương 93: Đạo Quân Đá | The Stone Army', chapterNumber: 93, arc: 7 },
+  { slug: 'chuong-94', title: 'Chương 94: Quyết Tâm Vì Ai | Determination for the Sake of Whom', chapterNumber: 94, arc: 7 },
 ]
 
 export function getChaptersByArc(arc: number): ChapterMeta[] {
